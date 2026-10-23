@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cat >&2 <<'NOT_BUILT'
+not built: `scripts/check-untraced` searches the Skills.sh branch for a term that matches a Catalogue skill and a skill outside the Catalogue. It passes only if the Catalogue skill appears once, as its Catalogue listing; the other item is labelled Untraced; and selecting it makes the status line at the top of the Picker state that an Untraced item is selected.
+NOT_BUILT
+exit 1

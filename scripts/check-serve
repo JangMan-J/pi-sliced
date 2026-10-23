@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cat >&2 <<'NOT_BUILT'
+not built: `scripts/check-serve` runs a session with an empty HOME in an isolated container or network namespace with no access to the Author's server's local files, reaching that server at its public address, against a Catalogue on that server that admits the nine Candidates of proof 1, whatever the real Determinations say. The user serves those nine. It passes only if, for each, the files the agent can read equal the Trace's files by git blob SHA, and every connection over which Catalogue files reached the session's machine or container was to the Author's server, and none to GitHub, skills.sh, or any other third party.
+NOT_BUILT
+exit 1

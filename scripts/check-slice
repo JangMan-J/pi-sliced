@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cat >&2 <<'NOT_BUILT'
+not built: `scripts/check-slice` runs a session with an empty HOME whose Slice is one skill and captures every model request payload (system prompt, tools, MCP instructions, tool results). It passes only if no payload contains the frontmatter description or the `<owner>/<repo>/<name>` identifier of any Catalogue skill or Skills.sh branch item that is not Served, and an agent call to load or search for such a skill by its name returns nothing about it.
+NOT_BUILT
+exit 1

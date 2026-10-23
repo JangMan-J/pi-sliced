@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cat >&2 <<'NOT_BUILT'
+not built: `scripts/check-cost` captures request payloads for Slices of 0, 1, 10, and 50 skills and writes the measured sizes. It passes only if each payload exceeds the empty-Slice payload by no more than a fixed overhead that is the same for every Slice size, plus, per Served skill, its name, its frontmatter description, and at most 128 bytes of framing, with no skill body and no reference file.
+NOT_BUILT
+exit 1

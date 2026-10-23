@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cat >&2 <<'NOT_BUILT'
+not built: `scripts/check-trace` traces each of these Candidates and exits 0 only when every recorded file set and Outside requirement list exactly equals the expected set the user confirmed for that Candidate: `openai/plugins/debug-zoom-integration`, `openai/plugins/game-ui-frontend`, `heygen-com/hyperframes/hyperframes-core`, `figma/mcp-server-guide/figma-generate-diagram`, `shopify/shopify-ai-toolkit/shopify`, `anthropics/skills/canvas-design`, `nvidia/skills/amc-run-video-calibration`, `shadcn-ui/ui/shadcn`, `mattpocock/skills/tdd`. For every traced skill it also requires every file's git blob SHA to match the tree at its Revision.
+NOT_BUILT
+exit 1

@@ -4,6 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
+import { isUtf8 } from "node:buffer";
 import { createInterface } from "node:readline";
 
 const statePath = process.argv[2];
@@ -13,9 +14,11 @@ if (!statePath) {
 }
 const READ_ONLY = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
 const TEXT = new Set([".md", ".txt", ".json", ".yaml", ".yml", ".toml", ".js", ".mjs", ".ts", ".tsx", ".py", ".sh", ".rs", ".go", ".c", ".h", ".css", ".html", ".xml", ".csv", ".ini", ".cfg", ".mdx", ".rst"]);
-const instructions = "Read-only skills served by the user for this session. Search tools for the task, then call the returned load tool name with {}. Loading reads instructions; it executes nothing. Load one relevant skill, not every skill. The first text block has a licence header then verbatim SKILL.md; the second gives its local directory. Supporting files, including files outside the skill folder, are listed by its skill:// manifest; paths in those URIs are repository-relative. Only Served skills are available.";
+const instructions = "Read-only skills served by the user for this session. Search tools for the task, then call the returned load tool name with {}. Loading reads instructions; it executes nothing. Load one relevant skill, not every skill. The first text block has a licence header then verbatim SKILL.md; the second gives its local directory. Supporting files, including files outside the skill folder, are listed by its skill-manifest:// manifest; paths in the listed skill:// URIs are repository-relative. Only Served skills are available.";
 const toolName = (e) => `load_${e.name.replace(/[^A-Za-z0-9_]/g, "_").slice(0, 38)}_${createHash("sha256").update(e.id).digest("hex").slice(0, 20)}`;
 const uriFor = (e, rel) => `skill://${encodeURIComponent(e.id)}/${encodeURIComponent(rel)}`;
+// Generated metadata has its own namespace so every repository path stays addressable.
+const manifestUri = (e) => `skill-manifest://${encodeURIComponent(e.id)}/`;
 const text = (value) => ({ type: "text", text: value });
 function entries() {
   try { return JSON.parse(fs.readFileSync(statePath, "utf8")).entries; }
@@ -37,18 +40,18 @@ function safeFile(e, rel) {
 function resources(es) {
   return es.flatMap((e) => [
     { uri: uriFor(e, path.relative(e.root, e.skillMdPath).split(path.sep).join("/")), name: `${e.name}/SKILL.md`, description: e.description, mimeType: "text/markdown" },
-    { uri: uriFor(e, "_manifest"), name: `${e.name}/_manifest`, mimeType: "application/json" },
+    { uri: manifestUri(e), name: `${e.name}/_manifest`, mimeType: "application/json" },
   ]);
 }
 function readResource(es, uri) {
-  const match = typeof uri === "string" && /^skill:\/\/([^/]+)\/(.+)$/.exec(uri);
-  if (!match) throw new Error("unsupported resource URI");
-  const id = decodeURIComponent(match[1]), rel = decodeURIComponent(match[2]);
+  const match = typeof uri === "string" && /^(skill|skill-manifest):\/\/([^/]+)\/(.*)$/.exec(uri);
+  if (!match || (match[1] === "skill-manifest" && match[3] !== "")) throw new Error("unsupported resource URI");
+  const id = decodeURIComponent(match[2]), rel = decodeURIComponent(match[3]);
   const e = es.find((e) => e.id === id);
   if (!e) throw new Error("unknown Served skill");
-  if (rel === "_manifest") return { uri, mimeType: "application/json", text: JSON.stringify({ skill: e.id, dir: e.skillDir, root: e.root, files: e.files.map((p) => uriFor(e, p)) }, null, 2) };
+  if (match[1] === "skill-manifest") return { uri, mimeType: "application/json", text: JSON.stringify({ skill: e.id, dir: e.skillDir, root: e.root, files: e.files.map((p) => uriFor(e, p)) }, null, 2) };
   const file = safeFile(e, rel), bytes = fs.readFileSync(file);
-  return TEXT.has(path.extname(file).toLowerCase())
+  return TEXT.has(path.extname(file).toLowerCase()) && isUtf8(bytes)
     ? { uri, mimeType: file.endsWith(".md") ? "text/markdown" : "text/plain", text: bytes.toString("utf8") }
     : { uri, mimeType: "application/octet-stream", blob: bytes.toString("base64") };
 }

@@ -11,6 +11,7 @@ const server = fileURLToPath(new URL("../mcp-server.mjs", import.meta.url));
 const markdown = "---\r\nname: demo\r\ndescription: Keep this verbatim.\r\n---\r\nRead ../../references/support file.md.\r\n";
 const binary = Buffer.from([0, 255, 128, 1, 13, 10]);
 const uri = (entry, path) => `skill://${encodeURIComponent(entry.id)}/${encodeURIComponent(path)}`;
+const manifestUri = (entry) => `skill-manifest://${encodeURIComponent(entry.id)}/`;
 
 async function fixture(t, { absent = false } = {}) {
   const tmp = mkdtempSync(join(os.tmpdir(), "pi-sliced-mcp-test-"));
@@ -137,9 +138,9 @@ test("load names are valid, bounded, stable and collision-resistant", async (t) 
 test("resources and manifest cover exactly the allowlist, including outside-folder files and binary", async (t) => {
   const f = await fixture(t);
   const resources = (await f.result("resources/list")).resources;
-  assert.deepEqual(resources.map((r) => r.uri).sort(), [uri(f.entry, f.entry.files[0]), uri(f.entry, "_manifest")].sort());
+  assert.deepEqual(resources.map((r) => r.uri).sort(), [uri(f.entry, f.entry.files[0]), manifestUri(f.entry)].sort());
   const read = async (path) => (await f.result("resources/read", { uri: uri(f.entry, path) })).contents[0];
-  const manifest = JSON.parse((await read("_manifest")).text);
+  const manifest = JSON.parse((await f.result("resources/read", { uri: manifestUri(f.entry) })).contents[0].text);
   assert.deepEqual([...manifest.files].sort(), f.entry.files.map((path) => uri(f.entry, path)).sort());
   assert.equal((await read(f.entry.files[0])).text, markdown);
   assert.equal((await read(f.entry.files[1])).text, "Outside the skill folder, inside the Trace.\n");
@@ -148,12 +149,54 @@ test("resources and manifest cover exactly the allowlist, including outside-fold
   assert.deepEqual(Buffer.from(resource.blob, "base64"), binary);
 });
 
+test("text resources preserve UTF-8 bytes and fall back to blobs for invalid UTF-8", async (t) => {
+  const f = await fixture(t);
+  const samples = [
+    ["utf16.txt", Buffer.from([0xff, 0xfe, 0x41, 0x00]), false],
+    ["invalid.md", Buffer.from([0x61, 0xc3, 0x28]), false],
+    ["truncated.json", Buffer.from([0xe2, 0x82]), false],
+    ["unicode.txt", Buffer.from("\ufeffπ 😀 \ufffd\r\n"), true],
+    ["empty.txt", Buffer.alloc(0), true],
+  ];
+  for (const [name, bytes] of samples) writeFileSync(join(f.root, name), bytes);
+  f.setEntries([{ ...f.entry, files: [...f.entry.files, ...samples.map(([name]) => name)] }]);
+  for (const [name, bytes, isText] of samples) {
+    const resource = (await f.result("resources/read", { uri: uri(f.entry, name) })).contents[0];
+    assert.equal(typeof resource.text === "string", isText, name);
+    assert.deepEqual(isText ? Buffer.from(resource.text, "utf8") : Buffer.from(resource.blob, "base64"), bytes, name);
+    if (!isText) {
+      assert.equal(resource.mimeType, "application/octet-stream");
+      denied(await f.request("tools/call", { name: "read_resource", arguments: { uri: uri(f.entry, name) } }));
+    }
+  }
+});
+
+test("generated manifests cannot shadow traced _manifest files", async (t) => {
+  const f = await fixture(t);
+  const bytes = Buffer.from("real repository _manifest\n");
+  writeFileSync(join(f.root, "_manifest"), bytes);
+  f.setEntries([{ ...f.entry, files: [...f.entry.files, "_manifest"] }]);
+  const listed = (await f.result("resources/list")).resources;
+  const generated = listed.find((r) => r.mimeType === "application/json");
+  assert.equal(generated.uri, manifestUri(f.entry));
+  assert.notEqual(generated.uri, uri(f.entry, "_manifest"));
+  const manifest = JSON.parse((await f.result("resources/read", { uri: generated.uri })).contents[0].text);
+  assert.deepEqual([...manifest.files].sort(), [...f.entry.files, "_manifest"].map((p) => uri(f.entry, p)).sort());
+  const resource = (await f.result("resources/read", { uri: uri(f.entry, "_manifest") })).contents[0];
+  assert.deepEqual(Buffer.from(resource.blob, "base64"), bytes);
+  const toolRead = await f.result("tools/call", { name: "read_resource", arguments: { uri: generated.uri } });
+  assert.deepEqual(JSON.parse(toolRead.content[0].text), manifest);
+  f.setEntries([f.entry]);
+  denied(await f.request("resources/read", { uri: uri(f.entry, "_manifest") }));
+});
+
 test("unlisted files, traversal, absolute paths and unknown tools or resources are denied", async (t) => {
   const f = await fixture(t);
   for (const path of ["unlisted.txt", "../secret.txt", "skills/demo/../../../secret.txt", "/etc/passwd", "..\\secret.txt", "skills/demo/../../unlisted.txt"]) {
     denied(await f.request("resources/read", { uri: uri(f.entry, path) }));
   }
-  for (const value of ["skill://unknown/SKILL.md", "file:///etc/passwd", "skill://owner%2Frepo%2Fdemo/%ZZ"]) {
+  for (const value of ["skill://unknown/SKILL.md", "file:///etc/passwd", "skill://owner%2Frepo%2Fdemo/%ZZ",
+    "skill-manifest://unknown/", "skill-manifest://%ZZ/", `${manifestUri(f.entry)}_manifest`]) {
     denied(await f.request("resources/read", { uri: value }));
   }
   denied(await f.request("tools/call", { name: "load_not_served", arguments: {} }));
@@ -188,7 +231,7 @@ test("state is reread for every request; absent state and removed entries expose
   denied(await f.request("resources/read", { uri: uri(f.entry, f.entry.files[1]) }));
   f.setEntries([]);
   denied(await f.request("tools/call", { name: tool.name, arguments: {} }));
-  denied(await f.request("resources/read", { uri: uri(f.entry, "_manifest") }));
+  denied(await f.request("resources/read", { uri: manifestUri(f.entry) }));
   assert.deepEqual((await f.result("resources/list")).resources, []);
   f.setEntries([f.entry]);
   rmSync(f.state);

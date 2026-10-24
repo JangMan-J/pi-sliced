@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-cat >&2 <<'NOT_BUILT'
-not built: `scripts/check-stranger` runs the Picker in a terminal with an empty HOME, reaching the Author's server at its public address, against a Catalogue on that server that admits `anthropics/skills/canvas-design`, whatever the real Determinations say. It installs the public package with `pi install`, browses to a Catalogue skill, and passes only if: the Footprint is shown in the listing row and in Inspect with no extra key press, before the skill can be served; serving `anthropics/skills/canvas-design` shows a confirm naming its size, and declining leaves it unserved; the status line at the top of the Picker states the current selections; no Picker screen contains the word "install" or "download".
-NOT_BUILT
-exit 1
+# Proof 3 (KERNEL.md): drives the Picker in a real terminal with tui-test. Exit 0 only when every assertion passes.
+# Env: PI_SLICED_SERVER, PI_SLICED_CATALOGUE (default check-canvas), PI_SLICED_PACKAGE_SOURCE (default git:github.com/JangMan-J/pi-sliced).
+set -euo pipefail
+cd "$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
+command -v tui-test >/dev/null || { echo "FAIL stranger: tui-test not found" >&2; exit 1; }
+exec node extensions/pi-sliced/test/picker-check.ts stranger

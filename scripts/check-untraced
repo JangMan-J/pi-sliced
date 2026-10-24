@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-cat >&2 <<'NOT_BUILT'
-not built: `scripts/check-untraced` searches the Skills.sh branch for a term that matches a Catalogue skill and a skill outside the Catalogue. It passes only if the Catalogue skill appears once, as its Catalogue listing; the other item is labelled Untraced; and selecting it makes the status line at the top of the Picker state that an Untraced item is selected.
-NOT_BUILT
-exit 1
+# Proof 8 (KERNEL.md): drives the Picker in a real terminal with tui-test. Exit 0 only when every assertion passes.
+# Env: PI_SLICED_SERVER, PI_SLICED_CATALOGUE (default check-canvas), PI_SLICED_GATEWAY_URL, PI_SLICED_CHECK_TERM (default canvas).
+set -euo pipefail
+cd "$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
+command -v tui-test >/dev/null || { echo "FAIL untraced: tui-test not found" >&2; exit 1; }
+exec node extensions/pi-sliced/test/picker-check.ts untraced

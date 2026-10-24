@@ -1,0 +1,1 @@
+{"id":"7f8495c1abc9cbd5b448740a895b4d508f2c1cd9900aaf29b2951924fbebff11","pullsIn":true,"reason":"'Search the directory' directs use of its contents as a whole.","judge":"judge-3","model":"claude-sonnet-5-5","file":"skills/canvas-design/SKILL.md","line":108,"ref":"./canvas-fonts","target":"skills/canvas-design/canvas-fonts"}

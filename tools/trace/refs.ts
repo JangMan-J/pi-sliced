@@ -17,6 +17,7 @@ export interface Ref {
   kind: RefKind;
   text: string; // the whole source line, for evidence
   sentence: string; // the sentence holding the token (the line, for code)
+  homes?: string[]; // "`x.mjs` (home: `/a`, `/b`)": the skills that hold the named file
 }
 
 const SCRIPT_EXT = /\.(?:py|js|mjs|cjs|ts|mts|cts|sh|bash|zsh|rb|ps1)$/i;
@@ -136,26 +137,63 @@ export function extractRefs(path: string, text: string): Ref[] {
       for (const tok of splitShellTokens(code)) if (pathShaped(tok)) refs.push({ line: n, raw: tok, kind: "fence", text: line, sentence: code });
       return;
     }
-    proseRefs(line, n, refs, null);
+    proseRefs(line, n, refs, null, paragraphOf(lines, i));
   });
   return refs;
 }
 
-function proseRefs(line: string, n: number, refs: Ref[], forced: RefKind | null): void {
+const BLOCK_START = /^\s*(?:[-*+]\s|\d+[.)]\s|#{1,6}\s|\||>|(?:`{3,}|~{3,}))/;
+
+/** The wrapped paragraph holding line `i`, and where that line starts in it: a sentence may span lines. */
+function paragraphOf(lines: string[], i: number): { text: string; offset: number } {
+  const plain = (l: string | undefined) => l !== undefined && l.trim() !== "" && !/^\s*(?:#{1,6}\s|\||(?:`{3,}|~{3,})|---\s*$)/.test(l);
+  if (!plain(lines[i])) return { text: lines[i], offset: 0 };
+  let a = i;
+  while (a > 0 && plain(lines[a - 1]) && !BLOCK_START.test(lines[a])) a--;
+  let b = i;
+  while (b + 1 < lines.length && plain(lines[b + 1]) && !BLOCK_START.test(lines[b + 1])) b++;
+  let offset = 0;
+  const parts: string[] = [];
+  for (let k = a; k <= b; k++) {
+    if (k === i) offset = parts.reduce((n, p) => n + p.length + 1, 0);
+    parts.push(lines[k]);
+  }
+  return { text: parts.join(" "), offset };
+}
+
+function proseRefs(line: string, n: number, refs: Ref[], forced: RefKind | null, para?: { text: string; offset: number }): void {
   let rest = line;
-  const push = (raw: string, kind: RefKind, at: number) =>
-    refs.push({ line: n, raw, kind: forced ?? kind, text: line, sentence: sentenceAt(line, Math.max(0, at)) });
+  const sentence = (at: number) => (para ? sentenceAt(para.text, para.offset + Math.max(0, at)) : sentenceAt(line, Math.max(0, at)));
+  const push = (raw: string, kind: RefKind, at: number, homes?: string[]) =>
+    refs.push({ line: n, raw, kind: forced ?? kind, text: line, sentence: sentence(at), ...(homes ? { homes } : {}) });
   const d = line.match(REFDEF);
   if (d) push(d[1], "link", 0);
   for (const m of line.matchAll(LINK)) {
     push(m[1], "link", m.index!);
     rest = rest.replace(m[0], " ".repeat(m[0].length));
   }
-  // "`/pr-to-video` → `references/`": a skill named by slash-name, then a path inside it (F2's name-plus-path form).
-  for (const m of rest.matchAll(/`\/?([a-z0-9][\w-]*)`\s*(?:→|->)\s*`([^`\s]+)`/g)) {
-    const tok = `${m[1]}/${clean(m[2]).replace(/^\.\//, "")}`;
-    if (pathShaped(tok)) push(tok, "code", m.index!);
+  // "`build-frame.mjs` (home: `/faceless-explainer`, `/product-launch-video`)": a file named with the skills that hold it.
+  for (const m of rest.matchAll(/`([^`\s]+)`\s*\(home:\s*((?:`\/?[a-z0-9][\w-]*`(?:\s*,\s*)?)+)\)/g)) {
+    const tok = clean(m[1]);
+    const homes = [...m[2].matchAll(/`\/?([a-z0-9][\w-]*)`/g)].map((h) => h[1]);
+    if (pathShaped(tok)) push(tok, "code", m.index!, homes);
     rest = rest.slice(0, m.index!) + " ".repeat(m[0].length) + rest.slice(m.index! + m[0].length);
+  }
+  // "`/pr-to-video` → `references/`": a skill named by slash-name, then paths inside it (F2's name-plus-path form).
+  // The segment runs to the next arrow, cell, or clause: "→ `grounding/locate.mjs` + `categories/maps/` (incl. `bake-basemap.mjs`)".
+  for (const m of rest.matchAll(/`\/?([a-z0-9][\w-]*)`\s*(?:→|->)\s*((?:[^→|;]|->)*)/g)) {
+    const skill = m[1];
+    const seg = m[2].split(/→|->/)[0];
+    let lastDir: string | null = null;
+    for (const c of seg.matchAll(/(\(incl\.\s*)?`([^`\s]+)`/g)) {
+      const p = clean(c[2]).replace(/^\.\//, "");
+      if (p.startsWith("/") || !pathShaped(p)) continue;
+      const tok = c[1] && lastDir ? `${lastDir}${p}` : `${skill}/${p}`;
+      if (p.endsWith("/")) lastDir = tok;
+      push(tok, "code", m.index!);
+    }
+    const end = m.index! + 1 + m[0].indexOf(seg) + seg.length;
+    rest = rest.slice(0, m.index!) + " ".repeat(end - m.index!) + rest.slice(end);
   }
   for (const m of rest.matchAll(CODESPAN)) {
     const inner = m[2].trim();
@@ -241,5 +279,10 @@ function scriptRefs(rawLine: string, n: number, refs: Ref[]): void {
   // Shell scripts: unquoted path tokens too.
   for (const tok of splitShellTokens(line.replace(STRING, " "))) {
     if (tok.includes("/") && pathShaped(tok)) push(tok);
+  }
+  // A bare script or document name in any text the script holds, such as help text or an error message
+  // ("run assemble-index.mjs first"): F7's co-located filename. Resolved beside the script only.
+  for (const m of line.matchAll(/(?<![\w./$-])([A-Za-z][\w-]*\.(?:mjs|cjs|js|py|sh|md))(?![\w./-])/g)) {
+    if (!refs.some((r) => r.line === n && r.raw === m[1])) push(m[1]);
   }
 }

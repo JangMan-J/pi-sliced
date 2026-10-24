@@ -10,7 +10,7 @@ import { posix } from "node:path";
 import { createHash } from "node:crypto";
 import { blobSizes, openRepo, readBlobs, type Repo } from "./git.ts";
 import { extractRefs, isText, type Ref } from "./refs.ts";
-import { extractOutside, mergeOutside, type Outside } from "./outside.ts";
+import { dropShorthand, extractOutside, mergeOutside, runnerSubcommands, type Outside } from "./outside.ts";
 import { JudgementStore, questionId, type Question, type QuestionClass } from "./judge.ts";
 import { namedSkills, type NamedSkill } from "./named.ts";
 import { governingLicence, type Licence } from "./licence.ts";
@@ -133,6 +133,10 @@ function lookup(repo: Repo, base: string, rel: string): Lookup | null {
   }
   if (repo.tree.has(target)) return { files: [target], dir: false, target };
   if (repo.dirs.has(target)) return { files: filesUnder(repo, target), dir: true, target };
+  // A docs route written without its extension (`docs/reference/speed-ramps`) names its page.
+  if (target.includes("/") && !/\.[^/]+$/.test(target)) {
+    for (const ext of [".md", ".mdx"]) if (repo.tree.has(target + ext)) return { files: [target + ext], dir: false, target: target + ext };
+  }
   return null;
 }
 
@@ -314,6 +318,18 @@ function resolveRef(ctx: Ctx, ref: Ref, from: string, context: string[]): Hit | 
     return null;
   }
   if (raw.startsWith("/")) return null; // F6: absolute paths and site-root routes are not repository files
+
+  // "`x.mjs` (home: `/a`)": the one file of that name inside each named skill folder.
+  if (ref.homes) {
+    const files: string[] = [];
+    for (const home of ref.homes) {
+      const folder = folders.find((f) => posix.basename(f) === home);
+      if (folder === undefined) continue;
+      const hits = [...repo.tree.keys()].filter((p) => p.startsWith(folder + "/") && (p === `${folder}/${raw}` || p.endsWith(`/${raw}`)));
+      if (hits.length === 1) files.push(hits[0]);
+    }
+    return files.length ? { files, how: "path" } : null;
+  }
 
   // Decide one resolved target. `viaSkillFolder` marks a path that resolved only against the skill folder.
   const settle = (r: Lookup, viaSkillFolder: boolean): Hit | null => {
@@ -498,7 +514,7 @@ export function trace(input: CandidateInput, store: JudgementStore): Trace {
     ...base,
     status: pending.length ? "pending" : "resolved",
     files,
-    outside: mergeOutside(outside),
+    outside: dropShorthand(mergeOutside(outside), new Set([...texts.values()].flatMap((t) => [...runnerSubcommands(t)]))),
     totals: { files: files.length, bytes: files.reduce((s, f) => s + f.size, 0) },
     namedSkills: namedSkills(repo, folders, input.skillPath, texts),
     checkoutReach: [...ctx.checkout.values()].sort((a, b) => a.from.localeCompare(b.from) || a.line - b.line || a.target.localeCompare(b.target)),

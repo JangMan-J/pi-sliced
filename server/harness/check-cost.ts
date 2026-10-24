@@ -17,7 +17,10 @@ const jsonBytes = (s: string) => bytes(JSON.stringify(s)) - 2;
 const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.finish(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
 const ids = cat.skills.map((s) => s.id);
 const sizes = SIZES.filter((n) => n <= ids.length);
-if (ids.length < 50) v.fail(`${CATALOGUE} lists ${ids.length} skills; proof 7 needs a Slice of 50 (fewer than 50 traced yet); sizes ${SIZES.filter((n) => n > ids.length).join(", ")} not measured`);
+if (ids.length < 50)
+  v.fail(
+    `${CATALOGUE} lists ${ids.length} skills, fewer than the 50 proof 7 needs (the Author's server has not admitted 50 traced skills to it); Slices of ${SIZES.filter((n) => n > ids.length).join(", ")} not measured, and no smaller Slice is substituted`,
+  );
 
 const run = await runSandbox({
   name: "cost",

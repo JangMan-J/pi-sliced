@@ -7,7 +7,7 @@ import type { AddressInfo } from "node:net";
 import os from "node:os";
 import { join } from "node:path";
 import { gitBlobSha } from "../slice.ts";
-import type { Catalogue, Detail } from "../types.ts";
+import type { Catalogue, Detail, LicenceRef, LicenceText } from "../types.ts";
 
 export function throwawayCert(): { key: Buffer; cert: Buffer } {
   const dir = mkdtempSync(join(os.tmpdir(), "pi-sliced-test-cert-"));
@@ -31,7 +31,7 @@ export interface FakeFile {
 
 export const REVISION = "0123456789abcdef0123456789abcdef01234567";
 
-export function makeDetail(id: string, skillPath: string, files: FakeFile[]): Detail {
+export function makeDetail(id: string, skillPath: string, files: FakeFile[], licence: LicenceRef | null = null): Detail {
   const total = files.reduce((n, f) => n + f.bytes.length, 0);
   const outside = files.filter((f) => !f.path.startsWith(skillPath + "/"));
   const md = files.find((f) => f.path === `${skillPath}/SKILL.md`)!;
@@ -50,15 +50,35 @@ export function makeDetail(id: string, skillPath: string, files: FakeFile[]): De
       bytes: total,
       outsideFolder: { files: outside.length, bytes: outside.reduce((n, f) => n + f.bytes.length, 0) },
       outside: [],
+      summary: `${files.length} files`,
+      short: `${files.length} files`,
     },
     heavy: false,
+    heavyBecause: [],
     markers: [],
+    security: {},
+    companions: { named: [], pulled: [] },
+    classification: `classifications/${id}.json`,
+    licence,
     files: files.map((f) => ({ path: f.path, size: f.bytes.length, blob: gitBlobSha(f.bytes), mode: f.mode ?? "100644" })),
     skillMd: md.bytes.toString("utf8"),
   };
 }
 
-export async function startFake(details: Detail[], blobs: Map<string, Buffer>) {
+/** A licence document for `detail`, whose files are `{ path, text }` hashed as git blobs. */
+export function makeLicence(detail: Detail, files: Array<{ path: string; text: string }>): LicenceText {
+  return {
+    format: "pi-sliced.licence/1",
+    id: detail.id,
+    source: detail.source,
+    revision: detail.revision,
+    spdx: detail.licence?.spdx ?? null,
+    copyright: detail.licence?.copyright ?? null,
+    files: files.map((f) => ({ ...f, blob: gitBlobSha(Buffer.from(f.text, "utf8")) })),
+  };
+}
+
+export async function startFake(details: Detail[], blobs: Map<string, Buffer>, licences: LicenceText[] = []) {
   const { key, cert } = throwawayCert();
   const requests: string[] = [];
   const catalogue: Catalogue = {
@@ -75,6 +95,10 @@ export async function startFake(details: Detail[], blobs: Map<string, Buffer>) {
     if ((m = /^\/v1\/skills\/(.+)@([0-9a-f]{40})$/.exec(url))) {
       const d = details.find((x) => x.id === m![1] && x.revision === m![2]);
       if (d) return void res.end(JSON.stringify(d));
+    }
+    if ((m = /^\/v1\/licences\/(.+)@([0-9a-f]{40})$/.exec(url))) {
+      const t = licences.find((x) => x.id === m![1] && x.revision === m![2]);
+      if (t) return void res.end(JSON.stringify(t));
     }
     if ((m = /^\/v1\/blobs\/([0-9a-f]{40})$/.exec(url)) && blobs.has(m[1])) {
       res.setHeader("content-type", "application/octet-stream");

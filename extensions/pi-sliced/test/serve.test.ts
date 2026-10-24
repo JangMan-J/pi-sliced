@@ -1,14 +1,15 @@
 import assert from "node:assert/strict";
-import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync } from "node:fs";
+import fs, { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync } from "node:fs";
+import { syncBuiltinESMExports } from "node:module";
 import os from "node:os";
 import { dirname, join, relative, resolve } from "node:path";
 import { after, before, test } from "node:test";
-import { createAuthorClient } from "../author-client.ts";
+import { createAuthorClient, licenceUrl } from "../author-client.ts";
 import { frontmatter } from "../frontmatter.ts";
 import { createSkillsShClient } from "../skills-sh.ts";
 import { createSlice, gitBlobSha, type ServedEntry, sweepDeadSessions } from "../slice.ts";
-import { agentNames, PREAMBLE, sectionText, toolText } from "../surface.ts";
-import { makeDetail, REVISION, startFake, throwawayCert } from "./fake-server.ts";
+import { agentNames, PREAMBLE, SECTION, sectionText, TOOL_DESCRIPTION, toolText } from "../surface.ts";
+import { makeDetail, makeLicence, REVISION, startFake, throwawayCert } from "./fake-server.ts";
 
 const tddFiles = [
   { path: "skills/tdd/SKILL.md", bytes: Buffer.from("---\nname: tdd\ndescription: Red, green.\n---\nSee [x](../../references/x.md).\n") },
@@ -20,8 +21,15 @@ const badFiles = [
   { path: "skills/bad/SKILL.md", bytes: Buffer.from("---\nname: bad\ndescription: Bad.\n---\n") },
   { path: "skills/bad/data.txt", bytes: Buffer.from("genuine\n") },
 ];
-const tdd = makeDetail("owner/repo/tdd", "skills/tdd", tddFiles);
-const bad = makeDetail("owner/repo/bad", "skills/bad", badFiles);
+const licenceRef = (name: string) => ({
+  spdx: "MIT",
+  copyright: "Copyright (c) 2025 Owner",
+  path: "LICENSE",
+  route: `/v1/licences/owner/repo/${name}@${REVISION}`,
+});
+const tdd = makeDetail("owner/repo/tdd", "skills/tdd", tddFiles, licenceRef("tdd"));
+const bad = makeDetail("owner/repo/bad", "skills/bad", badFiles, licenceRef("bad"));
+const LICENCE_TEXT = "MIT License\n\nCopyright (c) 2025 Owner\n";
 
 let fake: Awaited<ReturnType<typeof startFake>>;
 let tmp: string;
@@ -31,7 +39,9 @@ before(async () => {
   for (const f of [...tddFiles, ...badFiles]) blobs.set(gitBlobSha(f.bytes), f.bytes);
   // The data.txt blob is served tampered: same length, different bytes.
   blobs.set(bad.files[1].blob, Buffer.from("tampers\n"));
-  fake = await startFake([tdd, bad], blobs);
+  const tampered = makeLicence(bad, [{ path: "LICENSE", text: LICENCE_TEXT }]);
+  tampered.files[0].text = LICENCE_TEXT.replace("MIT", "XYZ");
+  fake = await startFake([tdd, bad], blobs, [makeLicence(tdd, [{ path: "LICENSE", text: LICENCE_TEXT }]), tampered]);
   tmp = mkdtempSync(join(os.tmpdir(), "pi-sliced-unit-"));
 });
 after(async () => {
@@ -197,20 +207,156 @@ test("colliding names get the id as a deterministic qualifier", () => {
   assert.deepEqual([...agentNames([a]).keys()], ["tdd"]);
 });
 
-test("tool output: header naming the directory, then SKILL.md verbatim; unknown name says only that", async () => {
+const SERVER = "https://author.invalid:8790";
+
+test("tool output: short header naming the directory and licence, then SKILL.md verbatim; unknown name says only that", async () => {
   const c = client();
   const slice = newSlice(c);
   await slice.serveCatalogue(await c.detail("owner/repo/tdd", REVISION));
   const [e] = slice.entries();
   const md = readFileSync(e.skillMdPath, "utf8");
   assert.equal(
-    toolText(slice.entries(), "tdd"),
-    `Skill "tdd". Relative paths in its SKILL.md resolve against ${e.skillDir}/\n\n${md}`,
+    toolText(slice.entries(), "tdd", SERVER),
+    `Skill "tdd". Relative paths in its SKILL.md resolve against ${e.skillDir}/\n` +
+      `Licence: MIT; Copyright (c) 2025 Owner. Full text: ${SERVER}/v1/licences/owner/repo/tdd@${REVISION}\n\n${md}`,
   );
-  assert.equal(toolText(slice.entries(), "canvas-design"), 'No served skill is named "canvas-design".');
-  assert.equal(toolText([], "tdd"), 'No served skill is named "tdd".');
+  // The header has no blank line: everything after the first one is SKILL.md, byte for byte.
+  const text = toolText(slice.entries(), "tdd", SERVER);
+  assert.equal(text.slice(text.indexOf("\n\n") + 2), md);
+  assert.equal(toolText(slice.entries(), "canvas-design", SERVER), 'No served skill is named "canvas-design".');
+  assert.equal(toolText([], "tdd", SERVER), 'No served skill is named "tdd".');
+  // No licence found, an unrecognised one with a multi-line copyright, and an Untraced item.
+  const none = { ...e, licence: null };
+  assert.equal(toolText([none], "tdd", SERVER).split("\n")[1], "Licence: none was found in its source.");
+  const odd = { ...e, licence: { ...e.licence!, spdx: null, copyright: "Copyright\n\n (c) X" } };
+  assert.equal(
+    toolText([odd], "tdd", SERVER).split("\n")[1],
+    `Licence: unrecognised licence; Copyright (c) X. Full text: ${SERVER}/v1/licences/owner/repo/tdd@${REVISION}`,
+  );
+  const untraced = { ...e, kind: "untraced" as const, licence: undefined };
+  assert.equal(toolText([untraced], "tdd", SERVER).split("\n")[1], "Licence: unknown (Untraced).");
+  // Nothing licence-related, and no server URL, enters the served_skills section or the tool definition.
+  const section = sectionText(slice.entries())!;
+  for (const t of [section, TOOL_DESCRIPTION, SECTION]) assert.doesNotMatch(t, /licen|https?:|MIT|Copyright|\/v1\//i);
   slice.cleanup();
   c.close();
+});
+
+test("licence: fetched over the pinned client, each file verified by blob SHA; nothing written into the served root", async () => {
+  const c = client();
+  const cat = await c.catalogue();
+  const listing = cat.skills.find((s) => s.id === "owner/repo/tdd")!;
+  const t = await c.licence(listing);
+  assert.deepEqual(t.files.map((f) => [f.path, f.text]), [["LICENSE", LICENCE_TEXT]]);
+  assert.equal(t.spdx, "MIT");
+  await assert.rejects(c.licence(cat.skills.find((s) => s.id === "owner/repo/bad")!), /failed verification/);
+  await assert.rejects(c.licence({ ...listing, licence: null }), /no licence/);
+  // A route for another skill, or anything not a licence route, is never fetched.
+  for (const route of [`/v1/licences/owner/repo/bad@${REVISION}`, "/v1/catalogues/test", "//evil.invalid/x", `/v1/licences/../x/y@${REVISION}`]) {
+    await assert.rejects(c.licence({ ...listing, licence: { ...listing.licence!, route } }), /not its licence route/);
+  }
+  assert.equal(licenceUrl("https://h:1/", `/v1/licences/a/b/c@${REVISION}`), `https://h:1/v1/licences/a/b/c@${REVISION}`);
+  assert.equal(licenceUrl("https://h:1", "/v1/catalogues/main"), undefined);
+  const slice = newSlice(c);
+  await slice.serveCatalogue(await c.detail("owner/repo/tdd", REVISION));
+  const [e] = slice.entries();
+  assert.deepEqual(walk(e.root), tdd.files.map((f) => f.path).sort(), "LICENSE is not in the Trace, so it is not served");
+  slice.cleanup();
+  c.close();
+});
+
+/** Record every path a mutating fs call names, through the builtin's live ESM bindings. */
+function spyFsWrites(): { paths: string[]; restore(): void } {
+  const paths: string[] = [];
+  const names = [
+    "writeFileSync", "appendFileSync", "mkdirSync", "mkdtempSync", "renameSync", "copyFileSync", "cpSync",
+    "symlinkSync", "linkSync", "truncateSync", "chmodSync", "chownSync", "utimesSync", "rmSync", "rmdirSync",
+    "unlinkSync", "createWriteStream", "writeFile", "appendFile", "mkdir", "mkdtemp", "rename", "copyFile", "cp",
+    "symlink", "link", "truncate", "chmod", "rm", "rmdir", "unlink",
+  ] as const;
+  const opens = ["openSync", "open"] as const;
+  const saved = new Map<string, unknown>();
+  const savedP = new Map<string, unknown>();
+  const note = (...args: unknown[]) => {
+    for (const a of args) if (typeof a === "string" || a instanceof URL) paths.push(resolve(String(a instanceof URL ? a.pathname : a)));
+  };
+  const target = fs as unknown as Record<string, (...a: unknown[]) => unknown>;
+  const promises = fs.promises as unknown as Record<string, (...a: unknown[]) => unknown>;
+  for (const n of names) {
+    const orig = target[n];
+    saved.set(n, orig);
+    target[n] = function (this: unknown, ...a: unknown[]) {
+      note(a[0], n.startsWith("rename") || n.includes("ink") || n.startsWith("cp") || n.startsWith("copy") ? a[1] : undefined);
+      return orig.apply(this, a);
+    };
+  }
+  for (const n of opens) {
+    const orig = target[n];
+    saved.set(n, orig);
+    target[n] = function (this: unknown, ...a: unknown[]) {
+      if (a[1] !== undefined && a[1] !== "r" && a[1] !== fs.constants.O_RDONLY && typeof a[1] !== "function") note(a[0]);
+      return orig.apply(this, a);
+    };
+  }
+  for (const n of ["writeFile", "appendFile", "mkdir", "mkdtemp", "rename", "copyFile", "cp", "symlink", "link", "rm", "rmdir", "unlink", "open"]) {
+    const orig = promises[n];
+    savedP.set(n, orig);
+    promises[n] = function (this: unknown, ...a: unknown[]) {
+      if (n !== "open" || (a[1] !== undefined && a[1] !== "r")) note(a[0], n === "rename" || n === "copyFile" || n === "cp" ? a[1] : undefined);
+      return orig.apply(this, a);
+    };
+  }
+  syncBuiltinESMExports();
+  return {
+    paths,
+    restore() {
+      for (const [n, f] of saved) target[n] = f as never;
+      for (const [n, f] of savedP) promises[n] = f as never;
+      syncBuiltinESMExports();
+    },
+  };
+}
+
+test("catalogue, detail and licence fetches and serving write nothing outside the session dir", async () => {
+  const home = mkdtempSync(join(tmp, "home-"));
+  const tdir = mkdtempSync(join(tmp, "tmpdir-"));
+  const env = { HOME: process.env.HOME, TMPDIR: process.env.TMPDIR };
+  process.env.HOME = home;
+  process.env.TMPDIR = tdir;
+  const spy = spyFsWrites();
+  let sessionDir: string | undefined;
+  try {
+    assert.equal(os.tmpdir(), tdir);
+    const c = client();
+    const cat = await c.catalogue();
+    const listing = cat.skills.find((s) => s.id === "owner/repo/tdd")!;
+    const detail = await c.detail(listing.id, listing.revision);
+    await c.licence(listing);
+    assert.deepEqual(spy.paths, [], "fetching listings, a Detail and a licence wrote nothing");
+    const slice = createSlice({ blob: (sha) => c.blob(sha), snapshot: async () => ({ id: "", files: [] }) });
+    await slice.serveCatalogue(detail);
+    sessionDir = slice.sessionDir()!;
+    assert.equal(dirname(sessionDir), tdir);
+    const [e] = slice.entries();
+    toolText(slice.entries(), "tdd", SERVER);
+    sectionText(slice.entries());
+    assert.deepEqual(readdirSync(home), [], "HOME is untouched");
+    assert.deepEqual(readdirSync(tdir), [sessionDir.slice(tdir.length + 1)], "the temp dir holds only the session dir");
+    assert.deepEqual(readdirSync(sessionDir), ["1"]);
+    assert.deepEqual(walk(e.root), detail.files.map((f) => f.path).sort());
+    slice.unserve(detail.id);
+    slice.cleanup();
+    c.close();
+  } finally {
+    spy.restore();
+    process.env.HOME = env.HOME;
+    if (env.TMPDIR === undefined) delete process.env.TMPDIR;
+    else process.env.TMPDIR = env.TMPDIR;
+  }
+  assert.ok(spy.paths.length > 0, "the fs spy saw the serve (spy broken?)");
+  for (const p of spy.paths) assert.ok(p === sessionDir || p.startsWith(sessionDir + "/"), `write outside the session dir: ${p}`);
+  assert.deepEqual(readdirSync(tdir), [], "cleanup left nothing in the temp dir");
+  assert.deepEqual(readdirSync(home), []);
 });
 
 test("frontmatter: plain, quoted, folded and literal scalars", () => {

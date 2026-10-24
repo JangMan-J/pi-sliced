@@ -12,16 +12,19 @@ import type { CatalogueApi } from "./types.ts";
 
 export default function piSliced(pi: ExtensionAPI): void {
   const env = process.env;
+  const server = env.PI_SLICED_SERVER || DEFAULT_SERVER;
+  // Catalogue listings, Details and licence texts stay in the client's memory: nothing here writes them.
   let author: AuthorClient | undefined;
   const client = (): AuthorClient =>
     (author ??= createAuthorClient({
-      server: env.PI_SLICED_SERVER || DEFAULT_SERVER,
+      server,
       catalogueName: env.PI_SLICED_CATALOGUE || DEFAULT_CATALOGUE,
       ca: readPinnedCert(),
     }));
   const catalogue: CatalogueApi = {
     catalogue: () => client().catalogue(),
     detail: (id, revision) => client().detail(id, revision),
+    licence: (listing) => client().licence(listing),
   };
   const skillsSh = createSkillsShClient({ url: env.PI_SLICED_GATEWAY_URL || DEFAULT_GATEWAY });
 
@@ -48,7 +51,7 @@ export default function piSliced(pi: ExtensionAPI): void {
     defaultActive: false,
     annotations: { readOnlyHint: true, openWorldHint: false },
     async execute(_id, params) {
-      return { content: [{ type: "text", text: toolText(slice.entries(), params.name) }], details: undefined };
+      return { content: [{ type: "text", text: toolText(slice.entries(), params.name, server) }], details: undefined };
     },
   });
 

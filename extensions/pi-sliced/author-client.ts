@@ -1,9 +1,16 @@
 // Client of the Author's server: HTTPS GET only, with its pinned certificate as the only CA.
+//
+// Everything fetched here (Catalogue listings, Details, licence texts, blobs) is held in memory only.
+// Only the Slice writes, and only a Served skill's verified files into its session dir.
+// None of these routes is ever advertised to the agent: no catalogue, skill, or blob URL reaches its
+// context. The one server URL the agent may see is a Served skill's licence route, named in the
+// served_skill load header (surface.ts).
 
 import { readFileSync } from "node:fs";
 import https from "node:https";
 import { fileURLToPath } from "node:url";
-import type { Catalogue, CatalogueApi, Detail } from "./types.ts";
+import { gitBlobSha } from "./slice.ts";
+import type { Catalogue, CatalogueApi, Detail, LicenceText } from "./types.ts";
 
 export const DEFAULT_SERVER = "https://185.8.106.248:8790";
 export const DEFAULT_CATALOGUE = "main";
@@ -31,6 +38,15 @@ const MAX_JSON = 64 * 1024 * 1024;
 const MAX_BLOB = 256 * 1024 * 1024;
 const SHA = /^[0-9a-f]{40}$/;
 const SEG = /^[A-Za-z0-9._-]+$/;
+
+const LICENCE_ROUTE = /^\/v1\/licences\/([A-Za-z0-9._-]+\/[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+)@([0-9a-f]{40})$/;
+
+/** The absolute URL of a server-relative licence route, or undefined when `route` is not one. */
+export function licenceUrl(server: string, route: string): string | undefined {
+  const m = LICENCE_ROUTE.exec(route);
+  if (!m || m[1].split("/").some((p) => p === "." || p === "..")) return undefined;
+  return server.replace(/\/+$/, "") + route;
+}
 
 export function readPinnedCert(path = PINNED_CERT): Buffer {
   return readFileSync(path);
@@ -76,6 +92,7 @@ export function createAuthorClient(opts: AuthorClientOptions): AuthorClient {
 
   let catalogue: Promise<Catalogue> | undefined;
   const details = new Map<string, Promise<Detail>>();
+  const licences = new Map<string, Promise<LicenceText>>();
 
   return {
     catalogue() {
@@ -103,6 +120,33 @@ export function createAuthorClient(opts: AuthorClientOptions): AuthorClient {
         });
         details.set(key, p);
         p.catch(() => details.delete(key));
+      }
+      return p;
+    },
+    licence(listing) {
+      const ref = listing.licence;
+      if (!ref) return Promise.reject(new Error(`${listing.id}: no licence was found in its source`));
+      const m = LICENCE_ROUTE.exec(ref.route);
+      if (!m || m[1] !== listing.id || m[2] !== listing.revision || !licenceUrl(opts.server, ref.route)) {
+        return Promise.reject(new Error(`${listing.id}: not its licence route: ${ref.route}`));
+      }
+      const key = `${listing.id}@${listing.revision}`;
+      let p = licences.get(key);
+      if (!p) {
+        p = getJson<LicenceText>(ref.route.slice(1)).then((t) => {
+          if (t.format !== "pi-sliced.licence/1" || t.id !== listing.id || t.revision !== listing.revision) {
+            throw new Error(`Author's server returned a different licence for ${key}`);
+          }
+          if (!Array.isArray(t.files) || t.files.length === 0) throw new Error(`${key}: licence has no files`);
+          for (const f of t.files) {
+            if (typeof f?.text !== "string" || gitBlobSha(Buffer.from(f.text, "utf8")) !== f.blob) {
+              throw new Error(`${key}: licence file ${f?.path} failed verification against blob ${f?.blob}`);
+            }
+          }
+          return t;
+        });
+        licences.set(key, p);
+        p.catch(() => licences.delete(key));
       }
       return p;
     },

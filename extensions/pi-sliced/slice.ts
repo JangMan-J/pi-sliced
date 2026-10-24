@@ -1,4 +1,5 @@
 // The Slice: Served skills materialized into one session dir under the temp directory, and nowhere else.
+// This is the extension's only writer: a Served skill's verified files, and removal of its own dirs.
 
 import { createHash, randomBytes } from "node:crypto";
 import { chmodSync, lstatSync, mkdirSync, readdirSync, renameSync, rmSync, writeFileSync } from "node:fs";
@@ -6,7 +7,7 @@ import os from "node:os";
 import { join } from "node:path";
 import type { UntracedSnapshot } from "./skills-sh.ts";
 import { frontmatter } from "./frontmatter.ts";
-import type { Detail, ServedSkill, SliceApi, UntracedItem } from "./types.ts";
+import type { Detail, LicenceRef, ServedSkill, SliceApi, UntracedItem } from "./types.ts";
 
 /** Git blob SHA-1 of `bytes`: sha1("blob <len>\0" + bytes). */
 export function gitBlobSha(bytes: Uint8Array): string {
@@ -29,6 +30,11 @@ export interface ServedEntry extends ServedSkill {
   root: string;
   /** The directory holding its SKILL.md: its relative links resolve against this. */
   skillDir: string;
+  /**
+   * Catalogue skills: the governing licence from the inspected Detail, or null when none was found.
+   * Named only in the served_skill load header; its files are never written unless the Trace lists them.
+   */
+  licence?: LicenceRef | null;
 }
 
 export interface Slice extends SliceApi {
@@ -210,6 +216,7 @@ export function createSlice(deps: SliceDeps): Slice {
           skillMdPath: join(skillDir, "SKILL.md"),
           root,
           skillDir,
+          licence: detail.licence ?? null,
         };
       });
     },

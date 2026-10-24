@@ -56,9 +56,7 @@ try {
     const delta = B - B0;
     const sk = listed(x.slice);
     const nameDesc = sk.reduce((s, e) => s + bytes(e.listed) + bytes(e.description), 0);
-    // Actual per-skill text: its section line "- <name>: <description>" and separator, JSON-escaped.
-    const lineBytes = sk.reduce((s, e) => s + jsonBytes(`- ${e.listed}: ${e.description}\n`), 0);
-    const fixed = process.env.PI_SLICED_CHANNEL === 'mcp' ? delta : delta - lineBytes; // what remains is the overhead that does not depend on the skills
+    const fixed = delta; // codemode MCP defers per-skill metadata until discovery, so the entire unread delta is fixed
     if (x.n === 1) F = fixed;
     const p = parse(x.body);
     rows.push({
@@ -66,7 +64,7 @@ try {
       payloadBytes: B,
       deltaBytes: delta,
       namesAndDescriptions: nameDesc,
-      perSkillFramingMax: process.env.PI_SLICED_CHANNEL === 'mcp' ? 0 : sk.length ? Math.max(...sk.map((e) => jsonBytes(`- ${e.listed}: ${e.description}\n`) - bytes(e.listed) - bytes(e.description))) : 0,
+      perSkillFramingMax: 0,
       fixedOverhead: x.n ? fixed : 0,
       toolsDelta: bytes(JSON.stringify(p.tools ?? [])) - bytes(JSON.stringify(p0.tools ?? [])),
       systemDelta: bytes(JSON.stringify(sys(p))) - bytes(JSON.stringify(sys(p0))),
@@ -87,7 +85,7 @@ try {
   const one = rows.find((x) => x.n === 1);
   const report = {
     catalogue: CATALOGUE,
-    channel: process.env.PI_SLICED_CHANNEL || 'tool',
+    channel: "mcp",
     measured: new Date().toISOString(),
     emptySlicePayloadBytes: B0,
     F,
@@ -96,7 +94,7 @@ try {
     rows,
     missingSizes: SIZES.filter((n) => !sizes.includes(n)),
   };
-  writeOut(`cost-${process.env.PI_SLICED_CHANNEL || "tool"}.json`, report);
+  writeOut("cost.json", report);
   console.log(JSON.stringify(report, null, 2));
   v.note(`F = ${F} B: tool definitions ${one?.toolsDelta} B + fixed prompt-section text ${(F ?? 0) - (one?.toolsDelta ?? 0)} B (measured from N=1)`);
   for (const row of rows)
@@ -104,7 +102,7 @@ try {
       `N=${row.n}: payload ${row.payloadBytes} B, Δ ${row.deltaBytes} B${row.n ? ` ≤ bound ${row.bound} B; fixed ${row.fixedOverhead} B; per-skill framing ≤ ${row.perSkillFramingMax} B` : ""}; ${row.bodyLinesProbed} body/reference lines probed, ${row.bodyLinesFound} found`,
     );
   run.cleanup();
-  v.finish(`payload sizes for Slices of ${sizes.join(", ")} written to server/harness/out/cost-${process.env.PI_SLICED_CHANNEL || 'tool'}.json`);
+  v.finish(`payload sizes for Slices of ${sizes.join(", ")} written to server/harness/out/cost.json`);
 } catch (e) {
   v.fail(String((e as Error).stack ?? e));
   v.finish(`harness error (work dir ${run.work})`);

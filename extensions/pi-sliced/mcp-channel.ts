@@ -3,11 +3,30 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { readFileSync, readdirSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { licenceUrl } from "./author-client.ts";
 import type { Slice, ServedEntry } from "./slice.ts";
-import { licenceLine } from "./surface.ts";
 
 export const MCP_SERVER = "pi_sliced";
 const namespace = (name: string): string => name.replace(/-/g, "_");
+
+const oneLine = (s: string, max = 200): string => {
+  const t = s.replace(/\s+/g, " ").trim();
+  return t.length > max ? `${t.slice(0, max - 1)}…` : t;
+};
+
+/**
+ * The licence line of a load header. Kept out of the prompt before discovery, so a Served skill the
+ * agent has not loaded costs nothing for it (proof 7). The URL is `<server><route>`: the only
+ * Author's server URL the agent ever sees.
+ */
+export function licenceLine(entry: ServedEntry, server: string): string {
+  if (entry.kind === "untraced") return "Licence: unknown (Untraced).";
+  const ref = entry.licence;
+  if (!ref) return "Licence: none was found in its source.";
+  const url = licenceUrl(server, ref.route);
+  const parts = [oneLine(ref.spdx ?? "unrecognised licence"), ref.copyright ? oneLine(ref.copyright) : undefined];
+  return `Licence: ${parts.filter(Boolean).join("; ")}.${url ? ` Full text: ${url}` : ""}`;
+}
 
 // Reserve even disabled/invalid entries conservatively; retain only names, never evaluate credentials.
 // Pi exposes only extension registrations, not effective configured servers. SDK-injected custom

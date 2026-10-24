@@ -32,7 +32,7 @@ export interface ServedEntry extends ServedSkill {
   skillDir: string;
   /**
    * Catalogue skills: the governing licence from the inspected Detail, or null when none was found.
-   * Named only in the served_skill load header; its files are never written unless the Trace lists them.
+   * Named only in the MCP load header; its files are never written unless the Trace lists them.
    */
   licence?: LicenceRef | null;
 }

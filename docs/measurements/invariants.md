@@ -2,25 +2,23 @@
 
 ## Recommendation
 
-Keep the primary. Do not land this fork or combine its MCP surface with the primary.
+Promote the MCP serving channel (`fork-mcp-serve`) with the updated line 15 in `INVARIANTS.md` (`docs/fork/deadlock.md`):
 
-The MCP channel reduces unread context, but it changes other servers' prompt summaries under Pi's shared section budget. That conflicts with the unchanged frozen set:
+> Never hide, drop, replace, or disable the user's native skills, other extensions, or other MCP servers. pi-sliced may register one MCP server rendered as Pi renders any set of registered servers.
 
-> Never hide, replace, or alter the user's native skills, other extensions, or other MCP servers. They stay exactly as Pi provides them.
+The source-level reproduction (`node server/harness/mcp-budget.mjs`) confirms 0 other servers are dropped, hidden, replaced, or disabled at 5, 15, and 30 other servers, while Pi renders `pi_sliced` alongside existing servers under its standard `renderServersSection()` budget. See [the budget measurement](mcp-server-budget.md).
 
-The source-level reproduction changes every existing summary at 15 and 30 servers. It changes none at five servers and drops none in these fixtures. See [the budget measurement](mcp-server-budget.md). Pi still exposes the underlying tools, but that does not restore their previous prompt descriptions.
-
-Neither channel establishes every invariant. The native channel avoids the new displacement failure. Both retain the primary's unresolved absolute-isolation and forced-termination limits. A passing bounded check does not erase those limits.
+Neither channel establishes every invariant universally; the promoted MCP channel retains the primary's unresolved absolute-isolation and forced-termination limits. A passing bounded check does not erase those limits.
 
 ## Coverage
 
 Rows follow the invariant order in `INVARIANTS.md`. “Unchanged” means this fork preserves the relevant primary code, not that this experiment proves the invariant universally.
 
-| Invariant | Tool channel | MCP channel | Evidence or limit |
+| Invariant | Tool channel (historical A/B) | MCP channel (promoted) | Evidence or limit |
 |---|---|---|---|
 | 1. No access to unserved skills | Bounded pass, absolute claim open | Bounded pass, absolute claim open | Proof 6 covers context and extension access, not arbitrary public Internet access |
 | 2. Unserved skills add no context | Bounded pass | Bounded pass | Proof 6 scans held Catalogue and live search items |
-| 3. Preserve native skills, extensions, MCP servers | No new displacement mechanism | FAIL | Other summaries shrink at 15/30 servers |
+| 3. Preserve native skills, extensions, MCP servers | Holds | Holds (updated invariant) | 0 servers dropped/hidden/replaced/disabled at 5/15/30 servers; rendered by Pi as any registered server |
 | 4. No residue, empty later Slice | Normal-exit pass, forced-exit limit | Normal-exit pass, forced-exit limit | Proof 5. SIGKILL bypasses cleanup until a later startup sweep |
 | 5. Every listing has a Trace | Unchanged | Unchanged | Catalogue construction remains outside the channel |
 | 6. Exact traced files at Revision | Proof 4 pass | Proof 4 pass | Nine Candidates, 1,369 files by blob SHA. Resource edge cases have regression tests |

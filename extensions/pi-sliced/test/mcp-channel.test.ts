@@ -9,36 +9,23 @@ import { configuredMcpNames, createMcpChannel } from "../mcp-channel.ts";
 import { createSlice } from "../slice.ts";
 import piSliced from "../index.ts";
 
-test("native channel remains the default; MCP does not register native tools or alter prompt sections", () => {
-  const previous = process.env.PI_SLICED_CHANNEL;
-  try {
-    for (const channel of [undefined, "tool", "mcp"]) {
-      if (channel === undefined) delete process.env.PI_SLICED_CHANNEL;
-      else process.env.PI_SLICED_CHANNEL = channel;
-      const tools: any[] = [], commands: string[] = [], handlers = new Map<string, Function>();
-      const pi: any = {
-        registerTool: (tool: any) => tools.push(tool),
-        registerCommand: (name: string) => commands.push(name),
-        on: (name: string, handler: Function) => handlers.set(name, handler),
-      };
-      piSliced(pi);
-      assert.deepEqual(tools.map((t) => t.name), channel === "mcp" ? [] : ["served_skill"]);
-      assert.ok(commands.includes("slices"), "same Picker registration in both channels");
-      const event = { systemPromptOptions: { sections: { unrelated: "preserved" } } };
-      handlers.get("before_agent_start")!(event);
-      assert.deepEqual(event.systemPromptOptions.sections, { unrelated: "preserved" });
-      handlers.get("session_shutdown")!();
-    }
-    process.env.PI_SLICED_CHANNEL = "invalid";
-    assert.throws(() => piSliced({} as any), /must be tool or mcp/);
-  } finally {
-    if (previous === undefined) delete process.env.PI_SLICED_CHANNEL;
-    else process.env.PI_SLICED_CHANNEL = previous;
-  }
+test("MCP is the only channel; it registers no native tools and does not alter prompt sections directly", () => {
+  const tools: any[] = [], commands: string[] = [], handlers = new Map<string, Function>();
+  const pi: any = {
+    registerTool: (tool: any) => tools.push(tool),
+    registerCommand: (name: string) => commands.push(name),
+    on: (name: string, handler: Function) => handlers.set(name, handler),
+  };
+  piSliced(pi);
+  assert.deepEqual(tools.map((t) => t.name), []);
+  assert.ok(commands.includes("slices"), "Picker registration");
+  const event = { systemPromptOptions: { sections: { unrelated: "preserved" } } };
+  handlers.get("before_agent_start")!(event);
+  assert.deepEqual(event.systemPromptOptions.sections, { unrelated: "preserved" });
+  handlers.get("session_shutdown")!();
 });
 
 test("session reservations read user config and only trusted project config", (t) => {
-  const previous = process.env.PI_SLICED_CHANNEL;
   const originalRead = fs.readFileSync;
   const reads: string[] = [];
   t.mock.method(fs, "readFileSync", (path: any, ...args: any[]) => {
@@ -47,7 +34,6 @@ test("session reservations read user config and only trusted project config", (t
   });
   syncBuiltinESMExports();
   try {
-    process.env.PI_SLICED_CHANNEL = "mcp";
     for (const trusted of [false, true]) {
       reads.length = 0;
       const handlers = new Map<string, Function>();
@@ -60,8 +46,6 @@ test("session reservations read user config and only trusted project config", (t
   } finally {
     t.mock.restoreAll();
     syncBuiltinESMExports();
-    if (previous === undefined) delete process.env.PI_SLICED_CHANNEL;
-    else process.env.PI_SLICED_CHANNEL = previous;
   }
 });
 

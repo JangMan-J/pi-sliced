@@ -29,14 +29,8 @@ export default async function (h: Harness) {
   // Turn 1: the Served skill, used normally.
   const e = st.slice.find((x) => x.id === sid);
   const t1from = mark();
-  let firstTools;
-  if (h.args.channel === 'mcp') {
-    const text = await mcp(h,pi, `const ts=await searchTools('tdd',{namespace:'pi_sliced'}); const t=ts.find(t=>t.name.includes('__load_')); const r=await tools[t.name]({}); ${emit('r.content[0].text')}`);
-    firstTools = [{toolName:'codemode',isError:false,text,args:{}}];
-  } else {
-    h.mock.script([{ tools: e ? [{ name: 'served_skill', input: { name: agentName(st.slice,e) } }] : [] },{text:'done'}]);
-    firstTools = toolResults((await pi.prompt('Use the served skill.')).records);
-  }
+  const text = await mcp(h,pi, `const ts=await searchTools('tdd',{namespace:'pi_sliced'}); const t=ts.find(t=>t.name.includes('__load_')); const r=await tools[t.name]({}); ${emit('r.content[0].text')}`);
+  const firstTools = [{toolName:'codemode',isError:false,text,args:{}}];
 
   // Every unserved skill the session knows of: the Catalogue's others and the Skills.sh results it holds.
   const unserved = [
@@ -54,21 +48,15 @@ export default async function (h: Harness) {
   h.mock.script([{ tools: [{ name: "bash", input: { command: search } }] }, { text: "done" }]);
   const r2 = await pi.prompt("Look for the other skills on disk.");
 
-  let loads;
-  if (h.args.channel === 'mcp') {
-    const queries = unserved.flatMap(u=>[u.name,u.id]);
-    const observations = await mcp(h,pi, `const queries=${JSON.stringify(queries)}; const out=[];
-      for(const q of queries) {
-        const ts=await searchTools(q,{namespace:'pi_sliced',limit:100});
-        const exact=ts.filter(t=>t.name.includes('__load_'+q.replace(/[^A-Za-z0-9_]/g,'_').slice(0,38)+'_') || t.description.includes(q));
-        let error=false; try { await tools['mcp__pi_sliced__load_'+q.replace(/[^A-Za-z0-9_]/g,'_')]({}); } catch {error=true;}
-        out.push({matches:exact.length,rejected:error});
-      } ${emit('out')}`);
-    loads = observations.map((o:any,i:number)=>({args:{name:queries[i]},text:o.matches===0&&o.rejected?'unavailable':JSON.stringify(o)}));
-  } else {
-    h.mock.script([{tools:unserved.flatMap(u=>[{name:'served_skill',input:{name:u.name}},{name:'served_skill',input:{name:u.id}}])},{text:'done'}]);
-    loads = toolResults((await pi.prompt('Load the other skills.')).records);
-  }
+  const queries = unserved.flatMap(u=>[u.name,u.id]);
+  const observations = await mcp(h,pi, `const queries=${JSON.stringify(queries)}; const out=[];
+    for(const q of queries) {
+      const ts=await searchTools(q,{namespace:'pi_sliced',limit:100});
+      const exact=ts.filter(t=>t.name.includes('__load_'+q.replace(/[^A-Za-z0-9_]/g,'_').slice(0,38)+'_') || t.description.includes(q));
+      let error=false; try { await tools['mcp__pi_sliced__load_'+q.replace(/[^A-Za-z0-9_]/g,'_')]({}); } catch {error=true;}
+      out.push({matches:exact.length,rejected:error});
+    } ${emit('out')}`);
+  const loads = observations.map((o:any,i:number)=>({args:{name:queries[i]},text:o.matches===0&&o.rejected?'unavailable':JSON.stringify(o)}));
   const exit = await pi.close();
 
   h.write("result.json", {

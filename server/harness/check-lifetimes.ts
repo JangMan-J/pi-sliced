@@ -54,16 +54,14 @@ try {
   for (const row of rows) v.note(`  ${row}`);
 
   // Session 2: empty Slice; A and B cannot be loaded or read.
-  v.ok(r.mcpAfter?.tools.length === 0, 'session 2: MCP tools remain discoverable');
-  if (process.env.PI_SLICED_CHANNEL === 'mcp') v.ok(r.mcpAfter.rejected.length === 2 && r.mcpAfter.rejected.every(Boolean), 'session 2: old MCP load calls were not rejected');
+  v.ok(r.mcpAfter?.tools.length === 0, "session 2: MCP tools remain discoverable");
+  v.ok(r.mcpAfter.rejected.length === 2 && r.mcpAfter.rejected.every(Boolean), "session 2: old MCP load calls were not rejected");
   v.ok(r.state2.slice.length === 0, `session 2: Slice not empty: ${r.state2.slice.map((e: any) => e.id).join(", ")}`);
   v.ok(r.state2.sessionDir === null, `session 2: has a session dir at start: ${r.state2.sessionDir}`);
-  v.ok(!r.state2.activeTools.includes("served_skill"), `session 2: served_skill is active with an empty Slice`);
   for (const t of r.tools2) {
-    const failed = t.isError || /^No served skill is named ".*"\.$/.test(t.text);
-    v.ok(failed && t.sampleHits === 0, `session 2: ${t.toolName} ${JSON.stringify(t.args)} returned served content: ${t.text.slice(0, 160)}`);
+    v.ok(t.isError && t.sampleHits === 0, `session 2: ${t.toolName} ${JSON.stringify(t.args)} returned served content: ${t.text.slice(0, 160)}`);
   }
-  v.ok(r.tools2.length === 6, `session 2: expected 6 tool results, got ${r.tools2.length}`);
+  v.ok(r.tools2.length === 2, `session 2: expected 2 tool results, got ${r.tools2.length}`);
   for (const t of r.tools2) v.note(`session 2: ${t.toolName} ${JSON.stringify(t.args)} → ${t.isError ? "error" : "ok"}: ${t.text.split("\n")[0].slice(0, 120)}`);
   v.ok(r.exit2 === 0, `session 2: pi exited ${r.exit2}`);
   run.cleanup();

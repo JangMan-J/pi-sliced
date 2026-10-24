@@ -10,7 +10,6 @@ const CATALOGUE = "check-nine";
 const SERVED = "mattpocock/skills/tdd";
 const TERM = process.argv[2] ?? "canvas";
 const GATEWAY = process.env.PI_SLICED_GATEWAY_URL || "https://pi-sliced.vercel.app/api/skills";
-const UNKNOWN = /^No served skill is named "(.*)"\.$/;
 
 const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.abort(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
 const S = cat.skills.find((s) => s.id === SERVED) ?? v.abort(`${CATALOGUE} does not list ${SERVED}`);
@@ -35,19 +34,12 @@ async function skillsShDescription(id: string): Promise<string | undefined> {
   return typeof md === "string" ? frontmatter(md).description : undefined;
 }
 
-/** The payload without the scripted model's own words: its tool calls, and the exact unknown-name echo. */
+/** The payload without the scripted model's own words: its tool calls. */
 function redact(body: string): string {
   const p = JSON.parse(body);
   for (const m of p.messages ?? []) {
     if (!Array.isArray(m.content)) continue;
-    m.content = m.content.filter((b: any) => {
-      if (b.type === "tool_use") return false;
-      if (b.type === "tool_result") {
-        const text = typeof b.content === "string" ? b.content : (b.content ?? []).map((c: any) => c.text ?? "").join("");
-        if (UNKNOWN.test(text)) return false;
-      }
-      return true;
-    });
+    m.content = m.content.filter((b: any) => b.type !== "tool_use");
   }
   return payloadText(JSON.stringify(p));
 }
@@ -107,9 +99,9 @@ try {
   }
   // Positive control: the capture does carry the Served skill.
   const t1 = requests.filter((q) => q.seq >= r.turn1.from);
-  v.ok(t1.length && (process.env.PI_SLICED_CHANNEL === 'mcp' ? t1.some((q) => payloadText(q.body).includes('Relative paths in its SKILL.md resolve against')) : t1.every((q) => payloadText(q.body).includes(S.description))), `the Served skill's description is missing from turn-1 payloads (capture broken?)`);
+  v.ok(t1.length && t1.some((q) => payloadText(q.body).includes("Relative paths in its SKILL.md resolve against")), `the Served skill's load output is missing from turn-1 payloads (capture broken?)`);
   const load = r.turn1.tools[0];
-  v.ok(load && !load.isError && load.text.includes("\n\n---"), `served_skill ${S.name} did not return its SKILL.md`);
+  v.ok(load && !load.isError && load.text.includes("\n\n---"), `MCP load of ${S.name} did not return its SKILL.md`);
 
   // The agent's search and loads return nothing about unserved skills.
   const search = r.search[0];
@@ -117,10 +109,9 @@ try {
   v.ok(search && found.trim() === "", `search for unserved ids/names found: ${found.slice(0, 400)}`);
   v.ok(control.includes(r.state.slice[0]?.skillDir), `control search did not find the Served skill's folder: ${control.slice(0, 300)}`);
   for (const l of r.loads) {
-    const m = UNKNOWN.exec(l.text);
-    v.ok(process.env.PI_SLICED_CHANNEL === 'mcp' ? l.text === 'unavailable' : m && m[1] === l.args.name, `served_skill ${JSON.stringify(l.args)} returned: ${l.text.slice(0, 200)}`);
+    v.ok(l.text === "unavailable", `MCP probe ${JSON.stringify(l.args)} returned: ${l.text.slice(0, 200)}`);
   }
-  v.ok(r.loads.length === 2 * r.unserved.length, `expected ${2 * r.unserved.length} served_skill results, got ${r.loads.length}`);
+  v.ok(r.loads.length === 2 * r.unserved.length, `expected ${2 * r.unserved.length} MCP probe results, got ${r.loads.length}`);
   v.ok(r.exit === 0, `pi exited ${r.exit}`);
 
   v.note(

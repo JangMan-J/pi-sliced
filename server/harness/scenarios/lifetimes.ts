@@ -37,22 +37,15 @@ export default async function (h: Harness) {
     const pick = files.find((f) => !f.path.endsWith("/SKILL.md") && f.path !== "SKILL.md") ?? files[0];
     reads[e.id] = join(e.root, pick.path);
   }
-  const names = Object.fromEntries(st1.slice.map((e) => [e.id, agentName(st1.slice, e)]));
   h.mock.script([
     {
-      tools: [
-        ...ids.map((id) => ({ name: "served_skill", input: { name: names[id] } })),
-        ...ids.map((id) => ({ name: "read", input: { path: reads[id] } })),
-      ],
+      tools: ids.map((id) => ({ name: "read", input: { path: reads[id] } })),
     },
     { text: "done" },
   ]);
   const run1 = await pi1.prompt("Use both served skills.");
-  let tools1 = toolResults(run1.records);
-  if (h.args.channel === 'mcp') {
-    const loaded = await mcp(h,pi1, `const out=[]; for(const q of ['tdd','game-ui-frontend']) {const ts=await searchTools(q,{namespace:'pi_sliced',limit:100});const t=ts.find(t=>t.name.includes('__load_'+q.replace(/-/g,'_')+'_'));if(!t)throw new Error(JSON.stringify(ts));const r=await tools[t.name]({});out.push({toolName:t.name,args:{},isError:!!r.isError,text:r.content[0].text});} ${emit('out')}`);
-    tools1 = [...loaded, ...tools1.filter(t=>t.toolName==='read')];
-  }
+  const loaded = await mcp(h,pi1, `const out=[]; for(const q of ['tdd','game-ui-frontend']) {const ts=await searchTools(q,{namespace:'pi_sliced',limit:100});const t=ts.find(t=>t.name.includes('__load_'+q.replace(/-/g,'_')+'_'));if(!t)throw new Error(JSON.stringify(ts));const r=await tools[t.name]({});out.push({toolName:t.name,args:{},isError:!!r.isError,text:r.content[0].text});} ${emit('out')}`);
+  const tools1 = [...loaded, ...toolResults(run1.records).filter(t=>t.toolName==='read')];
   const exit1 = await pi1.close();
   const after = snap();
 
@@ -81,19 +74,13 @@ export default async function (h: Harness) {
   const st2 = await state(pi2);
   h.mock.script([
     {
-      tools: [
-        ...ids.flatMap((id) => [
-          { name: "served_skill", input: { name: names[id] } },
-          { name: "served_skill", input: { name: id } },
-        ]),
-        ...ids.map((id) => ({ name: "read", input: { path: reads[id] } })),
-      ],
+      tools: ids.map((id) => ({ name: "read", input: { path: reads[id] } })),
     },
     { text: "done" },
   ]);
   const run2 = await pi2.prompt("Use the skills from before.");
   const tools2 = toolResults(run2.records).map((t) => ({ ...t, sampleHits: samples.filter((s) => t.text.includes(s)).length }));
-  const mcpAfter = h.args.channel === 'mcp' ? await mcp(h,pi2, `const ts=await searchTools('load',{namespace:'pi_sliced',limit:100}); const rejected=[]; for(const name of ${JSON.stringify(tools1.filter(t=>t.toolName.startsWith('mcp__')).map(t=>t.toolName))}) {try {await tools[name]({}); rejected.push(false);}catch {rejected.push(true);}} ${emit('({tools:ts,rejected})')}`) : {tools:[],rejected:[]};
+  const mcpAfter = await mcp(h,pi2, `const ts=await searchTools('load',{namespace:'pi_sliced',limit:100}); const rejected=[]; for(const name of ${JSON.stringify(tools1.filter(t=>t.toolName.startsWith('mcp__')).map(t=>t.toolName))}) {try {await tools[name]({}); rejected.push(false);}catch {rejected.push(true);}} ${emit('({tools:ts,rejected})')}`);
   const exit2 = await pi2.close();
 
   h.write("result.json", {

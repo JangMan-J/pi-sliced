@@ -9,4 +9,5 @@ unshare -rn scripts/rederive
 scripts/check-serve
 scripts/check-lifetimes
 scripts/check-slice
+scripts/check-cost
 scripts/check-untraced

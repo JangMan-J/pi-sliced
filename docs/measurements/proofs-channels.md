@@ -1,6 +1,6 @@
 # Serving-channel proofs 4–7
 
-Final matched rerun completed 2026-10-24T07:07:01Z after rebasing onto `upstream/main` (`8754e649`), against runtime commit `16d454460858b9f4a0404896ac3ff951b6fca477` (rebased from `4fb4604ca93e672badc87c279dc6264a60d20b29` with identical runtime manifest SHA-256 `10004d82d2a2f7a0fabd1d65cc38be3563ca87cd27e43a3cfbff64287aed2c2a`) in the MCP approach fork. These are deterministic RPC/model-wire checks, not model-discoverability evaluations. Both channels use the same installed Pi, empty HOME, staged extension, mock Anthropic transport, and `--tools +codemode`. The mock transport uses no model subscription or paid API.
+Final single-channel MCP rerun completed 2026-10-24T07:18:58Z against the Author's server on `185.8.106.248:8790` after removing the native `served_skill` tool, `served_skills` section, `surface.ts`, and `PI_SLICED_CHANNEL` switch (prior A/B comparison rerun completed 2026-10-24T07:07:01Z against `185.8.106.248:8791` at runtime commit `16d454460858b9f4a0404896ac3ff951b6fca477`). These are deterministic RPC/model-wire checks, not model-discoverability evaluations. They use the installed Pi, empty HOME, staged extension, mock Anthropic transport, and `--tools +codemode`. The mock transport uses no model subscription or paid API.
 
 The fork-owned Author server is reached at its public IPv4 address on port **8791**, with the committed certificate as its only CA. Port 8790 is untouched. A private store is built for this experiment; no primary store data is modified. Filesystem isolation hides the repository, Author store and credentials. Proofs 4, 5 and 7 additionally use pasta/nft network isolation. Proof 6 needs host networking for the existing Skills.sh proxy.
 
@@ -17,10 +17,10 @@ All eight checks exited **0** against that stable revision, including the collis
 
 Exact final verdict summaries, identical between channels except the cost output filename:
 
-- `PASS check-serve (proof 4): 9 Candidates served from 185.8.106.248:8791, 1369 traced files compared by blob SHA`
+- `PASS check-serve (proof 4): 9 Candidates served from 185.8.106.248:8790, 1369 traced files compared by blob SHA`
 - `PASS check-lifetimes (proof 5): after session 1 nothing served remains in HOME or /tmp, /var/tmp, /dev/shm; session 2 starts with an empty Slice and cannot load or read A or B`
 - `PASS check-slice (proof 6): no payload carries an unserved skill's id or description; loads and searches for them return nothing`
-- `PASS check-cost (proof 7): payload sizes for Slices of 0, 1, 10, 50 written to server/harness/out/cost-tool.json` (MCP: `cost-mcp.json`).
+- `PASS check-cost (proof 7): payload sizes for Slices of 0, 1, 10, 50 written to server/harness/out/cost.json`
 
 ### Proof 4 and supporting files
 

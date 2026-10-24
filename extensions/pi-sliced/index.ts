@@ -2,21 +2,17 @@
 
 import { CONFIG_DIR_NAME, getAgentDir, type ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { join } from "node:path";
-import { Type } from "typebox";
 import { type AuthorClient, createAuthorClient, DEFAULT_CATALOGUE, DEFAULT_SERVER, readPinnedCert } from "./author-client.ts";
 import { registerCheckDriver } from "./check-driver.ts";
 import { registerPicker } from "./picker-wiring.ts";
 import { createMcpChannel } from "./mcp-channel.ts";
 import { createSkillsShClient, DEFAULT_GATEWAY } from "./skills-sh.ts";
 import { createSlice, sweepDeadSessions } from "./slice.ts";
-import { SECTION, sectionText, TOOL, TOOL_DESCRIPTION, toolText } from "./surface.ts";
 import type { CatalogueApi } from "./types.ts";
 
 export default function piSliced(pi: ExtensionAPI): void {
   const env = process.env;
   const server = env.PI_SLICED_SERVER || DEFAULT_SERVER;
-  const channel = env.PI_SLICED_CHANNEL || "tool";
-  if (channel !== "tool" && channel !== "mcp") throw new Error("PI_SLICED_CHANNEL must be tool or mcp");
   // Catalogue listings, Details and licence texts stay in the client's memory: nothing here writes them.
   let author: AuthorClient | undefined;
   const client = (): AuthorClient =>
@@ -33,41 +29,20 @@ export default function piSliced(pi: ExtensionAPI): void {
   const skillsSh = createSkillsShClient({ url: env.PI_SLICED_GATEWAY_URL || DEFAULT_GATEWAY });
 
   let live = false;
-  /** The tool is active exactly while the Slice is non-empty; every other tool is left as it is. */
-  const syncTools = (): void => {
+  const syncMcp = (): void => {
     if (!live) return;
-    if (channel === "mcp") { mcp.sync(); return; }
-    const active = pi.getActiveTools();
-    const want = slice.entries().length > 0;
-    if (want && !active.includes(TOOL)) pi.setActiveTools([...active, TOOL]);
-    if (!want && active.includes(TOOL)) pi.setActiveTools(active.filter((n) => n !== TOOL));
+    mcp.sync();
   };
   const slice = createSlice({
     blob: (sha) => client().blob(sha),
     snapshot: (item) => skillsSh.snapshot(item),
-    onChange: syncTools,
+    onChange: syncMcp,
   });
 
   const mcp = createMcpChannel(pi, slice, server);
 
-  if (channel === "tool") pi.registerTool({
-    name: TOOL,
-    label: "Served skill",
-    description: TOOL_DESCRIPTION,
-    parameters: Type.Object({ name: Type.String({ description: "Skill name" }) }),
-    defaultActive: false,
-    annotations: { readOnlyHint: true, openWorldHint: false },
-    async execute(_id, params) {
-      return { content: [{ type: "text", text: toolText(slice.entries(), params.name, server) }], details: undefined };
-    },
-  });
-
-  pi.on("before_agent_start", (event) => {
-    syncTools();
-    if (channel === "mcp") return;
-    const text = sectionText(slice.entries());
-    if (text) event.systemPromptOptions.sections[SECTION] = text;
-    else delete event.systemPromptOptions.sections[SECTION];
+  pi.on("before_agent_start", () => {
+    syncMcp();
   });
 
   const onExit = (): void => slice.cleanup();
@@ -79,7 +54,7 @@ export default function piSliced(pi: ExtensionAPI): void {
     process.kill(process.pid, "SIGINT");
   };
   pi.on("session_start", (_event, ctx) => {
-    if (channel === "mcp") mcp.reserveConfig([
+    mcp.reserveConfig([
       join(getAgentDir(), "mcp.json"),
       ...(ctx.isProjectTrusted() ? [join(ctx.cwd, CONFIG_DIR_NAME, "mcp.json")] : []),
     ]);

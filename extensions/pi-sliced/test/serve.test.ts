@@ -7,8 +7,8 @@ import { after, before, test } from "node:test";
 import { createAuthorClient, licenceUrl } from "../author-client.ts";
 import { frontmatter } from "../frontmatter.ts";
 import { createSkillsShClient } from "../skills-sh.ts";
-import { createSlice, gitBlobSha, type ServedEntry, sweepDeadSessions } from "../slice.ts";
-import { agentNames, PREAMBLE, SECTION, sectionText, TOOL_DESCRIPTION, toolText } from "../surface.ts";
+import { createSlice, gitBlobSha, sweepDeadSessions } from "../slice.ts";
+import { licenceLine } from "../mcp-channel.ts";
 import { makeDetail, makeLicence, REVISION, startFake, throwawayCert } from "./fake-server.ts";
 
 const tddFiles = [
@@ -185,59 +185,26 @@ test("Untraced items are served from the proxy snapshot; search drops install co
   slice.cleanup();
 });
 
-function entry(id: string, name: string, description: string, skillMdPath = "/x/SKILL.md"): ServedEntry {
-  return { id, kind: "catalogue", name, description, skillMdPath, root: "/x", skillDir: dirname(skillMdPath) };
-}
-
-test("section text: fixed preamble plus one line per Served skill; empty Slice adds nothing", () => {
-  assert.equal(sectionText([]), undefined);
-  const text = sectionText([entry("o/r/tdd", "tdd", "Red, green."), entry("o/r/zoom", "zoom", "Debug Zoom.")]);
-  assert.equal(text, `${PREAMBLE}\n- tdd: Red, green.\n- zoom: Debug Zoom.`);
-  // Per-skill framing beyond name and description.
-  const one = sectionText([entry("o/r/tdd", "tdd", "Red, green.")])!;
-  const two = sectionText([entry("o/r/tdd", "tdd", "Red, green."), entry("o/r/z", "z", "D.")])!;
-  assert.ok(Buffer.byteLength(two) - Buffer.byteLength(one) - "z".length - "D.".length <= 8);
-});
-
-test("colliding names get the id as a deterministic qualifier", () => {
-  const a = entry("o/r1/tdd", "tdd", "A.");
-  const b = entry("o/r2/tdd", "tdd", "B.");
-  assert.deepEqual([...agentNames([a, b]).keys()], ["o/r1/tdd", "o/r2/tdd"]);
-  assert.deepEqual([...agentNames([b, a]).keys()].sort(), ["o/r1/tdd", "o/r2/tdd"]);
-  assert.deepEqual([...agentNames([a]).keys()], ["tdd"]);
-});
-
 const SERVER = "https://author.invalid:8790";
 
-test("tool output: short header naming the directory and licence, then SKILL.md verbatim; unknown name says only that", async () => {
+test("licenceLine formats SPDX, copyright, none and Untraced notices on one line", async () => {
   const c = client();
   const slice = newSlice(c);
   await slice.serveCatalogue(await c.detail("owner/repo/tdd", REVISION));
   const [e] = slice.entries();
-  const md = readFileSync(e.skillMdPath, "utf8");
   assert.equal(
-    toolText(slice.entries(), "tdd", SERVER),
-    `Skill "tdd". Relative paths in its SKILL.md resolve against ${e.skillDir}/\n` +
-      `Licence: MIT; Copyright (c) 2025 Owner. Full text: ${SERVER}/v1/licences/owner/repo/tdd@${REVISION}\n\n${md}`,
+    licenceLine(e, SERVER),
+    `Licence: MIT; Copyright (c) 2025 Owner. Full text: ${SERVER}/v1/licences/owner/repo/tdd@${REVISION}`,
   );
-  // The header has no blank line: everything after the first one is SKILL.md, byte for byte.
-  const text = toolText(slice.entries(), "tdd", SERVER);
-  assert.equal(text.slice(text.indexOf("\n\n") + 2), md);
-  assert.equal(toolText(slice.entries(), "canvas-design", SERVER), 'No served skill is named "canvas-design".');
-  assert.equal(toolText([], "tdd", SERVER), 'No served skill is named "tdd".');
-  // No licence found, an unrecognised one with a multi-line copyright, and an Untraced item.
   const none = { ...e, licence: null };
-  assert.equal(toolText([none], "tdd", SERVER).split("\n")[1], "Licence: none was found in its source.");
+  assert.equal(licenceLine(none, SERVER), "Licence: none was found in its source.");
   const odd = { ...e, licence: { ...e.licence!, spdx: null, copyright: "Copyright\n\n (c) X" } };
   assert.equal(
-    toolText([odd], "tdd", SERVER).split("\n")[1],
+    licenceLine(odd, SERVER),
     `Licence: unrecognised licence; Copyright (c) X. Full text: ${SERVER}/v1/licences/owner/repo/tdd@${REVISION}`,
   );
   const untraced = { ...e, kind: "untraced" as const, licence: undefined };
-  assert.equal(toolText([untraced], "tdd", SERVER).split("\n")[1], "Licence: unknown (Untraced).");
-  // Nothing licence-related, and no server URL, enters the served_skills section or the tool definition.
-  const section = sectionText(slice.entries())!;
-  for (const t of [section, TOOL_DESCRIPTION, SECTION]) assert.doesNotMatch(t, /licen|https?:|MIT|Copyright|\/v1\//i);
+  assert.equal(licenceLine(untraced, SERVER), "Licence: unknown (Untraced).");
   slice.cleanup();
   c.close();
 });
@@ -338,8 +305,7 @@ test("catalogue, detail and licence fetches and serving write nothing outside th
     sessionDir = slice.sessionDir()!;
     assert.equal(dirname(sessionDir), tdir);
     const [e] = slice.entries();
-    toolText(slice.entries(), "tdd", SERVER);
-    sectionText(slice.entries());
+    licenceLine(e, SERVER);
     assert.deepEqual(readdirSync(home), [], "HOME is untouched");
     assert.deepEqual(readdirSync(tdir), [sessionDir.slice(tdir.length + 1)], "the temp dir holds only the session dir");
     assert.deepEqual(readdirSync(sessionDir), ["1"]);

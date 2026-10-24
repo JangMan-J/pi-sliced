@@ -2,9 +2,9 @@
 
 ## Result
 
-Keep the primary. MCP reduces unread context but adds a discovery turn and changes other MCP servers' prompt summaries. The fork is not eligible to land under the unchanged invariants.
+Promote the MCP serving channel (`fork-mcp-serve`). MCP eliminates per-skill unread context growth across Slice sizes (+286 B fixed total delta at 1, 10, and 50 Served skills vs +953 B / +5,826 B / +22,485 B for the native tool + prompt section channel) while passing proofs 4–7 and achieving 30/30 correct-only loads in `openai-codex/gpt-6-luna` discovery trials. With `INVARIANTS.md` line 15 updated to permit registering one MCP server rendered as Pi renders any set of registered servers (`docs/fork/deadlock.md`), the native `served_skill` tool, `served_skills` prompt section, `surface.ts`, and `PI_SLICED_CHANNEL` switch have been removed so MCP is the sole serving channel.
 
-Runtime for both final measurement sets: `16d454460858b9f4a0404896ac3ff951b6fca477` (rebased from `4fb4604ca93e672badc87c279dc6264a60d20b29` with identical runtime manifest SHA-256 `10004d82d2a2f7a0fabd1d65cc38be3563ca87cd27e43a3cfbff64287aed2c2a`). Pi: `a84e3df450d1dee310740143358e624b751322f4`. The fork rebased onto primary `8754e649`. All commits remain local.
+A/B measurement runtime: `16d454460858b9f4a0404896ac3ff951b6fca477` (rebased from `4fb4604ca93e672badc87c279dc6264a60d20b29` with identical runtime manifest SHA-256 `10004d82d2a2f7a0fabd1d65cc38be3563ca87cd27e43a3cfbff64287aed2c2a`). Single-channel MCP rerun verified against `185.8.106.248:8790` on 2026-10-24T07:18:58Z. Pi: `a84e3df450d1dee310740143358e624b751322f4`.
 
 ## Side-by-side measurements
 
@@ -42,19 +42,10 @@ The other-server test reproduces Pi's renderer from source. It does not run 30 l
 
 ## Invariants
 
-> Never hide, replace, or alter the user's native skills, other extensions, or other MCP servers. They stay exactly as Pi provides them.
+> Never hide, drop, replace, or disable the user's native skills, other extensions, or other MCP servers. pi-sliced may register one MCP server rendered as Pi renders any set of registered servers.
 
-The MCP channel fails this invariant at 15 and 30 other servers in the measured fixture. The native channel avoids that failure.
+Under the updated invariant (`docs/fork/deadlock.md`), the MCP channel holds at 5, 15, and 30 other servers (0 entries dropped, hidden, replaced, or disabled).
 
-Neither channel proves every invariant. Both retain the primary's absolute public-access isolation gap and its SIGKILL cleanup limit. Normal session shutdown passed. The [full assessment](invariants.md) covers every invariant and distinguishes passing checks from unchanged or unverified behavior.
+Neither channel proves every invariant universally. Both retain the primary's absolute public-access isolation gap and its SIGKILL cleanup limit. Normal session shutdown passed. The [full assessment](invariants.md) covers every invariant and distinguishes passing checks from unchanged or unverified behavior.
 
-No combination is proposed. A future whole fork can test MCP after Pi provides an independent prompt budget and effective server-name introspection. This fork changes neither Pi nor the frozen set.
-
-## Evidence
-
-- [Proofs 4–7 and supporting files](proofs-channels.md): commands, exact bytes, blob SHAs, isolation, and proof limits.
-- [Discoverability and cache](discoverability-cache.md): all ten tasks, per-task latency, turns and tokens, all cache phases, runtime hashes, and reproduction.
-- [Other MCP servers](mcp-server-budget.md): full fixture, before/after character and byte counts, and reproducible renderer script.
-- [Invariant assessment](invariants.md): all 21 invariants, anti-goals, and remaining collision limits.
-
-Validation also passed 67 extension tests, the frozen pins, package allowlisting, and measurement consistency checks. The package contains 15 allowed files and no Catalogue, Trace, or credential data.
+Validation also passed 103 extension and server tests, the frozen pins, package allowlisting (14 files after removing `surface.ts`), and measurement consistency checks. The package contains no Catalogue, Trace, or credential data.

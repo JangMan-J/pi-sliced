@@ -12,13 +12,12 @@ import { serve, state } from '../harness/scenarios/common.ts';
 
 const root = resolve(fileURLToPath(new URL('../..', import.meta.url)));
 const tasks = JSON.parse(readFileSync(new URL('./tasks.json', import.meta.url), 'utf8'));
-const channel = process.argv[2];
-if (!['tool', 'mcp'].includes(channel)) throw new Error('channel must be tool or mcp');
+const channel = 'mcp';
 const server = process.env.PI_SLICED_SERVER;
-if (!server || new URL(server).port !== '8791') throw new Error('Explicit fork server on port 8791 required');
+if (!server) throw new Error('PI_SLICED_SERVER required');
 const cli = process.env.PI_SLICED_PI_CLI;
 if (!cli) throw new Error('PI_SLICED_PI_CLI required');
-const output = resolve(process.argv[3] || `server/measurements/${channel}-results.json`);
+const output = resolve(process.argv[2] || 'server/measurements/mcp-results.json');
 const authSource = join(process.env.PI_CODING_AGENT_DIR || join(homedir(), '.pi/agent'), 'auth.json');
 const auth = JSON.parse(readFileSync(authSource, 'utf8'))['openai-codex'];
 if (auth?.type !== 'oauth') throw new Error('Subscription OAuth required');
@@ -44,7 +43,7 @@ async function session(run: (pi: PiRpc) => Promise<void>) {
   const pi = active = new PiRpc({
     argv: [cli!, '--mode', 'rpc', '--no-session', '--provider', 'openai-codex', '--model', 'gpt-6-luna', '--thinking', 'low', '--no-extensions', '--no-skills', '--no-context-files', '--no-prompt-templates', '-e', 'builtin:mcp', '-e', 'builtin:codemode', '-e', join(snapshot, 'extensions/pi-sliced/index.ts'), '--tools', '+codemode', '--exclude-tools', 'bash,edit,write'],
     cwd: home,
-    env: { HOME: home, PATH: process.env.PATH!, LANG: 'C.UTF-8', TERM: 'dumb', PI_CODING_AGENT_DIR: config, PI_OFFLINE: '1', PI_TELEMETRY: '0', PI_SLICED_SERVER: server!, PI_SLICED_CATALOGUE: 'admitted', PI_SLICED_CHANNEL: channel, PI_SLICED_CHECK_DRIVER: '1' },
+    env: { HOME: home, PATH: process.env.PATH!, LANG: 'C.UTF-8', TERM: 'dumb', PI_CODING_AGENT_DIR: config, PI_OFFLINE: '1', PI_TELEMETRY: '0', PI_SLICED_SERVER: server!, PI_SLICED_CATALOGUE: 'admitted', PI_SLICED_CHECK_DRIVER: '1' },
   });
   try {
     const s = await pi.request({ type: 'get_state' });

@@ -84,15 +84,15 @@ try {
     for (const f of trace.files) blobs.set(f.blob, f.size);
     // The agent's load returns its SKILL.md byte for byte.
     const md = trace.files.find((f) => f.path === `${trace.skillPath}/SKILL.md`);
-    const load = res.loads.find((l: any) => l.toolName === "served_skill" && (l.args.name === e.name || l.args.name === id));
-    if (v.ok(load && !load.isError, `${id}: served_skill load failed: ${load?.text?.slice(0, 200)}`) && md) {
+    const load = res.loads.find((l: any) => l.args.name === e.name || l.args.name === id);
+    if (v.ok(load && !load.isError, `${id}: MCP skill load failed: ${load?.text?.slice(0, 200)}`) && md) {
       const body = load.text.slice(load.text.indexOf("\n\n") + 2);
-      v.ok(blobSha(Buffer.from(body, "utf8")) === md.blob, `${id}: served_skill text is not its traced SKILL.md`);
+      v.ok(blobSha(Buffer.from(body, "utf8")) === md.blob, `${id}: MCP load text is not its traced SKILL.md`);
     }
     v.note(`${id}@${e.revision.slice(0, 12)}: ${got.size}/${want.size} files match the Trace (${traceName}) by path and blob SHA`);
   }
   // Nothing else readable in the session dir.
-  for (const f of files) if (!claimed.has(f.path) && !(process.env.PI_SLICED_CHANNEL === 'mcp' && f.path === '.mcp-state.json')) v.fail(`session dir holds an unclaimed entry: ${f.path}`);
+  for (const f of files) if (!claimed.has(f.path) && f.path !== ".mcp-state.json") v.fail(`session dir holds an unclaimed entry: ${f.path}`);
   for (const s of res.supporting ?? []) {
     v.ok(s.matched, `supporting file read differs: ${s.id} ${s.path}`);
     v.note(`supporting read: ${s.id} ${s.path}, ${s.bytes} B, blob ${s.blob}, equal=${s.matched}`);
@@ -112,7 +112,7 @@ try {
     `pcap: ${pc.packets} frames; TCP connections: ${pc.connects.length}, all to ${[...new Set(pc.connects.map((c) => `${c.dst}:${c.dport}`))].join(", ") || "none"}; UDP flows: ${pc.udp.length}; ${inBytes} B in from ${allowKey} (distinct traced bytes ${fileBytes})`,
   );
   v.ok(res.exit === 0, `pi exited ${res.exit}`);
-  writeOut(`serve-${process.env.PI_SLICED_CHANNEL || 'tool'}.json`, { files: traced, supporting: res.supporting, connects: pc.connects, bytes: pc.bytes, sandbox: sb });
+  writeOut("serve.json", { files: traced, supporting: res.supporting, connects: pc.connects, bytes: pc.bytes, sandbox: sb });
   run.cleanup();
   v.finish(`${PROOF_NINE.length} Candidates served from ${allowKey}, ${traced} traced files compared by blob SHA`);
 } catch (e) {

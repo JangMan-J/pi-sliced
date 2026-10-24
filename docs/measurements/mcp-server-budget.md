@@ -26,4 +26,8 @@ The section budget is 4096 JavaScript characters, not bytes. Thus 30 entries plu
 
 ## Assessment
 
-The relevant invariant is: **“Never hide, replace, or alter the user's native skills, other extensions, or other MCP servers. They stay exactly as Pi provides them.”** In this fixture, MCP registration alters existing servers' prompt summaries at 15 and 30 servers, and can hide trailing entries when bare headers overflow. This is a discoverability/prompt representation effect, not removal or disabling of underlying MCP connections/tools; Pi's omission line points to `searchTools()`. Because the invariant says other MCP servers stay exactly as Pi provides them, altered summaries are a literal conflict at 15/30. Tool-channel integration does not add a server to this section, avoiding this particular effect. This is a source-level algorithm reproduction, not a live session; no workaround or frozen-set change was made.
+Under the original invariant (“Never hide, replace, or alter the user's native skills, other extensions, or other MCP servers. They stay exactly as Pi provides them.”), Pi's shared 4096-character `mcp_servers` budget created a deadlock (`docs/fork/deadlock.md`) because registering any MCP server reduces the per-server summary truncation cap at 15 and 30 servers. Under the promoted invariant:
+
+> Never hide, drop, replace, or disable the user's native skills, other extensions, or other MCP servers. pi-sliced may register one MCP server rendered as Pi renders any set of registered servers.
+
+the MCP channel holds at 5, 15, and 30 other servers: 0 existing servers are hidden, dropped, replaced, or disabled, and `pi_sliced` is rendered by Pi's `renderServersSection()` exactly as Pi renders any set of registered servers.

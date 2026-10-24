@@ -4,7 +4,7 @@
 // Only the Slice writes, and only a Served skill's verified files into its session dir.
 // None of these routes is ever advertised to the agent: no catalogue, skill, or blob URL reaches its
 // context. The one server URL the agent may see is a Served skill's licence route, named in the
-// served_skill load header (surface.ts).
+// MCP load header (mcp-channel.ts).
 
 import { readFileSync } from "node:fs";
 import https from "node:https";

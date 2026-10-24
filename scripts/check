@@ -6,3 +6,6 @@ scripts/check-frozen
 node --test tools/trace/ tools/classify/
 scripts/check-trace
 unshare -rn scripts/rederive
+scripts/check-serve
+scripts/check-lifetimes
+scripts/check-slice

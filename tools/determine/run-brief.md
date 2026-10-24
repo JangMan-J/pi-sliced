@@ -7,8 +7,8 @@ You get a run list, one line per run: `<packet path>\t<output path>\t<kind>\t<mo
 | kind | Model pool | Prompt | Extra file |
 | --- | --- | --- | --- |
 | `determine` | rotate each packet across `meta/muse-wonder-full-1.0`, `xai/grok-4.7`, `antigravity/gemini-4-argon` | `tools/determine/determine-1.md` | `catalogue/occasions.tsv` |
-| `purpose-action` | `antigravity/gemini-4-argon` or `meta/muse-wonder-full-1.0`, alternating per occasion (c3 literal); flagged Candidates not yet placed under an occasion get no assignment — pending executive clarification, do not invent a per-packet mapping | `tools/determine/purpose-action-1.md` | none |
-| `duplicates` | rotate each batch across the `determine` pool (`meta/muse-wonder-full-1.0`, `xai/grok-4.7`, `antigravity/gemini-4-argon`) — provisional, pending executive clarification | `tools/determine/duplicates-1.md` | none |
+| `purpose-action` | alternate per packet between `antigravity/gemini-4-argon` and `meta/muse-wonder-full-1.0` (c4: reviews precede occasion assignment) | `tools/determine/purpose-action-1.md` | none |
+| `duplicates` | rotate each batch across the `determine` pool (`meta/muse-wonder-full-1.0`, `xai/grok-4.7`, `antigravity/gemini-4-argon`) (confirmed by c4) | `tools/determine/duplicates-1.md` | none |
 
 Occasion lead runs use `tools/determine/occasion-1.md` (no extra file) with the same per-run procedure below, alternating each occasion across `antigravity/gemini-4-argon` and `meta/muse-wonder-full-1.0`. Each record's `author.id` names the model that wrote it.
 

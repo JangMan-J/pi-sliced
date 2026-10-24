@@ -4,7 +4,7 @@
 
 Keep the primary. MCP reduces unread context but adds a discovery turn and changes other MCP servers' prompt summaries. The fork is not eligible to land under the unchanged invariants.
 
-Runtime for both final measurement sets: `4fb4604ca93e672badc87c279dc6264a60d20b29`. Pi: `a84e3df450d1dee310740143358e624b751322f4`. The fork rebased onto primary `a3c52d9e`. All commits remain local.
+Runtime for both final measurement sets: `16d454460858b9f4a0404896ac3ff951b6fca477` (rebased from `4fb4604ca93e672badc87c279dc6264a60d20b29` with identical runtime manifest SHA-256 `10004d82d2a2f7a0fabd1d65cc38be3563ca87cd27e43a3cfbff64287aed2c2a`). Pi: `a84e3df450d1dee310740143358e624b751322f4`. The fork rebased onto primary `8754e649`. All commits remain local.
 
 ## Side-by-side measurements
 

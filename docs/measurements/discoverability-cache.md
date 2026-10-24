@@ -2,7 +2,7 @@
 
 ## Conditions
 
-- Immutable runtime snapshot: `4fb4604ca93e672badc87c279dc6264a60d20b29`, extracted with git archive independently of the mutable checkout. Both result files contain the identical per-file SHA-256 runtime manifest (including tests); its JSON SHA-256 is `10004d82d2a2f7a0fabd1d65cc38be3563ca87cd27e43a3cfbff64287aed2c2a`. Pi source: `a84e3df450d1dee310740143358e624b751322f4`.
+- Immutable runtime snapshot: `4fb4604ca93e672badc87c279dc6264a60d20b29` (rebased onto `upstream/main` `8754e649` as `16d454460858b9f4a0404896ac3ff951b6fca477` with identical files), extracted with git archive independently of the mutable checkout. Both result files contain the identical per-file SHA-256 runtime manifest (including tests); its JSON SHA-256 is `10004d82d2a2f7a0fabd1d65cc38be3563ca87cd27e43a3cfbff64287aed2c2a`. Pi source: `a84e3df450d1dee310740143358e624b751322f4`.
 - Both channels: subscription OAuth, `openai-codex/gpt-6-luna`, thinking low; Pi RPC, fresh temporary HOME/config/cwd, no persisted session, no discovered extensions/skills/context. Explicit built-in MCP and codemode loaded in both. Read and codemode available; bash/edit/write disabled. No other MCP servers.
 - Fork-owned Author server on port 8791, catalogue `admitted` (57 current hash-matching admitted Determinations, built by `server/harness/build-admitted.mjs`). No primary server used.
 - Each task has its correct skill and four distinct distractors: the next four tasks cyclically. Identical serve order in each paired trial, rotated by (task index + repeat index) modulo five. Three fresh sessions per task/channel; channels ran concurrently, trials sequentially within each channel.

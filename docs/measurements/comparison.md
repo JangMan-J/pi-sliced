@@ -2,7 +2,7 @@
 
 ## Result
 
-Promote the MCP serving channel (`fork-mcp-serve`). MCP eliminates per-skill unread context growth across Slice sizes (+286 B fixed total delta at 1, 10, and 50 Served skills vs +953 B / +5,826 B / +22,485 B for the native tool + prompt section channel) while passing proofs 4–7 and achieving 30/30 correct-only loads in `openai-codex/gpt-6-luna` discovery trials. With `INVARIANTS.md` line 15 updated to permit registering one MCP server rendered as Pi renders any set of registered servers (`docs/fork/deadlock.md`), the native `served_skill` tool, `served_skills` prompt section, `surface.ts`, and `PI_SLICED_CHANNEL` switch have been removed so MCP is the sole serving channel.
+Promote the MCP serving channel (`fork-mcp-serve`). MCP eliminates per-skill unread context growth across Slice sizes (+286 B fixed total delta at 1, 10, and 50 Served skills vs +953 B / +5,826 B / +22,485 B for the native tool + prompt section channel) while passing proofs 4–7 and achieving 30/30 correct-only loads in `openai-codex/gpt-6-luna` discovery trials. With `INVARIANTS.md` line 15 updated to permit registering one MCP server rendered as Pi renders any set of registered servers (`docs/fork/deadlock.md`), the native tool and prompt-section channel has been removed so MCP is the sole serving channel (`docs/contracts/serve.md`).
 
 A/B measurement runtime: `16d454460858b9f4a0404896ac3ff951b6fca477` (rebased from `4fb4604ca93e672badc87c279dc6264a60d20b29` with identical runtime manifest SHA-256 `10004d82d2a2f7a0fabd1d65cc38be3563ca87cd27e43a3cfbff64287aed2c2a`). Single-channel MCP rerun verified against `185.8.106.248:8790` on 2026-10-24T07:18:58Z. Pi: `a84e3df450d1dee310740143358e624b751322f4`.
 
@@ -48,4 +48,4 @@ Under the updated invariant (`docs/fork/deadlock.md`), the MCP channel holds at 
 
 Neither channel proves every invariant universally. Both retain the primary's absolute public-access isolation gap and its SIGKILL cleanup limit. Normal session shutdown passed. The [full assessment](invariants.md) covers every invariant and distinguishes passing checks from unchanged or unverified behavior.
 
-Validation also passed 103 extension and server tests, the frozen pins, package allowlisting (14 files after removing `surface.ts`), and measurement consistency checks. The package contains no Catalogue, Trace, or credential data.
+Validation also passed 103 extension and server tests, the frozen pins, package allowlisting (14 files), and measurement consistency checks. The package contains no Catalogue, Trace, or credential data.

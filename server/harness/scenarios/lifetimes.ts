@@ -8,7 +8,7 @@ import type { Harness } from "../drive.ts";
 import { mcp, emit } from './mcp.ts';
 import { blobSha, type WalkEntry } from "../lib.ts";
 import { toolResults } from "../rpc.ts";
-import { agentName, requireSeam, serve, state } from "./common.ts";
+import { requireSeam, serve, state } from "./common.ts";
 
 export default async function (h: Harness) {
   const ids: string[] = h.args.ids;

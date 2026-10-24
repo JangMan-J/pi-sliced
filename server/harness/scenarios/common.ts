@@ -56,9 +56,3 @@ export async function requireSeam(h: Harness, pi: PiRpc) {
   if (missing.length) throw new Error(`extension check seam missing: ${missing.join(", ")}; commands: ${names.join(", ")}\n${pi.stderrText.slice(-3000)}`);
   h.log("seam present");
 }
-
-/** The name a Served skill is listed under to the agent (a shared frontmatter name is replaced by the id). */
-export function agentName(slice: SeamState["slice"], e: SeamState["slice"][number]): string {
-  const shared = slice.filter((x) => x.name === e.name).length > 1;
-  return shared || e.name === "" ? e.id : e.name;
-}

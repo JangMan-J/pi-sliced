@@ -83,13 +83,11 @@ These trials test whether an explicitly requested skill can be found and loaded 
 
 Set \`PI_SLICED_SOURCE_COMMIT\` to the immutable runtime commit above, \`PI_SLICED_PI_CLI\` to the installed Pi CLI JavaScript path and \`PI_SLICED_SERVER\` to the fork-owned HTTPS endpoint on port 8791. The runner requires a subscription OAuth entry in the current Pi auth file; it copies only that entry into temporary config and removes it on normal completion.
 
-\`node server/measurements/discoverability-cache.ts tool\`
-
-\`node server/measurements/discoverability-cache.ts mcp\`
+\`node server/measurements/discoverability-cache.ts [output.json]\`
 
 \`node server/measurements/report.mjs\`
 
-The report command rejects missing trials, unpaired distractor orders, incomplete cache phases and provider failures. Initial discarded smoke runs exposed an overly restrictive tool allowlist; the final runs use additive codemode selection so native served_skill remains callable. Smoke results are not included. The first full run (04:29:58–04:33:27Z) was also discarded because runtime files changed during it. Only the later immutable-snapshot rerun is reported.
+The report command rejects missing trials, unpaired distractor orders, incomplete cache phases and provider failures. Initial discarded smoke runs exposed an overly restrictive tool allowlist; the final A/B runs at \`${head}\` used additive codemode selection so the native tool channel's tool remained callable alongside codemode. Smoke results are not included. The first full run (04:29:58–04:33:27Z) was also discarded because runtime files changed during it. Only the later immutable-snapshot rerun is reported.
 
 Sanitized evidence SHA-256:
 

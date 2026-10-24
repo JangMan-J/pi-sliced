@@ -43,4 +43,4 @@ Fields inside the lists:
   - `invisible-unicode`: invisible or direction-changing characters;
   - `opaque`: an executable binary, a minified script or an encoded blob.
 
-**For serving (proofs 4 and 5):** the served file set is exactly `files[].path` with `files[].blob` at `revision`, from `source`.
+**For serving (proofs 4–7):** the served file set is exactly `files[].path` with `files[].blob` at `revision`, from `source`, exposed through the MCP channel (`docs/contracts/serve.md`).

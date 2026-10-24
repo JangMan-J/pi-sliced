@@ -1,6 +1,6 @@
 // Live subscription-backed Pi RPC measurement; no transcripts are written.
 // Set PI_SLICED_SOURCE_COMMIT, PI_SLICED_PI_CLI and PI_SLICED_SERVER (fork port 8791).
-// node server/measurements/discoverability-cache.ts tool|mcp [output.json]
+// node server/measurements/discoverability-cache.ts [output.json]
 import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, rmSync, readdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';

@@ -11,8 +11,6 @@ const CATALOGUE = process.env.PI_SLICED_COST_CATALOGUE || "admitted";
 const SIZES = [0, 1, 10, 50];
 const FRAMING = 128;
 const bytes = (s: string) => Buffer.byteLength(s, "utf8");
-/** Bytes `s` occupies inside a JSON string. */
-const jsonBytes = (s: string) => bytes(JSON.stringify(s)) - 2;
 
 const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.abort(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
 const ids = cat.skills.map((s) => s.id);
@@ -36,10 +34,6 @@ try {
   const runs: any[] = r.runs;
   const empty = runs.find((x) => x.n === 0);
   const B0 = bytes(empty.body);
-
-  /** The listed name of each Served skill (a shared frontmatter name is listed by id). */
-  const listed = (slice: any[]) =>
-    slice.map((e) => ({ ...e, listed: slice.filter((x) => x.name === e.name).length > 1 || e.name === "" ? e.id : e.name }));
   const parse = (body: string) => JSON.parse(body);
   const sys = (p: any) => (Array.isArray(p.system) ? p.system.map((b: any) => b.text).join("") : String(p.system ?? ""));
   const p0 = parse(empty.body);
@@ -54,8 +48,7 @@ try {
     for (const h of x.hits) v.fail(`N=${x.n}: payload holds ${h.id} ${h.file} text: ${JSON.stringify(h.line.slice(0, 80))}`);
     const B = bytes(x.body);
     const delta = B - B0;
-    const sk = listed(x.slice);
-    const nameDesc = sk.reduce((s, e) => s + bytes(e.listed) + bytes(e.description), 0);
+    const nameDesc = x.slice.reduce((s: number, e: any) => s + bytes(e.name) + bytes(e.description), 0);
     const fixed = delta; // codemode MCP defers per-skill metadata until discovery, so the entire unread delta is fixed
     if (x.n === 1) F = fixed;
     const p = parse(x.body);

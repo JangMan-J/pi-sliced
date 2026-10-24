@@ -5,7 +5,7 @@
 import type { Harness } from "../drive.ts";
 import { mcp, emit } from './mcp.ts';
 import { toolResults } from "../rpc.ts";
-import { agentName, requireSeam, serve, state, untraced } from "./common.ts";
+import { requireSeam, serve, state, untraced } from "./common.ts";
 
 /** Shell word for `s` with `''` inserted in every segment, so the needle never appears whole in the transcript. */
 function split(s: string): string {

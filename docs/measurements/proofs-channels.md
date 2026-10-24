@@ -1,6 +1,6 @@
 # Serving-channel proofs 4–7
 
-Final single-channel MCP rerun completed 2026-10-24T07:18:58Z against the Author's server on `185.8.106.248:8790` after removing the native `served_skill` tool, `served_skills` section, `surface.ts`, and `PI_SLICED_CHANNEL` switch (prior A/B comparison rerun completed 2026-10-24T07:07:01Z against `185.8.106.248:8791` at runtime commit `16d454460858b9f4a0404896ac3ff951b6fca477`). These are deterministic RPC/model-wire checks, not model-discoverability evaluations. They use the installed Pi, empty HOME, staged extension, mock Anthropic transport, and `--tools +codemode`. The mock transport uses no model subscription or paid API.
+Final single-channel MCP rerun completed 2026-10-24T07:18:58Z against the Author's server on `185.8.106.248:8790` after removing the native tool and prompt-section channel (prior A/B comparison rerun completed 2026-10-24T07:07:01Z against `185.8.106.248:8791` at runtime commit `16d454460858b9f4a0404896ac3ff951b6fca477`). These are deterministic RPC/model-wire checks, not model-discoverability evaluations. They use the installed Pi, empty HOME, staged extension, mock Anthropic transport, and `--tools +codemode`. The mock transport uses no model subscription or paid API.
 
 The fork-owned Author server is reached at its public IPv4 address on port **8791**, with the committed certificate as its only CA. Port 8790 is untouched. A private store is built for this experiment; no primary store data is modified. Filesystem isolation hides the repository, Author store and credentials. Proofs 4, 5 and 7 additionally use pasta/nft network isolation. Proof 6 needs host networking for the existing Skills.sh proxy.
 
@@ -66,9 +66,8 @@ At sizes 1/10/50 the body/reference-text probes covered 308/2,250/18,073 distinc
 
 ## Reproduction and harness changes
 
-1. Copy the existing store into a fork-owned location, set `PI_SLICED_STORE`, and run `node server/harness/build-admitted.mjs`. This writes the `admitted` catalogue and details and prints the pinned determination evidence. Never target the primary store.
-2. Start `server/author-server.mjs` from this checkout with that store and `PI_SLICED_SERVER_PORT=8791`.
-3. Set `PI_SLICED_SERVER` to that server's public HTTPS address and run, for each `PI_SLICED_CHANNEL=tool` and `mcp`:
+1. Ensure the Author's server store includes the `admitted` catalogue (`node server/harness/build-admitted.mjs`, which writes the `admitted` catalogue and details and prints the pinned determination evidence).
+2. With `pi-sliced-author.service` running on port 8790 (or a dedicated `server/author-server.mjs` pointed at via `PI_SLICED_SERVER`), run:
 
    ```sh
    scripts/check-serve
@@ -77,8 +76,4 @@ At sizes 1/10/50 the body/reference-text probes covered 308/2,250/18,073 distinc
    scripts/check-cost
    ```
 
-4. Stop the fork-owned server after all shared measurement users finish.
-
-The sandbox now forwards and validates the channel; both channels explicitly enable codemode for a matched baseline. The cost check defaults to genuinely admitted Candidates and writes channel-specific summaries under ignored `server/harness/out/`. The serve check writes channel-specific summaries too. Infrastructure failures now call `Verdict.abort`: missing catalogues or incomplete scenarios cannot accidentally print PASS. Source edits are limited to `server/harness/`; extension implementation belongs to the other agents. Frozen files remain unchanged (`scripts/check-frozen` passed). `git diff --check` and `node --check server/harness/build-admitted.mjs` also passed. A missing-catalogue negative check exited 1 with `FAIL check-cost (proof 7): measurement did not complete — 1 failure(s)`.
-
-The fork-owned server on 8791 was stopped and its temporary store removed after the checks completed; port 8790 (`pi-sliced-author.service`) was untouched.
+The sandbox enables codemode (`--tools +codemode`) for the MCP channel (`docs/contracts/serve.md`). The cost check defaults to genuinely admitted Candidates and writes its summary to `server/harness/out/cost.json`; the serve check writes `server/harness/out/serve.json`. Infrastructure failures call `Verdict.abort`: missing catalogues or incomplete scenarios cannot accidentally print PASS. Frozen files match `scripts/frozen.sha256` (`scripts/check-frozen` passed). A missing-catalogue negative check exited 1 with `FAIL check-cost (proof 7): measurement did not complete — 1 failure(s)`. (Historical two-channel A/B comparisons were run at commit `16d454460858b9f4a0404896ac3ff951b6fca477` against a temporary server on port 8791.)

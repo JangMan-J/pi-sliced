@@ -5,7 +5,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { mcp, emit } from './mcp.ts';
 import { toolResults } from "../rpc.ts";
-import { agentName, requireSeam, serve, state } from "./common.ts";
+import { requireSeam, serve, state } from "./common.ts";
 
 export default async function (h: Harness) {
   const { ids, probes, allow } = h.args as { ids: string[]; probes: Array<[string, number]>; allow: [string, number] };

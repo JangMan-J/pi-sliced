@@ -91,8 +91,8 @@ export function traceFile(candidate, revision) {
 export function readTrace(candidate, revision) {
   const path = traceFile(candidate, revision);
   const trace = JSON.parse(readFileSync(path, "utf8"));
-  // Only `status`, `source`, `skillPath`, `files[].{path,size,blob}`, `outside[].{kind,name}` and
-  // `namedSkills` are read; trace/1 and trace/2 agree on them.
+  // Only `status`, `source`, `skillPath`, `files[].{path,size,blob}`, `outside[].{kind,name}`,
+  // `namedSkills` and `licence.{path,spdx}` are read; trace/1 and trace/2 agree on them.
   if (!TRACE_FORMATS.includes(trace.format)) throw new Error(`${candidate}@${revision}: format ${trace.format}`);
   if (trace.candidate !== candidate || trace.revision !== revision) {
     throw new Error(`${path}: records ${trace.candidate}@${trace.revision}`);
@@ -189,17 +189,22 @@ export function cloneDir(source) {
   return dir;
 }
 
-/** path → git mode for every blob in the tree at `revision` (no blob fetch). */
-export function treeModes(source, revision) {
+/** path → { mode, blob } for every blob in the tree at `revision` (no blob fetch). */
+export function treeEntries(source, revision) {
   const out = git(cloneDir(source), ["ls-tree", "-r", "-z", "--full-tree", revision], undefined, { GIT_NO_LAZY_FETCH: "1" });
-  const modes = new Map();
+  const entries = new Map();
   for (const rec of out.toString("utf8").split("\0")) {
     if (!rec) continue;
     const tab = rec.indexOf("\t");
-    const [mode, type] = rec.slice(0, tab).split(/\s+/);
-    if (type === "blob") modes.set(rec.slice(tab + 1), mode);
+    const [mode, type, blob] = rec.slice(0, tab).split(/\s+/);
+    if (type === "blob") entries.set(rec.slice(tab + 1), { mode, blob });
   }
-  return modes;
+  return entries;
+}
+
+/** path → git mode for every blob in the tree at `revision` (no blob fetch). */
+export function treeModes(source, revision) {
+  return new Map([...treeEntries(source, revision)].map(([p, e]) => [p, e.mode]));
 }
 
 /** Bytes of the given blobs from the clone of `source`, fetching missing ones from its origin in one batch. */
@@ -486,6 +491,31 @@ export function isHeavy(fp) {
   return fp.bytes > HEAVY_BYTES || fp.outside.some((o) => HEAVY_OUTSIDE_KINDS.includes(o.kind));
 }
 
+// ---------------------------------------------------------------- licence
+
+/** NOTICE file names looked for beside the licence file and at the repo root. */
+export const NOTICE_NAMES = ["NOTICE", "NOTICE.txt", "NOTICE.md"];
+
+// Placeholders of licence templates ("Copyright [yyyy] [name of copyright owner]", "<year> <name of author>", …).
+const TEMPLATE = /[[{<]\s*(yyyy|year|name|owner|author|holder|copyright holder|fullname|full name)[^\]}>]*[\]}>]/i;
+
+/**
+ * The first real copyright line of a licence or NOTICE text, trimmed, or null: a line starting
+ * with "Copyright" or "©" that carries a year or a (c)/© sign and is not a template line.
+ * The Free Software Foundation's copyright on the GPL family's own text is not the work's.
+ */
+export function copyrightLine(text) {
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!/^(copyright\b|©)/i.test(line)) continue;
+    if (!/\d{4}|©|\(c\)/i.test(line)) continue;
+    if (TEMPLATE.test(line)) continue;
+    if (/free software foundation/i.test(line)) continue;
+    return line;
+  }
+  return null;
+}
+
 // ---------------------------------------------------------------- store paths
 
 export function blobPath(sha) {
@@ -499,6 +529,14 @@ export function detailPath(candidate, revision) {
     throw new Error(`bad skill id: ${candidate}@${revision}`);
   }
   return join(storeRoot(), "skills", owner, repo, `${name}@${revision}.json`);
+}
+
+export function licencePath(candidate, revision) {
+  const [owner, repo, name, ...rest] = candidate.split("/");
+  if (rest.length || ![owner, repo, name].every((s) => SEGMENT.test(s ?? "")) || !SHA.test(revision)) {
+    throw new Error(`bad skill id: ${candidate}@${revision}`);
+  }
+  return join(storeRoot(), "licences", owner, repo, `${name}@${revision}.json`);
 }
 
 export function cataloguePath(name) {

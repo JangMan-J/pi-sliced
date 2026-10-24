@@ -4,6 +4,8 @@
 //   GET /v1/catalogues/<name>                         → Catalogue (application/json)
 //   GET /v1/skills/<owner>/<repo>/<name>@<revision>   → Detail (application/json, immutable)
 //   GET /v1/blobs/<sha>                               → raw bytes (application/octet-stream, immutable)
+//   GET /v1/licences/<owner>/<repo>/<name>@<revision> → LicenceText (application/json, immutable;
+//                                                       404 when the Trace names no licence)
 //
 // Anything else is 404; a known path with another method is 405. One line per request
 // goes to stderr (the journal under systemd): time, remote ip, method, path, status, bytes.
@@ -15,7 +17,7 @@ import { createReadStream, readFileSync, statSync } from "node:fs";
 import { createServer } from "node:https";
 import { homedir } from "node:os";
 import { join } from "node:path";
-import { blobPath, cataloguePath, detailPath } from "./lib.mjs";
+import { blobPath, cataloguePath, detailPath, licencePath } from "./lib.mjs";
 
 const SEG = "(?!\\.{1,2}(?:/|@|$))[A-Za-z0-9_.-]+";
 const ROUTES = [
@@ -27,6 +29,12 @@ const ROUTES = [
     immutable: true,
   },
   { re: /^\/v1\/blobs\/([0-9a-f]{40})$/, file: ([sha]) => blobPath(sha), type: "application/octet-stream", immutable: true },
+  {
+    re: new RegExp(`^/v1/licences/(${SEG})/(${SEG})/(${SEG})@([0-9a-f]{40})$`),
+    file: ([owner, repo, name, revision]) => licencePath(`${owner}/${repo}/${name}`, revision),
+    type: "application/json",
+    immutable: true,
+  },
 ];
 
 /** Route a raw request target to { file, type, immutable }, or null. No decoding: `%`, `?` and `#` never match. */

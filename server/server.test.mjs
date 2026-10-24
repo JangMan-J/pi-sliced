@@ -15,6 +15,8 @@ const lib = await import("./lib.mjs");
 const { storeTrace } = await import("./build-store.mjs");
 const buildCatalogueModule = await import("./build-catalogue.mjs");
 const { route, handler } = await import("./author-server.mjs");
+// The tracer's clones, before a test below points PI_SLICED_GIT_CACHE at a local fixture.
+const realGitCache = lib.gitCacheRoot();
 
 describe("blob SHA", () => {
   test("git blob SHA-1 of known contents", () => {
@@ -132,7 +134,7 @@ describe("Listings from the current Trace and its Classification", () => {
   };
   const listing = (candidate) => {
     const t = trace(candidate);
-    return buildDetail(t, lib.readClassification(t), { domain: "d", summary: "s" }, allModes(t), fakeMd);
+    return buildDetail(t, lib.readClassification(t), { domain: "d", summary: "s" }, allModes(t), fakeMd, null);
   };
   test("anthropics/skills/canvas-design", () => {
     const l = listing("anthropics/skills/canvas-design");
@@ -174,7 +176,7 @@ describe("Listings from the current Trace and its Classification", () => {
   test("fails loudly: Heavy disagreement, missing short, no Classification", () => {
     const t = trace("mattpocock/skills/tdd");
     const cl = lib.readClassification(t);
-    const build = (c) => buildDetail(t, { ...cl, classification: c }, { domain: "d", summary: "s" }, allModes(t), fakeMd);
+    const build = (c) => buildDetail(t, { ...cl, classification: c }, { domain: "d", summary: "s" }, allModes(t), fakeMd, null);
     assert.throws(() => build({ ...cl.classification, heavy: { heavy: true, because: ["x"] } }), /glossary rule/);
     const { short: _s, ...noShort } = cl.classification.footprint;
     assert.throws(() => build({ ...cl.classification, footprint: noShort }), /footprint.short/);
@@ -207,12 +209,94 @@ describe("Listings from the current Trace and its Classification", () => {
   });
 });
 
+describe("Licence notice", () => {
+  const { buildDetail, buildLicence, licenceRef } = buildCatalogueModule;
+  const fakeMd = () => Buffer.from("---\nname: x\ndescription: y\n---\n");
+  let saved;
+  before(() => {
+    saved = process.env.PI_SLICED_GIT_CACHE;
+    process.env.PI_SLICED_GIT_CACHE = realGitCache;
+  });
+  after(() => {
+    if (saved === undefined) delete process.env.PI_SLICED_GIT_CACHE;
+    else process.env.PI_SLICED_GIT_CACHE = saved;
+  });
+  const build = (candidate) => {
+    const t = lib.resolvedTraces().find((x) => x.candidate === candidate);
+    assert.ok(t, `stored Trace for ${candidate}`);
+    const tree = lib.treeEntries(t.source, t.revision);
+    const licence = buildLicence(t, tree, (shas) => lib.readCloneBlobs(t.source, shas));
+    const modes = new Map([...tree].map(([p, e]) => [p, e.mode]));
+    const detail = buildDetail(t, lib.readClassification(t), { domain: "d", summary: "s" }, modes, fakeMd, licence);
+    return { t, licence, detail };
+  };
+  test("mattpocock/skills/tdd: MIT, copyright from LICENSE", () => {
+    const { t, licence, detail } = build("mattpocock/skills/tdd");
+    assert.equal(licence.format, "pi-sliced.licence/1");
+    assert.equal(licence.spdx, "MIT");
+    assert.equal(licence.copyright, "Copyright (c) 2026 Matt Pocock");
+    assert.equal(licence.files[0].path, "LICENSE");
+    for (const f of licence.files) assert.equal(lib.gitBlobSha(Buffer.from(f.text, "utf8")), f.blob);
+    assert.deepEqual(detail.licence, {
+      spdx: "MIT",
+      copyright: "Copyright (c) 2026 Matt Pocock",
+      path: "LICENSE",
+      route: `/v1/licences/mattpocock/skills/tdd@${t.revision}`,
+    });
+    assert.deepEqual(detail.files.map((f) => f.path), t.files.map((f) => f.path));
+  });
+  test("anthropics/skills/canvas-design: Apache-2.0 from its own folder", () => {
+    const { t, licence, detail } = build("anthropics/skills/canvas-design");
+    assert.equal(detail.licence.spdx, "Apache-2.0");
+    assert.equal(detail.licence.path, "skills/canvas-design/LICENSE.txt");
+    assert.equal(detail.licence.copyright, "Copyright 2026 Anthropic, PBC.");
+    assert.ok(licence.files[0].text.includes("Apache License"));
+    assert.deepEqual(detail.files.map((f) => f.path), t.files.map((f) => f.path));
+  });
+  test("openai/plugins/game-ui-frontend: no licence, and its route 404s", async () => {
+    const { t, licence, detail } = build("openai/plugins/game-ui-frontend");
+    assert.equal(licence, null);
+    assert.equal(detail.licence, null);
+    assert.equal(licenceRef(null), null);
+    const r = route(`/v1/licences/openai/plugins/game-ui-frontend@${t.revision}`);
+    assert.ok(r);
+    assert.equal(existsSync(r.file), false);
+  });
+  test("NOTICE files beside the licence and at the root; NOTICE's copyright first", () => {
+    const blob = (text) => lib.gitBlobSha(Buffer.from(text));
+    const texts = {
+      "pkg/LICENSE": "Apache License\n   Copyright [yyyy] [name of copyright owner]\n",
+      "pkg/NOTICE": "Some Product\nCopyright 2024 Pkg Authors\n",
+      "NOTICE.md": "Copyright (c) 2023 Root Org\n",
+      "pkg/README.md": "readme\n",
+    };
+    const tree = new Map(Object.entries(texts).map(([p, t]) => [p, { mode: "100644", blob: blob(t) }]));
+    const bytes = new Map(Object.values(texts).map((t) => [blob(t), Buffer.from(t)]));
+    const trace = { candidate: "o/r/n", source: "o/r", revision: "a".repeat(40), licence: { path: "pkg/LICENSE", spdx: "Apache-2.0" } };
+    const l = buildLicence(trace, tree, () => bytes);
+    assert.deepEqual(l.files.map((f) => f.path), ["pkg/LICENSE", "pkg/NOTICE", "NOTICE.md"]);
+    assert.equal(l.copyright, "Copyright 2024 Pkg Authors");
+    const bad = new Map(bytes);
+    bad.set(blob(texts["pkg/NOTICE"]), Buffer.from("tampered\n"));
+    assert.throws(() => buildLicence(trace, tree, () => bad), /hashes to/);
+    assert.throws(() => buildLicence({ ...trace, licence: { path: "LICENSE", spdx: null } }, tree, () => bytes), /not in the tree/);
+  });
+  test("template copyright lines are skipped", () => {
+    assert.equal(lib.copyrightLine("   Copyright [yyyy] [name of copyright owner]\n"), null);
+    assert.equal(lib.copyrightLine("Copyright (c) <year> <copyright holders>\nCopyright {yyyy} {name of copyright owner}\n"), null);
+    assert.equal(lib.copyrightLine("Copyright (C) 2007 Free Software Foundation, Inc.\n    Copyright (C) <year>  <name of author>\n"), null);
+    assert.equal(lib.copyrightLine("Copyright and Related Rights\n© 2025 Real Owner\n"), "© 2025 Real Owner");
+    assert.equal(lib.copyrightLine("  Copyright [yyyy] [name of copyright owner]\n  Copyright 2026 Anthropic, PBC.\n"), "Copyright 2026 Anthropic, PBC.");
+  });
+});
+
 describe("HTTP surface", () => {
-  test("routes accept only the three shapes and never traverse", () => {
+  test("routes accept only the four shapes and never traverse", () => {
     const rev = "a".repeat(40);
     assert.ok(route("/v1/catalogues/check-nine"));
     assert.ok(route(`/v1/skills/o/r/n@${rev}`));
     assert.ok(route(`/v1/blobs/${rev}`));
+    assert.ok(route(`/v1/licences/o/r/n@${rev}`));
     for (const bad of [
       "/v1/catalogues/../x",
       "/v1/catalogues/a/b",
@@ -225,6 +309,9 @@ describe("HTTP surface", () => {
       `/v1/skills/o/r/n@${rev.slice(1)}`,
       `/v1/blobs/${rev.toUpperCase()}`,
       `/v1/blobs/${rev}/`,
+      `/v1/licences/o/r/n@${rev.slice(1)}`,
+      `/v1/licences/o/../n@${rev}`,
+      `/v1/licences/o/r@${rev}`,
       "/v1/blobs/%2e%2e",
       "/",
     ]) {
@@ -258,6 +345,13 @@ describe("HTTP surface", () => {
       assert.equal((await get("/v1/blobs/../../etc/passwd")).status, 404);
       assert.equal((await get(`/v1/blobs/${sha}`, "POST")).status, 405);
       assert.equal((await get("/v1/catalogues/none")).status, 404);
+      const rev = "b".repeat(40);
+      lib.writeJson(lib.licencePath("o/r/n", rev), { format: "pi-sliced.licence/1", id: "o/r/n" });
+      const lic = await get(`/v1/licences/o/r/n@${rev}`);
+      assert.equal(lic.status, 200);
+      assert.equal(lic.headers["content-type"], "application/json");
+      assert.equal(JSON.parse(lic.body).format, "pi-sliced.licence/1");
+      assert.equal((await get(`/v1/licences/o/r/none@${rev}`)).status, 404);
     } finally {
       server.close();
     }

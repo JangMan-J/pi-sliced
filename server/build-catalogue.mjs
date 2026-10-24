@@ -13,24 +13,33 @@
 // (docs/contracts/classification.md); a Candidate without one fails the build. Footprint counts
 // come from the Trace; summary, short, heavy, markers, security and companions from the
 // Classification, whose Heavy must agree with the glossary rule applied to the Trace.
+// The governing licence named by the Trace's `licence.path`, with any NOTICE beside it or at the
+// repo root, is written to `licences/<owner>/<repo>/<name>@<revision>.json` (LicenceText) and
+// referenced from the Listing (`licence`); it accompanies the skill and is not in its `files`.
 import { spawnSync } from "node:child_process";
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { existsSync, readFileSync, rmSync } from "node:fs";
+import { join, posix } from "node:path";
 import { storeTrace } from "./build-store.mjs";
 import {
   REPO,
   blobPath,
   cataloguePath,
   cloneDir,
+  copyrightLine,
   detailPath,
   footprint,
   hasClassification,
   isHeavy,
+  licencePath,
+  NOTICE_NAMES,
   parseFrontmatter,
+  readCloneBlobs,
   readClassification,
   readTrace,
   resolvedTraces,
-  treeModes,
+  treeEntries,
+  verifyBlob,
+  writeAtomic,
   writeJson,
 } from "./lib.mjs";
 
@@ -39,10 +48,71 @@ const CHECK_DOMAIN = "check";
 const CHECK_DOMAIN_LINE = "Traced Candidates admitted for checks, whatever their Determinations say.";
 
 /**
- * Listing + Detail for one Trace and its Classification (`{ classification, path }` from
- * readClassification). `modes` maps path → git mode at the Revision.
+ * LicenceText of the Trace's governing licence (`licence.path`) at its Revision, or null when the
+ * Trace names none: the licence file, then NOTICE files beside it and at the repo root, verbatim.
+ * `tree` maps path → { mode, blob } at the Revision; `readBlobs(shas)` returns sha → bytes.
+ * Every blob is verified against its SHA and must be UTF-8.
  */
-export function buildDetail(trace, { classification: c, path: classificationPath }, { domain, summary }, modes, readBlob) {
+export function buildLicence(trace, tree, readBlobs) {
+  const lic = trace.licence;
+  if (!lic?.path) return null;
+  if (!tree.has(lic.path)) throw new Error(`${trace.candidate}: licence ${lic.path} is not in the tree at ${trace.revision}`);
+  const dir = posix.dirname(lic.path);
+  const paths = [lic.path];
+  for (const d of new Set([dir === "." ? "" : dir, ""])) {
+    for (const n of NOTICE_NAMES) {
+      const p = d ? `${d}/${n}` : n;
+      if (tree.has(p) && !paths.includes(p)) paths.push(p);
+    }
+  }
+  const shas = paths.map((p) => tree.get(p).blob);
+  const bytes = readBlobs(shas);
+  const decoder = new TextDecoder("utf-8", { fatal: true, ignoreBOM: true });
+  const files = paths.map((path, i) => {
+    const b = bytes.get(shas[i]);
+    if (!b) throw new Error(`${trace.candidate}: blob ${shas[i]} (${path}) not returned by git`);
+    verifyBlob(b, shas[i]);
+    let text;
+    try {
+      text = decoder.decode(b);
+    } catch {
+      throw new Error(`${trace.candidate}: ${path} is not UTF-8`);
+    }
+    return { path, blob: shas[i], text };
+  });
+  let copyright = null;
+  for (const f of [...files.slice(1), files[0]]) {
+    copyright = copyrightLine(f.text);
+    if (copyright) break;
+  }
+  return {
+    format: "pi-sliced.licence/1",
+    id: trace.candidate,
+    source: trace.source,
+    revision: trace.revision,
+    spdx: lic.spdx ?? null,
+    copyright,
+    files,
+  };
+}
+
+/** The Listing's LicenceRef for a LicenceText, or null. */
+export function licenceRef(text) {
+  if (!text) return null;
+  return {
+    spdx: text.spdx,
+    copyright: text.copyright,
+    path: text.files[0].path,
+    route: `/v1/licences/${text.id}@${text.revision}`,
+  };
+}
+
+/**
+ * Listing + Detail for one Trace and its Classification (`{ classification, path }` from
+ * readClassification). `modes` maps path → git mode at the Revision; `licence` is its LicenceText or null.
+ */
+export function buildDetail(trace, { classification: c, path: classificationPath }, { domain, summary }, modes, readBlob, licence) {
+  if (licence === undefined) throw new Error(`${trace.candidate}: buildDetail needs its licence (LicenceText or null)`);
   const own = `${trace.skillPath}/SKILL.md`;
   const md = trace.files.find((f) => f.path === own);
   if (!md) throw new Error(`${trace.candidate}: ${own} is not in its Trace`);
@@ -86,6 +156,7 @@ export function buildDetail(trace, { classification: c, path: classificationPath
     security: c.security,
     companions: c.companions,
     classification: classificationPath,
+    licence: licenceRef(licence),
     files,
     skillMd,
   };
@@ -145,14 +216,28 @@ export function buildCatalogue(name) {
   if (spec.name !== name) throw new Error(`server/catalogues/${name}.json names itself "${spec.name}"`);
   cataloguePath(name); // validates the name
   const { domains, admit } = admissions(spec);
-  const modesBySourceRev = new Map();
+  const trees = new Map();
   const readBlob = (sha) => readFileSync(blobPath(sha));
   const skills = [];
   for (const { trace, domain, summary } of admit) {
     storeTrace(trace);
     const key = `${trace.source}@${trace.revision}`;
-    if (!modesBySourceRev.has(key)) modesBySourceRev.set(key, treeModes(trace.source, trace.revision));
-    const detail = buildDetail(trace, readClassification(trace), { domain, summary }, modesBySourceRev.get(key), readBlob);
+    if (!trees.has(key)) trees.set(key, treeEntries(trace.source, trace.revision));
+    const tree = trees.get(key);
+    const modes = new Map([...tree].map(([p, e]) => [p, e.mode]));
+    const licence = buildLicence(trace, tree, (shas) => readCloneBlobs(trace.source, shas));
+    if (licence) {
+      for (const f of licence.files) {
+        if (existsSync(blobPath(f.blob))) continue;
+        const bytes = Buffer.from(f.text, "utf8");
+        verifyBlob(bytes, f.blob);
+        writeAtomic(blobPath(f.blob), bytes);
+      }
+      writeJson(licencePath(trace.candidate, trace.revision), licence);
+    } else {
+      rmSync(licencePath(trace.candidate, trace.revision), { force: true });
+    }
+    const detail = buildDetail(trace, readClassification(trace), { domain, summary }, modes, readBlob, licence);
     writeJson(detailPath(trace.candidate, trace.revision), detail);
     skills.push(listingOf(detail));
   }

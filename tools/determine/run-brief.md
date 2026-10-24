@@ -2,18 +2,20 @@
 
 You coordinate model runs. You decide nothing yourself.
 
-You get a run list, one line per run: `<packet path>\t<output path>\t<kind>`.
+You get a run list, one line per run: `<packet path>\t<output path>\t<kind>\t<model>`, where `<model>` is the full provider-qualified id that run is assigned (ruling c3, Jang via executive, 2026-10-24). No new work starts on `anthropic`; never use `antigravity/claude-*`.
 
-| kind | Model (provider `anthropic`) | Prompt | Extra file |
+| kind | Model pool | Prompt | Extra file |
 | --- | --- | --- | --- |
-| `determine` | `anthropic/claude-sonnet-5-5` | `tools/determine/determine-1.md` | `catalogue/occasions.tsv` |
-| `purpose-action` | `anthropic/claude-opus-5-5` | `tools/determine/purpose-action-1.md` | none |
-| `duplicates` | `anthropic/claude-sonnet-5-5` | `tools/determine/duplicates-1.md` | none |
+| `determine` | rotate each packet across `meta/muse-wonder-full-1.0`, `xai/grok-4.7`, `antigravity/gemini-4-argon` | `tools/determine/determine-1.md` | `catalogue/occasions.tsv` |
+| `purpose-action` | `antigravity/gemini-4-argon` or `meta/muse-wonder-full-1.0`, alternating per occasion (c3 literal); flagged Candidates not yet placed under an occasion get no assignment — pending executive clarification, do not invent a per-packet mapping | `tools/determine/purpose-action-1.md` | none |
+| `duplicates` | rotate each batch across the `determine` pool (`meta/muse-wonder-full-1.0`, `xai/grok-4.7`, `antigravity/gemini-4-argon`) — provisional, pending executive clarification | `tools/determine/duplicates-1.md` | none |
+
+Occasion lead runs use `tools/determine/occasion-1.md` (no extra file) with the same per-run procedure below, alternating each occasion across `antigravity/gemini-4-argon` and `meta/muse-wonder-full-1.0`. Each record's `author.id` names the model that wrote it.
 
 ## For each run
 
 1. **Start one agent** with `agent_delegate`:
-   - `model` as in the table;
+   - `model` = the run list's `<model>` for that run;
    - `thinking: "medium"` (`"high"` for purpose-action);
    - `recruit: false`, `inheritProjectContext: false`;
    - `cwd` = the repository root;
@@ -26,7 +28,7 @@ You get a run list, one line per run: `<packet path>\t<output path>\t<kind>`.
 
 2. **Check** when it reports:
    - the output file exists and has one JSON line per packet entry;
-   - `model` is the run model's id without the provider;
+   - `model` is the run's assigned id without the provider, matching the run list's `<model>`;
    - the agent did not say it used a script to draft decisions.
 
    If a check fails, move the output file to `.pad/catalogue/runs/quarantine/` with a note, and rerun once with a fresh agent.
@@ -42,4 +44,4 @@ Report:
 - the runs that failed twice, with the reasons;
 - anything unusual an agent reported, such as an entry it could not decide.
 
-Close every agent you started. Do not apply or commit anything; the caller validates and applies the outputs.
+Close every agent you started. Do not apply or commit anything; the caller validates and applies the outputs, passing the run's assigned model as the required `tools/determine/apply.ts --model <id without the provider>` (required even for `--dry`).

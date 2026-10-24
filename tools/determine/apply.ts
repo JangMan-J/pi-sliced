@@ -1,6 +1,8 @@
 // Validate a determine-1 run's output against its packet and the policy checks, then append one
 // Determination per line to the store, authored by the model that wrote it.
-//   node tools/determine/apply.ts <packet.md> <output.jsonl> [--dry]
+//   node tools/determine/apply.ts <packet.md> <output.jsonl> --model <id> [--dry]
+// `--model` is required, including for `--dry`. It pins the packet's assigned run model (the id
+// without the provider, as the run list gave it); every output line must name it.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { appendDetermination } from "./store.ts";
@@ -8,6 +10,20 @@ import { appendDetermination } from "./store.ts";
 const ROOT = join(import.meta.dirname, "..", "..");
 const [packetPath, outPath, ...rest] = process.argv.slice(2);
 const dry = rest.includes("--dry");
+const fail = (m: string): never => {
+  console.log(`FAIL ${m}`);
+  process.exit(1);
+};
+const mi = rest.indexOf("--model");
+if (mi < 0) fail("missing required --model <id> (the packet's assigned run model, without the provider)");
+const wantModel = rest[mi + 1];
+if (wantModel === undefined || wantModel.startsWith("--")) fail(`--model needs a value, got ${wantModel ?? "nothing"}`);
+// Ruling c3 (Jang via executive, 2026-10-24): runs rotate across muse-wonder-full-1.0, grok-4.7 and
+// gemini-4-argon, and each record's author.id names the model that wrote it. No Anthropic run was
+// in flight in this pipeline when c3 arrived, so claude-* ids are rejected for new inputs; stored
+// records keep their provenance untouched. Never antigravity/claude-*.
+const MODELS_C3 = ["muse-wonder-full-1.0", "grok-4.7", "gemini-4-argon"];
+if (!MODELS_C3.includes(wantModel)) fail(`--model ${wantModel} is not a determination-run model`);
 const occasions = new Map<string, string>();
 for (const l of readFileSync(join(ROOT, "catalogue/occasions.tsv"), "utf8").split("\n").slice(1)) {
   const [id, , domain] = l.split("\t");
@@ -84,7 +100,8 @@ for (const [k, l] of lines.entries()) {
   if (!Array.isArray(d.triage?.addressed)) bad("triage.addressed not a list");
   if (!o.reason?.trim()) bad("no reason");
   if (POPULARITY.test(o.reason ?? "")) bad(`reason mentions popularity: ${o.reason}`);
-  if (!/^claude-[a-z0-9-]+$/.test(o.model ?? "")) bad(`model ${o.model}`);
+  if (!MODELS_C3.includes(o.model ?? "")) bad(`model ${o.model} is not a determination-run model`);
+  else if (o.model !== wantModel) bad(`model ${o.model}, packet assigned ${wantModel}`);
   records.push({ candidate: o.candidate, revision: p.revision, trace: p.trace, classification: p.classification, decision: d, reason: o.reason, time, author: { kind: "model", id: o.model } });
 }
 for (const id of pinned.keys()) if (!seen.has(id)) problems.push(`${id}: no decision`);

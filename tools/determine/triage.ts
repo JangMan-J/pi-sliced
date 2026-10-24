@@ -1,5 +1,6 @@
 // Triage depth for one Candidate (rulings c2 E2), from its Classification and the dated popularity fact.
-// Flagged (purpose-vs-action review by opus-5-5): any of sends-credentials, agent-override-text,
+// Flagged (purpose-vs-action review under ruling c3 by antigravity/gemini-4-argon or
+// meta/muse-wonder-full-1.0): any of sends-credentials, agent-override-text,
 // persistent-writes, opaque-code, or unpinned-code from a pipe to an interpreter, a pip install from a URL,
 // or go @latest. The one exception stays at static depth: only sends-credentials, or sends-credentials plus
 // plain-runner unpinned-code, with a popularity fact in the top decile of Candidates that have one. The

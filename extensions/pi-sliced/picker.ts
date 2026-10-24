@@ -6,7 +6,11 @@
  * Vendored from the archive's `extensions/slices/checklist.ts` at 29610c7. Changed: the Domains and Skills.sh
  * tabs are two top-level tree branches. Removed: pinning, local slices, popularity ordering and counts, and the
  * Platform/Portfolio views. Added: Footprint and marker columns, the Heavy confirm, the selection status line,
- * the marker legend, and a body-first Inspect.
+ * the marker legend, and a body-first Inspect with the licence one key away.
+ *
+ * Author text (GLOSSARY.md): text from a skill's files is shown verbatim and visibly as the author's. Whole
+ * files (SKILL.md, licence texts) and the frontmatter description sit behind a `│` gutter; names, paths and
+ * excerpts inside the Picker's own lines are quoted (markers.ts `quote`). Everything else is the Picker's text.
  */
 
 import {
@@ -29,14 +33,16 @@ import {
   heavyConfirmLine,
   heavyReasons,
   isRisky,
-  ourWords,
   outsideKindLabel,
+  quote,
+  reasonText,
   securityLabel,
   shortOf,
+  signalText,
   sortMarkers,
   unionMarkers,
 } from "./markers.ts";
-import type { DetailFile, Footprint, Marker, MarkerEntry } from "./types.ts";
+import type { DetailFile, Footprint, LicenceRef, LicenceText, Marker, MarkerEntry } from "./types.ts";
 
 /** What Inspect shows once loaded: the SKILL.md verbatim and, for Catalogue skills, its traced files. */
 export interface InspectContent {
@@ -78,9 +84,44 @@ export interface PickerSkill {
   security?: Record<string, unknown>;
   /** Classification companions, for Inspect details. */
   companions?: { named: unknown[]; pulled: unknown[] };
+  /** Catalogue skills: the source's governing licence at the Revision; null when none was found. */
+  licence?: LicenceRef | null;
   /** Selected when the Picker opens (already Served). */
   checked?: boolean;
   loadInspect?: () => Promise<InspectContent>;
+  /** Catalogue skills with a licence: its full text, for Inspect's licence view. */
+  loadLicence?: () => Promise<LicenceText>;
+}
+
+/** The left gutter that marks a line of Author text: a whole file or the frontmatter description, verbatim. */
+export const AUTHOR_GUTTER = "│";
+
+/** One Inspect body line before wrapping: the Picker's own text, or a line of Author text (drawn behind the gutter). */
+interface BodyLine {
+  text: string;
+  author?: boolean;
+}
+
+/** Wraps one of the Picker's own lines so every quoted name opens and closes on the same line. */
+function wrapQuoted(text: string, width: number): string[] {
+  const lines = wrapTextWithAnsi(text, Math.max(1, width - 2));
+  for (let i = 0; i + 1 < lines.length; i++) {
+    if ((lines[i].match(/`/g) ?? []).length % 2 === 1) {
+      lines[i] += "`";
+      lines[i + 1] = "`" + lines[i + 1];
+    }
+  }
+  return lines;
+}
+
+/** The compact licence line of Inspect: SPDX id and copyright line (quoted, the author's), or why there is none. */
+export function licenceLine(skill: Pick<PickerSkill, "untraced" | "licence">): string {
+  if (skill.untraced) return "unknown: Untraced";
+  if (skill.licence === undefined) return "not listed";
+  if (skill.licence === null) return "No licence found";
+  const { spdx, copyright, path } = skill.licence;
+  const id = spdx ?? `unrecognised licence in ${quote(path)}`;
+  return copyright ? `${id} · “${copyright}”` : id;
 }
 
 export interface PickerResult {
@@ -312,12 +353,14 @@ function fitDetail(detail: string, maxWidth: number): string {
   return cut ? `${cut}…` : truncateToWidth(detail, maxWidth, "…");
 }
 
-/** One line for a passed-through Classification value: strings as they are, objects by their name or path and size. */
+/** One line for a passed-through Classification value (a companion): its name and path quoted, then its size. */
 function describe(value: unknown): string {
-  if (typeof value === "string") return value;
+  if (typeof value === "string") return quote(value);
   if (value && typeof value === "object") {
     const v = value as Record<string, unknown>;
-    const label = [v.name, v.path].filter((x) => typeof x === "string" && x).join(" ") || JSON.stringify(value);
+    const name = typeof v.name === "string" && v.name ? quote(v.name) : "";
+    const path = typeof v.path === "string" && v.path ? quote(v.path) : "";
+    const label = (name && path ? `${name} (${path})` : name || path) || quote(JSON.stringify(value));
     const size = typeof v.files === "number" ? ` (${v.files} ${v.files === 1 ? "file" : "files"}${typeof v.bytes === "number" ? `, ${formatBytes(v.bytes)}` : ""})` : "";
     return label + size;
   }
@@ -371,10 +414,17 @@ export class SlicesPicker {
     scroll: number;
     full: boolean;
     details: boolean;
+    view: "skill" | "licence";
+    licence?: LicenceText;
+    licenceLoading: boolean;
+    licenceError?: string;
+    /** Body rows at the last render, for paging. */
+    rows: number;
   } | null = null;
   private confirm: { add: PickerSkill[]; heavy: PickerSkill[] } | null = null;
   private legend = false;
   private readonly inspectCache = new Map<string, InspectContent>();
+  private readonly licenceCache = new Map<string, LicenceText>();
   private removeInputInterceptor?: () => void;
 
   private readonly skills: PickerSkill[];
@@ -781,8 +831,47 @@ export class SlicesPicker {
 
   private openInspect(skill: PickerSkill): void {
     const cached = this.inspectCache.get(skill.id);
-    this.inspect = { skill, content: cached, loading: !cached && Boolean(skill.loadInspect), scroll: 0, full: true, details: false };
+    this.inspect = {
+      skill,
+      content: cached,
+      loading: !cached && Boolean(skill.loadInspect),
+      scroll: 0,
+      full: true,
+      details: false,
+      view: "skill",
+      licence: this.licenceCache.get(skill.id),
+      licenceLoading: false,
+      rows: INSPECT_ROWS - 2,
+    };
     if (!cached && skill.loadInspect) this.fetchInspect(skill);
+  }
+
+  /** `l`: the licence view and back. The full text is fetched once, when first asked for. */
+  private toggleLicence(): void {
+    const inspect = this.inspect!;
+    inspect.view = inspect.view === "licence" ? "skill" : "licence";
+    inspect.scroll = 0;
+    const { skill } = inspect;
+    if (inspect.view !== "licence" || inspect.licence || inspect.licenceLoading || !skill.licence || !skill.loadLicence) return;
+    inspect.licenceLoading = true;
+    inspect.licenceError = undefined;
+    skill
+      .loadLicence()
+      .then((text) => {
+        this.licenceCache.set(skill.id, text);
+        if (this.inspect?.skill === skill) {
+          this.inspect.licence = text;
+          this.inspect.licenceLoading = false;
+          this.tui.requestRender();
+        }
+      })
+      .catch((error) => {
+        if (this.inspect?.skill === skill) {
+          this.inspect.licenceError = error instanceof Error ? error.message : String(error);
+          this.inspect.licenceLoading = false;
+          this.tui.requestRender();
+        }
+      });
   }
 
   private fetchInspect(skill: PickerSkill): void {
@@ -822,23 +911,25 @@ export class SlicesPicker {
     lines.push(entries.length ? "Markers:" : "Markers: none");
     for (const entry of entries) {
       lines.push(`  ${glyphOf(entry.marker)} ${shortOf(entry.marker)}`);
-      for (const reason of entry.because) lines.push(`      ${ourWords(reason)}`);
+      for (const reason of entry.because) lines.push(`      ${reasonText(entry.marker, reason)}`);
     }
     const security = Object.entries(skill.security ?? {});
     lines.push(security.length ? "Security signals:" : "Security signals: none");
     for (const [kind, signals] of security) {
       lines.push(`  ${securityLabel(kind)}`);
-      for (const signal of Array.isArray(signals) ? signals : [signals]) lines.push(`      ${ourWords(describe(signal))}`);
+      for (const signal of Array.isArray(signals) ? signals : [signals]) {
+        lines.push(`      ${typeof signal === "string" ? signalText(kind, signal) : describe(signal)}`);
+      }
     }
     const named = skill.companions?.named ?? [];
     const pulled = skill.companions?.pulled ?? [];
     lines.push(named.length || pulled.length ? "Companions:" : "Companions: none");
-    if (named.length) lines.push(`  named by bare name: ${named.map(describe).join(", ")}`);
+    for (const item of named) lines.push(`  named by bare name: ${describe(item)}`);
     for (const item of pulled) lines.push(`  pulls in files of ${describe(item)}`);
     lines.push(footprint.outside.length ? "Outside requirements:" : "Outside requirements: none");
     const byKind = new Map<string, string[]>();
     for (const item of footprint.outside) byKind.set(item.kind, [...(byKind.get(item.kind) ?? []), item.name]);
-    for (const [kind, names] of byKind) lines.push(`  ${outsideKindLabel(kind)}: ${names.join(", ")}`);
+    for (const [kind, names] of byKind) lines.push(`  ${outsideKindLabel(kind)}: ${names.map(quote).join(", ")}`);
     if (footprint.outsideFolder.files === 0) {
       lines.push(`Files outside its folder: none`);
     } else {
@@ -847,7 +938,7 @@ export class SlicesPicker {
         const own = skill.skillPath ? `${skill.skillPath.replace(/\/$/, "")}/` : "";
         for (const file of content.files) {
           if (own && file.path.startsWith(own)) continue;
-          lines.push(`  ${file.path} (${formatBytes(file.size)})`);
+          lines.push(`  ${quote(file.path)} (${formatBytes(file.size)})`);
         }
       } else if (this.inspect?.loading) {
         lines.push("  Loading the file list…");
@@ -856,21 +947,52 @@ export class SlicesPicker {
     return lines;
   }
 
-  private bodyLines(): string[] {
+  /** The body under the compact block: details on request, then the SKILL.md (or summary) or the licence view. */
+  private bodyLines(): BodyLine[] {
     const inspect = this.inspect!;
     const { skill, content } = inspect;
-    const lines: string[] = [];
-    if (inspect.details) lines.push(...this.detailLines(skill, content), "─".repeat(8));
+    const own = (text: string): BodyLine => ({ text });
+    const author = (text: string): BodyLine[] =>
+      text.replace(/\r\n/g, "\n").replace(/\n$/, "").split("\n").map((line) => ({ text: line, author: true }));
+    const lines: BodyLine[] = [];
+    if (inspect.details) lines.push(...this.detailLines(skill, content).map(own), own(""));
+    if (inspect.view === "licence") {
+      if (skill.untraced) lines.push(own("Untraced: no licence was looked for. See its source."));
+      else if (skill.licence === undefined) lines.push(own("No licence is listed for this skill."));
+      else if (skill.licence === null) lines.push(own("No licence found in its source at this Revision."));
+      else if (inspect.licence) {
+        for (const [index, file] of inspect.licence.files.entries()) {
+          if (index > 0) lines.push(own(""));
+          lines.push(own(quote(file.path)), ...author(file.text));
+        }
+      } else if (inspect.licenceLoading) lines.push(own("Loading the licence…"));
+      else if (!skill.loadLicence) lines.push(own(`The licence text is not available here: ${quote(skill.licence.path)}`));
+      if (inspect.licenceError) lines.push(own(""), own(`Licence unavailable: ${inspect.licenceError}`));
+      return lines;
+    }
     if (inspect.full && content) {
-      lines.push(...content.skillMd.replace(/\r\n/g, "\n").replace(/\n$/, "").split("\n"));
+      lines.push(...author(content.skillMd));
     } else {
       const summary = rowSummary(skill);
-      if (summary) lines.push(summary, "");
-      lines.push(skill.description || "No description listed.");
-      if (inspect.full && inspect.loading) lines.push("", "Loading SKILL.md…");
+      if (summary) lines.push(own(summary), own(""));
+      if (skill.description) lines.push(...author(skill.description));
+      else lines.push(own("No description listed."));
+      if (inspect.full && inspect.loading) lines.push(own(""), own("Loading SKILL.md…"));
     }
-    if (inspect.error) lines.push("", `SKILL.md unavailable: ${inspect.error}`);
+    if (inspect.error) lines.push(own(""), own(`SKILL.md unavailable: ${inspect.error}`));
     return lines;
+  }
+
+  /** What the body shows, named in the rule above it. */
+  private bodyTitle(): string {
+    const inspect = this.inspect!;
+    const what =
+      inspect.view === "licence"
+        ? "Licence, verbatim"
+        : inspect.full && inspect.content
+          ? "SKILL.md, verbatim"
+          : "Summary · description, verbatim";
+    return `${inspect.details ? "Details · " : ""}${what}`;
   }
 
   // ── input ────────────────────────────────────────────────────────────
@@ -918,12 +1040,14 @@ export class SlicesPicker {
     }
     const isServeKey = matchesKey(data, "enter") || matchesKey(data, "return");
     if (this.inspect) {
-      const page = INSPECT_ROWS - 2;
+      const page = Math.max(1, this.inspect.rows - 1);
       if (matchesKey(data, "left") || data === " ") {
         this.inspect = null;
-      } else if (data === "f" || data === "F" || matchesKey(data, "tab")) {
+      } else if ((data === "f" || data === "F" || matchesKey(data, "tab")) && this.inspect.view === "skill") {
         this.inspect.full = !this.inspect.full;
         this.inspect.scroll = 0;
+      } else if (data === "l" || data === "L") {
+        this.toggleLicence();
       } else if (data === "d" || data === "D") {
         this.inspect.details = !this.inspect.details;
         this.inspect.scroll = 0;
@@ -1189,10 +1313,16 @@ export class SlicesPicker {
     return lines;
   }
 
-  private styleInspectLine(line: string): string {
+  /** Author text keeps every character; only colour is added. */
+  private styleAuthorLine(line: string): string {
     if (!line) return "";
     if (/^#{1,6}\s+/.test(line)) return this.theme.fg("accent", this.theme.bold(line));
-    if (/^---+$/.test(line.trim()) || /^─+$/.test(line)) return this.theme.fg("dim", line);
+    if (/^---+$/.test(line.trim())) return this.theme.fg("dim", line);
+    return this.highlightWords(line);
+  }
+
+  private styleOwnLine(line: string): string {
+    if (!line) return "";
     if (/^(?:Outside requirements|Files outside its folder|Untraced|It is served)/.test(line)) return this.theme.fg("muted", line);
     return this.highlightWords(line);
   }
@@ -1217,26 +1347,44 @@ export class SlicesPicker {
       : skill.footprint
         ? footprintLine(skill.footprint) + (skill.heavy ? this.theme.fg("warning", " · Heavy") : "")
         : this.theme.fg("warning", "Footprint not listed");
-    const footprintRows = wrapTextWithAnsi(`${this.theme.fg("muted", "Footprint")}  ${footprintText}`, Math.max(1, width - 2))
+    const footprintRows = wrapQuoted(`${this.theme.fg("muted", "Footprint")}  ${footprintText}`, Math.max(1, width - 2))
       .slice(0, 2)
       .map((line) => `  ${line}`);
-    const bodyRows = INSPECT_ROWS - footprintRows.length;
-    const wrapped = this.bodyLines().flatMap((line) =>
-      line === "" ? [""] : wrapTextWithAnsi(this.styleInspectLine(line), Math.max(1, width - 2)),
-    );
+    const licenceText = licenceLine(skill);
+    const licenceRow =
+      `  ${this.theme.fg("muted", "Licence")}    ` +
+      (skill.licence ? licenceText : this.theme.fg(skill.untraced ? "warning" : "muted", licenceText));
+    const bodyRows = INSPECT_ROWS - footprintRows.length - 1;
+    inspect.rows = bodyRows;
+    const gutter = this.theme.fg("dim", AUTHOR_GUTTER);
+    const wrapped = this.bodyLines().flatMap(({ text, author }) => {
+      if (author) {
+        if (!text) return [gutter];
+        return wrapTextWithAnsi(this.styleAuthorLine(text), Math.max(1, width - 4)).map((line) => `${gutter} ${line}`);
+      }
+      return text === "" ? [""] : wrapQuoted(this.styleOwnLine(text), Math.max(1, width - 2));
+    });
     const maxScroll = Math.max(0, wrapped.length - bodyRows);
     inspect.scroll = Math.min(inspect.scroll, maxScroll);
-    const body = wrapped.slice(inspect.scroll, inspect.scroll + bodyRows).map((line) => "  " + line);
+    const body = wrapped.slice(inspect.scroll, inspect.scroll + bodyRows).map((line) => (line ? "  " + line : ""));
     while (body.length < bodyRows) body.push("");
     const last = Math.min(wrapped.length, inspect.scroll + bodyRows);
     const position =
       wrapped.length <= bodyRows
         ? `  (all ${wrapped.length} lines)`
         : `  (lines ${inspect.scroll + 1}–${last} of ${wrapped.length})${last < wrapped.length ? " ↓ more" : " end"}`;
+    const ruleTitle = this.bodyTitle();
+    const rule =
+      width >= visibleWidth(ruleTitle) + 6
+        ? this.theme.fg("border", "── ") +
+          this.theme.fg("muted", ruleTitle) +
+          this.theme.fg("border", " " + "─".repeat(Math.max(0, width - visibleWidth(ruleTitle) - 4)))
+        : this.theme.fg("border", "─".repeat(width));
     return [
       truncateToWidth(title, width),
       ...footprintRows.map((line) => truncateToWidth(line, width)),
-      this.theme.fg("border", "─".repeat(width)),
+      truncateToWidth(licenceRow, width),
+      rule,
       ...body,
       this.theme.fg("dim", truncateToWidth(position, width)),
     ];
@@ -1246,7 +1394,7 @@ export class SlicesPicker {
   private renderConfirm(width: number): string[] {
     const confirm = this.confirm!;
     const lines: string[] = [];
-    const wrap = (text: string) => wrapTextWithAnsi(text, Math.max(1, width - 2)).map((line) => `  ${line}`);
+    const wrap = (text: string) => wrapQuoted(text, Math.max(1, width - 2)).map((line) => `  ${line}`);
     lines.push(...wrap(this.theme.fg("warning", this.theme.bold(confirm.heavy.length === 1 ? "Heavy skill" : `${confirm.heavy.length} Heavy skills`))), "");
     for (const skill of confirm.heavy) {
       lines.push(...wrap(this.theme.bold(heavyConfirmLine(skill.name, skill.footprint!, skill.heavyBecause))));
@@ -1345,8 +1493,9 @@ export class SlicesPicker {
         rule,
         this.renderHintBar([
           ["↑↓/Ctrl+↑↓", "scroll"],
-          ["f", this.inspect.full ? "summary" : "full body"],
+          ...(this.inspect.view === "skill" ? [["f", this.inspect.full ? "summary" : "full body"] as [string, string]] : []),
           ["d", this.inspect.details ? "hide details" : "details"],
+          ["l", this.inspect.view === "licence" ? "SKILL.md" : "licence"],
           ["←/Esc", "back"],
           ["Enter", "serve"],
           ["Ctrl+C", "cancel"],

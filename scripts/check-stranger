@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Proof 3 (KERNEL.md): drives the Picker in a real terminal with tui-test. Exit 0 only when every assertion passes.
-# Env: PI_SLICED_SERVER, PI_SLICED_CATALOGUE (default check-canvas), PI_SLICED_PACKAGE_SOURCE (default git:github.com/JangMan-J/pi-sliced).
+# Env: PI_SLICED_SERVER, PI_SLICED_CATALOGUE (default check-canvas), PI_SLICED_PACKAGE_SOURCE (default git:github.com/JangMan-J/pi-sliced@pi-package).
 set -euo pipefail
 cd "$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
 command -v tui-test >/dev/null || { echo "FAIL stranger: tui-test not found" >&2; exit 1; }

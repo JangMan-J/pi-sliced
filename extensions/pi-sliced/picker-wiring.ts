@@ -1,7 +1,7 @@
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { entryMarkers } from "./markers.ts";
 import { SlicesPicker, type PickerResult, type PickerSkill } from "./picker.ts";
-import type { Catalogue, Detail, Listing, PickerDeps, ServedSkill, UntracedItem } from "./types.ts";
+import type { Catalogue, Detail, LicenceText, Listing, PickerDeps, ServedSkill, UntracedItem } from "./types.ts";
 
 /** A Picker row plus what serving it needs: the Listing (Catalogue) or the skills.sh item (Untraced). */
 export interface PoolEntry {
@@ -10,9 +10,13 @@ export interface PoolEntry {
   item?: UntracedItem;
 }
 
-/** Detail documents fetched for Inspect, reused to serve so a skill is served at the Revision inspected. */
+/**
+ * Detail documents fetched for Inspect, reused to serve so a skill is served at the Revision inspected; and the
+ * licence texts Inspect asked for. Held in memory for one Picker session only.
+ */
 export class DetailCache {
   private readonly details = new Map<string, Promise<Detail>>();
+  private readonly licences = new Map<string, Promise<LicenceText>>();
   private readonly deps: PickerDeps;
   constructor(deps: PickerDeps) {
     this.deps = deps;
@@ -32,6 +36,23 @@ export class DetailCache {
       this.details.set(key, detail);
     }
     return detail;
+  }
+
+  /** The governing licence of a Listing, refused unless it is the one for that skill at that Revision. */
+  licence(listing: Listing): Promise<LicenceText> {
+    const key = `${listing.id}@${listing.revision}`;
+    let text = this.licences.get(key);
+    if (!text) {
+      text = this.deps.catalogue.licence(listing).then((value) => {
+        if (value.id !== listing.id || value.revision !== listing.revision) {
+          throw new Error(`the Author's server answered the licence of ${value.id}@${value.revision} for ${key}`);
+        }
+        return value;
+      });
+      text.catch(() => this.licences.delete(key));
+      this.licences.set(key, text);
+    }
+    return text;
   }
 }
 
@@ -56,10 +77,12 @@ export function catalogueEntry(listing: Listing, details: DetailCache): PoolEntr
       markerEntries: listing.markers,
       security: listing.security,
       companions: listing.companions,
+      licence: listing.licence,
       loadInspect: async () => {
         const detail = await details.get(listing.id, listing.revision);
         return { skillMd: detail.skillMd, files: detail.files };
       },
+      loadLicence: listing.licence ? () => details.licence(listing) : undefined,
     },
   };
 }

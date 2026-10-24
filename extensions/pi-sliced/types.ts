@@ -78,6 +78,33 @@ export interface Listing {
   companions: { named: unknown[]; pulled: unknown[] };
   /** Repo path of the Classification this listing was built from. */
   classification: string;
+  /** The source's governing licence at the Revision (from the Trace's `licence`), or null when none was found. */
+  licence: LicenceRef | null;
+}
+
+/** Licence notice that accompanies a Served skill without being one of its served files. */
+export interface LicenceRef {
+  /** SPDX id, or null when the licence file is not recognised. */
+  spdx: string | null;
+  /** First real copyright line from NOTICE, then the licence file; null when there is none. */
+  copyright: string | null;
+  /** Repo path of the licence file at the Revision. */
+  path: string;
+  /** Server-relative route of the full text: `/v1/licences/<owner>/<repo>/<name>@<revision>`. */
+  route: string;
+}
+
+/** `GET /v1/licences/<owner>/<repo>/<name>@<revision>`: the governing licence and any NOTICE, verbatim. */
+export interface LicenceText {
+  format: "pi-sliced.licence/1";
+  /** The skill id whose governing licence this is. */
+  id: string;
+  source: string;
+  revision: string;
+  spdx: string | null;
+  copyright: string | null;
+  /** The licence file first, then NOTICE files, each verbatim. */
+  files: Array<{ path: string; blob: string; text: string }>;
 }
 
 export interface Catalogue {
@@ -139,6 +166,8 @@ export interface SliceApi {
 export interface CatalogueApi {
   catalogue(): Promise<Catalogue>;
   detail(id: string, revision: string): Promise<Detail>;
+  /** Full licence text for a Listing whose `licence` is non-null. */
+  licence(listing: Listing): Promise<LicenceText>;
 }
 
 export interface SkillsShApi {

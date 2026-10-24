@@ -23,13 +23,14 @@ specs = {
     '10': [('q-sonnet-0.jsonl', 'a10-astra-0.jsonl'),
            ('q-sonnet-1.jsonl', 'a10-astra-1.jsonl')],
     '11': [(f'q11-luna-small-{i:02}.jsonl', f'a11-luna-small-{i:02}.jsonl') for i in range(15)],
+    '13': [(f'grok-q-{i:02}.jsonl', f'grok-a-{i:02}.jsonl') for i in range(4)],
     '12': [('muse-12-prose.q.jsonl', 'muse-12-prose-retry.a.jsonl')] +
           [(f'muse-12-other-{i:02}.q.jsonl', f'muse-12-other-{i:02}.a.jsonl') for i in range(3)],
 }
 for selection in sys.argv[1:]:
     version, _, batch = selection.partition(':')
     selected = specs[version] if not batch else [specs[version][int(batch)]]
-    model = {'10': 'gpt-6-astra', '11': 'gpt-6-luna', '12': 'muse-spark-1.3'}[version]
+    model = {'10': 'gpt-6-astra', '11': 'gpt-6-luna', '12': 'muse-spark-1.3', '13': 'grok-4.7-build-fast'}[version]
     results = collections.defaultdict(lambda: [0, 0])
     disagreements = []
     for qfile, afile in selected:

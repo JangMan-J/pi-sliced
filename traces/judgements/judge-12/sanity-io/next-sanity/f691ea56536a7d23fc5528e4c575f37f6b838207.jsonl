@@ -1,0 +1,1 @@
+{"id":"b82df50d123bca693fdc95250e7836d27da38d820620cb74f02af27ae9058c2c","pullsIn":false,"reason":"The step directs editing the skill's own files during documentation maintenance, a contributor workflow.","judge":"judge-12","model":"muse-spark-1.3","file":".agents/skills/tsdown/references/README.md","line":149,"ref":"SKILL.md","target":".agents/skills/tsdown/SKILL.md"}

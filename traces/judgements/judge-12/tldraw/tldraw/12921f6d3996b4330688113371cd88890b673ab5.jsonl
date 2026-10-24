@@ -1,0 +1,1 @@
+{"id":"1bd8c4fa31a3111f3fd8d4fc1cc14860bf2c4745f8f888422e8a6e80afbff57d","pullsIn":false,"reason":"Sentence names the SKILL.md being authored in the user project rather than the skill-creator own skill file","judge":"judge-12","model":"muse-spark-1.3","file":"skills/skill-creator/references/workflows.md","line":5,"ref":"SKILL.md","target":"skills/skill-creator/SKILL.md"}

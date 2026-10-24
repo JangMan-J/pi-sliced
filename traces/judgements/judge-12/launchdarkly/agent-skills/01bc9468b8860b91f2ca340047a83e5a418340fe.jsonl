@@ -1,0 +1,1 @@
+{"id":"2be9fc41227b7c2db79ae22d5330b1ae25da4aae16f4842c110dfdcf68a57382","pullsIn":true,"reason":"The sentence mentions the main SKILL.md workflow as stopping at single-agent orchestration.","judge":"judge-12","model":"muse-spark-1.3","file":"skills/agentcontrol/migrate/references/agent-graph-reference.md","line":3,"ref":"SKILL.md","target":"skills/agentcontrol/migrate/SKILL.md"}

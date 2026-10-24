@@ -1,0 +1,1 @@
+{"id":"63c3e0e0385a76278b45aacf1315f06687738d348096b7f23e98f2f671138758","pullsIn":true,"reason":"Workflow step directs running the bundled list script when the assistant is missing.","judge":"judge-12","model":"muse-spark-1.3","file":"skills/assistant/references/chat.md","line":13,"ref":"scripts/list.py","target":"skills/assistant/scripts/list.py"}

@@ -5,6 +5,7 @@ import { Type } from "typebox";
 import { type AuthorClient, createAuthorClient, DEFAULT_CATALOGUE, DEFAULT_SERVER, readPinnedCert } from "./author-client.ts";
 import { registerCheckDriver } from "./check-driver.ts";
 import { registerPicker } from "./picker-wiring.ts";
+import { createMcpChannel } from "./mcp-channel.ts";
 import { createSkillsShClient, DEFAULT_GATEWAY } from "./skills-sh.ts";
 import { createSlice, sweepDeadSessions } from "./slice.ts";
 import { SECTION, sectionText, TOOL, TOOL_DESCRIPTION, toolText } from "./surface.ts";
@@ -13,6 +14,8 @@ import type { CatalogueApi } from "./types.ts";
 export default function piSliced(pi: ExtensionAPI): void {
   const env = process.env;
   const server = env.PI_SLICED_SERVER || DEFAULT_SERVER;
+  const channel = env.PI_SLICED_CHANNEL || "tool";
+  if (channel !== "tool" && channel !== "mcp") throw new Error("PI_SLICED_CHANNEL must be tool or mcp");
   // Catalogue listings, Details and licence texts stay in the client's memory: nothing here writes them.
   let author: AuthorClient | undefined;
   const client = (): AuthorClient =>
@@ -32,6 +35,7 @@ export default function piSliced(pi: ExtensionAPI): void {
   /** The tool is active exactly while the Slice is non-empty; every other tool is left as it is. */
   const syncTools = (): void => {
     if (!live) return;
+    if (channel === "mcp") { mcp.sync(); return; }
     const active = pi.getActiveTools();
     const want = slice.entries().length > 0;
     if (want && !active.includes(TOOL)) pi.setActiveTools([...active, TOOL]);
@@ -43,7 +47,9 @@ export default function piSliced(pi: ExtensionAPI): void {
     onChange: syncTools,
   });
 
-  pi.registerTool({
+  const mcp = createMcpChannel(pi, slice, server);
+
+  if (channel === "tool") pi.registerTool({
     name: TOOL,
     label: "Served skill",
     description: TOOL_DESCRIPTION,
@@ -57,6 +63,7 @@ export default function piSliced(pi: ExtensionAPI): void {
 
   pi.on("before_agent_start", (event) => {
     syncTools();
+    if (channel === "mcp") return;
     const text = sectionText(slice.entries());
     if (text) event.systemPromptOptions.sections[SECTION] = text;
     else delete event.systemPromptOptions.sections[SECTION];
@@ -80,6 +87,7 @@ export default function piSliced(pi: ExtensionAPI): void {
     live = false;
     process.off("exit", onExit);
     process.off("SIGINT", onSigint);
+    mcp.close();
     slice.cleanup();
     author?.close();
   });

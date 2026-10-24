@@ -7,6 +7,7 @@
 #   server/build-npm-package                 verify with `npm pack --dry-run`, print the file list
 #   server/build-npm-package --pack DIR      also write the tarball to DIR, print its path last
 #   server/build-npm-package --publish [ARGS] also `npm publish` (ARGS go to npm, e.g. --registry URL)
+#   server/build-npm-package --stage [ARGS]   also `npm stage publish` (stages without 2FA; maintainer approves)
 set -euo pipefail
 repo=$(git -C "$(dirname "$0")" rev-parse --show-toplevel)
 cd "$repo"
@@ -64,5 +65,9 @@ case $mode in
     shift
     npm publish "$@"
     ;;
-  *) echo "usage: server/build-npm-package [--pack DIR | --publish [npm args]]" >&2; exit 2 ;;
+  --stage)
+    shift
+    npm stage publish "$@"
+    ;;
+  *) echo "usage: server/build-npm-package [--pack DIR | --publish [npm args] | --stage [npm args]]" >&2; exit 2 ;;
 esac

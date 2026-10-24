@@ -1,0 +1,42 @@
+name: Publish Package
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+          package-manager-cache: false
+      - name: Ensure npm supports OIDC trusted publishing
+        run: npm install -g npm@latest && npm --version
+      - name: Check frozen set
+        run: scripts/check-frozen
+      - name: Package gate
+        run: |
+          server/build-npm-package
+          pack_dir=$(mktemp -d)
+          install_dir=$(mktemp -d)
+          tgz=$(server/build-npm-package --pack "$pack_dir" | tail -n 1)
+          cd "$install_dir"
+          npm init -y >/dev/null
+          npm install --ignore-scripts --no-audit --no-fund "$tgz"
+          pkg="$install_dir/node_modules/pi-sliced"
+          files=$(cd "$pkg" && find . -type f | sed 's|^\./||' | sort)
+          count=$(wc -l <<<"$files" | tr -d ' ')
+          test "$count" -eq 14
+          bad=$(grep -v -E '^(package\.json|extensions/pi-sliced/[A-Za-z0-9._-]+\.(ts|mjs|pem))$' <<<"$files" || true)
+          test -z "$bad"
+      - name: Publish to npm with OIDC provenance
+        run: server/build-npm-package --publish --access public --provenance

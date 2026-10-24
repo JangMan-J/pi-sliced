@@ -4,8 +4,25 @@ A panel that asks no question itself (Jang, rulings c1 N3). For each question it
 
 | Class | Replays, in order | New questions go to |
 | --- | --- | --- |
-| `outside-skill-folders` | `judge-4`, `judge-5` | `judge-5`: the `judge-4` prompt, run by `anthropic/claude-sonnet-5-5` in batches of about 100 |
-| `prose-directory` | `judge-4`, `judge-5` | `judge-5` |
-| `skill-folder-only` | `judge-4`, `judge-6` | `judge-6`: the `judge-4` prompt, run by `anthropic/claude-haiku-5-5` (the user-project collision check) |
+| `outside-skill-folders` | `judge-4`, `judge-8` | `judge-8`: the `judge-8` prompt, run by `anthropic/claude-sonnet-5-5` in batches of about 100 |
+| `prose-directory` | `judge-4`, `judge-8` | `judge-8` |
+| `skill-folder-only` | `judge-4`, `judge-9` | `judge-9`: the same prompt, run by `anthropic/claude-haiku-5-5` (the user-project collision check) |
 
-Every answer stays in the store of the version that gave it (`traces/judgements/<version>/…`), with its model id. A Trace written under the panel records `judge: "judge-7"`. Every `judge-4` answer stands, so the nine proof-1 Candidates trace exactly as they did under `judge-4`. `judge-5` and `judge-6` are used only after calibration against the stored `judge-4` answers reaches 97% agreement or better in each class.
+Every answer stays in the store of the version that gave it (`traces/judgements/<version>/…`), with its model id. A Trace written under the panel records `judge: "judge-7"`. Every `judge-4` answer stands, so the nine proof-1 Candidates trace exactly as they did under `judge-4`.
+
+## Calibration
+
+Each model was run on the nine proof-1 Candidates' 339 judge-4 questions and compared with the stored `judge-4` answers. A class is used only at 97% or better (`docs/catalogue/calibration/`).
+
+| Version | Model | Class | Agreement |
+| --- | --- | --- | --- |
+| `judge-5` (the `judge-4` prompt) | sonnet-5-5 | outside-skill-folders | 107/107 = 100% |
+| `judge-5` | sonnet-5-5 | prose-directory | 82/91 = 90.1%: not used |
+| `judge-6` (the `judge-4` prompt) | haiku-5-5 | skill-folder-only | 139/141 = 98.6%, superseded by `judge-9` |
+| `judge-8` (adds the F1/F8 clarifications (i)–(iii), 2026-10-24) | sonnet-5-5 | outside-skill-folders | 107/107 = 100% |
+| `judge-8` | sonnet-5-5 | prose-directory | 89/91 = 97.8% |
+| `judge-9` (the same prompt) | haiku-5-5 | skill-folder-only | 141/141 = 100% |
+
+The two remaining `judge-8` disagreements are `visual-design.md:70`, "motion resolves in Step 5 from the local rules directory". `judge-8` answers true, which is the reading clarification (i) gives. `judge-4` answered false.
+
+The panel's table pointed at `judge-5` and `judge-6` from its creation until this calibration. No `judge-5` or `judge-6` answer was ever stored, so no Trace depends on them.

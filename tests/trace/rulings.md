@@ -73,3 +73,9 @@ Add these keys to each `<base>.json`:
   3. Prose verbs: fetch, download, open, read, follow, visit, go to, navigate to, and "install … through/from/via <link>", coming before the URL.
 - **O2 amendments.** An install from a URL counts as a package named by the URL's last path segment without its archive extension (`zoom-videosdk-react-0.0.1`); its host counts under O3. A manifest block (`pubspec.yaml`, `package.json` dependencies, `requirements.txt`, `pyproject` dependencies) in a pulled-in file, followed in the same file by that ecosystem's install command (`flutter pub get`, `npm install`, `pip install -r`, …), counts the dependencies it declares.
 - **S1 contributor workflows (judge-4).** The criterion is a direction that edits the skill's or the repository's own files: contributing, registering or cataloguing a new module, publishing, releasing. Not a keyword list.
+
+## Amendment (Jang via executive, 2026-10-24): clarification of F1 and F8, from judge calibration
+
+- **(i)** A direction to any agent or worker that runs as part of the skill's workflow counts, at any step: a sub-agent or worker the skill dispatches, or a later step of the workflow. ("The frame worker reads `rules/`" and "concrete rules resolve in Step 5 from `rules/`" are directions. If the directory were not served, that step would fail with a missing file.)
+- **(ii)** "Read item X by id from directory D" pulls in D. A directory whose files are read one at a time by id is used as a whole.
+- **(iii)** An explicit prohibition ("never assume `../media-use`", "do not read X") is never a pull-in, in any class.

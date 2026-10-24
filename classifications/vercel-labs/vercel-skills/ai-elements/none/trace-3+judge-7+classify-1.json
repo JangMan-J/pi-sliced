@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/ai-elements",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/ai-elements/none/trace-3+judge-7.json","sha256":"67cd7c3015c712fc28f85c7503ee6b6f0dacbf5c8ebc2b69e3be65653bc442dc"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

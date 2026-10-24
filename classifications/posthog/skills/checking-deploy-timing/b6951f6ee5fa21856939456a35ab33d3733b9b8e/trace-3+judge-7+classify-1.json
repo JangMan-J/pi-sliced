@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/checking-deploy-timing",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/checking-deploy-timing/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"cd7b3a85d42debca5439730d9741d1ffa20ef5d9046da6b5f0cf713878a5073f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3705,"own":{"files":1,"bytes":3705},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB · CLI gh","short":"3.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","content is the gh it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

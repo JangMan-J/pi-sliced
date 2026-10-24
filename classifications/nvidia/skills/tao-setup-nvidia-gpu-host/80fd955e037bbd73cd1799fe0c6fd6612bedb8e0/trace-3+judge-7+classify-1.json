@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-setup-nvidia-gpu-host",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-setup-nvidia-gpu-host/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"acfc81cf7538e96fc7f5252150d040adb778aa498a2cf35f8828270ba1f21612"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":16219,"own":{"files":2,"bytes":16219},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","helm","nvcc","nvidia-smi"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 16 KiB · CLI docker, helm +2","short":"16 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs helm","runs nvcc","runs nvidia-smi"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

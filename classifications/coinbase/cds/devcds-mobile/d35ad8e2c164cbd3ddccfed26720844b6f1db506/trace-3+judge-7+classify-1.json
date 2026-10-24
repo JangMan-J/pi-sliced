@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/cds/devcds-mobile",
+"revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"trace":{"path":"traces/coinbase/cds/devcds-mobile/d35ad8e2c164cbd3ddccfed26720844b6f1db506/trace-3+judge-7.json","sha256":"99eb2df54daf132848eb620fa0a47baf95b1a66397da4672ee297a04338cf4d9"},
+"status":"unresolvable",
+"reason":"no skill folder named devcds-mobile at d35ad8e2c164cbd3ddccfed26720844b6f1db506"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/firecrawl-workflows/firecrawl-research-papers",
+"revision":"d2a986240f9d786ae54fc33fcfd9ad37308e9cc3",
+"trace":{"path":"traces/firecrawl/firecrawl-workflows/firecrawl-research-papers/d2a986240f9d786ae54fc33fcfd9ad37308e9cc3/trace-3+judge-7.json","sha256":"e522f02fbd2fa09a4a42cf260ec8f4cd29566a4f77e70768fff10cb65338a389"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7224,"own":{"files":1,"bytes":7224},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.1 KiB","short":"7.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

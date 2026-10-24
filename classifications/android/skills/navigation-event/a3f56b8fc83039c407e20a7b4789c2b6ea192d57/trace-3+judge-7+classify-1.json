@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"android/skills/navigation-event",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"trace":{"path":"traces/android/skills/navigation-event/a3f56b8fc83039c407e20a7b4789c2b6ea192d57/trace-3+judge-7.json","sha256":"47f1d0d86bae77cdde6ec44161ecf00c1495711d5cf0bd279ae65ad89c472146"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":29998,"own":{"files":5,"bytes":29998},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 29 KiB","short":"29 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

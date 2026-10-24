@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-fastify-api",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-fastify-api/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"8fc3def57c6088b781de4b9f45c3c3f44e9a52091218ac5934610ed28d43ae9f"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-fastify-api at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

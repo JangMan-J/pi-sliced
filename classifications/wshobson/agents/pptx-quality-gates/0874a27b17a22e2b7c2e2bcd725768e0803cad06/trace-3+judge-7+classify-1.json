@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/pptx-quality-gates",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/pptx-quality-gates/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"09dde1c013e59ee778fc246c1fa1cf224f8ebf2da2d49cad35a913c195dddb2b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":13207,"own":{"files":2,"bytes":3502},"otherSkills":{"count":1,"files":1,"bytes":9705},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["defusedxml"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 13 KiB · +1 other skill · packages defusedxml","short":"13 KiB · +1 skill · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs defusedxml"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/pptx-deck-creation/skills/pptx-reference-deck-analysis"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"plugins/pptx-deck-creation/skills/pptx-reference-deck-analysis","files":1,"bytes":9705}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

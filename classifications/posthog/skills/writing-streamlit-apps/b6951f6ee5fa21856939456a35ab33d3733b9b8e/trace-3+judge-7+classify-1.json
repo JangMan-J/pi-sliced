@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/writing-streamlit-apps",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/writing-streamlit-apps/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"5bbbd6b3639e68a999bb94b34da8f2d6322e08be8da8833cd09893f034cf2b6c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5979,"own":{"files":1,"bytes":5979},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.8 KiB","short":"5.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"managing-streamlit-apps","path":"skills/omnibus/managing-streamlit-apps"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

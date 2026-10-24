@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/swiftui-liquid-glass",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/swiftui-liquid-glass/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"c2096413efc99f74a2f462bb23dbe4d4a4e84ee55700ad5e6773b23cc88bd2ef"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11904,"own":{"files":2,"bytes":11904},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB","short":"12 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

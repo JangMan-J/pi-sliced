@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-plugin/nextjs",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel/vercel-plugin/nextjs/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"73527cfc84c2f7e56b40d16a0863b77f1e2c0327b58dbc94bca115d94e7b16fd"},
+"status":"unresolvable",
+"reason":"no skill folder named nextjs at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

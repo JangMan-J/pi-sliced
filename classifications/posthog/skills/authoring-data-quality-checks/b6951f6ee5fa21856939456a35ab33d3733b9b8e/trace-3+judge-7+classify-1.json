@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/authoring-data-quality-checks",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/authoring-data-quality-checks/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"fa60157f3f38e1aed2e201bad091bc87b5354c5a8445d4709c1e521b8f27268c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11047,"own":{"files":1,"bytes":11047},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"debugging-failed-data-quality-checks","path":"skills/omnibus/debugging-failed-data-quality-checks"},{"name":"querying-posthog-data","path":"skills/omnibus/querying-posthog-data"},{"name":"setting-up-data-catalog","path":"skills/omnibus/setting-up-data-catalog"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

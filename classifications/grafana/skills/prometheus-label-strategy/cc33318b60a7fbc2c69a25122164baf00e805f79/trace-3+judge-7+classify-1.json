@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/prometheus-label-strategy",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/prometheus-label-strategy/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"893602016f12925e790bcd0406821bd73859823a22ea1950c5aab3c75ac33dd4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":25721,"own":{"files":1,"bytes":25721},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 25 KiB","short":"25 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"adaptive-metrics","path":"skills/grafana-cloud/adaptive-metrics"},{"name":"alloy","path":"skills/grafana-core/alloy"},{"name":"dpm-finder","path":"skills/grafana-cloud/dpm-finder"},{"name":"prometheus-cardinality-troubleshooter","path":"skills/grafana-cloud/prometheus-cardinality-troubleshooter"},{"name":"promql","path":"skills/grafana-core/promql"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

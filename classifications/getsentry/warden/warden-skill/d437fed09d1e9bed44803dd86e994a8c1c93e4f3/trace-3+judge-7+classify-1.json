@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/warden/warden-skill",
+"revision":"d437fed09d1e9bed44803dd86e994a8c1c93e4f3",
+"trace":{"path":"traces/getsentry/warden/warden-skill/d437fed09d1e9bed44803dd86e994a8c1c93e4f3/trace-3+judge-7.json","sha256":"7e5306010f73026b3bef84128ec8d0dc3326fccee37e16d06d915bc7d8aba09b"},
+"status":"unresolvable",
+"reason":"no skill folder named warden-skill at d437fed09d1e9bed44803dd86e994a8c1c93e4f3"
+}

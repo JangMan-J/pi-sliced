@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wordpress/php-mcp-schema/mcp-php-schema",
+"source":"wordpress/php-mcp-schema",
+"revision":"eeb9d35a9639715e520113a5edcef374d98a5214",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named mcp-php-schema at eeb9d35a9639715e520113a5edcef374d98a5214",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

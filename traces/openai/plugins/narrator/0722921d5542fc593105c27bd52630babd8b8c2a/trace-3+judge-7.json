@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/narrator",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/higgsfield/skills/narrator",
+"status":"resolved",
+"totals":{"files":1,"bytes":9139},
+"files":[
+{"path":"plugins/higgsfield/skills/narrator/SKILL.md","size":9139,"blob":"bd166f78c0109481c773cedbe3eeb78b8f75e100","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"ffmpeg","at":[[0,119]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/higgsfield/skills/narrator","files":1,"bytes":9139}
+],
+"signals":[
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,158]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

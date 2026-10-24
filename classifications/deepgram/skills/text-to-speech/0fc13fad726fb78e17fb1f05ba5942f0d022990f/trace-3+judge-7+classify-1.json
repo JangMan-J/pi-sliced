@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/text-to-speech",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/text-to-speech/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"cca5c25428ea161d9e5513391257e7207775854ae1c0c897bd5b8605d5027c7b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19157,"own":{"files":1,"bytes":19157},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":[],"credential":["DEEPGRAM_API_KEY"],"network":["api.deepgram.com","deepgram.com","developers.deepgram.com"]},"summary":"1 file, 19 KiB · CLI skills · 1 key · 3 hosts","short":"19 KiB · 1 CLI · 1 key · 3 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"network","because":["fetches from api.deepgram.com","fetches from deepgram.com","fetches from developers.deepgram.com"]},{"marker":"credentials","because":["needs DEEPGRAM_API_KEY"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/text-to-speech/SKILL.md:233"]},{"marker":"sends-credentials","because":["DEEPGRAM_API_KEY -> api.deepgram.com: skills/text-to-speech/SKILL.md:38"]}],
+"security":{"fetch-run":["npx skills @ skills/text-to-speech/SKILL.md:233"],"secret-egress":["DEEPGRAM_API_KEY -> api.deepgram.com @ skills/text-to-speech/SKILL.md:38"],"skill-fetch":["npx skills add @ skills/text-to-speech/SKILL.md:233"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"docs","path":"skills/docs"},{"name":"examples","path":"skills/examples"},{"name":"recipes","path":"skills/recipes"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"speech-to-text","path":"skills/speech-to-text"},{"name":"starters","path":"skills/starters"},{"name":"voice-agent","path":"skills/voice-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

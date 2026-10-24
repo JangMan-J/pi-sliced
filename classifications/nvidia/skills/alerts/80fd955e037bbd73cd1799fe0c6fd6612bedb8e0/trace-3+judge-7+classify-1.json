@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/alerts",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/alerts/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"edc73ceebdd1222e2f068105048c36a4ff9ff7e603ef791ab6e79cdd65af9bf4"},
+"status":"unresolvable",
+"reason":"no skill folder named alerts at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-mobile-ads-android-migrate-to-next-gen",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-mobile-ads-android-migrate-to-next-gen/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"cea326859ca4f9d48dc75ac42963632e0f876e979990c15e7a833d448c83535d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":39588,"own":{"files":1,"bytes":39588},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gradle"],"package":[],"mcp-server":[],"credential":[],"network":["dl.google.com"]},"summary":"1 file, 39 KiB · CLI gradle · 1 host","short":"39 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gradle"]},{"marker":"network","because":["fetches from dl.google.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

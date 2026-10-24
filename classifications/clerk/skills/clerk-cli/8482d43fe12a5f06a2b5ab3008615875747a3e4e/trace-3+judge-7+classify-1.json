@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clerk/skills/clerk-cli",
+"revision":"8482d43fe12a5f06a2b5ab3008615875747a3e4e",
+"trace":{"path":"traces/clerk/skills/clerk-cli/8482d43fe12a5f06a2b5ab3008615875747a3e4e/trace-3+judge-7.json","sha256":"7426931d1108e90f42b64aa256f6ac86fbfa966e20c2d99fb2c51fd0e5d894b0"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":103855,"own":{"files":4,"bytes":91333},"otherSkills":{"count":1,"files":1,"bytes":12522},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["clerk","jq"],"package":["clerk"],"mcp-server":[],"credential":["CLERK_PLATFORM_API_KEY","CLERK_SECRET_KEY"],"network":["clerk.com"]},"summary":"5 files, 101 KiB · +1 other skill · CLI clerk, jq · packages clerk · 2 keys · 1 host","short":"101 KiB · +1 skill · 2 CLI · 1 pkg · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs clerk","runs jq"]},{"marker":"installs-packages","because":["installs clerk"]},{"marker":"network","because":["fetches from clerk.com"]},{"marker":"credentials","because":["needs CLERK_PLATFORM_API_KEY","needs CLERK_SECRET_KEY"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/clerk-setup"]},{"marker":"unpinned-code","because":["bunx clerk@latest: skills/clerk-cli/SKILL.md:22, skills/clerk-cli/SKILL.md:82","npx clerk@latest: skills/clerk-cli/SKILL.md:83, skills/clerk-setup/SKILL.md:14, skills/clerk-setup/SKILL.md:60","pnpm dlx clerk@latest: skills/clerk-cli/SKILL.md:84","yarn dlx clerk@latest: skills/clerk-cli/SKILL.md:85"]}],
+"security":{"fetch-run":["bunx clerk@latest @ skills/clerk-cli/SKILL.md:22, skills/clerk-cli/SKILL.md:82","npx clerk@latest @ skills/clerk-cli/SKILL.md:83, skills/clerk-setup/SKILL.md:14, skills/clerk-setup/SKILL.md:60 +12","pnpm dlx clerk@latest @ skills/clerk-cli/SKILL.md:84","yarn dlx clerk@latest @ skills/clerk-cli/SKILL.md:85"]},
+"companions":{"named":[{"name":"clerk","path":"skills/clerk"},{"name":"clerk-billing","path":"skills/clerk-billing"},{"name":"clerk-orgs","path":"skills/clerk-orgs"},{"name":"clerk-setup","path":"skills/clerk-setup"}],"pulled":[{"path":"skills/clerk-setup","files":1,"bytes":12522}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

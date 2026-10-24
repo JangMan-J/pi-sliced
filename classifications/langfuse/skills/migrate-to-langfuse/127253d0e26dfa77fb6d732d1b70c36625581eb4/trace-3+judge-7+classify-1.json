@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langfuse/skills/migrate-to-langfuse",
+"revision":"127253d0e26dfa77fb6d732d1b70c36625581eb4",
+"trace":{"path":"traces/langfuse/skills/migrate-to-langfuse/127253d0e26dfa77fb6d732d1b70c36625581eb4/trace-3+judge-7.json","sha256":"2c1cd9cca36799a93e6f20b0938b6a6446555d8802664524217a78be23729700"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11372,"own":{"files":2,"bytes":11372},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["LANGFUSE_SECRET_KEY"],"network":["langfuse.com"]},"summary":"2 files, 11 KiB · 1 key · 1 host","short":"11 KiB · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from langfuse.com"]},{"marker":"credentials","because":["needs LANGFUSE_SECRET_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"langfuse","path":"skills/langfuse"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

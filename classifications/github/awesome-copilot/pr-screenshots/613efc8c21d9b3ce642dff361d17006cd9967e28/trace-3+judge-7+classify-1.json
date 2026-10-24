@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/pr-screenshots",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/pr-screenshots/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"8ad86b79ddebe0d4f61c5e368de2bb85f9078a05023f37de0e0bbacee80b4680"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4924,"own":{"files":1,"bytes":4924},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["octet-stream","screenshot.png"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.8 KiB · CLI octet-stream, screenshot.png","short":"4.8 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs octet-stream","runs screenshot.png"]}],
+"security":{},
+"companions":{"named":[{"name":"image-annotations","path":"skills/image-annotations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/secops-investigate",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/secops-investigate/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"ade8828367f3d2cde2c01743429dfe4264a72055311ef24ae68735526f59309f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18654,"own":{"files":1,"bytes":18654},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 18 KiB","short":"18 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

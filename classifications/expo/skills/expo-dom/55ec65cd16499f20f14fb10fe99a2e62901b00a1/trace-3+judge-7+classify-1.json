@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/expo-dom",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/expo-dom/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"8c906298b903bf9bd923eb153e7050ed8c8f41002c440cd4f7d05c87e98fe83b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10335,"own":{"files":1,"bytes":10335},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["submit-expo-feedback"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB · CLI submit-expo-feedback","short":"10 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs submit-expo-feedback"]},{"marker":"unpinned-code","because":["npx submit-expo-feedback@latest: plugins/expo/skills/expo-dom/SKILL.md:422"]}],
+"security":{"fetch-run":["npx submit-expo-feedback@latest @ plugins/expo/skills/expo-dom/SKILL.md:422"]},
+"companions":{"named":[{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback"},{"name":"expo-web-to-native","path":"plugins/expo/skills/expo-web-to-native"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

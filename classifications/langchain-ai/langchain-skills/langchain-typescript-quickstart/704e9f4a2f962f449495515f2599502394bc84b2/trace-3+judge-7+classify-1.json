@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langchain-skills/langchain-typescript-quickstart",
+"revision":"704e9f4a2f962f449495515f2599502394bc84b2",
+"trace":{"path":"traces/langchain-ai/langchain-skills/langchain-typescript-quickstart/704e9f4a2f962f449495515f2599502394bc84b2/trace-3+judge-7.json","sha256":"d67b2cc800bd156f1c9320cd6e4aa937d82e6c8837b873d226a931bf4ba2604f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1513,"own":{"files":1,"bytes":1513},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.5 KiB","short":"1.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"langchain-fundamentals","path":"config/skills/langchain-fundamentals"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/next.js/flags",
+"revision":"a04ebd7d22071e581f01409336e9d24be5d57974",
+"trace":{"path":"traces/vercel/next.js/flags/a04ebd7d22071e581f01409336e9d24be5d57974/trace-3+judge-7.json","sha256":"4183f5750ffcd01ac6d713619971e88331b670de9b71948faa0e767f70124d99"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2988,"own":{"files":1,"bytes":2988},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB","short":"2.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

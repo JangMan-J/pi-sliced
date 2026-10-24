@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/agent-skills/new-terraform-provider",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/agent-skills/new-terraform-provider/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"802a0c810d2c3cd626fc267bfe240e6d423a363ad2116e365dc3e2ce8ecdaef3"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":7344,"own":{"files":3,"bytes":7344},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go"],"package":["github.com/hashicorp/terraform-plugin-framework"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 7.2 KiB · CLI go · packages github.com/hashicorp/terraform-plugin-framework","short":"7.2 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs go"]},{"marker":"installs-packages","because":["installs github.com/hashicorp/terraform-plugin-framework"]}],
+"security":{},
+"companions":{"named":[{"name":"provider-configuration","path":"plugins/terraform/skills/provider-configuration"},{"name":"provider-resources","path":"plugins/terraform/skills/provider-resources"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/aks-network-capture",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/aks-network-capture/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"a92d1fbf049017331a238fb6706ee7464db021c21c2681756afd096db2a1c68a"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":79218,"own":{"files":13,"bytes":79218},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Capture","Deploy","Run","Target","The","az","jq","kubectl","nc","no","nslookup","ping","required","resolves","tcpdump"],"package":[],"mcp-server":[],"credential":["RUN_TOKEN"],"network":[]},"summary":"13 files, 77 KiB · CLI Capture, Deploy +13 · 1 key","short":"77 KiB · 15 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["15 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs Capture","runs Deploy","runs jq","runs kubectl","runs nc","runs no","runs nslookup","runs ping","runs required","runs resolves","runs Run","runs Target","runs tcpdump","runs The"]},{"marker":"credentials","because":["needs RUN_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

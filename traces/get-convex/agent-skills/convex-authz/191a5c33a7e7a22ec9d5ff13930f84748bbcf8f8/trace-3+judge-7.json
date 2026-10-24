@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"get-convex/agent-skills/convex-authz",
+"source":"get-convex/agent-skills",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"skillPath":"skills/convex-authz",
+"status":"resolved",
+"totals":{"files":1,"bytes":9239},
+"files":[
+{"path":"skills/convex-authz/SKILL.md","size":9239,"blob":"125dc69331ab2aa381bb27a3a9be2fa25fc1c03e","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"tsc","at":[[0,22]]}
+],
+"regions":[
+{"kind":"own","path":"skills/convex-authz","files":1,"bytes":9239}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx tsc","at":[[0,22]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

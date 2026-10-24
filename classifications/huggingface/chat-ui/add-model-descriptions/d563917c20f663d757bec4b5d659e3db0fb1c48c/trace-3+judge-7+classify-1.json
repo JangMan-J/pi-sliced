@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/chat-ui/add-model-descriptions",
+"revision":"d563917c20f663d757bec4b5d659e3db0fb1c48c",
+"trace":{"path":"traces/huggingface/chat-ui/add-model-descriptions/d563917c20f663d757bec4b5d659e3db0fb1c48c/trace-3+judge-7.json","sha256":"f74fb8ae2e5413704b0f911c95f79c75d581d189d81cbb0ac242d560f2069022"},
+"status":"unresolvable",
+"reason":"no skill folder named add-model-descriptions at d563917c20f663d757bec4b5d659e3db0fb1c48c"
+}

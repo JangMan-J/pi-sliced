@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/win-dev-skills/winui-session-report",
+"revision":"5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e",
+"trace":{"path":"traces/microsoft/win-dev-skills/winui-session-report/5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e/trace-3+judge-7.json","sha256":"ce3c794ac66cf0ca160713069a1f6ab426776e0053cdab8e524dac781eb65438"},
+"status":"unresolvable",
+"reason":"no skill folder named winui-session-report at 5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e"
+}

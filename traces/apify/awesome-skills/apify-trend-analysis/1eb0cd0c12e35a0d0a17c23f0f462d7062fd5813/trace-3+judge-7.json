@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"apify/awesome-skills/apify-trend-analysis",
+"source":"apify/awesome-skills",
+"revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named apify-trend-analysis at 1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

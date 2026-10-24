@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-claude/sentry-sdk-upgrade",
+"revision":"cb3ad7df272ee52326e1f710a866039aecffc460",
+"trace":{"path":"traces/getsentry/sentry-for-claude/sentry-sdk-upgrade/cb3ad7df272ee52326e1f710a866039aecffc460/trace-3+judge-7.json","sha256":"7ee83ec10e84fa058b1cbe601c0226b42900139a0adc5640cd95bdbc2307ba0a"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":34979,"own":{"files":5,"bytes":34979},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@sentry/wizard","npm-check-updates","tsc"],"package":["@sentry/browser","@sentry/node"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 34 KiB · CLI @sentry/wizard, npm-check-updates +1 · packages @sentry/browser +1","short":"34 KiB · 3 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @sentry/wizard","runs npm-check-updates","runs tsc"]},{"marker":"installs-packages","because":["installs @sentry/browser","installs @sentry/node"]},{"marker":"unpinned-code","because":["install @latest: skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:51, skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:61","npx @sentry/wizard: skills-legacy/sentry-sdk-upgrade/SKILL.md:128","npx npm-check-updates: skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:54","npx tsc: skills-legacy/sentry-sdk-upgrade/SKILL.md:187, skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:90"]}],
+"security":{"fetch-run":["install @latest @ skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:51, skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:61","npx @sentry/wizard @ skills-legacy/sentry-sdk-upgrade/SKILL.md:128","npx npm-check-updates @ skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:54","npx tsc @ skills-legacy/sentry-sdk-upgrade/SKILL.md:187, skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md:90"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

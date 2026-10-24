@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/streamlit/checking-changes",
+"revision":"76ac4836ecd332cbedb8f9df5ecc1dbfc568870a",
+"trace":{"path":"traces/streamlit/streamlit/checking-changes/76ac4836ecd332cbedb8f9df5ecc1dbfc568870a/trace-3+judge-7.json","sha256":"152b03126bd8f8152255b097039c435e53123a0a6f90a93c301531dae54b033d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1055,"own":{"files":1,"bytes":1055},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["make"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.0 KiB · CLI make","short":"1.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs make"]},{"marker":"stub","because":["own folder 1.0 KiB (1 file)","content is the make it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

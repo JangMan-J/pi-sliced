@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-agent-augmentation-architect",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-agent-augmentation-architect/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"989aceb4ea6e17a710b44aecfeb5d3212e734bfacea0953fe0c6788efa3041ac"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14460,"own":{"files":1,"bytes":14460},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["twilio"],"credential":[],"network":[]},"summary":"1 file, 14 KiB · MCP twilio","short":"14 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the twilio MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-call-recordings","path":"plugins/twilio-developer-kit/skills/twilio-call-recordings"},{"name":"twilio-conversation-intelligence","path":"plugins/twilio-developer-kit/skills/twilio-conversation-intelligence"},{"name":"twilio-conversation-orchestrator","path":"plugins/twilio-developer-kit/skills/twilio-conversation-orchestrator"},{"name":"twilio-customer-memory","path":"plugins/twilio-developer-kit/skills/twilio-customer-memory"},{"name":"twilio-taskrouter-routing","path":"plugins/twilio-developer-kit/skills/twilio-taskrouter-routing"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

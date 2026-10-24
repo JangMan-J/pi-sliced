@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/com/workers-best-practices",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/com/workers-best-practices/none/trace-3+judge-7.json","sha256":"fa55b9e2a830e0fb9abeea43a131976f80727a21be4d45255784bd98b6631230"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/com.git/' not found"
+}

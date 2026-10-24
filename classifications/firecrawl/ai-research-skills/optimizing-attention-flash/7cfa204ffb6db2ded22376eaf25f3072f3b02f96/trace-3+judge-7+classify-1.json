@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/optimizing-attention-flash",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/optimizing-attention-flash/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"a28052efec2525c8aa14d7ae7d6fb4409e6e23d8c12b8af11b7fb3dab1e10b0b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":24757,"own":{"files":3,"bytes":24757},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["conda","nvidia-smi"],"package":["cuda","flash-attn","torch","transformers"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 24 KiB · CLI conda, nvidia-smi · packages cuda +3","short":"24 KiB · 2 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs conda","runs nvidia-smi"]},{"marker":"installs-packages","because":["installs cuda","installs flash-attn","installs torch","installs transformers"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

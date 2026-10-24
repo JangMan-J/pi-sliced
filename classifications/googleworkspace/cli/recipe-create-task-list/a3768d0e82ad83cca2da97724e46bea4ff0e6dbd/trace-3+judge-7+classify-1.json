@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/recipe-create-task-list",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/recipe-create-task-list/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"37128b787f3cda5ea1179740059abe5a6600657511a0a8654cd3eee1ce607d7a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":942,"own":{"files":1,"bytes":942},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 942 B · CLI gws","short":"942 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gws"]},{"marker":"stub","because":["own folder 942 B (1 file)","content is the gws it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"gws-tasks","path":"skills/gws-tasks"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

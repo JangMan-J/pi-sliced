@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/app-sdk-concepts",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/app-sdk-concepts/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"2e7ae2b8460915f7e3b86a54d98d7e1f7816d578390f28016b81a84072f452cd"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":32368,"own":{"files":7,"bytes":32368},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go","grafana-app-sdk","kind","kubectl","make","minikube"],"package":["github.com/grafana/grafana-app-sdk/cmd/grafana-app-sdk","kind","minikube"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 32 KiB · CLI go, grafana-app-sdk +4 · packages github.com/grafana/grafana-app-sdk/cmd/grafana-app-sdk +2","short":"32 KiB · 6 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs go","runs grafana-app-sdk","runs kind","runs kubectl","runs make","runs minikube"]},{"marker":"installs-packages","because":["installs github.com/grafana/grafana-app-sdk/cmd/grafana-app-sdk","installs kind","installs minikube"]},{"marker":"unpinned-code","because":["go @latest: skills/grafana-app-sdk/app-sdk-concepts/SKILL.md:14, skills/grafana-app-sdk/app-sdk-concepts/references/cli-reference.md:7"]}],
+"security":{"fetch-run":["go @latest @ skills/grafana-app-sdk/app-sdk-concepts/SKILL.md:14, skills/grafana-app-sdk/app-sdk-concepts/references/cli-reference.md:7"]},
+"companions":{"named":[{"name":"cue-kind-definition","path":"skills/grafana-app-sdk/cue-kind-definition"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

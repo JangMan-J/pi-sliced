@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-angular",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-angular/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"71ce1bd89d0ac214e1b60fa10191eb496b6600e81a4f0782be6f46e9cf38bfc5"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":54785,"own":{"files":8,"bytes":54785},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["posthog-js","posthog-node"],"mcp-server":[],"credential":["VITE_POSTHOG_PROJECT_TOKEN"],"network":[]},"summary":"8 files, 54 KiB · packages posthog-js +1 · 1 key","short":"54 KiB · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs posthog-js","installs posthog-node"]},{"marker":"credentials","because":["needs VITE_POSTHOG_PROJECT_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

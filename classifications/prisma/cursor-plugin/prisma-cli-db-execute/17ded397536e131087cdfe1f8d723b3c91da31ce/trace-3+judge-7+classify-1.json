@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-cli-db-execute",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-cli-db-execute/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"ead2d4edaecb3120c24a0b3c14abea72e04f2054e878ccf0e4275bac9f0dbf68"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-cli-db-execute at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

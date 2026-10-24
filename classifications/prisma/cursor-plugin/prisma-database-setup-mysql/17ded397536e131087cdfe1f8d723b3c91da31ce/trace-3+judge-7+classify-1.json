@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-database-setup-mysql",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-database-setup-mysql/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"a0acbd2c753cee44194ec018f5ab8b2316d90f1c2c749c28fe51725a024897b1"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-database-setup-mysql at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

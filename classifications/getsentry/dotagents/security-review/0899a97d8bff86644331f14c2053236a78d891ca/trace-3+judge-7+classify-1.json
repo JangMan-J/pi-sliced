@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/security-review",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/security-review/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"db20066cb4b043bc254f368304dae38fd12a522f367ea6f17de5c817e7064c60"},
+"status":"unresolvable",
+"reason":"no skill folder named security-review at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

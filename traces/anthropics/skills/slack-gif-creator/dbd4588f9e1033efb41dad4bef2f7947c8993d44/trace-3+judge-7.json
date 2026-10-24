@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"anthropics/skills/slack-gif-creator",
+"source":"anthropics/skills",
+"revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+"skillPath":"skills/slack-gif-creator",
+"status":"resolved",
+"totals":{"files":2,"bytes":19186},
+"files":[
+{"path":"skills/slack-gif-creator/LICENSE.txt","size":11345,"blob":"4f881c52d1f72f4cfb720e339e2d35c3058d01a9","how":"path","from":1,"line":4},
+{"path":"skills/slack-gif-creator/SKILL.md","size":7841,"blob":"16660d8ceb77af47986bba1c9176c2ff3f287a91","how":"root"}
+],
+"outside":[
+{"kind":"package","name":"imageio","at":[[1,253]]},
+{"kind":"package","name":"numpy","at":[[1,253]]},
+{"kind":"package","name":"pillow","at":[[1,253]]}
+],
+"regions":[
+{"kind":"own","path":"skills/slack-gif-creator","files":2,"bytes":19186}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/slack-gif-creator/LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

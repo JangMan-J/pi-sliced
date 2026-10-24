@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-keyvault-keys-rust",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-keyvault-keys-rust/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"d20db751cca282e0086f4d3efd9af3c6b861dadede9acc6c0a5410818064763c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7549,"own":{"files":1,"bytes":7549},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo"],"package":["azure_identity","azure_security_keyvault_keys","futures","tokio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.4 KiB · CLI cargo · packages azure_identity +3","short":"7.4 KiB · 1 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo"]},{"marker":"installs-packages","because":["installs azure_identity","installs azure_security_keyvault_keys","installs futures","installs tokio"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

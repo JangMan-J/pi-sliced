@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/erk-gt",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/erk-gt/none/trace-3+judge-7.json","sha256":"8a23f67695f6c1223c7c46b42dfee93d40ceb56784305cf2d8043b5b8f3ee945"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

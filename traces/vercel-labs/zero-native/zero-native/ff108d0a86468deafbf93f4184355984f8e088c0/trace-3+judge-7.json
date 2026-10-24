@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/zero-native/zero-native",
+"source":"vercel-labs/zero-native",
+"revision":"ff108d0a86468deafbf93f4184355984f8e088c0",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named zero-native at ff108d0a86468deafbf93f4184355984f8e088c0",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

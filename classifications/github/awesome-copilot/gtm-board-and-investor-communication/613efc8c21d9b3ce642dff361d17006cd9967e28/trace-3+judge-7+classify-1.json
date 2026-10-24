@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/gtm-board-and-investor-communication",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/gtm-board-and-investor-communication/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"82bb5ea4981569cb6e543af51d0257d5c1fac361996bf0cc335a970a87c96786"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18769,"own":{"files":1,"bytes":18769},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 18 KiB","short":"18 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

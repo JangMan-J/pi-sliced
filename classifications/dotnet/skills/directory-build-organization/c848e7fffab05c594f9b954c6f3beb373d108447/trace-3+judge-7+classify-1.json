@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/directory-build-organization",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/directory-build-organization/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"a252445039bbc95724adb6d61b8399fb4f277fdb64a6b237173515b9ac281a2e"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":19892,"own":{"files":4,"bytes":19892},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 19 KiB · CLI dotnet","short":"19 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]}],
+"security":{},
+"companions":{"named":[{"name":"msbuild","path":"plugins/dotnet/skills/msbuild"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

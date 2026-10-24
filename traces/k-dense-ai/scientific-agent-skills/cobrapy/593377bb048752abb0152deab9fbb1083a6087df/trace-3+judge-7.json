@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"k-dense-ai/scientific-agent-skills/cobrapy",
+"source":"k-dense-ai/scientific-agent-skills",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"skillPath":"skills/cobrapy",
+"status":"resolved",
+"totals":{"files":3,"bytes":44129},
+"files":[
+{"path":"skills/cobrapy/SKILL.md","size":11690,"blob":"fe0f307cde6f81f4a263d5ed998265f60e94fe4c","how":"root"},
+{"path":"skills/cobrapy/references/api_quick_reference.md","size":16368,"blob":"45289c72fca39589241e7400c91a92e19cf05453","how":"link","from":0,"line":71},
+{"path":"skills/cobrapy/references/workflows.md","size":16071,"blob":"ecf10585aebb2c0fa5dbd93d33cf840a277123bb","how":"link","from":0,"line":78}
+],
+"outside":[
+{"kind":"network","name":"arxiv.org","at":[[0,238]]},
+{"kind":"network","name":"www.biomodels.org","at":[[1,52]]}
+],
+"regions":[
+{"kind":"own","path":"skills/cobrapy","files":3,"bytes":44129}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":"GPL-2.0 license"}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browser-use/browser-harness/browser-harness",
+"revision":"6d1c39adbcba5599a35182a19bcfbb0859e50abb",
+"trace":{"path":"traces/browser-use/browser-harness/browser-harness/6d1c39adbcba5599a35182a19bcfbb0859e50abb/trace-3+judge-7.json","sha256":"46d1ce8a3f8ca1e6e01ea25708a2bca46bc4206a5b84ed41facc7b71efe36f7d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":14579,"own":{"files":2,"bytes":14579},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["browser-harness","example.com","new_tab","page_info","print","r7k2","recordings","start_remote_daemon"],"package":[],"mcp-server":[],"credential":["BROWSER_USE_API_KEY"],"network":["github.com"]},"summary":"2 files, 14 KiB · CLI browser-harness, example.com +6 · 1 key · 1 host","short":"14 KiB · 8 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs browser-harness","runs example.com","runs new_tab","runs page_info","runs print","runs r7k2","runs recordings","runs start_remote_daemon"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs BROWSER_USE_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"browser-harness","path":"skills/browser-harness"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

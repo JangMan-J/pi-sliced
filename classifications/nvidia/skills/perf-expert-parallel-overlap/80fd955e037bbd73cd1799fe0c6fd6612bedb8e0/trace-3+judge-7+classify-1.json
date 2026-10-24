@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/perf-expert-parallel-overlap",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/perf-expert-parallel-overlap/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"e136f4962796ec84826f1a86db9c37d5dd8ed04cec5d1b70eec4bf8228b1108d"},
+"status":"unresolvable",
+"reason":"no skill folder named perf-expert-parallel-overlap at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

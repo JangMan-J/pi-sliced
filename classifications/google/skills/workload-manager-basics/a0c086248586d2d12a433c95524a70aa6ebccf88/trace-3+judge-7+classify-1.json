@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/workload-manager-basics",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/workload-manager-basics/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"781d9e47f0c559c58403e7650a4f12714391424e81cbcb8412559f7102822a81"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":49068,"own":{"files":10,"bytes":49068},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud","go","uuidgen"],"package":["cloud.google.com/go/workloadmanager/apiv1","google-cloud-workloadmanager"],"mcp-server":["knowledge","manager"],"credential":[],"network":["workloadmanager.googleapis.com"]},"summary":"10 files, 48 KiB · MCP knowledge, manager · CLI gcloud, go +1 · packages cloud.google.com/go/workloadmanager/apiv1 +1 · 1 host","short":"48 KiB · 3 CLI · 2 pkg · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 MCP servers","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud","runs go","runs uuidgen"]},{"marker":"installs-packages","because":["installs cloud.google.com/go/workloadmanager/apiv1","installs google-cloud-workloadmanager"]},{"marker":"network","because":["fetches from workloadmanager.googleapis.com"]},{"marker":"mcp-server","because":["uses the knowledge MCP server","uses the manager MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

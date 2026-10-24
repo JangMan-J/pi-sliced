@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/workiq-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/workiq-copilot/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"761f787f2e43331e9daa3673c482280fbaf8e6ca8ac65dc5b491b967b1a5bf6e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5539,"own":{"files":1,"bytes":5539},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@microsoft/workiq","workiq"],"package":["@microsoft/workiq"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.4 KiB · CLI @microsoft/workiq, workiq · packages @microsoft/workiq","short":"5.4 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @microsoft/workiq","runs workiq"]},{"marker":"installs-packages","because":["installs @microsoft/workiq"]},{"marker":"unpinned-code","because":["npx @microsoft/workiq: skills/workiq-copilot/SKILL.md:28"]}],
+"security":{"fetch-run":["npx @microsoft/workiq @ skills/workiq-copilot/SKILL.md:28"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/peft-fine-tuning",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/peft-fine-tuning/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"d29960382ac587ac7881ebc885257a41b16b6f7555b3c9c13df53467719fa7d0"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":35095,"own":{"files":3,"bytes":35095},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["make","nvcc"],"package":["accelerate","bitsandbytes","datasets","peft","transformers","triton"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"3 files, 34 KiB · CLI make, nvcc · packages accelerate +5 · 1 host","short":"34 KiB · 2 CLI · 6 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["6 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs make","runs nvcc"]},{"marker":"installs-packages","because":["installs accelerate","installs bitsandbytes","installs datasets","installs peft","installs transformers","installs triton"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

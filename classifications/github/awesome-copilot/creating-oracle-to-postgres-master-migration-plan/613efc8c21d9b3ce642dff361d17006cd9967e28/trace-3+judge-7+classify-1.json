@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/creating-oracle-to-postgres-master-migration-plan",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/creating-oracle-to-postgres-master-migration-plan/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"6a03374f7a2620c678474c3f84465501477873015d91c0857155ff51620b5675"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3457,"own":{"files":1,"bytes":3457},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB","short":"3.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

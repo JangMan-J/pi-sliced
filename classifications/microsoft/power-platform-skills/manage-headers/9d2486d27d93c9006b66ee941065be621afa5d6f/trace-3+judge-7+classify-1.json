@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/manage-headers",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/manage-headers/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"f44ddaee5e8879df76ab89f1ca9595aa12771b43f262c078c7832e84096bc18d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":28718,"own":{"files":4,"bytes":28718},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pac"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 28 KiB · CLI pac","short":"28 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pac"]}],
+"security":{},
+"companions":{"named":[{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

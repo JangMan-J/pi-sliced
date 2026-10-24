@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-cloud-waf-security",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-cloud-waf-security/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"3dad05527bc140db9c6c0290ab22c747952d1906190a9068988eb11a6be24776"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16759,"own":{"files":1,"bytes":16759},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemoclaw-user-manage-policy",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemoclaw-user-manage-policy/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"f2c31728c2183c029b5ac6b704fcc1f0189ddc1cbe54d3a34fe27b00fa183800"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-user-manage-policy at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

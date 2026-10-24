@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-pubsub",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-pubsub/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"200aba6ac3216ba2adde2ee5a2bccdd1b138333fdfe38027b65c4c5ca688ba8d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3147,"own":{"files":1,"bytes":3147},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.1 KiB","short":"3.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/cds/componentswrite-docs",
+"revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"trace":{"path":"traces/coinbase/cds/componentswrite-docs/d35ad8e2c164cbd3ddccfed26720844b6f1db506/trace-3+judge-7.json","sha256":"98aadb73885aef673be5aa51502961f62a344491ab168722b6bf36f174d98f3f"},
+"status":"unresolvable",
+"reason":"no skill folder named componentswrite-docs at d35ad8e2c164cbd3ddccfed26720844b6f1db506"
+}

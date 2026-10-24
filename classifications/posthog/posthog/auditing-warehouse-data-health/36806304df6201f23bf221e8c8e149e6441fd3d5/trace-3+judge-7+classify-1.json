@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/auditing-warehouse-data-health",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/auditing-warehouse-data-health/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"756bb0b333092a2aec647880c60732bebfb2164b9957724196c5cb2259b6fdfd"},
+"status":"unresolvable",
+"reason":"no skill folder named auditing-warehouse-data-health at 36806304df6201f23bf221e8c8e149e6441fd3d5"
+}

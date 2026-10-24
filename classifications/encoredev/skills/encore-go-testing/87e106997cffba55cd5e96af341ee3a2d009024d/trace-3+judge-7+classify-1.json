@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-go-testing",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-go-testing/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"1eff16fe785f030b600e6f0a0db911d2adbbbcb1e87d4972c33fb3fa8a502509"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9109,"own":{"files":1,"bytes":9109},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["encore"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.9 KiB · CLI encore","short":"8.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs encore"]}],
+"security":{},
+"companions":{"named":[{"name":"testing","path":"encore/testing"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

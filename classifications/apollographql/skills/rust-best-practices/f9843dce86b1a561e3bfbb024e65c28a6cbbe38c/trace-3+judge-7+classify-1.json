@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apollographql/skills/rust-best-practices",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"trace":{"path":"traces/apollographql/skills/rust-best-practices/f9843dce86b1a561e3bfbb024e65c28a6cbbe38c/trace-3+judge-7.json","sha256":"bbf0660c4f99dfa49a40c90be9e3a733f4c163060dd9335a757fc184c47fe42e"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":103288,"own":{"files":10,"bytes":103288},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","rustup"],"package":["cargo-insta","flamegraph"],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 101 KiB · CLI cargo, rustup · packages cargo-insta +1","short":"101 KiB · 2 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs rustup"]},{"marker":"installs-packages","because":["installs cargo-insta","installs flamegraph"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

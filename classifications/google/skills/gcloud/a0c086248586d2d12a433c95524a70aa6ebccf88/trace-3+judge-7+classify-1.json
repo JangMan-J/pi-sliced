@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gcloud",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gcloud/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"6acede3657c7f1e76ca5f83389388b95e820070120210bb0735a48213865a628"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":27741,"own":{"files":4,"bytes":27741},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":["cli"],"credential":[],"network":["console.cloud.google.com"]},"summary":"4 files, 27 KiB · MCP cli · CLI gcloud · 1 host","short":"27 KiB · 1 CLI · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"network","because":["fetches from console.cloud.google.com"]},{"marker":"mcp-server","because":["uses the cli MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

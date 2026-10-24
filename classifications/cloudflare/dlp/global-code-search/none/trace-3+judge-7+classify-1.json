@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/dlp/global-code-search",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/dlp/global-code-search/none/trace-3+judge-7.json","sha256":"36b0df733f615f87e2ff0fe2d872406ee184be394e0eb557ab39cd8a93eab46b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/dlp.git/' not found"
+}

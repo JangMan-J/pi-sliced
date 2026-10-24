@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-search-documents-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-search-documents-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"208c82a54c0789062ed4916f32993ad75844b821d78704e6f369ea387376830e"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":23186,"own":{"files":3,"bytes":23186},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.Search.Documents"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","SEARCH_API_KEY"],"network":[]},"summary":"3 files, 23 KiB · CLI dotnet · packages Azure.Identity +1 · 2 keys","short":"23 KiB · 1 CLI · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.Search.Documents"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs SEARCH_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

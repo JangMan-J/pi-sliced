@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/setup-zoom-websockets",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/setup-zoom-websockets/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"0c3443cff00c025ea319ed7278c2aa125298724cb353e43cac1a4889163c1e23"},
+"status":"resolved",
+"footprint":{"files":30,"bytes":159919,"own":{"files":7,"bytes":34473},"otherSkills":{"count":1,"files":23,"bytes":125446},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","ntpdate","pm2"],"package":["axios","dotenv","express","query-string","redis"],"mcp-server":[],"credential":["ZOOM_ACCESS_TOKEN","ZOOM_CLIENT_SECRET"],"network":["api.zoom.us","marketplace.zoom.us","zoom.us"]},"summary":"30 files, 156 KiB · +1 other skill · CLI docker, ntpdate +1 · packages axios +4 · 2 keys · 3 hosts","short":"156 KiB · +1 skill · 3 CLI · 5 pkg · 2 keys · 3 hosts"},
+"heavy":{"heavy":true,"because":["5 packages to install","3 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs ntpdate","runs pm2"]},{"marker":"installs-packages","because":["installs axios","installs dotenv","installs express","installs query-string","installs redis"]},{"marker":"network","because":["fetches from api.zoom.us","fetches from marketplace.zoom.us","fetches from zoom.us"]},{"marker":"credentials","because":["needs ZOOM_ACCESS_TOKEN","needs ZOOM_CLIENT_SECRET"]},{"marker":"chain-loads","because":["pulls in 23 files of the skill at plugins/zoom/skills/oauth"]},{"marker":"sends-credentials","because":["ZOOM_ACCESS_TOKEN -> api.zoom.us: plugins/zoom/skills/oauth/RUNBOOK.md:80, plugins/zoom/skills/websockets/RUNBOOK.md:67","ZOOM_CLIENT_SECRET -> zoom.us: plugins/zoom/skills/oauth/RUNBOOK.md:68, plugins/zoom/skills/oauth/RUNBOOK.md:74, plugins/zoom/skills/websockets/RUNBOOK.md:61"]}],
+"security":{"secret-egress":["ZOOM_ACCESS_TOKEN -> api.zoom.us @ plugins/zoom/skills/oauth/RUNBOOK.md:80, plugins/zoom/skills/websockets/RUNBOOK.md:67","ZOOM_CLIENT_SECRET -> zoom.us @ plugins/zoom/skills/oauth/RUNBOOK.md:68, plugins/zoom/skills/oauth/RUNBOOK.md:74, plugins/zoom/skills/websockets/RUNBOOK.md:61"]},
+"companions":{"named":[{"name":"auth","path":"plugins/vercel/skills/auth"},{"name":"phone","path":"plugins/zoom/skills/phone"},{"name":"setup-zoom-oauth","path":"plugins/zoom/skills/setup-zoom-oauth"}],"pulled":[{"path":"plugins/zoom/skills/oauth","files":23,"bytes":125446}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

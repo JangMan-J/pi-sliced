@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mapbox-agent-skills/mapbox-maplibre-migration",
+"revision":"f71cd72b8d8937b06db440538bd65559eb792c49",
+"trace":{"path":"traces/mapbox/mapbox-agent-skills/mapbox-maplibre-migration/f71cd72b8d8937b06db440538bd65559eb792c49/trace-3+judge-7.json","sha256":"3fd7addca50f294552019be1dc0bc602a181f5e89cbf3e015cc33b0806fa8795"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":23057,"own":{"files":4,"bytes":23057},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["mapbox-gl"],"mcp-server":[],"credential":["NEXT_PUBLIC_MAPBOX_TOKEN","VITE_MAPBOX_TOKEN"],"network":[]},"summary":"4 files, 23 KiB · packages mapbox-gl · 2 keys","short":"23 KiB · 1 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs mapbox-gl"]},{"marker":"credentials","because":["needs NEXT_PUBLIC_MAPBOX_TOKEN","needs VITE_MAPBOX_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"mapbox-token-security","path":"skills/mapbox-token-security"},{"name":"mapbox-web-integration-patterns","path":"skills/mapbox-web-integration-patterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

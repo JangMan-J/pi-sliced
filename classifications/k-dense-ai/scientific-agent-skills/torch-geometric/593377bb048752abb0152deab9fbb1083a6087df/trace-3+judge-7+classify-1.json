@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/torch-geometric",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/torch-geometric/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"4c1aeab1b3cdec2e6c80c4d919f5fe118c9afe1671eea179f67c4059b336e3e8"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":85756,"own":{"files":8,"bytes":85756},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["torchrun"],"package":["captum","torch","torch-geometric"],"mcp-server":[],"credential":[],"network":["arxiv.org","data.pyg.org"]},"summary":"8 files, 84 KiB · CLI torchrun · packages captum +2 · 2 hosts","short":"84 KiB · 1 CLI · 3 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs torchrun"]},{"marker":"installs-packages","because":["installs captum","installs torch","installs torch-geometric"]},{"marker":"network","because":["fetches from arxiv.org","fetches from data.pyg.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

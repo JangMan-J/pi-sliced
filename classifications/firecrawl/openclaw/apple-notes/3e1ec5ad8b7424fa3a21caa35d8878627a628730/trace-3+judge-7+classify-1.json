@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/apple-notes",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/apple-notes/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"1ec072aded02b63739a7dfc74c0ffbb055d00cc181640a668f636ce2f090a6ea"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2090,"own":{"files":1,"bytes":2090},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["memo"],"package":["antoniorodr/memo/memo"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.0 KiB · CLI memo · packages antoniorodr/memo/memo","short":"2.0 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs memo"]},{"marker":"installs-packages","because":["installs antoniorodr/memo/memo"]},{"marker":"stub","because":["own folder 2.0 KiB (1 file)","content is the memo it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

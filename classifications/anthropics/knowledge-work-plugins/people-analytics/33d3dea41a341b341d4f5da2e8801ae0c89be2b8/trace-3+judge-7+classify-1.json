@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/people-analytics",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/people-analytics/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"fef31e8ff1ff6ad4c6207c688f2f342a7c55174cc8032403062f6fcce133d79e"},
+"status":"unresolvable",
+"reason":"no skill folder named people-analytics at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

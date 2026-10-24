@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langchain-skills/deep-agents-orchestration",
+"revision":"704e9f4a2f962f449495515f2599502394bc84b2",
+"trace":{"path":"traces/langchain-ai/langchain-skills/deep-agents-orchestration/704e9f4a2f962f449495515f2599502394bc84b2/trace-3+judge-7.json","sha256":"1fdf3c4e0e1d2e51587f0535857874b0f6220fd3c5f0ce33b5c01178013ec1ae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13736,"own":{"files":1,"bytes":13736},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB","short":"13 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

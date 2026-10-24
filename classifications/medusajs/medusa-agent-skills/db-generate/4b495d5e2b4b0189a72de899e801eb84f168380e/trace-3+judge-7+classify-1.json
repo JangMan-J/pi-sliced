@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"medusajs/medusa-agent-skills/db-generate",
+"revision":"4b495d5e2b4b0189a72de899e801eb84f168380e",
+"trace":{"path":"traces/medusajs/medusa-agent-skills/db-generate/4b495d5e2b4b0189a72de899e801eb84f168380e/trace-3+judge-7.json","sha256":"5170447a92d20c8b3830805e88dd00f1ae2eee7906afe62194f540cd2a1a501d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":768,"own":{"files":1,"bytes":768},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["medusa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 768 B · CLI medusa","short":"768 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs medusa"]},{"marker":"stub","because":["own folder 768 B (1 file)","content is the medusa it wraps"]},{"marker":"unpinned-code","because":["npx medusa: plugins/medusa-dev/skills/db-generate/SKILL.md:16, plugins/medusa-dev/skills/db-generate/SKILL.md:23"]}],
+"security":{"fetch-run":["npx medusa @ plugins/medusa-dev/skills/db-generate/SKILL.md:16, plugins/medusa-dev/skills/db-generate/SKILL.md:23"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-firefly",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-firefly/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"24a36ee08e8cd287163494c8ce2771b6db778027a6cb46bfa65bd2dcea1c1e5b"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":31987,"own":{"files":1,"bytes":18371},"otherSkills":{"count":1,"files":1,"bytes":13616},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 31 KiB · +1 other skill","short":"31 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/doca-dms"]}],
+"security":{},
+"companions":{"named":[{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-dms","path":"skills/doca-dms"},{"name":"doca-hardware-safety","path":"skills/doca-hardware-safety"},{"name":"doca-programming-guide","path":"skills/doca-programming-guide"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-rmax","path":"skills/doca-rmax"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-structured-tools-contract","path":"skills/doca-structured-tools-contract"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[{"path":"skills/doca-dms","files":1,"bytes":13616}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

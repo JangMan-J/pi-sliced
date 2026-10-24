@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-cli/tui-tester",
+"revision":"cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005",
+"trace":{"path":"traces/google-gemini/gemini-cli/tui-tester/cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005/trace-3+judge-7.json","sha256":"ecb33efc4be9b27eae0b33d0bb3fdd2626fe090b6e88bdc10e0feffd84af7bab"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2365,"own":{"files":1,"bytes":2365},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-tui","tmux"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.3 KiB · CLI agent-tui, tmux","short":"2.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-tui","runs tmux"]},{"marker":"stub","because":["own folder 2.3 KiB (1 file)","content is the agent-tui, tmux it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"agent-tui","path":".gemini/skills/agent-tui"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

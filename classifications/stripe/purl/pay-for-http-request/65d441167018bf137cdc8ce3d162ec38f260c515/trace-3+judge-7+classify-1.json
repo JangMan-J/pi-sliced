@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/purl/pay-for-http-request",
+"revision":"65d441167018bf137cdc8ce3d162ec38f260c515",
+"trace":{"path":"traces/stripe/purl/pay-for-http-request/65d441167018bf137cdc8ce3d162ec38f260c515/trace-3+judge-7.json","sha256":"70863fd248c6f695f8d8253d06d7a27985e762da473addf4c7548eee21213426"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6677,"own":{"files":1,"bytes":6677},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["purl"],"package":[],"mcp-server":[],"credential":["PURL_PASSWORD"],"network":[]},"summary":"1 file, 6.5 KiB · CLI purl · 1 key","short":"6.5 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs purl"]},{"marker":"credentials","because":["needs PURL_PASSWORD"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

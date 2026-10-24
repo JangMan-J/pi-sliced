@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/anthropic-administrator-automation",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/anthropic-administrator-automation/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"7b532b2bc6ef81a52e1cd3c72a83db9ec24f077f7f6168152d65e3a3c4620aa1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3098,"own":{"files":1,"bytes":3098},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.0 KiB","short":"3.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

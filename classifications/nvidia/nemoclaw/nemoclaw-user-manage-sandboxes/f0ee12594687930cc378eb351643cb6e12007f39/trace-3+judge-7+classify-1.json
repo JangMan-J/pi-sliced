@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-user-manage-sandboxes",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-user-manage-sandboxes/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"74b2c746bf28d79ceb666267056d53cd8ad74feb87f5525b7fd854e3a674634e"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-user-manage-sandboxes at f0ee12594687930cc378eb351643cb6e12007f39"
+}

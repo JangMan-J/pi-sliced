@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/skills-user-context",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/skills-user-context/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"9b15a54913c6a565eb3b2b86a8331dce75029d25bc7dd418537fcf66d07550d5"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":19005,"own":{"files":2,"bytes":19005},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["state_paths"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 19 KiB · packages state_paths","short":"19 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs state_paths"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

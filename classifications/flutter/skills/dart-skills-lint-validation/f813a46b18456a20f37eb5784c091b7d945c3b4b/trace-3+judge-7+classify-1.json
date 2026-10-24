@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/dart-skills-lint-validation",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/dart-skills-lint-validation/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"810e6deb33b05de9fcd1698b4bef35314cb8a41d9d676dd1fd552370b389d421"},
+"status":"unresolvable",
+"reason":"no skill folder named dart-skills-lint-validation at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

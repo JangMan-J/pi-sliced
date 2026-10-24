@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/automate-this",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/automate-this/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"30c08738003dd4653913b3614c19caba3b8f1edc96d167e1138d9a240bbc564e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12463,"own":{"files":1,"bytes":12463},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ffmpeg","ffprobe","whisper","whisper-cpp"],"package":["ffmpeg","openai-whisper","whisper-cpp"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB · CLI ffmpeg, ffprobe +2 · packages ffmpeg +2","short":"12 KiB · 4 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ffmpeg","runs ffprobe","runs whisper","runs whisper-cpp"]},{"marker":"installs-packages","because":["installs ffmpeg","installs openai-whisper","installs whisper-cpp"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

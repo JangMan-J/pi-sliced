@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/react-modernization",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/react-modernization/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"f99e49f542d10816db06a3d8e67c1e5e8bf376fce9a97e194bd5339b31cde140"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11251,"own":{"files":2,"bytes":11251},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["codemod","jscodeshift"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 11 KiB · CLI codemod, jscodeshift","short":"11 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs codemod","runs jscodeshift"]},{"marker":"unpinned-code","because":["npx codemod: plugins/framework-migration/skills/react-modernization/references/details.md:24","npx jscodeshift: plugins/framework-migration/skills/react-modernization/references/details.md:9, plugins/framework-migration/skills/react-modernization/references/details.md:12, plugins/framework-migration/skills/react-modernization/references/details.md:15"]}],
+"security":{"fetch-run":["npx codemod @ plugins/framework-migration/skills/react-modernization/references/details.md:24","npx jscodeshift @ plugins/framework-migration/skills/react-modernization/references/details.md:9, plugins/framework-migration/skills/react-modernization/references/details.md:12, plugins/framework-migration/skills/react-modernization/references/details.md:15 +2"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

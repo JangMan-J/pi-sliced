@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/v0-dev",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/v0-dev/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"f30f4e9944516f19b1bd2164b3547eeaa0180084eae15a9d9d2fc82e28d19bd7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14603,"own":{"files":1,"bytes":14603},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["create-next-app","create-v0-sdk-app","shadcn","v0"],"package":["@ai-sdk/vercel","@v0-sdk/ai-tools","ai","v0-sdk"],"mcp-server":[],"credential":["V0_API_KEY"],"network":[]},"summary":"1 file, 14 KiB · CLI create-next-app, create-v0-sdk-app +2 · packages @ai-sdk/vercel +3 · 1 key","short":"14 KiB · 4 CLI · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs create-next-app","runs create-v0-sdk-app","runs shadcn","runs v0"]},{"marker":"installs-packages","because":["installs @ai-sdk/vercel","installs @v0-sdk/ai-tools","installs ai","installs v0-sdk"]},{"marker":"credentials","because":["needs V0_API_KEY"]},{"marker":"unpinned-code","because":["npx create-next-app@latest: plugins/vercel/skills/v0-dev/SKILL.md:78","npx create-v0-sdk-app@latest: plugins/vercel/skills/v0-dev/SKILL.md:94, plugins/vercel/skills/v0-dev/SKILL.md:97","npx shadcn@latest: plugins/vercel/skills/v0-dev/SKILL.md:69","npx v0@latest: plugins/vercel/skills/v0-dev/SKILL.md:52, plugins/vercel/skills/v0-dev/SKILL.md:55, plugins/vercel/skills/v0-dev/SKILL.md:81","pnpm dlx v0@latest: plugins/vercel/skills/v0-dev/SKILL.md:58, plugins/vercel/skills/v0-dev/SKILL.md:59"]}],
+"security":{"fetch-run":["npx create-next-app@latest @ plugins/vercel/skills/v0-dev/SKILL.md:78","npx create-v0-sdk-app@latest @ plugins/vercel/skills/v0-dev/SKILL.md:94, plugins/vercel/skills/v0-dev/SKILL.md:97","npx shadcn@latest @ plugins/vercel/skills/v0-dev/SKILL.md:69","npx v0@latest @ plugins/vercel/skills/v0-dev/SKILL.md:52, plugins/vercel/skills/v0-dev/SKILL.md:55, plugins/vercel/skills/v0-dev/SKILL.md:81 +3","pnpm dlx v0@latest @ plugins/vercel/skills/v0-dev/SKILL.md:58, plugins/vercel/skills/v0-dev/SKILL.md:59"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

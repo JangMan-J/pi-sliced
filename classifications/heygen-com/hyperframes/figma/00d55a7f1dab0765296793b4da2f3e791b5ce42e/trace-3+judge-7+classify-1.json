@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"heygen-com/hyperframes/figma",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"trace":{"path":"traces/heygen-com/hyperframes/figma/00d55a7f1dab0765296793b4da2f3e791b5ce42e/trace-3+judge-7.json","sha256":"0affd7ba25412e926eb59b34d74eece4bda48bc81f3aca2df692503cf147d559"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":29455,"own":{"files":2,"bytes":23362},"otherSkills":{"count":1,"files":3,"bytes":6093},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["error","ffmpeg","ffprobe","hyperframes","jpg","png","resolve","skills"],"package":[],"mcp-server":[],"credential":["BAD_TOKEN","FIGMA_TOKEN"],"network":[]},"summary":"5 files, 29 KiB · +1 other skill · CLI error, ffmpeg +6 · 2 keys","short":"29 KiB · +1 skill · 8 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["8 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs error","runs ffmpeg","runs ffprobe","runs hyperframes","runs jpg","runs png","runs resolve","runs skills"]},{"marker":"credentials","because":["needs BAD_TOKEN","needs FIGMA_TOKEN"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/hyperframes","fetches skills at run time: hyperframes skills update","fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx hyperframes: skills/figma/SKILL.md:8, skills/figma/SKILL.md:91, skills/figma/SKILL.md:100","npx skills: skills/hyperframes/references/plugin-installation.md:12"]}],
+"security":{"fetch-run":["npx hyperframes @ skills/figma/SKILL.md:8, skills/figma/SKILL.md:91, skills/figma/SKILL.md:100 +1","npx skills @ skills/hyperframes/references/plugin-installation.md:12"],"skill-fetch":["hyperframes skills update @ skills/figma/SKILL.md:8","npx skills add @ skills/hyperframes/references/plugin-installation.md:12"]},
+"companions":{"named":[{"name":"hyperframes","path":"skills/hyperframes"}],"pulled":[{"path":"skills/hyperframes","files":3,"bytes":6093}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

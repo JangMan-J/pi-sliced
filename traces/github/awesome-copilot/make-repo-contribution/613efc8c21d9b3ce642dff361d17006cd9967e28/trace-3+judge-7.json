@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"github/awesome-copilot/make-repo-contribution",
+"source":"github/awesome-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"skillPath":"skills/make-repo-contribution",
+"status":"resolved",
+"totals":{"files":3,"bytes":8097},
+"files":[
+{"path":"skills/make-repo-contribution/SKILL.md","size":6405,"blob":"3666baccb658194e4b4bc252f5565ec45a3dbd23","how":"root"},
+{"path":"skills/make-repo-contribution/assets/issue-template.md","size":790,"blob":"8f0b990adcf914efe6cd1592518cabf21f3944e5","how":"link","from":0,"line":65},
+{"path":"skills/make-repo-contribution/assets/pr-template.md","size":902,"blob":"4e6174752ea9b6c8a3e750ea54a1f15bdb468b65","how":"link","from":0,"line":88}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/make-repo-contribution","files":3,"bytes":8097}
+],
+"signals":[
+{"kind":"injection","detail":"override any instructions","at":[[0,11]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

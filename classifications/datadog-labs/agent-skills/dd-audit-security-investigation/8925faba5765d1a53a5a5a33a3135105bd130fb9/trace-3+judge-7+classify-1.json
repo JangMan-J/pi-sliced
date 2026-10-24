@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/dd-audit-security-investigation",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/dd-audit-security-investigation/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"77081dcdff2feb754d64d710c209c0c9e0028c7a513f107285fb90cfe6218a01"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6196,"own":{"files":1,"bytes":6196},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","pup"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.1 KiB · CLI jq, pup","short":"6.1 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs pup"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

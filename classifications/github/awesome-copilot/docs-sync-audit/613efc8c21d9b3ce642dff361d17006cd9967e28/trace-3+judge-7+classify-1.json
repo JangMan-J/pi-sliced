@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/docs-sync-audit",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/docs-sync-audit/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"126a15bd00490244294277aef530b733088a39ffa1fdda91f020b134bcfd18db"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":34486,"own":{"files":2,"bytes":34486},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 34 KiB","short":"34 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"test-gap-audit","path":"skills/test-gap-audit"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/winappcli/winapp-troubleshoot",
+"revision":"6564e7adba6d339f2b06868baca050e54687a2b3",
+"trace":{"path":"traces/microsoft/winappcli/winapp-troubleshoot/6564e7adba6d339f2b06868baca050e54687a2b3/trace-3+judge-7.json","sha256":"b1ca9e54bbe2c1d0d6b7b2697c0d3ae2718ac111906719560a5ac1c6870e975d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":17703,"own":{"files":1,"bytes":12166},"otherSkills":{"count":1,"files":1,"bytes":5537},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["winapp"],"package":["@microsoft/winappcli"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"2 files, 17 KiB · +1 other skill · CLI winapp · packages @microsoft/winappcli · 1 host","short":"17 KiB · +1 skill · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs winapp"]},{"marker":"installs-packages","because":["installs @microsoft/winappcli"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/winapp/skills/winapp-performance"]},{"marker":"unpinned-code","because":["npx winapp: plugins/winapp/skills/winapp-troubleshoot/SKILL.md:83"]}],
+"security":{"fetch-run":["npx winapp @ plugins/winapp/skills/winapp-troubleshoot/SKILL.md:83"]},
+"companions":{"named":[{"name":"winapp-frameworks","path":"plugins/winapp/skills/winapp-frameworks"},{"name":"winapp-identity","path":"plugins/winapp/skills/winapp-identity"},{"name":"winapp-manifest","path":"plugins/winapp/skills/winapp-manifest"},{"name":"winapp-maui","path":"plugins/winapp/skills/winapp-maui"},{"name":"winapp-package","path":"plugins/winapp/skills/winapp-package"},{"name":"winapp-setup","path":"plugins/winapp/skills/winapp-setup"},{"name":"winapp-signing","path":"plugins/winapp/skills/winapp-signing"}],"pulled":[{"path":"plugins/winapp/skills/winapp-performance","files":1,"bytes":5537}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

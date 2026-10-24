@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemotron-voice-agent-builder",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemotron-voice-agent-builder/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"d6ef3ff43e7677266a258c8c230c945826c1f72cd83edf2c15dddc0e56b4fe22"},
+"status":"resolved",
+"footprint":{"files":22,"bytes":176158,"own":{"files":22,"bytes":176158},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","free","hf","lspci","nvidia-smi"],"package":[],"mcp-server":[],"credential":["HF_TOKEN","NVIDIA_API_KEY"],"network":[]},"summary":"22 files, 172 KiB · CLI docker, free +3 · 2 keys","short":"172 KiB · 5 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["5 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs free","runs hf","runs lspci","runs nvidia-smi"]},{"marker":"credentials","because":["needs HF_TOKEN","needs NVIDIA_API_KEY"]},{"marker":"agent-override-text","because":["\"do not tell the user\": skills/nemotron-voice-agent-builder/references/networking/remote-webrtc.md:87","\"without telling the user\": skills/nemotron-voice-agent-builder/references/models/asr.md:138"]}],
+"security":{"injection":["do not tell the user @ skills/nemotron-voice-agent-builder/references/networking/remote-webrtc.md:87","without telling the user @ skills/nemotron-voice-agent-builder/references/models/asr.md:138"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

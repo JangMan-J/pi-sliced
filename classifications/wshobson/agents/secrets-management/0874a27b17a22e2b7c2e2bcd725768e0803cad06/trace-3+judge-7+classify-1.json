@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/secrets-management",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/secrets-management/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"7a509fbcaa536559e7a4bb4b0d9ba285f3f8fa634997e934ea5c92aeecd900e0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7537,"own":{"files":1,"bytes":7537},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","docker","filesystem","vault"],"package":[],"mcp-server":[],"credential":["VAULT_TOKEN"],"network":[]},"summary":"1 file, 7.4 KiB · CLI aws, docker +2 · 1 key","short":"7.4 KiB · 4 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs docker","runs filesystem","runs vault"]},{"marker":"credentials","because":["needs VAULT_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"deployment-pipeline-design","path":"plugins/cicd-automation/skills/deployment-pipeline-design"},{"name":"github-actions-templates","path":"plugins/cicd-automation/skills/github-actions-templates"},{"name":"gitlab-ci-patterns","path":"plugins/cicd-automation/skills/gitlab-ci-patterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

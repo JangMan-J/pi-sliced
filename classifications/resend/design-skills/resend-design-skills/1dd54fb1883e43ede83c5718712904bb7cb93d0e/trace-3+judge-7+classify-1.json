@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"resend/design-skills/resend-design-skills",
+"revision":"1dd54fb1883e43ede83c5718712904bb7cb93d0e",
+"trace":{"path":"traces/resend/design-skills/resend-design-skills/1dd54fb1883e43ede83c5718712904bb7cb93d0e/trace-3+judge-7.json","sha256":"3b1e34f7c588fab529cf4b839c09916ee633c6d66c6c374caa5fefc923ad43aa"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6474,"own":{"files":1,"bytes":857},"otherSkills":{"count":1,"files":1,"bytes":5617},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.3 KiB · +1 other skill","short":"6.3 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at resend-brand"]}],
+"security":{},
+"companions":{"named":[{"name":"resend-brand","path":"resend-brand"}],"pulled":[{"path":"resend-brand","files":1,"bytes":5617}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

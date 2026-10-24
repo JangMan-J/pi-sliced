@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/aws-cdk-python-setup",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/aws-cdk-python-setup/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"ca4901de34ca2409439b1d2e3fc91fc7cf9dbf3a8570f445bd89dc78f07e8f6f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2621,"own":{"files":1,"bytes":2621},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["activate","aws","cdk"],"package":["aws-cdk","awscli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.6 KiB · CLI activate, aws +1 · packages aws-cdk +1","short":"2.6 KiB · 3 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs activate","runs aws","runs cdk"]},{"marker":"installs-packages","because":["installs aws-cdk","installs awscli"]},{"marker":"stub","because":["own folder 2.6 KiB (1 file)","content is the activate, aws it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

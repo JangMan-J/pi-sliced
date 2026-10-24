@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/awesome-skills/apify-financial-osint",
+"revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"trace":{"path":"traces/apify/awesome-skills/apify-financial-osint/1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813/trace-3+judge-7.json","sha256":"67f6cfdf2f8cb87ac7d4acc5f80f88d0f20d8657177a932a910c12d437f4fe3e"},
+"status":"unresolvable",
+"reason":"no skill folder named apify-financial-osint at 1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813"
+}

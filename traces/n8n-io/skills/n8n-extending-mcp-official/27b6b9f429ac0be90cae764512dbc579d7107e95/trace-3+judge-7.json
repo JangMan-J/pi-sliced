@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"n8n-io/skills/n8n-extending-mcp-official",
+"source":"n8n-io/skills",
+"revision":"27b6b9f429ac0be90cae764512dbc579d7107e95",
+"skillPath":"skills/n8n-extending-mcp-official",
+"status":"resolved",
+"totals":{"files":1,"bytes":8719},
+"files":[
+{"path":"skills/n8n-extending-mcp-official/SKILL.md","size":8719,"blob":"39c60e9888f226c01e1008f20cd544b8b3886d3a","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/n8n-extending-mcp-official","files":1,"bytes":8719}
+],
+"signals":[
+{"kind":"injection","detail":"without asking the user","at":[[0,112]]}
+],
+"namedSkills":[
+{"name":"n8n-credentials-and-security-official","path":"skills/n8n-credentials-and-security-official","at":[[0,40]]},
+{"name":"n8n-workflow-lifecycle-official","path":"skills/n8n-workflow-lifecycle-official","at":[[0,118]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

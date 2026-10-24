@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/pytorch-lightning",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/pytorch-lightning/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"d20f67fe2f1ac5436d55e74d8f49bb7cbf4ebe4cdb9b7f2f7fe9d4786c1648a1"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":44487,"own":{"files":4,"bytes":44487},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nvidia-smi","ping","srun","wandb"],"package":["hyperopt","lightning","optuna","optuna-integration","ray","wandb"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 43 KiB · CLI nvidia-smi, ping +2 · packages hyperopt +5","short":"43 KiB · 4 CLI · 6 pkg"},
+"heavy":{"heavy":true,"because":["6 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs nvidia-smi","runs ping","runs srun","runs wandb"]},{"marker":"installs-packages","because":["installs hyperopt","installs lightning","installs optuna","installs optuna-integration","installs ray","installs wandb"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/gh-address-comments",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/gh-address-comments/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"337362ec04cc15198eee5a521093474e8dc072cd2448abf6727a4dd452b7b72f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7815,"own":{"files":2,"bytes":7815},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 7.6 KiB · CLI gh","short":"7.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

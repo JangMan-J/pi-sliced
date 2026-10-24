@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/update-oo-component-documentation",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/update-oo-component-documentation/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"370b934a4a29e6b93cbf35338d1da1a4fa56c4f68cd784ccd920c69505277044"},
+"status":"unresolvable",
+"reason":"no skill folder named update-oo-component-documentation at 613efc8c21d9b3ce642dff361d17006cd9967e28 or at the remote HEAD d85f762d6e521abf5fe16703946e9b38adc42da7"
+}

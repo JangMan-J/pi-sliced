@@ -1,0 +1,23 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openhands/extensions/frontend-design",
+"source":"openhands/extensions",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"skillPath":"skills/frontend-design",
+"status":"resolved",
+"totals":{"files":2,"bytes":14617},
+"files":[
+{"path":"skills/frontend-design/LICENSE.txt","size":10174,"blob":"f433b1a53f5b830a205fd2df78e2b34974656c7b","how":"path","from":1,"line":4},
+{"path":"skills/frontend-design/SKILL.md","size":4443,"blob":"c3f0d18e6d42371e58ce82affc0491af57e2ff52","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/frontend-design","files":2,"bytes":14617}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/frontend-design/LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

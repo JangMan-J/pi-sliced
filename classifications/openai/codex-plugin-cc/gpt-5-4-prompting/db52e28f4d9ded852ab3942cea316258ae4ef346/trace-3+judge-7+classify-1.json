@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex-plugin-cc/gpt-5-4-prompting",
+"revision":"db52e28f4d9ded852ab3942cea316258ae4ef346",
+"trace":{"path":"traces/openai/codex-plugin-cc/gpt-5-4-prompting/db52e28f4d9ded852ab3942cea316258ae4ef346/trace-3+judge-7.json","sha256":"6adb59c28ebbad5bf82f4258962535ea0f9efde5875100d6630dcafda596f302"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":13469,"own":{"files":4,"bytes":13469},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["task"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 13 KiB · CLI task","short":"13 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs task"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

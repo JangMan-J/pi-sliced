@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/dd-oci-integration",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/dd-oci-integration/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"bc694980a4ef7729cd3ee8978e7845aadc73169cee956d816da20ab944aac9d3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":29691,"own":{"files":1,"bytes":29691},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["oci","terraform"],"package":[],"mcp-server":[],"credential":["DD_API_KEY","DD_APP_KEY"],"network":[]},"summary":"1 file, 29 KiB · CLI oci, terraform · 2 keys","short":"29 KiB · 2 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["2 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs oci","runs terraform"]},{"marker":"credentials","because":["needs DD_API_KEY","needs DD_APP_KEY"]},{"marker":"agent-override-text","because":["\"do not tell the user\": dd-oci-integration/SKILL.md:399"]}],
+"security":{"injection":["do not tell the user @ dd-oci-integration/SKILL.md:399"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

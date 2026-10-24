@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/github-copilot-upgrader",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/github-copilot-upgrader/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"fbd82f6621a9a8f554f327cf5558171eb52d783650243ccd9d07a13c41b6b3ab"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3380,"own":{"files":1,"bytes":3380},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tsc"],"package":["@github/copilot"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.3 KiB · CLI tsc · packages @github/copilot","short":"3.3 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tsc"]},{"marker":"installs-packages","because":["installs @github/copilot"]},{"marker":"stub","because":["own folder 3.3 KiB (1 file)","content is the tsc it wraps"]},{"marker":"unpinned-code","because":["install @latest: extensions/copilot/.agents/skills/github-copilot-upgrader/SKILL.md:36","npx tsc: extensions/copilot/.agents/skills/github-copilot-upgrader/SKILL.md:55"]}],
+"security":{"fetch-run":["install @latest @ extensions/copilot/.agents/skills/github-copilot-upgrader/SKILL.md:36","npx tsc @ extensions/copilot/.agents/skills/github-copilot-upgrader/SKILL.md:55"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/run-on-slurm",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/run-on-slurm/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"f1a2ec2ac7ba5ff442f3c93d344965cab6e79d330392486348e9d8fdd72295f5"},
+"status":"unresolvable",
+"reason":"no skill folder named run-on-slurm at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

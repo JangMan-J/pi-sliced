@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/agent-skills/wp-abilities-api",
+"revision":"48d4aa21d0da0e7bda1c7ac155fef2e16b87aa25",
+"trace":{"path":"traces/automattic/agent-skills/wp-abilities-api/48d4aa21d0da0e7bda1c7ac155fef2e16b87aa25/trace-3+judge-7.json","sha256":"6fe96f1b9c4255c839bc02f8e727109774db1dadfcbd464eb46c53f88cc1f530"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":6573,"own":{"files":3,"bytes":6573},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 6.4 KiB","short":"6.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"wp-project-triage","path":"skills/wp-project-triage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

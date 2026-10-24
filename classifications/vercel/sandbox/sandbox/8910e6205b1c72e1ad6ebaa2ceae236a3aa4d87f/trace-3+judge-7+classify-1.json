@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/sandbox/sandbox",
+"revision":"8910e6205b1c72e1ad6ebaa2ceae236a3aa4d87f",
+"trace":{"path":"traces/vercel/sandbox/sandbox/8910e6205b1c72e1ad6ebaa2ceae236a3aa4d87f/trace-3+judge-7.json","sha256":"75a115ceb645769c327d36bf47ea5cacb733f8913b74121fa9f10f0929c1a42d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":36117,"own":{"files":1,"bytes":36117},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sandbox","vercel"],"package":["sandbox"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 35 KiB · CLI sandbox, vercel · packages sandbox","short":"35 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs sandbox","runs vercel"]},{"marker":"installs-packages","because":["installs sandbox"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

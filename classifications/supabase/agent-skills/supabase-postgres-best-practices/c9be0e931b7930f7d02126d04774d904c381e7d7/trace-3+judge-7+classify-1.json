@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"supabase/agent-skills/supabase-postgres-best-practices",
+"revision":"c9be0e931b7930f7d02126d04774d904c381e7d7",
+"trace":{"path":"traces/supabase/agent-skills/supabase-postgres-best-practices/c9be0e931b7930f7d02126d04774d904c381e7d7/trace-3+judge-7.json","sha256":"6e8cc4e52f794483485d0bd34f21d63592c4841a821adee6e88838fed65e0604"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":7478,"own":{"files":4,"bytes":7478},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 7.3 KiB","short":"7.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

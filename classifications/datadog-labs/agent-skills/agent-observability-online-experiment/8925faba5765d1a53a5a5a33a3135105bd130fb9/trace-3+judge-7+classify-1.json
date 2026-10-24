@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/agent-observability-online-experiment",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/agent-observability-online-experiment/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"5f322c25ace7de3c4020e0de44cb53cbbd6bc8d63dcaf8125cce28b3130f574a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":24340,"own":{"files":1,"bytes":24340},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 24 KiB","short":"24 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"agent-observability-experiment-analyzer","path":"agent-observability/agent-observability-experiment-analyzer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

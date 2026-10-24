@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"shopify/liquid-skills/liquid-theme-standards",
+"revision":"ae3e4cc3f454923e388bbd841fd931f0c7bf5be4",
+"trace":{"path":"traces/shopify/liquid-skills/liquid-theme-standards/ae3e4cc3f454923e388bbd841fd931f0c7bf5be4/trace-3+judge-7.json","sha256":"a4fba79e74ab9c24c70c6a215cc6ec3ffa229bd8b9738555d78f8a88f33d4789"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":23090,"own":{"files":3,"bytes":23090},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 23 KiB · CLI jq","short":"23 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/secure-workflow-guide",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/secure-workflow-guide/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"f72333fb4cd741b314028106e5bfccd610f235b1283699e50ccc74f4baf87c3b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":17177,"own":{"files":3,"bytes":17177},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["slither","slither-check-erc","slither-check-upgradeability","slither-prop"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 17 KiB · CLI slither, slither-check-erc +2","short":"17 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs slither","runs slither-check-erc","runs slither-check-upgradeability","runs slither-prop"]}],
+"security":{},
+"companions":{"named":[{"name":"token-integration-analyzer","path":"plugins/building-secure-contracts/skills/token-integration-analyzer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

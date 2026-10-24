@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-cloud-recipe-onboarding",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-cloud-recipe-onboarding/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"6ec0ea099838caa211cb820e14d0eb3cf00e85e777ded3f1b52a1ada6f6462e3"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":14923,"own":{"files":2,"bytes":14923},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB · CLI gcloud","short":"15 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[{"name":"bigquery-basics","path":"skills/cloud/bigquery-basics"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

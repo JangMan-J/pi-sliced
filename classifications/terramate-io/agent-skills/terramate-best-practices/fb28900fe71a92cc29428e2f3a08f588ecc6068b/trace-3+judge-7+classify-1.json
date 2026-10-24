@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"terramate-io/agent-skills/terramate-best-practices",
+"revision":"fb28900fe71a92cc29428e2f3a08f588ecc6068b",
+"trace":{"path":"traces/terramate-io/agent-skills/terramate-best-practices/fb28900fe71a92cc29428e2f3a08f588ecc6068b/trace-3+judge-7.json","sha256":"a4634f775ebebb124900982ca2046e73f7e9e4022c8aef2cf37fbdd1f99b7421"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":56220,"own":{"files":7,"bytes":56220},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["terraform","terramate"],"package":[],"mcp-server":[],"credential":["TERRAMATE_CLOUD_TOKEN"],"network":[]},"summary":"7 files, 55 KiB · CLI terraform, terramate · 1 key","short":"55 KiB · 2 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs terraform","runs terramate"]},{"marker":"credentials","because":["needs TERRAMATE_CLOUD_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

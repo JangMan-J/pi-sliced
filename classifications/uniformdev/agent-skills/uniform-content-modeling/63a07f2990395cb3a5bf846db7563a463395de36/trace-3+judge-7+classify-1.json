@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"uniformdev/agent-skills/uniform-content-modeling",
+"revision":"63a07f2990395cb3a5bf846db7563a463395de36",
+"trace":{"path":"traces/uniformdev/agent-skills/uniform-content-modeling/63a07f2990395cb3a5bf846db7563a463395de36/trace-3+judge-7.json","sha256":"5beacbc03a656174c51086e72b4977c350e4dbfaae6d944505c743bbc061e795"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":31297,"own":{"files":8,"bytes":31297},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["uniform"],"credential":[],"network":[]},"summary":"8 files, 31 KiB · MCP uniform","short":"31 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the uniform MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

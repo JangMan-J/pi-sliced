@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-voicelive-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-voicelive-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"acbdf1205b5092400c04991bf3e891c08c7293a4d50be6b2b1297c34df9b38d0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13839,"own":{"files":1,"bytes":13839},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/ai-voicelive","@azure/identity","@types/node"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","AZURE_VOICELIVE_API_KEY"],"network":[]},"summary":"1 file, 14 KiB · packages @azure/ai-voicelive +2 · 2 keys","short":"14 KiB · 3 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/ai-voicelive","installs @azure/identity","installs @types/node"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs AZURE_VOICELIVE_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

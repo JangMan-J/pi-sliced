@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nuxt/ui/contributing",
+"source":"nuxt/ui",
+"revision":"bda0b3fb8333a03a4144b4701c889c89d72fdfbc",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named contributing at bda0b3fb8333a03a4144b4701c889c89d72fdfbc or at the remote HEAD 92e28dcb2537755b914aee359edb8064d474de5c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

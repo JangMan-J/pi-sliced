@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/openhands-api",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/openhands-api/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"96d994d2ce7d4bfc72a4f496b506de812ce74eebdf1e9db90e058ab83ceaca2b"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":45036,"own":{"files":5,"bytes":45036},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Set-Content","action_id","action_ids","c","code","curl.exe","dups","e.get","f","from","import","items","jq","json.load","kind","obs_action_ids","observed","or","print","sys.stdin","unmatched"],"package":["httpx"],"mcp-server":[],"credential":["LOCAL_BACKEND_API_KEY","OPENHANDS_API_KEY","OPENHANDS_CLOUD_API_KEY","SESSION_API_KEY"],"network":["app.all-hands.dev"]},"summary":"5 files, 44 KiB · CLI Set-Content, action_id +19 · packages httpx · 4 keys · 1 host","short":"44 KiB · 21 CLI · 1 pkg · 4 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","21 CLIs","4 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs action_id","runs action_ids","runs c","runs code","runs curl.exe","runs dups","runs e.get","runs f","runs from","runs import","runs items","runs jq","runs json.load","runs kind","runs obs_action_ids","runs observed","runs or","runs print","runs Set-Content","runs sys.stdin","runs unmatched"]},{"marker":"installs-packages","because":["installs httpx"]},{"marker":"network","because":["fetches from app.all-hands.dev"]},{"marker":"credentials","because":["needs LOCAL_BACKEND_API_KEY","needs OPENHANDS_API_KEY","needs OPENHANDS_CLOUD_API_KEY","needs SESSION_API_KEY"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/openhands-api/SKILL.md:362, skills/openhands-api/SKILL.md:376, skills/openhands-api/SKILL.md:391"]},{"marker":"sends-credentials","because":["OPENHANDS_API_KEY -> app.all-hands.dev: skills/openhands-api/SKILL.md:362, skills/openhands-api/SKILL.md:376, skills/openhands-api/SKILL.md:391","OPENHANDS_CLOUD_API_KEY -> app.all-hands.dev: skills/openhands-api/SKILL.md:185, skills/openhands-api/SKILL.md:199, skills/openhands-api/SKILL.md:206"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/openhands-api/SKILL.md:362, skills/openhands-api/SKILL.md:376, skills/openhands-api/SKILL.md:391"],"secret-egress":["OPENHANDS_API_KEY -> app.all-hands.dev @ skills/openhands-api/SKILL.md:362, skills/openhands-api/SKILL.md:376, skills/openhands-api/SKILL.md:391 +2","OPENHANDS_CLOUD_API_KEY -> app.all-hands.dev @ skills/openhands-api/SKILL.md:185, skills/openhands-api/SKILL.md:199, skills/openhands-api/SKILL.md:206 +5"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

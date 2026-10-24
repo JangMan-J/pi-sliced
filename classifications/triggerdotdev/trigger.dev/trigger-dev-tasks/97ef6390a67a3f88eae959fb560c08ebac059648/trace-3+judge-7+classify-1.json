@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"triggerdotdev/trigger.dev/trigger-dev-tasks",
+"revision":"97ef6390a67a3f88eae959fb560c08ebac059648",
+"trace":{"path":"traces/triggerdotdev/trigger.dev/trigger-dev-tasks/97ef6390a67a3f88eae959fb560c08ebac059648/trace-3+judge-7.json","sha256":"8bf6f4c4a4a9f996a6a4184bc35695f5956ba1cf1e0cffcc0925e57481ebdf3c"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":40210,"own":{"files":6,"bytes":40210},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@trigger.dev/react-hooks"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 39 KiB · packages @trigger.dev/react-hooks","short":"39 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @trigger.dev/react-hooks"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

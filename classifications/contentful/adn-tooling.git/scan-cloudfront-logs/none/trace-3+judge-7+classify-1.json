@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"contentful/adn-tooling.git/scan-cloudfront-logs",
+"revision":"none",
+"trace":{"path":"traces/contentful/adn-tooling.git/scan-cloudfront-logs/none/trace-3+judge-7.json","sha256":"3cdc684a857698963c1dc809da81b4d5953ef82c26c731ba4267077f56a6a9aa"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/contentful/adn-tooling.git.git/' not found"
+}

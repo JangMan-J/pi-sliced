@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-storage-blob-java",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-storage-blob-java/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"c39779e70903e60ef4f49877c16785963140cc0179fbfbd4fee781674f2ffe0b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10888,"own":{"files":1,"bytes":10888},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 11 KiB · 1 key","short":"11 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

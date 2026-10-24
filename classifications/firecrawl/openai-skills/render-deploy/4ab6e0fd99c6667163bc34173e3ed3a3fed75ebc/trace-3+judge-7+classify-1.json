@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openai-skills/render-deploy",
+"revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+"trace":{"path":"traces/firecrawl/openai-skills/render-deploy/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc/trace-3+judge-7.json","sha256":"74957af92478d1669f73f41e0789e4544ecbb435bb9f6cbe85bbfda462394be6"},
+"status":"resolved",
+"footprint":{"files":19,"bytes":89256,"own":{"files":19,"bytes":89256},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":1,"media":0,"other":0,"bytes":911},"outside":{"cli":["bundle","cargo","celery","claude","codex","elixir","go","gunicorn","mix","pipenv","poetry","render","uvicorn"],"package":["render"],"mcp-server":["if"],"credential":["RENDER_API_KEY","YOUR_API_KEY"],"network":["raw.githubusercontent.com"]},"summary":"19 files, 87 KiB · 1 images · MCP if · CLI bundle, cargo +11 · packages render · 2 keys · 1 host","short":"87 KiB · 13 CLI · 1 pkg · 2 keys · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","13 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs bundle","runs cargo","runs celery","runs claude","runs codex","runs elixir","runs go","runs gunicorn","runs mix","runs pipenv","runs poetry","runs render","runs uvicorn"]},{"marker":"installs-packages","because":["installs render"]},{"marker":"network","because":["fetches from raw.githubusercontent.com"]},{"marker":"credentials","because":["needs RENDER_API_KEY","needs YOUR_API_KEY"]},{"marker":"mcp-server","because":["uses the if MCP server"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/.curated/render-deploy/SKILL.md:111"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/.curated/render-deploy/SKILL.md:111"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

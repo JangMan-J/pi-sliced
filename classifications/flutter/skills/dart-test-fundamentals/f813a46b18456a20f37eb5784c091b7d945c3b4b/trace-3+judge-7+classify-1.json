@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/dart-test-fundamentals",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/dart-test-fundamentals/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"aebc7af64e0e6a9bcba5c3183fb74ac9f9a8d5d367f5513aca1046362bbf30c8"},
+"status":"unresolvable",
+"reason":"no skill folder named dart-test-fundamentals at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

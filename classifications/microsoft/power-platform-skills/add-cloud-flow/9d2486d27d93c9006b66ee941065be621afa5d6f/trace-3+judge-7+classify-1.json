@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-cloud-flow",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-cloud-flow/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"77ab41b8d03495ba0131082497a4fb50e1226ce14cbe472c97b83ddb1e4c5a1b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":45932,"own":{"files":3,"bytes":45932},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":[],"mcp-server":[],"credential":[],"network":["api.flow.microsoft.cn","api.flow.microsoft.com","dod.api.flow.microsoft.us","dod.service.flow.microsoft.us","gov.api.flow.microsoft.us","gov.service.flow.microsoft.us","high.gov.api.flow.microsoft.us","high.gov.service.flow.microsoft.us","service.flow.microsoft.cn","service.flow.microsoft.com"]},"summary":"3 files, 45 KiB · CLI az · 10 hosts","short":"45 KiB · 1 CLI · 10 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"network","because":["fetches from api.flow.microsoft.cn","fetches from api.flow.microsoft.com","fetches from dod.api.flow.microsoft.us","fetches from dod.service.flow.microsoft.us","fetches from gov.api.flow.microsoft.us","fetches from gov.service.flow.microsoft.us","fetches from high.gov.api.flow.microsoft.us","fetches from high.gov.service.flow.microsoft.us","fetches from service.flow.microsoft.cn","fetches from service.flow.microsoft.com"]}],
+"security":{},
+"companions":{"named":[{"name":"create-site","path":"plugins/power-pages/skills/create-site"},{"name":"create-webroles","path":"plugins/power-pages/skills/create-webroles"},{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"},{"name":"test-site","path":"plugins/power-pages/skills/test-site"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

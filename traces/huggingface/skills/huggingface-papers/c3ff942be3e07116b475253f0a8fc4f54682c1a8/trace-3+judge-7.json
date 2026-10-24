@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"huggingface/skills/huggingface-papers",
+"source":"huggingface/skills",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"skillPath":"skills/huggingface-papers",
+"status":"resolved",
+"totals":{"files":1,"bytes":9348},
+"files":[
+{"path":"skills/huggingface-papers/SKILL.md","size":9348,"blob":"e65fc90acabc30208883238ec89a27c4cdc1b57e","how":"root"}
+],
+"outside":[
+{"kind":"credential","name":"HF_TOKEN","at":[[0,104],[0,127],[0,147],[0,162],[0,179],[0,199],[0,237]]},
+{"kind":"network","name":"huggingface.co","at":[[0,46],[0,58],[0,70],[0,84],[0,90],[0,96],[0,104],[0,127],[0,147],[0,162],[0,179],[0,199]]}
+],
+"regions":[
+{"kind":"own","path":"skills/huggingface-papers","files":1,"bytes":9348}
+],
+"signals":[
+{"kind":"secret-egress","detail":"HF_TOKEN -> huggingface.co","at":[[0,104],[0,127],[0,147],[0,162],[0,179],[0,199]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

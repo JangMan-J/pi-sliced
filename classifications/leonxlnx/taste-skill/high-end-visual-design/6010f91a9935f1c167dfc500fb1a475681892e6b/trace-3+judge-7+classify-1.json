@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/high-end-visual-design",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/high-end-visual-design/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"0aed16c1b2c6947f5c9055e909707729fabdd5592a6025205f03a62074b5cf20"},
+"status":"unresolvable",
+"reason":"no skill folder named high-end-visual-design at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/soft-skill)"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/context7-mcp/context7-cli",
+"revision":"b5e81de845092694ba1bfc5af15400f319c89b6d",
+"trace":{"path":"traces/upstash/context7-mcp/context7-cli/b5e81de845092694ba1bfc5af15400f319c89b6d/trace-3+judge-7.json","sha256":"1f3409cdfc73a42ee4fa69342e6dbc493ffffb7bc1b2ff03ad1fe87d1f27e674"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":10002,"own":{"files":3,"bytes":10002},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ctx7","jq"],"package":["ctx7"],"mcp-server":["context7"],"credential":["CONTEXT7_API_KEY"],"network":[]},"summary":"3 files, 9.8 KiB · MCP context7 · CLI ctx7, jq · packages ctx7 · 1 key","short":"9.8 KiB · 2 CLI · 1 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs ctx7","runs jq"]},{"marker":"installs-packages","because":["installs ctx7"]},{"marker":"credentials","because":["needs CONTEXT7_API_KEY"]},{"marker":"mcp-server","because":["uses the context7 MCP server"]},{"marker":"unpinned-code","because":["install @latest: skills/context7-cli/SKILL.md:13","npx ctx7@latest: skills/context7-cli/SKILL.md:19"]}],
+"security":{"fetch-run":["install @latest @ skills/context7-cli/SKILL.md:13","npx ctx7@latest @ skills/context7-cli/SKILL.md:19"]},
+"companions":{"named":[{"name":"find-docs","path":"skills/find-docs"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

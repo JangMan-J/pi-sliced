@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/penpot-uiux-design",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/penpot-uiux-design/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"e0a806088adbf42b3a77ff1a80f336f347ba10cb171eb0e62a850561a9f8ffa2"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":50615,"own":{"files":5,"bytes":50615},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude","lsof"],"package":["mcp-remote"],"mcp-server":["check","penpot"],"credential":[],"network":["design.penpot.app","github.com","nodejs.org"]},"summary":"5 files, 49 KiB · MCP check, penpot · CLI claude, lsof · packages mcp-remote · 3 hosts","short":"49 KiB · 2 CLI · 1 pkg · 3 hosts · MCP 2"},
+"heavy":{"heavy":true,"because":["1 package to install","2 MCP servers","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs claude","runs lsof"]},{"marker":"installs-packages","because":["installs mcp-remote"]},{"marker":"network","because":["fetches from design.penpot.app","fetches from github.com","fetches from nodejs.org"]},{"marker":"mcp-server","because":["uses the check MCP server","uses the penpot MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

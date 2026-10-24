@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/pr-operations",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/pr-operations/none/trace-3+judge-7.json","sha256":"cf08f481fcdcc311ea64ac3c5761cc361e9a27cdad50af64cfe9d1062f2550d4"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/internal-agent-skills/doormat",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/internal-agent-skills/doormat/none/trace-3+judge-7.json","sha256":"9204df5158f194f9a7a7b2b573114bb0c054098f740499c08fb038fd7e929fab"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"
+}

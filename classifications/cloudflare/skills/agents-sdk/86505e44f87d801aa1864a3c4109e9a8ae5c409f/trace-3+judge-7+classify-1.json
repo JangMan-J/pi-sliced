@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/skills/agents-sdk",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"trace":{"path":"traces/cloudflare/skills/agents-sdk/86505e44f87d801aa1864a3c4109e9a8ae5c409f/trace-3+judge-7.json","sha256":"31be63ce89413742b4fb36683c05775dc9076359e43082f17b11047c4ab9c3d7"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":47579,"own":{"files":20,"bytes":47579},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["web-push","wrangler"],"package":["@ai-sdk/react","@cloudflare/ai-chat","@cloudflare/codemode","@cloudflare/think","@cloudflare/voice","agents","ai","web-push","zod"],"mcp-server":[],"credential":[],"network":["developers.cloudflare.com"]},"summary":"20 files, 46 KiB · CLI web-push, wrangler · packages @ai-sdk/react +8 · 1 host","short":"46 KiB · 2 CLI · 9 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["9 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs web-push","runs wrangler"]},{"marker":"installs-packages","because":["installs @ai-sdk/react","installs @cloudflare/ai-chat","installs @cloudflare/codemode","installs @cloudflare/think","installs @cloudflare/voice","installs agents","installs ai","installs web-push","installs zod"]},{"marker":"network","because":["fetches from developers.cloudflare.com"]},{"marker":"unpinned-code","because":["npx web-push: skills/agents-sdk/references/webhooks-push.md:86","npx wrangler: skills/agents-sdk/references/configuration.md:57"]}],
+"security":{"fetch-run":["npx web-push @ skills/agents-sdk/references/webhooks-push.md:86","npx wrangler @ skills/agents-sdk/references/configuration.md:57"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

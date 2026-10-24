@@ -1,0 +1,23 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/powertoys/winmd-api-search",
+"source":"microsoft/powertoys",
+"revision":"115665ec3240a0c94dea3f0bfaaa6c52dcf4d019",
+"skillPath":".github/skills/winmd-api-search",
+"status":"resolved",
+"totals":{"files":2,"bytes":9846},
+"files":[
+{"path":".github/skills/winmd-api-search/LICENSE.txt","size":1099,"blob":"d4b4c80f41c257d19431d4c00a2d8a79aab52940","how":"path","from":1,"line":4},
+{"path":".github/skills/winmd-api-search/SKILL.md","size":8747,"blob":"56110a95070d71719656898ecc4db872b0e6db46","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":".github/skills/winmd-api-search","files":2,"bytes":9846}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":".github/skills/winmd-api-search/LICENSE.txt","spdx":"MIT","frontmatter":"Complete terms in LICENSE.txt"}
+}

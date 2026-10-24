@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/refac-module-to-subpackage",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/refac-module-to-subpackage/none/trace-3+judge-7.json","sha256":"d2ff26e4bbf2560c44859e9c4c1788df3382fb019ba1fac368c1d0b768db6048"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

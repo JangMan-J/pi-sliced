@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/go-jwt-middleware",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/go-jwt-middleware/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"7563206ee15d5514f3926b9c5d96e24e77f281044e8675bc1a730b3568e79e54"},
+"status":"unresolvable",
+"reason":"no skill folder named go-jwt-middleware at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

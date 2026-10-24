@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/warp/changelog-audit",
+"revision":"363a00d4f779418073e18f1ce399122e991cd7d0",
+"trace":{"path":"traces/nvidia/warp/changelog-audit/363a00d4f779418073e18f1ce399122e991cd7d0/trace-3+judge-7.json","sha256":"88ee1e6a5d787f32454a554a999d96b3bb84a34213ef070ec7bb99c6d4635a7a"},
+"status":"unresolvable",
+"reason":"no skill folder named changelog-audit at 363a00d4f779418073e18f1ce399122e991cd7d0"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/skills/browser",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"trace":{"path":"traces/browserbase/skills/browser/6811ca31163332d9d60309cff48e77f09de37a17/trace-3+judge-7.json","sha256":"2698fc582666706682c2b46c2cc0fd7d5424a9fada4ff97bb1624224fb4a56fc"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":31584,"own":{"files":3,"bytes":31584},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bb","browse","jq","pkill"],"package":["browse"],"mcp-server":[],"credential":["BROWSERBASE_API_KEY"],"network":[]},"summary":"3 files, 31 KiB · CLI bb, browse +2 · packages browse · 1 key","short":"31 KiB · 4 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs bb","runs browse","runs jq","runs pkill"]},{"marker":"installs-packages","because":["installs browse"]},{"marker":"credentials","because":["needs BROWSERBASE_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

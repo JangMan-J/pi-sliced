@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/expo-examples",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/expo-examples/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"f3200dcc174a0b7ca46022c39dcca75136b89742c506260a4f5a79c647311466"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11080,"own":{"files":2,"bytes":11080},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["create-expo","degit","expo","gh","submit-expo-feedback"],"package":[],"mcp-server":[],"credential":[],"network":["github.com","raw.githubusercontent.com"]},"summary":"2 files, 11 KiB · CLI create-expo, degit +3 · 2 hosts","short":"11 KiB · 5 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs create-expo","runs degit","runs expo","runs gh","runs submit-expo-feedback"]},{"marker":"network","because":["fetches from github.com","fetches from raw.githubusercontent.com"]},{"marker":"unpinned-code","because":["npx create-expo: plugins/expo/skills/expo-examples/SKILL.md:3, plugins/expo/skills/expo-examples/SKILL.md:68, plugins/expo/skills/expo-examples/references/catalog.md:5","npx degit: plugins/expo/skills/expo-examples/SKILL.md:57","npx expo: plugins/expo/skills/expo-examples/SKILL.md:76","npx submit-expo-feedback@latest: plugins/expo/skills/expo-examples/SKILL.md:103"]}],
+"security":{"fetch-run":["npx create-expo @ plugins/expo/skills/expo-examples/SKILL.md:3, plugins/expo/skills/expo-examples/SKILL.md:68, plugins/expo/skills/expo-examples/references/catalog.md:5","npx degit @ plugins/expo/skills/expo-examples/SKILL.md:57","npx expo @ plugins/expo/skills/expo-examples/SKILL.md:76","npx submit-expo-feedback@latest @ plugins/expo/skills/expo-examples/SKILL.md:103"]},
+"companions":{"named":[{"name":"expo-module","path":"plugins/expo/skills/expo-module"},{"name":"expo-native-ui","path":"plugins/expo/skills/expo-native-ui"},{"name":"expo-router","path":"plugins/expo/skills/expo-router"},{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback"},{"name":"expo-ui","path":"plugins/expo/skills/expo-ui"},{"name":"expo-upgrade","path":"plugins/expo/skills/expo-upgrade"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

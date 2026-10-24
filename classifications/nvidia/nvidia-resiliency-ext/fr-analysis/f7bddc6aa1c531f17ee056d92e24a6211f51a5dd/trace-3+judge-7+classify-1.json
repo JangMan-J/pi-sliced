@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nvidia-resiliency-ext/fr-analysis",
+"revision":"f7bddc6aa1c531f17ee056d92e24a6211f51a5dd",
+"trace":{"path":"traces/nvidia/nvidia-resiliency-ext/fr-analysis/f7bddc6aa1c531f17ee056d92e24a6211f51a5dd/trace-3+judge-7.json","sha256":"524a25690fb38a11f2fee778a5f8a7db01acc5d3e943ae3927303b1a58c36d7f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":3484,"own":{"files":2,"bytes":3484},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 3.4 KiB","short":"3.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"checkout-scripts","because":["code reaches src/nvidia_resiliency_ext/attribution/trace_analyzer/fr_attribution.py (1 files) in the repository checkout"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":1,"targets":["src/nvidia_resiliency_ext/attribution/trace_analyzer/fr_attribution.py"],"files":1,"bytes":49668}
+}

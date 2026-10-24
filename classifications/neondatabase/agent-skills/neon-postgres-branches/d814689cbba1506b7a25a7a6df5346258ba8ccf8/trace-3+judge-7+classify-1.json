@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/agent-skills/neon-postgres-branches",
+"revision":"d814689cbba1506b7a25a7a6df5346258ba8ccf8",
+"trace":{"path":"traces/neondatabase/agent-skills/neon-postgres-branches/d814689cbba1506b7a25a7a6df5346258ba8ccf8/trace-3+judge-7.json","sha256":"179966142dac5939653c64911b6a6f77e32b7086470d2802c76752643a625704"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13663,"own":{"files":1,"bytes":13663},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["neon"],"package":["@neon/config"],"mcp-server":["neon"],"credential":[],"network":["github.com","neon.com"]},"summary":"1 file, 13 KiB · MCP neon · CLI neon · packages @neon/config · 2 hosts","short":"13 KiB · 1 CLI · 1 pkg · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs neon"]},{"marker":"installs-packages","because":["installs @neon/config"]},{"marker":"network","because":["fetches from github.com","fetches from neon.com"]},{"marker":"mcp-server","because":["uses the neon MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/ruzzy",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/ruzzy/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"5d1a7d119ec1672b82f1836b6d5ce7dfa2f23ee87aaf566bf5929a57dfd2639b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12164,"own":{"files":1,"bytes":12164},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gem","ruby"],"package":["msgpack","ruzzy"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB · CLI gem, ruby · packages msgpack +1","short":"12 KiB · 2 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gem","runs ruby"]},{"marker":"installs-packages","because":["installs msgpack","installs ruzzy"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

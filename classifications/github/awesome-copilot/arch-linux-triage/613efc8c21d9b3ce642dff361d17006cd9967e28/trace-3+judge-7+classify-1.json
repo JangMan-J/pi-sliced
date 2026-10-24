@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/arch-linux-triage",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/arch-linux-triage/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"e89b3183b802f07d7d7ceebfe81615daa051c5a9bf986208625a98b3d8fa5cd8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":930,"own":{"files":1,"bytes":930},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 930 B","short":"930 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

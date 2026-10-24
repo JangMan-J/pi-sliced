@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-ai/sentry-setup-ai-monitoring",
+"revision":"16a86de9eb0e33948c32ccd722958203c21098af",
+"trace":{"path":"traces/getsentry/sentry-for-ai/sentry-setup-ai-monitoring/16a86de9eb0e33948c32ccd722958203c21098af/trace-3+judge-7.json","sha256":"4e2768b637fabb16d31f35ac1565d7fc52b2570cfca6598b6078e733b5d55ac1"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":24910,"own":{"files":2,"bytes":24910},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["composer","php"],"package":["laravel/ai","sentry/sentry-laravel"],"mcp-server":[],"credential":[],"network":["docs.sentry.io","getsentry.github.io"]},"summary":"2 files, 24 KiB · CLI composer, php · packages laravel/ai +1 · 2 hosts","short":"24 KiB · 2 CLI · 2 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs composer","runs php"]},{"marker":"installs-packages","because":["installs laravel/ai","installs sentry/sentry-laravel"]},{"marker":"network","because":["fetches from docs.sentry.io","fetches from getsentry.github.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

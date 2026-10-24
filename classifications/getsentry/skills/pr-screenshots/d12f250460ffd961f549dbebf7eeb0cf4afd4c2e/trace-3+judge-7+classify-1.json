@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/skills/pr-screenshots",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"trace":{"path":"traces/getsentry/skills/pr-screenshots/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e/trace-3+judge-7.json","sha256":"7a6fda75d6f85d894d715fa3bc81a2db048072420b4e3cae6476234f8e5e00f4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6976,"own":{"files":1,"bytes":6976},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.8 KiB · CLI gh","short":"6.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sveltejs/ai-tools/writing-opencode-plugins",
+"revision":"b2589f890e9c5c4a788a557315aa5012d1fba4ba",
+"trace":{"path":"traces/sveltejs/ai-tools/writing-opencode-plugins/b2589f890e9c5c4a788a557315aa5012d1fba4ba/trace-3+judge-7.json","sha256":"5a0de4d88cc8dd60e7a6e726a06caee3feba23c72bb1430f5fd50e453f1df019"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":23318,"own":{"files":4,"bytes":23318},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 23 KiB","short":"23 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

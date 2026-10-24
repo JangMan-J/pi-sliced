@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/shopify-liquid",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/shopify-liquid/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"8a4d10200eaa43e894154673d1d959e19068122fa64db34dc5213e6144df9ba8"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":36617,"own":{"files":3,"bytes":36617},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@shopify/theme-check-common","@shopify/theme-check-docs-updater","@shopify/theme-check-node"],"mcp-server":[],"credential":["MINERVA_TOKEN"],"network":["shopify-dev.shop.dev","shopify.dev"]},"summary":"3 files, 36 KiB · packages @shopify/theme-check-common +2 · 1 key · 2 hosts","short":"36 KiB · 3 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @shopify/theme-check-common","installs @shopify/theme-check-docs-updater","installs @shopify/theme-check-node"]},{"marker":"network","because":["fetches from shopify-dev.shop.dev","fetches from shopify.dev"]},{"marker":"credentials","because":["needs MINERVA_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vuejs-ai/skills/vue-options-api-best-practices",
+"revision":"f5d4b3b869bb8a86ddfea148196f7db64aeefeab",
+"trace":{"path":"traces/vuejs-ai/skills/vue-options-api-best-practices/f5d4b3b869bb8a86ddfea148196f7db64aeefeab/trace-3+judge-7.json","sha256":"937bf5e9bae21d4c0b594c005095c7a8615b9fc34f26abb2fbf0ee224e8880ce"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":41699,"own":{"files":11,"bytes":41699},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tsc"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"11 files, 41 KiB · CLI tsc","short":"41 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tsc"]},{"marker":"unpinned-code","because":["npx tsc: skills/vue-options-api-best-practices/reference/ts-options-api-arrow-functions-validators.md:132"]}],
+"security":{"fetch-run":["npx tsc @ skills/vue-options-api-best-practices/reference/ts-options-api-arrow-functions-validators.md:132"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

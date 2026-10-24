@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/hve-core/gitlab",
+"revision":"6cd810c7b9448d98ea07db0a7a9124824d32dacc",
+"trace":{"path":"traces/microsoft/hve-core/gitlab/6cd810c7b9448d98ea07db0a7a9124824d32dacc/trace-3+judge-7.json","sha256":"c12dfb2d70389fb9d4a1c70859c7e6623f0e2cce18fef9d1817ba3b69bdceebe"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":68026,"own":{"files":2,"bytes":68026},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["_gitlab_credentials","_gitlab_oauth"],"mcp-server":["gitlab"],"credential":["GITLAB_TOKEN"],"network":[]},"summary":"2 files, 66 KiB · MCP gitlab · packages _gitlab_credentials +1 · 1 key","short":"66 KiB · 2 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs _gitlab_credentials","installs _gitlab_oauth"]},{"marker":"credentials","because":["needs GITLAB_TOKEN"]},{"marker":"mcp-server","because":["uses the gitlab MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

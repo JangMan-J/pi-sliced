@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"antithesishq/antithesis-skills/antithesis-documentation",
+"revision":"4ce26aa6f0021bd99d401918b79c7bb906180858",
+"trace":{"path":"traces/antithesishq/antithesis-skills/antithesis-documentation/4ce26aa6f0021bd99d401918b79c7bb906180858/trace-3+judge-7.json","sha256":"990c139d047307fc353c4da58247dcc7bff7d057c107826dea653c5be2a64c16"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5193,"own":{"files":1,"bytes":5193},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["snouty"],"package":[],"mcp-server":[],"credential":[],"network":["antithesis.com","raw.githubusercontent.com"]},"summary":"1 file, 5.1 KiB · CLI snouty · 2 hosts","short":"5.1 KiB · 1 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs snouty"]},{"marker":"network","because":["fetches from antithesis.com","fetches from raw.githubusercontent.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

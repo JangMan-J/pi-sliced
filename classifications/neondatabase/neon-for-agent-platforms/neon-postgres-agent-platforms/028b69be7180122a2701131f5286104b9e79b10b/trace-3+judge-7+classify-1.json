@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/neon-for-agent-platforms/neon-postgres-agent-platforms",
+"revision":"028b69be7180122a2701131f5286104b9e79b10b",
+"trace":{"path":"traces/neondatabase/neon-for-agent-platforms/neon-postgres-agent-platforms/028b69be7180122a2701131f5286104b9e79b10b/trace-3+judge-7.json","sha256":"bb9389a1792a64d0701284a1594e4613806b85bd7ea6219bcadae0fe15ed8c43"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20827,"own":{"files":1,"bytes":20827},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":["neon"],"credential":[],"network":[]},"summary":"1 file, 20 KiB · MCP neon · CLI skills","short":"20 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"mcp-server","because":["uses the neon MCP server"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/neon-postgres-agent-platforms/SKILL.md:47"]}],
+"security":{"fetch-run":["npx skills @ skills/neon-postgres-agent-platforms/SKILL.md:47"],"skill-fetch":["npx skills add @ skills/neon-postgres-agent-platforms/SKILL.md:47"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

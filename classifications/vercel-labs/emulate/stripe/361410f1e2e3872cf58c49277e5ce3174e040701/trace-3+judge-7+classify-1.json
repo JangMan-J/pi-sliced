@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/emulate/stripe",
+"revision":"361410f1e2e3872cf58c49277e5ce3174e040701",
+"trace":{"path":"traces/vercel-labs/emulate/stripe/361410f1e2e3872cf58c49277e5ce3174e040701/trace-3+judge-7.json","sha256":"b532fa85ea35c0131ddb4ef98506cd2f6bcbc0ea8da5850ac47dcd8048a3802d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11244,"own":{"files":1,"bytes":11244},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["emulate"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI emulate","short":"11 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs emulate"]},{"marker":"unpinned-code","because":["npx emulate: skills/stripe/SKILL.md:19, skills/stripe/SKILL.md:392"]}],
+"security":{"fetch-run":["npx emulate @ skills/stripe/SKILL.md:19, skills/stripe/SKILL.md:392"]},
+"companions":{"named":[{"name":"emulate","path":"skills/emulate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

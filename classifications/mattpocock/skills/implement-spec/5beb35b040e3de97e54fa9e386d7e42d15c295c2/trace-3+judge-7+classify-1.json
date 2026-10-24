@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mattpocock/skills/implement-spec",
+"revision":"5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+"trace":{"path":"traces/mattpocock/skills/implement-spec/5beb35b040e3de97e54fa9e386d7e42d15c295c2/trace-3+judge-7.json","sha256":"efb8ea86bd262f6d5d71f9966f117f81ed7f439c950b044e0a9a3bd6b1f06605"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2780,"own":{"files":1,"bytes":2780},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB","short":"2.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"code-review","path":"skills/engineering/code-review"},{"name":"setup-matt-pocock-skills","path":"skills/engineering/setup-matt-pocock-skills"},{"name":"tdd","path":"skills/engineering/tdd"},{"name":"to-spec","path":"skills/engineering/to-spec"},{"name":"to-tickets","path":"skills/engineering/to-tickets"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

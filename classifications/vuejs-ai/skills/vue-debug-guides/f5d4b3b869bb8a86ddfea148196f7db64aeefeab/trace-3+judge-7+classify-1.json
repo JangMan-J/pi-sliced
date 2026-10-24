@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vuejs-ai/skills/vue-debug-guides",
+"revision":"f5d4b3b869bb8a86ddfea148196f7db64aeefeab",
+"trace":{"path":"traces/vuejs-ai/skills/vue-debug-guides/f5d4b3b869bb8a86ddfea148196f7db64aeefeab/trace-3+judge-7.json","sha256":"8ee6ae7aa62f8e6756973d7514a53193c502ca5fcf92452087aada1300cef577"},
+"status":"resolved",
+"footprint":{"files":139,"bytes":595089,"own":{"files":139,"bytes":595089},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"139 files, 581 KiB","short":"581 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"vue-best-practices","path":"skills/vue-best-practices"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

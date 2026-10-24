@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langfuse/langfuse/analyze-cloud-costs",
+"revision":"f3500cd1167ec459851730913ebbb94c5003535c",
+"trace":{"path":"traces/langfuse/langfuse/analyze-cloud-costs/f3500cd1167ec459851730913ebbb94c5003535c/trace-3+judge-7.json","sha256":"e804fedfea0df1a95dd390e150243bc810d264361139255ee1b653fba69044a8"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6346,"own":{"files":2,"bytes":6346},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.2 KiB","short":"6.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

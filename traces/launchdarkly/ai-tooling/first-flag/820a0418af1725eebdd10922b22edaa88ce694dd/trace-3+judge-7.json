@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"launchdarkly/ai-tooling/first-flag",
+"source":"launchdarkly/ai-tooling",
+"revision":"820a0418af1725eebdd10922b22edaa88ce694dd",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named first-flag at 820a0418af1725eebdd10922b22edaa88ce694dd",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

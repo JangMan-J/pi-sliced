@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/mobilebuildmcp/mobilebuildmcp-test-boundary-review",
+"source":"getsentry/mobilebuildmcp",
+"revision":"d13ff0c707b0681769cf31da0eb42c4f94ceafff",
+"skillPath":".agents/skills/mobilebuildmcp-test-boundary-review",
+"status":"resolved",
+"totals":{"files":1,"bytes":1391},
+"files":[
+{"path":".agents/skills/mobilebuildmcp-test-boundary-review/SKILL.md","size":1391,"blob":"aa680b6d671e46b0dd3d5ec308a320b07e583397","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skill-check","at":[[0,41]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/mobilebuildmcp-test-boundary-review","files":1,"bytes":1391}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skill-check","at":[[0,41]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

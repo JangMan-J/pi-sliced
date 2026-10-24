@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/shellcheck-configuration",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/shellcheck-configuration/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"97c4e80aa46af70a8bc91fe41ef24c27c3f57e578e35eef92c228636e800d3e0"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9561,"own":{"files":2,"bytes":9561},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["do_something","make","pgrep","shellcheck","some_command"],"package":["shellcheck"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"2 files, 9.3 KiB · CLI do_something, make +3 · packages shellcheck · 1 host","short":"9.3 KiB · 5 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs do_something","runs make","runs pgrep","runs shellcheck","runs some_command"]},{"marker":"installs-packages","because":["installs shellcheck"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

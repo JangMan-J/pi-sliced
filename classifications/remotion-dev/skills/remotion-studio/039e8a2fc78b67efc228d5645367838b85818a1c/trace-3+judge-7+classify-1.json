@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"remotion-dev/skills/remotion-studio",
+"revision":"039e8a2fc78b67efc228d5645367838b85818a1c",
+"trace":{"path":"traces/remotion-dev/skills/remotion-studio/039e8a2fc78b67efc228d5645367838b85818a1c/trace-3+judge-7.json","sha256":"12c12f8e3426c7084b16b8b5f7b06a9eafce9258dd87670d08095a602e3c2f2f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1611,"own":{"files":1,"bytes":1611},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["remotion"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.6 KiB · CLI remotion","short":"1.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs remotion"]},{"marker":"stub","because":["own folder 1.6 KiB (1 file)","content is the remotion it wraps"]},{"marker":"unpinned-code","because":["npx remotion: skills/remotion-studio/SKILL.md:12, skills/remotion-studio/SKILL.md:18"]}],
+"security":{"fetch-run":["npx remotion @ skills/remotion-studio/SKILL.md:12, skills/remotion-studio/SKILL.md:18"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

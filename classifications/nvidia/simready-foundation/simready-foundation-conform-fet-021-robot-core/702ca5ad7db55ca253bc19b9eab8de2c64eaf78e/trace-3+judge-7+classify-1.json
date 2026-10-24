@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-021-robot-core",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-021-robot-core/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"894d0570ca700c0d96522e4dedbd97ab191f4d4e81856573ef1c865729a7d52b"},
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-021-robot-core at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e"
+}

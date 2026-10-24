@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/skills/hf-mcp",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"trace":{"path":"traces/huggingface/skills/hf-mcp/c3ff942be3e07116b475253f0a8fc4f54682c1a8/trace-3+judge-7.json","sha256":"1b3b6a73b79f2a4d83432a7b67591945cd4c37c22dcf127200d56be0614be749"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4968,"own":{"files":1,"bytes":4968},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["hf"],"credential":["HF_TOKEN"],"network":[]},"summary":"1 file, 4.9 KiB · MCP hf · 1 key","short":"4.9 KiB · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 credential"]},
+"markers":[{"marker":"credentials","because":["needs HF_TOKEN"]},{"marker":"mcp-server","because":["uses the hf MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

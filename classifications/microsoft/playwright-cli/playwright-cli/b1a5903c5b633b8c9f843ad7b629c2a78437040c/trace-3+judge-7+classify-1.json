@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/playwright-cli/playwright-cli",
+"revision":"b1a5903c5b633b8c9f843ad7b629c2a78437040c",
+"trace":{"path":"traces/microsoft/playwright-cli/playwright-cli/b1a5903c5b633b8c9f843ad7b629c2a78437040c/trace-3+judge-7.json","sha256":"e5c4edc851317d68f34894be429fc4c447c466e84f4cdc20842e9de857470a64"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":68749,"own":{"files":11,"bytes":68749},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["async","await","button","catch","const","dashboard","download","e","gh","i","i++","indexedDB.deleteDatabase","internetdisconnected","jq","li","localStorage.setItem","login","microphone","myDatabase","networkidle","open","page-2026-02-14T19-22-42-679Z.yml","playwright","playwright-cli","results.push","route.fulfill","secret","text","try","webmcp-call"],"package":["@playwright/cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"11 files, 67 KiB · CLI async, await +28 · packages @playwright/cli","short":"67 KiB · 30 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","30 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs async","runs await","runs button","runs catch","runs const","runs dashboard","runs download","runs e","runs gh","runs i","runs i++","runs indexedDB.deleteDatabase","runs internetdisconnected","runs jq","runs li","runs localStorage.setItem","runs login","runs microphone","runs myDatabase","runs networkidle","runs open","runs page-2026-02-14T19-22-42-679Z.yml","runs playwright","runs playwright-cli","runs results.push","runs route.fulfill","runs secret","runs text","runs try","runs webmcp-call"]},{"marker":"installs-packages","because":["installs @playwright/cli"]},{"marker":"unpinned-code","because":["install @latest: skills/playwright-cli/SKILL.md:411","npx playwright: skills/playwright-cli/SKILL.md:402, skills/playwright-cli/SKILL.md:405, skills/playwright-cli/SKILL.md:408"]}],
+"security":{"fetch-run":["install @latest @ skills/playwright-cli/SKILL.md:411","npx playwright @ skills/playwright-cli/SKILL.md:402, skills/playwright-cli/SKILL.md:405, skills/playwright-cli/SKILL.md:408 +10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

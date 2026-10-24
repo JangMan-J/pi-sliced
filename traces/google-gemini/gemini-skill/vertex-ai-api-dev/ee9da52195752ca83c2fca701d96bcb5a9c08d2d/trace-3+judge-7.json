@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"google-gemini/gemini-skill/vertex-ai-api-dev",
+"source":"google-gemini/gemini-skill",
+"revision":"ee9da52195752ca83c2fca701d96bcb5a9c08d2d",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named vertex-ai-api-dev at ee9da52195752ca83c2fca701d96bcb5a9c08d2d",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

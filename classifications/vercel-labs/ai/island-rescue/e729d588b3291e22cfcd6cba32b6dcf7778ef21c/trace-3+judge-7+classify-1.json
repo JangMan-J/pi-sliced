@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/ai/island-rescue",
+"revision":"e729d588b3291e22cfcd6cba32b6dcf7778ef21c",
+"trace":{"path":"traces/vercel-labs/ai/island-rescue/e729d588b3291e22cfcd6cba32b6dcf7778ef21c/trace-3+judge-7.json","sha256":"b3162f9807974d846408ffc2d90b3f4ad378d10f64e029f300a6f15042a556d7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":219,"own":{"files":1,"bytes":219},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 219 B","short":"219 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

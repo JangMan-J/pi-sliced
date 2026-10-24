@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/v-development",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/v-development/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"c451259dd118127791a5f883497a8f5d9dd77961e452cb40809e64caa5636857"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5568,"own":{"files":1,"bytes":5568},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["v"],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"1 file, 5.4 KiB · CLI v · 1 host","short":"5.4 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs v"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

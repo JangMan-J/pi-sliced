@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"heygen-com/hyperframes/canopy-part-title",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"trace":{"path":"traces/heygen-com/hyperframes/canopy-part-title/00d55a7f1dab0765296793b4da2f3e791b5ce42e/trace-3+judge-7.json","sha256":"29988dd00fa60c63c987242dfe200bb6de4f762de1f4d5ad9a95e3c9b9eee724"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":267176,"own":{"files":4,"bytes":267176},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":2,"media":0,"other":0,"bytes":204704},"outside":{"cli":["hyperframes"],"package":[],"mcp-server":[],"credential":[],"network":["cdn.jsdelivr.net","fonts.googleapis.com"]},"summary":"4 files, 261 KiB · 2 images · CLI hyperframes · 2 hosts","short":"261 KiB · 1 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs hyperframes"]},{"marker":"network","because":["fetches from cdn.jsdelivr.net","fetches from fonts.googleapis.com"]},{"marker":"unpinned-code","because":["npx hyperframes: registry/blocks/canopy-part-title/SKILL.md:20"]}],
+"security":{"fetch-run":["npx hyperframes @ registry/blocks/canopy-part-title/SKILL.md:20"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

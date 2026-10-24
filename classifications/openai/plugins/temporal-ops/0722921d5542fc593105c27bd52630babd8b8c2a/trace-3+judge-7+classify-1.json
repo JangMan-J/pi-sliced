@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/temporal-ops",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/temporal-ops/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"42ae34a70e6646176863b8e93e99b9826886774b713c99c122171ea7f3d62a5f"},
+"status":"resolved",
+"footprint":{"files":33,"bytes":496872,"own":{"files":33,"bytes":496872},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["delete","dig","grpcurl","jq","nc","nslookup","openssl","signal","tcld","temporal","terminate","terraform","unpause"],"package":["temporal","temporal-cloud-cli"],"mcp-server":[],"credential":["TEMPORAL_API_KEY","TEMPORAL_CLOUD_API_KEY","TEMPORAL_TLS_KEY"],"network":["buf.build","cloud.temporal.io","github.com"]},"summary":"33 files, 485 KiB · CLI delete, dig +11 · packages temporal +1 · 3 keys · 3 hosts","short":"485 KiB · 13 CLI · 2 pkg · 3 keys · 3 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","13 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs delete","runs dig","runs grpcurl","runs jq","runs nc","runs nslookup","runs openssl","runs signal","runs tcld","runs temporal","runs terminate","runs terraform","runs unpause"]},{"marker":"installs-packages","because":["installs temporal","installs temporal-cloud-cli"]},{"marker":"network","because":["fetches from buf.build","fetches from cloud.temporal.io","fetches from github.com"]},{"marker":"credentials","because":["needs TEMPORAL_API_KEY","needs TEMPORAL_CLOUD_API_KEY","needs TEMPORAL_TLS_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"email","path":"plugins/vercel/skills/email"},{"name":"observability","path":"plugins/vercel/skills/observability"},{"name":"payments","path":"plugins/vercel/skills/payments"},{"name":"start","path":"plugins/zoom/skills/start"},{"name":"workflow","path":"plugins/vercel/skills/workflow"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

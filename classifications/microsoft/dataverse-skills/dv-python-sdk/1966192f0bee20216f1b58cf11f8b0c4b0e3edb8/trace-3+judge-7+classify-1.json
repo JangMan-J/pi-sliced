@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/dataverse-skills/dv-python-sdk",
+"revision":"1966192f0bee20216f1b58cf11f8b0c4b0e3edb8",
+"trace":{"path":"traces/microsoft/dataverse-skills/dv-python-sdk/1966192f0bee20216f1b58cf11f8b0c4b0e3edb8/trace-3+judge-7.json","sha256":"074bd29fb7869c6e1ed85755cc6dd4d9ddf75333afc415c3ae729e96a75c4f0b"},
+"status":"unresolvable",
+"reason":"no skill folder named dv-python-sdk at 1966192f0bee20216f1b58cf11f8b0c4b0e3edb8"
+}

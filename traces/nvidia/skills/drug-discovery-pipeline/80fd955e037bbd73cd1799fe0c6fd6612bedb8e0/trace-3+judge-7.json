@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skills/drug-discovery-pipeline",
+"source":"nvidia/skills",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"skillPath":"skills/bionemo-drug-discovery-pipeline",
+"status":"resolved",
+"totals":{"files":1,"bytes":7367},
+"files":[
+{"path":"skills/bionemo-drug-discovery-pipeline/SKILL.md","size":7367,"blob":"7d8e243b3d748ad2b6d911705c8141bc9436b454","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/bionemo-drug-discovery-pipeline","files":1,"bytes":7367}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE-APACHE","spdx":"Apache-2.0","frontmatter":"Apache-2.0 AND CC-BY-4.0"}
+}

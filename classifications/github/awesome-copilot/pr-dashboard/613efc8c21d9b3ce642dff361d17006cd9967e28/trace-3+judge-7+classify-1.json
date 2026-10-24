@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/pr-dashboard",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/pr-dashboard/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"b9bea52063dc1e3d38470252be4da3370543e51be85652e7a382b090ded5c3ec"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":27861,"own":{"files":4,"bytes":27861},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cmd","gh"],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"4 files, 27 KiB · CLI cmd, gh · 1 host","short":"27 KiB · 2 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cmd","runs gh"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry/warden",
+"revision":"86b1728a40fc57fd64ca6fb5e7c892b17c061b8c",
+"trace":{"path":"traces/getsentry/sentry/warden/86b1728a40fc57fd64ca6fb5e7c892b17c061b8c/trace-3+judge-7.json","sha256":"45a680ae93bef4f62fc372062351f38a7292a29da1579cd2ec888e9f7d5445d3"},
+"status":"unresolvable",
+"reason":"no skill folder named warden at 86b1728a40fc57fd64ca6fb5e7c892b17c061b8c"
+}

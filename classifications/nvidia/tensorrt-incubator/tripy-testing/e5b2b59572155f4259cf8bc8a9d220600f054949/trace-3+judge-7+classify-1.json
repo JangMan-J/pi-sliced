@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/tensorrt-incubator/tripy-testing",
+"revision":"e5b2b59572155f4259cf8bc8a9d220600f054949",
+"trace":{"path":"traces/nvidia/tensorrt-incubator/tripy-testing/e5b2b59572155f4259cf8bc8a9d220600f054949/trace-3+judge-7.json","sha256":"258314b8b297a959fa560b00e4a381d1d758a8ffd087c06d305647dc48f4a5a2"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7363,"own":{"files":1,"bytes":7363},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pytest"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.2 KiB · CLI pytest","short":"7.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pytest"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-translation-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-translation-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"9f3dc05caecef1586ae6bd386991040666d755bd634ea6441ec0d3bb22bce00e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7880,"own":{"files":1,"bytes":7880},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure-rest/ai-translation-document","@azure-rest/ai-translation-text","@azure/identity"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","TRANSLATOR_SUBSCRIPTION_KEY"],"network":[]},"summary":"1 file, 7.7 KiB · packages @azure-rest/ai-translation-document +2 · 2 keys","short":"7.7 KiB · 3 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure-rest/ai-translation-document","installs @azure-rest/ai-translation-text","installs @azure/identity"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs TRANSLATOR_SUBSCRIPTION_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

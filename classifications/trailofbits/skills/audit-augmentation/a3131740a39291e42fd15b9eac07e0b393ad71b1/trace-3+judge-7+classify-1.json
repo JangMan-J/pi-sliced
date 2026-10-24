@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/audit-augmentation",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/audit-augmentation/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"730f9a78ca2d9e737ac8ca63474c7f7c77b64c78cc50ce68cf30c3e1577d9d9a"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12944,"own":{"files":2,"bytes":12944},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["semgrep"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 13 KiB · CLI semgrep","short":"13 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs semgrep"]}],
+"security":{},
+"companions":{"named":[{"name":"diagramming-code","path":"plugins/trailmark/skills/diagramming-code"},{"name":"trailmark","path":"plugins/trailmark/skills/trailmark"},{"name":"trailmark-finding-triage","path":"plugins/trailmark/skills/trailmark-finding-triage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

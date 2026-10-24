@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/canvas-apps-generate",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/canvas-apps-generate/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"32becea712fa11891b36ace26f7c7c614ce8058e92442ab39dd9fc78cb4ce486"},
+"status":"unresolvable",
+"reason":"no skill folder named canvas-apps-generate at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

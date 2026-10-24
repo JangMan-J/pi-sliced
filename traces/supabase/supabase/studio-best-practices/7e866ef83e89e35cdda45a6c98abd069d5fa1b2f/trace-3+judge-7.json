@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"supabase/supabase/studio-best-practices",
+"source":"supabase/supabase",
+"revision":"7e866ef83e89e35cdda45a6c98abd069d5fa1b2f",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named studio-best-practices at 7e866ef83e89e35cdda45a6c98abd069d5fa1b2f",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

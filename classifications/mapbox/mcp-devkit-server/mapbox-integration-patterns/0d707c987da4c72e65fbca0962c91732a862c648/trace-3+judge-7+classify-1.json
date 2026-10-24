@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mcp-devkit-server/mapbox-integration-patterns",
+"revision":"0d707c987da4c72e65fbca0962c91732a862c648",
+"trace":{"path":"traces/mapbox/mcp-devkit-server/mapbox-integration-patterns/0d707c987da4c72e65fbca0962c91732a862c648/trace-3+judge-7.json","sha256":"015a58f24e6d226c2fa7a68e5555b6149f0640740ccfe327c0ee1eb358c40fca"},
+"status":"unresolvable",
+"reason":"no skill folder named mapbox-integration-patterns at 0d707c987da4c72e65fbca0962c91732a862c648"
+}

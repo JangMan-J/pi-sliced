@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"redis/agent-skills/redis-observability",
+"revision":"a84871d065f398fed55e1633f66b66f731eb4e2b",
+"trace":{"path":"traces/redis/agent-skills/redis-observability/a84871d065f398fed55e1633f66b66f731eb4e2b/trace-3+judge-7.json","sha256":"1c6e702a0fd7eff56d3f40857d1b04f738fd0f7a4015d49ea0955c0a6370abc5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":5717,"own":{"files":3,"bytes":5717},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 5.6 KiB","short":"5.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

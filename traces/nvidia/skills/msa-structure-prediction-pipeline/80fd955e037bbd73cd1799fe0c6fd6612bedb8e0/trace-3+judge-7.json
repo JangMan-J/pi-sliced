@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skills/msa-structure-prediction-pipeline",
+"source":"nvidia/skills",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"skillPath":"skills/bionemo-msa-structure-prediction-pipeline",
+"status":"resolved",
+"totals":{"files":1,"bytes":6570},
+"files":[
+{"path":"skills/bionemo-msa-structure-prediction-pipeline/SKILL.md","size":6570,"blob":"6f72f6caafbd57bcb2d076020c9a3a38d9e76f9a","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/bionemo-msa-structure-prediction-pipeline","files":1,"bytes":6570}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE-APACHE","spdx":"Apache-2.0","frontmatter":"Apache-2.0 AND CC-BY-4.0"}
+}

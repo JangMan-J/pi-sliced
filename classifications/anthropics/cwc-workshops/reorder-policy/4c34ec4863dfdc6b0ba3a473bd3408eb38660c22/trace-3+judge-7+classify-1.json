@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/cwc-workshops/reorder-policy",
+"revision":"4c34ec4863dfdc6b0ba3a473bd3408eb38660c22",
+"trace":{"path":"traces/anthropics/cwc-workshops/reorder-policy/4c34ec4863dfdc6b0ba3a473bd3408eb38660c22/trace-3+judge-7.json","sha256":"30eee51ffbe5b98c040f846d2231690bb362a5c18bef2d347c3bbdca92ac4205"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4454,"own":{"files":1,"bytes":4454},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.3 KiB","short":"4.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"forecasting","path":"agent-decomposition/.claude/skills/forecasting"},{"name":"notify-templates","path":"agent-decomposition/.claude/skills/notify-templates"},{"name":"supplier-selection","path":"agent-decomposition/.claude/skills/supplier-selection"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

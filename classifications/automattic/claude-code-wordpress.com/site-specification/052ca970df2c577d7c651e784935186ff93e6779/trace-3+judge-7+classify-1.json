@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/claude-code-wordpress.com/site-specification",
+"revision":"052ca970df2c577d7c651e784935186ff93e6779",
+"trace":{"path":"traces/automattic/claude-code-wordpress.com/site-specification/052ca970df2c577d7c651e784935186ff93e6779/trace-3+judge-7.json","sha256":"3ca02b4729b6649af80a15b1bcc671805946d87fcda6cf5cac64a878f7afe93c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10977,"own":{"files":1,"bytes":10977},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

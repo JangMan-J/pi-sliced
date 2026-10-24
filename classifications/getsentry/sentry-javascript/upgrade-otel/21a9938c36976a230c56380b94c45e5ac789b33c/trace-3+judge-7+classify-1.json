@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-javascript/upgrade-otel",
+"revision":"21a9938c36976a230c56380b94c45e5ac789b33c",
+"trace":{"path":"traces/getsentry/sentry-javascript/upgrade-otel/21a9938c36976a230c56380b94c45e5ac789b33c/trace-3+judge-7.json","sha256":"9cc53ebf13c9ffbdcf8df1a9c693df6054ddf245b2bb441025f0be0e03531c96"},
+"status":"unresolvable",
+"reason":"no skill folder named upgrade-otel at 21a9938c36976a230c56380b94c45e5ac789b33c"
+}

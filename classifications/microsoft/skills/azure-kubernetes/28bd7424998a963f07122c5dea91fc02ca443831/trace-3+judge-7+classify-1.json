@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-kubernetes",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-kubernetes/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"00eb8780d75ed1904848e8bc858d357d30b37ce876d6774b644c172005b553ed"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":29916,"own":{"files":7,"bytes":29916},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","jq","kubectl"],"package":[],"mcp-server":["aks-specific"],"credential":[],"network":[]},"summary":"7 files, 29 KiB · MCP aks-specific · CLI az, jq +1","short":"29 KiB · 3 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs jq","runs kubectl"]},{"marker":"mcp-server","because":["uses the aks-specific MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"aks-gpu-inference","path":".github/plugins/aks-skills/skills/aks-gpu-inference"},{"name":"aks-known-issues","path":".github/plugins/aks-skills/skills/aks-known-issues"},{"name":"aks-network-capture","path":".github/plugins/aks-skills/skills/aks-network-capture"},{"name":"aks-troubleshooting","path":".github/plugins/aks-skills/skills/aks-troubleshooting"},{"name":"azure-kubernetes-app-deploy","path":".github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-app-deploy"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

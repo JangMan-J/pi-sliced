@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-docs",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-docs/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"feac5e3ac06734e21a8f9af6615802e0ef806479188673413159fc7a519db348"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3377,"own":{"files":1,"bytes":3377},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.3 KiB","short":"3.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"convex","path":"skills/convex"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

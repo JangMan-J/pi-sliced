@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/next-upgrade",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/next-upgrade/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"5150235aac5620398396cbed1e3ada30318abc8ca373109de34598fed5f7c857"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2928,"own":{"files":1,"bytes":2928},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@next/codemod"],"package":["@types/react","@types/react-dom","next","react","react-dom"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB · CLI @next/codemod · packages @types/react +4","short":"2.9 KiB · 1 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs @next/codemod"]},{"marker":"installs-packages","because":["installs @types/react","installs @types/react-dom","installs next","installs react","installs react-dom"]},{"marker":"stub","because":["own folder 2.9 KiB (1 file)","content is the @next/codemod it wraps"]},{"marker":"unpinned-code","because":["install @latest: plugins/vercel/skills/next-upgrade/SKILL.md:68, plugins/vercel/skills/next-upgrade/SKILL.md:78","npx @next/codemod@latest: plugins/vercel/skills/next-upgrade/SKILL.md:59"]}],
+"security":{"fetch-run":["install @latest @ plugins/vercel/skills/next-upgrade/SKILL.md:68, plugins/vercel/skills/next-upgrade/SKILL.md:78","npx @next/codemod@latest @ plugins/vercel/skills/next-upgrade/SKILL.md:59"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

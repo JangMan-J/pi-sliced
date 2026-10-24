@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/writing-lean-proofs",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/writing-lean-proofs/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"0ba793c164f9bd3441fed91c9f5399af55d0e20a2c451590b8895eb486d51086"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":91471,"own":{"files":9,"bytes":91471},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["lake"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 89 KiB · CLI lake","short":"89 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs lake"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

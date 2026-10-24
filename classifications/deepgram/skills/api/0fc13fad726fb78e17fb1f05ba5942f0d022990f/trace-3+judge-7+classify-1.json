@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/api",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/api/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"0295408b36250cdae8de29e07fc806108925442067aa61fb33cf8e5ced191d92"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":134641,"own":{"files":9,"bytes":134641},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":["deepgram"],"credential":["API_KEY"],"network":["developers.deepgram.com"]},"summary":"9 files, 131 KiB · MCP deepgram · CLI skills · 1 key · 1 host","short":"131 KiB · 1 CLI · 1 key · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"network","because":["fetches from developers.deepgram.com"]},{"marker":"credentials","because":["needs API_KEY"]},{"marker":"mcp-server","because":["uses the deepgram MCP server"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/api/SKILL.md:290, skills/api/SKILL.md:291, skills/api/SKILL.md:292"]}],
+"security":{"fetch-run":["npx skills @ skills/api/SKILL.md:290, skills/api/SKILL.md:291, skills/api/SKILL.md:292 +6"],"skill-fetch":["npx skills add @ skills/api/SKILL.md:290, skills/api/SKILL.md:291, skills/api/SKILL.md:292 +6"]},
+"companions":{"named":[{"name":"audio-intelligence","path":"skills/audio-intelligence"},{"name":"browser-agent","path":"skills/browser-agent"},{"name":"cli","path":"skills/cli"},{"name":"docs","path":"skills/docs"},{"name":"examples","path":"skills/examples"},{"name":"recipes","path":"skills/recipes"},{"name":"self-hosted","path":"skills/self-hosted"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"starters","path":"skills/starters"},{"name":"text-intelligence","path":"skills/text-intelligence"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

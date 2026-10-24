@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-bench",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-bench/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"8a504a5969d5b52ec636411dca96ac73933ac5b30e0a1104e49492da86f05f89"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":24913,"own":{"files":1,"bytes":14128},"otherSkills":{"count":1,"files":1,"bytes":10785},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["doca_caps"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 24 KiB · +1 other skill · CLI doca_caps","short":"24 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs doca_caps"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/doca-caps"]}],
+"security":{},
+"companions":{"named":[{"name":"doca-caps","path":"skills/doca-caps"},{"name":"doca-comch","path":"skills/doca-comch"},{"name":"doca-compress","path":"skills/doca-compress"},{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-programming-guide","path":"skills/doca-programming-guide"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-structured-tools-contract","path":"skills/doca-structured-tools-contract"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[{"path":"skills/doca-caps","files":1,"bytes":10785}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

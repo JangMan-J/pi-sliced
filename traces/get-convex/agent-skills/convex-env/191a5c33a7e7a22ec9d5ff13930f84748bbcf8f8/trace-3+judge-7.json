@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"get-convex/agent-skills/convex-env",
+"source":"get-convex/agent-skills",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"skillPath":"skills/convex-env",
+"status":"resolved",
+"totals":{"files":1,"bytes":973},
+"files":[
+{"path":"skills/convex-env/SKILL.md","size":973,"blob":"6b833d1791461822e9494227037312689e2a78ee","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"convex","at":[[0,14],[0,17],[0,24]]}
+],
+"regions":[
+{"kind":"own","path":"skills/convex-env","files":1,"bytes":973}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx convex","at":[[0,14],[0,17],[0,24]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

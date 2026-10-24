@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/dd-audit-ai-activity",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/dd-audit-ai-activity/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"de4d48ac1270260c0b208ccc1c58d119a47c61d0429868dc3823b0dac145ebef"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4979,"own":{"files":1,"bytes":4979},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["group_by","jq","length","map","pup","sort_by","unique"],"package":[],"mcp-server":["all","datadog"],"credential":[],"network":[]},"summary":"1 file, 4.9 KiB · MCP all, datadog · CLI group_by, jq +5","short":"4.9 KiB · 7 CLI · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs group_by","runs jq","runs length","runs map","runs pup","runs sort_by","runs unique"]},{"marker":"mcp-server","because":["uses the all MCP server","uses the datadog MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

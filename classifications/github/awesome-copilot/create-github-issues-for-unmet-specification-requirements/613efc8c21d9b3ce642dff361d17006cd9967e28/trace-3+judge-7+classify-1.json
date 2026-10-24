@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/create-github-issues-for-unmet-specification-requirements",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/create-github-issues-for-unmet-specification-requirements/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"04653832ddd6bde5b9dee5bf9f4bcf5eeb5e66b31f71ce63748179e62673f335"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1275,"own":{"files":1,"bytes":1275},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.2 KiB","short":"1.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

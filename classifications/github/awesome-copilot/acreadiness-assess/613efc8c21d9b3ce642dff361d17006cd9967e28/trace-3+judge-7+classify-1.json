@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/acreadiness-assess",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/acreadiness-assess/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"d756b9ba152bff848336a453c4838a6a8100c39520fed5766b6a2b356bf92f41"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15210,"own":{"files":2,"bytes":15210},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["github:microsoft/agentrc"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB · CLI github:microsoft/agentrc","short":"15 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs github:microsoft/agentrc"]},{"marker":"unpinned-code","because":["npx github:microsoft/agentrc: skills/acreadiness-assess/SKILL.md:3, skills/acreadiness-assess/SKILL.md:25"]}],
+"security":{"fetch-run":["npx github:microsoft/agentrc @ skills/acreadiness-assess/SKILL.md:3, skills/acreadiness-assess/SKILL.md:25"]},
+"companions":{"named":[{"name":"acreadiness-generate-instructions","path":"skills/acreadiness-generate-instructions"},{"name":"acreadiness-policy","path":"skills/acreadiness-policy"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

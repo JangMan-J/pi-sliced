@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/figma-create-new-file",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/figma-create-new-file/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"923bed3ab462719d44fa1701059ae3f268bd9aeb29497aac03cf50a695f60717"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2731,"own":{"files":1,"bytes":2731},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB","short":"2.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"figma-use","path":"skills/.curated/figma-use"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

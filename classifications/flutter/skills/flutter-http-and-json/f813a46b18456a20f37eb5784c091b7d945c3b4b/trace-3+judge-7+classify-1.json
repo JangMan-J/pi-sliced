@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-http-and-json",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-http-and-json/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"203c68e19480a4d232722b6b3faea1b47578ff826c88fb2be9b5fed75cee8f18"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-http-and-json at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

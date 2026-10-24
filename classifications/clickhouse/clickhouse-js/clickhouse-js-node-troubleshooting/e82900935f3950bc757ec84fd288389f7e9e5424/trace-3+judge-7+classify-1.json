@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/clickhouse-js/clickhouse-js-node-troubleshooting",
+"revision":"e82900935f3950bc757ec84fd288389f7e9e5424",
+"trace":{"path":"traces/clickhouse/clickhouse-js/clickhouse-js-node-troubleshooting/e82900935f3950bc757ec84fd288389f7e9e5424/trace-3+judge-7.json","sha256":"67451e5d2b838da3f13df2ad49fb07877a92d7a9f52a4a80f1f6bf7132948ca8"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":34064,"own":{"files":10,"bytes":34064},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 33 KiB","short":"33 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

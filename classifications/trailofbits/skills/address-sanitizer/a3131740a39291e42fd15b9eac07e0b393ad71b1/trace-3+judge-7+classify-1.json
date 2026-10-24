@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/address-sanitizer",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/address-sanitizer/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"1bc0a5e658468e2151f110fcc28b886beba8a02f1cee23268df9a98af67de5a4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11543,"own":{"files":1,"bytes":11543},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["afl-clang-fast++","afl-fuzz","cargo","clang","clang++","gcc","hfuzz-clang","honggfuzz"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI afl-clang-fast++, afl-fuzz +6","short":"11 KiB · 8 CLI"},
+"heavy":{"heavy":true,"because":["8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs afl-clang-fast++","runs afl-fuzz","runs cargo","runs clang","runs clang++","runs gcc","runs hfuzz-clang","runs honggfuzz"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

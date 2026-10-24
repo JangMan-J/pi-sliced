@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-resource-manager-postgresql-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-resource-manager-postgresql-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"25e4872ef3ede3a0e3e0d49a8ef8b7d99a2f82a1ec8d5d867265535b4036a57d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16005,"own":{"files":1,"bytes":16005},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.ResourceManager.MySql","Azure.ResourceManager.PostgreSql","Npgsql","Npgsql.EntityFrameworkCore.PostgreSQL"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 16 KiB · CLI dotnet · packages Azure.Identity +4 · 1 key","short":"16 KiB · 1 CLI · 5 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["5 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.ResourceManager.MySql","installs Azure.ResourceManager.PostgreSql","installs Npgsql","installs Npgsql.EntityFrameworkCore.PostgreSQL"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

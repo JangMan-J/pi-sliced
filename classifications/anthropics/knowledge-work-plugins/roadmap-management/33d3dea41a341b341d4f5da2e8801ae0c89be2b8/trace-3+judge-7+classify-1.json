@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/roadmap-management",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/roadmap-management/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"4b0cc2c35ac57ad20876efac1a6522b2a02113cb82d245dea5ec596769f75f39"},
+"status":"unresolvable",
+"reason":"no skill folder named roadmap-management at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

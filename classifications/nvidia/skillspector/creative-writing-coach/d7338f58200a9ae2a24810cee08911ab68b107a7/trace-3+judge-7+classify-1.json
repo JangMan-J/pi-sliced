@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skillspector/creative-writing-coach",
+"revision":"d7338f58200a9ae2a24810cee08911ab68b107a7",
+"trace":{"path":"traces/nvidia/skillspector/creative-writing-coach/d7338f58200a9ae2a24810cee08911ab68b107a7/trace-3+judge-7.json","sha256":"07c5d8043d04b84e5396d942ca7fb6cf2b480128d3144467ad6878105383c93f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":972,"own":{"files":1,"bytes":972},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 972 B","short":"972 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/prisma-next/review-fetch-phase",
+"revision":"55458c441d2cf452028c22eed21370447720840a",
+"trace":{"path":"traces/prisma/prisma-next/review-fetch-phase/55458c441d2cf452028c22eed21370447720840a/trace-3+judge-7.json","sha256":"71655cb59736eb2cda78f6af3db945ce34b3c88683715e3f35f86bccdded9974"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":60403,"own":{"files":8,"bytes":60403},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 59 KiB","short":"59 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"review-triage-phase","path":"skills-contrib/review-triage-phase"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

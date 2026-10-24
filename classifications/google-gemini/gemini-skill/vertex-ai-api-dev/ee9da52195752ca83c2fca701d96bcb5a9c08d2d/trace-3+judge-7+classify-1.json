@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-skill/vertex-ai-api-dev",
+"revision":"ee9da52195752ca83c2fca701d96bcb5a9c08d2d",
+"trace":{"path":"traces/google-gemini/gemini-skill/vertex-ai-api-dev/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/trace-3+judge-7.json","sha256":"8644b484009acafeb5d1b468f0d717d34436baf4a38247868576c9dd2a878bb8"},
+"status":"unresolvable",
+"reason":"no skill folder named vertex-ai-api-dev at ee9da52195752ca83c2fca701d96bcb5a9c08d2d"
+}

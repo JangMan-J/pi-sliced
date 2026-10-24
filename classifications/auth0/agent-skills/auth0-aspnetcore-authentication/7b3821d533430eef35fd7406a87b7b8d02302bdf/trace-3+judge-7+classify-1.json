@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-aspnetcore-authentication",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-aspnetcore-authentication/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"b8106adb8d2c28e2783e8f174b20c5d07268eac2b846cad47345a78bd75b5562"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-aspnetcore-authentication at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

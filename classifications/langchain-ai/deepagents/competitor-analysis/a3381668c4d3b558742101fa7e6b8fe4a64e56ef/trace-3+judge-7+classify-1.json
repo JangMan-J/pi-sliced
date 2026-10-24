@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/deepagents/competitor-analysis",
+"revision":"a3381668c4d3b558742101fa7e6b8fe4a64e56ef",
+"trace":{"path":"traces/langchain-ai/deepagents/competitor-analysis/a3381668c4d3b558742101fa7e6b8fe4a64e56ef/trace-3+judge-7.json","sha256":"d623fabaf9e6ad6c16c363f15ba49d41cf5386d043cfa9f3a7d23ab5b4dfc990"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":594,"own":{"files":1,"bytes":594},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 594 B","short":"594 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

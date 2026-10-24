@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/typescript-mcp-server-generator",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/typescript-mcp-server-generator/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"1cd5bf4ff86f8207d9255cd0f0ce68e3f7d436ef4f6ef25610c95484b278ce9f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6731,"own":{"files":1,"bytes":6731},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@modelcontextprotocol/codemod","@modelcontextprotocol/inspector","tsx"],"package":["@modelcontextprotocol/express","express"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.6 KiB · CLI @modelcontextprotocol/codemod, @modelcontextprotocol/inspector +1 · packages @modelcontextprotocol/express +1","short":"6.6 KiB · 3 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @modelcontextprotocol/codemod","runs @modelcontextprotocol/inspector","runs tsx"]},{"marker":"installs-packages","because":["installs @modelcontextprotocol/express","installs express"]},{"marker":"unpinned-code","because":["npx @modelcontextprotocol/codemod@latest: skills/typescript-mcp-server-generator/SKILL.md:94","npx @modelcontextprotocol/inspector: skills/typescript-mcp-server-generator/SKILL.md:101","npx tsx: skills/typescript-mcp-server-generator/SKILL.md:100"]}],
+"security":{"fetch-run":["npx @modelcontextprotocol/codemod@latest @ skills/typescript-mcp-server-generator/SKILL.md:94","npx @modelcontextprotocol/inspector @ skills/typescript-mcp-server-generator/SKILL.md:101","npx tsx @ skills/typescript-mcp-server-generator/SKILL.md:100"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

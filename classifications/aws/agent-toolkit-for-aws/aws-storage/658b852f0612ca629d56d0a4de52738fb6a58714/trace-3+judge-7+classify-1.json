@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-storage",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-storage/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"1769e8ef7b5a130821b2f883cbbc9294fb3268991ef1f801d27fc29b8facc56b"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":97473,"own":{"files":13,"bytes":97473},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["aws"],"credential":[],"network":["aws.amazon.com","docs.aws.amazon.com"]},"summary":"13 files, 95 KiB · MCP aws · 2 hosts","short":"95 KiB · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"network","because":["fetches from aws.amazon.com","fetches from docs.aws.amazon.com"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"querying-aws-s3","path":"skills/specialized-skills/system-table-skills/querying-aws-s3"},{"name":"securing-s3-buckets","path":"skills/specialized-skills/storage-skills/securing-s3-buckets"},{"name":"troubleshooting-efs","path":"skills/specialized-skills/storage-skills/troubleshooting-efs"},{"name":"troubleshooting-s3-files","path":"skills/specialized-skills/storage-skills/troubleshooting-s3-files"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

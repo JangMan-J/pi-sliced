@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"webflow/webflow-skills/safe-publish",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"trace":{"path":"traces/webflow/webflow-skills/safe-publish/e0c5321c054a87184484c638f5c490c2083d8639/trace-3+judge-7.json","sha256":"96639ef2c179058e0e04b0c470b895e10c52af033882a9c18b2b650b19fc2e45"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16084,"own":{"files":1,"bytes":16084},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["webflow"],"credential":[],"network":[]},"summary":"1 file, 16 KiB · MCP webflow","short":"16 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the webflow MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

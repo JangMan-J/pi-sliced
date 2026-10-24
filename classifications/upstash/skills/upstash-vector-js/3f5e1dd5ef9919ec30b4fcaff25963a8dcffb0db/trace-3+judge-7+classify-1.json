@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/skills/upstash-vector-js",
+"revision":"3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db",
+"trace":{"path":"traces/upstash/skills/upstash-vector-js/3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db/trace-3+judge-7.json","sha256":"5dcbdf1a28e4a06ce02417ba8c9ac617a8aa9347016676778d8410a55cc65a61"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9692,"own":{"files":4,"bytes":9692},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 9.5 KiB","short":"9.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/supabase",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/supabase/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"c60b0d1a383031996cd311fc130c8603b2f875f845aaf8fbb00adaaf66f9f0cc"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":12759,"own":{"files":3,"bytes":12759},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["supabase"],"package":[],"mcp-server":["supabase"],"credential":[],"network":["mcp.supabase.com","supabase.com"]},"summary":"3 files, 12 KiB · MCP supabase · CLI supabase · 2 hosts","short":"12 KiB · 1 CLI · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs supabase"]},{"marker":"network","because":["fetches from mcp.supabase.com","fetches from supabase.com"]},{"marker":"mcp-server","because":["uses the supabase MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

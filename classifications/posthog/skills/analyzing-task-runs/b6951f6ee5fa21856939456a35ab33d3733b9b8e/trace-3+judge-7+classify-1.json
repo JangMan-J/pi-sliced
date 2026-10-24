@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/analyzing-task-runs",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/analyzing-task-runs/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"ef84c0789131ba1e1c016b87d2f10e086999c69c7349aa5490cde9661f38a340"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":25750,"own":{"files":3,"bytes":25750},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["from","import","jq","prev","print","t","ts.replace"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 25 KiB · CLI from, import +5","short":"25 KiB · 7 CLI"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs from","runs import","runs jq","runs prev","runs print","runs t","runs ts.replace"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

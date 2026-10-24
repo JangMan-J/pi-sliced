@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-run-on-docker",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-run-on-docker/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"e4296da8827073c24943d14eed2b7cca041b8b4303c3fca4f9ddc5118828a9e3"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":20834,"own":{"files":2,"bytes":20834},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","lsblk","nvidia-smi","rsync","systemctl"],"package":[],"mcp-server":[],"credential":["HF_TOKEN","NGC_KEY","WANDB_API_KEY"],"network":[]},"summary":"2 files, 20 KiB · CLI docker, lsblk +3 · 3 keys","short":"20 KiB · 5 CLI · 3 keys"},
+"heavy":{"heavy":true,"because":["5 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs lsblk","runs nvidia-smi","runs rsync","runs systemctl"]},{"marker":"credentials","because":["needs HF_TOKEN","needs NGC_KEY","needs WANDB_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-artifacts","path":"skills/tao-artifacts"},{"name":"tao-data-io","path":"skills/tao-data-io"},{"name":"tao-setup","path":"skills/tao-setup"},{"name":"tao-setup-nvidia-gpu-host","path":"skills/tao-setup-nvidia-gpu-host"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

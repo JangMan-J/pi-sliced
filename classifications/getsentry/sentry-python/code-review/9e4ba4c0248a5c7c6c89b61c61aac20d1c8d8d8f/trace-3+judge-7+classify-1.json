@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-python/code-review",
+"revision":"9e4ba4c0248a5c7c6c89b61c61aac20d1c8d8d8f",
+"trace":{"path":"traces/getsentry/sentry-python/code-review/9e4ba4c0248a5c7c6c89b61c61aac20d1c8d8d8f/trace-3+judge-7.json","sha256":"a0b0af44c1a323a743e3aa90af19242b1be0297a2cf61093dd9fc7fe56c937be"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2768,"own":{"files":1,"bytes":2768},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB","short":"2.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

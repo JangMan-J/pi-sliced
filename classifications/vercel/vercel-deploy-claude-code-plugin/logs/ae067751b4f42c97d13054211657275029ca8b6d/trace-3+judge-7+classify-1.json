@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-deploy-claude-code-plugin/logs",
+"revision":"ae067751b4f42c97d13054211657275029ca8b6d",
+"trace":{"path":"traces/vercel/vercel-deploy-claude-code-plugin/logs/ae067751b4f42c97d13054211657275029ca8b6d/trace-3+judge-7.json","sha256":"7db44bfd028db7ab60bcaddc3f377c94b4a4587425f14ea61c76010d7415fb91"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":473,"own":{"files":1,"bytes":473},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vercel"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 473 B · CLI vercel","short":"473 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs vercel"]},{"marker":"stub","because":["own folder 473 B (1 file)","content is the vercel it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

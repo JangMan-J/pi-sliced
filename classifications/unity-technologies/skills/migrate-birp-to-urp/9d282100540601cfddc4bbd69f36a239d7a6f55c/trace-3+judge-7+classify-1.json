@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/migrate-birp-to-urp",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/migrate-birp-to-urp/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"22d6917aef22f8c5cbe67b626e4a5b4bef58ca7f7f0380758043cf07f0e6219c"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":136904,"own":{"files":7,"bytes":136904},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["unity"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 134 KiB · CLI unity","short":"134 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs unity"]}],
+"security":{},
+"companions":{"named":[{"name":"unity-cli","path":"skills/unity-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

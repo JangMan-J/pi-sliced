@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/dex",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/dex/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"0dcfab0f40aa6025c074ea1d73073ae8bd7512f1e8521d92aeae4a05830b715b"},
+"status":"unresolvable",
+"reason":"no skill folder named dex at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

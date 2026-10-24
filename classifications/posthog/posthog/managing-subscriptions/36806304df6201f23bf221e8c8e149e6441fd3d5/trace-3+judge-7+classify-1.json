@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/managing-subscriptions",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/managing-subscriptions/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"9580db6a011db2603410edb3d5d02df2c2c0250b1d4d3ad37f624f8167d07f79"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":23758,"own":{"files":4,"bytes":23758},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["the"],"credential":[],"network":[]},"summary":"4 files, 23 KiB · MCP the","short":"23 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"adding-product-alerting","path":".agents/skills/adding-product-alerting"},{"name":"building-a-dashboard","path":"products/dashboards/skills/building-a-dashboard"},{"name":"creating-ai-subscription","path":"products/subscriptions/skills/creating-ai-subscription"},{"name":"managing-reminders","path":"products/reminders/skills/managing-reminders"},{"name":"understanding-billing-usage","path":"products/billing/skills/understanding-billing-usage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,36 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wordpress/agent-skills/blueprint",
+"source":"wordpress/agent-skills",
+"revision":"55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+"skillPath":"skills/blueprint",
+"status":"resolved",
+"totals":{"files":6,"bytes":36503},
+"files":[
+{"path":"skills/blueprint/SKILL.md","size":16201,"blob":"fb5bb9698916dc272a729b1b23658a8d592aa4ba","how":"root"},
+{"path":"skills/wp-playground/references/cli.md","size":4658,"blob":"0204be6b133d188ef69d75e95fbe283038cb25cb","how":"path","from":0,"line":419},
+{"path":"skills/wp-playground/references/mcp.md","size":1554,"blob":"2d4ea21b3a1b8e2790664d1d35b70689e369b9bf","how":"link","from":5,"line":20},
+{"path":"skills/wp-playground/references/sites-api.md","size":5266,"blob":"f1f3a28c1494d6b6f2d422c42e9a93ec1a7bd1a1","how":"link","from":5,"line":21},
+{"path":"skills/wp-playground/references/webmcp.md","size":2371,"blob":"fc9ab5ed8150b8f3391e6bfcdb468fa35b7eb117","how":"link","from":5,"line":19},
+{"path":"skills/wp-playground/references/website.md","size":6453,"blob":"2f2d1c9171fa8dc594ff4e499c9fcd9577758524","how":"path","from":0,"line":399}
+],
+"outside":[
+{"kind":"cli","name":"@wp-playground/cli","at":[[0,383],[0,384],[0,406],[0,409],[0,414],[1,14],[1,15],[1,16],[1,26],[1,29],[1,37],[1,50],[1,64],[1,74],[1,80],[1,90]]},
+{"kind":"mcp-server","name":"playground","at":[[2,13],[4,11]]}
+],
+"regions":[
+{"kind":"own","path":"skills/blueprint","files":1,"bytes":16201},
+{"kind":"skill","path":"skills/wp-playground","files":5,"bytes":20302}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @wp-playground/cli","at":[[0,383],[0,384],[0,406],[0,409],[0,414]]},
+{"kind":"fetch-run","detail":"npx @wp-playground/cli@latest","at":[[1,14],[1,15],[1,16],[1,26],[1,29],[1,37],[1,50],[1,64],[1,74],[1,80],[1,90]]}
+],
+"namedSkills":[
+{"name":"wp-playground","path":"skills/wp-playground","at":[[0,419],[1,119],[5,8]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":null,"frontmatter":null}
+}

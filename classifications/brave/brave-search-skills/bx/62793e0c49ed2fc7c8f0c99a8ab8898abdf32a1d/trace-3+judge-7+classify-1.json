@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"brave/brave-search-skills/bx",
+"revision":"62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d",
+"trace":{"path":"traces/brave/brave-search-skills/bx/62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d/trace-3+judge-7.json","sha256":"e4f760e93ba877c8811901f2b5dbe64ef05bb8533182f26c31c5f47dc254cae7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9302,"own":{"files":1,"bytes":9302},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bx"],"package":[],"mcp-server":[],"credential":[],"network":["raw.githubusercontent.com"]},"summary":"1 file, 9.1 KiB · CLI bx · 1 host","short":"9.1 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs bx"]},{"marker":"network","because":["fetches from raw.githubusercontent.com"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/bx/SKILL.md:8, skills/bx/SKILL.md:18"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/bx/SKILL.md:8, skills/bx/SKILL.md:18"]},
+"companions":{"named":[{"name":"answers","path":"skills/answers"},{"name":"spellcheck","path":"skills/spellcheck"},{"name":"suggest","path":"skills/suggest"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

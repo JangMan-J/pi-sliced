@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vuejs-ai/skills/create-adaptable-composable",
+"revision":"f5d4b3b869bb8a86ddfea148196f7db64aeefeab",
+"trace":{"path":"traces/vuejs-ai/skills/create-adaptable-composable/f5d4b3b869bb8a86ddfea148196f7db64aeefeab/trace-3+judge-7.json","sha256":"80cf5c96614258a71e05f5560f3aad793f5196f149e50d1b6262581260d6becf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2672,"own":{"files":1,"bytes":2672},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.6 KiB","short":"2.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/fluidframework/policy-check",
+"revision":"fc9e3653738c24aa4337c585437652da5e258d7f",
+"trace":{"path":"traces/microsoft/fluidframework/policy-check/fc9e3653738c24aa4337c585437652da5e258d7f/trace-3+judge-7.json","sha256":"1ed9575bbbe73a6fb11aaa5c86d25e27603ebc5136d7cc5d96637ba78152297a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":610,"own":{"files":1,"bytes":610},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 610 B","short":"610 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/atlas",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/atlas/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"d143d8b2f4a95a6bc3803803525bb852d2cd0682cff8506101bad6a67f759ea7"},
+"status":"unresolvable",
+"reason":"no skill folder named atlas at 49f948faa9258a0c61caceaf225e179651397431"
+}

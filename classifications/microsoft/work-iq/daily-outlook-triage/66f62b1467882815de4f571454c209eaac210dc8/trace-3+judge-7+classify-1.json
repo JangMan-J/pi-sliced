@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/work-iq/daily-outlook-triage",
+"revision":"66f62b1467882815de4f571454c209eaac210dc8",
+"trace":{"path":"traces/microsoft/work-iq/daily-outlook-triage/66f62b1467882815de4f571454c209eaac210dc8/trace-3+judge-7.json","sha256":"5662b1b1b4bfcf7573753db843ddcd3fd2a77e8e106a3dec5d604a6b9c75c835"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7460,"own":{"files":1,"bytes":7460},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["cli"],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB · MCP cli","short":"7.3 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the cli MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

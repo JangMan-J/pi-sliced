@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/sandbox-sdk",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/sandbox-sdk/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"720684ed4e15ec516e5fdcd685d32d01396f363634d7d1d98e90c5c9a79d5404"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":10538,"own":{"files":3,"bytes":10538},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":["@cloudflare/sandbox"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 10 KiB · CLI docker · packages @cloudflare/sandbox","short":"10 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]},{"marker":"installs-packages","because":["installs @cloudflare/sandbox"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

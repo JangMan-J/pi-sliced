@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/appinsights-instrumentation",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/appinsights-instrumentation/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"7ee3f5912694a45fd0768b5585cc235ce7667a3c28974c5d7199fab997cbd3ad"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":10677,"own":{"files":7,"bytes":10677},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 10 KiB","short":"10 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

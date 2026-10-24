@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/skills/browser-use-to-stagehand",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"trace":{"path":"traces/browserbase/skills/browser-use-to-stagehand/6811ca31163332d9d60309cff48e77f09de37a17/trace-3+judge-7.json","sha256":"ae9f02997dde3b753d0e53e1eace5fd6ff17969930afc56a31986f2d33cddcf1"},
+"status":"resolved",
+"footprint":{"files":18,"bytes":158534,"own":{"files":7,"bytes":79173},"otherSkills":{"count":1,"files":11,"bytes":79361},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Cannot_read","Cannot_read_properties_of_undefined","Google_Chrome","add","as","browse","browser-use","first","floor","group_by","jq","map","not","now","null","open","pkill","print","rg","sort_by","tsx"],"package":["@browserbasehq/stagehand","browse","dotenv","tsx","zod"],"mcp-server":[],"credential":["ANTHROPIC_API_KEY","BROWSERBASE_API_KEY"],"network":[]},"summary":"18 files, 155 KiB · +1 other skill · CLI Cannot_read, Cannot_read_properties_of_undefined +19 · packages @browserbasehq/stagehand +4 · 2 keys","short":"155 KiB · +1 skill · 21 CLI · 5 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["5 packages to install","21 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs add","runs as","runs browse","runs browser-use","runs Cannot_read","runs Cannot_read_properties_of_undefined","runs first","runs floor","runs Google_Chrome","runs group_by","runs jq","runs map","runs not","runs now","runs null","runs open","runs pkill","runs print","runs rg","runs sort_by","runs tsx"]},{"marker":"installs-packages","because":["installs @browserbasehq/stagehand","installs browse","installs dotenv","installs tsx","installs zod"]},{"marker":"credentials","because":["needs ANTHROPIC_API_KEY","needs BROWSERBASE_API_KEY"]},{"marker":"chain-loads","because":["pulls in 11 files of the skill at skills/browser-trace"]},{"marker":"unpinned-code","because":["npx tsx: skills/browser-use-to-stagehand/EXAMPLES.md:25","uvx browser-use: skills/browser-use-to-stagehand/SKILL.md:56, skills/browser-use-to-stagehand/references/api-mapping.md:377"]}],
+"security":{"fetch-run":["npx tsx @ skills/browser-use-to-stagehand/EXAMPLES.md:25","uvx browser-use @ skills/browser-use-to-stagehand/SKILL.md:56, skills/browser-use-to-stagehand/references/api-mapping.md:377"]},
+"companions":{"named":[{"name":"browser","path":"skills/browser"},{"name":"browser-trace","path":"skills/browser-trace"}],"pulled":[{"path":"skills/browser-trace","files":11,"bytes":79361}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

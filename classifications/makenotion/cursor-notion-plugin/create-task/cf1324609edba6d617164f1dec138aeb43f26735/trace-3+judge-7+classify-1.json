@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/cursor-notion-plugin/create-task",
+"revision":"cf1324609edba6d617164f1dec138aeb43f26735",
+"trace":{"path":"traces/makenotion/cursor-notion-plugin/create-task/cf1324609edba6d617164f1dec138aeb43f26735/trace-3+judge-7.json","sha256":"7dd3766990e9d885c199f2546c4a46bb0bd5c8724582b0bc96e2ec8646d12e3d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1031,"own":{"files":1,"bytes":1031},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["notion"],"credential":[],"network":[]},"summary":"1 file, 1.0 KiB · MCP notion","short":"1.0 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the notion MCP server"]},{"marker":"stub","because":["own folder 1.0 KiB (1 file)","content is the notion it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

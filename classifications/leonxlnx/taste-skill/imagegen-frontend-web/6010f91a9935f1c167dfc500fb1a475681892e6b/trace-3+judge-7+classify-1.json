@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/imagegen-frontend-web",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/imagegen-frontend-web/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"766249bf881dc52b035b0dc8aa99a8152357ad951efffe29d6ae50471b55ffdb"},
+"status":"unresolvable",
+"reason":"no skill folder named imagegen-frontend-web at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/imagegen-frontend-web)"
+}

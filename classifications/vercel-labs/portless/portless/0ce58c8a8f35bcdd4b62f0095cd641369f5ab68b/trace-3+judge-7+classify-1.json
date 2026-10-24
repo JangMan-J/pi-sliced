@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/portless/portless",
+"revision":"0ce58c8a8f35bcdd4b62f0095cd641369f5ab68b",
+"trace":{"path":"traces/vercel-labs/portless/portless/0ce58c8a8f35bcdd4b62f0095cd641369f5ab68b/trace-3+judge-7.json","sha256":"1653a65d73f884cf6b3d930c031e45b597f4ba917670c01553757bc21b443ad9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":31358,"own":{"files":1,"bytes":31358},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ngrok","portless","service","tailscale","winget"],"package":["ShiningLight.OpenSSL.Dev","avahi-utils","portless"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 31 KiB · CLI ngrok, portless +3 · packages ShiningLight.OpenSSL.Dev +2","short":"31 KiB · 5 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ngrok","runs portless","runs service","runs tailscale","runs winget"]},{"marker":"installs-packages","because":["installs avahi-utils","installs portless","installs ShiningLight.OpenSSL.Dev"]},{"marker":"unpinned-code","because":["npx portless: skills/portless/SKILL.md:34"]}],
+"security":{"fetch-run":["npx portless @ skills/portless/SKILL.md:34"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

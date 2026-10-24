@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/flutter-add-widget-preview",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/flutter-add-widget-preview/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"8965dc343b3d9d56ed53ba46e69408c425e2835bd344d36b3e7141f459246819"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6246,"own":{"files":1,"bytes":6246},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["flutter"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.1 KiB · CLI flutter","short":"6.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs flutter"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/folklore-variant-evidence",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/folklore-variant-evidence/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"b3c94f11c42712807a27afa8682505861ac8bcc072e1da05b73ab6651409f1b7"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":24582,"own":{"files":2,"bytes":24582},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["api.helena.bio"]},"summary":"2 files, 24 KiB · 1 host","short":"24 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from api.helena.bio"]}],
+"security":{},
+"companions":{"named":[{"name":"database-lookup","path":"skills/database-lookup"},{"name":"genomic-coordinates","path":"skills/genomic-coordinates"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-skills/azure-search-documents-py",
+"revision":"2130750147dee0311215099ddf36647ba1e0f006",
+"trace":{"path":"traces/microsoft/agent-skills/azure-search-documents-py/2130750147dee0311215099ddf36647ba1e0f006/trace-3+judge-7.json","sha256":"b9f28169c924315b32159badde10dcb113e892e6b89daa3a981f0afaad306f10"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":45827,"own":{"files":5,"bytes":45827},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["azure","azure-identity","azure-search-documents"],"mcp-server":[],"credential":["AZURE_SEARCH_API_KEY","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"5 files, 45 KiB · packages azure +2 · 2 keys","short":"45 KiB · 3 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs azure","installs azure-identity","installs azure-search-documents"]},{"marker":"credentials","because":["needs AZURE_SEARCH_API_KEY","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

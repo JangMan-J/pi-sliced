@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/screen-reader-testing",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/screen-reader-testing/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"7ea8ef2d31f116b5119563de47bb770e3b0584f4706590d4a7f2da8744243a3b"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":14435,"own":{"files":5,"bytes":14435},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["www.freedomscientific.com"]},"summary":"5 files, 14 KiB · 1 host","short":"14 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from www.freedomscientific.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

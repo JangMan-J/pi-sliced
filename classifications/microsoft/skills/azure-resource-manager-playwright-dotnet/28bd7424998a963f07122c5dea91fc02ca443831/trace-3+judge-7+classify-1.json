@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-resource-manager-playwright-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-resource-manager-playwright-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"df0f43309124137ae197f412720a3e2219d3e0117a2269a78c657ef3a25127ff"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10539,"own":{"files":1,"bytes":10539},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Developer.MicrosoftPlaywrightTesting.NUnit","Azure.Developer.Playwright","Azure.Identity","Azure.ResourceManager.Playwright"],"mcp-server":[],"credential":["AZURE_CLIENT_SECRET","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 10 KiB · CLI dotnet · packages Azure.Developer.MicrosoftPlaywrightTesting.NUnit +3 · 2 keys","short":"10 KiB · 1 CLI · 4 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Developer.MicrosoftPlaywrightTesting.NUnit","installs Azure.Developer.Playwright","installs Azure.Identity","installs Azure.ResourceManager.Playwright"]},{"marker":"credentials","because":["needs AZURE_CLIENT_SECRET","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

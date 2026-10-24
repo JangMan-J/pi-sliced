@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/agent-skills/aws-ami-builder",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/agent-skills/aws-ami-builder/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"ff38c4a47efbc67454a2242c575443ca816aba601bf34e20a69b9266ff812ee3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3700,"own":{"files":1,"bytes":3700},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["packer"],"package":[],"mcp-server":[],"credential":["AWS_SECRET_ACCESS_KEY"],"network":[]},"summary":"1 file, 3.6 KiB · CLI packer · 1 key","short":"3.6 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs packer"]},{"marker":"credentials","because":["needs AWS_SECRET_ACCESS_KEY"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","content is the packer it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,1 @@
+{"id":"d045e3c0941161556ecb92c4f132cfb022005dc34a42a6193661b7a6cd8186fe","pullsIn":true,"reason":"Router skill says to read the relevant reference file in references/.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/agentic-wallet/SKILL.md","line":11,"ref":"references/","target":"skills/agentic-wallet/references"}

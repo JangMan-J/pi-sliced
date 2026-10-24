@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/championing-a-strategy-idea",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/championing-a-strategy-idea/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"fcaf097abda17eeb78e2312017498525ad001ecb887ee69ac38d8503ce407b71"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17721,"own":{"files":1,"bytes":17721},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB","short":"17 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"curating-the-strategy-ideas-backlog","path":"plugins/bitwarden-shepherd/skills/curating-the-strategy-ideas-backlog"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

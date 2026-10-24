@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/firecrawl-claude-plugin/firecrawl-download",
+"revision":"3e1fb0c319d71b067906b8b602208dded3932cdb",
+"trace":{"path":"traces/firecrawl/firecrawl-claude-plugin/firecrawl-download/3e1fb0c319d71b067906b8b602208dded3932cdb/trace-3+judge-7.json","sha256":"091d4e886d7f005098010bdba77b20daf43c788f0e9ee3a6f69b4f883ad8c534"},
+"status":"unresolvable",
+"reason":"no skill folder named firecrawl-download at 3e1fb0c319d71b067906b8b602208dded3932cdb"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/infographics",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/infographics/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"ddd693dba280b5ee7b443bdd7300778a5690c18e0cdb19c2cb905f1f9f23bae0"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":157730,"own":{"files":8,"bytes":157730},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["repeat","required"],"package":["requests"],"mcp-server":[],"credential":["OPENROUTER_API_KEY"],"network":["arxiv.org","openrouter.ai"]},"summary":"8 files, 154 KiB · CLI repeat, required · packages requests · 1 key · 2 hosts","short":"154 KiB · 2 CLI · 1 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs repeat","runs required"]},{"marker":"installs-packages","because":["installs requests"]},{"marker":"network","because":["fetches from arxiv.org","fetches from openrouter.ai"]},{"marker":"credentials","because":["needs OPENROUTER_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

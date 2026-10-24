@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-agent-toolkit/nat-installation",
+"revision":"9ff23211e69d8e548fbe038ce4a6ff63e2154862",
+"trace":{"path":"traces/nvidia/nemo-agent-toolkit/nat-installation/9ff23211e69d8e548fbe038ce4a6ff63e2154862/trace-3+judge-7.json","sha256":"293c842a9d1d912948c10b9a63c64b06df09c5da7572cfcaeca928d0ae4990d9"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":4385,"own":{"files":3,"bytes":4385},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nat"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 4.3 KiB · CLI nat","short":"4.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nat"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

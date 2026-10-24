@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-storage-queue-rust",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-storage-queue-rust/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"5f165d64792a499e88002f02435856a18a9adbea77f7a9489688a4335b493786"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7620,"own":{"files":1,"bytes":7620},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo"],"package":["azure_core","azure_identity","azure_storage_queue","tokio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.4 KiB · CLI cargo · packages azure_core +3","short":"7.4 KiB · 1 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo"]},{"marker":"installs-packages","because":["installs azure_core","installs azure_identity","installs azure_storage_queue","installs tokio"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

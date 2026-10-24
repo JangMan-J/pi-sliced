@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/agent-device/react-devtools",
+"source":"callstackincubator/agent-device",
+"revision":"c48d27a819c1af69373c2afd78862f6c747e8961",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named react-devtools at c48d27a819c1af69373c2afd78862f6c747e8961",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

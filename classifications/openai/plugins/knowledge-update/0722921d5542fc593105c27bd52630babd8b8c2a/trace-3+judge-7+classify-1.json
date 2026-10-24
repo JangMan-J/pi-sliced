@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/knowledge-update",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/knowledge-update/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"dc3c79159619c880ab0e470cae5b13cb06b9207f9c4f77590c79ff14653ecda5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7126,"own":{"files":1,"bytes":7126},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["vercel"],"credential":[],"network":["vercel.com"]},"summary":"1 file, 7.0 KiB · MCP vercel · 1 host","short":"7.0 KiB · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"network","because":["fetches from vercel.com"]},{"marker":"mcp-server","because":["uses the vercel MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"marketplace","path":"plugins/vercel/skills/marketplace"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

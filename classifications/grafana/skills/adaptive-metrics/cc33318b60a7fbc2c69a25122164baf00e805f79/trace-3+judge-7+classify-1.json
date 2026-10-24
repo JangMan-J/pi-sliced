@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/adaptive-metrics",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/adaptive-metrics/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"9642a7d69c96ef129eb08456d4a5975e28387eebc6f56a02503933b90566aa4f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8694,"own":{"files":2,"bytes":8694},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":[],"mcp-server":[],"credential":[],"network":["adaptive-logs.grafana.net","adaptive-metrics.grafana.net","prometheus-prod-xx.grafana.net"]},"summary":"2 files, 8.5 KiB · CLI jq · 3 hosts","short":"8.5 KiB · 1 CLI · 3 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"network","because":["fetches from adaptive-logs.grafana.net","fetches from adaptive-metrics.grafana.net","fetches from prometheus-prod-xx.grafana.net"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

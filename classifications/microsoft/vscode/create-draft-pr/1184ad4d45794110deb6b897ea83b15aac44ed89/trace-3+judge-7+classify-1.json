@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/create-draft-pr",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/create-draft-pr/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"d67d4b7ea6b1579882200e54d6052015c89192aad6c80b637b55acbfc19d790f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":802,"own":{"files":1,"bytes":802},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["github"],"credential":[],"network":[]},"summary":"1 file, 802 B · MCP github","short":"802 B · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the github MCP server"]},{"marker":"stub","because":["own folder 802 B (1 file)","content is the github it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"commit","path":"src/vs/sessions/skills/commit"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

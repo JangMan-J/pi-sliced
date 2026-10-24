@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mapbox-agent-skills/mapbox-web-integration-patterns",
+"revision":"f71cd72b8d8937b06db440538bd65559eb792c49",
+"trace":{"path":"traces/mapbox/mapbox-agent-skills/mapbox-web-integration-patterns/f71cd72b8d8937b06db440538bd65559eb792c49/trace-3+judge-7.json","sha256":"6562fca733ab9726ad7bc850ef0d85e1c6e4e2012196a4e82562538f855946e0"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":32283,"own":{"files":9,"bytes":32283},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@mapbox/search-js-react","@mapbox/search-js-web","mapbox-gl"],"mcp-server":[],"credential":["NEXT_PUBLIC_MAPBOX_TOKEN","REACT_APP_MAPBOX_TOKEN","VITE_MAPBOX_ACCESS_TOKEN"],"network":[]},"summary":"9 files, 32 KiB · packages @mapbox/search-js-react +2 · 3 keys","short":"32 KiB · 3 pkg · 3 keys"},
+"heavy":{"heavy":true,"because":["3 packages to install","3 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @mapbox/search-js-react","installs @mapbox/search-js-web","installs mapbox-gl"]},{"marker":"credentials","because":["needs NEXT_PUBLIC_MAPBOX_TOKEN","needs REACT_APP_MAPBOX_TOKEN","needs VITE_MAPBOX_ACCESS_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

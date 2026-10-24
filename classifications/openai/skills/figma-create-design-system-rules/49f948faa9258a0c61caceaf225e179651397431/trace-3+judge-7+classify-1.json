@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/figma-create-design-system-rules",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/figma-create-design-system-rules/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"80a6013cb124f44360a4896939415bcd0be87e5e9929ad7353f621a25f773254"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18221,"own":{"files":1,"bytes":18221},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["figma"],"credential":[],"network":[]},"summary":"1 file, 18 KiB · MCP figma","short":"18 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the figma MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

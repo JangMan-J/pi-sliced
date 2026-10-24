@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-relay/contribute-api",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"trace":{"path":"traces/nvidia/nemo-relay/contribute-api/8109e75036c1c97c26fab532fcf6a83f2152babe/trace-3+judge-7.json","sha256":"f86f102a44ef38aef3367ea4695b2dc4387bc0c50cd23e265a533907d6b30d66"},
+"status":"unresolvable",
+"reason":"no skill folder named contribute-api at 8109e75036c1c97c26fab532fcf6a83f2152babe"
+}

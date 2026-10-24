@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/jetson-optimize-memory",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/jetson-optimize-memory/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"a6707629e1243abfbd1a2f0b1d01204b296287bda7fd48687107c1d2fb0fb62a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8148,"own":{"files":1,"bytes":8148},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dmesg","dtc","free","gcc"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.0 KiB · CLI dmesg, dtc +2","short":"8.0 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dmesg","runs dtc","runs free","runs gcc"]}],
+"security":{},
+"companions":{"named":[{"name":"jetson-init-image","path":"skills/jetson-init-image"},{"name":"jetson-init-source","path":"skills/jetson-init-source"},{"name":"jetson-promote-image","path":"skills/jetson-promote-image"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

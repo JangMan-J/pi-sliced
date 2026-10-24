@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-ai-agent-architect",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-ai-agent-architect/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"982031c5f212616890ebeebd6523d74e7e03c1a8813efa282930866511a0edf1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19840,"own":{"files":1,"bytes":19840},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 19 KiB","short":"19 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"twilio-agent-connect","path":"plugins/twilio-developer-kit/skills/twilio-agent-connect"},{"name":"twilio-conversation-intelligence","path":"plugins/twilio-developer-kit/skills/twilio-conversation-intelligence"},{"name":"twilio-conversation-orchestrator","path":"plugins/twilio-developer-kit/skills/twilio-conversation-orchestrator"},{"name":"twilio-customer-memory","path":"plugins/twilio-developer-kit/skills/twilio-customer-memory"},{"name":"twilio-debugging-observability","path":"plugins/twilio-developer-kit/skills/twilio-debugging-observability"},{"name":"twilio-taskrouter-routing","path":"plugins/twilio-developer-kit/skills/twilio-taskrouter-routing"},{"name":"twilio-voice-conversation-relay","path":"plugins/twilio-developer-kit/skills/twilio-voice-conversation-relay"},{"name":"twilio-voice-twiml","path":"plugins/twilio-developer-kit/skills/twilio-voice-twiml"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

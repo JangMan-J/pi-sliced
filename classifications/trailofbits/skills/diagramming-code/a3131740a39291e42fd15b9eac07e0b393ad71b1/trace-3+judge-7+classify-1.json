@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/diagramming-code",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/diagramming-code/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"d9bd5d1e4eec108f7803fffc47c454c2db8ccf5eee26094f5e3bcf44738929f7"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":15333,"own":{"files":4,"bytes":15333},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["trailmark"],"package":["trailmark"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 15 KiB · CLI trailmark · packages trailmark","short":"15 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs trailmark"]},{"marker":"installs-packages","because":["installs trailmark"]}],
+"security":{},
+"companions":{"named":[{"name":"genotoxic","path":"plugins/trailmark/skills/genotoxic"},{"name":"trailmark","path":"plugins/trailmark/skills/trailmark"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

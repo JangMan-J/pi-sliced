@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/ci-components",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/ci-components/none/trace-3+judge-7.json","sha256":"c946ba861bdc41267ce166af839d1aac711f85c791c19194e7a0fd5f72aca16c"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

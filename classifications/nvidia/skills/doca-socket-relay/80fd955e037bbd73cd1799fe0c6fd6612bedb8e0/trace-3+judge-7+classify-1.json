@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-socket-relay",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-socket-relay/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"5c3fd041cfb6b68c17537ef0e45612995e6378981a5767633bc39b0ab83169a4"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":28492,"own":{"files":1,"bytes":15755},"otherSkills":{"count":1,"files":1,"bytes":12737},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pkg-config"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 28 KiB · +1 other skill · CLI pkg-config","short":"28 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pkg-config"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/doca-comm-channel-admin"]}],
+"security":{},
+"companions":{"named":[{"name":"doca-comch","path":"skills/doca-comch"},{"name":"doca-comm-channel-admin","path":"skills/doca-comm-channel-admin"},{"name":"doca-container-deployment","path":"skills/doca-container-deployment"},{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-eth","path":"skills/doca-eth"},{"name":"doca-hardware-safety","path":"skills/doca-hardware-safety"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-structured-tools-contract","path":"skills/doca-structured-tools-contract"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[{"path":"skills/doca-comm-channel-admin","files":1,"bytes":12737}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

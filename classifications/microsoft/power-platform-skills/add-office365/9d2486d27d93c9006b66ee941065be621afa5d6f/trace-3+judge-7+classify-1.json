@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-office365",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-office365/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"29940ad1146226380b4a22672890a665fad4e3f57e918a3a36c9467a98ba4172"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6054,"own":{"files":1,"bytes":6054},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.9 KiB · CLI pa","short":"5.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pa"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

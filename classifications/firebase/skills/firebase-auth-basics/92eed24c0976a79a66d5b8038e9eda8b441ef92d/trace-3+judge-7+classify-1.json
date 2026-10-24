@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/skills/firebase-auth-basics",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/skills/firebase-auth-basics/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"7911b8243b80d47be40ed1e479800f8bf9fc8b5bb8ea739e0d06c0e57e2af492"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":27837,"own":{"files":6,"bytes":27837},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firebase-tools"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 27 KiB · CLI firebase-tools","short":"27 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs firebase-tools"]},{"marker":"unpinned-code","because":["npx firebase-tools@latest: skills/firebase-auth-basics/SKILL.md:4, skills/firebase-auth-basics/SKILL.md:13, skills/firebase-auth-basics/SKILL.md:104"]}],
+"security":{"fetch-run":["npx firebase-tools@latest @ skills/firebase-auth-basics/SKILL.md:4, skills/firebase-auth-basics/SKILL.md:13, skills/firebase-auth-basics/SKILL.md:104 +1"]},
+"companions":{"named":[{"name":"firebase-basics","path":"skills/firebase-basics"},{"name":"firestore-rules-creation","path":"skills/firestore-rules-creation"},{"name":"xcode-project-setup","path":"skills/xcode-project-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

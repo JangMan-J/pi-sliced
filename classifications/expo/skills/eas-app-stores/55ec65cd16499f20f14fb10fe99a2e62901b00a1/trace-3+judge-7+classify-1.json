@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/eas-app-stores",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/eas-app-stores/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"51969ad46c6a1299f5aeb83890f6983fee68a39af8b49b92193655f1c3c7a974"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":56990,"own":{"files":7,"bytes":56990},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["eas","eas-cli","expo","plutil","pod","sips","submit-expo-feedback","testflight"],"package":["eas-cli"],"mcp-server":[],"credential":["EXPO_APPLE_APP_SPECIFIC_PASSWORD"],"network":["developer.apple.com"]},"summary":"7 files, 56 KiB · CLI eas, eas-cli +6 · packages eas-cli · 1 key · 1 host","short":"56 KiB · 8 CLI · 1 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs eas","runs eas-cli","runs expo","runs plutil","runs pod","runs sips","runs submit-expo-feedback","runs testflight"]},{"marker":"installs-packages","because":["installs eas-cli"]},{"marker":"network","because":["fetches from developer.apple.com"]},{"marker":"credentials","because":["needs EXPO_APPLE_APP_SPECIFIC_PASSWORD"]},{"marker":"unpinned-code","because":["npx eas-cli@latest: plugins/expo/skills/eas-app-stores/SKILL.md:46, plugins/expo/skills/eas-app-stores/SKILL.md:57, plugins/expo/skills/eas-app-stores/SKILL.md:60","npx expo: plugins/expo/skills/eas-app-stores/SKILL.md:81","npx submit-expo-feedback@latest: plugins/expo/skills/eas-app-stores/SKILL.md:173","npx testflight: plugins/expo/skills/eas-app-stores/SKILL.md:76, plugins/expo/skills/eas-app-stores/SKILL.md:125, plugins/expo/skills/eas-app-stores/references/ios-app-store.md:87"]}],
+"security":{"fetch-run":["npx eas-cli@latest @ plugins/expo/skills/eas-app-stores/SKILL.md:46, plugins/expo/skills/eas-app-stores/SKILL.md:57, plugins/expo/skills/eas-app-stores/SKILL.md:60 +3","npx expo @ plugins/expo/skills/eas-app-stores/SKILL.md:81","npx submit-expo-feedback@latest @ plugins/expo/skills/eas-app-stores/SKILL.md:173","npx testflight @ plugins/expo/skills/eas-app-stores/SKILL.md:76, plugins/expo/skills/eas-app-stores/SKILL.md:125, plugins/expo/skills/eas-app-stores/references/ios-app-store.md:87 +1"]},
+"companions":{"named":[{"name":"eas-hosting","path":"plugins/expo/skills/eas-hosting"},{"name":"eas-workflows","path":"plugins/expo/skills/eas-workflows"},{"name":"expo-brownfield","path":"plugins/expo/skills/expo-brownfield"},{"name":"expo-dev-client","path":"plugins/expo/skills/expo-dev-client"},{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

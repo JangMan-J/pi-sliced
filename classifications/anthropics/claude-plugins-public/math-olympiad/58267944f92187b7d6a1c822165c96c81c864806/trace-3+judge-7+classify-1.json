@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-plugins-public/math-olympiad",
+"revision":"58267944f92187b7d6a1c822165c96c81c864806",
+"trace":{"path":"traces/anthropics/claude-plugins-public/math-olympiad/58267944f92187b7d6a1c822165c96c81c864806/trace-3+judge-7.json","sha256":"abc75fa2104b4052fe61c537828804aaf30737dbe4f109c540108d8a9dcc14c5"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":57624,"own":{"files":8,"bytes":57624},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 56 KiB","short":"56 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

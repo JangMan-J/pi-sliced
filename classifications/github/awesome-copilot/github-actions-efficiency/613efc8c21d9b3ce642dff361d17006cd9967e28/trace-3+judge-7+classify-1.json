@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/github-actions-efficiency",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/github-actions-efficiency/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"01d49164ba4d41e2b45efd162951969dd1d99c420410f72fe25d503b764b4780"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":11107,"own":{"files":5,"bytes":11107},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","rg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 11 KiB · CLI gh, rg","short":"11 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs rg"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

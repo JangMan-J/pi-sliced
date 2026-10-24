@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/knowledge-update",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/knowledge-update/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"5f13e02ca13686118c15a9f8b770d424ca8383ea641be0e5dc69183a0fa5af97"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10725,"own":{"files":1,"bytes":10725},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@next/codemod","skills"],"package":["workflow"],"mcp-server":["vercel"],"credential":[],"network":["nextjs.org","vercel.com"]},"summary":"1 file, 10 KiB · MCP vercel · CLI @next/codemod, skills · packages workflow · 2 hosts","short":"10 KiB · 2 CLI · 1 pkg · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @next/codemod","runs skills"]},{"marker":"installs-packages","because":["installs workflow"]},{"marker":"network","because":["fetches from nextjs.org","fetches from vercel.com"]},{"marker":"mcp-server","because":["uses the vercel MCP server"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx @next/codemod@canary: skills/knowledge-update/SKILL.md:98","npx skills: skills/knowledge-update/SKILL.md:100"]}],
+"security":{"fetch-run":["npx @next/codemod@canary @ skills/knowledge-update/SKILL.md:98","npx skills @ skills/knowledge-update/SKILL.md:100"],"skill-fetch":["npx skills add @ skills/knowledge-update/SKILL.md:100"]},
+"companions":{"named":[{"name":"daemons","path":"skills/daemons"},{"name":"marketplace","path":"skills/marketplace"},{"name":"workflow","path":"skills/workflow"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

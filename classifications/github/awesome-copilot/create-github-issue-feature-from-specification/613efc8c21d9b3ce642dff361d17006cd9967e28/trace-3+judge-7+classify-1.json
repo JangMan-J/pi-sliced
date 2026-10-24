@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/create-github-issue-feature-from-specification",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/create-github-issue-feature-from-specification/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"931aebcf04a369fbfb96d7a09ca13df6f67cfda2ccb51c35a1fcaa4c76473358"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":912,"own":{"files":1,"bytes":912},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 912 B","short":"912 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

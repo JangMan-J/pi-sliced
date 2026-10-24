@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-validate",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-validate/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"e6a52d2847e8728be27c6b19e85f08ea274bd7d6ad1f43a6ca92b005ed53f368"},
+"status":"resolved",
+"footprint":{"files":27,"bytes":92267,"own":{"files":27,"bytes":92267},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["None","az","azd","docker","jq","pwsh","terraform"],"package":[],"mcp-server":["azure"],"credential":[],"network":["developer.hashicorp.com"]},"summary":"27 files, 90 KiB · MCP azure · CLI None, az +5 · 1 host","short":"90 KiB · 7 CLI · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs azd","runs docker","runs jq","runs None","runs pwsh","runs terraform"]},{"marker":"network","because":["fetches from developer.hashicorp.com"]},{"marker":"mcp-server","because":["uses the azure MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-deploy","path":".github/plugins/azure-skills/skills/azure-deploy"},{"name":"azure-prepare","path":".github/plugins/azure-skills/skills/azure-prepare"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

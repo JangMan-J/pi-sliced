@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-ionic-angular",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-ionic-angular/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"7ee22de5efec575490c330fbd12cb3ab025260e6c1c4111c3e306ccb084924ac"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-ionic-angular at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

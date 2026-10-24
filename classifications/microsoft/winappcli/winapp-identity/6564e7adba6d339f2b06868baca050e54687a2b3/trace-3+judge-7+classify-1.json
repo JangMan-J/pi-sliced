@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/winappcli/winapp-identity",
+"revision":"6564e7adba6d339f2b06868baca050e54687a2b3",
+"trace":{"path":"traces/microsoft/winappcli/winapp-identity/6564e7adba6d339f2b06868baca050e54687a2b3/trace-3+judge-7.json","sha256":"60f18da952fd75e8bb0b543c500d34931efb0a8c5c4648f085b868e9304d10dc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11452,"own":{"files":1,"bytes":11452},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["winapp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI winapp","short":"11 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs winapp"]},{"marker":"unpinned-code","because":["npx winapp: plugins/winapp/skills/winapp-identity/SKILL.md:104"]}],
+"security":{"fetch-run":["npx winapp @ plugins/winapp/skills/winapp-identity/SKILL.md:104"]},
+"companions":{"named":[{"name":"winapp-manifest","path":"plugins/winapp/skills/winapp-manifest"},{"name":"winapp-package","path":"plugins/winapp/skills/winapp-package"},{"name":"winapp-sandbox","path":"plugins/winapp/skills/winapp-sandbox"},{"name":"winapp-signing","path":"plugins/winapp/skills/winapp-signing"},{"name":"winapp-troubleshoot","path":"plugins/winapp/skills/winapp-troubleshoot"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

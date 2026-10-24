@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/skills/prisma-database-setup",
+"revision":"ba3f9d73200bbb62e49733ab93a961fd138a2c18",
+"trace":{"path":"traces/prisma/skills/prisma-database-setup/ba3f9d73200bbb62e49733ab93a961fd138a2c18/trace-3+judge-7.json","sha256":"e760743862095a3a78f98a23f4e8b8fc935559dc6c3979c38b11dabaf76be509"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":704,"own":{"files":1,"bytes":704},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"1 file, 704 B · 1 host","short":"704 B · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[{"name":"prisma-orm-setup","path":"prisma-orm-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

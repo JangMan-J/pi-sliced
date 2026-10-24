@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-domains",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-domains/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"056440684ba200b6d1131d661c136508b5c8508269b7fde89c1ffe9f8ea6921a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2444,"own":{"files":1,"bytes":2444},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.4 KiB","short":"2.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

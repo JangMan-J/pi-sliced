@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elastic/agent-skills/elasticsearch-query-optimization",
+"revision":"baa511126ba2dc37b52e273b52734f8e4e0d323c",
+"trace":{"path":"traces/elastic/agent-skills/elasticsearch-query-optimization/baa511126ba2dc37b52e273b52734f8e4e0d323c/trace-3+judge-7.json","sha256":"88227f93ff982faf3bf6e73e4f132dbeaa93bf24fd08166b1f5f1e47d5b086a4"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":16648,"own":{"files":2,"bytes":16648},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["elastic"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 16 KiB · CLI elastic","short":"16 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs elastic"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

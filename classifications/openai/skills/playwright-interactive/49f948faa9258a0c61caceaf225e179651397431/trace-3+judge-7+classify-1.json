@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/playwright-interactive",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/playwright-interactive/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"d6300d6e01d3f90047ab05526b172e0958aecc6a073e2b2f0b8eb7c00103a5b8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":31711,"own":{"files":1,"bytes":31711},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["playwright"],"package":["electron","playwright"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 31 KiB · CLI playwright · packages electron +1","short":"31 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs playwright"]},{"marker":"installs-packages","because":["installs electron","installs playwright"]},{"marker":"unpinned-code","because":["npx playwright: skills/.curated/playwright-interactive/SKILL.md:687"]}],
+"security":{"fetch-run":["npx playwright @ skills/.curated/playwright-interactive/SKILL.md:687"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

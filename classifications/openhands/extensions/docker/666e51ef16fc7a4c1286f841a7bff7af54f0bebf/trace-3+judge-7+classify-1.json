@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/docker",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/docker/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"b8cb3f54c5c1177027fd1217518baa43683d5a3500c33d889e4c3b7b45ccff0c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":922,"own":{"files":1,"bytes":922},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","dockerd"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 922 B · CLI docker, dockerd","short":"922 B · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs dockerd"]},{"marker":"stub","because":["own folder 922 B (1 file)","content is the docker, dockerd it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

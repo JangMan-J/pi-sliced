@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"antfu/skills/vitest",
+"revision":"feb0f3aba6566426f12230e7fc7a10d97c1293bb",
+"trace":{"path":"traces/antfu/skills/vitest/feb0f3aba6566426f12230e7fc7a10d97c1293bb/trace-3+judge-7.json","sha256":"97a62a593aa882b6cb5726cdee2435d83613ed64ce54da31e64238c4e7cfafb5"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":105578,"own":{"files":20,"bytes":105578},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","vitest"],"package":["@vitest/coverage-istanbul","@vitest/coverage-v8","happy-dom","jsdom","vite"],"mcp-server":[],"credential":[],"network":[]},"summary":"20 files, 103 KiB · CLI jq, vitest · packages @vitest/coverage-istanbul +4","short":"103 KiB · 2 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs vitest"]},{"marker":"installs-packages","because":["installs @vitest/coverage-istanbul","installs @vitest/coverage-v8","installs happy-dom","installs jsdom","installs vite"]}],
+"security":{},
+"companions":{"named":[{"name":"vite","path":"skills/vite"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

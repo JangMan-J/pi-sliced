@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/internal-agent-skills/aws",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/internal-agent-skills/aws/none/trace-3+judge-7.json","sha256":"9ff7cd141a9f5dacdcdd0102b9bbaf7ed74ac0cb4e9d2324980c4e65df0cb33f"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/agent-governance-toolkit/agentmesh-governance",
+"source":"microsoft/agent-governance-toolkit",
+"revision":"70a4ab8e8a0434f481ba85a52ccf988a0572ceeb",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named agentmesh-governance at 70a4ab8e8a0434f481ba85a52ccf988a0572ceeb",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

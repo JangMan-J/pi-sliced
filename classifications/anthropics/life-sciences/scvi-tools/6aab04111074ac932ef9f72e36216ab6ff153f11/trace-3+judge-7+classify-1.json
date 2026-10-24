@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/life-sciences/scvi-tools",
+"revision":"6aab04111074ac932ef9f72e36216ab6ff153f11",
+"trace":{"path":"traces/anthropics/life-sciences/scvi-tools/6aab04111074ac932ef9f72e36216ab6ff153f11/trace-3+judge-7.json","sha256":"8ac83f6694bf455ca2579daa27286a2d93b9ee5560039314b8d1e65d2deafc9b"},
+"status":"unresolvable",
+"reason":"no skill folder named scvi-tools at 6aab04111074ac932ef9f72e36216ab6ff153f11"
+}

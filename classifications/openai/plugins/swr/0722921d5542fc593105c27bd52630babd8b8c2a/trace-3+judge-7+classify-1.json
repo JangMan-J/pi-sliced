@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/swr",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/swr/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"a958d73d31453bdacdafc8fb0add115848243aa5d9fd71a39efed2c689967e7a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5774,"own":{"files":1,"bytes":5774},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["swr"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.6 KiB · packages swr","short":"5.6 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs swr"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

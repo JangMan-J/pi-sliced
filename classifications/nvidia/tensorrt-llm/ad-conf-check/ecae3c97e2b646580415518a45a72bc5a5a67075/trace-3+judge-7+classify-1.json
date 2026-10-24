@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/tensorrt-llm/ad-conf-check",
+"revision":"ecae3c97e2b646580415518a45a72bc5a5a67075",
+"trace":{"path":"traces/nvidia/tensorrt-llm/ad-conf-check/ecae3c97e2b646580415518a45a72bc5a5a67075/trace-3+judge-7.json","sha256":"e0b3251a9699c2b7c2bcb6fd397f3dd0196ad5355b7e58a590ea4b10e4b1da3d"},
+"status":"unresolvable",
+"reason":"no skill folder named ad-conf-check at ecae3c97e2b646580415518a45a72bc5a5a67075"
+}

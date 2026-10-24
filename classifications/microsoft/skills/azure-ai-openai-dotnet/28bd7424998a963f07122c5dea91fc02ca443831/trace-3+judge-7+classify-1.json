@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-openai-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-openai-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"24605df092ed41fefd2ac70cd7eff6738d434782ee6f18be634bc38a7f625aac"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13485,"own":{"files":1,"bytes":13485},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.AI.OpenAI","Azure.Identity","Azure.Search.Documents","OpenAI"],"mcp-server":[],"credential":["AZURE_OPENAI_API_KEY","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 13 KiB · CLI dotnet · packages Azure.AI.OpenAI +3 · 2 keys","short":"13 KiB · 1 CLI · 4 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.AI.OpenAI","installs Azure.Identity","installs Azure.Search.Documents","installs OpenAI"]},{"marker":"credentials","because":["needs AZURE_OPENAI_API_KEY","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

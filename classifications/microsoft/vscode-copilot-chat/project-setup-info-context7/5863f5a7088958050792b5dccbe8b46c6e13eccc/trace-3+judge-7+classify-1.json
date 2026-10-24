@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode-copilot-chat/project-setup-info-context7",
+"revision":"5863f5a7088958050792b5dccbe8b46c6e13eccc",
+"trace":{"path":"traces/microsoft/vscode-copilot-chat/project-setup-info-context7/5863f5a7088958050792b5dccbe8b46c6e13eccc/trace-3+judge-7.json","sha256":"d36d4f43cbb5967848c0483679ed9f62ccfd79a387be602fa2d69b825e69fe08"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1992,"own":{"files":1,"bytes":1992},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.9 KiB","short":"1.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/skills-benchmarks/deep-agents-memory",
+"revision":"9195f8c296f7076152cf5c698d6abd4f84853eb9",
+"trace":{"path":"traces/langchain-ai/skills-benchmarks/deep-agents-memory/9195f8c296f7076152cf5c698d6abd4f84853eb9/trace-3+judge-7.json","sha256":"3721d37b0c8686726a11ca50af19d61576f7145e3392b7c34de3d0104db390da"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9939,"own":{"files":1,"bytes":9939},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.7 KiB","short":"9.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

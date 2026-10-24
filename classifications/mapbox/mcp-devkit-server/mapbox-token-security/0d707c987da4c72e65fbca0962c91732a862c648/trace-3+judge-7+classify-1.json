@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mcp-devkit-server/mapbox-token-security",
+"revision":"0d707c987da4c72e65fbca0962c91732a862c648",
+"trace":{"path":"traces/mapbox/mcp-devkit-server/mapbox-token-security/0d707c987da4c72e65fbca0962c91732a862c648/trace-3+judge-7.json","sha256":"0499a3e126dd1034715c539fcfec3b0be1bb1e3bc38a72789ebaa9589521cec9"},
+"status":"unresolvable",
+"reason":"no skill folder named mapbox-token-security at 0d707c987da4c72e65fbca0962c91732a862c648"
+}

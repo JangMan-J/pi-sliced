@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"brave/brave-search-skills/news-search",
+"revision":"62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d",
+"trace":{"path":"traces/brave/brave-search-skills/news-search/62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d/trace-3+judge-7.json","sha256":"3ba322a1aa6a16de5014a27070beedc72562eb58678ba587976359c09043710c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8127,"own":{"files":1,"bytes":8127},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["API_KEY","BRAVE_SEARCH_API_KEY"],"network":["api.search.brave.com"]},"summary":"1 file, 7.9 KiB · 2 keys · 1 host","short":"7.9 KiB · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"network","because":["fetches from api.search.brave.com"]},{"marker":"credentials","because":["needs API_KEY","needs BRAVE_SEARCH_API_KEY"]},{"marker":"sends-credentials","because":["BRAVE_SEARCH_API_KEY -> api.search.brave.com: skills/news-search/SKILL.md:16, skills/news-search/SKILL.md:23, skills/news-search/SKILL.md:35"]}],
+"security":{"secret-egress":["BRAVE_SEARCH_API_KEY -> api.search.brave.com @ skills/news-search/SKILL.md:16, skills/news-search/SKILL.md:23, skills/news-search/SKILL.md:35"]},
+"companions":{"named":[{"name":"spellcheck","path":"skills/spellcheck"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

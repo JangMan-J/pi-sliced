@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/gws-chat",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/gws-chat/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"f9fd5818b45ca933370168a2bd5a7c30c38ef763ec0b1fd6dd9032b7da3411da"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":9577,"own":{"files":1,"bytes":5757},"otherSkills":{"count":2,"files":2,"bytes":3820},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gws"],"package":[],"mcp-server":[],"credential":["GOOGLE_APPLICATION_CREDENTIALS"],"network":["github.com"]},"summary":"3 files, 9.4 KiB · +2 other skills · CLI gws · 1 key · 1 host","short":"9.4 KiB · +2 skills · 1 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gws"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GOOGLE_APPLICATION_CREDENTIALS"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/gws-chat-send","pulls in 1 file of the skill at skills/gws-shared"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/gws-chat-send","files":1,"bytes":1152},{"path":"skills/gws-shared","files":1,"bytes":2668}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

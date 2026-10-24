@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/openai-agents-js/pnpm-upgrade",
+"revision":"be4f1f9aa4ad4f03cc5db5fdd57d0d0136923570",
+"trace":{"path":"traces/openai/openai-agents-js/pnpm-upgrade/be4f1f9aa4ad4f03cc5db5fdd57d0d0136923570/trace-3+judge-7.json","sha256":"0fcd0ceec3f19482dced251ed7a166ca021e9c287716146ea45a0cf0b6fc044f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4418,"own":{"files":1,"bytes":4418},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["corepack","jq","xxd"],"package":[],"mcp-server":[],"credential":[],"network":["api.github.com","github.com","registry.npmjs.org"]},"summary":"1 file, 4.3 KiB · CLI corepack, jq +1 · 3 hosts","short":"4.3 KiB · 3 CLI · 3 hosts"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs corepack","runs jq","runs xxd"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com","fetches from registry.npmjs.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/hermes-tweet",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/hermes-tweet/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"e0eb2256b1a6ce6b975cd27a6b573e692ebf4e81f07918d97d3991a9eda9c255"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":8532,"own":{"files":3,"bytes":8532},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["hermes"],"package":[],"mcp-server":[],"credential":["XQUIK_API_KEY"],"network":[]},"summary":"3 files, 8.3 KiB · CLI hermes · 1 key","short":"8.3 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs hermes"]},{"marker":"credentials","because":["needs XQUIK_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

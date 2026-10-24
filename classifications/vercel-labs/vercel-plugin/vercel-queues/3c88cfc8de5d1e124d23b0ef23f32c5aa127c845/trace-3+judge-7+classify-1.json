@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/vercel-queues",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/vercel-queues/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"a045b30eadd2c4c974384e4186f73f39f0bce76fcea95b03b7669f9a58ad4996"},
+"status":"unresolvable",
+"reason":"no skill folder named vercel-queues at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

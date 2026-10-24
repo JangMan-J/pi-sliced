@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/emulate/github",
+"revision":"361410f1e2e3872cf58c49277e5ce3174e040701",
+"trace":{"path":"traces/vercel-labs/emulate/github/361410f1e2e3872cf58c49277e5ce3174e040701/trace-3+judge-7.json","sha256":"e32c3adda91bfd8deef45da5164d13d06a0e024c1e2cf55cbd0629f911015193"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":22769,"own":{"files":1,"bytes":22769},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["emulate"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 22 KiB · CLI emulate","short":"22 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs emulate"]},{"marker":"unpinned-code","because":["npx emulate: skills/github/SKILL.md:17, skills/github/SKILL.md:63, skills/github/SKILL.md:645"]}],
+"security":{"fetch-run":["npx emulate @ skills/github/SKILL.md:17, skills/github/SKILL.md:63, skills/github/SKILL.md:645"]},
+"companions":{"named":[{"name":"emulate","path":"skills/emulate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-cloud-waf-sustainability",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-cloud-waf-sustainability/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"178a4f0dd879e727188eec641d4691edd8828f19d7d956dc655ae1c860b9d93a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13738,"own":{"files":1,"bytes":13738},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB","short":"13 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

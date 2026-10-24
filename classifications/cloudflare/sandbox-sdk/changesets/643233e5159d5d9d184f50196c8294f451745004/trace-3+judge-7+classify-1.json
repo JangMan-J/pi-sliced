@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sandbox-sdk/changesets",
+"revision":"643233e5159d5d9d184f50196c8294f451745004",
+"trace":{"path":"traces/cloudflare/sandbox-sdk/changesets/643233e5159d5d9d184f50196c8294f451745004/trace-3+judge-7.json","sha256":"fb12fe30590853c1befc255b7cd2899ef8cdeb2095922c7794a542c9447057fe"},
+"status":"unresolvable",
+"reason":"no skill folder named changesets at 643233e5159d5d9d184f50196c8294f451745004"
+}

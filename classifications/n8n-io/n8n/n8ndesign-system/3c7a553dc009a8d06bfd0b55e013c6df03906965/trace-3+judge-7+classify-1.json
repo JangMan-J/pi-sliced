@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8ndesign-system",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8ndesign-system/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"a515f361cc7358986d8e55784c33ade3a65be6c05e1ea3841d0a1f3da822ba49"},
+"status":"unresolvable",
+"reason":"no skill folder named n8ndesign-system at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

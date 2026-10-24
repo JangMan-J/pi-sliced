@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/model-optimizer/eagle3-new-model",
+"revision":"0638a274cf195870564d8e3c164e4f859e5be2a2",
+"trace":{"path":"traces/nvidia/model-optimizer/eagle3-new-model/0638a274cf195870564d8e3c164e4f859e5be2a2/trace-3+judge-7.json","sha256":"a3ac0372349d56e0700da88b21a3576ebdcd24fd7e66fe2e03bd3e81a922de58"},
+"status":"unresolvable",
+"reason":"no skill folder named eagle3-new-model at 0638a274cf195870564d8e3c164e4f859e5be2a2"
+}

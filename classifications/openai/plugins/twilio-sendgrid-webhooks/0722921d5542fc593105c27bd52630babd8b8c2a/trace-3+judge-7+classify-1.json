@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-sendgrid-webhooks",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-sendgrid-webhooks/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"f44556d1d4e3eff38c40438062494d866c88c9b28107175110d8f6d8220ebfd1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5887,"own":{"files":1,"bytes":5887},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.7 KiB","short":"5.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"twilio-sendgrid-email-send","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-email-send"},{"name":"twilio-sendgrid-inbound-parse","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-inbound-parse"},{"name":"twilio-sendgrid-suppressions","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-suppressions"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

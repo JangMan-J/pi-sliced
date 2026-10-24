@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/upstash-redis",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/upstash-redis/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"308a5eb92e0d23cc3de2491403e9691fac0c72bc8ff53c1bceebd8843b8c0204"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6936,"own":{"files":1,"bytes":6936},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@upstash/ratelimit","@upstash/redis"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.8 KiB · packages @upstash/ratelimit +1","short":"6.8 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @upstash/ratelimit","installs @upstash/redis"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

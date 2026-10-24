@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/genmol-nim",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/genmol-nim/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"54786ebd4d231489f4e39ba8bba87bafc518444c050a82abf3950001023629fa"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":17879,"own":{"files":6,"bytes":17879},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":["safe-mol"],"mcp-server":[],"credential":["NGC_API_KEY","NVIDIA_API_KEY"],"network":[]},"summary":"6 files, 17 KiB · CLI docker · packages safe-mol · 2 keys","short":"17 KiB · 1 CLI · 1 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]},{"marker":"installs-packages","because":["installs safe-mol"]},{"marker":"credentials","because":["needs NGC_API_KEY","needs NVIDIA_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

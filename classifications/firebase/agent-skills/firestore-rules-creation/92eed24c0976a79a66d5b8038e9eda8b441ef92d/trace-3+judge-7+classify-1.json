@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firestore-rules-creation",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firestore-rules-creation/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"a07ee8ad69128a555a4f7fafb3c428d00f16ac1b182378f53e154509c7426abc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":28084,"own":{"files":1,"bytes":28084},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["allow","isValidEntity"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 27 KiB · CLI allow, isValidEntity","short":"27 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs allow","runs isValidEntity"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

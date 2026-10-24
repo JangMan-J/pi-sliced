@@ -1,0 +1,38 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel/vercel-plugin/auth",
+"source":"vercel/vercel-plugin",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"skillPath":"skills/auth",
+"status":"resolved",
+"totals":{"files":1,"bytes":25879},
+"files":[
+{"path":"skills/auth/SKILL.md","size":25879,"blob":"a66ca83109cd0acdc39d7e9eec130cebd4fe3ec8","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@clerk/upgrade","at":[[0,638]]},
+{"kind":"cli","name":"auth","at":[[0,304],[0,373],[0,374],[0,453],[0,481]]},
+{"kind":"cli","name":"skills","at":[[0,478]]},
+{"kind":"cli","name":"vercel","at":[[0,149],[0,314],[0,490]]},
+{"kind":"network","name":"vercel.com","at":[[0,614]]},
+{"kind":"package","name":"@auth0/nextjs-auth0","at":[[0,548]]},
+{"kind":"package","name":"@clerk/nextjs","at":[[0,160]]},
+{"kind":"package","name":"@descope/nextjs-sdk","at":[[0,496]]},
+{"kind":"package","name":"better-auth","at":[[0,312]]},
+{"kind":"package","name":"pg","at":[[0,312]]}
+],
+"regions":[
+{"kind":"own","path":"skills/auth","files":1,"bytes":25879}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @clerk/upgrade","at":[[0,638]]},
+{"kind":"fetch-run","detail":"npx auth@latest","at":[[0,304],[0,373],[0,374],[0,453],[0,481]]},
+{"kind":"fetch-run","detail":"npx skills","at":[[0,478]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,478]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

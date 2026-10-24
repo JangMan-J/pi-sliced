@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/skills/upstash-cli",
+"revision":"3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db",
+"trace":{"path":"traces/upstash/skills/upstash-cli/3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db/trace-3+judge-7.json","sha256":"375acd9b9b93ad8af43880d77786d2e53ec27e71b22b20a24877f3a4a361ec13"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10769,"own":{"files":1,"bytes":10769},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","jq","upstash"],"package":["upstash"],"mcp-server":["the","upstash"],"credential":["AWS_SECRET_ACCESS_KEY","AWS_SESSION_TOKEN","UPSTASH_API_KEY"],"network":[]},"summary":"1 file, 11 KiB · MCP the, upstash · CLI aws, jq +1 · packages upstash · 3 keys","short":"11 KiB · 3 CLI · 1 pkg · 3 keys · MCP 2"},
+"heavy":{"heavy":true,"because":["1 package to install","2 MCP servers","3 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs jq","runs upstash"]},{"marker":"installs-packages","because":["installs upstash"]},{"marker":"credentials","because":["needs AWS_SECRET_ACCESS_KEY","needs AWS_SESSION_TOKEN","needs UPSTASH_API_KEY"]},{"marker":"mcp-server","because":["uses the the MCP server","uses the upstash MCP server"]},{"marker":"unpinned-code","because":["npx upstash: skills/upstash-cli/SKILL.md:29, skills/upstash-cli/SKILL.md:35, skills/upstash-cli/SKILL.md:38"]}],
+"security":{"fetch-run":["npx upstash @ skills/upstash-cli/SKILL.md:29, skills/upstash-cli/SKILL.md:35, skills/upstash-cli/SKILL.md:38 +3"]},
+"companions":{"named":[{"name":"upstash","path":"skills/upstash"},{"name":"upstash-blob-js","path":"skills/upstash-blob-js"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

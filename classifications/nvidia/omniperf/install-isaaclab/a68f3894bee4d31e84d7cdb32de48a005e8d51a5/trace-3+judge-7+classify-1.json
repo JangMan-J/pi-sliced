@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/omniperf/install-isaaclab",
+"revision":"a68f3894bee4d31e84d7cdb32de48a005e8d51a5",
+"trace":{"path":"traces/nvidia/omniperf/install-isaaclab/a68f3894bee4d31e84d7cdb32de48a005e8d51a5/trace-3+judge-7.json","sha256":"99c5da738ddd8181a543055494e37c4743a47fb7c77ded31f5eb2e85cc9072f3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4804,"own":{"files":1,"bytes":4804},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["conda","nvidia-smi"],"package":[],"mcp-server":[],"credential":[],"network":["github.com","repo.anaconda.com"]},"summary":"1 file, 4.7 KiB · CLI conda, nvidia-smi · 2 hosts","short":"4.7 KiB · 2 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs conda","runs nvidia-smi"]},{"marker":"network","because":["fetches from github.com","fetches from repo.anaconda.com"]}],
+"security":{},
+"companions":{"named":[{"name":"install-isaacsim","path":".agents/skills/install-isaacsim"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

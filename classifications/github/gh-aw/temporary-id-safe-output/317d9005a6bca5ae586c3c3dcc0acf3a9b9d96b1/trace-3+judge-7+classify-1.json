@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/gh-aw/temporary-id-safe-output",
+"revision":"317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1",
+"trace":{"path":"traces/github/gh-aw/temporary-id-safe-output/317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1/trace-3+judge-7.json","sha256":"711afd20b06b985089dcab94cd94db8014de5adc0b81b194225f6ea80a05ba03"},
+"status":"resolved",
+"footprint":{"files":1970,"bytes":22319203,"own":{"files":1,"bytes":7622},"otherSkills":{"count":1,"files":1969,"bytes":22311581},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["async_hooks","foo-bar","vitest","yaml"],"mcp-server":[],"credential":["GH_AW_ASSIGN_TO_AGENT_TOKEN","GH_AW_MENTIONS_GITHUB_TOKEN","GH_AW_OTLP_OIDC_TOKEN"],"network":["api.github.com","github.com","github.github.com","iamcredentials.googleapis.com","linear.app","sts.googleapis.com","x.com"]},"summary":"1970 files, 21 MiB · +1 other skill · packages async_hooks +3 · 3 keys · 7 hosts","short":"21 MiB · +1 skill · 4 pkg · 3 keys · 7 hosts"},
+"heavy":{"heavy":true,"because":["files total 21 MiB (> 1 MiB)","4 packages to install","3 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs async_hooks","installs foo-bar","installs vitest","installs yaml"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com","fetches from github.github.com","fetches from iamcredentials.googleapis.com","fetches from linear.app","fetches from sts.googleapis.com","fetches from x.com"]},{"marker":"credentials","because":["needs GH_AW_ASSIGN_TO_AGENT_TOKEN","needs GH_AW_MENTIONS_GITHUB_TOKEN","needs GH_AW_OTLP_OIDC_TOKEN"]},{"marker":"chain-loads","because":["pulls in 1969 files of the skill at ."]},{"marker":"agent-override-text","because":["invisible U+FEFF: actions/setup/js/work_queue_yaml.cjs:4155, actions/setup/js/work_queue_yaml.cjs:4376"]}],
+"security":{"invisible-unicode":["U+FEFF @ actions/setup/js/work_queue_yaml.cjs:4155, actions/setup/js/work_queue_yaml.cjs:4376"]},
+"companions":{"named":[],"pulled":[{"path":".","files":1969,"bytes":22311581}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

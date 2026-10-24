@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/signals-scout-web-vitals",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/signals-scout-web-vitals/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"31e83befce57f2aa14612ffd784294d12484902f3cc4a84edf0f14654097ef95"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":58241,"own":{"files":3,"bytes":58241},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 57 KiB","short":"57 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"signals-scout-anomaly-detection","path":"skills/omnibus/signals-scout-anomaly-detection"},{"name":"signals-scout-health-checks","path":"skills/omnibus/signals-scout-health-checks"},{"name":"signals-scout-web-analytics","path":"skills/omnibus/signals-scout-web-analytics"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

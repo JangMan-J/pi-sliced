@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/ui-ugui",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/ui-ugui/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"34109128185e1719087e0195c84fe0245d1a14d68df7357faa8ad2a4ed559770"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":14097,"own":{"files":2,"bytes":14097},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

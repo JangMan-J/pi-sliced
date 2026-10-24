@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/eas-hosting",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/eas-hosting/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"eb4977bfe24fb17578c25f145d738ab7b06d53244c90384bf6a639e490cb2717"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11495,"own":{"files":1,"bytes":11495},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["eas","eas-cli","expo","submit-expo-feedback"],"package":["eas-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI eas, eas-cli +2 · packages eas-cli","short":"11 KiB · 4 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs eas","runs eas-cli","runs expo","runs submit-expo-feedback"]},{"marker":"installs-packages","because":["installs eas-cli"]},{"marker":"unpinned-code","because":["npx eas-cli@latest: plugins/expo/skills/eas-hosting/SKILL.md:237, plugins/expo/skills/eas-hosting/SKILL.md:240","npx expo: plugins/expo/skills/eas-hosting/SKILL.md:12, plugins/expo/skills/eas-hosting/SKILL.md:207, plugins/expo/skills/eas-hosting/SKILL.md:234","npx submit-expo-feedback@latest: plugins/expo/skills/eas-hosting/SKILL.md:428"]}],
+"security":{"fetch-run":["npx eas-cli@latest @ plugins/expo/skills/eas-hosting/SKILL.md:237, plugins/expo/skills/eas-hosting/SKILL.md:240","npx expo @ plugins/expo/skills/eas-hosting/SKILL.md:12, plugins/expo/skills/eas-hosting/SKILL.md:207, plugins/expo/skills/eas-hosting/SKILL.md:234","npx submit-expo-feedback@latest @ plugins/expo/skills/eas-hosting/SKILL.md:428"]},
+"companions":{"named":[{"name":"eas-app-stores","path":"plugins/expo/skills/eas-app-stores"},{"name":"eas-workflows","path":"plugins/expo/skills/eas-workflows"},{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

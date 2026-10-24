@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/geomaster",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/geomaster/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"c98e89c3795b64758465b68dab6b70daa9df2bfa3f4e1cd7fbe2e99291fc2655"},
+"status":"resolved",
+"footprint":{"files":18,"bytes":150904,"own":{"files":18,"bytes":150904},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gdal_viewshed","saga_cmd"],"package":["geopandas","numpy","odc-stac","planetary-computer","pyproj","pystac-client","rasterio","rioxarray","scikit-learn","shapely","xarray"],"mcp-server":[],"credential":[],"network":["arxiv.org"]},"summary":"18 files, 147 KiB · CLI gdal_viewshed, saga_cmd · packages geopandas +10 · 1 host","short":"147 KiB · 2 CLI · 11 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["11 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gdal_viewshed","runs saga_cmd"]},{"marker":"installs-packages","because":["installs geopandas","installs numpy","installs odc-stac","installs planetary-computer","installs pyproj","installs pystac-client","installs rasterio","installs rioxarray","installs scikit-learn","installs shapely","installs xarray"]},{"marker":"network","because":["fetches from arxiv.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

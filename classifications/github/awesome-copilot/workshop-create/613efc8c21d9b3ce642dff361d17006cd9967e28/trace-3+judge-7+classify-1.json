@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/workshop-create",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/workshop-create/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"5ca789b78743fff21f8301c714161bf22dc0dea8b623059c5c67ba113e6c37f3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4843,"own":{"files":1,"bytes":4843},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB · CLI gh","short":"4.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]}],
+"security":{},
+"companions":{"named":[{"name":"desk-open","path":"skills/desk-open"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

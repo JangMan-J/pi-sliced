@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/foundry-agent-sync",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/foundry-agent-sync/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"486f7812a70187b0813fd75cb7cd6838496174c2bc5da1153c8899ee6b2d10fc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8422,"own":{"files":1,"bytes":8422},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertFrom-Json","ConvertTo-Json","Format-Table","Invoke-RestMethod","Join-Path","Mandatory","Out-Null","az","foreach","param","throw"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.2 KiB · CLI ConvertFrom-Json, ConvertTo-Json +9","short":"8.2 KiB · 11 CLI"},
+"heavy":{"heavy":true,"because":["11 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs ConvertFrom-Json","runs ConvertTo-Json","runs foreach","runs Format-Table","runs Invoke-RestMethod","runs Join-Path","runs Mandatory","runs Out-Null","runs param","runs throw"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

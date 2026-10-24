@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/electron",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/electron/none/trace-3+judge-7.json","sha256":"71b566097a0d2b247bb56d4f27ffc2fcd3aedbbd7373c0cda11997923518fb2e"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

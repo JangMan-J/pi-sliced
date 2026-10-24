@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/agent-skills/apify-ultimate-scraper",
+"revision":"f22557f15941aa6a5bc7539f0408d509d4a32ab6",
+"trace":{"path":"traces/apify/agent-skills/apify-ultimate-scraper/f22557f15941aa6a5bc7539f0408d509d4a32ab6/trace-3+judge-7.json","sha256":"831ac476df8a4e7ad5bf3c768cbf6892fe3492a36ee8871a21bc19d1ff8876ba"},
+"status":"resolved",
+"footprint":{"files":17,"bytes":79795,"own":{"files":17,"bytes":79795},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["apify"],"package":["apify-cli"],"mcp-server":[],"credential":["APIFY_TOKEN"],"network":["console.apify.com"]},"summary":"17 files, 78 KiB · CLI apify · packages apify-cli · 1 key · 1 host","short":"78 KiB · 1 CLI · 1 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs apify"]},{"marker":"installs-packages","because":["installs apify-cli"]},{"marker":"network","because":["fetches from console.apify.com"]},{"marker":"credentials","because":["needs APIFY_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

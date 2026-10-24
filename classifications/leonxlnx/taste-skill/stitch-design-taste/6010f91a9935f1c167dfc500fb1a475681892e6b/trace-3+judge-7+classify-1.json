@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/stitch-design-taste",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/stitch-design-taste/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"12eb5d4d1a0f93f3f6abad0b0b68c66f21965dd19d8b4245707ef6af7d413f9e"},
+"status":"unresolvable",
+"reason":"no skill folder named stitch-design-taste at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/stitch-skill)"
+}

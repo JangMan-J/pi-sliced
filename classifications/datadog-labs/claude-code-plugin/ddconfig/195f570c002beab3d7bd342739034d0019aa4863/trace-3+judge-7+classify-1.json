@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/claude-code-plugin/ddconfig",
+"revision":"195f570c002beab3d7bd342739034d0019aa4863",
+"trace":{"path":"traces/datadog-labs/claude-code-plugin/ddconfig/195f570c002beab3d7bd342739034d0019aa4863/trace-3+judge-7.json","sha256":"cd67c2c95663da4336ed685e19505d92e86b77e6758eced9d52ad581f3f87bd7"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13311,"own":{"files":2,"bytes":13311},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["datadog"],"credential":[],"network":[]},"summary":"2 files, 13 KiB · MCP datadog","short":"13 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the datadog MCP server"]},{"marker":"agent-override-text","because":["\"do not tell the user\": skills/ddconfig/SKILL.md:64, skills/ddconfig/references/mcp-settings.md:32"]}],
+"security":{"injection":["do not tell the user @ skills/ddconfig/SKILL.md:64, skills/ddconfig/references/mcp-settings.md:32"]},
+"companions":{"named":[{"name":"ddsetup","path":"skills/ddsetup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

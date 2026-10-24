@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/gh-cli",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/gh-cli/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"5f6c3a89fbeeb3d7143ffddfff0b73475b26b83cdd4e4f8335be39de611d8841"},
+"status":"unresolvable",
+"reason":"no skill folder named gh-cli at 613efc8c21d9b3ce642dff361d17006cd9967e28 or at the remote HEAD d85f762d6e521abf5fe16703946e9b38adc42da7"
+}

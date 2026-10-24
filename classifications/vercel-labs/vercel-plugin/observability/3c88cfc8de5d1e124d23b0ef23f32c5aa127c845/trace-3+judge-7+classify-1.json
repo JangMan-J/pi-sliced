@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/observability",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/observability/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"9101dc0e2bcc2851d8fec32ebacb728aeeaa7968802cc24c3460d8048edadb46"},
+"status":"unresolvable",
+"reason":"no skill folder named observability at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

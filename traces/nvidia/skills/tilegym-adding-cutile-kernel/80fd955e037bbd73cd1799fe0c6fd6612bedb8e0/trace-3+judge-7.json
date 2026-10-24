@@ -1,0 +1,25 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skills/tilegym-adding-cutile-kernel",
+"source":"nvidia/skills",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"skillPath":"skills/tilegym-adding-cutile-kernel",
+"status":"resolved",
+"totals":{"files":1,"bytes":8230},
+"files":[
+{"path":"skills/tilegym-adding-cutile-kernel/SKILL.md","size":8230,"blob":"1d2c3db7ad403d3a529bcbe6ca835f75a693f9a8","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"pre-commit","at":[[0,275]]},
+{"kind":"cli","name":"pytest","at":[[0,269]]}
+],
+"regions":[
+{"kind":"own","path":"skills/tilegym-adding-cutile-kernel","files":1,"bytes":8230}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE-APACHE","spdx":"Apache-2.0","frontmatter":"CC-BY-4.0 AND Apache-2.0"}
+}

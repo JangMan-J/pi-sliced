@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/frontend-session-rca",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/frontend-session-rca/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"70548ea573b79a34972caf6a1617cc892dcc3f8b5f07e8c5d06893f3d785727c"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":20123,"own":{"files":4,"bytes":20123},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcx"],"package":["gcx"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"4 files, 20 KiB · CLI gcx · packages gcx · 1 host","short":"20 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcx"]},{"marker":"installs-packages","because":["installs gcx"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[{"name":"app-observability","path":"skills/grafana-cloud/app-observability"},{"name":"loki","path":"skills/grafana-lgtm/loki"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

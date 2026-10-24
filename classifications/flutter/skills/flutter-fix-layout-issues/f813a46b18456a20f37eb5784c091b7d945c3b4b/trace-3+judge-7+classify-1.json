@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-fix-layout-issues",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-fix-layout-issues/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"3080d0b210c9ab26223fa543e46868ca112e63431807a271d36ce7e6c4a3f5ec"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5326,"own":{"files":1,"bytes":5326},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["flutter"],"credential":[],"network":[]},"summary":"1 file, 5.2 KiB · MCP flutter","short":"5.2 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the flutter MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

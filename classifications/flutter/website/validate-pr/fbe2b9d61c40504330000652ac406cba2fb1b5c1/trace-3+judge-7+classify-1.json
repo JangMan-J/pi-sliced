@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/website/validate-pr",
+"revision":"fbe2b9d61c40504330000652ac406cba2fb1b5c1",
+"trace":{"path":"traces/flutter/website/validate-pr/fbe2b9d61c40504330000652ac406cba2fb1b5c1/trace-3+judge-7.json","sha256":"db6c5d50378b7c66a81e8ff565c1a3347886b4a4570f27ee13e868b3ed1420f4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":797,"own":{"files":1,"bytes":797},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dart"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 797 B · CLI dart","short":"797 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dart"]},{"marker":"stub","because":["own folder 797 B (1 file)","content is the dart it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

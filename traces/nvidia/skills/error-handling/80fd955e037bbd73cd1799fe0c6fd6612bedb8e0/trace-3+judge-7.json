@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skills/error-handling",
+"source":"nvidia/skills",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named error-handling at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

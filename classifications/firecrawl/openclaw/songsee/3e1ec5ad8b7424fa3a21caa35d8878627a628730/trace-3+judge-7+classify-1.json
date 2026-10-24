@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/songsee",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/songsee/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"4e1e29b70090656c61359ea88820e0ff4cf3388fec84af271ae7f600fa2ddca6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1314,"own":{"files":1,"bytes":1314},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["songsee"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.3 KiB · CLI songsee","short":"1.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs songsee"]},{"marker":"stub","because":["own folder 1.3 KiB (1 file)","content is the songsee it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

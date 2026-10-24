@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/pay-for-service",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/pay-for-service/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"16887bbb8360424c0f8ad658baf868032b99854c59f9512fc8da7f46fa9ccd5d"},
+"status":"unresolvable",
+"reason":"no skill folder named pay-for-service at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

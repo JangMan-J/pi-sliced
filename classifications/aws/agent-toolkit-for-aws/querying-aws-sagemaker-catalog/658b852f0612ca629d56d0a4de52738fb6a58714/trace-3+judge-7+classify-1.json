@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/querying-aws-sagemaker-catalog",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/querying-aws-sagemaker-catalog/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"a64184642f67f1eb67754f3904e67410c0ba321901dfa45ea138da38e8e8c2af"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10547,"own":{"files":1,"bytes":10547},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","put-data-export-configuration"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"1 file, 10 KiB · MCP aws · CLI aws, put-data-export-configuration","short":"10 KiB · 2 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs put-data-export-configuration"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

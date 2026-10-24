@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/web-design-guidelines",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/web-design-guidelines/none/trace-3+judge-7.json","sha256":"2a5d42d161eb2d8dadb7e63762095735748a3d5f61bae5b2f0850d286e95b699"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

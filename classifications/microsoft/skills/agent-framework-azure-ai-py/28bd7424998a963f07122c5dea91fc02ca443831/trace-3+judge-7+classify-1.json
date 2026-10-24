@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/agent-framework-azure-ai-py",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/agent-framework-azure-ai-py/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"3dc07056c30a8f719c022d67297207f4d8fa142b4140f89c873c1b409c844d92"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":48803,"own":{"files":5,"bytes":48803},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["agent-framework","agent-framework-azure-ai"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"5 files, 48 KiB · packages agent-framework +1 · 1 key","short":"48 KiB · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs agent-framework","installs agent-framework-azure-ai"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

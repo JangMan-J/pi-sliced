@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-iam",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-iam/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"c7957b94c6bfbc6735a15135be377b53b6a492327ed6f073043d12059d998f4c"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":62744,"own":{"files":5,"bytes":62744},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","iam-policy-autopilot","jq","terraform"],"package":["iam-policy-autopilot","uv"],"mcp-server":["aws"],"credential":[],"network":["docs.aws.amazon.com","servicereference.us-east-1.amazonaws.com"]},"summary":"5 files, 61 KiB · MCP aws · CLI aws, iam-policy-autopilot +2 · packages iam-policy-autopilot +1 · 2 hosts","short":"61 KiB · 4 CLI · 2 pkg · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs iam-policy-autopilot","runs jq","runs terraform"]},{"marker":"installs-packages","because":["installs iam-policy-autopilot","installs uv"]},{"marker":"network","because":["fetches from docs.aws.amazon.com","fetches from servicereference.us-east-1.amazonaws.com"]},{"marker":"mcp-server","because":["uses the aws MCP server"]},{"marker":"unpinned-code","because":["uvx iam-policy-autopilot@latest: skills/core-skills/aws-iam/references/aws-iam-policy-generation.md:6, skills/core-skills/aws-iam/references/aws-iam-policy-generation.md:25, skills/core-skills/aws-iam/references/aws-iam-policy-generation.md:36"]}],
+"security":{"fetch-run":["uvx iam-policy-autopilot@latest @ skills/core-skills/aws-iam/references/aws-iam-policy-generation.md:6, skills/core-skills/aws-iam/references/aws-iam-policy-generation.md:25, skills/core-skills/aws-iam/references/aws-iam-policy-generation.md:36 +8"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

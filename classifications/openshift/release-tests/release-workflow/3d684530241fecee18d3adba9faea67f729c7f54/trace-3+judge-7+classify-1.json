@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openshift/release-tests/release-workflow",
+"revision":"3d684530241fecee18d3adba9faea67f729c7f54",
+"trace":{"path":"traces/openshift/release-tests/release-workflow/3d684530241fecee18d3adba9faea67f729c7f54/trace-3+judge-7.json","sha256":"d2bf65af8fd29adb1c1ba1db96843a06cf3f24412af009d03524b2428658971f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":29720,"own":{"files":1,"bytes":29720},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["klist"],"package":[],"mcp-server":["review","the"],"credential":[],"network":["errata.devel.redhat.com"]},"summary":"1 file, 29 KiB · MCP review, the · CLI klist · 1 host","short":"29 KiB · 1 CLI · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs klist"]},{"marker":"network","because":["fetches from errata.devel.redhat.com"]},{"marker":"mcp-server","because":["uses the review MCP server","uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

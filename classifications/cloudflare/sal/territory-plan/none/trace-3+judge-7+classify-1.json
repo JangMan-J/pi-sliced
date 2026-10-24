@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/territory-plan",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/territory-plan/none/trace-3+judge-7.json","sha256":"9a06ce917c5afdf8e9b27fb7fd5ce1d84f3d1ecc3d3faf388469d249abbf923d"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

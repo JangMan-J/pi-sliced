@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-user-configure-inference",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-user-configure-inference/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"326a1634fdf386daeb878186d9c550131f3f0eefcde7bef1496543d1c76c34a0"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-user-configure-inference at f0ee12594687930cc378eb351643cb6e12007f39"
+}

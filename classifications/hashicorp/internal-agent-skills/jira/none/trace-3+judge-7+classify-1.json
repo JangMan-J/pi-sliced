@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/internal-agent-skills/jira",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/internal-agent-skills/jira/none/trace-3+judge-7.json","sha256":"3b20c3c6c98b16aa357c8f766626be5c4a90dc0c326ecd61d49dba96ddc1d9ca"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"
+}

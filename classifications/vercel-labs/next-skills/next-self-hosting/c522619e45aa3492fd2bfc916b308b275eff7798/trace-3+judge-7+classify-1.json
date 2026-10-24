@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/next-skills/next-self-hosting",
+"revision":"c522619e45aa3492fd2bfc916b308b275eff7798",
+"trace":{"path":"traces/vercel-labs/next-skills/next-self-hosting/c522619e45aa3492fd2bfc916b308b275eff7798/trace-3+judge-7.json","sha256":"af8b350892765bdeddd09c976fe4411d15c2d41f788a09c35dab49d25880f636"},
+"status":"unresolvable",
+"reason":"no skill folder named next-self-hosting at c522619e45aa3492fd2bfc916b308b275eff7798"
+}

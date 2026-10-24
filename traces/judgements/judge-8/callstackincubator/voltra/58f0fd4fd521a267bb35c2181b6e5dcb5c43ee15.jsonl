@@ -1,0 +1,1 @@
+{"id":"890efd1df330bc68a09eac5507a2de59190f8f2837720bc1646a4bdcdf352737","pullsIn":true,"reason":"Directs loading references from references/ as needed.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/voltra/SKILL.md","line":11,"ref":"references/","target":"skills/voltra/references"}

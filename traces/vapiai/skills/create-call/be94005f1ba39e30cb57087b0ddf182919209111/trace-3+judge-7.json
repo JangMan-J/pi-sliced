@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vapiai/skills/create-call",
+"source":"vapiai/skills",
+"revision":"be94005f1ba39e30cb57087b0ddf182919209111",
+"skillPath":"plugins/vapi-voice-ai/skills/create-call",
+"status":"resolved",
+"totals":{"files":1,"bytes":6392},
+"files":[
+{"path":"plugins/vapi-voice-ai/skills/create-call/SKILL.md","size":6392,"blob":"fb6aaaec333d27469aefb0cc20782638bab6049d","how":"root"}
+],
+"outside":[
+{"kind":"credential","name":"VAPI_API_KEY","at":[[0,18],[0,201],[0,205],[0,209],[0,215]]},
+{"kind":"network","name":"api.vapi.ai","at":[[0,18],[0,201],[0,205],[0,209],[0,215]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vapi-voice-ai/skills/create-call","files":1,"bytes":6392}
+],
+"signals":[
+{"kind":"secret-egress","detail":"VAPI_API_KEY -> api.vapi.ai","at":[[0,18],[0,201],[0,205],[0,209],[0,215]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"MIT"}
+}

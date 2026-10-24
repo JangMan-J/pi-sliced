@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"antithesishq/antithesis-skills/antithesis-workload",
+"revision":"4ce26aa6f0021bd99d401918b79c7bb906180858",
+"trace":{"path":"traces/antithesishq/antithesis-skills/antithesis-workload/4ce26aa6f0021bd99d401918b79c7bb906180858/trace-3+judge-7.json","sha256":"29b44651dd53d7e611dd2021ed79ef1f98b15f66f33e77586b866177b83fa34e"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":63415,"own":{"files":6,"bytes":63415},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["snouty"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 62 KiB · CLI snouty","short":"62 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs snouty"]}],
+"security":{},
+"companions":{"named":[{"name":"antithesis-documentation","path":"antithesis-documentation"},{"name":"antithesis-launch","path":"antithesis-launch"},{"name":"antithesis-mutation-testing","path":"antithesis-mutation-testing"},{"name":"antithesis-research","path":"antithesis-research"},{"name":"antithesis-setup","path":"antithesis-setup"},{"name":"antithesis-triage","path":"antithesis-triage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

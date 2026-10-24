@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/engineering-agent-skills/terraform-style",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/engineering-agent-skills/terraform-style/none/trace-3+judge-7.json","sha256":"a2f8b7d34a772783d7808235c499778fb04e62da983d3cc7e51869a1bba56321"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"
+}

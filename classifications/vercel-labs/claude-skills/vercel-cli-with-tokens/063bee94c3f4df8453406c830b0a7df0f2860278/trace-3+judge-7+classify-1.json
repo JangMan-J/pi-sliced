@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/claude-skills/vercel-cli-with-tokens",
+"revision":"063bee94c3f4df8453406c830b0a7df0f2860278",
+"trace":{"path":"traces/vercel-labs/claude-skills/vercel-cli-with-tokens/063bee94c3f4df8453406c830b0a7df0f2860278/trace-3+judge-7.json","sha256":"9d77bbde660a9aed4869335a1eb1c781ceff3b46a935bc285bb9b4eeef41111d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10476,"own":{"files":1,"bytes":10476},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["stripe","vercel"],"package":["vercel"],"mcp-server":[],"credential":["VERCEL_TOKEN"],"network":[]},"summary":"1 file, 10 KiB · CLI stripe, vercel · packages vercel · 1 key","short":"10 KiB · 2 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs stripe","runs vercel"]},{"marker":"installs-packages","because":["installs vercel"]},{"marker":"credentials","because":["needs VERCEL_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

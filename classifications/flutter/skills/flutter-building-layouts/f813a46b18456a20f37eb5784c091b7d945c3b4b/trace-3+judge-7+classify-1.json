@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-building-layouts",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-building-layouts/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"d1471e739c9a85fea130565c3d8b932b0b7b55e8819d722e0d0f6d33a8adacd7"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-building-layouts at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

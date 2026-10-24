@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dbt-labs/dbt-agent-skills/building-dbt-semantic-layer",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"trace":{"path":"traces/dbt-labs/dbt-agent-skills/building-dbt-semantic-layer/ef5710860f199897a304eabc8cd5c1973beb60ae/trace-3+judge-7.json","sha256":"5ba7bb98c079fd6cf4b5350275cf4662696df94abfde9ebcf7087440c968a932"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":47213,"own":{"files":5,"bytes":47213},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dbt","dbt-autofix","mf"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 46 KiB · CLI dbt, dbt-autofix +1","short":"46 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dbt","runs dbt-autofix","runs mf"]},{"marker":"unpinned-code","because":["uvx dbt-autofix: skills/dbt/skills/building-dbt-semantic-layer/SKILL.md:45"]}],
+"security":{"fetch-run":["uvx dbt-autofix @ skills/dbt/skills/building-dbt-semantic-layer/SKILL.md:45"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

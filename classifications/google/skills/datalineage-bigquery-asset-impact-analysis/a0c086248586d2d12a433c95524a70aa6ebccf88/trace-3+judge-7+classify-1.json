@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/datalineage-bigquery-asset-impact-analysis",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/datalineage-bigquery-asset-impact-analysis/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"c0f6354d929f61d3c093d6893d9f739f9e53eb23950c747a5f081d44bd50e365"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":10387,"own":{"files":3,"bytes":10387},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":["lineage"],"credential":[],"network":[]},"summary":"3 files, 10 KiB · MCP lineage · CLI gcloud","short":"10 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"mcp-server","because":["uses the lineage MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

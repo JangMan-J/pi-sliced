@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-containers",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-containers/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"a6d94e09bf530b41c0f6a923188e141529b36f8f9cf05e87311fa5a18099d324"},
+"status":"resolved",
+"footprint":{"files":16,"bytes":98626,"own":{"files":16,"bytes":98626},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","docker","dotnet","eksctl","gh","helm","kubectl"],"package":[],"mcp-server":[],"credential":[],"network":["docs.aws.amazon.com","raw.githubusercontent.com"]},"summary":"16 files, 96 KiB · CLI aws, docker +5 · 2 hosts","short":"96 KiB · 7 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs docker","runs dotnet","runs eksctl","runs gh","runs helm","runs kubectl"]},{"marker":"network","because":["fetches from docs.aws.amazon.com","fetches from raw.githubusercontent.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

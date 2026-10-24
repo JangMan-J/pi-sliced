@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gemini-api",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gemini-api/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"02263905ce8edca95c7570db8edd8e804f934ec905d9196bb6e8d7741474b5f8"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":38978,"own":{"files":10,"bytes":38978},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["@google/genai","Google.GenAI","google-genai","google.golang.org/genai"],"mcp-server":[],"credential":["GOOGLE_API_KEY"],"network":[]},"summary":"10 files, 38 KiB · CLI dotnet · packages @google/genai +3 · 1 key","short":"38 KiB · 1 CLI · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs @google/genai","installs google-genai","installs Google.GenAI","installs google.golang.org/genai"]},{"marker":"credentials","because":["needs GOOGLE_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

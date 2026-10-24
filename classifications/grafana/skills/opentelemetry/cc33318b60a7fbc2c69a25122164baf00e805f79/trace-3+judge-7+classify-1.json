@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/opentelemetry",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/opentelemetry/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"f1d38ed6e670b2813949de8f80af8e150b8c3e0d5db3b3d40ee73518bab35710"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":46569,"own":{"files":3,"bytes":46569},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["alloy","composer","docker","dotnet","go","helm","java","kubectl","opentelemetry-bootstrap","opentelemetry-instrument","php","run"],"package":["@opentelemetry/api","@opentelemetry/auto-instrumentations-node","@opentelemetry/exporter-metrics-otlp-http","@opentelemetry/exporter-trace-otlp-http","@opentelemetry/resources","@opentelemetry/sdk-node","@opentelemetry/semantic-conventions","Grafana.OpenTelemetry","OpenTelemetry.Exporter.Console","alloy","grafana/grafana/alloy","open-telemetry/exporter-otlp","open-telemetry/opentelemetry-auto-slim","opentelemetry-api","opentelemetry-exporter-otlp-proto-http","opentelemetry-sdk","php-http/guzzle7-adapter"],"mcp-server":[],"credential":["API_KEY","GRAFANA_CLOUD_API_KEY"],"network":["github.com","otlp-gateway-prod-us-east-0.grafana.net"]},"summary":"3 files, 45 KiB · CLI alloy, composer +10 · packages @opentelemetry/api +16 · 2 keys · 2 hosts","short":"45 KiB · 12 CLI · 17 pkg · 2 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["17 packages to install","12 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs alloy","runs composer","runs docker","runs dotnet","runs go","runs helm","runs java","runs kubectl","runs opentelemetry-bootstrap","runs opentelemetry-instrument","runs php","runs run"]},{"marker":"installs-packages","because":["installs @opentelemetry/api","installs @opentelemetry/auto-instrumentations-node","installs @opentelemetry/exporter-metrics-otlp-http","installs @opentelemetry/exporter-trace-otlp-http","installs @opentelemetry/resources","installs @opentelemetry/sdk-node","installs @opentelemetry/semantic-conventions","installs alloy","installs Grafana.OpenTelemetry","installs grafana/grafana/alloy","installs open-telemetry/exporter-otlp","installs open-telemetry/opentelemetry-auto-slim","installs opentelemetry-api","installs opentelemetry-exporter-otlp-proto-http","installs opentelemetry-sdk","installs OpenTelemetry.Exporter.Console","installs php-http/guzzle7-adapter"]},{"marker":"network","because":["fetches from github.com","fetches from otlp-gateway-prod-us-east-0.grafana.net"]},{"marker":"credentials","because":["needs API_KEY","needs GRAFANA_CLOUD_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

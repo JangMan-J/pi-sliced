@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/agent-toolkit/stripe-projects",
+"revision":"cf38a9202b7bf8e352fe3df115af1b0ddecd0b33",
+"trace":{"path":"traces/stripe/agent-toolkit/stripe-projects/cf38a9202b7bf8e352fe3df115af1b0ddecd0b33/trace-3+judge-7.json","sha256":"6f962c6d7c1d971232f7beacde8a3133a4f2f3b5bf3a162b0e7fd6a653a783d1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7003,"own":{"files":1,"bytes":7003},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["stripe"],"package":["stripe/stripe-cli/stripe"],"mcp-server":[],"credential":["ENV_KEY"],"network":[]},"summary":"1 file, 6.8 KiB · CLI stripe · packages stripe/stripe-cli/stripe · 1 key","short":"6.8 KiB · 1 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs stripe"]},{"marker":"installs-packages","because":["installs stripe/stripe-cli/stripe"]},{"marker":"credentials","because":["needs ENV_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

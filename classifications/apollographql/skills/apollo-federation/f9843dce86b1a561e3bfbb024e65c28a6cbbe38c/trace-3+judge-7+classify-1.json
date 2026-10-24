@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apollographql/skills/apollo-federation",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"trace":{"path":"traces/apollographql/skills/apollo-federation/f9843dce86b1a561e3bfbb024e65c28a6cbbe38c/trace-3+judge-7.json","sha256":"3f94a71a57f75aafbec97faa3306f0e248a10553b26986dabf30cf0a9e9fae56"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":38820,"own":{"files":4,"bytes":38820},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["rover"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 38 KiB · CLI rover","short":"38 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs rover"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

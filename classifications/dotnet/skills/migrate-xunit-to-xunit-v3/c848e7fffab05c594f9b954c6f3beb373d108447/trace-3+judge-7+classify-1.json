@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/migrate-xunit-to-xunit-v3",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/migrate-xunit-to-xunit-v3/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"b49e0eb7f4fb7b1dfd6a46dc9f462c61f474840937e84cd6fd6c0480a3504de7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16226,"own":{"files":1,"bytes":16226},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"migrate-vstest-to-mtp","path":"plugins/dotnet-test-migration/skills/migrate-vstest-to-mtp"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

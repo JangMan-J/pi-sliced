@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/jetson-speculative-decoding",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/jetson-speculative-decoding/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"9647318bd476cc1945e4f525ea6140c742226c33a5170b74badedc46390e4757"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4832,"own":{"files":1,"bytes":4832},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB","short":"4.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"jetson-inference-mem-tune","path":"skills/jetson-inference-mem-tune"},{"name":"jetson-llm-benchmark","path":"skills/jetson-llm-benchmark"},{"name":"jetson-llm-serve","path":"skills/jetson-llm-serve"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

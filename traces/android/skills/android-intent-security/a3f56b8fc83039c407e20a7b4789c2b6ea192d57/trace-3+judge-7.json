@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/android-intent-security",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"security/android-intent-security",
+"status":"resolved",
+"totals":{"files":1,"bytes":23939},
+"files":[
+{"path":"security/android-intent-security/SKILL.md","size":23939,"blob":"e0283098560a06c3a0724b4434dfab13edc6167c","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"security/android-intent-security","files":1,"bytes":23939}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

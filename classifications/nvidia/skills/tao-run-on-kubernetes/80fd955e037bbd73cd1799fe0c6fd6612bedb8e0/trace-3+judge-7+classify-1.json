@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-run-on-kubernetes",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-run-on-kubernetes/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"025e8880f1c8b0f4505ecf9caf3e9e55340f29e466a272a1162dd499a13e6581"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":30688,"own":{"files":3,"bytes":30688},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["helm","kubectl","minikube","torchrun"],"package":["vfkit"],"mcp-server":[],"credential":["AWS_SECRET_ACCESS_KEY","CRED_SECRET","HF_TOKEN","IMAGE_PULL_SECRET","NGC_KEY"],"network":["dl.k8s.io","storage.googleapis.com"]},"summary":"3 files, 30 KiB · CLI helm, kubectl +2 · packages vfkit · 5 keys · 2 hosts","short":"30 KiB · 4 CLI · 1 pkg · 5 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs","5 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs helm","runs kubectl","runs minikube","runs torchrun"]},{"marker":"installs-packages","because":["installs vfkit"]},{"marker":"network","because":["fetches from dl.k8s.io","fetches from storage.googleapis.com"]},{"marker":"credentials","because":["needs AWS_SECRET_ACCESS_KEY","needs CRED_SECRET","needs HF_TOKEN","needs IMAGE_PULL_SECRET","needs NGC_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-data-io","path":"skills/tao-data-io"},{"name":"tao-setup","path":"skills/tao-setup"},{"name":"tao-setup-nvidia-gpu-host","path":"skills/tao-setup-nvidia-gpu-host"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

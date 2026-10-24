@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/email",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/email",
+"status":"resolved",
+"totals":{"files":1,"bytes":10376},
+"files":[
+{"path":"plugins/vercel/skills/email/SKILL.md","size":10376,"blob":"7bfb67831a4f7bddbe6d7496de7c905f7b9faaf1","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"react-email","at":[[0,190],[0,199]]},
+{"kind":"cli","name":"vercel","at":[[0,55]]},
+{"kind":"credential","name":"RESEND_API_KEY","at":[[0,376]]},
+{"kind":"network","name":"resend.com","at":[[0,228]]},
+{"kind":"package","name":"@react-email/components","at":[[0,68]]},
+{"kind":"package","name":"react-email","at":[[0,68]]},
+{"kind":"package","name":"resend","at":[[0,65]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/email","files":1,"bytes":10376}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx react-email","at":[[0,190]]},
+{"kind":"fetch-run","detail":"npx react-email@latest","at":[[0,199]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

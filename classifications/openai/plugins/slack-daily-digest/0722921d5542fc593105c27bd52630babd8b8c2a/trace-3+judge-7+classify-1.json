@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/slack-daily-digest",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/slack-daily-digest/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"071bb68a32fbacd0ab9ef66fc633016e452693f9e6fa120928a9f6c9646733ee"},
+"status":"unresolvable",
+"reason":"no skill folder named slack-daily-digest at 0722921d5542fc593105c27bd52630babd8b8c2a"
+}

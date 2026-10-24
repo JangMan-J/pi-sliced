@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-028-isaac",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-028-isaac/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"3397ade17e057bbcbabb4b5407dde81ffffa2658529969c87f9f54db17251ee3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3282,"own":{"files":1,"bytes":3282},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.2 KiB","short":"3.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

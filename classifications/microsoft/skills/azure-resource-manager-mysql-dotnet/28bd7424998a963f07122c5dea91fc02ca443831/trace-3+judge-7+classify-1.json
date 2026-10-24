@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-resource-manager-mysql-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-resource-manager-mysql-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"b2acfef41df9468e1485504cdb55ede81bc0f958362a26c99bd936439a56bac3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14114,"own":{"files":1,"bytes":14114},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.ResourceManager.MySql","Azure.ResourceManager.PostgreSql","MySqlConnector"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 14 KiB · CLI dotnet · packages Azure.Identity +3 · 1 key","short":"14 KiB · 1 CLI · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.ResourceManager.MySql","installs Azure.ResourceManager.PostgreSql","installs MySqlConnector"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

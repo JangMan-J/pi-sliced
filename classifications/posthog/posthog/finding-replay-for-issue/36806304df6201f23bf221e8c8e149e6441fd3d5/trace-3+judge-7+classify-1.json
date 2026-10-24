@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/finding-replay-for-issue",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/finding-replay-for-issue/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"daa07d1633e98d7a8db6d0db3474a31bffd2494888761dc17ede784a146799ab"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6790,"own":{"files":1,"bytes":6790},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.6 KiB","short":"6.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"creating-replay-vision-scanners","path":"products/replay_vision/skills/creating-replay-vision-scanners"},{"name":"diagnosing-missing-recordings","path":"products/replay/skills/diagnosing-missing-recordings"},{"name":"investigating-error-issue","path":"products/error_tracking/skills/investigating-error-issue"},{"name":"investigating-replay","path":"products/replay/skills/investigating-replay"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

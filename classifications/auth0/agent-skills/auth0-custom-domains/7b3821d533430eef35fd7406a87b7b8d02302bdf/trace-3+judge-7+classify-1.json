@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-custom-domains",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-custom-domains/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"aabe340e70aaba391842e253246e7be5272ac86ba7b1cb6faa356c92a31987b9"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-custom-domains at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

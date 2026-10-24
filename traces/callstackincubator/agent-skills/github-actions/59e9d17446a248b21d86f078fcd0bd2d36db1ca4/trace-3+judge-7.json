@@ -1,0 +1,35 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/agent-skills/github-actions",
+"source":"callstackincubator/agent-skills",
+"revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+"skillPath":"skills/github-actions",
+"status":"resolved",
+"totals":{"files":4,"bytes":25758},
+"files":[
+{"path":"skills/github-actions/SKILL.md","size":2812,"blob":"8f420a3328f8cfd0e85c6ee89e5b5a0c45beb39d","how":"root"},
+{"path":"skills/github-actions/references/gha-android-composite-action.md","size":5379,"blob":"e7aca64a45f79b94a534fe937cdf56cd12c2fb4a","how":"link","from":0,"line":51},
+{"path":"skills/github-actions/references/gha-ios-composite-action.md","size":7590,"blob":"247f36b5db3fa09379cf8d77f41de9d1f523ef57","how":"link","from":0,"line":50},
+{"path":"skills/github-actions/references/gha-workflow-and-downloads.md","size":9977,"blob":"45a3c9e021c0d5590e2a7b99001797fa09e3df50","how":"link","from":0,"line":52}
+],
+"outside":[
+{"kind":"cli","name":"gh","at":[[0,26],[2,17],[3,31],[3,252],[3,255],[3,258]]},
+{"kind":"cli","name":"jq","at":[[3,266]]},
+{"kind":"cli","name":"pod","at":[[3,235],[3,243]]},
+{"kind":"cli","name":"react-native","at":[[2,23],[3,24],[3,235]]},
+{"kind":"credential","name":"GITHUB_TOKEN","at":[[3,266],[3,272]]},
+{"kind":"network","name":"api.github.com","at":[[3,266],[3,272]]}
+],
+"regions":[
+{"kind":"own","path":"skills/github-actions","files":4,"bytes":25758}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx react-native","at":[[2,23],[3,24],[3,235]]},
+{"kind":"secret-egress","detail":"GITHUB_TOKEN -> api.github.com","at":[[3,266],[3,272]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

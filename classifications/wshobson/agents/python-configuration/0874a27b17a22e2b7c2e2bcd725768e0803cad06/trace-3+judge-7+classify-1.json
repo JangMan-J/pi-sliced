@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/python-configuration",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/python-configuration/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"f64f76a26fecdbf6ee4ad0d88c699811baabf053dcaf661ac08a5a06a58eae79"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10230,"own":{"files":2,"bytes":10230},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["API_SECRET_KEY","AUTH_SECRET_KEY","DATABASE__PASSWORD","DB_PASSWORD"],"network":[]},"summary":"2 files, 10.0 KiB · 4 keys","short":"10.0 KiB · 4 keys"},
+"heavy":{"heavy":true,"because":["4 credentials"]},
+"markers":[{"marker":"credentials","because":["needs API_SECRET_KEY","needs AUTH_SECRET_KEY","needs DATABASE__PASSWORD","needs DB_PASSWORD"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

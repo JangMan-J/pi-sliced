@@ -1,0 +1,38 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"cloudflare/vinext/migrate-to-vinext",
+"source":"cloudflare/vinext",
+"revision":"12a64c7ed0a41960317a6bf418f763edbedef186",
+"skillPath":".agents/skills/migrate-to-vinext",
+"status":"resolved",
+"totals":{"files":4,"bytes":29702},
+"files":[
+{"path":".agents/skills/migrate-to-vinext/SKILL.md","size":10922,"blob":"136025bf489db5511637402ef738f705f91e1c24","how":"root"},
+{"path":".agents/skills/migrate-to-vinext/references/compatibility.md","size":6682,"blob":"7a14d1280954ac01744796b01bfb14a0d042f482","how":"link","from":0,"line":41},
+{"path":".agents/skills/migrate-to-vinext/references/config-examples.md","size":6092,"blob":"33773dddb4b8da32da79ccdd22a1a0a2bf1e8685","how":"link","from":0,"line":97},
+{"path":".agents/skills/migrate-to-vinext/references/troubleshooting.md","size":6006,"blob":"21ae4bb79cf5ce6c79fcf45ae87b0fd05ad712f7","how":"link","from":0,"line":194}
+],
+"outside":[
+{"kind":"cli","name":"@vinext/cloudflare","at":[[0,34],[0,132],[0,185],[0,216],[2,74],[2,178]]},
+{"kind":"cli","name":"vinext","at":[[0,39],[0,45],[3,11]]},
+{"kind":"cli","name":"vite","at":[[0,31],[0,32],[0,177],[0,178],[0,179],[0,180],[0,189],[2,170],[2,171],[2,172],[2,173],[3,72],[3,86]]},
+{"kind":"cli","name":"vp","at":[[0,132]]},
+{"kind":"package","name":"@vitejs/plugin-rsc","at":[[0,71],[3,9]]},
+{"kind":"package","name":"nitro","at":[[0,160]]},
+{"kind":"package","name":"vinext","at":[[0,68],[3,11]]},
+{"kind":"package","name":"vite","at":[[0,69],[3,10]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/migrate-to-vinext","files":4,"bytes":29702}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @vinext/cloudflare","at":[[0,34],[0,132],[0,185],[0,216],[2,74],[2,178]]},
+{"kind":"fetch-run","detail":"npx vinext","at":[[0,39],[3,11]]},
+{"kind":"fetch-run","detail":"npx vite","at":[[0,31],[0,32],[0,177],[0,178],[0,179],[0,180],[0,189],[2,170],[2,171],[2,172],[2,173],[3,72],[3,86]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

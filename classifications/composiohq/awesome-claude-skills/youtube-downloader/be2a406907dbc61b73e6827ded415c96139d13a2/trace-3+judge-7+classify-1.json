@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/youtube-downloader",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/youtube-downloader/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"c902edf1e78c29dd9fc8dcb7d0c3872e7f1250b59c3c0d7248f685ab81f8116c"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6949,"own":{"files":2,"bytes":6949},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["yt-dlp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.8 KiB · CLI yt-dlp","short":"6.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs yt-dlp"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

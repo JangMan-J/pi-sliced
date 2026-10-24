@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/java-refactoring-remove-parameter",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/java-refactoring-remove-parameter/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"7e8905631129ecf50cb466c771dba3d61dc22313287de07b8864002c661e683c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2952,"own":{"files":1,"bytes":2952},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB","short":"2.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

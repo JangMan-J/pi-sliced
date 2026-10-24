@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vapiai/skills/create-squad",
+"revision":"be94005f1ba39e30cb57087b0ddf182919209111",
+"trace":{"path":"traces/vapiai/skills/create-squad/be94005f1ba39e30cb57087b0ddf182919209111/trace-3+judge-7.json","sha256":"99ae3170248db6f3f789dd1667c8baed45f57f55d8402d698c99f56895da9bd1"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":11811,"own":{"files":3,"bytes":11811},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["VAPI_API_KEY"],"network":["api.vapi.ai"]},"summary":"3 files, 12 KiB · 1 key · 1 host","short":"12 KiB · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from api.vapi.ai"]},{"marker":"credentials","because":["needs VAPI_API_KEY"]},{"marker":"sends-credentials","because":["VAPI_API_KEY -> api.vapi.ai: plugins/vapi-voice-ai/skills/create-squad/references/api-examples.md:61"]}],
+"security":{"secret-egress":["VAPI_API_KEY -> api.vapi.ai @ plugins/vapi-voice-ai/skills/create-squad/references/api-examples.md:61"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

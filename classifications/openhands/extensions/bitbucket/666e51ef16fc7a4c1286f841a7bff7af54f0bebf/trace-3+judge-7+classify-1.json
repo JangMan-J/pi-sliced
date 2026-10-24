@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/bitbucket",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/bitbucket/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"39173c59b716c45102ee12ab49fcad5e27aec7b8de1b5fd42e33e042cc6933c1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3074,"own":{"files":1,"bytes":3074},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["bitbucket"],"credential":[],"network":[]},"summary":"1 file, 3.0 KiB · MCP bitbucket","short":"3.0 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the bitbucket MCP server"]},{"marker":"stub","because":["own folder 3.0 KiB (1 file)","content is the bitbucket it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"bitbucket-cloud","path":"skills/bitbucket-cloud"},{"name":"bitbucket-data-center","path":"skills/bitbucket-data-center"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

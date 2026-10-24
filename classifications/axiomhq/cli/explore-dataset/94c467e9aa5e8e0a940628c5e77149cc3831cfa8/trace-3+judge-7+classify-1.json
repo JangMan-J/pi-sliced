@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"axiomhq/cli/explore-dataset",
+"revision":"94c467e9aa5e8e0a940628c5e77149cc3831cfa8",
+"trace":{"path":"traces/axiomhq/cli/explore-dataset/94c467e9aa5e8e0a940628c5e77149cc3831cfa8/trace-3+judge-7.json","sha256":"5a735be0d9807c59e3a6702a691fd6d60d42352f9eb5520c0f898c2608cc6b82"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6619,"own":{"files":1,"bytes":3718},"otherSkills":{"count":1,"files":1,"bytes":2901},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["axiom"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.5 KiB · +1 other skill · CLI axiom","short":"6.5 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs axiom"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/axiom-apl"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","2.8 KiB outside it"]}],
+"security":{},
+"companions":{"named":[{"name":"axiom-apl","path":"skills/axiom-apl"}],"pulled":[{"path":"skills/axiom-apl","files":1,"bytes":2901}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

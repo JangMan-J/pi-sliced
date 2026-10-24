@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/setup-mcp",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/setup-mcp/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"16697fffe19a731d6685d2095c027f0e4307f7b8e6ef353468cf751a7a501e6b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12301,"own":{"files":1,"bytes":12301},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude","deepgram-mcp","dg","iex","iwr"],"package":["deepctl","deepgram","deepgram-mcp","deepgram/tap/deepgram"],"mcp-server":["deepgram","docs","the"],"credential":["DEEPGRAM_API_KEY"],"network":["deepgram.com","developers.deepgram.com"]},"summary":"1 file, 12 KiB · MCP deepgram, docs +1 · CLI claude, deepgram-mcp +3 · packages deepctl +3 · 1 key · 2 hosts","short":"12 KiB · 5 CLI · 4 pkg · 1 key · 2 hosts · MCP 3"},
+"heavy":{"heavy":true,"because":["4 packages to install","3 MCP servers","5 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs claude","runs deepgram-mcp","runs dg","runs iex","runs iwr"]},{"marker":"installs-packages","because":["installs deepctl","installs deepgram","installs deepgram-mcp","installs deepgram/tap/deepgram"]},{"marker":"network","because":["fetches from deepgram.com","fetches from developers.deepgram.com"]},{"marker":"credentials","because":["needs DEEPGRAM_API_KEY"]},{"marker":"mcp-server","because":["uses the deepgram MCP server","uses the docs MCP server","uses the the MCP server"]},{"marker":"unpinned-code","because":["npx deepgram-mcp: skills/setup-mcp/SKILL.md:176","pipe to interpreter: skills/setup-mcp/SKILL.md:73, skills/setup-mcp/SKILL.md:83"]},{"marker":"sends-credentials","because":["DEEPGRAM_API_KEY -> api.dx.deepgram.com: skills/setup-mcp/SKILL.md:271"]}],
+"security":{"fetch-run":["npx deepgram-mcp @ skills/setup-mcp/SKILL.md:176","pipe to interpreter @ skills/setup-mcp/SKILL.md:73, skills/setup-mcp/SKILL.md:83"],"secret-egress":["DEEPGRAM_API_KEY -> api.dx.deepgram.com @ skills/setup-mcp/SKILL.md:271"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

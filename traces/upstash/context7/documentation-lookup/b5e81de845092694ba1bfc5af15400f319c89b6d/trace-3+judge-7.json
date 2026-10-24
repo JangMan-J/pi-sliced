@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"upstash/context7/documentation-lookup",
+"source":"upstash/context7",
+"revision":"b5e81de845092694ba1bfc5af15400f319c89b6d",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named documentation-lookup at b5e81de845092694ba1bfc5af15400f319c89b6d",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

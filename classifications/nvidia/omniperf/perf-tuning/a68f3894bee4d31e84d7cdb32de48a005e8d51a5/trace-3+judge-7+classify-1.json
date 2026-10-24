@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/omniperf/perf-tuning",
+"revision":"a68f3894bee4d31e84d7cdb32de48a005e8d51a5",
+"trace":{"path":"traces/nvidia/omniperf/perf-tuning/a68f3894bee4d31e84d7cdb32de48a005e8d51a5/trace-3+judge-7.json","sha256":"246fb4a63f3e6afbccaf511cdbba607b593d917369a5d375df24818207f9368b"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10156,"own":{"files":2,"bytes":10156},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.9 KiB","short":"9.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"diagnose-perf","path":".agents/skills/diagnose-perf"},{"name":"nsys-analyze","path":".agents/skills/nsys-analyze"},{"name":"profiling","path":".agents/skills/profiling"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

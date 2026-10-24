@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"denoland/skills/deno-sandbox",
+"revision":"d5f6ace6b113aee71ba5286612fa1bde34c7d102",
+"trace":{"path":"traces/denoland/skills/deno-sandbox/d5f6ace6b113aee71ba5286612fa1bde34c7d102/trace-3+judge-7.json","sha256":"9f6b29ee172e2ee817a38f8a3747db3576cbf2a5af91e2311f9fb573037bcf57"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10644,"own":{"files":1,"bytes":10644},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["deno"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB · CLI deno","short":"10 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs deno"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/nemo/babysit-pr",
+"source":"nvidia/nemo",
+"revision":"b19b1a79d86ec30c1de078682b4b3ed0f59098bb",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named babysit-pr at b19b1a79d86ec30c1de078682b4b3ed0f59098bb",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

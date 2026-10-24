@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/data/draft-the-incident-report",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/data/draft-the-incident-report/none/trace-3+judge-7.json","sha256":"0774663ca9428c5a3b5d50c8e9556927c931f3eeebd8476c1409559bde4a1b03"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/data.git/' not found"
+}

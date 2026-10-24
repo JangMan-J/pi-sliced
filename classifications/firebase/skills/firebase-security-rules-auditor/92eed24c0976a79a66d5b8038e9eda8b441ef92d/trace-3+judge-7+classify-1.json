@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/skills/firebase-security-rules-auditor",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/skills/firebase-security-rules-auditor/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"5cbc106559f9bc5c0b826483d59baf8438fe234950ccc25b25a9f5faf5b896f5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3909,"own":{"files":1,"bytes":3909},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.8 KiB","short":"3.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

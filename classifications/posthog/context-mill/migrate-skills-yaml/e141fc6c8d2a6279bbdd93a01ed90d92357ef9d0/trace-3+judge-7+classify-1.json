@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/context-mill/migrate-skills-yaml",
+"revision":"e141fc6c8d2a6279bbdd93a01ed90d92357ef9d0",
+"trace":{"path":"traces/posthog/context-mill/migrate-skills-yaml/e141fc6c8d2a6279bbdd93a01ed90d92357ef9d0/trace-3+judge-7.json","sha256":"5757730e585c9cae810172077e245b2b8b6bb48e7fe996e198040f192b198cf8"},
+"status":"unresolvable",
+"reason":"no skill folder named migrate-skills-yaml at e141fc6c8d2a6279bbdd93a01ed90d92357ef9d0"
+}

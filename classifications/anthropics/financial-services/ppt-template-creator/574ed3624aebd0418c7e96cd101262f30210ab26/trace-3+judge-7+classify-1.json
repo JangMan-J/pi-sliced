@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/financial-services/ppt-template-creator",
+"revision":"574ed3624aebd0418c7e96cd101262f30210ab26",
+"trace":{"path":"traces/anthropics/financial-services/ppt-template-creator/574ed3624aebd0418c7e96cd101262f30210ab26/trace-3+judge-7.json","sha256":"6a80f5786250b997247407641ebd0a2109bbc44536bfa8faf7a44131c545881a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8957,"own":{"files":1,"bytes":8957},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.7 KiB","short":"8.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"skill-creator","path":"plugins/vertical-plugins/financial-analysis/skills/skill-creator"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

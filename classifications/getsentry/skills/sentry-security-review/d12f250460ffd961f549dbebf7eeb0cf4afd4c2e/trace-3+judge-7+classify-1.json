@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/skills/sentry-security-review",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"trace":{"path":"traces/getsentry/skills/sentry-security-review/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e/trace-3+judge-7.json","sha256":"68a3113bd801cc77b65f6758fac4b817989d62782aeb992a13a0a741d58a6c44"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-security-review at d12f250460ffd961f549dbebf7eeb0cf4afd4c2e"
+}

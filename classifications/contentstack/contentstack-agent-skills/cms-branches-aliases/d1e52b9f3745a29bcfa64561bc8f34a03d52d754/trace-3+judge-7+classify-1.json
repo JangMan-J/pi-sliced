@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"contentstack/contentstack-agent-skills/cms-branches-aliases",
+"revision":"d1e52b9f3745a29bcfa64561bc8f34a03d52d754",
+"trace":{"path":"traces/contentstack/contentstack-agent-skills/cms-branches-aliases/d1e52b9f3745a29bcfa64561bc8f34a03d52d754/trace-3+judge-7.json","sha256":"bfd7362121d7ca348e45d62d68450a65a5a5ccc1d726ca90301d7d1c3a9ced20"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5665,"own":{"files":1,"bytes":5665},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.5 KiB","short":"5.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

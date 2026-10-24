@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"langfuse/langfuse/detect-prod-regressions",
+"source":"langfuse/langfuse",
+"revision":"f3500cd1167ec459851730913ebbb94c5003535c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named detect-prod-regressions at f3500cd1167ec459851730913ebbb94c5003535c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

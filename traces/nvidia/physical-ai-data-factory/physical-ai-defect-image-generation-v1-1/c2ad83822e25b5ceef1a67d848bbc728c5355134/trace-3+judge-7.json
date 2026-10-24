@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/physical-ai-data-factory/physical-ai-defect-image-generation-v1-1",
+"source":"nvidia/physical-ai-data-factory",
+"revision":"c2ad83822e25b5ceef1a67d848bbc728c5355134",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named physical-ai-defect-image-generation-v1-1 at c2ad83822e25b5ceef1a67d848bbc728c5355134",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

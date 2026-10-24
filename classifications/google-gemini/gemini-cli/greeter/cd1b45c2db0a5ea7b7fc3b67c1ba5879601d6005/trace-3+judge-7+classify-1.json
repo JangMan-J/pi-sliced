@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-cli/greeter",
+"revision":"cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005",
+"trace":{"path":"traces/google-gemini/gemini-cli/greeter/cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005/trace-3+judge-7.json","sha256":"e0842a0e6c879608a43b91d82eb82395fe30287184f33f0e502da869ffe2913a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":215,"own":{"files":1,"bytes":215},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 215 B","short":"215 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

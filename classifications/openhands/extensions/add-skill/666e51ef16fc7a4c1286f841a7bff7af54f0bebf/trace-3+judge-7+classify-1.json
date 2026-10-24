@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/add-skill",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/add-skill/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"af55261267ce62b1d1f0f31ad1938fdb56f06db80a9588a2e13a3c9b5761a25f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12287,"own":{"files":2,"bytes":12287},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["GITHUB_TOKEN"],"network":["github.com"]},"summary":"2 files, 12 KiB · 1 key · 1 host","short":"12 KiB · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GITHUB_TOKEN"]},{"marker":"persistent-writes","because":["writes to a skill folder: skills/add-skill/scripts/fetch_skill.py:26"]}],
+"security":{"persist-write":["skill folder @ skills/add-skill/scripts/fetch_skill.py:26"]},
+"companions":{"named":[{"name":"skill-creator","path":"skills/skill-creator"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

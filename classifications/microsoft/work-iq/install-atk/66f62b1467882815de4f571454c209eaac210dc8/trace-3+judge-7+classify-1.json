@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/work-iq/install-atk",
+"revision":"66f62b1467882815de4f571454c209eaac210dc8",
+"trace":{"path":"traces/microsoft/work-iq/install-atk/66f62b1467882815de4f571454c209eaac210dc8/trace-3+judge-7.json","sha256":"b7face367b6896bcd25400640153831e13a654d8583514aab38f3794ad056184"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2678,"own":{"files":1,"bytes":2678},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@microsoft/m365agentstoolkit-cli","code"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.6 KiB · CLI @microsoft/m365agentstoolkit-cli, code","short":"2.6 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @microsoft/m365agentstoolkit-cli","runs code"]},{"marker":"stub","because":["own folder 2.6 KiB (1 file)","content is the @microsoft/m365agentstoolkit-cli, code it wraps"]},{"marker":"unpinned-code","because":["npx @microsoft/m365agentstoolkit-cli: plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md:32, plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md:48, plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md:62"]}],
+"security":{"fetch-run":["npx @microsoft/m365agentstoolkit-cli @ plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md:32, plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md:48, plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md:62 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

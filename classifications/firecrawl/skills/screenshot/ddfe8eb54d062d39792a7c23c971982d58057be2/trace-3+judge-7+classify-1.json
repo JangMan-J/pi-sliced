@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/screenshot",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/screenshot/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"695975a013d571b56d4225e0feb912b1e5d15bcf824c26526162685852ab1bf3"},
+"status":"unresolvable",
+"reason":"no skill folder named screenshot at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b"
+}

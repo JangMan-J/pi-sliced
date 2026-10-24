@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"apify/mcpc/mcpc",
+"source":"apify/mcpc",
+"revision":"bc18da280576cf36f753d38ef8f3f1fb9d9f2673",
+"skillPath":"skills/mcpc",
+"status":"resolved",
+"totals":{"files":1,"bytes":14598},
+"files":[
+{"path":"skills/mcpc/SKILL.md","size":14598,"blob":"71837c45bcc6813c7589ca0527ca046f5466df06","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@apify/mcpc","at":[[0,17],[0,20],[0,21]]},
+{"kind":"cli","name":"jq","at":[[0,152],[0,153],[0,154],[0,157]]},
+{"kind":"cli","name":"mcpc","at":[[0,35],[0,36],[0,37],[0,43],[0,44],[0,45],[0,46],[0,47],[0,61],[0,62],[0,63],[0,64],[0,84],[0,85],[0,87],[0,88],[0,97],[0,103],[0,104],[0,105],[0,106],[0,108],[0,109],[0,120],[0,121],[0,131],[0,132],[0,133],[0,136],[0,139],[0,152],[0,153],[0,154],[0,157],[0,167],[0,168],[0,169],[0,170],[0,171],[0,173],[0,174],[0,176],[0,177],[0,184],[0,186],[0,187],[0,188],[0,189],[0,190],[0,209],[0,210],[0,211],[0,212],[0,215],[0,216],[0,219],[0,223],[0,238],[0,241],[0,242],[0,254],[0,255],[0,256],[0,287],[0,288],[0,289],[0,290],[0,292],[0,293]]},
+{"kind":"credential","name":"GITHUB_TOKEN","at":[[0,72]]}
+],
+"regions":[
+{"kind":"own","path":"skills/mcpc","files":1,"bytes":14598}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @apify/mcpc","at":[[0,20],[0,21]]},
+{"kind":"fetch-run","detail":"npx @apify/mcpc@latest","at":[[0,17]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

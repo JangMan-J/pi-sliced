@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"cloudflare/skills/nextjs-on-cloudflare",
+"source":"cloudflare/skills",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"skillPath":"skills/nextjs-on-cloudflare",
+"status":"resolved",
+"totals":{"files":1,"bytes":2711},
+"files":[
+{"path":"skills/nextjs-on-cloudflare/SKILL.md","size":2711,"blob":"4d6fa98a76b95e59faa04259302cf2775e9140d8","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,3],[0,24]]},
+{"kind":"network","name":"github.com","at":[[0,27],[0,29],[0,30],[0,31]]}
+],
+"regions":[
+{"kind":"own","path":"skills/nextjs-on-cloudflare","files":1,"bytes":2711}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,3],[0,24]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,3],[0,24]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

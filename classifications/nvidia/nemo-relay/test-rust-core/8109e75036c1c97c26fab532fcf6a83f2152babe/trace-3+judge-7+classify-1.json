@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-relay/test-rust-core",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"trace":{"path":"traces/nvidia/nemo-relay/test-rust-core/8109e75036c1c97c26fab532fcf6a83f2152babe/trace-3+judge-7.json","sha256":"502dcf35e0ad1217725fac3296fd0949c7618e6779131882eca94a2088f68d3e"},
+"status":"unresolvable",
+"reason":"no skill folder named test-rust-core at 8109e75036c1c97c26fab532fcf6a83f2152babe"
+}

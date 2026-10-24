@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"bitwarden/ai-plugins/writing-server-code",
+"source":"bitwarden/ai-plugins",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named writing-server-code at f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

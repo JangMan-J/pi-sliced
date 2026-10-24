@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/zarr-python",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/zarr-python/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"98b8ac3dc5ddd4c710cedc58d86cefe281fbcb89768456521e75d6247fac43e8"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":43680,"own":{"files":8,"bytes":43680},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["zarr"],"package":[],"mcp-server":[],"credential":[],"network":["arxiv.org"]},"summary":"8 files, 43 KiB · CLI zarr · 1 host","short":"43 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs zarr"]},{"marker":"network","because":["fetches from arxiv.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

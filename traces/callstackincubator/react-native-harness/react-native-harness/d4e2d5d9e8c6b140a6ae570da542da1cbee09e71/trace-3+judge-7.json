@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/react-native-harness/react-native-harness",
+"source":"callstackincubator/react-native-harness",
+"revision":"d4e2d5d9e8c6b140a6ae570da542da1cbee09e71",
+"skillPath":"skills/react-native-harness",
+"status":"resolved",
+"totals":{"files":1,"bytes":1182},
+"files":[
+{"path":"skills/react-native-harness/SKILL.md","size":1182,"blob":"41145bd3ea0e97e19abddd6b8347a055a618f590","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"harness","at":[[0,9],[0,17],[0,23]]},
+{"kind":"package","name":"react-native-harness","at":[[0,12]]}
+],
+"regions":[
+{"kind":"own","path":"skills/react-native-harness","files":1,"bytes":1182}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,12]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

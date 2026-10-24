@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/create-plan",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/create-plan/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"64b6ffcdb5658bda38ebded32ebbb3da7f88a27935cca6a2d3b9ffcda354dac0"},
+"status":"unresolvable",
+"reason":"no skill folder named create-plan at 49f948faa9258a0c61caceaf225e179651397431"
+}

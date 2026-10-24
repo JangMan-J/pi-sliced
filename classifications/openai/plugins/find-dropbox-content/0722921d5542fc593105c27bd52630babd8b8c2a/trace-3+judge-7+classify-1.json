@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/find-dropbox-content",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/find-dropbox-content/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"5b68f51241a4bd81757bf756a9df5bd70bda0d64e6cf61f786873bc30d3a4948"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2231,"own":{"files":1,"bytes":2231},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.2 KiB","short":"2.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"inspect-dropbox-file","path":"plugins/dropbox/skills/inspect-dropbox-file"},{"name":"share-dropbox-content","path":"plugins/dropbox/skills/share-dropbox-content"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

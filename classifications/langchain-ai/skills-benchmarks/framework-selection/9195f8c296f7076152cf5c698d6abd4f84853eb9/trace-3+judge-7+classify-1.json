@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/skills-benchmarks/framework-selection",
+"revision":"9195f8c296f7076152cf5c698d6abd4f84853eb9",
+"trace":{"path":"traces/langchain-ai/skills-benchmarks/framework-selection/9195f8c296f7076152cf5c698d6abd4f84853eb9/trace-3+judge-7.json","sha256":"ee753c2bfb7c5891c8d185e38c5835fb25d1844cce6a59aba2d99c02cacc868f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7691,"own":{"files":1,"bytes":7691},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.5 KiB","short":"7.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"deep-agents-core","path":"skills/main/deep-agents-core"},{"name":"deep-agents-memory","path":"skills/main/deep-agents-memory"},{"name":"deep-agents-orchestration","path":"skills/main/deep-agents-orchestration"},{"name":"langchain-fundamentals","path":"skills/main/langchain-fundamentals"},{"name":"langchain-middleware","path":"skills/main/langchain-middleware"},{"name":"langchain-rag","path":"skills/main/langchain-rag"},{"name":"langgraph-fundamentals","path":"skills/main/langgraph-fundamentals"},{"name":"langgraph-human-in-the-loop","path":"skills/main/langgraph-human-in-the-loop"},{"name":"langgraph-persistence","path":"skills/main/langgraph-persistence"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

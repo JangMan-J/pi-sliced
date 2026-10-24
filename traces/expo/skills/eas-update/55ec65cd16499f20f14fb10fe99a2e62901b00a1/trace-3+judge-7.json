@@ -1,0 +1,36 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/eas-update",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/eas-update",
+"status":"resolved",
+"totals":{"files":1,"bytes":9890},
+"files":[
+{"path":"plugins/expo/skills/eas-update/SKILL.md","size":9890,"blob":"3950c1213996bc95048473a775d72607dc1e6179","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"eas-cli","at":[[0,35],[0,78],[0,84]]},
+{"kind":"cli","name":"expo","at":[[0,29]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[0,143]]},
+{"kind":"network","name":"docs.expo.dev","at":[[0,42],[0,128]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/eas-update","files":1,"bytes":9890}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx eas-cli@latest","at":[[0,35],[0,78],[0,84]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,29]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[0,143]]}
+],
+"namedSkills":[
+{"name":"eas-app-stores","path":"plugins/expo/skills/eas-app-stores","at":[[0,130]]},
+{"name":"eas-update-insights","path":"plugins/expo/skills/eas-update-insights","at":[[0,129]]},
+{"name":"expo-dev-client","path":"plugins/expo/skills/expo-dev-client","at":[[0,100]]},
+{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback","at":[[0,146]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

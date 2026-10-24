@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/mcporter",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/mcporter/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"15f6494f901580d796b4e6436cf26adb3301c284a0a5155b1799b67e66f79920"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1674,"own":{"files":1,"bytes":1674},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["mcporter"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.6 KiB · CLI mcporter","short":"1.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs mcporter"]},{"marker":"stub","because":["own folder 1.6 KiB (1 file)","content is the mcporter it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

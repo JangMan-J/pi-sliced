@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/is-this-a-problem",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/is-this-a-problem/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"82a1a63ff7131bfebcc381e41762dd89a78f48b1c6ddc2f3ccbb156f8444faff"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9263,"own":{"files":1,"bytes":9263},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.0 KiB","short":"9.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/jetson-llm-serve",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/jetson-llm-serve/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"fdb42d06c2fd5898c7d416f39352ba10ecde41fe91356b1677a812d3bdaffa49"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":21801,"own":{"files":1,"bytes":12090},"otherSkills":{"count":1,"files":1,"bytes":9711},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","i++","i+1","jetson_clocks","major","nvidia-smi","nvpmodel","print","rev","sub","vllm"],"package":[],"mcp-server":[],"credential":["HF_TOKEN"],"network":[]},"summary":"2 files, 21 KiB · +1 other skill · CLI docker, i++ +9 · 1 key","short":"21 KiB · +1 skill · 11 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["11 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs i++","runs i+1","runs jetson_clocks","runs major","runs nvidia-smi","runs nvpmodel","runs print","runs rev","runs sub","runs vllm"]},{"marker":"credentials","because":["needs HF_TOKEN"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/jetson-diagnostic"]}],
+"security":{},
+"companions":{"named":[{"name":"jetson-inference-mem-tune","path":"skills/jetson-inference-mem-tune"},{"name":"jetson-llm-benchmark","path":"skills/jetson-llm-benchmark"},{"name":"jetson-memory-audit","path":"skills/jetson-memory-audit"},{"name":"jetson-speculative-decoding","path":"skills/jetson-speculative-decoding"}],"pulled":[{"path":"skills/jetson-diagnostic","files":1,"bytes":9711}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

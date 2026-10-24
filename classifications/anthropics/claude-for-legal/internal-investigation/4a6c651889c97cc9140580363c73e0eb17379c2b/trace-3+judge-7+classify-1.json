@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/internal-investigation",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/internal-investigation/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"09b296dacb91459ec036b534c887f89f45304318ec1eaaf066a6c3976deb3922"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":27939,"own":{"files":1,"bytes":27939},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 27 KiB","short":"27 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"investigation-add","path":"employment-legal/skills/investigation-add"},{"name":"investigation-memo","path":"employment-legal/skills/investigation-memo"},{"name":"investigation-open","path":"employment-legal/skills/investigation-open"},{"name":"investigation-query","path":"employment-legal/skills/investigation-query"},{"name":"investigation-summary","path":"employment-legal/skills/investigation-summary"},{"name":"memo","path":"legal-clinic/skills/memo"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

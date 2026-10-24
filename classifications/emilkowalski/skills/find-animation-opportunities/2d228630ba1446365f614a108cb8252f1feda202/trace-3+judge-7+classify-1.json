@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/find-animation-opportunities",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/find-animation-opportunities/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"8bf9679e92536c5e6037b0a25bc603d3d2041775c685f0fe36775eb7eeb5f733"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9808,"own":{"files":1,"bytes":9808},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.6 KiB","short":"9.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/find-animation-opportunities/SKILL.md:29"]}],
+"security":{"injection":["ignore previous instructions @ skills/find-animation-opportunities/SKILL.md:29"]},
+"companions":{"named":[{"name":"improve-animations","path":"skills/improve-animations"},{"name":"review-animations","path":"skills/review-animations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

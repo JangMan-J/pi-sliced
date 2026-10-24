@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/csm-churn-risk",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/csm-churn-risk/none/trace-3+judge-7.json","sha256":"e584c41248d5710ba350e357889999ca833e91a5499bf93fbd50e2c8bf06d257"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

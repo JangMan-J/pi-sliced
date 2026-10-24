@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/setting-up-ec2-instance-profiles",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/setting-up-ec2-instance-profiles/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"d3929457a179dac90ca9e89251fc7f6895bc40e891dbcb3a75823e727e1cd214"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":35617,"own":{"files":2,"bytes":35617},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":[],"credential":[],"network":["169.254.169.254"]},"summary":"2 files, 35 KiB · CLI aws · 1 host","short":"35 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]},{"marker":"network","because":["fetches from 169.254.169.254"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

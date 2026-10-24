@@ -1,0 +1,37 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/vercel-plugin/knowledge-update",
+"source":"vercel-labs/vercel-plugin",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"skillPath":"skills/knowledge-update",
+"status":"resolved",
+"totals":{"files":1,"bytes":10725},
+"files":[
+{"path":"skills/knowledge-update/SKILL.md","size":10725,"blob":"37b686428f5c3e9693df488ab400abf969ebd2fb","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@next/codemod","at":[[0,98]]},
+{"kind":"cli","name":"skills","at":[[0,100]]},
+{"kind":"mcp-server","name":"vercel","at":[[0,88]]},
+{"kind":"network","name":"nextjs.org","at":[[0,98],[0,99]]},
+{"kind":"network","name":"vercel.com","at":[[0,44],[0,48]]},
+{"kind":"package","name":"workflow","at":[[0,94]]}
+],
+"regions":[
+{"kind":"own","path":"skills/knowledge-update","files":1,"bytes":10725}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @next/codemod@canary","at":[[0,98]]},
+{"kind":"fetch-run","detail":"npx skills","at":[[0,100]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,100]]}
+],
+"namedSkills":[
+{"name":"daemons","path":"skills/daemons","at":[[0,78]]},
+{"name":"marketplace","path":"skills/marketplace","at":[[0,104]]},
+{"name":"workflow","path":"skills/workflow","at":[[0,94]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firebase",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firebase/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"b9a1d530d7692d09a9a32213269805df4ea43102cbdc1ae130a68055af692e85"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

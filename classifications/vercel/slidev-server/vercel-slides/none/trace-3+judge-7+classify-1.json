@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/slidev-server/vercel-slides",
+"revision":"none",
+"trace":{"path":"traces/vercel/slidev-server/vercel-slides/none/trace-3+judge-7.json","sha256":"f4eb575d83bb29fdb0b031ada193e88eb7ef12b9947b6edda8eab1317d474c5e"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/slidev-server.git/' not found"
+}

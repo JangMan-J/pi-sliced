@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/tw-blocks/tw-blocks",
+"revision":"0b1d629347e02013f01c5df4805f65d849d18f63",
+"trace":{"path":"traces/vercel-labs/tw-blocks/tw-blocks/0b1d629347e02013f01c5df4805f65d849d18f63/trace-3+judge-7.json","sha256":"8aff0c24452a6bc1e48a1da1c97f877f8ba9ecfcbe6848d03f653df57ff58948"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":24623,"own":{"files":2,"bytes":24623},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["tw-blocks"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 24 KiB · packages tw-blocks","short":"24 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs tw-blocks"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

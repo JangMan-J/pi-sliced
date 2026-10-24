@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/agent-skills/sentry-go-sdk",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/agent-skills/sentry-go-sdk/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"a857496f5aabc40e7e89cb405b5ad00570a043d564ea6ca1a10d22d15f2291a6"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":62920,"own":{"files":7,"bytes":62920},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go"],"package":["github.com/getsentry/sentry-go","github.com/getsentry/sentry-go/echo","github.com/getsentry/sentry-go/fasthttp","github.com/getsentry/sentry-go/fiber","github.com/getsentry/sentry-go/gin","github.com/getsentry/sentry-go/http","github.com/getsentry/sentry-go/logrus","github.com/getsentry/sentry-go/otel","github.com/getsentry/sentry-go/slog","github.com/getsentry/sentry-go/zap","github.com/getsentry/sentry-go/zerolog"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 61 KiB · CLI go · packages github.com/getsentry/sentry-go +10","short":"61 KiB · 1 CLI · 11 pkg"},
+"heavy":{"heavy":true,"because":["11 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs go"]},{"marker":"installs-packages","because":["installs github.com/getsentry/sentry-go","installs github.com/getsentry/sentry-go/echo","installs github.com/getsentry/sentry-go/fasthttp","installs github.com/getsentry/sentry-go/fiber","installs github.com/getsentry/sentry-go/gin","installs github.com/getsentry/sentry-go/http","installs github.com/getsentry/sentry-go/logrus","installs github.com/getsentry/sentry-go/otel","installs github.com/getsentry/sentry-go/slog","installs github.com/getsentry/sentry-go/zap","installs github.com/getsentry/sentry-go/zerolog"]}],
+"security":{},
+"companions":{"named":[{"name":"sentry-react-sdk","path":"skills/sentry-react-sdk"},{"name":"sentry-svelte-sdk","path":"skills/sentry-svelte-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

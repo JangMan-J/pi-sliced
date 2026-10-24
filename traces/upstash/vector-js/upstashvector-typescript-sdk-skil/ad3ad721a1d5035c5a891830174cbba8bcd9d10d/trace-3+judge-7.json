@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"upstash/vector-js/upstashvector-typescript-sdk-skil",
+"source":"upstash/vector-js",
+"revision":"ad3ad721a1d5035c5a891830174cbba8bcd9d10d",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named upstashvector-typescript-sdk-skil at ad3ad721a1d5035c5a891830174cbba8bcd9d10d",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/spreadsheet",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/spreadsheet/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"a905478474f763243165922389534cd6c8fa49704d2cccdcf79851cb2bdb185f"},
+"status":"unresolvable",
+"reason":"no skill folder named spreadsheet at 49f948faa9258a0c61caceaf225e179651397431"
+}

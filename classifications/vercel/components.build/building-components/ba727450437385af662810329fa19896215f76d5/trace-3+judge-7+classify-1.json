@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/components.build/building-components",
+"revision":"ba727450437385af662810329fa19896215f76d5",
+"trace":{"path":"traces/vercel/components.build/building-components/ba727450437385af662810329fa19896215f76d5/trace-3+judge-7.json","sha256":"1457413194cd992f150509e0dbbaf2e4a2470d36ead75d3154fe602eceb23f7a"},
+"status":"resolved",
+"footprint":{"files":16,"bytes":120871,"own":{"files":16,"bytes":120871},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["myregistry","shadcn","vercel"],"package":["@acme/ui-components"],"mcp-server":[],"credential":[],"network":[]},"summary":"16 files, 118 KiB · CLI myregistry, shadcn +1 · packages @acme/ui-components","short":"118 KiB · 3 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs myregistry","runs shadcn","runs vercel"]},{"marker":"installs-packages","because":["installs @acme/ui-components"]},{"marker":"unpinned-code","because":["npx myregistry: skills/building-components/references/registry.mdx:98","npx shadcn@latest: skills/building-components/references/marketplaces.mdx:29, skills/building-components/references/marketplaces.mdx:99, skills/building-components/references/registry.mdx:166"]}],
+"security":{"fetch-run":["npx myregistry @ skills/building-components/references/registry.mdx:98","npx shadcn@latest @ skills/building-components/references/marketplaces.mdx:29, skills/building-components/references/marketplaces.mdx:99, skills/building-components/references/registry.mdx:166"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

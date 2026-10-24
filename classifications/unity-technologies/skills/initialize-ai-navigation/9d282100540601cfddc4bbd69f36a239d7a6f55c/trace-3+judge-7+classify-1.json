@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/initialize-ai-navigation",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/initialize-ai-navigation/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"f06cebce4feca8daf7a3c968c14e6e4af7d1386c948b238c6f3213df0885e08f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":40466,"own":{"files":2,"bytes":40466},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 40 KiB","short":"40 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"unity-cli","path":"skills/unity-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

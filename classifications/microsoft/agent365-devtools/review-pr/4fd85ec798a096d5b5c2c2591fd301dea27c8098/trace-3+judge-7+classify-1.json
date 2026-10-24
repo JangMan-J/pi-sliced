@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent365-devtools/review-pr",
+"revision":"4fd85ec798a096d5b5c2c2591fd301dea27c8098",
+"trace":{"path":"traces/microsoft/agent365-devtools/review-pr/4fd85ec798a096d5b5c2c2591fd301dea27c8098/trace-3+judge-7.json","sha256":"32b241450fde90af7b9d9c5a944474d4acd89526bc1901257713b1ae0ce69a0c"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":25773,"own":{"files":3,"bytes":25773},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","winget"],"package":["GitHub.cli","PyYAML","pyyaml"],"mcp-server":[],"credential":["GITHUB_TOKEN"],"network":["github.com"]},"summary":"3 files, 25 KiB · CLI gh, winget · packages GitHub.cli +2 · 1 key · 1 host","short":"25 KiB · 2 CLI · 3 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs winget"]},{"marker":"installs-packages","because":["installs GitHub.cli","installs pyyaml","installs PyYAML"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GITHUB_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

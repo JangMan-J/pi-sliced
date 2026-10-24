@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-app-onboarding",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-app-onboarding/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"6f6e2f9f1cf55242f18996c38cfaca1a9b0a38914b1805f2a20402df0480db18"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":13655,"own":{"files":8,"bytes":13655},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","gcloud","kubectl","pack"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 13 KiB · CLI docker, gcloud +2","short":"13 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs gcloud","runs kubectl","runs pack"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-manifest-generation","path":"skills/cloud/gke-manifest-generation"},{"name":"gke-observability","path":"skills/cloud/gke-observability"},{"name":"gke-reliability","path":"skills/cloud/gke-reliability"},{"name":"gke-workload-scaling","path":"skills/cloud/gke-workload-scaling"},{"name":"gke-workload-security","path":"skills/cloud/gke-workload-security"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

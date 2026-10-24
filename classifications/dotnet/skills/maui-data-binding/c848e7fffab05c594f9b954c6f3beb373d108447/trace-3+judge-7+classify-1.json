@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/maui-data-binding",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/maui-data-binding/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"8f81d411a6238665d27f101cfab3fe4de75f8f88123cb00160202c1b0ef0f965"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14850,"own":{"files":1,"bytes":14850},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"maui-collectionview","path":"plugins/dotnet-maui/skills/maui-collectionview"},{"name":"maui-dependency-injection","path":"plugins/dotnet-maui/skills/maui-dependency-injection"},{"name":"maui-shell-navigation","path":"plugins/dotnet-maui/skills/maui-shell-navigation"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

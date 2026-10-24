@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/win-dev-skills/winui-design",
+"revision":"5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e",
+"trace":{"path":"traces/microsoft/win-dev-skills/winui-design/5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e/trace-3+judge-7.json","sha256":"610ab6910b4da23367e52312ecefc2416fcb4872642c133121f0f65cb78a4a31"},
+"status":"unresolvable",
+"reason":"no skill folder named winui-design at 5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e"
+}

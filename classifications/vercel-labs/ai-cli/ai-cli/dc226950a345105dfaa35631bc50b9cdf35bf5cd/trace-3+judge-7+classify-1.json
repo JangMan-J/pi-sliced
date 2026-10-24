@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/ai-cli/ai-cli",
+"revision":"dc226950a345105dfaa35631bc50b9cdf35bf5cd",
+"trace":{"path":"traces/vercel-labs/ai-cli/ai-cli/dc226950a345105dfaa35631bc50b9cdf35bf5cd/trace-3+judge-7.json","sha256":"130b8e2e07e3f145a2c4eda2cc2ced311ae3bf2c45c90cb8be61d58c1f2fb64c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14242,"own":{"files":1,"bytes":14242},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ai","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI ai, jq","short":"14 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ai","runs jq"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

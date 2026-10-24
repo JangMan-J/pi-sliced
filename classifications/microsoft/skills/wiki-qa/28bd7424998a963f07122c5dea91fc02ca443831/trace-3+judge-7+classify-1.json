@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/wiki-qa",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/wiki-qa/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"c203ba294d488b6f6c830e816cc2d20ff7afb70f741e69d6b94d77392e31e327"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2358,"own":{"files":1,"bytes":2358},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.3 KiB","short":"2.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

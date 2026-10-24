@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-006-materials",
+"source":"nvidia/simready-foundation",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-006-materials at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

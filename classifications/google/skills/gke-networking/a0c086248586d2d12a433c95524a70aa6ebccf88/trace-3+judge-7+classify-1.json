@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-networking",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-networking/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"86b9382045fd681fab7bf379830b4dd4922fbdaab63ce82e2d46e199ff6de7bc"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8282,"own":{"files":2,"bytes":8282},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 8.1 KiB · CLI gcloud","short":"8.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-multitenancy","path":"skills/cloud/gke-multitenancy"},{"name":"gke-workload-security","path":"skills/cloud/gke-workload-security"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

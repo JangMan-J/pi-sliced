@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/remember-interactive-programming",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/remember-interactive-programming/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"72585f793d8d53c80efae05ab9bb3271c072d061f05f10e6239f375603066bc5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":882,"own":{"files":1,"bytes":882},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 882 B","short":"882 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"clerk/skills/clerk-setup",
+"source":"clerk/skills",
+"revision":"8482d43fe12a5f06a2b5ab3008615875747a3e4e",
+"skillPath":"skills/clerk-setup",
+"status":"resolved",
+"totals":{"files":1,"bytes":12522},
+"files":[
+{"path":"skills/clerk-setup/SKILL.md","size":12522,"blob":"a3fdb4234778dc2e0a1720c4f268bc16006fa7a9","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"clerk","at":[[0,14],[0,60],[0,66],[0,72],[0,78],[0,81],[0,88],[0,98],[0,107],[0,165],[0,170],[0,203],[0,205],[0,211]]},
+{"kind":"network","name":"clerk.com","at":[[0,16]]}
+],
+"regions":[
+{"kind":"own","path":"skills/clerk-setup","files":1,"bytes":12522}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx clerk@latest","at":[[0,14],[0,60],[0,66],[0,72],[0,78],[0,81],[0,88],[0,98],[0,107],[0,165],[0,170],[0,203],[0,205],[0,211]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"MIT"}
+}

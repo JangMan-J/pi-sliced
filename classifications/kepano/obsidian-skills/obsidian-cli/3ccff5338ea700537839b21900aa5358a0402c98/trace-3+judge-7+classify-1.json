@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"kepano/obsidian-skills/obsidian-cli",
+"revision":"3ccff5338ea700537839b21900aa5358a0402c98",
+"trace":{"path":"traces/kepano/obsidian-skills/obsidian-cli/3ccff5338ea700537839b21900aa5358a0402c98/trace-3+judge-7.json","sha256":"3f6993eb2ef734ce2bd7c4e393ddf8a28cd9167ef4944b22a33e4680fae9fa79"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3183,"own":{"files":1,"bytes":3183},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["obsidian"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.1 KiB · CLI obsidian","short":"3.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs obsidian"]},{"marker":"stub","because":["own folder 3.1 KiB (1 file)","content is the obsidian it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

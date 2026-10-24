@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/sanity/grill-me",
+"revision":"2ec60a49f16360d96ad150a8399f9a7c31b2f533",
+"trace":{"path":"traces/sanity-io/sanity/grill-me/2ec60a49f16360d96ad150a8399f9a7c31b2f533/trace-3+judge-7.json","sha256":"e58986ddd4dd7e4cb3efb00faa66e3d02d7b51b21d024e74fb9c2d064332d1c6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":601,"own":{"files":1,"bytes":601},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 601 B","short":"601 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

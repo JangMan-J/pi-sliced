@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode-copilot-chat/install-vscode-extension",
+"revision":"5863f5a7088958050792b5dccbe8b46c6e13eccc",
+"trace":{"path":"traces/microsoft/vscode-copilot-chat/install-vscode-extension/5863f5a7088958050792b5dccbe8b46c6e13eccc/trace-3+judge-7.json","sha256":"93fb23ed293a45c0bd442e297c42b0f89fac468f7cd2a289fcd36c50df0bacf8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1056,"own":{"files":1,"bytes":1056},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.0 KiB","short":"1.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

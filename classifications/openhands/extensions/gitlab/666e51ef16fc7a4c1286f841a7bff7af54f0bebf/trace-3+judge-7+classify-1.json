@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/gitlab",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/gitlab/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"e96f2ea36c89c810bffb9775fcc3a6d43fd15f689e4fe3d7758ca3632df4b056"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2514,"own":{"files":1,"bytes":2514},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["gitlab"],"credential":["GITLAB_TOKEN"],"network":[]},"summary":"1 file, 2.5 KiB · MCP gitlab · 1 key","short":"2.5 KiB · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 credential"]},
+"markers":[{"marker":"credentials","because":["needs GITLAB_TOKEN"]},{"marker":"mcp-server","because":["uses the gitlab MCP server"]},{"marker":"stub","because":["own folder 2.5 KiB (1 file)","content is the gitlab it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

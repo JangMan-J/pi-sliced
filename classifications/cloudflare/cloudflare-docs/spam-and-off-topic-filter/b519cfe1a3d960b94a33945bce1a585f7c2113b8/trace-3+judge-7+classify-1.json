@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/spam-and-off-topic-filter",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/spam-and-off-topic-filter/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"065610dfe435e047a9118b080834469d1d21e152f301a7d0d6be30ae7a9cad08"},
+"status":"unresolvable",
+"reason":"no skill folder named spam-and-off-topic-filter at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

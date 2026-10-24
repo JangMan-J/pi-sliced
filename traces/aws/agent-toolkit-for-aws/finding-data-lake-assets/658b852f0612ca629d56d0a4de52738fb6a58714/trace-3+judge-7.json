@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"aws/agent-toolkit-for-aws/finding-data-lake-assets",
+"source":"aws/agent-toolkit-for-aws",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"skillPath":"skills/specialized-skills/analytics-skills/finding-data-lake-assets",
+"status":"resolved",
+"totals":{"files":2,"bytes":21484},
+"files":[
+{"path":"skills/specialized-skills/analytics-skills/finding-data-lake-assets/SKILL.md","size":17021,"blob":"dd753c632f046568cb0f58965d5b0ecd4bad5dd8","how":"root"},
+{"path":"skills/specialized-skills/analytics-skills/finding-data-lake-assets/references/search-strategy.md","size":4463,"blob":"339308e7ea009551a8c7ee0aaa6436e8f8470cf8","how":"link","from":0,"line":179}
+],
+"outside":[
+{"kind":"mcp-server","name":"aws","at":[[0,34],[0,45]]}
+],
+"regions":[
+{"kind":"own","path":"skills/specialized-skills/analytics-skills/finding-data-lake-assets","files":2,"bytes":21484}
+],
+"signals":[
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,138]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/working-with-scouts",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/working-with-scouts/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"caa0e464537ccb563cdbbeb44fe34d3497d8e89dc6b7b7b292c5dcb09faf3342"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":48013,"own":{"files":2,"bytes":48013},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 47 KiB","short":"47 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"authoring-scouts","path":"skills/omnibus/authoring-scouts"},{"name":"exploring-scouts","path":"skills/omnibus/exploring-scouts"},{"name":"inbox-exploration","path":"skills/omnibus/inbox-exploration"},{"name":"signals-scout-mcp-tool-calls","path":"skills/omnibus/signals-scout-mcp-tool-calls"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

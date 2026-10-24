@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/split-pr",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/split-pr/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"fa4481ac276d3afdb13f18585be6203b9bbf3950a5e2ecb8b344a7d44af6fb20"},
+"status":"unresolvable",
+"reason":"no skill folder named split-pr at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/qdrant-search-quality-diagnosis",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/qdrant-search-quality-diagnosis/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"004e76cff66ba379c04421b60a6832e8ce8c1581a44da02de3eae1decf56c32e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3710,"own":{"files":1,"bytes":3710},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB","short":"3.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/playwright/playwright-trace",
+"revision":"b4695e3eb2e6736d1a7b1fd255c4e94f78553660",
+"trace":{"path":"traces/microsoft/playwright/playwright-trace/b4695e3eb2e6736d1a7b1fd255c4e94f78553660/trace-3+judge-7.json","sha256":"92d8692fe5fbca161b6ccacf81ca27357775c2c42491f6d9b3a3c5db887a9a40"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4862,"own":{"files":1,"bytes":4862},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["playwright"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB · CLI playwright","short":"4.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs playwright"]},{"marker":"unpinned-code","because":["npx playwright: packages/playwright-core/src/tools/skills/playwright-trace/SKILL.md:28, packages/playwright-core/src/tools/skills/playwright-trace/SKILL.md:35, packages/playwright-core/src/tools/skills/playwright-trace/SKILL.md:42"]}],
+"security":{"fetch-run":["npx playwright @ packages/playwright-core/src/tools/skills/playwright-trace/SKILL.md:28, packages/playwright-core/src/tools/skills/playwright-trace/SKILL.md:35, packages/playwright-core/src/tools/skills/playwright-trace/SKILL.md:42 +33"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

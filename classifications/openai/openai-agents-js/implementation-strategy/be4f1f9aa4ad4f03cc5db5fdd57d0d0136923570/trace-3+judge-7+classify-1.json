@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/openai-agents-js/implementation-strategy",
+"revision":"be4f1f9aa4ad4f03cc5db5fdd57d0d0136923570",
+"trace":{"path":"traces/openai/openai-agents-js/implementation-strategy/be4f1f9aa4ad4f03cc5db5fdd57d0d0136923570/trace-3+judge-7.json","sha256":"9d0e614c13392895312023340eee1b44e9008b067fad90d2eeb9fb38a207b035"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14799,"own":{"files":1,"bytes":14799},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

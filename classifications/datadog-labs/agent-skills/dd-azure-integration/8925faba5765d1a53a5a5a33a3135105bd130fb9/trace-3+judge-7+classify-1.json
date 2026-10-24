@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/dd-azure-integration",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/dd-azure-integration/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"9abeebcb65a4ea447da17cc9cc4fa8e31258b16268b7c62748de9e522ac938a0"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":37869,"own":{"files":2,"bytes":37869},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","terraform"],"package":[],"mcp-server":[],"credential":["CLIENT_SECRET","DD_API_KEY","DD_APP_KEY"],"network":[]},"summary":"2 files, 37 KiB · CLI az, terraform · 3 keys","short":"37 KiB · 2 CLI · 3 keys"},
+"heavy":{"heavy":true,"because":["2 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs terraform"]},{"marker":"credentials","because":["needs CLIENT_SECRET","needs DD_API_KEY","needs DD_APP_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

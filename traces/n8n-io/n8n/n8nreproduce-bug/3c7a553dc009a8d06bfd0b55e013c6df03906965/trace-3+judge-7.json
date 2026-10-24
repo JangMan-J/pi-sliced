@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"n8n-io/n8n/n8nreproduce-bug",
+"source":"n8n-io/n8n",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named n8nreproduce-bug at 3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

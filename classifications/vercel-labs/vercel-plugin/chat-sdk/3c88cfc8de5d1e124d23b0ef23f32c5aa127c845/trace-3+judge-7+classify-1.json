@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/chat-sdk",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/chat-sdk/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"a04971652f5b522e9fb42400d197dd696292efac271fdd2e6adb67149d7af1d2"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11902,"own":{"files":1,"bytes":11902},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["create-chat-sdk"],"package":["chat"],"mcp-server":[],"credential":[],"network":["vercel.com"]},"summary":"1 file, 12 KiB · CLI create-chat-sdk · packages chat · 1 host","short":"12 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs create-chat-sdk"]},{"marker":"installs-packages","because":["installs chat"]},{"marker":"network","because":["fetches from vercel.com"]},{"marker":"unpinned-code","because":["npx create-chat-sdk: skills/chat-sdk/SKILL.md:145"]}],
+"security":{"fetch-run":["npx create-chat-sdk @ skills/chat-sdk/SKILL.md:145"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

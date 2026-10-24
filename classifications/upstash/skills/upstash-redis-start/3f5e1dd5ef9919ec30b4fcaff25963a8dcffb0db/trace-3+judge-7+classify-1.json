@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/skills/upstash-redis-start",
+"revision":"3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db",
+"trace":{"path":"traces/upstash/skills/upstash-redis-start/3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db/trace-3+judge-7.json","sha256":"c3da80ee3d56605c753107ccfd40045811d71f6ef56523546a5e41cb9ec53ff5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4255,"own":{"files":1,"bytes":4255},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["upstash.com"]},"summary":"1 file, 4.2 KiB · 1 host","short":"4.2 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from upstash.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

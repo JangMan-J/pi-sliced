@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"medusajs/medusa-agent-skills/db-migrate",
+"revision":"4b495d5e2b4b0189a72de899e801eb84f168380e",
+"trace":{"path":"traces/medusajs/medusa-agent-skills/db-migrate/4b495d5e2b4b0189a72de899e801eb84f168380e/trace-3+judge-7.json","sha256":"615c40ea871ff28cfadc63d6f7b30d0163218552ada4dec66921abf21bde7eea"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":411,"own":{"files":1,"bytes":411},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["medusa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 411 B · CLI medusa","short":"411 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs medusa"]},{"marker":"stub","because":["own folder 411 B (1 file)","content is the medusa it wraps"]},{"marker":"unpinned-code","because":["npx medusa: plugins/medusa-dev/skills/db-migrate/SKILL.md:11"]}],
+"security":{"fetch-run":["npx medusa @ plugins/medusa-dev/skills/db-migrate/SKILL.md:11"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

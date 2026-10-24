@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/writing-mstest-tests",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/writing-mstest-tests/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"b108056ddb4084679f16d77c798b89f4748ad5baa12b93e1d267cf78dcd65224"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":24349,"own":{"files":2,"bytes":24349},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 24 KiB","short":"24 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"code-testing","path":"plugins/dotnet-test/skills/code-testing"},{"name":"migrate-mstest-v1v2-to-v3","path":"plugins/dotnet-test-migration/skills/migrate-mstest-v1v2-to-v3"},{"name":"migrate-mstest-v3-to-v4","path":"plugins/dotnet-test-migration/skills/migrate-mstest-v3-to-v4"},{"name":"run-tests","path":"plugins/dotnet-test/skills/run-tests"},{"name":"test-anti-patterns","path":"plugins/dotnet-test/skills/test-anti-patterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

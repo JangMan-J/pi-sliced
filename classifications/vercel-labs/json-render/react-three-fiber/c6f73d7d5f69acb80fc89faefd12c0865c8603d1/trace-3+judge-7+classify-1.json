@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/react-three-fiber",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/react-three-fiber/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"879a7d7b46d73d07b9bde19cb35363a00c9e9410022ef4dfafde7cfe3268afcb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5301,"own":{"files":1,"bytes":5301},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.2 KiB","short":"5.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"react","path":"skills/react"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

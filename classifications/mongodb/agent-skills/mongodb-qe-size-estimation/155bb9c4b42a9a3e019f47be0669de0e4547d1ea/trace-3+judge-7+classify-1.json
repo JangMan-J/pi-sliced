@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mongodb/agent-skills/mongodb-qe-size-estimation",
+"revision":"155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+"trace":{"path":"traces/mongodb/agent-skills/mongodb-qe-size-estimation/155bb9c4b42a9a3e019f47be0669de0e4547d1ea/trace-3+judge-7.json","sha256":"8abf3c96ef5b63027377391bc01ec4fd8c877305cd5d10762a76563146a9f875"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16946,"own":{"files":1,"bytes":16946},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB","short":"17 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

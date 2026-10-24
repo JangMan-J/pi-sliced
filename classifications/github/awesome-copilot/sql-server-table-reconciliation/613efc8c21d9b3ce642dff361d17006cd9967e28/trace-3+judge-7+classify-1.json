@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/sql-server-table-reconciliation",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/sql-server-table-reconciliation/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"b75998798d516251e634242ea00bf52b963e8c211c6db05a9bd2a8b5c3ca2a55"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":19019,"own":{"files":2,"bytes":19019},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["mssql-python","mssql_python","pandas","pyarrow"],"mcp-server":[],"credential":["MSSQL_PASSWORD"],"network":[]},"summary":"2 files, 19 KiB · packages mssql-python +3 · 1 key","short":"19 KiB · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs mssql_python","installs mssql-python","installs pandas","installs pyarrow"]},{"marker":"credentials","because":["needs MSSQL_PASSWORD"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

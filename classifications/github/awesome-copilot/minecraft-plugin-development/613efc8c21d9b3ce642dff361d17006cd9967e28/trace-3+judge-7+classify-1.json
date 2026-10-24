@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/minecraft-plugin-development",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/minecraft-plugin-development/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"c4541b97e2740d55318a73cffad880da4548227c8291589d3c03dcda9e6e2bf0"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":52130,"own":{"files":9,"bytes":52130},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 51 KiB","short":"51 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

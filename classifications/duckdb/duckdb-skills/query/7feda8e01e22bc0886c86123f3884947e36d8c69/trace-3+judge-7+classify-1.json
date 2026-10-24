@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"duckdb/duckdb-skills/query",
+"revision":"7feda8e01e22bc0886c86123f3884947e36d8c69",
+"trace":{"path":"traces/duckdb/duckdb-skills/query/7feda8e01e22bc0886c86123f3884947e36d8c69/trace-3+judge-7.json","sha256":"4f7228cd92995af0528f88d7a181ad34051a9e975a44dc5c8b5b6269d42c2016"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7955,"own":{"files":1,"bytes":7955},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["duckdb"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.8 KiB · CLI duckdb","short":"7.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs duckdb"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

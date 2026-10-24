@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"langchain-ai/deepagents/swarm",
+"source":"langchain-ai/deepagents",
+"revision":"a3381668c4d3b558742101fa7e6b8fe4a64e56ef",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named swarm at a3381668c4d3b558742101fa7e6b8fe4a64e56ef",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

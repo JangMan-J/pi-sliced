@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/triage-flaky-test",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/triage-flaky-test/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"b8e1d74308d6ae01c8280c003a45c8c92009246cbef528ff63165860b8bc762d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11700,"own":{"files":1,"bytes":11700},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pup"],"package":["datadog-labs/pack/pup"],"mcp-server":["datadog"],"credential":[],"network":[]},"summary":"1 file, 11 KiB · MCP datadog · CLI pup · packages datadog-labs/pack/pup","short":"11 KiB · 1 CLI · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pup"]},{"marker":"installs-packages","because":["installs datadog-labs/pack/pup"]},{"marker":"mcp-server","because":["uses the datadog MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"dd-pup","path":"dd-pup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

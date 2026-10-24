@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/code-review",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/code-review/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"40abbab1ef2e2a5216923cbdbd1cff98ca7840da4699c8cf5885496be196f2d9"},
+"status":"unresolvable",
+"reason":"no skill folder named code-review at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

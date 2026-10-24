@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/openai-agents-js/code-change-verification",
+"revision":"be4f1f9aa4ad4f03cc5db5fdd57d0d0136923570",
+"trace":{"path":"traces/openai/openai-agents-js/code-change-verification/be4f1f9aa4ad4f03cc5db5fdd57d0d0136923570/trace-3+judge-7.json","sha256":"d5ce007b79372ba5cdd8104ff261faeabd7ee9ae45204e650c92aa4d820c4cec"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":6857,"own":{"files":4,"bytes":6857},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["powershell"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 6.7 KiB · CLI powershell","short":"6.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs powershell"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

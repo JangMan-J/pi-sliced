@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"github/awesome-copilot/azure-resource-visualizer",
+"source":"github/awesome-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"skillPath":"skills/azure-resource-visualizer",
+"status":"resolved",
+"totals":{"files":3,"bytes":11820},
+"files":[
+{"path":"skills/azure-resource-visualizer/LICENSE.txt","size":1078,"blob":"8dfb11f8b3fd235fe83f30d9dbfe1644b584da2e","how":"path","from":1,"line":4},
+{"path":"skills/azure-resource-visualizer/SKILL.md","size":9772,"blob":"2574dd4d73d39d1b0309c738431eb4ca29850672","how":"root"},
+{"path":"skills/azure-resource-visualizer/assets/template-architecture.md","size":970,"blob":"574e5eb38a5662db3b1beb22b4456200579c7a1e","how":"link","from":1,"line":123}
+],
+"outside":[
+{"kind":"cli","name":"az","at":[[1,157],[1,158]]},
+{"kind":"mcp-server","name":"azure","at":[[1,38]]}
+],
+"regions":[
+{"kind":"own","path":"skills/azure-resource-visualizer","files":3,"bytes":11820}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/azure-resource-visualizer/LICENSE.txt","spdx":"MIT","frontmatter":"Complete terms in LICENSE.txt"}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/skills/prisma-upgrade-v7",
+"revision":"ba3f9d73200bbb62e49733ab93a961fd138a2c18",
+"trace":{"path":"traces/prisma/skills/prisma-upgrade-v7/ba3f9d73200bbb62e49733ab93a961fd138a2c18/trace-3+judge-7.json","sha256":"8793f2cbe8ad1f22a20630fc6584112408f0802a8fb0caa2ec09a64c583669d3"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":36056,"own":{"files":8,"bytes":36056},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["prisma"],"package":["@prisma/adapter-better-sqlite3","@prisma/adapter-mariadb","@prisma/adapter-mssql","@prisma/adapter-neon","@prisma/adapter-pg","@prisma/adapter-ppg","@prisma/client","@prisma/extension-accelerate","@prisma/ppg","better-sqlite3","dotenv","dotenv-cli","mariadb","mssql","pg","prisma"],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 35 KiB · CLI prisma · packages @prisma/adapter-better-sqlite3 +15","short":"35 KiB · 1 CLI · 16 pkg"},
+"heavy":{"heavy":true,"because":["16 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs prisma"]},{"marker":"installs-packages","because":["installs @prisma/adapter-better-sqlite3","installs @prisma/adapter-mariadb","installs @prisma/adapter-mssql","installs @prisma/adapter-neon","installs @prisma/adapter-pg","installs @prisma/adapter-ppg","installs @prisma/client","installs @prisma/extension-accelerate","installs @prisma/ppg","installs better-sqlite3","installs dotenv","installs dotenv-cli","installs mariadb","installs mssql","installs pg","installs prisma"]},{"marker":"unpinned-code","because":["npx prisma: prisma-upgrade-v7/SKILL.md:84, prisma-upgrade-v7/SKILL.md:233, prisma-upgrade-v7/SKILL.md:234"]}],
+"security":{"fetch-run":["npx prisma @ prisma-upgrade-v7/SKILL.md:84, prisma-upgrade-v7/SKILL.md:233, prisma-upgrade-v7/SKILL.md:234 +1"]},
+"companions":{"named":[{"name":"prisma-mongodb-upgrade","path":"prisma-mongodb-upgrade"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

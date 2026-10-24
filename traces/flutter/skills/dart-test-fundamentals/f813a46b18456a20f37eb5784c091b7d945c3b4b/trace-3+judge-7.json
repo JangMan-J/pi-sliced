@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"flutter/skills/dart-test-fundamentals",
+"source":"flutter/skills",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named dart-test-fundamentals at f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

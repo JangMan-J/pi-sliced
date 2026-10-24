@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/written-consent",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/written-consent/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"53335c20e0b711c1d1e49dff19f861c8a35cb673e36b1dd9d7b0c400b2f439e2"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20554,"own":{"files":1,"bytes":20554},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 20 KiB","short":"20 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-webhook-architecture",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-webhook-architecture/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"37831ae129cffe9223ee17c76405cc6dc096a0e6c12ce9c4bac1c4cbfd76d7f8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15020,"own":{"files":1,"bytes":15020},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ngrok","twilio"],"package":["express","flask","twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI ngrok, twilio · packages express +2","short":"15 KiB · 2 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ngrok","runs twilio"]},{"marker":"installs-packages","because":["installs express","installs flask","installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-debugging-observability","path":"plugins/twilio-developer-kit/skills/twilio-debugging-observability"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-messaging-webhooks","path":"plugins/twilio-developer-kit/skills/twilio-messaging-webhooks"},{"name":"twilio-reliability-patterns","path":"plugins/twilio-developer-kit/skills/twilio-reliability-patterns"},{"name":"twilio-voice-twiml","path":"plugins/twilio-developer-kit/skills/twilio-voice-twiml"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wix/skills/wix-stores-versioning",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"trace":{"path":"traces/wix/skills/wix-stores-versioning/9c51902effdd00f4a742c26f1194f48318abab29/trace-3+judge-7.json","sha256":"152da22b2ee94afc8feea6704e7f29c5964a6f33a5fa2bbce3eca7013a755896"},
+"status":"unresolvable",
+"reason":"no skill folder named wix-stores-versioning at 9c51902effdd00f4a742c26f1194f48318abab29 or at the remote HEAD 687e2faf013aeee2afcaa7ca0456a43754306302"
+}

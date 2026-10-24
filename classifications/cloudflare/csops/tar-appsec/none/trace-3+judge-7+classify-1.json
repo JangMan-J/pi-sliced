@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/tar-appsec",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/tar-appsec/none/trace-3+judge-7.json","sha256":"ad9ae8a6236db1cfb6d4f7a9ddee9f996add52d37f7ed0b6ab1bcc7942e21f43"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

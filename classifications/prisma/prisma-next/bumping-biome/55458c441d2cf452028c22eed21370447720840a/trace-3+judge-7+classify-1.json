@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/prisma-next/bumping-biome",
+"revision":"55458c441d2cf452028c22eed21370447720840a",
+"trace":{"path":"traces/prisma/prisma-next/bumping-biome/55458c441d2cf452028c22eed21370447720840a/trace-3+judge-7.json","sha256":"50172ed6dbed7767abc0b5f7d68e8a8afb49c951e64fb1b4498392385bbf287b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1558,"own":{"files":1,"bytes":1558},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.5 KiB","short":"1.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

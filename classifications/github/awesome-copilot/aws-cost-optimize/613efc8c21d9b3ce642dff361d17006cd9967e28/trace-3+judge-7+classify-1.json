@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/aws-cost-optimize",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/aws-cost-optimize/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"4a6188c4f611152d441aa03ef7b60c8cb2b68e2445003b3bb84cdbb16daeff3f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8256,"own":{"files":1,"bytes":8256},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":["github"],"credential":[],"network":["docs.aws.amazon.com"]},"summary":"1 file, 8.1 KiB · MCP github · CLI aws · 1 host","short":"8.1 KiB · 1 CLI · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]},{"marker":"network","because":["fetches from docs.aws.amazon.com"]},{"marker":"mcp-server","because":["uses the github MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

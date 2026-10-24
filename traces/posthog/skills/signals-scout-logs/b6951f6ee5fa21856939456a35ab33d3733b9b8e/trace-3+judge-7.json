@@ -1,0 +1,24 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"posthog/skills/signals-scout-logs",
+"source":"posthog/skills",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"skillPath":"skills/omnibus/signals-scout-logs",
+"status":"resolved",
+"totals":{"files":1,"bytes":24596},
+"files":[
+{"path":"skills/omnibus/signals-scout-logs/SKILL.md","size":24596,"blob":"2682b518d91d7b059a9ef5642619db30af0deb3e","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/omnibus/signals-scout-logs","files":1,"bytes":24596}
+],
+"signals":[
+{"kind":"injection","detail":"ignore prior rules","at":[[0,35]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

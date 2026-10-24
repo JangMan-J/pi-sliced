@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-dpa-hl-tracer",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-dpa-hl-tracer/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"0a3b6acaa47335687aed737195cf887a1a5d15d1c2c1d4140ff2bf78c5c254c3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17497,"own":{"files":1,"bytes":17497},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB","short":"17 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-dpa","path":"skills/doca-dpa"},{"name":"doca-pcc","path":"skills/doca-pcc"},{"name":"doca-programming-guide","path":"skills/doca-programming-guide"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-structured-tools-contract","path":"skills/doca-structured-tools-contract"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

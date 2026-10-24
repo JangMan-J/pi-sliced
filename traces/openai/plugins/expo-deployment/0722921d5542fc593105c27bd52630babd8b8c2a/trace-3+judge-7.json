@@ -1,0 +1,40 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/expo-deployment",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/expo/skills/expo-deployment",
+"status":"resolved",
+"totals":{"files":6,"bytes":34018},
+"files":[
+{"path":"plugins/expo/skills/expo-deployment/SKILL.md","size":3726,"blob":"114aa918721d124c01dff165865fc1e77ecb19e6","how":"root"},
+{"path":"plugins/expo/skills/expo-deployment/references/app-store-metadata.md","size":13278,"blob":"14a258af8cc6be87ffee4581e10fc5f8a71ac3bd","how":"path","from":0,"line":18},
+{"path":"plugins/expo/skills/expo-deployment/references/ios-app-store.md","size":7080,"blob":"bc6085b310979fc0b449e30c46ef8468114d9cc6","how":"path","from":0,"line":20},
+{"path":"plugins/expo/skills/expo-deployment/references/play-store.md","size":5264,"blob":"88102dd1711b83cce480e81d348d18b24ba65d12","how":"path","from":0,"line":19},
+{"path":"plugins/expo/skills/expo-deployment/references/testflight.md","size":1602,"blob":"e16932aa433f2a957535e712a12287afdc596e7c","how":"path","from":0,"line":17},
+{"path":"plugins/expo/skills/expo-deployment/references/workflows.md","size":3068,"blob":"f23b6e2dd0a2c3ec8776d7e00dc38df892e669a1","how":"path","from":0,"line":16}
+],
+"outside":[
+{"kind":"cli","name":"eas","at":[[0,28],[0,173],[0,176],[0,183],[0,186],[0,189],[1,18],[1,28],[2,14],[2,70],[2,73],[2,76],[2,265],[2,268],[2,277],[2,280],[2,314],[3,56],[3,134],[3,137],[3,140],[3,156],[3,223],[3,234],[3,237],[4,57]]},
+{"kind":"cli","name":"eas-cli","at":[[0,34],[0,45],[0,48],[0,51],[0,58],[0,61],[0,74],[0,77]]},
+{"kind":"cli","name":"expo","at":[[0,73]]},
+{"kind":"cli","name":"testflight","at":[[0,64],[0,121],[2,79],[4,8],[4,22]]},
+{"kind":"package","name":"eas-cli","at":[[0,27]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-deployment","files":6,"bytes":34018}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx eas-cli@latest","at":[[0,34],[0,45],[0,48],[0,51],[0,58],[0,61],[0,74],[0,77]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,73]]},
+{"kind":"fetch-run","detail":"npx testflight","at":[[0,64],[0,121],[2,79],[4,8],[4,22]]}
+],
+"namedSkills":[
+{"name":"alpha","path":"plugins/plugin-eval/fixtures/multi-skill-plugin/skills/alpha","at":[[3,80]]},
+{"name":"beta","path":"plugins/plugin-eval/fixtures/multi-skill-plugin/skills/beta","at":[[3,81]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

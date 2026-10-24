@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/weights-and-biases",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/weights-and-biases/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"44d763b63b159aae581e3c797afc44d6cdf4ea43a3bbdb6700385f16bafcce49"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":59773,"own":{"files":4,"bytes":59773},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["wandb"],"package":["wandb"],"mcp-server":[],"credential":["WANDB_API_KEY"],"network":[]},"summary":"4 files, 58 KiB · CLI wandb · packages wandb · 1 key","short":"58 KiB · 1 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs wandb"]},{"marker":"installs-packages","because":["installs wandb"]},{"marker":"credentials","because":["needs WANDB_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

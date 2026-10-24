@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stablyai/orca/orca-jira",
+"revision":"d7ef7741d1fa5ad59ea296331c0f2ef8682263bb",
+"trace":{"path":"traces/stablyai/orca/orca-jira/d7ef7741d1fa5ad59ea296331c0f2ef8682263bb/trace-3+judge-7.json","sha256":"3c802a403c2f4ddbe0d70ecc104402fe0c19d3c2bfca8847b45bf78d3c896666"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2080,"own":{"files":1,"bytes":2080},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.0 KiB","short":"2.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

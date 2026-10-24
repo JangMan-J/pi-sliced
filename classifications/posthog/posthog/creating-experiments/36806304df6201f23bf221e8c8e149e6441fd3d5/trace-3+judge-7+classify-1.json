@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/creating-experiments",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/creating-experiments/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"2eb3f7be225c71fcd7cc8f55b78afba96c210f06c89ffb37201baca64fb42d61"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":30622,"own":{"files":2,"bytes":30622},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 30 KiB","short":"30 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"configuring-experiment-analytics","path":"products/experiments/skills/configuring-experiment-analytics"},{"name":"configuring-experiment-rollout","path":"products/experiments/skills/configuring-experiment-rollout"},{"name":"managing-experiment-lifecycle","path":"products/experiments/skills/managing-experiment-lifecycle"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

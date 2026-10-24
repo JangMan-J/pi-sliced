@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"flutter/website/stage-site",
+"source":"flutter/website",
+"revision":"fbe2b9d61c40504330000652ac406cba2fb1b5c1",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named stage-site at fbe2b9d61c40504330000652ac406cba2fb1b5c1",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

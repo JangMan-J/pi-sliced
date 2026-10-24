@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/vercel-composition-patterns",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/vercel-composition-patterns/none/trace-3+judge-7.json","sha256":"6ef75a051f8e1dc466d6e5fed90ad5a2ccb28f5813ae3b3df9540fe4bba2c076"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

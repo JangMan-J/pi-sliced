@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/pup/dd-docs",
+"revision":"6c3a4707f5ab87688566020d868a50810db08166",
+"trace":{"path":"traces/datadog-labs/pup/dd-docs/6c3a4707f5ab87688566020d868a50810db08166/trace-3+judge-7.json","sha256":"69e9f4c5e9ac3bd00359219018778b6f500de3388cad75c1a1e9977acd49022f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2232,"own":{"files":1,"bytes":2232},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["docs.datadoghq.com"]},"summary":"1 file, 2.2 KiB · 1 host","short":"2.2 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from docs.datadoghq.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

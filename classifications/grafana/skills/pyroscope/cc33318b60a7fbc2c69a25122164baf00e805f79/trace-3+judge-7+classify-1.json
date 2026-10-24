@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/pyroscope",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/pyroscope/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"01152e15d606409606d9235ebfa153ec323ff3aead5e9938b6e415cc89b9cc13"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":10712,"own":{"files":3,"bytes":10712},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bundle","cargo","java","jq"],"package":["@pyroscope/nodejs","pyroscope","pyroscope-io","pyroscope_pprofrs"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 10 KiB · CLI bundle, cargo +2 · packages @pyroscope/nodejs +3","short":"10 KiB · 4 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bundle","runs cargo","runs java","runs jq"]},{"marker":"installs-packages","because":["installs @pyroscope/nodejs","installs pyroscope","installs pyroscope_pprofrs","installs pyroscope-io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

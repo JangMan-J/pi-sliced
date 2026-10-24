@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-explain-app",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-explain-app/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"b02b8248801e1c7572d07a0470bf460990d50539f97beb4f7c0b2564fe976258"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13675,"own":{"files":1,"bytes":4174},"otherSkills":{"count":1,"files":1,"bytes":9501},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["convex"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 13 KiB · +1 other skill · CLI convex","short":"13 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs convex"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/convex"]},{"marker":"unpinned-code","because":["npx convex: skills/convex/SKILL.md:31"]}],
+"security":{"fetch-run":["npx convex @ skills/convex/SKILL.md:31"]},
+"companions":{"named":[{"name":"convex-add","path":"skills/convex-add"},{"name":"convex-authz","path":"skills/convex-authz"},{"name":"convex-cost","path":"skills/convex-cost"},{"name":"convex-expert","path":"skills/convex-expert"},{"name":"convex-migrate","path":"skills/convex-migrate"},{"name":"convex-migrate-rehearse","path":"skills/convex-migrate-rehearse"},{"name":"convex-monitor","path":"skills/convex-monitor"},{"name":"convex-quickstart","path":"skills/convex-quickstart"},{"name":"convex-reviewer","path":"skills/convex-reviewer"},{"name":"convex-self-heal","path":"skills/convex-self-heal"},{"name":"convex-sentinel","path":"skills/convex-sentinel"},{"name":"convex-verify","path":"skills/convex-verify"}],"pulled":[{"path":"skills/convex","files":1,"bytes":9501}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/github",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/github/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"cf93d2c56e0bdcbc2e6f873d81c0b08f0248be306d042a8f364a9e1b57092549"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4125,"own":{"files":1,"bytes":4125},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.0 KiB · CLI gh","short":"4.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]}],
+"security":{},
+"companions":{"named":[{"name":"coding-agent","path":"skills/coding-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

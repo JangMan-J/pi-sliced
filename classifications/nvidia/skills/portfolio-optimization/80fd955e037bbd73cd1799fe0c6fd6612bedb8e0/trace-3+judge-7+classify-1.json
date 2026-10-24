@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/portfolio-optimization",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/portfolio-optimization/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"061131b8831db17592f2d60bd6c48092af744f0421a1c44bbb6a6331fec94d58"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":32140,"own":{"files":2,"bytes":32140},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["portfolio_optimization"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 31 KiB · packages portfolio_optimization","short":"31 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs portfolio_optimization"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

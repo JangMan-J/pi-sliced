@@ -1,0 +1,1 @@
+{"id":"0a4b7462280ec0307fef9c89a6cc7fd99816e3c9a8fd5384646c88bc73e104ea","pullsIn":false,"reason":"Says the reference files all live in reference/ with a list; a location statement for gilfoyle, not a direction to use the dir as a whole.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skill/SKILL.md","line":543,"ref":"reference/","target":"skill/reference"}

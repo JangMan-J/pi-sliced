@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw-community/blender-host-sandbox-boundary",
+"revision":"54bac91992830b6249f1f727c0f6d628d3a984e8",
+"trace":{"path":"traces/nvidia/nemoclaw-community/blender-host-sandbox-boundary/54bac91992830b6249f1f727c0f6d628d3a984e8/trace-3+judge-7.json","sha256":"20b57d2c4008ea3d0fc4ae42f557e7443415fd2aba6b8a28b59c26853fbd58b8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7575,"own":{"files":1,"bytes":7575},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nemohermes"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.4 KiB · CLI nemohermes","short":"7.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nemohermes"]}],
+"security":{},
+"companions":{"named":[{"name":"blender-python-api-verification","path":"examples/demos/field/blender-omniverse-dgx-station/skills/blender-python-api-verification"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

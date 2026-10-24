@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/rds-oss",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/rds-oss/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"2b1ddc1cdf19fb197026e7934b028a19e6c926589d4526db37ce1a67949fd90a"},
+"status":"resolved",
+"footprint":{"files":19,"bytes":119321,"own":{"files":19,"bytes":119321},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","jq","modify-db-instance"],"package":["boto3"],"mcp-server":["aws"],"credential":["PGPASSWORD"],"network":[]},"summary":"19 files, 117 KiB · MCP aws · CLI aws, jq +1 · packages boto3 · 1 key","short":"117 KiB · 3 CLI · 1 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs jq","runs modify-db-instance"]},{"marker":"installs-packages","because":["installs boto3"]},{"marker":"credentials","because":["needs PGPASSWORD"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"rds-db2","path":"skills/specialized-skills/database-skills/rds-db2"},{"name":"rds-oracle","path":"skills/specialized-skills/database-skills/rds-oracle"},{"name":"rds-sqlserver","path":"skills/specialized-skills/database-skills/rds-sqlserver"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

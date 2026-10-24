@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/shadcn",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/shadcn/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"615a6d1aacf5f092597338560ce8f215238a49b2205d234f1b536d9b77bfa750"},
+"status":"unresolvable",
+"reason":"no skill folder named shadcn at c6f73d7d5f69acb80fc89faefd12c0865c8603d1"
+}

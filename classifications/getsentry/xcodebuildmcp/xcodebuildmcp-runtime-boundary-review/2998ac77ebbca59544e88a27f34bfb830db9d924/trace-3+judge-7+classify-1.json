@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/xcodebuildmcp/xcodebuildmcp-runtime-boundary-review",
+"revision":"2998ac77ebbca59544e88a27f34bfb830db9d924",
+"trace":{"path":"traces/getsentry/xcodebuildmcp/xcodebuildmcp-runtime-boundary-review/2998ac77ebbca59544e88a27f34bfb830db9d924/trace-3+judge-7.json","sha256":"87293fb8d858bf49649f01e90a08ed5e967db9612d33348f16bea0eb39c99007"},
+"status":"unresolvable",
+"reason":"no skill folder named xcodebuildmcp-runtime-boundary-review at 2998ac77ebbca59544e88a27f34bfb830db9d924"
+}

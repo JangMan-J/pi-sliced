@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"larksuite/cli/lark-shared",
+"revision":"017b19a793ad71794a02887ede04757f3d82e10d",
+"trace":{"path":"traces/larksuite/cli/lark-shared/017b19a793ad71794a02887ede04757f3d82e10d/trace-3+judge-7.json","sha256":"ae217a5585912767a1455437d1ee1837b85be651c3964c647c43f81d988cb87d"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":15110,"own":{"files":6,"bytes":15110},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["lark-cli"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 15 KiB · CLI lark-cli","short":"15 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs lark-cli"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

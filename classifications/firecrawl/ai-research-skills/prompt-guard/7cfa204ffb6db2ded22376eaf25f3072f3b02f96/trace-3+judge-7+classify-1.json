@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/prompt-guard",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/prompt-guard/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"a1c14a77a07c7d75d8fb828f9febd8ba951afc3d226c4679a05480327c123a0e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9455,"own":{"files":1,"bytes":9455},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["torch","transformers"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.2 KiB · packages torch +1","short":"9.2 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs torch","installs transformers"]},{"marker":"agent-override-text","because":["\"ignore all previous instructions\": 07-safety-alignment/prompt-guard/SKILL.md:85","\"ignore previous instructions\": 07-safety-alignment/prompt-guard/SKILL.md:42"]}],
+"security":{"injection":["ignore all previous instructions @ 07-safety-alignment/prompt-guard/SKILL.md:85","ignore previous instructions @ 07-safety-alignment/prompt-guard/SKILL.md:42"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

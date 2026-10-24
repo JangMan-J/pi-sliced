@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"grafana/skills/plugin-bundle-size",
+"source":"grafana/skills",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"skillPath":"skills/grafana-plugins/plugin-bundle-size",
+"status":"resolved",
+"totals":{"files":3,"bytes":19708},
+"files":[
+{"path":"skills/grafana-plugins/plugin-bundle-size/SKILL.md","size":14425,"blob":"8dd37747614e4f55e01df9f1340c8c3d7559221a","how":"root"},
+{"path":"skills/grafana-plugins/plugin-bundle-size/references/datasource-plugins.md","size":2453,"blob":"05d42147d2d02cf1f5ac8157cf9842bc48425f2e","how":"link","from":0,"line":309},
+{"path":"skills/grafana-plugins/plugin-bundle-size/references/troubleshooting.md","size":2830,"blob":"b68b1d5f918aa08334e7f408523c4b41dcbce197","how":"link","from":0,"line":356}
+],
+"outside":[
+{"kind":"cli","name":"@grafana/create-plugin","at":[[0,137]]},
+{"kind":"cli","name":"jq","at":[[0,113]]},
+{"kind":"cli","name":"webpack-bundle-analyzer","at":[[0,343]]}
+],
+"regions":[
+{"kind":"own","path":"skills/grafana-plugins/plugin-bundle-size","files":3,"bytes":19708}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @grafana/create-plugin@latest","at":[[0,137]]},
+{"kind":"fetch-run","detail":"npx webpack-bundle-analyzer","at":[[0,343]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":"Apache-2.0"}
+}

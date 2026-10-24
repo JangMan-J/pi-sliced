@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"emilkowalski/skills/find-animation-opportunities",
+"source":"emilkowalski/skills",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"skillPath":"skills/find-animation-opportunities",
+"status":"resolved",
+"totals":{"files":1,"bytes":9808},
+"files":[
+{"path":"skills/find-animation-opportunities/SKILL.md","size":9808,"blob":"d3b030fbca9abad9220a032f72d425c6b7fa2de8","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/find-animation-opportunities","files":1,"bytes":9808}
+],
+"signals":[
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,29]]}
+],
+"namedSkills":[
+{"name":"improve-animations","path":"skills/improve-animations","at":[[0,16]]},
+{"name":"review-animations","path":"skills/review-animations","at":[[0,16]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

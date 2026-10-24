@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/agent-skills/refactor-module",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/agent-skills/refactor-module/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"3306526be6dda611c1fdc18bd66923e03b70d7827f09e71c5c0a1a36236a7562"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14729,"own":{"files":1,"bytes":14729},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","terraform"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI jq, terraform","short":"14 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs terraform"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

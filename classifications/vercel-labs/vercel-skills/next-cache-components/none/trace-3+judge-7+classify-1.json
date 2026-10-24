@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/next-cache-components",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/next-cache-components/none/trace-3+judge-7.json","sha256":"eaf32193c5a485428c001b8815ae9d551c5139f20d282d3551c08e5faa74c5aa"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

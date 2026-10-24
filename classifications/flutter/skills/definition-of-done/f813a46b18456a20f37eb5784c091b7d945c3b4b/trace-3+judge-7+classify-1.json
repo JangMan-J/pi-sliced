@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/definition-of-done",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/definition-of-done/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"23c2112c524b83f4f80c2787732d1ed1940b89b865299766e3aabd8fd29807cc"},
+"status":"unresolvable",
+"reason":"no skill folder named definition-of-done at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

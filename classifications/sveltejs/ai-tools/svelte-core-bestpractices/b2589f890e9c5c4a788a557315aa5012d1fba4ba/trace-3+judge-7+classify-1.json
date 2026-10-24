@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sveltejs/ai-tools/svelte-core-bestpractices",
+"revision":"b2589f890e9c5c4a788a557315aa5012d1fba4ba",
+"trace":{"path":"traces/sveltejs/ai-tools/svelte-core-bestpractices/b2589f890e9c5c4a788a557315aa5012d1fba4ba/trace-3+judge-7.json","sha256":"63da43c238b6ea68ee7c1e4bcdf79c2d77c701d6ed342386abbfa293435dd08a"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":38265,"own":{"files":10,"bytes":38265},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 37 KiB","short":"37 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

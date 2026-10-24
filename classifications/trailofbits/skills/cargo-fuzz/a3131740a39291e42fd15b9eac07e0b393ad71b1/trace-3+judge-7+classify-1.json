@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/cargo-fuzz",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/cargo-fuzz/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"722e1f444feea99a82616a023979a15881eeafef75be5ce67ff61dc8b53f490a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11789,"own":{"files":1,"bytes":11789},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","rustc","rustup"],"package":["cargo-binutils","cargo-fuzz","cargo-geiger","rustfilt"],"mcp-server":[],"credential":[],"network":["commons.wikimedia.org","github.com"]},"summary":"1 file, 12 KiB · CLI cargo, rustc +1 · packages cargo-binutils +3 · 2 hosts","short":"12 KiB · 3 CLI · 4 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs rustc","runs rustup"]},{"marker":"installs-packages","because":["installs cargo-binutils","installs cargo-fuzz","installs cargo-geiger","installs rustfilt"]},{"marker":"network","because":["fetches from commons.wikimedia.org","fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

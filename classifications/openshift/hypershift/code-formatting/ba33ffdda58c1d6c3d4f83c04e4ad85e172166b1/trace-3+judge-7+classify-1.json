@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openshift/hypershift/code-formatting",
+"revision":"ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1",
+"trace":{"path":"traces/openshift/hypershift/code-formatting/ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1/trace-3+judge-7.json","sha256":"fc1c39d595216749abc3c755eeb5279d86c426e78db18e610a813cd60a5ee7c9"},
+"status":"unresolvable",
+"reason":"no skill folder named code-formatting at ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1"
+}

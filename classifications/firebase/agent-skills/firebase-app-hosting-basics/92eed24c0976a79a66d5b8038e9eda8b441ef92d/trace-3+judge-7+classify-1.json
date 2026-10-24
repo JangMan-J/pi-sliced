@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firebase-app-hosting-basics",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firebase-app-hosting-basics/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"8cdc48670d006a220443a517fa093ba5ebee0daad5a2f3353cc49ca487043a0f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9607,"own":{"files":4,"bytes":9607},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firebase-tools"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 9.4 KiB · CLI firebase-tools","short":"9.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs firebase-tools"]},{"marker":"unpinned-code","because":["npx firebase-tools@latest: skills/firebase-app-hosting-basics/SKILL.md:70, skills/firebase-app-hosting-basics/SKILL.md:77, skills/firebase-app-hosting-basics/SKILL.md:78"]}],
+"security":{"fetch-run":["npx firebase-tools@latest @ skills/firebase-app-hosting-basics/SKILL.md:70, skills/firebase-app-hosting-basics/SKILL.md:77, skills/firebase-app-hosting-basics/SKILL.md:78 +13"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

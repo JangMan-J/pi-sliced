@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langchain-skills/swarm",
+"revision":"704e9f4a2f962f449495515f2599502394bc84b2",
+"trace":{"path":"traces/langchain-ai/langchain-skills/swarm/704e9f4a2f962f449495515f2599502394bc84b2/trace-3+judge-7.json","sha256":"7e61a2cdd065780a8a9fb771e24a9fe63d217a5b1017565d7590e93246d07b78"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":22794,"own":{"files":2,"bytes":22794},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 22 KiB","short":"22 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

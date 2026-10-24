@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/securing-s3-buckets",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/securing-s3-buckets/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"ad92d72c890a4c8b1976aebdf855f1f9c383b00c9cc00ce41301909750aefdb2"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":29690,"own":{"files":6,"bytes":29690},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","jq"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"6 files, 29 KiB · MCP aws · CLI aws, jq","short":"29 KiB · 2 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs jq"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

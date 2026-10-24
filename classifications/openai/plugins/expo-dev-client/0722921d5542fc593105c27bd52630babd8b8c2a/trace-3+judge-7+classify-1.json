@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/expo-dev-client",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/expo-dev-client/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"1711b192dc51012c43f316051ffa902b7fc9609fc7fa0e745ba23efb1f913bba"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3515,"own":{"files":1,"bytes":3515},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adb","eas","expo","ideviceinstaller","xcrun"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB · CLI adb, eas +3","short":"3.4 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs eas","runs expo","runs ideviceinstaller","runs xcrun"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the adb, eas it wraps"]},{"marker":"unpinned-code","because":["npx expo: plugins/expo/skills/expo-dev-client/SKILL.md:19, plugins/expo/skills/expo-dev-client/SKILL.md:143"]}],
+"security":{"fetch-run":["npx expo @ plugins/expo/skills/expo-dev-client/SKILL.md:19, plugins/expo/skills/expo-dev-client/SKILL.md:143"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

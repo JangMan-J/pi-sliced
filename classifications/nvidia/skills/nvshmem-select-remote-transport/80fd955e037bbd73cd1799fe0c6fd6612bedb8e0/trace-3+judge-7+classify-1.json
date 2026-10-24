@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nvshmem-select-remote-transport",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nvshmem-select-remote-transport/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"9d5d86cb4fa8195ed6084aa3de4badf32e460bc6cb6be9b98fbf7420da97999b"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":86353,"own":{"files":4,"bytes":56801},"otherSkills":{"count":1,"files":2,"bytes":29552},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["efa","fabric_ok","gdrcopy_driver_evidence","gpu_ok","ibv_devinfo","ldconfig","mlx5_rdma_visible","modinfo","pkg-config","plugin_count","plugin_file_count","plugin_transports_seen","plugins_ok","ucx_info","version_ok","zgrep"],"package":[],"mcp-server":[],"credential":[],"network":["docs.nvidia.com"]},"summary":"6 files, 84 KiB · +1 other skill · CLI efa, fabric_ok +14 · 1 host","short":"84 KiB · +1 skill · 16 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["16 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs efa","runs fabric_ok","runs gdrcopy_driver_evidence","runs gpu_ok","runs ibv_devinfo","runs ldconfig","runs mlx5_rdma_visible","runs modinfo","runs pkg-config","runs plugin_count","runs plugin_file_count","runs plugin_transports_seen","runs plugins_ok","runs ucx_info","runs version_ok","runs zgrep"]},{"marker":"network","because":["fetches from docs.nvidia.com"]},{"marker":"chain-loads","because":["pulls in 2 files of the skill at skills/nvshmem-docs"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/nvshmem-docs","files":2,"bytes":29552}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

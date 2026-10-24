@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-ai-troubleshooting-tpu-slice-mig-stuck-updating",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-ai-troubleshooting-tpu-slice-mig-stuck-updating/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"4f0aa4749d6fe3b361d55c9692d9f144203bd8378c19e26685eaddda789fd258"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":17813,"own":{"files":2,"bytes":17813},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 17 KiB · CLI gcloud","short":"17 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-ai-troubleshooting-tpu-dynamic-slices-monitoring","path":"skills/cloud/gke-ai-troubleshooting-tpu-dynamic-slices-monitoring"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

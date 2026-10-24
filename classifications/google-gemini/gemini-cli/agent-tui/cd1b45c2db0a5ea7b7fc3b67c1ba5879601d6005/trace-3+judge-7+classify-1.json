@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-cli/agent-tui",
+"revision":"cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005",
+"trace":{"path":"traces/google-gemini/gemini-cli/agent-tui/cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005/trace-3+judge-7.json","sha256":"eb698c1714f6d154da4680e4551815406c9824e8515e093406d6c0250892a5e6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13070,"own":{"files":1,"bytes":13070},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-tui","cargo","my-app","press","screenshot","tmux"],"package":["agent-tui","cli/crates/agent-tui"],"mcp-server":[],"credential":[],"network":["github.com","raw.githubusercontent.com"]},"summary":"1 file, 13 KiB · CLI agent-tui, cargo +4 · packages agent-tui +1 · 2 hosts","short":"13 KiB · 6 CLI · 2 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-tui","runs cargo","runs my-app","runs press","runs screenshot","runs tmux"]},{"marker":"installs-packages","because":["installs agent-tui","installs cli/crates/agent-tui"]},{"marker":"network","because":["fetches from github.com","fetches from raw.githubusercontent.com"]},{"marker":"unpinned-code","because":["pipe to interpreter: .gemini/skills/agent-tui/SKILL.md:68"]}],
+"security":{"fetch-run":["pipe to interpreter @ .gemini/skills/agent-tui/SKILL.md:68"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

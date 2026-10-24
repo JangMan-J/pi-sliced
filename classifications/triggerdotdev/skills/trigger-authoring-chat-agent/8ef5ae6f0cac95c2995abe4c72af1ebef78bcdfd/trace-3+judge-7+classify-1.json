@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"triggerdotdev/skills/trigger-authoring-chat-agent",
+"revision":"8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+"trace":{"path":"traces/triggerdotdev/skills/trigger-authoring-chat-agent/8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd/trace-3+judge-7.json","sha256":"dd091c2cd8167eb88c48f12962c346b4bc7ec2eee8995665aa0b0f4ad7f5b2a9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13714,"own":{"files":1,"bytes":13714},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB","short":"13 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"trigger-chat-agent-advanced","path":"trigger-chat-agent-advanced"},{"name":"trigger-realtime","path":"trigger-realtime"},{"name":"trigger-tasks","path":"trigger-tasks"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

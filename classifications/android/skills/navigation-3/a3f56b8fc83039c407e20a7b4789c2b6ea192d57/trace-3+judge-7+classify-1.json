@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"android/skills/navigation-3",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"trace":{"path":"traces/android/skills/navigation-3/a3f56b8fc83039c407e20a7b4789c2b6ea192d57/trace-3+judge-7.json","sha256":"7ad3d044ccbaa20a78d60113f2934fa411ff2ea4088447388ae978c17849b32e"},
+"status":"resolved",
+"footprint":{"files":28,"bytes":256136,"own":{"files":28,"bytes":256136},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["developer.android.com","github.com"]},"summary":"28 files, 250 KiB · 2 hosts","short":"250 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from developer.android.com","fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

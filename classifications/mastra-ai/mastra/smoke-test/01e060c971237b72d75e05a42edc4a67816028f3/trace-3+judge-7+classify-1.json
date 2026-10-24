@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mastra-ai/mastra/smoke-test",
+"revision":"01e060c971237b72d75e05a42edc4a67816028f3",
+"trace":{"path":"traces/mastra-ai/mastra/smoke-test/01e060c971237b72d75e05a42edc4a67816028f3/trace-3+judge-7.json","sha256":"308d40b30925520077650febead0b05118b9efce6a7db1f41f0f076e74dcdba9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13209,"own":{"files":1,"bytes":13209},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["add","create-mastra","run"],"package":[],"mcp-server":["chrome"],"credential":[],"network":[]},"summary":"1 file, 13 KiB · MCP chrome · CLI add, create-mastra +1","short":"13 KiB · 3 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs add","runs create-mastra","runs run"]},{"marker":"mcp-server","because":["uses the chrome MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

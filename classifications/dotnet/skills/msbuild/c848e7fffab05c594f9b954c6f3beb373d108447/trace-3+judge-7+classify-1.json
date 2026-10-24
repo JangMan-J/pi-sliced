@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/msbuild",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/msbuild/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"71ea0755e77857a89b116449c442ed162eb61192d9e4b34d98a8e706917ec7a3"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":130418,"own":{"files":13,"bytes":130418},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Get-Content","Select-Object","Select-String","dotnet","msbuild","throw"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"13 files, 127 KiB · CLI Get-Content, Select-Object +4","short":"127 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs Get-Content","runs msbuild","runs Select-Object","runs Select-String","runs throw"]}],
+"security":{},
+"companions":{"named":[{"name":"binlog-failure-analysis","path":"plugins/dotnet-msbuild/skills/binlog-failure-analysis"},{"name":"binlog-generation","path":"plugins/dotnet-msbuild/skills/binlog-generation"},{"name":"build-perf-baseline","path":"plugins/dotnet-msbuild/skills/build-perf-baseline"},{"name":"build-perf-diagnostics","path":"plugins/dotnet-msbuild/skills/build-perf-diagnostics"},{"name":"copy-to-output-directory","path":"plugins/dotnet-msbuild/skills/copy-to-output-directory"},{"name":"eval-performance","path":"plugins/dotnet-msbuild/skills/eval-performance"},{"name":"extension-points","path":"plugins/dotnet-msbuild/skills/extension-points"},{"name":"incremental-build","path":"plugins/dotnet-msbuild/skills/incremental-build"},{"name":"msbuild-antipatterns","path":"plugins/dotnet-msbuild/skills/msbuild-antipatterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

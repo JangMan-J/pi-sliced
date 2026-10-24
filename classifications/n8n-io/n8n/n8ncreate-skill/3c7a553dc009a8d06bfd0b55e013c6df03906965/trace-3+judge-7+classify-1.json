@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8ncreate-skill",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8ncreate-skill/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"41a41f9b8e7a337ded0aa4549847b6c9da8a656741b52e113749ca4521972796"},
+"status":"unresolvable",
+"reason":"no skill folder named n8ncreate-skill at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

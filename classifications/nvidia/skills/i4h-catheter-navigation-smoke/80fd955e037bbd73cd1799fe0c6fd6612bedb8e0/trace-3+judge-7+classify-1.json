@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/i4h-catheter-navigation-smoke",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/i4h-catheter-navigation-smoke/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"ce04ac1b0fc0cf54174a0f48d9561ca24588735626780caf18c7647f110be729"},
+"status":"unresolvable",
+"reason":"no skill folder named i4h-catheter-navigation-smoke at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

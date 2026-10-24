@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/shader-graph-create-custom-node",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/shader-graph-create-custom-node/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"78f8540802a382482b8275375aa0990a1f5cc4691fe3c42065827a6bd5d8ad12"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6425,"own":{"files":2,"bytes":6425},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.3 KiB","short":"6.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

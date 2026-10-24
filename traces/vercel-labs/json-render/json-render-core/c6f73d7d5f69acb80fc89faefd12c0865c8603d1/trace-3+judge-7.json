@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/json-render/json-render-core",
+"source":"vercel-labs/json-render",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named json-render-core at c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/import-infrastructure-as-code",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/import-infrastructure-as-code/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"f557a2c0f3bc76c3ea4bc2e53149169d42f25f3a17cc322465fa85bb0bd38013"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18742,"own":{"files":1,"bytes":18742},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","terraform"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 18 KiB · CLI az, terraform","short":"18 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs terraform"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

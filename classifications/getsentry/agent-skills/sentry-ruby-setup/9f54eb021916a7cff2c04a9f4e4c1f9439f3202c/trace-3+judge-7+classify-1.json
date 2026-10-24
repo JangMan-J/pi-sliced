@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/agent-skills/sentry-ruby-setup",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/agent-skills/sentry-ruby-setup/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"51280b9240ae3e0036adba4595740e39219bceb223fb4df21e82eb9eb463c746"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-ruby-setup at 9f54eb021916a7cff2c04a9f4e4c1f9439f3202c"
+}

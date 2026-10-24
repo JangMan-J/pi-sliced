@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/gh-aw/error-messages",
+"revision":"317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1",
+"trace":{"path":"traces/github/gh-aw/error-messages/317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1/trace-3+judge-7.json","sha256":"de22727908c47c42678bf60875b9afe38e2bd88b2a28813ba68f014adb9ce426"},
+"status":"resolved",
+"footprint":{"files":1147,"bytes":12914702,"own":{"files":1,"bytes":9207},"otherSkills":{"count":1,"files":1146,"bytes":12905495},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1147 files, 12 MiB · +1 other skill","short":"12 MiB · +1 skill"},
+"heavy":{"heavy":true,"because":["files total 12 MiB (> 1 MiB)"]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1146 files of the skill at ."]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".","files":1146,"bytes":12905495}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

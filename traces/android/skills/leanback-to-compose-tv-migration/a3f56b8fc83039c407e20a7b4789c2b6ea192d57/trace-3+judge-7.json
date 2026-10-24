@@ -1,0 +1,25 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/leanback-to-compose-tv-migration",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"tv/leanback-to-compose-tv-migration",
+"status":"resolved",
+"totals":{"files":4,"bytes":69872},
+"files":[
+{"path":"tv/leanback-to-compose-tv-migration/SKILL.md","size":34769,"blob":"bf3487e259a7fa468218188ace14d075ead915f6","how":"root"},
+{"path":"tv/leanback-to-compose-tv-migration/references/android/training/tv/get-started/navigation.md","size":17347,"blob":"ad5bf93a4ae5b9492d1efa3fcd586d0865e83a7e","how":"link","from":0,"line":71},
+{"path":"tv/leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/browse.md","size":9942,"blob":"1ae152758114fbdf0f7b4c054b9e3ce4337a0c1d","how":"link","from":0,"line":259},
+{"path":"tv/leanback-to-compose-tv-migration/references/android/training/tv/playback/compose/index.md","size":7814,"blob":"6d472965851ba64562a2b168d196bca0d53cc7ae","how":"link","from":0,"line":52}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"tv/leanback-to-compose-tv-migration","files":4,"bytes":69872}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

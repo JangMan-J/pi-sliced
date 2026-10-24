@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/azure-pricing",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/azure-pricing/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"9d946e260b60dc38ed74640f3a1a4881d4d6540c217d772f4b546502cf2db7fa"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":25409,"own":{"files":5,"bytes":25409},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 25 KiB","short":"25 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

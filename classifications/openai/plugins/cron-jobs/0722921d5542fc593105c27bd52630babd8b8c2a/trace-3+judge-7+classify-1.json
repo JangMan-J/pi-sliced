@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/cron-jobs",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/cron-jobs/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"e14fafacc5b3f7dfed82e9cbbf4e13520c4637e77115c450052d0885af7d2bea"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2093,"own":{"files":1,"bytes":2093},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vercel"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.0 KiB · CLI vercel","short":"2.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs vercel"]},{"marker":"stub","because":["own folder 2.0 KiB (1 file)","content is the vercel it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

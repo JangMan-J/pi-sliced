@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-framework/python-samples",
+"revision":"4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe",
+"trace":{"path":"traces/microsoft/agent-framework/python-samples/4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe/trace-3+judge-7.json","sha256":"8c05ab2c73aac70677d6479961d3cc1a0f6eaff96ee838c6c1e603d511447fe3"},
+"status":"unresolvable",
+"reason":"no skill folder named python-samples at 4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe"
+}

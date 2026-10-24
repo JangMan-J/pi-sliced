@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/agent-platform-prompt-management",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/agent-platform-prompt-management/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"d3b395f8603427e96007c7e25456c26e59286ef37cf1c5983413f0f12ab72eb8"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11623,"own":{"files":2,"bytes":11623},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":["google-cloud-aiplatform","google-genai"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 11 KiB · CLI gcloud · packages google-cloud-aiplatform +1","short":"11 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"installs-packages","because":["installs google-cloud-aiplatform","installs google-genai"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

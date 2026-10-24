@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/study-plan",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/study-plan/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"18f823fcd0f3a0fb980e260146e93d447b3a66c1000cba39f8f3ec29c0a8b51c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13947,"own":{"files":1,"bytes":13947},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

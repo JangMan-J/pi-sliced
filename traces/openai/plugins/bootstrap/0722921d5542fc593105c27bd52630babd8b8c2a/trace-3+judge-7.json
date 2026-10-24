@@ -1,0 +1,36 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/bootstrap",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/bootstrap",
+"status":"resolved",
+"totals":{"files":1,"bytes":6987},
+"files":[
+{"path":"plugins/vercel/skills/bootstrap/SKILL.md","size":6987,"blob":"0a0421fe89dcc007e41ce25d068dda2e05487b07","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"base64url","at":[[0,112]]},
+{"kind":"cli","name":"comm","at":[[0,131]]},
+{"kind":"cli","name":"next-forge","at":[[0,194]]},
+{"kind":"cli","name":"require","at":[[0,112]]},
+{"kind":"cli","name":"shadcn","at":[[0,153]]},
+{"kind":"cli","name":"vercel","at":[[0,55],[0,56],[0,63],[0,64],[0,65],[0,82],[0,88],[0,94],[0,95],[0,101],[0,113],[0,115],[0,188]]},
+{"kind":"credential","name":"AUTH_SECRET","at":[[0,112],[0,113]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/bootstrap","files":1,"bytes":6987}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx next-forge","at":[[0,194]]},
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,153]]}
+],
+"namedSkills":[
+{"name":"auth","path":"plugins/vercel/skills/auth","at":[[0,20]]},
+{"name":"setup","path":"plugins/mixpanel-headless/skills/setup","at":[[0,15]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"runwayml/skills/runway-dev-models",
+"revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de",
+"trace":{"path":"traces/runwayml/skills/runway-dev-models/3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de/trace-3+judge-7.json","sha256":"05630c436145a9e74856ff80a91a91d919a90b8f8e71d983b19a4677262673ae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2959,"own":{"files":1,"bytes":2959},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["docs.dev.runwayml.com"]},"summary":"1 file, 2.9 KiB · 1 host","short":"2.9 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from docs.dev.runwayml.com"]}],
+"security":{},
+"companions":{"named":[{"name":"runway-dev","path":"skills/runway-dev"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

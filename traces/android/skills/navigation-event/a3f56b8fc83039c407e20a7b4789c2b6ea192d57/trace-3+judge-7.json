@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/navigation-event",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"navigation/navigation-event",
+"status":"resolved",
+"totals":{"files":5,"bytes":29998},
+"files":[
+{"path":"navigation/navigation-event/SKILL.md","size":13103,"blob":"38ca3d9f257e2ae622b3c5488fc46bdb37523c3c","how":"root"},
+{"path":"navigation/navigation-event/references/android/guide/navigation/navigation-event/dispatcher.md","size":4372,"blob":"27b6a96697943181e9595478a346c071ae6374d3","how":"link","from":0,"line":55},
+{"path":"navigation/navigation-event/references/android/guide/navigation/navigation-event/handle-back.md","size":7355,"blob":"685cc6980cb6f30e8a280f2c9bdd9d5d34e0f851","how":"link","from":0,"line":61},
+{"path":"navigation/navigation-event/references/android/guide/navigation/navigation-event/index.md","size":4100,"blob":"f0b0847d011f7d4fc7e47fba84470674a723a6b0","how":"link","from":0,"line":26},
+{"path":"navigation/navigation-event/references/android/guide/navigation/navigation-event/setup.md","size":1068,"blob":"7981cf1fb128da484e947b8b586b83fef15232ec","how":"link","from":0,"line":48}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"navigation/navigation-event","files":5,"bytes":29998}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

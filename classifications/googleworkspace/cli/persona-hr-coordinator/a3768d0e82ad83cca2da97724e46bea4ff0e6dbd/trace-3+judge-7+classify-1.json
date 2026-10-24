@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/persona-hr-coordinator",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/persona-hr-coordinator/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"3018afd512d130b813a5171e693c2e5dddecb11f26e1f874c69303158af7d817"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1238,"own":{"files":1,"bytes":1238},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.2 KiB","short":"1.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"gws-calendar","path":"skills/gws-calendar"},{"name":"gws-chat","path":"skills/gws-chat"},{"name":"gws-drive","path":"skills/gws-drive"},{"name":"gws-gmail","path":"skills/gws-gmail"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

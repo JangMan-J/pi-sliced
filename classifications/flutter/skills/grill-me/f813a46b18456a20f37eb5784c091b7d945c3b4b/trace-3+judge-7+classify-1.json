@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/grill-me",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/grill-me/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"3c2887c31b1e0f2efba6307de1fa2a5bc7eba8924aaee74b956c561865b4a522"},
+"status":"unresolvable",
+"reason":"no skill folder named grill-me at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

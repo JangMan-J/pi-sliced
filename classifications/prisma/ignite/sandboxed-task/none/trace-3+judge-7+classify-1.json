@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/ignite/sandboxed-task",
+"revision":"none",
+"trace":{"path":"traces/prisma/ignite/sandboxed-task/none/trace-3+judge-7.json","sha256":"b6ec07910fc05b22cf3b757e96955c4e59c1497fe0d2295c2ee2a063599810eb"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/prisma/ignite.git/' not found"
+}

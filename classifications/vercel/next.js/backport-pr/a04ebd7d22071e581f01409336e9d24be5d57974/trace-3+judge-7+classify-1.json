@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/next.js/backport-pr",
+"revision":"a04ebd7d22071e581f01409336e9d24be5d57974",
+"trace":{"path":"traces/vercel/next.js/backport-pr/a04ebd7d22071e581f01409336e9d24be5d57974/trace-3+judge-7.json","sha256":"57dbedc20aa21abf7d47b97898dccfd1f3650f34bc554417224c34ac4b0bde8f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4196,"own":{"files":1,"bytes":4196},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.1 KiB · CLI gh","short":"4.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"medusajs/medusa-claude-plugins/using-medusa-cloud",
+"revision":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc",
+"trace":{"path":"traces/medusajs/medusa-claude-plugins/using-medusa-cloud/42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc/trace-3+judge-7.json","sha256":"a073a9c415f2488f7334ff83ebcfa1770cd14ba0b0ffcc841b20fb80bc3259fd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4426,"own":{"files":1,"bytes":4426},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","mcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.3 KiB · CLI jq, mcloud","short":"4.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs mcloud"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

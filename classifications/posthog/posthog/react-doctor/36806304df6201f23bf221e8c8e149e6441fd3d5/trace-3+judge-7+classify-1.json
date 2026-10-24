@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/react-doctor",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/react-doctor/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"5f3a0eb438d0835719c008cdf5523b133b8389aeb8d7e81f7dc659e84cab5283"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1481,"own":{"files":1,"bytes":1481},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["react-doctor"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.4 KiB · CLI react-doctor","short":"1.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs react-doctor"]},{"marker":"stub","because":["own folder 1.4 KiB (1 file)","content is the react-doctor it wraps"]},{"marker":"unpinned-code","because":["npx react-doctor@latest: .agents/skills/react-doctor/SKILL.md:14"]}],
+"security":{"fetch-run":["npx react-doctor@latest @ .agents/skills/react-doctor/SKILL.md:14"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

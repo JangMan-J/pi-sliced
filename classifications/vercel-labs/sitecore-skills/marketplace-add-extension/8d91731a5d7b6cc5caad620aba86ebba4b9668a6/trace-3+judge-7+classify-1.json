@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/sitecore-skills/marketplace-add-extension",
+"revision":"8d91731a5d7b6cc5caad620aba86ebba4b9668a6",
+"trace":{"path":"traces/vercel-labs/sitecore-skills/marketplace-add-extension/8d91731a5d7b6cc5caad620aba86ebba4b9668a6/trace-3+judge-7.json","sha256":"d98e0b451401800b7f9f2d1c13ac515318a10761335a22db14ca8fd332d8506c"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10143,"own":{"files":2,"bytes":10143},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.9 KiB","short":"9.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"marketplace-add-xmc","path":".claude/skills/marketplace-add-xmc"},{"name":"marketplace-build-component","path":".claude/skills/marketplace-build-component"},{"name":"marketplace-sdk-reference","path":".claude/skills/marketplace-sdk-reference"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

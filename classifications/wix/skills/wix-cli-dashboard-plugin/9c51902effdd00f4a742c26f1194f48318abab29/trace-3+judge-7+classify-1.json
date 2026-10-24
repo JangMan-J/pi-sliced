@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wix/skills/wix-cli-dashboard-plugin",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"trace":{"path":"traces/wix/skills/wix-cli-dashboard-plugin/9c51902effdd00f4a742c26f1194f48318abab29/trace-3+judge-7.json","sha256":"970019de5c75392d20958ee4830a79f74f92fdb9ce93ed0ef81c921aa7769513"},
+"status":"unresolvable",
+"reason":"no skill folder named wix-cli-dashboard-plugin at 9c51902effdd00f4a742c26f1194f48318abab29 or at the remote HEAD 687e2faf013aeee2afcaa7ca0456a43754306302"
+}

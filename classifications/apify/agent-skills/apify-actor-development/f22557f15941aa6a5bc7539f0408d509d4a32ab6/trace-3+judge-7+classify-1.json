@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/agent-skills/apify-actor-development",
+"revision":"f22557f15941aa6a5bc7539f0408d509d4a32ab6",
+"trace":{"path":"traces/apify/agent-skills/apify-actor-development/f22557f15941aa6a5bc7539f0408d509d4a32ab6/trace-3+judge-7.json","sha256":"d221562572c4a27eb6411c7ff8de6e63ef517cbb2d0e47b973aa947344142018"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":39354,"own":{"files":7,"bytes":39354},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@playwright/mcp","apify"],"package":["apify-cli"],"mcp-server":["apify","playwright"],"credential":["APIFY_TOKEN"],"network":["console.apify.com"]},"summary":"7 files, 38 KiB · MCP apify, playwright · CLI @playwright/mcp, apify · packages apify-cli · 1 key · 1 host","short":"38 KiB · 2 CLI · 1 pkg · 1 key · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["1 package to install","2 MCP servers","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @playwright/mcp","runs apify"]},{"marker":"installs-packages","because":["installs apify-cli"]},{"marker":"network","because":["fetches from console.apify.com"]},{"marker":"credentials","because":["needs APIFY_TOKEN"]},{"marker":"mcp-server","because":["uses the apify MCP server","uses the playwright MCP server"]},{"marker":"unpinned-code","because":["npx @playwright/mcp@latest: skills/apify-actor-development/SKILL.md:107"]}],
+"security":{"fetch-run":["npx @playwright/mcp@latest @ skills/apify-actor-development/SKILL.md:107"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

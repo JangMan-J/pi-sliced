@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-023-robot-materials",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-023-robot-materials/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"0b40bf35491b4b24bd3e45d8f53fa6da463f0ac9cc1c4694814ac307a5fd25fb"},
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-023-robot-materials at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e"
+}

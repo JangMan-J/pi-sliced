@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/osmo/osmo",
+"revision":"a48a2414a50d1676a43b084afc4658bf2d406f83",
+"trace":{"path":"traces/nvidia/osmo/osmo/a48a2414a50d1676a43b084afc4658bf2d406f83/trace-3+judge-7.json","sha256":"f3408831ad5bed758707007e2808e6b9f46ba8393ce5d5bb55d3e565d302a4e3"},
+"status":"unresolvable",
+"reason":"no skill folder named osmo at a48a2414a50d1676a43b084afc4658bf2d406f83"
+}

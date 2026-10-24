@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/apm/apm-triage-panel",
+"revision":"2920043258932f0f67e6f01df7b9047eb42f358c",
+"trace":{"path":"traces/microsoft/apm/apm-triage-panel/2920043258932f0f67e6f01df7b9047eb42f358c/trace-3+judge-7.json","sha256":"29725e5d6af3d2dbd96b05dd80692c14801a79c94eda49505ce573a5fc1e0cad"},
+"status":"unresolvable",
+"reason":"no skill folder named apm-triage-panel at 2920043258932f0f67e6f01df7b9047eb42f358c"
+}

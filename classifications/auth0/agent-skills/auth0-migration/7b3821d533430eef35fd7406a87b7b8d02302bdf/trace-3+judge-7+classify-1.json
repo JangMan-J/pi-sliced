@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-migration",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-migration/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"5378f8bccdcabc8d1a5dcda02db105896bfc3612fed418beb1872fa35ef68ec3"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-migration at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

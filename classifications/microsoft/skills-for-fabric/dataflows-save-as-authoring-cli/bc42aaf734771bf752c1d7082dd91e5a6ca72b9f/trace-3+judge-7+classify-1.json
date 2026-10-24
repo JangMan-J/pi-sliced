@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/dataflows-save-as-authoring-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/dataflows-save-as-authoring-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"119316c9bc7f119526a92829263a8b6079b492c67d0abd2e8639789f6310b8fa"},
+"status":"unresolvable",
+"reason":"no skill folder named dataflows-save-as-authoring-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

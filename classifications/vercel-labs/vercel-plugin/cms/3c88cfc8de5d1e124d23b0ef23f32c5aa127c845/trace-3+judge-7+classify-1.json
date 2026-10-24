@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/cms",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/cms/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"15859c4c12397af1cf9e8620f32a473fc5524841090d9a3b808f5ea2317fc3d4"},
+"status":"unresolvable",
+"reason":"no skill folder named cms at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/skills/n8n-debugging-official",
+"revision":"27b6b9f429ac0be90cae764512dbc579d7107e95",
+"trace":{"path":"traces/n8n-io/skills/n8n-debugging-official/27b6b9f429ac0be90cae764512dbc579d7107e95/trace-3+judge-7.json","sha256":"6ed06df885c24b505ec1e56379407d7854cc766be8270e16f447b95f8714e40c"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":22097,"own":{"files":3,"bytes":22097},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 22 KiB","short":"22 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"without asking the user\": skills/n8n-debugging-official/SKILL.md:166"]}],
+"security":{"injection":["without asking the user @ skills/n8n-debugging-official/SKILL.md:166"]},
+"companions":{"named":[{"name":"n8n-credentials-and-security-official","path":"skills/n8n-credentials-and-security-official"},{"name":"n8n-error-handling-official","path":"skills/n8n-error-handling-official"},{"name":"n8n-node-configuration-official","path":"skills/n8n-node-configuration-official"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

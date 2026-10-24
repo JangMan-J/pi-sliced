@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/review-agent-setup",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/review-agent-setup/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"fd80165b6f9f4c577039025c90496c926c3d38ed312bf9b05337e05e1f8a2093"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6066,"own":{"files":1,"bytes":6066},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@veritasacta/verify","Blocked","claude","protect-mcp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.9 KiB · CLI @veritasacta/verify, Blocked +2","short":"5.9 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @veritasacta/verify","runs Blocked","runs claude","runs protect-mcp"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

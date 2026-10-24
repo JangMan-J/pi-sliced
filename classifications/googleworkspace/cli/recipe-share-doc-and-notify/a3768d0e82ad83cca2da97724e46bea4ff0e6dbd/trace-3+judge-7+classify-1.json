@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/recipe-share-doc-and-notify",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/recipe-share-doc-and-notify/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"348962fc0bc26c75ca4f6d7aed72532ae1785497026176e807f67700f2a761d0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1117,"own":{"files":1,"bytes":1117},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.1 KiB · CLI gws","short":"1.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gws"]},{"marker":"stub","because":["own folder 1.1 KiB (1 file)","content is the gws it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"gws-docs","path":"skills/gws-docs"},{"name":"gws-drive","path":"skills/gws-drive"},{"name":"gws-gmail","path":"skills/gws-gmail"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

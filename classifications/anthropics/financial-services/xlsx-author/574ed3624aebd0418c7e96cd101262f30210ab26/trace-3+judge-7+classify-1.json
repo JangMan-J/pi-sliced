@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/financial-services/xlsx-author",
+"revision":"574ed3624aebd0418c7e96cd101262f30210ab26",
+"trace":{"path":"traces/anthropics/financial-services/xlsx-author/574ed3624aebd0418c7e96cd101262f30210ab26/trace-3+judge-7.json","sha256":"08cfe51eb7e0a58b7d47094b77341463ba5437df91a0fee9fae935af9f6b2be6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1807,"own":{"files":1,"bytes":1807},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.8 KiB","short":"1.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

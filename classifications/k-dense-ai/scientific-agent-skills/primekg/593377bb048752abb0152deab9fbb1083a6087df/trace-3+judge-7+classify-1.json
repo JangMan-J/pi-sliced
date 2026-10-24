@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/primekg",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/primekg/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"936a76be30b2bec62e6371cee3e6360224333fb8c605354862989f9082cd640d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":17324,"own":{"files":2,"bytes":17324},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["arxiv.org","dataverse.harvard.edu"]},"summary":"2 files, 17 KiB · 2 hosts","short":"17 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from arxiv.org","fetches from dataverse.harvard.edu"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

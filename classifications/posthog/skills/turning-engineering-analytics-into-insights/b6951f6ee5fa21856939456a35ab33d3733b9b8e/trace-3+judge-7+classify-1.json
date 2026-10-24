@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/turning-engineering-analytics-into-insights",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/turning-engineering-analytics-into-insights/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"a93c954d99cd283d276c420b6e17797aaab54f4258b111430fe2211d95f36480"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":22499,"own":{"files":2,"bytes":22499},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 22 KiB","short":"22 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"creating-ai-subscription","path":"skills/omnibus/creating-ai-subscription"},{"name":"investigating-ci-failures","path":"skills/omnibus/investigating-ci-failures"},{"name":"managing-subscriptions","path":"skills/omnibus/managing-subscriptions"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

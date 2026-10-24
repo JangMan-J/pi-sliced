@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/next-upgrade",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/next-upgrade",
+"status":"resolved",
+"totals":{"files":1,"bytes":2928},
+"files":[
+{"path":"plugins/vercel/skills/next-upgrade/SKILL.md","size":2928,"blob":"09ad1f72f3ede0ccfc3023cfe617af8d5baaf4dc","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@next/codemod","at":[[0,59]]},
+{"kind":"package","name":"@types/react","at":[[0,78]]},
+{"kind":"package","name":"@types/react-dom","at":[[0,78]]},
+{"kind":"package","name":"next","at":[[0,68]]},
+{"kind":"package","name":"react","at":[[0,68]]},
+{"kind":"package","name":"react-dom","at":[[0,68]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/next-upgrade","files":1,"bytes":2928}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,68],[0,78]]},
+{"kind":"fetch-run","detail":"npx @next/codemod@latest","at":[[0,59]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

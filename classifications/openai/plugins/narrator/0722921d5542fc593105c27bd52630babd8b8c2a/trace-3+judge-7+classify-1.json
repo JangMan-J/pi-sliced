@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/narrator",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/narrator/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"19e20437543fbb195fed3c988620b50fa2170b77d66ed71956a5fe1cf83ffaeb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9139,"own":{"files":1,"bytes":9139},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ffmpeg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.9 KiB · CLI ffmpeg","short":"8.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs ffmpeg"]},{"marker":"agent-override-text","because":["\"ignore previous instructions\": plugins/higgsfield/skills/narrator/SKILL.md:158"]}],
+"security":{"injection":["ignore previous instructions @ plugins/higgsfield/skills/narrator/SKILL.md:158"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

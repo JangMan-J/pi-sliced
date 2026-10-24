@@ -1,0 +1,23 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"k-dense-ai/scientific-agent-skills/what-if-oracle",
+"source":"k-dense-ai/scientific-agent-skills",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"skillPath":"skills/what-if-oracle",
+"status":"resolved",
+"totals":{"files":2,"bytes":20055},
+"files":[
+{"path":"skills/what-if-oracle/SKILL.md","size":11817,"blob":"dc6b38f8dd501155017f5d23099bdc0513fe5ab9","how":"root"},
+{"path":"skills/what-if-oracle/references/scenario-templates.md","size":8238,"blob":"5158f770fc915f836093435b7778333ca2f89dd3","how":"link","from":0,"line":32}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/what-if-oracle","files":2,"bytes":20055}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":"CC BY-NC-SA 4.0"}
+}

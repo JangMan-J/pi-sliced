@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuopt/cuopt-lp-milp-api-python",
+"revision":"b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e",
+"trace":{"path":"traces/nvidia/cuopt/cuopt-lp-milp-api-python/b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e/trace-3+judge-7.json","sha256":"3c2d84a6feca5142a590f0cda7b59383d9c21d583219ef59b891ca05cd27f5fc"},
+"status":"unresolvable",
+"reason":"no skill folder named cuopt-lp-milp-api-python at b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/payments",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/payments/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"18e33ca0e61c807623f3801170ab890d14f03964cbc9f91806dab443402eac86"},
+"status":"unresolvable",
+"reason":"no skill folder named payments at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

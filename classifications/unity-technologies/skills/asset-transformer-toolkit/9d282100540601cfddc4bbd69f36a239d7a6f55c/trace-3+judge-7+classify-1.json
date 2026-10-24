@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/asset-transformer-toolkit",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/asset-transformer-toolkit/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"7e8f1f8671182c35ba6b066b2da4d98e8c15c107a36dd4679bcc6f656918ee41"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":31768,"own":{"files":7,"bytes":31768},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 31 KiB","short":"31 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apollographql/skills/graphql-operations",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"trace":{"path":"traces/apollographql/skills/graphql-operations/f9843dce86b1a561e3bfbb024e65c28a6cbbe38c/trace-3+judge-7.json","sha256":"094287a2056b87bf5fb9c4d4f75eddb3e0a2bf07082301c1d12ce00c29645b2d"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":43701,"own":{"files":6,"bytes":43701},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["graphql-codegen","graphql-inspector","graphql-query-complexity-checker"],"package":["@graphql-codegen/cli","@graphql-codegen/typed-document-node","@graphql-codegen/typescript","@graphql-codegen/typescript-operations","@graphql-eslint/eslint-plugin"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 43 KiB · CLI graphql-codegen, graphql-inspector +1 · packages @graphql-codegen/cli +4","short":"43 KiB · 3 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs graphql-codegen","runs graphql-inspector","runs graphql-query-complexity-checker"]},{"marker":"installs-packages","because":["installs @graphql-codegen/cli","installs @graphql-codegen/typed-document-node","installs @graphql-codegen/typescript","installs @graphql-codegen/typescript-operations","installs @graphql-eslint/eslint-plugin"]},{"marker":"unpinned-code","because":["npx graphql-codegen: skills/graphql-operations/references/tooling.md:69, skills/graphql-operations/references/tooling.md:72","npx graphql-inspector: skills/graphql-operations/references/tooling.md:327","npx graphql-query-complexity-checker: skills/graphql-operations/references/tooling.md:372"]}],
+"security":{"fetch-run":["npx graphql-codegen @ skills/graphql-operations/references/tooling.md:69, skills/graphql-operations/references/tooling.md:72","npx graphql-inspector @ skills/graphql-operations/references/tooling.md:327","npx graphql-query-complexity-checker @ skills/graphql-operations/references/tooling.md:372"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

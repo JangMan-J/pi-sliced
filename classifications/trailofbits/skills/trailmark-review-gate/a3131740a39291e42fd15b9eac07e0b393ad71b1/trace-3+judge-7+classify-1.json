@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/trailmark-review-gate",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/trailmark-review-gate/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"37d22f8690aa021a80e4eb06e328fc79ed7ba985be5a938b47a885433635f334"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9175,"own":{"files":4,"bytes":9175},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 9.0 KiB","short":"9.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"differential-review","path":"plugins/differential-review/skills/differential-review"},{"name":"graph-evolution","path":"plugins/trailmark/skills/graph-evolution"},{"name":"trailmark","path":"plugins/trailmark/skills/trailmark"},{"name":"trailmark-finding-triage","path":"plugins/trailmark/skills/trailmark-finding-triage"},{"name":"trailmark-structural","path":"plugins/trailmark/skills/trailmark-structural"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

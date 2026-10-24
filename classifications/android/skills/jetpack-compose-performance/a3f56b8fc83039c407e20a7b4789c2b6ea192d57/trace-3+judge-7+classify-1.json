@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"android/skills/jetpack-compose-performance",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"trace":{"path":"traces/android/skills/jetpack-compose-performance/a3f56b8fc83039c407e20a7b4789c2b6ea192d57/trace-3+judge-7.json","sha256":"8ce78013add533bc26bd19e8d05ea230584c8c4c170e8228ca81eca3a1224bff"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":150326,"own":{"files":10,"bytes":150326},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["cs.android.com"]},"summary":"10 files, 147 KiB · 1 host","short":"147 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from cs.android.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

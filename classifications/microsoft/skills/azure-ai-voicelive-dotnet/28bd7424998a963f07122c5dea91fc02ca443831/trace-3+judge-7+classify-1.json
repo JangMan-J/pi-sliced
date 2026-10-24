@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-voicelive-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-voicelive-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"0e129211cd1af9fe942c63c75575d791012a440c8748c835fe72fdd0a82ad8c1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9165,"own":{"files":1,"bytes":9165},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.AI.VoiceLive","Azure.Identity","Microsoft.CognitiveServices.Speech","NAudio"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","AZURE_VOICELIVE_API_KEY"],"network":[]},"summary":"1 file, 9.0 KiB · CLI dotnet · packages Azure.AI.VoiceLive +3 · 2 keys","short":"9.0 KiB · 1 CLI · 4 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.AI.VoiceLive","installs Azure.Identity","installs Microsoft.CognitiveServices.Speech","installs NAudio"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs AZURE_VOICELIVE_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

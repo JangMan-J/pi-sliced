@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langchain-skills/langgraph-cli",
+"revision":"704e9f4a2f962f449495515f2599502394bc84b2",
+"trace":{"path":"traces/langchain-ai/langchain-skills/langgraph-cli/704e9f4a2f962f449495515f2599502394bc84b2/trace-3+judge-7.json","sha256":"b1463344d35e7f58c93c96641dc96c78262b9569ff4ee717ff3a445e48467d13"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11190,"own":{"files":1,"bytes":11190},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@langchain/langgraph-cli","langgraph"],"package":["@langchain/langgraph-cli","langgraph-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI @langchain/langgraph-cli, langgraph · packages @langchain/langgraph-cli +1","short":"11 KiB · 2 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @langchain/langgraph-cli","runs langgraph"]},{"marker":"installs-packages","because":["installs @langchain/langgraph-cli","installs langgraph-cli"]},{"marker":"unpinned-code","because":["npx @langchain/langgraph-cli: config/skills/langgraph-cli/SKILL.md:41, config/skills/langgraph-cli/SKILL.md:245"]}],
+"security":{"fetch-run":["npx @langchain/langgraph-cli @ config/skills/langgraph-cli/SKILL.md:41, config/skills/langgraph-cli/SKILL.md:245"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

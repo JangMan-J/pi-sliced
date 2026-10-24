@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nvcf/nvcf-self-managed-prerequisite",
+"revision":"ba31b76f7fed92b39a7e3503ea97c5e181778150",
+"trace":{"path":"traces/nvidia/nvcf/nvcf-self-managed-prerequisite/ba31b76f7fed92b39a7e3503ea97c5e181778150/trace-3+judge-7.json","sha256":"338a67bccbd9c3797e5de2d0e464a2f811c92378590c03a64f6356db62ae721b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":15663,"own":{"files":3,"bytes":15663},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","helm","kubectl","make"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 15 KiB · CLI az, helm +2","short":"15 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs helm","runs kubectl","runs make"]}],
+"security":{},
+"companions":{"named":[{"name":"nvcf-self-managed-installation","path":"ai-tooling/user/skills/nvcf-self-managed-installation"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

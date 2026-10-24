@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemo-mbridge-resiliency",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemo-mbridge-resiliency/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"430c499de466437f6722fd2e9b9d6b8356f282c4021ebccef770f7a0ed13e45f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11324,"own":{"files":1,"bytes":11324},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ft_launcher","pytest","srun"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI ft_launcher, pytest +1","short":"11 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ft_launcher","runs pytest","runs srun"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

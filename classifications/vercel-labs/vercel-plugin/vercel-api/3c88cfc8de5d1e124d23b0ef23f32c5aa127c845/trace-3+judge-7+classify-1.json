@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/vercel-api",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/vercel-api/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"62cfc587872f34f400fbbdbf3a83b57c1301d56272f2c89a99ed348dabb752b1"},
+"status":"unresolvable",
+"reason":"no skill folder named vercel-api at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/sync",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/sync/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"de82ea62bf2d439ef06a904d2e214fc3803c1c271b6720fad5d3dcfa2992d117"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3146,"own":{"files":1,"bytes":3146},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.1 KiB","short":"3.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"without asking the user\": src/vs/sessions/skills/sync/SKILL.md:15"]}],
+"security":{"injection":["without asking the user @ src/vs/sessions/skills/sync/SKILL.md:15"]},
+"companions":{"named":[{"name":"commit","path":"src/vs/sessions/skills/commit"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

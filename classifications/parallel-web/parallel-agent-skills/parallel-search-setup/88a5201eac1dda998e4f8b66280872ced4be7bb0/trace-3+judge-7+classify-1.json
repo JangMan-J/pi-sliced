@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"parallel-web/parallel-agent-skills/parallel-search-setup",
+"revision":"88a5201eac1dda998e4f8b66280872ced4be7bb0",
+"trace":{"path":"traces/parallel-web/parallel-agent-skills/parallel-search-setup/88a5201eac1dda998e4f8b66280872ced4be7bb0/trace-3+judge-7.json","sha256":"38311901189d003ef0b65688360f9cfaea017468957921259bfb9a0095f4c1fa"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7600,"own":{"files":1,"bytes":7600},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude","codex","parallel-cli"],"package":[],"mcp-server":["search"],"credential":["PARALLEL_API_KEY"],"network":[]},"summary":"1 file, 7.4 KiB · MCP search · CLI claude, codex +1 · 1 key","short":"7.4 KiB · 3 CLI · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs claude","runs codex","runs parallel-cli"]},{"marker":"credentials","because":["needs PARALLEL_API_KEY"]},{"marker":"mcp-server","because":["uses the search MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"parallel-cli-setup","path":"skills/parallel-cli-setup"},{"name":"parallel-mcp-setup","path":"skills/parallel-mcp-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

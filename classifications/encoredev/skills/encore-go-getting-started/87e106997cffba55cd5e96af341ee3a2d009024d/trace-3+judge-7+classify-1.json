@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-go-getting-started",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-go-getting-started/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"c881bb8a459d04bfa32d6c26c6ed4aa27c6c603f2b05efef22426e73895827a9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4479,"own":{"files":1,"bytes":4479},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["encore","iex","iwr"],"package":["encoredev/tap/encore"],"mcp-server":[],"credential":[],"network":["encore.dev"]},"summary":"1 file, 4.4 KiB · CLI encore, iex +1 · packages encoredev/tap/encore · 1 host","short":"4.4 KiB · 3 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs encore","runs iex","runs iwr"]},{"marker":"installs-packages","because":["installs encoredev/tap/encore"]},{"marker":"network","because":["fetches from encore.dev"]},{"marker":"unpinned-code","because":["pipe to interpreter: encore/go-getting-started/SKILL.md:19, encore/go-getting-started/SKILL.md:22"]}],
+"security":{"fetch-run":["pipe to interpreter @ encore/go-getting-started/SKILL.md:19, encore/go-getting-started/SKILL.md:22"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

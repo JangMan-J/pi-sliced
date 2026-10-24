@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/generate-testability-wrappers",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/generate-testability-wrappers/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"b68d10bf814d80984be1a88c7340b03494405c9e9a320bba4a346d19b50fb5a1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15658,"own":{"files":1,"bytes":15658},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"detect-static-dependencies","path":"plugins/dotnet-test/skills/detect-static-dependencies"},{"name":"migrate-static-to-wrapper","path":"plugins/dotnet-test/skills/migrate-static-to-wrapper"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

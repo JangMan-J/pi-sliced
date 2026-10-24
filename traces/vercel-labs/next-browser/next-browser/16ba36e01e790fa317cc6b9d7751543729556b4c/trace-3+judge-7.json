@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/next-browser/next-browser",
+"source":"vercel-labs/next-browser",
+"revision":"16ba36e01e790fa317cc6b9d7751543729556b4c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named next-browser at 16ba36e01e790fa317cc6b9d7751543729556b4c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

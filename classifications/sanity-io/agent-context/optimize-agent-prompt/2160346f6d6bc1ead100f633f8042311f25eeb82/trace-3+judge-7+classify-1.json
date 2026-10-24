@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/agent-context/optimize-agent-prompt",
+"revision":"2160346f6d6bc1ead100f633f8042311f25eeb82",
+"trace":{"path":"traces/sanity-io/agent-context/optimize-agent-prompt/2160346f6d6bc1ead100f633f8042311f25eeb82/trace-3+judge-7.json","sha256":"77b828bac90a5091e74ea1fcc2423019b39a8be66e206397ab474ac72337a082"},
+"status":"unresolvable",
+"reason":"no skill folder named optimize-agent-prompt at 2160346f6d6bc1ead100f633f8042311f25eeb82"
+}

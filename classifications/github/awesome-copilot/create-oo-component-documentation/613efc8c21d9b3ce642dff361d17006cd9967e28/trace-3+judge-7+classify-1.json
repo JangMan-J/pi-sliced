@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/create-oo-component-documentation",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/create-oo-component-documentation/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"75ca1fded5ac48ee71a535d5b0e137cac7f4385f0291c94c9f47eba58fb0da06"},
+"status":"unresolvable",
+"reason":"no skill folder named create-oo-component-documentation at 613efc8c21d9b3ce642dff361d17006cd9967e28 or at the remote HEAD d85f762d6e521abf5fe16703946e9b38adc42da7"
+}

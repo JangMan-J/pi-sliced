@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/agent-canvas-environment",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/agent-canvas-environment/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"14ef110b778f35edee85bc155198dce2056d330e56cec2ba227cf0273c4f7b2d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9959,"own":{"files":1,"bytes":9959},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["as","base_agent_settings","def","jq","unique_by","with_skill_loading","with_tools"],"package":[],"mcp-server":[],"credential":["LOCAL_BACKEND_API_KEY","SESSION_API_KEY"],"network":[]},"summary":"1 file, 9.7 KiB · CLI as, base_agent_settings +5 · 2 keys","short":"9.7 KiB · 7 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["7 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs as","runs base_agent_settings","runs def","runs jq","runs unique_by","runs with_skill_loading","runs with_tools"]},{"marker":"credentials","because":["needs LOCAL_BACKEND_API_KEY","needs SESSION_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"openhands","path":"plugins/openhands"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,35 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel/vercel-plugin/bootstrap",
+"source":"vercel/vercel-plugin",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"skillPath":"skills/bootstrap",
+"status":"resolved",
+"totals":{"files":1,"bytes":8276},
+"files":[
+{"path":"skills/bootstrap/SKILL.md","size":8276,"blob":"55dce4ed82cfe1cec0ae12efa0249972cf1ada15","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"base64url","at":[[0,144]]},
+{"kind":"cli","name":"comm","at":[[0,164]]},
+{"kind":"cli","name":"next-forge","at":[[0,227]]},
+{"kind":"cli","name":"require","at":[[0,144]]},
+{"kind":"cli","name":"shadcn","at":[[0,186]]},
+{"kind":"cli","name":"vercel","at":[[0,87],[0,88],[0,95],[0,96],[0,97],[0,114],[0,120],[0,126],[0,127],[0,133],[0,145],[0,146],[0,148],[0,221]]},
+{"kind":"credential","name":"AUTH_SECRET","at":[[0,144],[0,145],[0,146]]}
+],
+"regions":[
+{"kind":"own","path":"skills/bootstrap","files":1,"bytes":8276}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx next-forge","at":[[0,227]]},
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,186]]}
+],
+"namedSkills":[
+{"name":"auth","path":"skills/auth","at":[[0,20]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

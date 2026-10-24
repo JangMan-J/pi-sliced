@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"remotion-dev/skills/remotion-interactivity",
+"revision":"039e8a2fc78b67efc228d5645367838b85818a1c",
+"trace":{"path":"traces/remotion-dev/skills/remotion-interactivity/039e8a2fc78b67efc228d5645367838b85818a1c/trace-3+judge-7.json","sha256":"add80beb3269546a4a2c53df347c36e4a9643383c0fe5a748b6f3611181f075c"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":21625,"own":{"files":3,"bytes":21625},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["remotion"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 21 KiB · CLI remotion","short":"21 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs remotion"]},{"marker":"unpinned-code","because":["bunx remotion: skills/remotion-interactivity/SKILL.md:215"]}],
+"security":{"fetch-run":["bunx remotion @ skills/remotion-interactivity/SKILL.md:215"]},
+"companions":{"named":[{"name":"remotion-captions","path":"skills/remotion-captions"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

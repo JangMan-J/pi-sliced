@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/fuzzing-obstacles",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/fuzzing-obstacles/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"6579374f7f82d9aa72a6b72cf217f00a82c760f10916c4ffac1379d0782bc052"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15822,"own":{"files":1,"bytes":15822},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["afl-clang-fast++","cargo","clang++","hfuzz-clang++"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI afl-clang-fast++, cargo +2","short":"15 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs afl-clang-fast++","runs cargo","runs clang++","runs hfuzz-clang++"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

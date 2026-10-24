@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/junior/slack-msw-tests",
+"revision":"85b89543fea2ef77dff126a4a0f2e9898204cf4a",
+"trace":{"path":"traces/getsentry/junior/slack-msw-tests/85b89543fea2ef77dff126a4a0f2e9898204cf4a/trace-3+judge-7.json","sha256":"5308aa142df7a034fa7bf0fca9b1bc2aa8280becb3d6f216470c9f2d7453d1db"},
+"status":"unresolvable",
+"reason":"no skill folder named slack-msw-tests at 85b89543fea2ef77dff126a4a0f2e9898204cf4a"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nuxt/scripts/oxc-walker-skilld",
+"revision":"321e7574938db0fb9ff49b76a6c9d8ebdb634387",
+"trace":{"path":"traces/nuxt/scripts/oxc-walker-skilld/321e7574938db0fb9ff49b76a6c9d8ebdb634387/trace-3+judge-7.json","sha256":"a41d1dbc169a65c28152399d650d76e9c2adb9a3e854b1d6fb1a326b1578bdd9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7095,"own":{"files":1,"bytes":7095},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skilld"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.9 KiB · CLI skilld","short":"6.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skilld"]},{"marker":"unpinned-code","because":["npx skilld: .claude/skills/oxc-walker-skilld/SKILL.md:20"]}],
+"security":{"fetch-run":["npx skilld @ .claude/skills/oxc-walker-skilld/SKILL.md:20"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

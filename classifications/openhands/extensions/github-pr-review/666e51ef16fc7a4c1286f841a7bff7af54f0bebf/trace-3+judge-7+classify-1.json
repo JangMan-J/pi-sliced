@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/github-pr-review",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/github-pr-review/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"69eab7cd404a1f95eff4150ca54a6cc6e687d6541e03de66a7221287634e706a"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10292,"own":{"files":2,"bytes":10292},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Select-String","Set-Content","curl.exe","gh"],"package":[],"mcp-server":[],"credential":["GITHUB_TOKEN"],"network":["api.github.com"]},"summary":"2 files, 10 KiB · CLI Select-String, Set-Content +2 · 1 key · 1 host","short":"10 KiB · 4 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs curl.exe","runs gh","runs Select-String","runs Set-Content"]},{"marker":"network","because":["fetches from api.github.com"]},{"marker":"credentials","because":["needs GITHUB_TOKEN"]},{"marker":"sends-credentials","because":["GITHUB_TOKEN -> api.github.com: skills/github-pr-review/SKILL.md:181"]}],
+"security":{"secret-egress":["GITHUB_TOKEN -> api.github.com @ skills/github-pr-review/SKILL.md:181"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/cds/researchdeprecation-usage",
+"revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"trace":{"path":"traces/coinbase/cds/researchdeprecation-usage/d35ad8e2c164cbd3ddccfed26720844b6f1db506/trace-3+judge-7.json","sha256":"891ad67250c4d15bf79b51a3c9573b362eccc7bc593a1b1de881e8c051b579a4"},
+"status":"unresolvable",
+"reason":"no skill folder named researchdeprecation-usage at d35ad8e2c164cbd3ddccfed26720844b6f1db506"
+}

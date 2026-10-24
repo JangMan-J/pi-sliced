@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/turborepo",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/turborepo/none/trace-3+judge-7.json","sha256":"e3fc2df93b177f1b06dacfac07131a1ac8228fd22c67936f047a862710fdf100"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

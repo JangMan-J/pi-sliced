@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-testing",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-testing/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"a78b8244ca997f97f1f4a720c205a5b9094d6189a49f53323b83bd180f40e972"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15272,"own":{"files":1,"bytes":7433},"otherSkills":{"count":1,"files":1,"bytes":7839},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["encore"],"package":["vitest"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB · +1 other skill · CLI encore · packages vitest","short":"15 KiB · +1 skill · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs encore"]},{"marker":"installs-packages","because":["installs vitest"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at encore/api"]}],
+"security":{},
+"companions":{"named":[{"name":"api","path":"encore/api"},{"name":"auth","path":"encore/auth"}],"pulled":[{"path":"encore/api","files":1,"bytes":7839}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

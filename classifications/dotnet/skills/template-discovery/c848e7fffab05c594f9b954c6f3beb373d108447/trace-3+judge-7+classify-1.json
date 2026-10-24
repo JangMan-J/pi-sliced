@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/template-discovery",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/template-discovery/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"d903d87b2119932aa7b4d9e20e73647def0fc671434dd752c696c125d0a13804"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12262,"own":{"files":1,"bytes":12262},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB · CLI dotnet","short":"12 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]}],
+"security":{},
+"companions":{"named":[{"name":"template-authoring","path":"plugins/dotnet-template-engine/skills/template-authoring"},{"name":"template-comparison","path":"plugins/dotnet-template-engine/skills/template-comparison"},{"name":"template-instantiation","path":"plugins/dotnet-template-engine/skills/template-instantiation"},{"name":"template-smart-defaults","path":"plugins/dotnet-template-engine/skills/template-smart-defaults"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

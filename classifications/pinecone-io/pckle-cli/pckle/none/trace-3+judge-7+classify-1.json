@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pinecone-io/pckle-cli/pckle",
+"revision":"none",
+"trace":{"path":"traces/pinecone-io/pckle-cli/pckle/none/trace-3+judge-7.json","sha256":"f8648b91dd5fef40e55bc541bc9b1a9b91ebf7ad3ea53510e2df1ac0febc1b92"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/pinecone-io/pckle-cli.git/' not found"
+}

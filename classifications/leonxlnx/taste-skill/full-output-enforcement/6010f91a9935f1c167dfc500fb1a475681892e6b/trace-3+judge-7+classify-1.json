@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/full-output-enforcement",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/full-output-enforcement/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"30ae5dcde9eb26f3a2a8a3539c16013be35451ba448f0660aeb41c0491c91a9c"},
+"status":"unresolvable",
+"reason":"no skill folder named full-output-enforcement at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/output-skill)"
+}

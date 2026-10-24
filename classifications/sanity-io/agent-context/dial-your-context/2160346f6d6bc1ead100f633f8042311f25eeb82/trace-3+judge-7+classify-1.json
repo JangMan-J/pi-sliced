@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/agent-context/dial-your-context",
+"revision":"2160346f6d6bc1ead100f633f8042311f25eeb82",
+"trace":{"path":"traces/sanity-io/agent-context/dial-your-context/2160346f6d6bc1ead100f633f8042311f25eeb82/trace-3+judge-7.json","sha256":"3340a2ee65c3219bc5b7f37b9f674ccd380ff3383bf1a10c393e3f6a086c60ae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18411,"own":{"files":1,"bytes":18411},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["context"],"credential":["SANITY_ORGANIZATION_TOKEN"],"network":[]},"summary":"1 file, 18 KiB · MCP context · 1 key","short":"18 KiB · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 credential"]},
+"markers":[{"marker":"credentials","because":["needs SANITY_ORGANIZATION_TOKEN"]},{"marker":"mcp-server","because":["uses the context MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"shape-your-agent","path":"skills/shape-your-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

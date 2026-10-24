@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/codex/codex-issue-digest",
+"source":"openai/codex",
+"revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named codex-issue-digest at 970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

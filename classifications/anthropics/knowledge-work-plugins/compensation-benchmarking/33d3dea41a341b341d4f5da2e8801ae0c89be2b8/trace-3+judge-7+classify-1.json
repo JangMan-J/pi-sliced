@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/compensation-benchmarking",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/compensation-benchmarking/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"32a6f7b7a783ef270c5f9e1f6821aa2521698ce0832dc487acd54e0383efdcb1"},
+"status":"unresolvable",
+"reason":"no skill folder named compensation-benchmarking at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

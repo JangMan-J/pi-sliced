@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nuxt/scripts/oxc-walker-skilld",
+"source":"nuxt/scripts",
+"revision":"321e7574938db0fb9ff49b76a6c9d8ebdb634387",
+"skillPath":".claude/skills/oxc-walker-skilld",
+"status":"resolved",
+"totals":{"files":1,"bytes":7095},
+"files":[
+{"path":".claude/skills/oxc-walker-skilld/SKILL.md","size":7095,"blob":"a023bf84a97d3fa46636e814300a809925862868","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skilld","at":[[0,20],[0,23],[0,24],[0,25]]}
+],
+"regions":[
+{"kind":"own","path":".claude/skills/oxc-walker-skilld","files":1,"bytes":7095}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skilld","at":[[0,20]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":null}
+}

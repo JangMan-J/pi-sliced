@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/animation-performance",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/animation-performance/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"02e51c942db154c5bad4e6437172fd440c38d940cbf84f409f1ece529d98c635"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13966,"own":{"files":1,"bytes":13966},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"animate","path":"skills/animate"},{"name":"animate-expo","path":"skills/animate-expo"},{"name":"review-animations","path":"skills/review-animations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

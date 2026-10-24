@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-relay/create-beta-tag",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"trace":{"path":"traces/nvidia/nemo-relay/create-beta-tag/8109e75036c1c97c26fab532fcf6a83f2152babe/trace-3+judge-7.json","sha256":"78b277192b22512b32b9743f16659463a998b1f854382383d53ebeb909680868"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2910,"own":{"files":1,"bytes":2910},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["p"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.8 KiB · CLI p","short":"2.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs p"]},{"marker":"stub","because":["own folder 2.8 KiB (1 file)","content is the p it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

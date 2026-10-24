@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/django-access-review",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/django-access-review/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"7fb7fcf1a67659f86a345bab1a6a5b7d489a05b6d6e9dc87c798187e9eaa108c"},
+"status":"unresolvable",
+"reason":"no skill folder named django-access-review at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

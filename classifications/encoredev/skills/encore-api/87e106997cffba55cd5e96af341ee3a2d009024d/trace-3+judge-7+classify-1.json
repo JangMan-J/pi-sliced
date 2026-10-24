@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-api",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-api/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"34cb5e5fc814eddbc703b6ec8b441e1fc9950ccb2c289389fb3b03f41a48b9b6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7839,"own":{"files":1,"bytes":7839},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.7 KiB","short":"7.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"auth","path":"encore/auth"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

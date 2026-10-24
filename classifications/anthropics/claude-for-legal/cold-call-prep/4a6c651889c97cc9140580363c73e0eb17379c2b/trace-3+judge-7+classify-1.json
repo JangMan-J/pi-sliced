@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/cold-call-prep",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/cold-call-prep/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"131540a3fde13ac778551d319aba52bc8bcdce59432d9da281e312fd5c36b410"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7216,"own":{"files":1,"bytes":7216},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.0 KiB","short":"7.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"socratic-drill","path":"law-student/skills/socratic-drill"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

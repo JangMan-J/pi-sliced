@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/optimize-web",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/optimize-web/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"5ada4202cb49c4e14f23f2a39a51d4b64c65e1cd4f7bc8e96ff1caead3a976e0"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":30271,"own":{"files":3,"bytes":30271},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["serve","toktx","unity"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 30 KiB · CLI serve, toktx +1","short":"30 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs serve","runs toktx","runs unity"]},{"marker":"unpinned-code","because":["npx serve: skills/optimize-web/SKILL.md:404"]}],
+"security":{"fetch-run":["npx serve @ skills/optimize-web/SKILL.md:404"]},
+"companions":{"named":[{"name":"unity-cli","path":"skills/unity-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

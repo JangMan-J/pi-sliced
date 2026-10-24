@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"figma/dev-mode-mcp-server-guide/figma-implement-design",
+"revision":"056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+"trace":{"path":"traces/figma/dev-mode-mcp-server-guide/figma-implement-design/056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb/trace-3+judge-7.json","sha256":"d3b858f18738ece085e395d5816c9763cb0ab10207406444c9f28c579620b7de"},
+"status":"unresolvable",
+"reason":"no skill folder named figma-implement-design at 056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb"
+}

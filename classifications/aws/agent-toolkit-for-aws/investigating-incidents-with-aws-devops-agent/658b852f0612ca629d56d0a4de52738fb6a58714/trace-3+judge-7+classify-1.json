@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/investigating-incidents-with-aws-devops-agent",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/investigating-incidents-with-aws-devops-agent/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"90980dcfe29c5b7fcd682c552ee8d73b9fd10543a60c08efd13312549c9ec44b"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9409,"own":{"files":2,"bytes":9409},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["update-backlog-task"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.2 KiB · CLI update-backlog-task","short":"9.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs update-backlog-task"]}],
+"security":{},
+"companions":{"named":[{"name":"chatting-with-aws-devops-agent","path":"plugins/aws-agents-for-devsecops/skills/chatting-with-aws-devops-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"posthog/ai-plugin/debugging-local-replay",
+"source":"posthog/ai-plugin",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named debugging-local-replay at 0809767db74e427a9596e8c370d94df288082dc0",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

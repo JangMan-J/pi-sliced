@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-agent-sdk-demos/xlsx",
+"revision":"826b268506a5f3707623c9e6140b200befcbebae",
+"trace":{"path":"traces/anthropics/claude-agent-sdk-demos/xlsx/826b268506a5f3707623c9e6140b200befcbebae/trace-3+judge-7.json","sha256":"5b34709c5f57123e8447e5fb38d0081e67da932b82c2950db6c5b7dd3fe03b45"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":18507,"own":{"files":3,"bytes":18507},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gtimeout","soffice"],"package":["openpyxl"],"mcp-server":[],"credential":[],"network":["openoffice.org"]},"summary":"3 files, 18 KiB · CLI gtimeout, soffice · packages openpyxl · 1 host","short":"18 KiB · 2 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gtimeout","runs soffice"]},{"marker":"installs-packages","because":["installs openpyxl"]},{"marker":"network","because":["fetches from openoffice.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

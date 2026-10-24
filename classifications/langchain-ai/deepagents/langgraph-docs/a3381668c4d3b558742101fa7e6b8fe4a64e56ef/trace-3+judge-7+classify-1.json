@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/deepagents/langgraph-docs",
+"revision":"a3381668c4d3b558742101fa7e6b8fe4a64e56ef",
+"trace":{"path":"traces/langchain-ai/deepagents/langgraph-docs/a3381668c4d3b558742101fa7e6b8fe4a64e56ef/trace-3+judge-7.json","sha256":"5bc81570f9de0a8ae7042d4628fe299f73b85ab9b9b72ab9bd9739d0af076d5e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1138,"own":{"files":1,"bytes":1138},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["docs.langchain.com"]},"summary":"1 file, 1.1 KiB · 1 host","short":"1.1 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from docs.langchain.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

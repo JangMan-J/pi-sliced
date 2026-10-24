@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-skills/react-native-brownfield-migration",
+"revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+"trace":{"path":"traces/callstackincubator/agent-skills/react-native-brownfield-migration/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/trace-3+judge-7.json","sha256":"3ae757983960fa455c9677998824c1e63fe811d5795ea23ae9c76bd6316ede7d"},
+"status":"resolved",
+"footprint":{"files":14,"bytes":82651,"own":{"files":13,"bytes":68060},"otherSkills":{"count":1,"files":1,"bytes":14591},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["brownfield","create-expo-app","pod","react-native","xcodebuild"],"package":["@callstack/react-native-brownfield"],"mcp-server":[],"credential":[],"network":[]},"summary":"14 files, 81 KiB · +1 other skill · CLI brownfield, create-expo-app +3 · packages @callstack/react-native-brownfield","short":"81 KiB · +1 skill · 5 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs brownfield","runs create-expo-app","runs pod","runs react-native","runs xcodebuild"]},{"marker":"installs-packages","because":["installs @callstack/react-native-brownfield"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/assess-react-native-migration"]},{"marker":"unpinned-code","because":["npx brownfield: skills/react-native-brownfield-migration/SKILL.md:37, skills/react-native-brownfield-migration/references/bare-android-aar-generation.md:14, skills/react-native-brownfield-migration/references/bare-android-aar-generation.md:15","npx create-expo-app@latest: skills/react-native-brownfield-migration/references/expo-create-app.md:14","npx react-native: skills/react-native-brownfield-migration/references/bare-ios-native-integration.md:69"]}],
+"security":{"fetch-run":["npx brownfield @ skills/react-native-brownfield-migration/SKILL.md:37, skills/react-native-brownfield-migration/references/bare-android-aar-generation.md:14, skills/react-native-brownfield-migration/references/bare-android-aar-generation.md:15 +13","npx create-expo-app@latest @ skills/react-native-brownfield-migration/references/expo-create-app.md:14","npx react-native @ skills/react-native-brownfield-migration/references/bare-ios-native-integration.md:69"]},
+"companions":{"named":[{"name":"agent-device","path":"plugins/vendored/.agents/skills/agent-device"}],"pulled":[{"path":"skills/assess-react-native-migration","files":1,"bytes":14591}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

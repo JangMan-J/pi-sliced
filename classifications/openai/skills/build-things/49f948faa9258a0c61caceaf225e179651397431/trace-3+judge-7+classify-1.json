@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/build-things",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/build-things/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"621851e638f22862efce8a122bb78699d42a5c3de587572df8275b3498cbda01"},
+"status":"unresolvable",
+"reason":"no skill folder named build-things at 49f948faa9258a0c61caceaf225e179651397431"
+}

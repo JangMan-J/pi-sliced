@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"redis/agent-skills/redis-security",
+"revision":"a84871d065f398fed55e1633f66b66f731eb4e2b",
+"trace":{"path":"traces/redis/agent-skills/redis-security/a84871d065f398fed55e1633f66b66f731eb4e2b/trace-3+judge-7.json","sha256":"81da4d6b71168cbe109bdb6fa9c865aa31bd274d499661005c661da196a5bcb8"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":7097,"own":{"files":4,"bytes":7097},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["iptables"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 6.9 KiB · CLI iptables","short":"6.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs iptables"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

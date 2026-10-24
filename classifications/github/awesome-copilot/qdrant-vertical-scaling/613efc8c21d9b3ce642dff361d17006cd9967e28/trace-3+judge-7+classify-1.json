@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/qdrant-vertical-scaling",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/qdrant-vertical-scaling/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"076920e35526161b3b0e8494165622c001ddf1c55aca33d7a09908a415d153f2"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":15396,"own":{"files":1,"bytes":4377},"otherSkills":{"count":4,"files":4,"bytes":11019},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 15 KiB · +4 other skills","short":"15 KiB · +4 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/qdrant-monitoring","pulls in 1 file of the skill at skills/qdrant-monitoring/debugging","pulls in 1 file of the skill at skills/qdrant-monitoring/setup","pulls in 1 file of the skill at skills/qdrant-scaling/scaling-data-volume/horizontal-scaling"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/qdrant-monitoring","files":1,"bytes":1103},{"path":"skills/qdrant-monitoring/debugging","files":1,"bytes":3503},{"path":"skills/qdrant-monitoring/setup","files":1,"bytes":3418},{"path":"skills/qdrant-scaling/scaling-data-volume/horizontal-scaling","files":1,"bytes":2995}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

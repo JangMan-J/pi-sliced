@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/mimir",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/mimir/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"2c3bdddd765f59eb80ce3b17ca4a8488b8672a67706acbb2caaf041094fc94db"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":7293,"own":{"files":3,"bytes":7293},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["demo.yaml","docker","helm","jq","kubectl","mimir"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 7.1 KiB · CLI demo.yaml, docker +4","short":"7.1 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs demo.yaml","runs docker","runs helm","runs jq","runs kubectl","runs mimir"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/assuredworkloads-environment-assessor",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/assuredworkloads-environment-assessor/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"f899d1d88b7cf6546b8431d0c157ca06f34a288a62268a9f66e0f5974b36ce83"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":62896,"own":{"files":4,"bytes":62896},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":["console.cloud.google.com"]},"summary":"4 files, 61 KiB · CLI gcloud · 1 host","short":"61 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"network","because":["fetches from console.cloud.google.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

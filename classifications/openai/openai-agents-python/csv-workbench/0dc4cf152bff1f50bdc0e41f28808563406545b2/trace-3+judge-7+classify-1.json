@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/openai-agents-python/csv-workbench",
+"revision":"0dc4cf152bff1f50bdc0e41f28808563406545b2",
+"trace":{"path":"traces/openai/openai-agents-python/csv-workbench/0dc4cf152bff1f50bdc0e41f28808563406545b2/trace-3+judge-7.json","sha256":"37359b2768678f627a1dbb49bce64624b10fe4b7c9516ced0e548e402030e7ae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":587,"own":{"files":1,"bytes":587},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 587 B","short":"587 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

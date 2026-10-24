@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/next-sanity/next-cache-components",
+"revision":"f691ea56536a7d23fc5528e4c575f37f6b838207",
+"trace":{"path":"traces/sanity-io/next-sanity/next-cache-components/f691ea56536a7d23fc5528e4c575f37f6b838207/trace-3+judge-7.json","sha256":"5f833cb4afc663266d0e08e695ea8384b9ce4405d6936ed78af0781b25020ca3"},
+"status":"unresolvable",
+"reason":"no skill folder named next-cache-components at f691ea56536a7d23fc5528e4c575f37f6b838207"
+}

@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"webflow/webflow-skills/webflow-code-component-troubleshoot-deploy",
+"source":"webflow/webflow-skills",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"skillPath":"plugins/webflow-skills/skills/troubleshoot-deploy",
+"status":"resolved",
+"totals":{"files":2,"bytes":20093},
+"files":[
+{"path":"plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md","size":5168,"blob":"2ef49c03a26c5f6df553211937f6eb774d7c7328","how":"root"},
+{"path":"plugins/webflow-skills/skills/troubleshoot-deploy/references/ERROR_CATALOG.md","size":14925,"blob":"79bf3842716209802fba2822da922235541c159e","how":"link","from":0,"line":68}
+],
+"outside":[
+{"kind":"cli","name":"tsc","at":[[0,77],[0,126]]},
+{"kind":"cli","name":"webflow","at":[[0,33],[0,34],[0,96],[0,120],[0,123],[0,135],[0,137],[0,153],[0,154],[1,745],[1,748]]},
+{"kind":"credential","name":"WEBFLOW_WORKSPACE_API_TOKEN","at":[[0,95]]},
+{"kind":"package","name":"@webflow/data-types","at":[[0,101]]},
+{"kind":"package","name":"@webflow/react","at":[[0,76],[0,101]]},
+{"kind":"package","name":"@webflow/webflow-cli","at":[[0,101]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/webflow-skills/skills/troubleshoot-deploy","files":2,"bytes":20093}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx tsc","at":[[0,77],[0,126]]},
+{"kind":"fetch-run","detail":"npx webflow","at":[[0,33],[0,34],[0,96],[0,120],[0,123],[0,135],[0,137],[0,153],[0,154],[1,745],[1,748]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

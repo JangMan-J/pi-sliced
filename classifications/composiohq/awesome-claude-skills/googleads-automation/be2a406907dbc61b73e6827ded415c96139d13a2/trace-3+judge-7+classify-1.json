@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/googleads-automation",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/googleads-automation/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"974ac848c7096e3a23214b71c8bcac6b2fcd218dd20ef8e77a2282cea15cefe5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6547,"own":{"files":1,"bytes":6547},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.4 KiB","short":"6.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

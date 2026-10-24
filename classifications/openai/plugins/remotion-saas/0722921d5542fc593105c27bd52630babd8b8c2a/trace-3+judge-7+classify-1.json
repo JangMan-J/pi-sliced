@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/remotion-saas",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/remotion-saas/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"ea50d039af8fec6bab6ebbb8fa42336b63e886ed9b8eafd833c84ee39969266f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":6522,"own":{"files":4,"bytes":6522},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["remotion"],"package":[],"mcp-server":[],"credential":[],"network":["www.remotion.dev"]},"summary":"4 files, 6.4 KiB · CLI remotion · 1 host","short":"6.4 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs remotion"]},{"marker":"network","because":["fetches from www.remotion.dev"]},{"marker":"unpinned-code","because":["npx remotion: plugins/remotion/skills/remotion-saas/rendering.md:9, plugins/remotion/skills/remotion-saas/rendering.md:40, plugins/remotion/skills/remotion-saas/rendering.md:43"]}],
+"security":{"fetch-run":["npx remotion @ plugins/remotion/skills/remotion-saas/rendering.md:9, plugins/remotion/skills/remotion-saas/rendering.md:40, plugins/remotion/skills/remotion-saas/rendering.md:43 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

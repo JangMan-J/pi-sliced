@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/things-mac",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/things-mac/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"e7090cc2b3c627f19e09f58214db6fe58b509fd52f173df3ac905b0f8e88427f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3555,"own":{"files":1,"bytes":3555},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["things"],"package":["github.com/ossianhempel/things3-cli/cmd/things"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.5 KiB · CLI things · packages github.com/ossianhempel/things3-cli/cmd/things","short":"3.5 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs things"]},{"marker":"installs-packages","because":["installs github.com/ossianhempel/things3-cli/cmd/things"]},{"marker":"stub","because":["own folder 3.5 KiB (1 file)","content is the things it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

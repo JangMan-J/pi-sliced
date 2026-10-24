@@ -1,0 +1,51 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/eas-app-stores",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/eas-app-stores",
+"status":"resolved",
+"totals":{"files":7,"bytes":56990},
+"files":[
+{"path":"plugins/expo/skills/eas-app-stores/SKILL.md","size":7429,"blob":"6c2307cb3e65df84337ad8815338102af475276d","how":"root"},
+{"path":"plugins/expo/skills/eas-app-stores/references/app-store-metadata.md","size":13898,"blob":"758a3bd099d433c8d0f3e3bef5b0f73aa3648c34","how":"path","from":0,"line":29},
+{"path":"plugins/expo/skills/eas-app-stores/references/ios-app-store.md","size":11545,"blob":"95dc96a5690b8c6e9940f2e30d149270effe35eb","how":"path","from":0,"line":31},
+{"path":"plugins/expo/skills/eas-app-stores/references/native-ios.md","size":10180,"blob":"0ba5f7e89c6e3c89d7385ae078c1da63c6cd8935","how":"link","from":0,"line":16},
+{"path":"plugins/expo/skills/eas-app-stores/references/play-store.md","size":5790,"blob":"2d0a1db302cd9e48787bc4e95240b65428434c63","how":"link","from":0,"line":17},
+{"path":"plugins/expo/skills/eas-app-stores/references/testflight.md","size":5973,"blob":"1e6aeb6ff02ef2f66c50a548d9c4d8c4f9913060","how":"link","from":0,"line":21},
+{"path":"plugins/expo/skills/eas-app-stores/references/workflows.md","size":2175,"blob":"4901f750b90b07d38d45d2554a11e39dc9cbccca","how":"path","from":0,"line":27}
+],
+"outside":[
+{"kind":"cli","name":"eas","at":[[0,40],[0,146],[0,149],[0,158],[0,161],[0,164],[0,165],[1,36],[1,46],[2,33],[2,45],[2,81],[2,84],[2,287],[2,296],[2,299],[2,335],[3,145],[3,148],[3,150],[3,156],[4,58],[4,136],[4,139],[4,142],[4,158],[4,225],[4,236],[5,10],[5,12],[5,15],[5,24],[5,25],[5,26],[5,60]]},
+{"kind":"cli","name":"eas-cli","at":[[0,46],[0,57],[0,60],[0,63],[0,70],[0,73],[0,168],[5,31]]},
+{"kind":"cli","name":"expo","at":[[0,81],[3,7]]},
+{"kind":"cli","name":"plutil","at":[[3,128]]},
+{"kind":"cli","name":"pod","at":[[3,48]]},
+{"kind":"cli","name":"sips","at":[[3,136]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[0,173]]},
+{"kind":"cli","name":"testflight","at":[[0,76],[0,125],[2,87],[5,3]]},
+{"kind":"credential","name":"EXPO_APPLE_APP_SPECIFIC_PASSWORD","at":[[2,72]]},
+{"kind":"network","name":"developer.apple.com","at":[[2,163],[2,167],[3,139]]},
+{"kind":"package","name":"eas-cli","at":[[0,39]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/eas-app-stores","files":7,"bytes":56990}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx eas-cli@latest","at":[[0,46],[0,57],[0,60],[0,63],[0,70],[0,73]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,81]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[0,173]]},
+{"kind":"fetch-run","detail":"npx testflight","at":[[0,76],[0,125],[2,87],[5,3]]}
+],
+"namedSkills":[
+{"name":"eas-hosting","path":"plugins/expo/skills/eas-hosting","at":[[0,81],[6,5]]},
+{"name":"eas-workflows","path":"plugins/expo/skills/eas-workflows","at":[[0,138],[6,5]]},
+{"name":"expo-brownfield","path":"plugins/expo/skills/expo-brownfield","at":[[0,19]]},
+{"name":"expo-dev-client","path":"plugins/expo/skills/expo-dev-client","at":[[3,34]]},
+{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback","at":[[0,176]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-golden-path",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-golden-path/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"cb0e8b73342c6a0b0af6bf23e5bb0a3d96d4af5f31a0bd6f38230bbf2d538562"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":15662,"own":{"files":3,"bytes":15662},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 15 KiB · CLI gcloud","short":"15 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-basics","path":"skills/cloud/gke-basics"},{"name":"gke-cluster-autoscaler","path":"skills/cloud/gke-cluster-autoscaler"},{"name":"gke-upgrades","path":"skills/cloud/gke-upgrades"},{"name":"gke-workload-scaling","path":"skills/cloud/gke-workload-scaling"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

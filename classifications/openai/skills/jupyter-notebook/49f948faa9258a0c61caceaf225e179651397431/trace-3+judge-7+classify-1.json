@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/jupyter-notebook",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/jupyter-notebook/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"f993ba1038e7bc9d687eab48e280681dc77cf83108dbfa52f17d168e6384a16b"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":11921,"own":{"files":7,"bytes":11921},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["ipykernel","jupyterlab"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 12 KiB · packages ipykernel +1","short":"12 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs ipykernel","installs jupyterlab"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

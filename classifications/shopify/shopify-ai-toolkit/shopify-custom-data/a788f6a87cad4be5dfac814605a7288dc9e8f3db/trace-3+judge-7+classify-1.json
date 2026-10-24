@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"shopify/shopify-ai-toolkit/shopify-custom-data",
+"revision":"a788f6a87cad4be5dfac814605a7288dc9e8f3db",
+"trace":{"path":"traces/shopify/shopify-ai-toolkit/shopify-custom-data/a788f6a87cad4be5dfac814605a7288dc9e8f3db/trace-3+judge-7.json","sha256":"77207558abbbc1818d676e33f0ec5a124b9d8ee7b165076b25b1b118b3e8b57a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":727,"own":{"files":1,"bytes":727},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 727 B · CLI skills","short":"727 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"stub","because":["own folder 727 B (1 file)","content is the skills it wraps"]},{"marker":"unpinned-code","because":["npx skills: deprecated/shopify-custom-data/SKILL.md:8"]}],
+"security":{"fetch-run":["npx skills @ deprecated/shopify-custom-data/SKILL.md:8"],"skill-fetch":["npx skills add @ deprecated/shopify-custom-data/SKILL.md:8"]},
+"companions":{"named":[{"name":"shopify","path":"skills/shopify"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-browser/electron",
+"revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"trace":{"path":"traces/vercel-labs/agent-browser/electron/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/trace-3+judge-7.json","sha256":"67ec0083df2251c0287f2b755922e5be127317aeb7de4086079ff4585154e135"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6727,"own":{"files":1,"bytes":6727},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Code.exe","agent-browser","code","discord","open","slack","slack.exe"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.6 KiB · CLI Code.exe, agent-browser +5","short":"6.6 KiB · 7 CLI"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser","runs code","runs Code.exe","runs discord","runs open","runs slack","runs slack.exe"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

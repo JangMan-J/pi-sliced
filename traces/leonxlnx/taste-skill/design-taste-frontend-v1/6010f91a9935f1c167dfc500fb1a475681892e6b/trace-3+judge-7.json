@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"leonxlnx/taste-skill/design-taste-frontend-v1",
+"source":"leonxlnx/taste-skill",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named design-taste-frontend-v1 at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/taste-skill-v1)",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

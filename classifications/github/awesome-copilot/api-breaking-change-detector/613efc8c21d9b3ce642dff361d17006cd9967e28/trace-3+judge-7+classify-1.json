@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/api-breaking-change-detector",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/api-breaking-change-detector/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"a562baebf02bb12c70cd98b24b02ed391e2f21f4240d599f16768f74061b4d3d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6741,"own":{"files":1,"bytes":6741},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.6 KiB","short":"6.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"aspnet-minimal-api-openapi","path":"skills/aspnet-minimal-api-openapi"},{"name":"openapi-to-application-code","path":"skills/openapi-to-application-code"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

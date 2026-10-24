@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/open-agents/plan-mode",
+"revision":"cf865e94de7729751c747171785b6ce57e7b178c",
+"trace":{"path":"traces/vercel-labs/open-agents/plan-mode/cf865e94de7729751c747171785b6ce57e7b178c/trace-3+judge-7.json","sha256":"d4c461b89b2aaa5469b69010615807723d5385e609fb284a9d8486b9e1007bbb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7150,"own":{"files":1,"bytes":7150},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.0 KiB","short":"7.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

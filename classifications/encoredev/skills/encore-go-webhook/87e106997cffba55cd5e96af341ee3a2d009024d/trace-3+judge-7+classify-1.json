@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-go-webhook",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-go-webhook/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"07057ee921dc9edc6e620fe1016b576ef31e5c08f5efa89c1b4ecbbb21270b3d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4679,"own":{"files":1,"bytes":4679},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.6 KiB","short":"4.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

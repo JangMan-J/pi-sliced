@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/gh-aw/otel-queries",
+"revision":"317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1",
+"trace":{"path":"traces/github/gh-aw/otel-queries/317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1/trace-3+judge-7.json","sha256":"4bea5ec65ffc49e37c17926d5273868bed62b4ea31dffd26f76a4a0971c8681b"},
+"status":"resolved",
+"footprint":{"files":136,"bytes":2124129,"own":{"files":1,"bytes":8801},"otherSkills":{"count":1,"files":135,"bytes":2115328},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":["async_hooks","yaml"],"mcp-server":["failed"],"credential":[],"network":["api.github.com","github.com","github.github.com","linear.app"]},"summary":"136 files, 2.0 MiB · +1 other skill · MCP failed · CLI jq · packages async_hooks +1 · 4 hosts","short":"2.0 MiB · +1 skill · 1 CLI · 2 pkg · 4 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["files total 2.0 MiB (> 1 MiB)","2 packages to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"installs-packages","because":["installs async_hooks","installs yaml"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com","fetches from github.github.com","fetches from linear.app"]},{"marker":"mcp-server","because":["uses the failed MCP server"]},{"marker":"chain-loads","because":["pulls in 135 files of the skill at ."]},{"marker":"agent-override-text","because":["invisible U+FEFF: actions/setup/js/work_queue_yaml.cjs:4155, actions/setup/js/work_queue_yaml.cjs:4376"]}],
+"security":{"invisible-unicode":["U+FEFF @ actions/setup/js/work_queue_yaml.cjs:4155, actions/setup/js/work_queue_yaml.cjs:4376"]},
+"companions":{"named":[],"pulled":[{"path":".","files":135,"bytes":2115328}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

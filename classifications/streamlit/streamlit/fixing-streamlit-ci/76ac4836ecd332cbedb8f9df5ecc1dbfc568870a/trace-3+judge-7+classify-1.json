@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/streamlit/fixing-streamlit-ci",
+"revision":"76ac4836ecd332cbedb8f9df5ecc1dbfc568870a",
+"trace":{"path":"traces/streamlit/streamlit/fixing-streamlit-ci/76ac4836ecd332cbedb8f9df5ecc1dbfc568870a/trace-3+judge-7.json","sha256":"e02dd9b1418645165bfc50b2fa2e9f6c055f217a63a8e866f81ebcd1f4379188"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8543,"own":{"files":1,"bytes":8543},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","make"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.3 KiB · CLI gh, make","short":"8.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs make"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

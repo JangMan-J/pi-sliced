@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/binlog-failure-analysis",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/binlog-failure-analysis/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"3c182a54bb63bc3d324464b79b36322b60994cda4f9bfa5a140aa3224b2b7694"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3095,"own":{"files":1,"bytes":3095},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":["the"],"credential":[],"network":[]},"summary":"1 file, 3.0 KiB · MCP the · CLI dotnet","short":"3.0 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"mcp-server","because":["uses the the MCP server"]},{"marker":"stub","because":["own folder 3.0 KiB (1 file)","content is the dotnet, the it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"troubleshoot-binlog-mcp","path":"plugins/dotnet-msbuild/skills/troubleshoot-binlog-mcp"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

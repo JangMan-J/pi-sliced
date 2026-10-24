@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/namecheap",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/namecheap/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"c0321fd12ded1286ee2053df078a075d3cd243820024d93b0277e3c9073690ae"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":42287,"own":{"files":3,"bytes":42287},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["NAMECHEAP_API_KEY"],"network":["ap.www.namecheap.com","api.ipify.org","api.namecheap.com","ifconfig.me"]},"summary":"3 files, 41 KiB · 1 key · 4 hosts","short":"41 KiB · 1 key · 4 hosts"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from ap.www.namecheap.com","fetches from api.ipify.org","fetches from api.namecheap.com","fetches from ifconfig.me"]},{"marker":"credentials","because":["needs NAMECHEAP_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"setup","path":"skills/qdrant-monitoring/setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

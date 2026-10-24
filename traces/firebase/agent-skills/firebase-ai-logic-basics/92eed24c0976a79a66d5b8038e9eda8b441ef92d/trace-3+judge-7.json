@@ -1,0 +1,45 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firebase/agent-skills/firebase-ai-logic-basics",
+"source":"firebase/agent-skills",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"skillPath":"skills/firebase-ai-logic-basics",
+"status":"resolved",
+"totals":{"files":6,"bytes":63779},
+"files":[
+{"path":"skills/firebase-ai-logic-basics/SKILL.md","size":12167,"blob":"685921fefbe37c12254512e7267efb955ecd2d3a","how":"root"},
+{"path":"skills/firebase-ai-logic-basics/references/flutter_setup.md","size":5089,"blob":"bf31dc242a2ad1da2d377418e88ac6cbdb55a26e","how":"link","from":0,"line":275},
+{"path":"skills/firebase-ai-logic-basics/references/ios_setup.md","size":8237,"blob":"b0bdf62c78eee39733d3c8688b9a05d5dc99e61b","how":"link","from":0,"line":265},
+{"path":"skills/firebase-ai-logic-basics/references/tts_generation.md","size":22260,"blob":"5f6d04e9de115727aa0002572dc30b5b9c011230","how":"link","from":0,"line":157},
+{"path":"skills/firebase-ai-logic-basics/references/usage_patterns_android.md","size":7321,"blob":"082e6e3b644b9682a1cdf6137d24fb617b0ba477","how":"link","from":0,"line":260},
+{"path":"skills/firebase-ai-logic-basics/references/usage_patterns_web.md","size":8705,"blob":"8dd1b61e5b25417146fa051bcefffb72d188783a","how":"link","from":0,"line":270}
+],
+"outside":[
+{"kind":"cli","name":"firebase-tools","at":[[0,61],[0,68],[0,74],[0,81],[0,94],[1,12],[4,12]]},
+{"kind":"cli","name":"flutter","at":[[1,103]]},
+{"kind":"cli","name":"xcodebuild","at":[[2,156]]},
+{"kind":"credential","name":"APP_CHECK_DEBUG_TOKEN","at":[[2,156],[5,241]]},
+{"kind":"credential","name":"YOUR_DEBUG_TOKEN","at":[[2,174]]},
+{"kind":"package","name":"firebase","at":[[5,8]]},
+{"kind":"package","name":"firebase_ai","at":[[1,31]]},
+{"kind":"package","name":"firebase_app_check","at":[[1,103]]},
+{"kind":"package","name":"firebase_auth","at":[[1,30]]},
+{"kind":"package","name":"firebase_core","at":[[1,29]]}
+],
+"regions":[
+{"kind":"own","path":"skills/firebase-ai-logic-basics","files":6,"bytes":63779}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[5,8]]},
+{"kind":"fetch-run","detail":"npx firebase-tools","at":[[1,12]]},
+{"kind":"fetch-run","detail":"npx firebase-tools@latest","at":[[0,61],[0,68],[0,74],[0,81],[0,94],[4,12]]}
+],
+"namedSkills":[
+{"name":"firebase-basics","path":"skills/firebase-basics","at":[[0,43],[1,9],[4,3]]},
+{"name":"xcode-project-setup","path":"skills/xcode-project-setup","at":[[2,6],[2,136]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

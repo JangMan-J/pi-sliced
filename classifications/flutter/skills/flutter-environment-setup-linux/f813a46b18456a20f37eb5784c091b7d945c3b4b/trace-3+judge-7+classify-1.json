@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-environment-setup-linux",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-environment-setup-linux/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"39af3f82b0bdf70d12c7a83df85afcc4356f9c81b5a88ee4251e04e3f7a42e7a"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-environment-setup-linux at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

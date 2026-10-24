@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/deploying-custom-domain-rest-api",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/deploying-custom-domain-rest-api/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"c0f915ee2134b97a1fa89433735ae21188b04f6ad5d618c1d67e90447acb9eeb"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":25881,"own":{"files":6,"bytes":25881},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","dig"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 25 KiB · CLI aws, dig","short":"25 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs dig"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

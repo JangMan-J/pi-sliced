@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wordpress/agent-skills/wp-performance",
+"revision":"55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+"trace":{"path":"traces/wordpress/agent-skills/wp-performance/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/trace-3+judge-7.json","sha256":"bff7c33235ce522f88cdba7845d2eefc6196310ec9eed9053e652a35bbda96c7"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":17933,"own":{"files":11,"bytes":17933},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["wp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"11 files, 18 KiB · CLI wp","short":"18 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs wp"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

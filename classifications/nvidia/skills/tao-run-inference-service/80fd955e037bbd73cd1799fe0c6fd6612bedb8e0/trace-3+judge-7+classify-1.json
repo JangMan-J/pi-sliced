@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-run-inference-service",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-run-inference-service/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"70d5b3007208b5cdf94e121379a43ed494c1856d4cfe944b560366b0dd2ad5e9"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":60243,"own":{"files":5,"bytes":60243},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["HF_TOKEN"],"network":[]},"summary":"5 files, 59 KiB · 1 key","short":"59 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs HF_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

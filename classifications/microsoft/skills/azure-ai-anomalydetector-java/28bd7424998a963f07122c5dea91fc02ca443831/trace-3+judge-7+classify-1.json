@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-anomalydetector-java",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-anomalydetector-java/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"5fe12459c403a9af0108e226b5fc04368bcd757b5040d2f9829572d39122d8b0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9052,"own":{"files":1,"bytes":9052},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["AZURE_ANOMALY_DETECTOR_API_KEY","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 8.8 KiB · 2 keys","short":"8.8 KiB · 2 keys"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"credentials","because":["needs AZURE_ANOMALY_DETECTOR_API_KEY","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

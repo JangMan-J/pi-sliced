@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8nloom-transcript",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8nloom-transcript/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"c90effdd8b7ee94e0884f14c6e21052c34e108a548bd6dec1f62ceda9290ef51"},
+"status":"unresolvable",
+"reason":"no skill folder named n8nloom-transcript at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

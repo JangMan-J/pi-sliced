@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/dlp/jira-operations",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/dlp/jira-operations/none/trace-3+judge-7.json","sha256":"2e345ad8a31c743f4146984d89cde8a2f72089a4d67010e1c098b56d39fd5d2b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/dlp.git/' not found"
+}

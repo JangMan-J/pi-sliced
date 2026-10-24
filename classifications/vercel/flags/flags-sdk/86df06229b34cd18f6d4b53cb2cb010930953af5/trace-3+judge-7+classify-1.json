@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/flags/flags-sdk",
+"revision":"86df06229b34cd18f6d4b53cb2cb010930953af5",
+"trace":{"path":"traces/vercel/flags/flags-sdk/86df06229b34cd18f6d4b53cb2cb010930953af5/trace-3+judge-7.json","sha256":"d8b6d25674d5d5d6bba21fe6823ce9e55ebf2560faab8dcccb2d72636f2f9acc"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":72419,"own":{"files":5,"bytes":72419},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":["@flags-sdk/flagsmith","@flags-sdk/global-config","@flags-sdk/growthbook","@flags-sdk/launchdarkly","@flags-sdk/openfeature","@flags-sdk/posthog","@flags-sdk/reflag","@flags-sdk/statsig","@flags-sdk/vercel","@openfeature/server-sdk","@vercel/toolbar","flags","vercel"],"mcp-server":[],"credential":["FLAGS_SECRET","VERCEL_OIDC_TOKEN"],"network":[]},"summary":"5 files, 71 KiB · CLI skills · packages @flags-sdk/flagsmith +12 · 2 keys","short":"71 KiB · 1 CLI · 13 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["13 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"installs-packages","because":["installs @flags-sdk/flagsmith","installs @flags-sdk/global-config","installs @flags-sdk/growthbook","installs @flags-sdk/launchdarkly","installs @flags-sdk/openfeature","installs @flags-sdk/posthog","installs @flags-sdk/reflag","installs @flags-sdk/statsig","installs @flags-sdk/vercel","installs @openfeature/server-sdk","installs @vercel/toolbar","installs flags","installs vercel"]},{"marker":"credentials","because":["needs FLAGS_SECRET","needs VERCEL_OIDC_TOKEN"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/flags-sdk/SKILL.md:21, skills/flags-sdk/SKILL.md:86, skills/flags-sdk/references/providers.md:30"]}],
+"security":{"fetch-run":["npx skills @ skills/flags-sdk/SKILL.md:21, skills/flags-sdk/SKILL.md:86, skills/flags-sdk/references/providers.md:30"],"skill-fetch":["npx skills add @ skills/flags-sdk/SKILL.md:21, skills/flags-sdk/SKILL.md:86, skills/flags-sdk/references/providers.md:30"]},
+"companions":{"named":[{"name":"vercel-flags","path":"skills/vercel-flags"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

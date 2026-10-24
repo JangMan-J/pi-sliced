@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/agent-sessions-layout",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/agent-sessions-layout/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"b13fd771579086de7ebd5df41c31531c9dead0cee680b07e920ac7d2c0826ea2"},
+"status":"unresolvable",
+"reason":"no skill folder named agent-sessions-layout at 1184ad4d45794110deb6b897ea83b15aac44ed89"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tavily-ai/skills/tavily-map",
+"revision":"778122e5f9c680f541eeceda5a5b36405eb7980c",
+"trace":{"path":"traces/tavily-ai/skills/tavily-map/778122e5f9c680f541eeceda5a5b36405eb7980c/trace-3+judge-7.json","sha256":"ccc1b67d3ab15e95a0d68d98532bf41d1d6f81ab4c483824bd9868d71efe8566"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":24744,"own":{"files":1,"bytes":3685},"otherSkills":{"count":5,"files":5,"bytes":21059},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tvly"],"package":["tavily-cli"],"mcp-server":[],"credential":[],"network":["cli.tavily.com"]},"summary":"6 files, 24 KiB · +5 other skills · CLI tvly · packages tavily-cli · 1 host","short":"24 KiB · +5 skills · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tvly"]},{"marker":"installs-packages","because":["installs tavily-cli"]},{"marker":"network","because":["fetches from cli.tavily.com"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/tavily-cli","pulls in 1 file of the skill at skills/tavily-crawl","pulls in 1 file of the skill at skills/tavily-extract","pulls in 1 file of the skill at skills/tavily-research","pulls in 1 file of the skill at skills/tavily-search"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","21 KiB outside it"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/tavily-cli/SKILL.md:22"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/tavily-cli/SKILL.md:22"]},
+"companions":{"named":[{"name":"tavily-cli","path":"skills/tavily-cli"},{"name":"tavily-crawl","path":"skills/tavily-crawl"},{"name":"tavily-search","path":"skills/tavily-search"}],"pulled":[{"path":"skills/tavily-cli","files":1,"bytes":4900},{"path":"skills/tavily-crawl","files":1,"bytes":4470},{"path":"skills/tavily-extract","files":1,"bytes":3475},{"path":"skills/tavily-research","files":1,"bytes":4076},{"path":"skills/tavily-search","files":1,"bytes":4138}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

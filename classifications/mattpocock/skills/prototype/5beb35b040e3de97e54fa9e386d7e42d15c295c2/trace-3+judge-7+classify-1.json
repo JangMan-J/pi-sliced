@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mattpocock/skills/prototype",
+"revision":"5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+"trace":{"path":"traces/mattpocock/skills/prototype/5beb35b040e3de97e54fa9e386d7e42d15c295c2/trace-3+judge-7.json","sha256":"b6a47cdc77536fac68e202b2209e8d7bc89d20e3049a2fd289f6fb0b147e09dd"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":15880,"own":{"files":3,"bytes":15880},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/nemo-guardrails",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/nemo-guardrails/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"5e21bc58c7cd7f860655862a43b4a6ad872b6f395bef309cb9c4bfaf72f192ae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7642,"own":{"files":1,"bytes":7642},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["nemoguardrails"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.5 KiB · packages nemoguardrails","short":"7.5 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs nemoguardrails"]},{"marker":"agent-override-text","because":["\"ignore all previous instructions\": 07-safety-alignment/nemo-guardrails/SKILL.md:76","\"ignore previous instructions\": 07-safety-alignment/nemo-guardrails/SKILL.md:60"]}],
+"security":{"injection":["ignore all previous instructions @ 07-safety-alignment/nemo-guardrails/SKILL.md:76","ignore previous instructions @ 07-safety-alignment/nemo-guardrails/SKILL.md:60"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

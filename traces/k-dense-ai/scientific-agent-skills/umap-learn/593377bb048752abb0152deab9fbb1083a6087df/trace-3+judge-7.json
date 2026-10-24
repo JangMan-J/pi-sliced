@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"k-dense-ai/scientific-agent-skills/umap-learn",
+"source":"k-dense-ai/scientific-agent-skills",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"skillPath":"skills/umap-learn",
+"status":"resolved",
+"totals":{"files":2,"bytes":50078},
+"files":[
+{"path":"skills/umap-learn/SKILL.md","size":21534,"blob":"1c93bb08bf860d2eb891143942ae1c36c6f8d5e8","how":"root"},
+{"path":"skills/umap-learn/references/api_reference.md","size":28544,"blob":"1db923d32fecc02e18f8bad525da3fbb50adb5cd","how":"path","from":0,"line":421}
+],
+"outside":[
+{"kind":"network","name":"arxiv.org","at":[[0,490]]},
+{"kind":"package","name":"hdbscan","at":[[0,200]]},
+{"kind":"package","name":"umap-learn","at":[[0,28]]}
+],
+"regions":[
+{"kind":"own","path":"skills/umap-learn","files":2,"bytes":50078}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":"BSD-3-Clause license"}
+}

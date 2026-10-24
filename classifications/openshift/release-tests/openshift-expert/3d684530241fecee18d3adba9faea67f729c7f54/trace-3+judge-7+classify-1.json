@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openshift/release-tests/openshift-expert",
+"revision":"3d684530241fecee18d3adba9faea67f729c7f54",
+"trace":{"path":"traces/openshift/release-tests/openshift-expert/3d684530241fecee18d3adba9faea67f729c7f54/trace-3+judge-7.json","sha256":"26df171f74d7c8f3f9976a533da01d0bffcce6d3580602f805031f1bc69671cb"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":64929,"own":{"files":3,"bytes":64929},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["chroot","etcdctl","jq","oc","omc","podman"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 63 KiB · CLI chroot, etcdctl +4","short":"63 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs chroot","runs etcdctl","runs jq","runs oc","runs omc","runs podman"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

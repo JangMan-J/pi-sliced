@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tldraw/tldraw/issue",
+"revision":"12921f6d3996b4330688113371cd88890b673ab5",
+"trace":{"path":"traces/tldraw/tldraw/issue/12921f6d3996b4330688113371cd88890b673ab5/trace-3+judge-7.json","sha256":"594371afef38d6915d2e94e4c6f49e8aafcf3832cd0359fb0eef0a8b9e147955"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":15569,"own":{"files":2,"bytes":10172},"otherSkills":{"count":1,"files":1,"bytes":5397},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 15 KiB · +1 other skill · CLI gh","short":"15 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/write-issue"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/write-issue","files":1,"bytes":5397}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

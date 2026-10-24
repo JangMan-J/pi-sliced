@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/zoom-cobrowse-sdk",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/zoom-cobrowse-sdk/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"a9ab03356a78bbb9ff886752e347f6ab9f155249f2960df3608cd5d58d751a5a"},
+"status":"resolved",
+"footprint":{"files":34,"bytes":68883,"own":{"files":34,"bytes":68883},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["ZOOM_SDK_KEY","ZOOM_SDK_SECRET"],"network":["github.com","marketplace.zoom.us"]},"summary":"34 files, 67 KiB · 2 keys · 2 hosts","short":"67 KiB · 2 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"network","because":["fetches from github.com","fetches from marketplace.zoom.us"]},{"marker":"credentials","because":["needs ZOOM_SDK_KEY","needs ZOOM_SDK_SECRET"]}],
+"security":{},
+"companions":{"named":[{"name":"plan-zoom-product","path":"plugins/zoom/skills/plan-zoom-product"},{"name":"start","path":"plugins/zoom/skills/start"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

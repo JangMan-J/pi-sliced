@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"langchain-ai/deepagentsjs/arxiv-search",
+"source":"langchain-ai/deepagentsjs",
+"revision":"144abf243d9766d141e01d384217382903b544ba",
+"skillPath":"examples/skills/arxiv-search",
+"status":"resolved",
+"totals":{"files":1,"bytes":2800},
+"files":[
+{"path":"examples/skills/arxiv-search/SKILL.md","size":2800,"blob":"a6863a24b1800699bac86d808e8ba98893f488b9","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"tsx","at":[[0,29],[0,44],[0,50],[0,56]]}
+],
+"regions":[
+{"kind":"own","path":"examples/skills/arxiv-search","files":1,"bytes":2800}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx tsx","at":[[0,29],[0,44],[0,50],[0,56]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

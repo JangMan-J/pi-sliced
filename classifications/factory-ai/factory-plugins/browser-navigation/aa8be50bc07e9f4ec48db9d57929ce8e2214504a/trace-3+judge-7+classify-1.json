@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"factory-ai/factory-plugins/browser-navigation",
+"revision":"aa8be50bc07e9f4ec48db9d57929ce8e2214504a",
+"trace":{"path":"traces/factory-ai/factory-plugins/browser-navigation/aa8be50bc07e9f4ec48db9d57929ce8e2214504a/trace-3+judge-7.json","sha256":"b20890f7dadc8cd0e916686173f49773e43c9e7e9dcb645ba044afded81f1c3f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10793,"own":{"files":1,"bytes":10793},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-browser"],"package":["agent-browser"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI agent-browser · packages agent-browser","short":"11 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser"]},{"marker":"installs-packages","because":["installs agent-browser"]},{"marker":"unpinned-code","because":["npx agent-browser: plugins/droid-evolved/skills/browser-navigation/SKILL.md:47"]}],
+"security":{"fetch-run":["npx agent-browser @ plugins/droid-evolved/skills/browser-navigation/SKILL.md:47"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

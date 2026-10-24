@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/workflow-js/upstashworkflow-typescript-sdk-skill",
+"revision":"2f367b4ee04353281cf32511c89d7281cc7dde45",
+"trace":{"path":"traces/upstash/workflow-js/upstashworkflow-typescript-sdk-skill/2f367b4ee04353281cf32511c89d7281cc7dde45/trace-3+judge-7.json","sha256":"f11d2ed7c4d766befa7fe9832e81ad956ab66bdb0d1ed34fd191f2957d6a50cc"},
+"status":"unresolvable",
+"reason":"no skill folder named upstashworkflow-typescript-sdk-skill at 2f367b4ee04353281cf32511c89d7281cc7dde45"
+}

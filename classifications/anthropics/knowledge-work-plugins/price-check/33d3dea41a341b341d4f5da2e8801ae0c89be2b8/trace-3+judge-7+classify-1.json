@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/price-check",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/price-check/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"d309124ce06c058dd9fa8464ce0d407314963509e707f90e17bf7e64efb104c2"},
+"status":"unresolvable",
+"reason":"no skill folder named price-check at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

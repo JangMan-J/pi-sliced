@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elevenlabs/skills/agents",
+"revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+"trace":{"path":"traces/elevenlabs/skills/agents/269e5f0e5a4cf296a8a38beb166245b89d5e2c1c/trace-3+judge-7.json","sha256":"00a62614b86633c972c9c74de57e9ca591fcd56ca2352b34d86f5f5cc615bc36"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":131157,"own":{"files":8,"bytes":131157},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@elevenlabs/cli","elevenlabs","jq","scoop"],"package":["@elevenlabs/cli","@elevenlabs/client","@elevenlabs/elevenlabs-js","@elevenlabs/react","elevenlabs","elevenlabs/tap/elevenlabs"],"mcp-server":["native"],"credential":["ELEVENLABS_API_KEY"],"network":["api.elevenlabs.io","elevenlabs.io","github.com"]},"summary":"8 files, 128 KiB · MCP native · CLI @elevenlabs/cli, elevenlabs +2 · packages @elevenlabs/cli +5 · 1 key · 3 hosts","short":"128 KiB · 4 CLI · 6 pkg · 1 key · 3 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 MCP server","4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @elevenlabs/cli","runs elevenlabs","runs jq","runs scoop"]},{"marker":"installs-packages","because":["installs @elevenlabs/cli","installs @elevenlabs/client","installs @elevenlabs/elevenlabs-js","installs @elevenlabs/react","installs elevenlabs","installs elevenlabs/tap/elevenlabs"]},{"marker":"network","because":["fetches from api.elevenlabs.io","fetches from elevenlabs.io","fetches from github.com"]},{"marker":"credentials","because":["needs ELEVENLABS_API_KEY"]},{"marker":"mcp-server","because":["uses the native MCP server"]},{"marker":"unpinned-code","because":["install @latest: agents/references/installation.md:62, agents/references/installation.md:87, agents/references/installation.md:90","npx @elevenlabs/cli@latest: agents/SKILL.md:13, agents/references/installation.md:143","pipe to interpreter: agents/references/installation.md:25"]},{"marker":"sends-credentials","because":["ELEVENLABS_API_KEY -> api.elevenlabs.io: agents/references/using-procedure-api.md:303, agents/references/using-procedure-api.md:307"]}],
+"security":{"fetch-run":["install @latest @ agents/references/installation.md:62, agents/references/installation.md:87, agents/references/installation.md:90 +1","npx @elevenlabs/cli@latest @ agents/SKILL.md:13, agents/references/installation.md:143","pipe to interpreter @ agents/references/installation.md:25"],"secret-egress":["ELEVENLABS_API_KEY -> api.elevenlabs.io @ agents/references/using-procedure-api.md:303, agents/references/using-procedure-api.md:307"]},
+"companions":{"named":[{"name":"realtime","path":"realtime"},{"name":"setup-api-key","path":"setup-api-key"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

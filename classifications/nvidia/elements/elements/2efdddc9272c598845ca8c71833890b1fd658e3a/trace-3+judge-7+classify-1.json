@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/elements/elements",
+"revision":"2efdddc9272c598845ca8c71833890b1fd658e3a",
+"trace":{"path":"traces/nvidia/elements/elements/2efdddc9272c598845ca8c71833890b1fd658e3a/trace-3+judge-7.json","sha256":"48c0ffd23468f35fd734ad6f78fda522ac6a6f17d6c98739f7062129a4a1f73d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":29309,"own":{"files":4,"bytes":29309},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["eslint","nve","project_setup"],"package":["@nvidia-elements/core","@nvidia-elements/lint","@nvidia-elements/styles","@nvidia-elements/themes"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 29 KiB · CLI eslint, nve +1 · packages @nvidia-elements/core +3","short":"29 KiB · 3 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs eslint","runs nve","runs project_setup"]},{"marker":"installs-packages","because":["installs @nvidia-elements/core","installs @nvidia-elements/lint","installs @nvidia-elements/styles","installs @nvidia-elements/themes"]},{"marker":"unpinned-code","because":["npx eslint: .agents/skills/elements/references/migration.md:71"]}],
+"security":{"fetch-run":["npx eslint @ .agents/skills/elements/references/migration.md:71"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

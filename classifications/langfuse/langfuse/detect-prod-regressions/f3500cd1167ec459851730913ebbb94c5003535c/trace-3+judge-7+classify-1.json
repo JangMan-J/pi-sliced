@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langfuse/langfuse/detect-prod-regressions",
+"revision":"f3500cd1167ec459851730913ebbb94c5003535c",
+"trace":{"path":"traces/langfuse/langfuse/detect-prod-regressions/f3500cd1167ec459851730913ebbb94c5003535c/trace-3+judge-7.json","sha256":"a17aff261f07e51813ee619bbd5c155d7a22038ec5a470efe714a8142aaf0c7f"},
+"status":"unresolvable",
+"reason":"no skill folder named detect-prod-regressions at f3500cd1167ec459851730913ebbb94c5003535c"
+}

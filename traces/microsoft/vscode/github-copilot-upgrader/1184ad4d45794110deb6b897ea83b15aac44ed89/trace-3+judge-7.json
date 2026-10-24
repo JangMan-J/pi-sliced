@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/vscode/github-copilot-upgrader",
+"source":"microsoft/vscode",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"skillPath":"extensions/copilot/.agents/skills/github-copilot-upgrader",
+"status":"resolved",
+"totals":{"files":1,"bytes":3380},
+"files":[
+{"path":"extensions/copilot/.agents/skills/github-copilot-upgrader/SKILL.md","size":3380,"blob":"1e0c5e1e72a6e93a42fd607d7c9ad9f106a8e6e9","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"tsc","at":[[0,55]]},
+{"kind":"package","name":"@github/copilot","at":[[0,36]]}
+],
+"regions":[
+{"kind":"own","path":"extensions/copilot/.agents/skills/github-copilot-upgrader","files":1,"bytes":3380}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,36]]},
+{"kind":"fetch-run","detail":"npx tsc","at":[[0,55]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"extensions/copilot/LICENSE.txt","spdx":"MIT","frontmatter":null}
+}

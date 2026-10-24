@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/openai-agents-python/runtime-behavior-probe",
+"revision":"0dc4cf152bff1f50bdc0e41f28808563406545b2",
+"trace":{"path":"traces/openai/openai-agents-python/runtime-behavior-probe/0dc4cf152bff1f50bdc0e41f28808563406545b2/trace-3+judge-7.json","sha256":"067dd4441a56c795b4464df2bb7d6d68fe096d923909fb670b19e970f8ae6a34"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":47830,"own":{"files":6,"bytes":46196},"otherSkills":{"count":1,"files":1,"bytes":1634},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["docs","documentation","use"],"credential":["OPENAI_API_KEY"],"network":[]},"summary":"7 files, 47 KiB · +1 other skill · MCP docs, documentation +1 · 1 key","short":"47 KiB · +1 skill · 1 key · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers","1 credential"]},
+"markers":[{"marker":"credentials","because":["needs OPENAI_API_KEY"]},{"marker":"mcp-server","because":["uses the docs MCP server","uses the documentation MCP server","uses the use MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at .agents/skills/openai-knowledge"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".agents/skills/openai-knowledge","files":1,"bytes":1634}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

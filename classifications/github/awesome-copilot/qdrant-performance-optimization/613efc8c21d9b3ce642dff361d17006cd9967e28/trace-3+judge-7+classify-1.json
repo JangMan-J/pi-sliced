@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/qdrant-performance-optimization",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/qdrant-performance-optimization/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"e8120f64783933dd09c3b49805a1f5070c3bbb03f0c68c1f4a2c1a55aa8dd6c7"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":16294,"own":{"files":1,"bytes":1842},"otherSkills":{"count":3,"files":3,"bytes":14452},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["qdrant.tech","search.qdrant.tech"]},"summary":"4 files, 16 KiB · +3 other skills · 2 hosts","short":"16 KiB · +3 skills · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from qdrant.tech","fetches from search.qdrant.tech"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/qdrant-performance-optimization/indexing-performance-optimization","pulls in 1 file of the skill at skills/qdrant-performance-optimization/memory-usage-optimization","pulls in 1 file of the skill at skills/qdrant-performance-optimization/search-speed-optimization"]},{"marker":"stub","because":["own folder 1.8 KiB (1 file)","14 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/qdrant-performance-optimization/indexing-performance-optimization","files":1,"bytes":4863},{"path":"skills/qdrant-performance-optimization/memory-usage-optimization","files":1,"bytes":4859},{"path":"skills/qdrant-performance-optimization/search-speed-optimization","files":1,"bytes":4730}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

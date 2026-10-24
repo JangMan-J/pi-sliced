@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/fluentui/fluentui-migrate-v8-to-v9",
+"source":"microsoft/fluentui",
+"revision":"6d3e9d686434d69ac8fc9ca4c4a93f3afaa3d676",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named fluentui-migrate-v8-to-v9 at 6d3e9d686434d69ac8fc9ca4c4a93f3afaa3d676",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

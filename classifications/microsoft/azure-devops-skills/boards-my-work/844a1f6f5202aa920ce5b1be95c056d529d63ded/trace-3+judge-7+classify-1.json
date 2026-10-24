@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/azure-devops-skills/boards-my-work",
+"revision":"844a1f6f5202aa920ce5b1be95c056d529d63ded",
+"trace":{"path":"traces/microsoft/azure-devops-skills/boards-my-work/844a1f6f5202aa920ce5b1be95c056d529d63ded/trace-3+judge-7.json","sha256":"c6d010bf89b1ef03a519d022f73d0dad1497f71f727b5f3f0e5ae6558f17c740"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3389,"own":{"files":1,"bytes":3389},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["dev.azure.com"]},"summary":"1 file, 3.3 KiB · 1 host","short":"3.3 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from dev.azure.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

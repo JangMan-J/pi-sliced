@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/segment-anything-model",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/segment-anything-model/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"79439b7da0a5bab88d5c15fd4599efab9bd8979f5a0d3872b9005afe1ad7bd10"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":41120,"own":{"files":3,"bytes":41120},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["groundingdino-py","matplotlib","onnx","onnxruntime","opencv-python","pycocotools","pycocotools-windows","segment-anything","segment-anything-2","transformers"],"mcp-server":[],"credential":[],"network":["dl.fbaipublicfiles.com","github.com"]},"summary":"3 files, 40 KiB · packages groundingdino-py +9 · 2 hosts","short":"40 KiB · 10 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["10 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs groundingdino-py","installs matplotlib","installs onnx","installs onnxruntime","installs opencv-python","installs pycocotools","installs pycocotools-windows","installs segment-anything","installs segment-anything-2","installs transformers"]},{"marker":"network","because":["fetches from dl.fbaipublicfiles.com","fetches from github.com"]},{"marker":"unpinned-code","because":["pip install from URL: 18-multimodal/segment-anything/SKILL.md:45, 18-multimodal/segment-anything/references/advanced-usage.md:10, 18-multimodal/segment-anything/references/advanced-usage.md:53"]}],
+"security":{"fetch-run":["pip install from URL @ 18-multimodal/segment-anything/SKILL.md:45, 18-multimodal/segment-anything/references/advanced-usage.md:10, 18-multimodal/segment-anything/references/advanced-usage.md:53 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

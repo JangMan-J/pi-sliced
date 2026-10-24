@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-setting-up-on-macos",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-setting-up-on-macos/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"deefdf283c0120e74faa8385493886e28eacb1bef317e10e40febc11a2db672a"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-setting-up-on-macos at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

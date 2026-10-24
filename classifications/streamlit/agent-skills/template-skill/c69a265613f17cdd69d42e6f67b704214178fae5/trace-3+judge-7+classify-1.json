@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/agent-skills/template-skill",
+"revision":"c69a265613f17cdd69d42e6f67b704214178fae5",
+"trace":{"path":"traces/streamlit/agent-skills/template-skill/c69a265613f17cdd69d42e6f67b704214178fae5/trace-3+judge-7.json","sha256":"c81a027ddf3e78eb51e9e35c63a186ab2cbf6a22cb72e6ab37eabfdcf8af996f"},
+"status":"unresolvable",
+"reason":"no skill folder named template-skill at c69a265613f17cdd69d42e6f67b704214178fae5"
+}

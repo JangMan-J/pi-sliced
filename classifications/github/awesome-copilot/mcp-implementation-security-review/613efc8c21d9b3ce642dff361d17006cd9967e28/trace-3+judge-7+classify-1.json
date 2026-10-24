@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/mcp-implementation-security-review",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/mcp-implementation-security-review/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"6301d358a194a3f658b9a0538ad7050c8490a0262280e52725b0831576097bd1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20873,"own":{"files":1,"bytes":20873},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["169.254.169.254","attacker.com"]},"summary":"1 file, 20 KiB · 2 hosts","short":"20 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from 169.254.169.254","fetches from attacker.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

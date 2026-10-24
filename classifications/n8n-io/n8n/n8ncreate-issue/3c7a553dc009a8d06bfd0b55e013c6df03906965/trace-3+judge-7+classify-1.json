@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8ncreate-issue",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8ncreate-issue/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"6fb988783c326826b7192cd14e836154ce7791b16c9245c9fb357c7731fc5d2d"},
+"status":"unresolvable",
+"reason":"no skill folder named n8ncreate-issue at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

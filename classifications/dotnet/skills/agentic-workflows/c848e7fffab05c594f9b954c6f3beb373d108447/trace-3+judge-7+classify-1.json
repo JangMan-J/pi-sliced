@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/agentic-workflows",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/agentic-workflows/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"50df6b4ac592b3890b936272f1607e5726bb508931be80c1a50bf4716e5e387f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4975,"own":{"files":1,"bytes":4975},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.9 KiB","short":"4.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

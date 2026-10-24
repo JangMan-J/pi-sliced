@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"bitwarden/clients/angular-modernization",
+"source":"bitwarden/clients",
+"revision":"c0ca72a0c83cc8b7f990138ac04961cf63d985bc",
+"skillPath":".claude/skills/angular-modernization",
+"status":"resolved",
+"totals":{"files":2,"bytes":10143},
+"files":[
+{"path":".claude/skills/angular-modernization/SKILL.md","size":4600,"blob":"187f715bde29bedfc62c5fc6b889ca27bcd78a49","how":"root"},
+{"path":".claude/skills/angular-modernization/migration-patterns.md","size":5543,"blob":"284f90a410f116768c3c9ecbc9f4f1421e15fbe1","how":"link","from":0,"line":94}
+],
+"outside":[
+{"kind":"cli","name":"ng","at":[[0,24],[0,31],[0,39],[0,47],[0,55],[0,63],[0,71],[0,79],[0,87]]}
+],
+"regions":[
+{"kind":"own","path":".claude/skills/angular-modernization","files":2,"bytes":10143}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx ng","at":[[0,24],[0,31],[0,39],[0,47],[0,55],[0,63],[0,71],[0,79],[0,87]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":null,"frontmatter":null}
+}

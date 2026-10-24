@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tinybirdco/tinybird-agent-skills/tinybird-typescript-sdk-guidelines",
+"revision":"19a3ec18b2270fb82cc3489eabf122da0706e6a0",
+"trace":{"path":"traces/tinybirdco/tinybird-agent-skills/tinybird-typescript-sdk-guidelines/19a3ec18b2270fb82cc3489eabf122da0706e6a0/trace-3+judge-7.json","sha256":"6a578a0ceca749aea26a3f84e34631ad4652d6e026e3b9e2de35fac634e58986"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":27039,"own":{"files":12,"bytes":27039},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tinybird"],"package":["@tinybirdco/sdk"],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 26 KiB · CLI tinybird · packages @tinybirdco/sdk","short":"26 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tinybird"]},{"marker":"installs-packages","because":["installs @tinybirdco/sdk"]},{"marker":"unpinned-code","because":["npx tinybird: skills/tinybird-typescript-sdk-guidelines/SKILL.md:38, skills/tinybird-typescript-sdk-guidelines/rules/cli-commands.md:17, skills/tinybird-typescript-sdk-guidelines/rules/cli-commands.md:18"]}],
+"security":{"fetch-run":["npx tinybird @ skills/tinybird-typescript-sdk-guidelines/SKILL.md:38, skills/tinybird-typescript-sdk-guidelines/rules/cli-commands.md:17, skills/tinybird-typescript-sdk-guidelines/rules/cli-commands.md:18 +5"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/long-context",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/long-context/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"4eb3ed70baaf059176b2f2b1b6c9c07fc81b3dcc392126b138774304aa45cf67"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":58666,"own":{"files":4,"bytes":58666},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["einops","flash-attn","rotary-embedding-torch","torch","transformers"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"4 files, 57 KiB · packages einops +4 · 1 host","short":"57 KiB · 5 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["5 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs einops","installs flash-attn","installs rotary-embedding-torch","installs torch","installs transformers"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"czlonkowski/n8n-skills/n8n-workflow-patterns",
+"revision":"c640094d949c5a7bfce7d51fc9c049e3dcd3be44",
+"trace":{"path":"traces/czlonkowski/n8n-skills/n8n-workflow-patterns/c640094d949c5a7bfce7d51fc9c049e3dcd3be44/trace-3+judge-7.json","sha256":"92450644d790bb9755b6b43f68668a7b20d66236cf491a78669e7e4432546eab"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":90451,"own":{"files":6,"bytes":90451},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["drive.google.com"]},"summary":"6 files, 88 KiB · 1 host","short":"88 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from drive.google.com"]}],
+"security":{},
+"companions":{"named":[{"name":"n8n-agents","path":"skills/n8n-agents"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/template-skill",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/template-skill/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"433563eac230792b2c70773259f141d23700881d147f7dba6966199b30438467"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":156,"own":{"files":1,"bytes":156},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 156 B","short":"156 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

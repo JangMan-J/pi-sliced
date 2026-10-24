@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nv-segment-ct",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nv-segment-ct/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"e495c65282804c5b796eef8a4fe9d69cd456c2227458eef8a8c4abe0932b5660"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":33242,"own":{"files":4,"bytes":33242},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["hf","python3.10","virtualenv"],"package":["hugging_face_pipeline","nibabel","numpy","torch","typer"],"mcp-server":[],"credential":[],"network":["huggingface.co","msd-for-monai.s3-us-west-2.amazonaws.com"]},"summary":"4 files, 32 KiB · CLI hf, python3.10 +1 · packages hugging_face_pipeline +4 · 2 hosts","short":"32 KiB · 3 CLI · 5 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["5 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs hf","runs python3.10","runs virtualenv"]},{"marker":"installs-packages","because":["installs hugging_face_pipeline","installs nibabel","installs numpy","installs torch","installs typer"]},{"marker":"network","because":["fetches from huggingface.co","fetches from msd-for-monai.s3-us-west-2.amazonaws.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/gh-aw-firewall/awf-skill",
+"revision":"de3c6b984bc832810992f68df7e872b1f0d04637",
+"trace":{"path":"traces/github/gh-aw-firewall/awf-skill/de3c6b984bc832810992f68df7e872b1f0d04637/trace-3+judge-7.json","sha256":"9bfc56b26541fafd4cb3f30414721960ec4a31b222fffcc5558e3ac35a1e2dcd"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11825,"own":{"files":2,"bytes":11825},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["awf","docker","gh","jq","systemctl"],"package":[],"mcp-server":[],"credential":["GH_TOKEN","GITHUB_TOKEN"],"network":["api.github.com","github.com","raw.githubusercontent.com"]},"summary":"2 files, 12 KiB · CLI awf, docker +3 · 2 keys · 3 hosts","short":"12 KiB · 5 CLI · 2 keys · 3 hosts"},
+"heavy":{"heavy":true,"because":["5 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs awf","runs docker","runs gh","runs jq","runs systemctl"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com","fetches from raw.githubusercontent.com"]},{"marker":"credentials","because":["needs GH_TOKEN","needs GITHUB_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"awf-debug-tools","path":".claude/skills/awf-debug-tools"},{"name":"debug-firewall","path":".claude/skills/debug-firewall"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

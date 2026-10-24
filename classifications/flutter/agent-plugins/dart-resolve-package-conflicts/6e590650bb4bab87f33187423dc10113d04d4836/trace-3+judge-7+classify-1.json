@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/dart-resolve-package-conflicts",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/dart-resolve-package-conflicts/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"963c12c88aaccd0422d9c7270941e882e6cdcc6518f6528f5c1f5ac187f91c91"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5267,"own":{"files":1,"bytes":5267},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dart"],"package":["http"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.1 KiB · CLI dart · packages http","short":"5.1 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dart"]},{"marker":"installs-packages","because":["installs http"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

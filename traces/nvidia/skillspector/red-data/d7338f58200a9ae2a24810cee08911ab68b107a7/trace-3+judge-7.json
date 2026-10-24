@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skillspector/red-data",
+"source":"nvidia/skillspector",
+"revision":"d7338f58200a9ae2a24810cee08911ab68b107a7",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named red-data at d7338f58200a9ae2a24810cee08911ab68b107a7",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

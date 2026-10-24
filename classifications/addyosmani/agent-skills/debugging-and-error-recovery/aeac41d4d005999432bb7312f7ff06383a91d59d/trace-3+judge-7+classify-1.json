@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"addyosmani/agent-skills/debugging-and-error-recovery",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"trace":{"path":"traces/addyosmani/agent-skills/debugging-and-error-recovery/aeac41d4d005999432bb7312f7ff06383a91d59d/trace-3+judge-7.json","sha256":"22d79b7d896f610a9a70932dfc7e527124d4d5ff46baa47d56552369e6370e65"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10913,"own":{"files":1,"bytes":10913},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"test-driven-development","path":"skills/test-driven-development"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

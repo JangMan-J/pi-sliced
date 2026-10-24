@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/qdrant-scaling-data-volume",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/qdrant-scaling-data-volume/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"2435de49e81007b2cb1680b634e9b76500ab002377e50e7ae779ae772cdd48fc"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":24558,"own":{"files":1,"bytes":1941},"otherSkills":{"count":7,"files":7,"bytes":22617},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["search.qdrant.tech"]},"summary":"8 files, 24 KiB · +7 other skills · 1 host","short":"24 KiB · +7 skills · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from search.qdrant.tech"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/qdrant-monitoring","pulls in 1 file of the skill at skills/qdrant-monitoring/debugging","pulls in 1 file of the skill at skills/qdrant-monitoring/setup","pulls in 1 file of the skill at skills/qdrant-scaling/scaling-data-volume/horizontal-scaling","pulls in 1 file of the skill at skills/qdrant-scaling/scaling-data-volume/sliding-time-window","pulls in 1 file of the skill at skills/qdrant-scaling/scaling-data-volume/tenant-scaling","pulls in 1 file of the skill at skills/qdrant-scaling/scaling-data-volume/vertical-scaling"]},{"marker":"stub","because":["own folder 1.9 KiB (1 file)","22 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/qdrant-monitoring","files":1,"bytes":1103},{"path":"skills/qdrant-monitoring/debugging","files":1,"bytes":3503},{"path":"skills/qdrant-monitoring/setup","files":1,"bytes":3418},{"path":"skills/qdrant-scaling/scaling-data-volume/horizontal-scaling","files":1,"bytes":2995},{"path":"skills/qdrant-scaling/scaling-data-volume/sliding-time-window","files":1,"bytes":4476},{"path":"skills/qdrant-scaling/scaling-data-volume/tenant-scaling","files":1,"bytes":2745},{"path":"skills/qdrant-scaling/scaling-data-volume/vertical-scaling","files":1,"bytes":4377}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

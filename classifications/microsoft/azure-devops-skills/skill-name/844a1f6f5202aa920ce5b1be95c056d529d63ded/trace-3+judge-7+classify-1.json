@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/azure-devops-skills/skill-name",
+"revision":"844a1f6f5202aa920ce5b1be95c056d529d63ded",
+"trace":{"path":"traces/microsoft/azure-devops-skills/skill-name/844a1f6f5202aa920ce5b1be95c056d529d63ded/trace-3+judge-7.json","sha256":"0af4a31af2cecf65df722af38d71f15fc441a0fb5c00dc80e7449b1198e7b33a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":179,"own":{"files":1,"bytes":179},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 179 B","short":"179 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

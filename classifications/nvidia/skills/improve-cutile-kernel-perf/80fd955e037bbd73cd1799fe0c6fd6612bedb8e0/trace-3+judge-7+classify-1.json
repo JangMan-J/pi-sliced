@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/improve-cutile-kernel-perf",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/improve-cutile-kernel-perf/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"51ca36aebb92011a4ab39ce209f21203a0511a8758ba7fb143b1ef12d1fc8b55"},
+"status":"unresolvable",
+"reason":"no skill folder named improve-cutile-kernel-perf at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

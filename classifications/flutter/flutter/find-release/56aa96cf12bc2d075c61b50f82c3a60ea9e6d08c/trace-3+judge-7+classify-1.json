@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/flutter/find-release",
+"revision":"56aa96cf12bc2d075c61b50f82c3a60ea9e6d08c",
+"trace":{"path":"traces/flutter/flutter/find-release/56aa96cf12bc2d075c61b50f82c3a60ea9e6d08c/trace-3+judge-7.json","sha256":"3c0785e427a203e7551a4ccc50cc89dc16b6416c9dc7791da666e8a99f669cf5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2178,"own":{"files":1,"bytes":2178},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dart"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.1 KiB · CLI dart","short":"2.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dart"]},{"marker":"stub","because":["own folder 2.1 KiB (1 file)","content is the dart it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

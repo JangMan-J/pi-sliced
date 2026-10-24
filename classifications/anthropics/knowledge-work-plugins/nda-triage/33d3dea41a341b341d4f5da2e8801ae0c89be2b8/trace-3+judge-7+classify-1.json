@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/nda-triage",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/nda-triage/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"f84c77c9cc81204da6fa1163191142edd664852da842f29eed402a7e40d1ea7e"},
+"status":"unresolvable",
+"reason":"no skill folder named nda-triage at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/agent-skills/chdb-sql",
+"revision":"69a8354b05b5942e5cea77b6c87be7788303fc18",
+"trace":{"path":"traces/clickhouse/agent-skills/chdb-sql/69a8354b05b5942e5cea77b6c87be7788303fc18/trace-3+judge-7.json","sha256":"785fe2dbc11b7dac5439421f2c197dcc9194f0d470f2aebb1beb7ae9689234b5"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":39239,"own":{"files":6,"bytes":39239},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["chdb"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 38 KiB · packages chdb","short":"38 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs chdb"]}],
+"security":{},
+"companions":{"named":[{"name":"chdb-datastore","path":"skills/chdb-datastore"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

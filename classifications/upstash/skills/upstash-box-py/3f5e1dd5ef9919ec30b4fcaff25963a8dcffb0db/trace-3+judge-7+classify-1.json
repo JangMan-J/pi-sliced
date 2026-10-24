@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/skills/upstash-box-py",
+"revision":"3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db",
+"trace":{"path":"traces/upstash/skills/upstash-box-py/3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db/trace-3+judge-7.json","sha256":"663c69c21cc4a0bd0bbb2cd2f31bfac630ea65b9de1107dad65cfaf1576bf019"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":35425,"own":{"files":1,"bytes":35425},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ssh"],"package":["upstash-box"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 35 KiB · CLI ssh · packages upstash-box","short":"35 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs ssh"]},{"marker":"installs-packages","because":["installs upstash-box"]}],
+"security":{},
+"companions":{"named":[{"name":"upstash-box-js","path":"skills/upstash-box-js"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

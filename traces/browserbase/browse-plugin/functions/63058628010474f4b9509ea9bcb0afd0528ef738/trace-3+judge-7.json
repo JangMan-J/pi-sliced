@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"browserbase/browse-plugin/functions",
+"source":"browserbase/browse-plugin",
+"revision":"63058628010474f4b9509ea9bcb0afd0528ef738",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named functions at 63058628010474f4b9509ea9bcb0afd0528ef738",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/aspire-skills/aspire-monitoring",
+"revision":"02d82d2de9ba787eeba1e2577be8377308b1b889",
+"trace":{"path":"traces/microsoft/aspire-skills/aspire-monitoring/02d82d2de9ba787eeba1e2577be8377308b1b889/trace-3+judge-7.json","sha256":"c027cc538b31db76074328a8b381f851efebcae1f9bf7013553496e2a914c93b"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":40108,"own":{"files":4,"bytes":40108},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aspire","az","jq","playwright-cli"],"package":[],"mcp-server":["applens"],"credential":["DASHBOARD_API_KEY"],"network":[]},"summary":"4 files, 39 KiB · MCP applens · CLI aspire, az +2 · 1 key","short":"39 KiB · 4 CLI · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aspire","runs az","runs jq","runs playwright-cli"]},{"marker":"credentials","because":["needs DASHBOARD_API_KEY"]},{"marker":"mcp-server","because":["uses the applens MCP server"]},{"marker":"sends-credentials","because":["DASHBOARD_API_KEY -> my-dashboard.azurecontainerapps.io: skills/aspire-monitoring/references/diagnostics-bridge.md:164"]}],
+"security":{"secret-egress":["DASHBOARD_API_KEY -> my-dashboard.azurecontainerapps.io @ skills/aspire-monitoring/references/diagnostics-bridge.md:164"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

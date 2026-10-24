@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/codegen",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/codegen/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"291044c9e7ef545bbbb72ab3f0252d06de3c0932ba66ab7d254c3370a72227a5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2586,"own":{"files":1,"bytes":2586},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@json-render/codegen"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.5 KiB · packages @json-render/codegen","short":"2.5 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @json-render/codegen"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

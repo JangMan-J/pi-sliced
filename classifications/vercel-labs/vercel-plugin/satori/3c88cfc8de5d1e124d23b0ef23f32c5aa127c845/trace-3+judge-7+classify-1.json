@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/satori",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/satori/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"7116be48fb45d11b81669fc1f3643ace08ef5bb38f36c2900d295c38fd9804e4"},
+"status":"unresolvable",
+"reason":"no skill folder named satori at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

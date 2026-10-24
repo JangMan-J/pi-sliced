@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/fabric-apps-analytic-templates/data-discovery",
+"revision":"35948c76d93552aa7e2dcd98afe026fcd3d1ed9c",
+"trace":{"path":"traces/microsoft/fabric-apps-analytic-templates/data-discovery/35948c76d93552aa7e2dcd98afe026fcd3d1ed9c/trace-3+judge-7.json","sha256":"501b3ec79de4b8cd5d19b5060f53bbae4722825b57341dda2c6d868d416d384a"},
+"status":"unresolvable",
+"reason":"no skill folder named data-discovery at 35948c76d93552aa7e2dcd98afe026fcd3d1ed9c"
+}

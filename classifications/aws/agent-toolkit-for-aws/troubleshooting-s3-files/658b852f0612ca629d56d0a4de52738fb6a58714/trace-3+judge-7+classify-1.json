@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/troubleshooting-s3-files",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/troubleshooting-s3-files/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"053ab238b121ca0d800e386f47d9ed0d0c4297d40fc47651bbfe4210549afdfb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7192,"own":{"files":1,"bytes":7192},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","getfattr","nc","yum"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.0 KiB · CLI aws, getfattr +2","short":"7.0 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs getfattr","runs nc","runs yum"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

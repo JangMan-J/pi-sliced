@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-run-on-brev",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-run-on-brev/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"adaf0b5720b53b6ebd1e6306920d6054c423e6cc991f8f7bbc026aaa19dc1320"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8315,"own":{"files":1,"bytes":8315},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["brev"],"package":[],"mcp-server":["brev"],"credential":["BREV_API_TOKEN","NGC_KEY"],"network":["raw.githubusercontent.com"]},"summary":"1 file, 8.1 KiB · MCP brev · CLI brev · 2 keys · 1 host","short":"8.1 KiB · 1 CLI · 2 keys · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs brev"]},{"marker":"network","because":["fetches from raw.githubusercontent.com"]},{"marker":"credentials","because":["needs BREV_API_TOKEN","needs NGC_KEY"]},{"marker":"mcp-server","because":["uses the brev MCP server"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/tao-run-on-brev/SKILL.md:40"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/tao-run-on-brev/SKILL.md:40"]},
+"companions":{"named":[{"name":"tao-data-io","path":"skills/tao-data-io"},{"name":"tao-run-on-docker","path":"skills/tao-run-on-docker"},{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

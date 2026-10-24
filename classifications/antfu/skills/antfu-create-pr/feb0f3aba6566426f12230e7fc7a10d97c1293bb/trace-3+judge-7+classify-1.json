@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"antfu/skills/antfu-create-pr",
+"revision":"feb0f3aba6566426f12230e7fc7a10d97c1293bb",
+"trace":{"path":"traces/antfu/skills/antfu-create-pr/feb0f3aba6566426f12230e7fc7a10d97c1293bb/trace-3+judge-7.json","sha256":"eebc75999504c3c185d7de4f1b29d886ef6b91d0ca4164883d1fe203e7d21335"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":17066,"own":{"files":4,"bytes":17066},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Bearer","gh"],"package":[],"mcp-server":[],"credential":["GH_TOKEN","GITHUB_TOKEN"],"network":["github.com","uploads.github.com"]},"summary":"4 files, 17 KiB · CLI Bearer, gh · 2 keys · 2 hosts","short":"17 KiB · 2 CLI · 2 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs Bearer","runs gh"]},{"marker":"network","because":["fetches from github.com","fetches from uploads.github.com"]},{"marker":"credentials","because":["needs GH_TOKEN","needs GITHUB_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

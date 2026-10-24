@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/hmd-interview-skill",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/hmd-interview-skill/none/trace-3+judge-7.json","sha256":"f5879d75534d532c30072d32270f32269f964b5b8a1a724ae1e88b05ba5918c1"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

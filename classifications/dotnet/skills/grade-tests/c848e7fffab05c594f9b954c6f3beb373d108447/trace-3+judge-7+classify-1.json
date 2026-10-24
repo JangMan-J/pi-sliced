@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/grade-tests",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/grade-tests/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"9f0141a0195488c99aafcbedffde6a4236c001bf844fb1e11d24717c85789438"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":27290,"own":{"files":1,"bytes":27290},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 27 KiB","short":"27 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"coverage-analysis","path":"plugins/dotnet-test/skills/coverage-analysis"},{"name":"crap-score","path":"plugins/dotnet-test/skills/crap-score"},{"name":"test-analysis-extensions","path":"plugins/dotnet-test/skills/test-analysis-extensions"},{"name":"test-anti-patterns","path":"plugins/dotnet-test/skills/test-anti-patterns"},{"name":"test-gap-analysis","path":"plugins/dotnet-test/skills/test-gap-analysis"},{"name":"test-smell-detection","path":"plugins/dotnet-test/skills/test-smell-detection"},{"name":"writing-mstest-tests","path":"plugins/dotnet-test/skills/writing-mstest-tests"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

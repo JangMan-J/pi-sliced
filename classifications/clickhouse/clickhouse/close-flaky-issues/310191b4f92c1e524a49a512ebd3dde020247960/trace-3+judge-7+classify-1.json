@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/clickhouse/close-flaky-issues",
+"revision":"310191b4f92c1e524a49a512ebd3dde020247960",
+"trace":{"path":"traces/clickhouse/clickhouse/close-flaky-issues/310191b4f92c1e524a49a512ebd3dde020247960/trace-3+judge-7.json","sha256":"b6d87ad7af8e037d14f699af4ea26bc6014fd6250037ee0f8ac10797b7a037b0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7785,"own":{"files":1,"bytes":7785},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["countIf","gh","jq","maxIf","test_status"],"package":[],"mcp-server":[],"credential":[],"network":["github.com","play.clickhouse.com"]},"summary":"1 file, 7.6 KiB · CLI countIf, gh +3 · 2 hosts","short":"7.6 KiB · 5 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs countIf","runs gh","runs jq","runs maxIf","runs test_status"]},{"marker":"network","because":["fetches from github.com","fetches from play.clickhouse.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

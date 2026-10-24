@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-agent-sdk-demos/pdf",
+"revision":"826b268506a5f3707623c9e6140b200befcbebae",
+"trace":{"path":"traces/anthropics/claude-agent-sdk-demos/pdf/826b268506a5f3707623c9e6140b200befcbebae/trace-3+judge-7.json","sha256":"c948d38b40f2b202ea4cf9f07dfd761ccacc92f93ebdbc8f5108f37dc3ebe834"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7754,"own":{"files":2,"bytes":7754},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pdfimages","pdftk","pdftotext","qpdf"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 7.6 KiB · CLI pdfimages, pdftk +2","short":"7.6 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs pdfimages","runs pdftk","runs pdftotext","runs qpdf"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

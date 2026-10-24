@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/create-agent",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/create-agent/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"94aafbc7111eb782108e7176b090bacb37d731016e08ad91ddf77c015dbc98a4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1263,"own":{"files":1,"bytes":1263},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.2 KiB","short":"1.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"agent-customization","path":"extensions/copilot/assets/prompts/skills/agent-customization"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

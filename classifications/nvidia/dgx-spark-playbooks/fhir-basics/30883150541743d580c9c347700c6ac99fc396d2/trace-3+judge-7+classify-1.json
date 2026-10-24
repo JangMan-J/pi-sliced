@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/dgx-spark-playbooks/fhir-basics",
+"revision":"30883150541743d580c9c347700c6ac99fc396d2",
+"trace":{"path":"traces/nvidia/dgx-spark-playbooks/fhir-basics/30883150541743d580c9c347700c6ac99fc396d2/trace-3+judge-7.json","sha256":"d975673e88468d25fcef17fda8255cd06613f61a68419df3e843acf7b847411f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16223,"own":{"files":1,"bytes":16223},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

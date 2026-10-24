@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/feature-flags-react",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/feature-flags-react/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"70ada3b5a39bf9c0a191dce132d2e8e8c4d1b6282730986e66d88b649859b334"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":129958,"own":{"files":4,"bytes":129958},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["groups"],"package":["@posthog/react","posthog-js"],"mcp-server":["posthog"],"credential":["VITE_PUBLIC_POSTHOG_PROJECT_TOKEN"],"network":[]},"summary":"4 files, 127 KiB · MCP posthog · CLI groups · packages @posthog/react +1 · 1 key","short":"127 KiB · 1 CLI · 2 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs groups"]},{"marker":"installs-packages","because":["installs @posthog/react","installs posthog-js"]},{"marker":"credentials","because":["needs VITE_PUBLIC_POSTHOG_PROJECT_TOKEN"]},{"marker":"mcp-server","because":["uses the posthog MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

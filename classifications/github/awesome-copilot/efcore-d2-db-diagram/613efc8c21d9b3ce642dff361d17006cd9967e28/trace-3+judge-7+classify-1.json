@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/efcore-d2-db-diagram",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/efcore-d2-db-diagram/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"4f4337361b6e6b2d0c7ee30ced9ab90884e858adb6f8f8fb109df1755b36651c"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":12489,"own":{"files":6,"bytes":12489},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["d2"],"package":[],"mcp-server":["no"],"credential":[],"network":[]},"summary":"6 files, 12 KiB · MCP no · CLI d2","short":"12 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs d2"]},{"marker":"mcp-server","because":["uses the no MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8ncreate-community-node-lint-rule",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8ncreate-community-node-lint-rule/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"134b54fd3d41298c50ad74f5c982e8a65abbcddb8da74964cdec44924d839e05"},
+"status":"unresolvable",
+"reason":"no skill folder named n8ncreate-community-node-lint-rule at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/vscode-docs/release-note-reviewer",
+"source":"microsoft/vscode-docs",
+"revision":"a03090533810eb02e5b9a2a650e2a3df32192b42",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named release-note-reviewer at a03090533810eb02e5b9a2a650e2a3df32192b42",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

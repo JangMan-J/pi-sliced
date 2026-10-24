@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/agents-connect",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/agents-connect/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"f5ece00fe21f3e542a822b100187375235b852084fbef7de77a25ba432596f95"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":140084,"own":{"files":2,"bytes":39645},"otherSkills":{"count":3,"files":8,"bytes":100439},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agentcore","aws","cdk","jq"],"package":["bedrock-agentcore","boto3","nova-act","playwright","strands-agents","strands-agents-tools"],"mcp-server":["external","oauth-protected"],"credential":[],"network":[]},"summary":"10 files, 137 KiB · +3 other skills · MCP external, oauth-protected · CLI agentcore, aws +2 · packages bedrock-agentcore +5","short":"137 KiB · +3 skills · 4 CLI · 6 pkg · MCP 2"},
+"heavy":{"heavy":true,"because":["6 packages to install","2 MCP servers","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agentcore","runs aws","runs cdk","runs jq"]},{"marker":"installs-packages","because":["installs bedrock-agentcore","installs boto3","installs nova-act","installs playwright","installs strands-agents","installs strands-agents-tools"]},{"marker":"mcp-server","because":["uses the external MCP server","uses the oauth-protected MCP server"]},{"marker":"chain-loads","because":["pulls in 6 files of the skill at plugins/aws-agents/skills/agents-build","pulls in 1 file of the skill at plugins/aws-agents/skills/agents-deploy","pulls in 1 file of the skill at plugins/aws-agents/skills/agents-optimize"]}],
+"security":{},
+"companions":{"named":[{"name":"agents-debug","path":"plugins/aws-agents/skills/agents-debug"},{"name":"agents-deploy","path":"plugins/aws-agents/skills/agents-deploy"},{"name":"agents-harden","path":"plugins/aws-agents/skills/agents-harden"},{"name":"agents-optimize","path":"plugins/aws-agents/skills/agents-optimize"}],"pulled":[{"path":"plugins/aws-agents/skills/agents-build","files":6,"bytes":75197},{"path":"plugins/aws-agents/skills/agents-deploy","files":1,"bytes":4126},{"path":"plugins/aws-agents/skills/agents-optimize","files":1,"bytes":21116}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

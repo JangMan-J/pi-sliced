@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-voice-twiml",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-voice-twiml/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"516d0c2ad92c5a168cfb8b1aefaac6e718104fb4080885110782566d67a23b57"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10632,"own":{"files":1,"bytes":10632},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB · packages twilio","short":"10 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-call-recordings","path":"plugins/twilio-developer-kit/skills/twilio-call-recordings"},{"name":"twilio-voice-conversation-relay","path":"plugins/twilio-developer-kit/skills/twilio-voice-conversation-relay"},{"name":"twilio-voice-outbound-calls","path":"plugins/twilio-developer-kit/skills/twilio-voice-outbound-calls"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

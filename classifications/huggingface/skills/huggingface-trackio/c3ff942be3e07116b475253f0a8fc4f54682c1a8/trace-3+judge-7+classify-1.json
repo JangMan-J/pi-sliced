@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/skills/huggingface-trackio",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"trace":{"path":"traces/huggingface/skills/huggingface-trackio/c3ff942be3e07116b475253f0a8fc4f54682c1a8/trace-3+judge-7.json","sha256":"aa340ccc21dd5c5226170f702c1187c7e9fec82191cb7d8cc1f54bb19bd81cd8"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":25361,"own":{"files":4,"bytes":25361},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","trackio"],"package":["trackio"],"mcp-server":["enable"],"credential":[],"network":[]},"summary":"4 files, 25 KiB · MCP enable · CLI jq, trackio · packages trackio","short":"25 KiB · 2 CLI · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs trackio"]},{"marker":"installs-packages","because":["installs trackio"]},{"marker":"mcp-server","because":["uses the enable MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

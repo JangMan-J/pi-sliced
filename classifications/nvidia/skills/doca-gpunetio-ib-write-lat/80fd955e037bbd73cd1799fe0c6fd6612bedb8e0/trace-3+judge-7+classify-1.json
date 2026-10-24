@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-gpunetio-ib-write-lat",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-gpunetio-ib-write-lat/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"884221d324a96c413e875b7f0999ef55754284aca9f3033aa264fe9b091068b0"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":31942,"own":{"files":1,"bytes":15034},"otherSkills":{"count":1,"files":1,"bytes":16908},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 31 KiB · +1 other skill","short":"31 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/doca-gpunetio-ib-write-bw"]}],
+"security":{},
+"companions":{"named":[{"name":"doca-common","path":"skills/doca-common"},{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-gpi","path":"skills/doca-gpi"},{"name":"doca-gpunetio","path":"skills/doca-gpunetio"},{"name":"doca-gpunetio-ib-write-bw","path":"skills/doca-gpunetio-ib-write-bw"},{"name":"doca-hardware-safety","path":"skills/doca-hardware-safety"},{"name":"doca-programming-guide","path":"skills/doca-programming-guide"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-rdma","path":"skills/doca-rdma"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-verbs","path":"skills/doca-verbs"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[{"path":"skills/doca-gpunetio-ib-write-bw","files":1,"bytes":16908}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

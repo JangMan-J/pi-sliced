@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/android/creating-android-pull-request",
+"revision":"d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980",
+"trace":{"path":"traces/bitwarden/android/creating-android-pull-request/d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980/trace-3+judge-7.json","sha256":"fcc3e4dd641fc771e5e5351700149f33004a2a2b82cbc941bd05a146db6ad9b2"},
+"status":"unresolvable",
+"reason":"no skill folder named creating-android-pull-request at d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980"
+}

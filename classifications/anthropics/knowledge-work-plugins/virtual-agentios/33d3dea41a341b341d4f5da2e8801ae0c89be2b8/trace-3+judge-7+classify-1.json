@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/virtual-agentios",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/virtual-agentios/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"281cad98b86e4799117bf947c7d2431690e479d3bf40432fbb06f488a49964b6"},
+"status":"unresolvable",
+"reason":"no skill folder named virtual-agentios at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

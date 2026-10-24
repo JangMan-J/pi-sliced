@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/skill-test",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/skill-test/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"e3cb1ea76648a6a438ad565b5e06b77e71352c7a8e051fbaa0ac593ba9b2cbbf"},
+"status":"unresolvable",
+"reason":"no skill folder named skill-test at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

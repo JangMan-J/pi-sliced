@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/skills/cloudflare-email-service",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"trace":{"path":"traces/cloudflare/skills/cloudflare-email-service/86505e44f87d801aa1864a3c4109e9a8ae5c409f/trace-3+judge-7.json","sha256":"63a64ea9fa24bb4ebd7b8b84843cb887fa9645d5f30dfbcf218f070d8c462aca"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":31685,"own":{"files":6,"bytes":31685},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["wrangler"],"package":[],"mcp-server":["cloudflare"],"credential":["API_TOKEN","CLOUDFLARE_API_TOKEN"],"network":["api.cloudflare.com","developers.cloudflare.com"]},"summary":"6 files, 31 KiB · MCP cloudflare · CLI wrangler · 2 keys · 2 hosts","short":"31 KiB · 1 CLI · 2 keys · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs wrangler"]},{"marker":"network","because":["fetches from api.cloudflare.com","fetches from developers.cloudflare.com"]},{"marker":"credentials","because":["needs API_TOKEN","needs CLOUDFLARE_API_TOKEN"]},{"marker":"mcp-server","because":["uses the cloudflare MCP server"]},{"marker":"unpinned-code","because":["npx wrangler: skills/cloudflare-email-service/SKILL.md:27, skills/cloudflare-email-service/references/cli-and-mcp.md:5, skills/cloudflare-email-service/references/cli-and-mcp.md:35"]},{"marker":"sends-credentials","because":["CLOUDFLARE_API_TOKEN -> api.cloudflare.com: skills/cloudflare-email-service/references/cli-and-mcp.md:116"]}],
+"security":{"fetch-run":["npx wrangler @ skills/cloudflare-email-service/SKILL.md:27, skills/cloudflare-email-service/references/cli-and-mcp.md:5, skills/cloudflare-email-service/references/cli-and-mcp.md:35 +4"],"secret-egress":["CLOUDFLARE_API_TOKEN -> api.cloudflare.com @ skills/cloudflare-email-service/references/cli-and-mcp.md:116"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/flowstudio-power-automate-build",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/flowstudio-power-automate-build/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"786746d52adc68b33c8beb66efea120cb511485a270f410ae6ef106f69469cb2"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":87396,"own":{"files":7,"bytes":87396},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["flowstudio"],"credential":[],"network":[]},"summary":"7 files, 85 KiB · MCP flowstudio","short":"85 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the flowstudio MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"flowstudio-power-automate-debug","path":"skills/flowstudio-power-automate-debug"},{"name":"flowstudio-power-automate-mcp","path":"skills/flowstudio-power-automate-mcp"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

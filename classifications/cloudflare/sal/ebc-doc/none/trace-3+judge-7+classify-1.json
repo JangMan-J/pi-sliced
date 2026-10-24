@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/ebc-doc",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/ebc-doc/none/trace-3+judge-7.json","sha256":"312fb366671805fd43400d7ac782c5c446025b7ee71764042ff7f8a4b35e60b1"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

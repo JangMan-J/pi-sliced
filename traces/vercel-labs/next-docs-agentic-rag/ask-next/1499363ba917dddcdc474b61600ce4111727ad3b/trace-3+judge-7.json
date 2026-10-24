@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/next-docs-agentic-rag/ask-next",
+"source":"vercel-labs/next-docs-agentic-rag",
+"revision":"1499363ba917dddcdc474b61600ce4111727ad3b",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named ask-next at 1499363ba917dddcdc474b61600ce4111727ad3b",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

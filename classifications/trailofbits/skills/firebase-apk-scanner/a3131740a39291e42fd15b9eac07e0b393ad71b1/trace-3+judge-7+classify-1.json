@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/firebase-apk-scanner",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/firebase-apk-scanner/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"6391db109f4be72f7092b02af83d603f9f3d513fb6fde00f6690486e43749fd6"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":29297,"own":{"files":3,"bytes":29297},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["apktool"],"package":[],"mcp-server":[],"credential":[],"network":["firebaseremoteconfig.googleapis.com","firebasestorage.googleapis.com","firestore.googleapis.com","identitytoolkit.googleapis.com","project-id.firebaseio.com","project.firebaseio.com","project_id.firebaseio.com","us-central1-project-id.cloudfunctions.net","us-central1-project.cloudfunctions.net"]},"summary":"3 files, 29 KiB · CLI apktool · 9 hosts","short":"29 KiB · 1 CLI · 9 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs apktool"]},{"marker":"network","because":["fetches from firebaseremoteconfig.googleapis.com","fetches from firebasestorage.googleapis.com","fetches from firestore.googleapis.com","fetches from identitytoolkit.googleapis.com","fetches from project_id.firebaseio.com","fetches from project-id.firebaseio.com","fetches from project.firebaseio.com","fetches from us-central1-project-id.cloudfunctions.net","fetches from us-central1-project.cloudfunctions.net"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

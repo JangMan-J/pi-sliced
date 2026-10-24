@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/recsys-pipeline-architect",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/machine-learning-ops/skills/recsys-pipeline-architect",
+"status":"resolved",
+"totals":{"files":1,"bytes":8173},
+"files":[
+{"path":"plugins/machine-learning-ops/skills/recsys-pipeline-architect/SKILL.md","size":8173,"blob":"cbf287c2868061bfb85db723901bee54d75c7ffc","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,125]]},
+{"kind":"network","name":"github.com","at":[[0,8]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/machine-learning-ops/skills/recsys-pipeline-architect","files":1,"bytes":8173}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,125]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,125]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

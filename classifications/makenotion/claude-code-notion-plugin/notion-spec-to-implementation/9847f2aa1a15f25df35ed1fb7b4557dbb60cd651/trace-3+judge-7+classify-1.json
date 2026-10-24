@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/claude-code-notion-plugin/notion-spec-to-implementation",
+"revision":"9847f2aa1a15f25df35ed1fb7b4557dbb60cd651",
+"trace":{"path":"traces/makenotion/claude-code-notion-plugin/notion-spec-to-implementation/9847f2aa1a15f25df35ed1fb7b4557dbb60cd651/trace-3+judge-7.json","sha256":"2297c2a170bfcb99f1fdb0d9208b20601d494488e7bca798f613965c00146344"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":55974,"own":{"files":12,"bytes":55974},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 55 KiB","short":"55 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

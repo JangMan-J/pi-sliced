@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/omniperf/kit-app-streaming-debug",
+"revision":"a68f3894bee4d31e84d7cdb32de48a005e8d51a5",
+"trace":{"path":"traces/nvidia/omniperf/kit-app-streaming-debug/a68f3894bee4d31e84d7cdb32de48a005e8d51a5/trace-3+judge-7.json","sha256":"4100c4cc1949b473ba93630a59d1d3b94274816faad4740be6f968f0e809750a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5643,"own":{"files":1,"bytes":5643},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["rg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.5 KiB · CLI rg","short":"5.5 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs rg"]}],
+"security":{},
+"companions":{"named":[{"name":"nsys-analyze","path":".agents/skills/nsys-analyze"},{"name":"profiling","path":".agents/skills/profiling"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

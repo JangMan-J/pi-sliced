@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-reliability-patterns",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-reliability-patterns/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"85c24324912cda402ad125e6c0042a39a31b9f36c927fe61702a98e3fca6e217"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11067,"own":{"files":1,"bytes":11067},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"twilio-compliance-traffic","path":"plugins/twilio-developer-kit/skills/twilio-compliance-traffic"},{"name":"twilio-debugging-observability","path":"plugins/twilio-developer-kit/skills/twilio-debugging-observability"},{"name":"twilio-messaging-services","path":"plugins/twilio-developer-kit/skills/twilio-messaging-services"},{"name":"twilio-sms-send-message","path":"plugins/twilio-developer-kit/skills/twilio-sms-send-message"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

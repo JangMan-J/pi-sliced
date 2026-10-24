@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langchain-skills/ecosystem-primer",
+"revision":"704e9f4a2f962f449495515f2599502394bc84b2",
+"trace":{"path":"traces/langchain-ai/langchain-skills/ecosystem-primer/704e9f4a2f962f449495515f2599502394bc84b2/trace-3+judge-7.json","sha256":"6be645f90429d0fe2277807b749d899294e2bf33f3b7b532532c129ce074179b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8124,"own":{"files":1,"bytes":8124},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["docs"],"credential":[],"network":["docs.langchain.com"]},"summary":"1 file, 7.9 KiB · MCP docs · 1 host","short":"7.9 KiB · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"network","because":["fetches from docs.langchain.com"]},{"marker":"mcp-server","because":["uses the docs MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"deep-agents-core","path":"config/skills/deep-agents-core"},{"name":"deep-agents-memory","path":"config/skills/deep-agents-memory"},{"name":"deep-agents-orchestration","path":"config/skills/deep-agents-orchestration"},{"name":"deepagents-python-quickstart","path":"config/skills/deepagents-python-quickstart"},{"name":"deepagents-typescript-quickstart","path":"config/skills/deepagents-typescript-quickstart"},{"name":"langchain-dependencies","path":"config/skills/langchain-dependencies"},{"name":"langchain-fundamentals","path":"config/skills/langchain-fundamentals"},{"name":"langchain-middleware","path":"config/skills/langchain-middleware"},{"name":"langchain-python-quickstart","path":"config/skills/langchain-python-quickstart"},{"name":"langchain-rag","path":"config/skills/langchain-rag"},{"name":"langchain-typescript-quickstart","path":"config/skills/langchain-typescript-quickstart"},{"name":"langgraph-fundamentals","path":"config/skills/langgraph-fundamentals"},{"name":"langgraph-human-in-the-loop","path":"config/skills/langgraph-human-in-the-loop"},{"name":"langgraph-persistence","path":"config/skills/langgraph-persistence"},{"name":"langgraph-python-quickstart","path":"config/skills/langgraph-python-quickstart"},{"name":"langgraph-typescript-quickstart","path":"config/skills/langgraph-typescript-quickstart"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

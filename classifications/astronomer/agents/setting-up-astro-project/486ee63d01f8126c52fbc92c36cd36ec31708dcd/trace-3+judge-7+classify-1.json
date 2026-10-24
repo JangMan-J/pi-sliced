@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/setting-up-astro-project",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/setting-up-astro-project/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"ae60b84d12d6fe6cd5eb91635e60853d7fb73387cdc570146e2bf74f66677cfa"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3255,"own":{"files":1,"bytes":3255},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["astro"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.2 KiB · CLI astro","short":"3.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs astro"]},{"marker":"stub","because":["own folder 3.2 KiB (1 file)","content is the astro it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"deploying-airflow","path":"skills/deploying-airflow"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

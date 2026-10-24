@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/find-bugs",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/find-bugs/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"97c9fcda684223dd31b9758865ee4366b2a16e678f4887122355013b65e13adf"},
+"status":"unresolvable",
+"reason":"no skill folder named find-bugs at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

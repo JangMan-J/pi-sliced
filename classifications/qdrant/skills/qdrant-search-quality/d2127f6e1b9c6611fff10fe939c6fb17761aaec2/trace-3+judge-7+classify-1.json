@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"qdrant/skills/qdrant-search-quality",
+"revision":"d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+"trace":{"path":"traces/qdrant/skills/qdrant-search-quality/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/trace-3+judge-7.json","sha256":"18797b4ac2d4d8a07086c45800d7c37b6c3758606aaaeb1050f99c7f266721b9"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":55051,"own":{"files":1,"bytes":2465},"otherSkills":{"count":7,"files":7,"bytes":52586},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 54 KiB · +7 other skills","short":"54 KiB · +7 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/qdrant-model-migration","pulls in 1 file of the skill at skills/qdrant-search-quality/diagnosis","pulls in 1 file of the skill at skills/qdrant-search-quality/search-strategies","pulls in 1 file of the skill at skills/qdrant-search-quality/search-strategies/hybrid-search","pulls in 1 file of the skill at skills/qdrant-search-quality/search-strategies/hybrid-search/combining-searches","pulls in 1 file of the skill at skills/qdrant-search-quality/search-strategies/hybrid-search/search-types","pulls in 1 file of the skill at skills/qdrant-search-quality/search-strategies/relevance-feedback"]},{"marker":"stub","because":["own folder 2.4 KiB (1 file)","51 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/qdrant-model-migration","files":1,"bytes":8704},{"path":"skills/qdrant-search-quality/diagnosis","files":1,"bytes":9331},{"path":"skills/qdrant-search-quality/search-strategies","files":1,"bytes":5602},{"path":"skills/qdrant-search-quality/search-strategies/hybrid-search","files":1,"bytes":3669},{"path":"skills/qdrant-search-quality/search-strategies/hybrid-search/combining-searches","files":1,"bytes":6593},{"path":"skills/qdrant-search-quality/search-strategies/hybrid-search/search-types","files":1,"bytes":9222},{"path":"skills/qdrant-search-quality/search-strategies/relevance-feedback","files":1,"bytes":9465}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

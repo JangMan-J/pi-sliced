@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/hashicorp-agent-skills/ember",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/hashicorp-agent-skills/ember/none/trace-3+judge-7.json","sha256":"a4f8f1ec290f245766f83307b6c744bf3311438050e8945fa6d6b3366decc45b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/hashicorp-agent-skills.git/' not found"
+}

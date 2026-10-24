@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"qdrant/skills/qdrant-monitoring",
+"revision":"d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+"trace":{"path":"traces/qdrant/skills/qdrant-monitoring/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/trace-3+judge-7.json","sha256":"575e41e1d58b0900a5d257a9b924d0d0f1eb7004979d77898eb8f902e2c437df"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":8647,"own":{"files":1,"bytes":1469},"otherSkills":{"count":2,"files":2,"bytes":7178},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 8.4 KiB · +2 other skills","short":"8.4 KiB · +2 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/qdrant-monitoring/debugging","pulls in 1 file of the skill at skills/qdrant-monitoring/setup"]},{"marker":"stub","because":["own folder 1.4 KiB (1 file)","7.0 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/qdrant-monitoring/debugging","files":1,"bytes":3683},{"path":"skills/qdrant-monitoring/setup","files":1,"bytes":3495}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

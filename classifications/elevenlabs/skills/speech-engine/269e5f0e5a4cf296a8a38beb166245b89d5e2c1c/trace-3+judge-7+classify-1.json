@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elevenlabs/skills/speech-engine",
+"revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+"trace":{"path":"traces/elevenlabs/skills/speech-engine/269e5f0e5a4cf296a8a38beb166245b89d5e2c1c/trace-3+judge-7.json","sha256":"54bd1780001ea49d6517fd44cd0210c0d26fa04affa71d8fc35ff2d4cda40983"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":22411,"own":{"files":4,"bytes":22411},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@elevenlabs/cli","ngrok"],"package":["@elevenlabs/client","@elevenlabs/elevenlabs-js","@elevenlabs/react","@types/express","dotenv","elevenlabs","express","flask","python-dotenv","tsx"],"mcp-server":[],"credential":["ELEVENLABS_API_KEY"],"network":["elevenlabs.io"]},"summary":"4 files, 22 KiB · CLI @elevenlabs/cli, ngrok · packages @elevenlabs/client +9 · 1 key · 1 host","short":"22 KiB · 2 CLI · 10 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["10 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @elevenlabs/cli","runs ngrok"]},{"marker":"installs-packages","because":["installs @elevenlabs/client","installs @elevenlabs/elevenlabs-js","installs @elevenlabs/react","installs @types/express","installs dotenv","installs elevenlabs","installs express","installs flask","installs python-dotenv","installs tsx"]},{"marker":"network","because":["fetches from elevenlabs.io"]},{"marker":"credentials","because":["needs ELEVENLABS_API_KEY"]},{"marker":"unpinned-code","because":["npx @elevenlabs/cli@latest: speech-engine/SKILL.md:13, speech-engine/references/installation.md:89"]}],
+"security":{"fetch-run":["npx @elevenlabs/cli@latest @ speech-engine/SKILL.md:13, speech-engine/references/installation.md:89"]},
+"companions":{"named":[{"name":"agents","path":"agents"},{"name":"setup-api-key","path":"setup-api-key"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

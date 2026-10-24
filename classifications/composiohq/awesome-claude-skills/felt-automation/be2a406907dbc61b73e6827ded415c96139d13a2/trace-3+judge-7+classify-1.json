@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/felt-automation",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/felt-automation/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"ac5d44b4c6e8151ef416bcc26ac4302ac80dc16384fa3fe26b0f563bba49014f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2877,"own":{"files":1,"bytes":2877},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.8 KiB","short":"2.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

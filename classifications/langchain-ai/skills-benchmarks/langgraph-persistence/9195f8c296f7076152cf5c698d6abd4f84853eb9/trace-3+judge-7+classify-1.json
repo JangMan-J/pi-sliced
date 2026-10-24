@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/skills-benchmarks/langgraph-persistence",
+"revision":"9195f8c296f7076152cf5c698d6abd4f84853eb9",
+"trace":{"path":"traces/langchain-ai/skills-benchmarks/langgraph-persistence/9195f8c296f7076152cf5c698d6abd4f84853eb9/trace-3+judge-7.json","sha256":"67a3b50fae236dfbe7b7a124dd2462b07be85575b9d1d343933211c898b25a21"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18403,"own":{"files":1,"bytes":18403},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 18 KiB","short":"18 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

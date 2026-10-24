@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-local",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-local/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"d85ba0b1f7f5b0bb462f3843f53af0547b3f6685e090df78111afa672ac117f5"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":38293,"own":{"files":10,"bytes":38293},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":[],"mcp-server":["azure"],"credential":[],"network":[]},"summary":"10 files, 37 KiB · MCP azure · CLI az","short":"37 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"mcp-server","because":["uses the azure MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-compute","path":".github/plugins/azure-skills/skills/azure-compute"},{"name":"azure-kubernetes","path":".github/plugins/azure-skills/skills/azure-kubernetes"},{"name":"azure-local-multi-rack","path":".github/plugins/azure-local-skills/skills/azure-local-multi-rack"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

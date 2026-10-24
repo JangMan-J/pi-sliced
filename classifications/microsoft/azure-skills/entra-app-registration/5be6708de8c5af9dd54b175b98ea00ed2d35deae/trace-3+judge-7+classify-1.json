@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/azure-skills/entra-app-registration",
+"revision":"5be6708de8c5af9dd54b175b98ea00ed2d35deae",
+"trace":{"path":"traces/microsoft/azure-skills/entra-app-registration/5be6708de8c5af9dd54b175b98ea00ed2d35deae/trace-3+judge-7.json","sha256":"4087c158620c0b7fff4b8079c27dd303b29a2b7bdb434df5c895c33145fbc5ca"},
+"status":"resolved",
+"footprint":{"files":17,"bytes":83347,"own":{"files":17,"bytes":83347},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","dotnet"],"package":["@azure/msal-node","Microsoft.Identity.Client","axios","azure-identity","azure_identity","msal","requests","tokio"],"mcp-server":[],"credential":["CLIENT_SECRET"],"network":["developer.microsoft.com","learn.microsoft.com","portal.azure.com"]},"summary":"17 files, 81 KiB · CLI az, dotnet · packages @azure/msal-node +7 · 1 key · 3 hosts","short":"81 KiB · 2 CLI · 8 pkg · 1 key · 3 hosts"},
+"heavy":{"heavy":true,"because":["8 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs dotnet"]},{"marker":"installs-packages","because":["installs @azure/msal-node","installs axios","installs azure_identity","installs azure-identity","installs Microsoft.Identity.Client","installs msal","installs requests","installs tokio"]},{"marker":"network","because":["fetches from developer.microsoft.com","fetches from learn.microsoft.com","fetches from portal.azure.com"]},{"marker":"credentials","because":["needs CLIENT_SECRET"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

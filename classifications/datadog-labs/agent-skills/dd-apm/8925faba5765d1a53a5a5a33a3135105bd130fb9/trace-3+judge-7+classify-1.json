@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/dd-apm",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/dd-apm/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"227629bd150d66e7ac59ccf3aedff063ddf78ad224d528b975bc18e571992adc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7934,"own":{"files":1,"bytes":7934},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pup"],"package":["datadog-agent"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.7 KiB · CLI pup · packages datadog-agent","short":"7.7 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pup"]},{"marker":"installs-packages","because":["installs datadog-agent"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

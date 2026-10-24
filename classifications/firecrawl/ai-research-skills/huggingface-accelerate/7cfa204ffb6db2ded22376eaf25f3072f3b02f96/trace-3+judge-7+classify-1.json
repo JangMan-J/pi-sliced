@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/huggingface-accelerate",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/huggingface-accelerate/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"066da064d14485651d6cbaeb9f05fae7d0dbdb18b8e0abb869473b2e56323089"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":43942,"own":{"files":4,"bytes":43942},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["accelerate","nvidia-smi"],"package":["accelerate"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"4 files, 43 KiB · CLI accelerate, nvidia-smi · packages accelerate · 1 host","short":"43 KiB · 2 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs accelerate","runs nvidia-smi"]},{"marker":"installs-packages","because":["installs accelerate"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[{"name":"deepspeed","path":"08-distributed-training/deepspeed"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

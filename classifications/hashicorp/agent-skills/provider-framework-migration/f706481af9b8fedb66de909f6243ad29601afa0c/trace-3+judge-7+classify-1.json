@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/agent-skills/provider-framework-migration",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/agent-skills/provider-framework-migration/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"2aa8030e4c77d4d7505205b489926aa8b49503115c1aabb0c5a5f38e8ea91755"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15036,"own":{"files":2,"bytes":15036},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"provider-resources","path":"plugins/terraform/skills/provider-resources"},{"name":"provider-test-patterns","path":"plugins/terraform/skills/provider-test-patterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

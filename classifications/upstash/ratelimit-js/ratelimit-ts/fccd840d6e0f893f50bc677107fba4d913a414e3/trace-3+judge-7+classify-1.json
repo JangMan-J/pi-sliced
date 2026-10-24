@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/ratelimit-js/ratelimit-ts",
+"revision":"fccd840d6e0f893f50bc677107fba4d913a414e3",
+"trace":{"path":"traces/upstash/ratelimit-js/ratelimit-ts/fccd840d6e0f893f50bc677107fba4d913a414e3/trace-3+judge-7.json","sha256":"9990a9814d02b7168fece9d4e9a2efe98c53cec1ff1aa3c41e5766d5c7586c65"},
+"status":"unresolvable",
+"reason":"no skill folder named ratelimit-ts at fccd840d6e0f893f50bc677107fba4d913a414e3"
+}

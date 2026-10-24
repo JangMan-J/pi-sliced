@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/workflow/workflow-init",
+"revision":"9d0f748a1cccf67b275ad5b902123d6ca714c2c9",
+"trace":{"path":"traces/vercel/workflow/workflow-init/9d0f748a1cccf67b275ad5b902123d6ca714c2c9/trace-3+judge-7.json","sha256":"83b1e32c2ea905f5bf18a75abcd84cbeb783ba113878dcd3d46a53cc9c45ba38"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3281,"own":{"files":1,"bytes":3281},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["workflow"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.2 KiB · CLI workflow","short":"3.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs workflow"]},{"marker":"stub","because":["own folder 3.2 KiB (1 file)","content is the workflow it wraps"]},{"marker":"unpinned-code","because":["npx workflow: skills/workflow-init/SKILL.md:58"]}],
+"security":{"fetch-run":["npx workflow @ skills/workflow-init/SKILL.md:58"]},
+"companions":{"named":[{"name":"workflow","path":"skills/workflow"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

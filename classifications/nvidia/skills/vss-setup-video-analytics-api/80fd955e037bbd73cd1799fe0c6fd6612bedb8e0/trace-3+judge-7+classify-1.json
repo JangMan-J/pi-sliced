@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/vss-setup-video-analytics-api",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/vss-setup-video-analytics-api/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"fe852c53aed7239f5948443d2fb1c2c0668874ed378a10bf3f01200114ebfc2f"},
+"status":"unresolvable",
+"reason":"no skill folder named vss-setup-video-analytics-api at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf (the archive had skills/vss-setup-video-analytics-api)"
+}

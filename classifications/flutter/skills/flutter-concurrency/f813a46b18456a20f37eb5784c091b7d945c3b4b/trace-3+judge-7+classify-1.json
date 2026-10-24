@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-concurrency",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-concurrency/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"22e6ad4b93b62922260d3343deae3d55ad0e3ce92054dde7dc055591c24c9b18"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-concurrency at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

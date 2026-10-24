@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-user-guide",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-user-guide/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"74495f67dbb731f3543f4cc2a3c0841f55df04dbdb1da9f683e8b9f28994bae6"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":5576,"own":{"files":2,"bytes":5576},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude"],"package":[],"mcp-server":["http"],"credential":[],"network":["docs.nvidia.com"]},"summary":"2 files, 5.4 KiB · MCP http · CLI claude · 1 host","short":"5.4 KiB · 1 CLI · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs claude"]},{"marker":"network","because":["fetches from docs.nvidia.com"]},{"marker":"mcp-server","because":["uses the http MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

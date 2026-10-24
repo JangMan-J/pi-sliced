@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"brave/brave-core/review-prs",
+"revision":"1e6f00267d382150bac8f87266a163d36e609eb8",
+"trace":{"path":"traces/brave/brave-core/review-prs/1e6f00267d382150bac8f87266a163d36e609eb8/trace-3+judge-7.json","sha256":"5d946c963ff8af21fbe3e4d15ba363e3d51d4473639893ce6b6f05bd6df6c678"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":185614,"own":{"files":12,"bytes":185614},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["closed","gh"],"package":["lib"],"mcp-server":[],"credential":[],"network":["...","github.com"]},"summary":"12 files, 181 KiB · CLI closed, gh · packages lib · 2 hosts","short":"181 KiB · 2 CLI · 1 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs closed","runs gh"]},{"marker":"installs-packages","because":["installs lib"]},{"marker":"network","because":["fetches from ...","fetches from github.com"]},{"marker":"checkout-scripts","because":["code reaches script/manage-bp-ids.py (1 files) in the repository checkout","code reaches docs/best-practices (22 files) in the repository checkout","code reaches test/filters (71 files) in the repository checkout","code reaches chromium_src (2085 files) in the repository checkout","code reaches android (1471 files) in the repository checkout","code reaches ios (4778 files) in the repository checkout","code reaches patches (1298 files) in the repository checkout","code reaches components/vector_icons (11 files) in the repository checkout"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":8,"targets":["android","chromium_src","components/vector_icons","docs/best-practices","ios","patches","script/manage-bp-ids.py","test/filters"],"files":9737,"bytes":228727133}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/x402",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/x402/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"334fe9c86d192e99991000a7d94135517e0bfb39e3364d4c71496254f2a8d760"},
+"status":"unresolvable",
+"reason":"no skill folder named x402 at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/datalad",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/datalad/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"7d70620288c6e44457829a1684f52aabf1f7cfc25e088f9c6ba6cbd3a9d6aeba"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":52406,"own":{"files":4,"bytes":52406},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["datalad","jq","singularity"],"package":["git-annex"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 51 KiB · CLI datalad, jq +1 · packages git-annex","short":"51 KiB · 3 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs datalad","runs jq","runs singularity"]},{"marker":"installs-packages","because":["installs git-annex"]}],
+"security":{},
+"companions":{"named":[{"name":"bids","path":"skills/bids"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

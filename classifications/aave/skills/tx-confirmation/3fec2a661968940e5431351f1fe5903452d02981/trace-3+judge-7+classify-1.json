@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aave/skills/tx-confirmation",
+"revision":"3fec2a661968940e5431351f1fe5903452d02981",
+"trace":{"path":"traces/aave/skills/tx-confirmation/3fec2a661968940e5431351f1fe5903452d02981/trace-3+judge-7.json","sha256":"2789194b3b0ddee8d5298cc9c4e73e1106d4a2f438ea96a9ac48c1ff8d9cfb0f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2743,"own":{"files":1,"bytes":2743},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB","short":"2.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

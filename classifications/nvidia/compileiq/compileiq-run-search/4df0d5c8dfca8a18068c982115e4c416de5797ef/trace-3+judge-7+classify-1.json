@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/compileiq/compileiq-run-search",
+"revision":"4df0d5c8dfca8a18068c982115e4c416de5797ef",
+"trace":{"path":"traces/nvidia/compileiq/compileiq-run-search/4df0d5c8dfca8a18068c982115e4c416de5797ef/trace-3+judge-7.json","sha256":"4b8b7f238adcbf3fbe1b6f5ccc2b9832cd5d081a5e56aa79998dcc0626056f0a"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10885,"own":{"files":2,"bytes":10885},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nvidia-smi"],"package":["compileiq"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 11 KiB · CLI nvidia-smi · packages compileiq","short":"11 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nvidia-smi"]},{"marker":"installs-packages","because":["installs compileiq"]}],
+"security":{},
+"companions":{"named":[{"name":"compileiq-author-objective","path":"agent-skills/compileiq-author-objective"},{"name":"compileiq-debug","path":"agent-skills/compileiq-debug"},{"name":"compileiq-search-space","path":"agent-skills/compileiq-search-space"},{"name":"compileiq-validate-result","path":"agent-skills/compileiq-validate-result"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

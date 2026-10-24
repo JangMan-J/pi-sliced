@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"better-auth/agent-auth/agent-auth-mcp",
+"revision":"e89bd038d8229ef008b184a75033f2d03a6d2514",
+"trace":{"path":"traces/better-auth/agent-auth/agent-auth-mcp/e89bd038d8229ef008b184a75033f2d03a6d2514/trace-3+judge-7.json","sha256":"0d61f50797f2135b4f0606fdfd9dfdcfbc41305ba82c952a6098933dc3f48017"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8482,"own":{"files":1,"bytes":8482},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["auth-agent"],"package":[],"mcp-server":["auth","the","use"],"credential":[],"network":[]},"summary":"1 file, 8.3 KiB · MCP auth, the +1 · CLI auth-agent","short":"8.3 KiB · 1 CLI · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs auth-agent"]},{"marker":"mcp-server","because":["uses the auth MCP server","uses the the MCP server","uses the use MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

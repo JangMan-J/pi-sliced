@@ -1,0 +1,1 @@
+{"id":"fd09b771603534cea5b60b9a0bdd1a2ea54c641ab006f6f9b96616828f91d243","pullsIn":false,"reason":"The dart-use-ffigen step has the agent create a script in the user's package tool/ directory, which is the user's project.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/dart-use-ffigen/SKILL.md","line":89,"ref":"tool/","target":"tool"}

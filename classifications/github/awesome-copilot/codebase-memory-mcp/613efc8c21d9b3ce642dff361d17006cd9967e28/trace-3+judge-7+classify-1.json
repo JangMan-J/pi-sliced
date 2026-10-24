@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/codebase-memory-mcp",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/codebase-memory-mcp/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"d60625c7e304531661898ea7af310b5bbb886b24ef117255aa7441dd66ff3c07"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16172,"own":{"files":1,"bytes":16172},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

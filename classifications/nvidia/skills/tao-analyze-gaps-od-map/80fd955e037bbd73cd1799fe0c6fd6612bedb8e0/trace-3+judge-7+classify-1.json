@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-analyze-gaps-od-map",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-analyze-gaps-od-map/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"bc51229a1b2546d6327ef6dcd49ce8c289665a4d42e831863c4f591074a3103e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7412,"own":{"files":1,"bytes":7412},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","gap_analysis"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.2 KiB · CLI docker, gap_analysis","short":"7.2 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs gap_analysis"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-mine-od-images","path":"skills/tao-mine-od-images"},{"name":"tao-run-on-docker","path":"skills/tao-run-on-docker"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

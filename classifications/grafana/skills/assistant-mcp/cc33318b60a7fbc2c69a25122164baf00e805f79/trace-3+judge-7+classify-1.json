@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/assistant-mcp",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/assistant-mcp/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"dea478928a3426ef8d77e87a14dc0dd562eb8a2c61679781726076a098651208"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9112,"own":{"files":4,"bytes":9112},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go","mcp-grafana"],"package":["github.com/grafana/mcp-grafana/cmd/mcp-grafana"],"mcp-server":["available","grafana"],"credential":["GRAFANA_API_KEY"],"network":[]},"summary":"4 files, 8.9 KiB · MCP available, grafana · CLI go, mcp-grafana · packages github.com/grafana/mcp-grafana/cmd/mcp-grafana · 1 key","short":"8.9 KiB · 2 CLI · 1 pkg · 1 key · MCP 2"},
+"heavy":{"heavy":true,"because":["1 package to install","2 MCP servers","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs go","runs mcp-grafana"]},{"marker":"installs-packages","because":["installs github.com/grafana/mcp-grafana/cmd/mcp-grafana"]},{"marker":"credentials","because":["needs GRAFANA_API_KEY"]},{"marker":"mcp-server","because":["uses the available MCP server","uses the grafana MCP server"]},{"marker":"unpinned-code","because":["go @latest: skills/grafana-cloud/assistant-mcp/SKILL.md:19"]}],
+"security":{"fetch-run":["go @latest @ skills/grafana-cloud/assistant-mcp/SKILL.md:19"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

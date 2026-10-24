@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/ima-dai-sdk",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/ima-dai-sdk/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"d390e50c09cc6b71233d4602b5a1a22c45464ea4b073999cf398716b4f572e09"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":35996,"own":{"files":6,"bytes":35996},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 35 KiB","short":"35 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

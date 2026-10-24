@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-code/frontend-design",
+"revision":"318b7e6ac4e726e88a4ad326214866a93c373b1b",
+"trace":{"path":"traces/anthropics/claude-code/frontend-design/318b7e6ac4e726e88a4ad326214866a93c373b1b/trace-3+judge-7.json","sha256":"b2820b2e4f6713fe2d1dbcb699e03b512aeb94d5a2d50777c3cc8496ad14d12a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9390,"own":{"files":1,"bytes":9390},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.2 KiB","short":"9.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

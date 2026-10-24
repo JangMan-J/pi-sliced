@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browser-use/browsercode/improve-codebase-architecture",
+"revision":"b200643fe0eb93ce5a3aadd4bb21cb6cceb2ed04",
+"trace":{"path":"traces/browser-use/browsercode/improve-codebase-architecture/b200643fe0eb93ce5a3aadd4bb21cb6cceb2ed04/trace-3+judge-7.json","sha256":"0154bd280a74f63a3b38a9eaf5c0bb1c365d988628d9cc0169209f0f60271ced"},
+"status":"unresolvable",
+"reason":"no skill folder named improve-codebase-architecture at b200643fe0eb93ce5a3aadd4bb21cb6cceb2ed04"
+}

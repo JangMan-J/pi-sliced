@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/chrome-mcp-troubleshooting",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/chrome-mcp-troubleshooting/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"aa5f1640c78b005727606c614438144b977488eaac573b75373d48c8d4738fbf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10274,"own":{"files":1,"bytes":10274},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["getconf","lsof","open","osascript","pgrep","pkill"],"package":[],"mcp-server":["chrome"],"credential":[],"network":[]},"summary":"1 file, 10 KiB · MCP chrome · CLI getconf, lsof +4","short":"10 KiB · 6 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs getconf","runs lsof","runs open","runs osascript","runs pgrep","runs pkill"]},{"marker":"mcp-server","because":["uses the chrome MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

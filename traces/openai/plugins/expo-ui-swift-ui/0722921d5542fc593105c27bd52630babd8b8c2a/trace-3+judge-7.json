@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/expo-ui-swift-ui",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/expo/skills/expo-ui-swift-ui",
+"status":"resolved",
+"totals":{"files":1,"bytes":1598},
+"files":[
+{"path":"plugins/expo/skills/expo-ui-swift-ui/SKILL.md","size":1598,"blob":"b5ca16e1ef9bed532494ec20e92cc5561ba7aa0d","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[0,11],[0,14]]},
+{"kind":"network","name":"docs.expo.dev","at":[[0,20]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-ui-swift-ui","files":1,"bytes":1598}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx expo","at":[[0,11],[0,14]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":null}
+}

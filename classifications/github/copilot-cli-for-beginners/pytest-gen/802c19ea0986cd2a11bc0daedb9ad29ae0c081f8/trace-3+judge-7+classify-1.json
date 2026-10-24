@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/copilot-cli-for-beginners/pytest-gen",
+"revision":"802c19ea0986cd2a11bc0daedb9ad29ae0c081f8",
+"trace":{"path":"traces/github/copilot-cli-for-beginners/pytest-gen/802c19ea0986cd2a11bc0daedb9ad29ae0c081f8/trace-3+judge-7.json","sha256":"3d4050198ce3eb1fdb5e91d6469969bd42257f0378ddbc33a12c04e03b81e296"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1354,"own":{"files":1,"bytes":1354},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.3 KiB","short":"1.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

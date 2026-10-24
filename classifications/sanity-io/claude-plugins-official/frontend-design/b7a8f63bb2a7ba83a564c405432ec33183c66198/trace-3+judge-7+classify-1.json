@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/claude-plugins-official/frontend-design",
+"revision":"b7a8f63bb2a7ba83a564c405432ec33183c66198",
+"trace":{"path":"traces/sanity-io/claude-plugins-official/frontend-design/b7a8f63bb2a7ba83a564c405432ec33183c66198/trace-3+judge-7.json","sha256":"1ae9bf3b6565fae99defef6c2f5793cf2f675e68d524a67b65070238d06f2e66"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4274,"own":{"files":1,"bytes":4274},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.2 KiB","short":"4.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

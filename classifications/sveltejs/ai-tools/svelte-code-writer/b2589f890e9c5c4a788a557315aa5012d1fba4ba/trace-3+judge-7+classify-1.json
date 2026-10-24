@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sveltejs/ai-tools/svelte-code-writer",
+"revision":"b2589f890e9c5c4a788a557315aa5012d1fba4ba",
+"trace":{"path":"traces/sveltejs/ai-tools/svelte-code-writer/b2589f890e9c5c4a788a557315aa5012d1fba4ba/trace-3+judge-7.json","sha256":"3dd1d6984ca14bf8042383c8ee1060db7e8eb6b56e98e20da194969357a19fb7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2093,"own":{"files":1,"bytes":2093},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@sveltejs/mcp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.0 KiB · CLI @sveltejs/mcp","short":"2.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs @sveltejs/mcp"]},{"marker":"stub","because":["own folder 2.0 KiB (1 file)","content is the @sveltejs/mcp it wraps"]},{"marker":"unpinned-code","because":["npx @sveltejs/mcp: tools/skills/svelte-code-writer/SKILL.md:13, tools/skills/svelte-code-writer/SKILL.md:21, tools/skills/svelte-code-writer/SKILL.md:29"]}],
+"security":{"fetch-run":["npx @sveltejs/mcp @ tools/skills/svelte-code-writer/SKILL.md:13, tools/skills/svelte-code-writer/SKILL.md:21, tools/skills/svelte-code-writer/SKILL.md:29 +4"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

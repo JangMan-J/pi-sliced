@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-connector",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-connector/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"cc8f571b64f1199f7feab1b7755a304604b1d9da56267cdd88e5006335830b4c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5072,"own":{"files":1,"bytes":5072},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.0 KiB · CLI pa","short":"5.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pa"]}],
+"security":{},
+"companions":{"named":[{"name":"add-azuredevops","path":"plugins/code-apps/skills/add-azuredevops"},{"name":"add-excel","path":"plugins/code-apps/skills/add-excel"},{"name":"add-office365","path":"plugins/code-apps/skills/add-office365"},{"name":"add-onedrive","path":"plugins/code-apps/skills/add-onedrive"},{"name":"add-teams","path":"plugins/code-apps/skills/add-teams"},{"name":"add-workiq","path":"plugins/code-apps/skills/add-workiq"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/web-perf",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/web-perf/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"2d36de033d86e2d4c31957a3eb9feb9c8616b39c26c603cb00a0525165444149"},
+"status":"unresolvable",
+"reason":"no skill folder named web-perf at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

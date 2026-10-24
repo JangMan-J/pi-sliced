@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"czlonkowski/n8n-skills/n8n-validation-expert",
+"revision":"c640094d949c5a7bfce7d51fc9c049e3dcd3be44",
+"trace":{"path":"traces/czlonkowski/n8n-skills/n8n-validation-expert/c640094d949c5a7bfce7d51fc9c049e3dcd3be44/trace-3+judge-7.json","sha256":"95758109eef7beb5d3e14179054539d321e3f0ee1cc3904fb34f7cedec7db09e"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":97118,"own":{"files":4,"bytes":83664},"otherSkills":{"count":1,"files":1,"bytes":13454},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 95 KiB · +1 other skill","short":"95 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/n8n-node-configuration"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/n8n-node-configuration","files":1,"bytes":13454}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

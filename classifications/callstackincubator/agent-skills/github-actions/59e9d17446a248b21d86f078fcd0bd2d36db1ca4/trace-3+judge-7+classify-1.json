@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-skills/github-actions",
+"revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+"trace":{"path":"traces/callstackincubator/agent-skills/github-actions/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/trace-3+judge-7.json","sha256":"037e5828763e75730cd31af147f1bad29ca3552de5289ef1cecdb03e6f1f7e14"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":25758,"own":{"files":4,"bytes":25758},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","jq","pod","react-native"],"package":[],"mcp-server":[],"credential":["GITHUB_TOKEN"],"network":["api.github.com"]},"summary":"4 files, 25 KiB · CLI gh, jq +2 · 1 key · 1 host","short":"25 KiB · 4 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs jq","runs pod","runs react-native"]},{"marker":"network","because":["fetches from api.github.com"]},{"marker":"credentials","because":["needs GITHUB_TOKEN"]},{"marker":"unpinned-code","because":["npx react-native: skills/github-actions/references/gha-ios-composite-action.md:23, skills/github-actions/references/gha-workflow-and-downloads.md:24, skills/github-actions/references/gha-workflow-and-downloads.md:235"]},{"marker":"sends-credentials","because":["GITHUB_TOKEN -> api.github.com: skills/github-actions/references/gha-workflow-and-downloads.md:266, skills/github-actions/references/gha-workflow-and-downloads.md:272"]}],
+"security":{"fetch-run":["npx react-native @ skills/github-actions/references/gha-ios-composite-action.md:23, skills/github-actions/references/gha-workflow-and-downloads.md:24, skills/github-actions/references/gha-workflow-and-downloads.md:235"],"secret-egress":["GITHUB_TOKEN -> api.github.com @ skills/github-actions/references/gha-workflow-and-downloads.md:266, skills/github-actions/references/gha-workflow-and-downloads.md:272"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

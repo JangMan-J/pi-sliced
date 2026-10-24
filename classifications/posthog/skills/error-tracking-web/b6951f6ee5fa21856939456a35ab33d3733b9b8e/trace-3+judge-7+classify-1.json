@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/error-tracking-web",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/error-tracking-web/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"140dcb4434d3b9b9ff2cae674f44c35f26aff4f5fd14c1cda165d42715ed90e9"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":33063,"own":{"files":7,"bytes":33063},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["posthog-js"],"mcp-server":[],"credential":[],"network":["app.posthog.com"]},"summary":"7 files, 32 KiB · packages posthog-js · 1 host","short":"32 KiB · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs posthog-js"]},{"marker":"network","because":["fetches from app.posthog.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

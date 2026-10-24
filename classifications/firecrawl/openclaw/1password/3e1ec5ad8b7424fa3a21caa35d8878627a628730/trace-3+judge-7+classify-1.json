@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/1password",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/1password/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"47fa7e25e7cb67e6d433226e36b8aea555a2ec55d5fcc32a1827a5526f1ea41c"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":4339,"own":{"files":3,"bytes":4339},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["op","tmux"],"package":[],"mcp-server":[],"credential":["DB_PASSWORD"],"network":[]},"summary":"3 files, 4.2 KiB · CLI op, tmux · 1 key","short":"4.2 KiB · 2 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs op","runs tmux"]},{"marker":"credentials","because":["needs DB_PASSWORD"]}],
+"security":{},
+"companions":{"named":[{"name":"tmux","path":"skills/tmux"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

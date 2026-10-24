@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/streamlit/addressing-pr-review-comments",
+"revision":"76ac4836ecd332cbedb8f9df5ecc1dbfc568870a",
+"trace":{"path":"traces/streamlit/streamlit/addressing-pr-review-comments/76ac4836ecd332cbedb8f9df5ecc1dbfc568870a/trace-3+judge-7.json","sha256":"b829938f2520bb817dbf02ed2012ac863a617833b8b7f47752d5087d9f363378"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11735,"own":{"files":1,"bytes":11735},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["author","body","comments","gh","isResolved","line","login","nodes","path","pullRequest","repository","reviewThreads"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI author, body +10","short":"11 KiB · 12 CLI"},
+"heavy":{"heavy":true,"because":["12 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs author","runs body","runs comments","runs gh","runs isResolved","runs line","runs login","runs nodes","runs path","runs pullRequest","runs repository","runs reviewThreads"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

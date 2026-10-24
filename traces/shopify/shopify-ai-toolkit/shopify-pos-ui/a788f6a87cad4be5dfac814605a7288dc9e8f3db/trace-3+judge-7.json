@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"shopify/shopify-ai-toolkit/shopify-pos-ui",
+"source":"shopify/shopify-ai-toolkit",
+"revision":"a788f6a87cad4be5dfac814605a7288dc9e8f3db",
+"skillPath":"deprecated/shopify-pos-ui",
+"status":"resolved",
+"totals":{"files":1,"bytes":594},
+"files":[
+{"path":"deprecated/shopify-pos-ui/SKILL.md","size":594,"blob":"615b38df8a5a7542c6d3827738f98ccd14ca618a","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,8]]}
+],
+"regions":[
+{"kind":"own","path":"deprecated/shopify-pos-ui","files":1,"bytes":594}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,8]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,8]]}
+],
+"namedSkills":[
+{"name":"shopify","path":"skills/shopify","at":[[0,8]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

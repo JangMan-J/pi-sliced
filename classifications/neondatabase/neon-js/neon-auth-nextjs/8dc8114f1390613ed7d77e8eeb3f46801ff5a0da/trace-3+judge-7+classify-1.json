@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/neon-js/neon-auth-nextjs",
+"revision":"8dc8114f1390613ed7d77e8eeb3f46801ff5a0da",
+"trace":{"path":"traces/neondatabase/neon-js/neon-auth-nextjs/8dc8114f1390613ed7d77e8eeb3f46801ff5a0da/trace-3+judge-7.json","sha256":"3deba5b2f0ee2b1b5340df7f57b1386117a3a775ee5bb51587c2312e1d66bc96"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17300,"own":{"files":1,"bytes":17300},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["openssl"],"package":["@neondatabase/auth"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB · CLI openssl · packages @neondatabase/auth","short":"17 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs openssl"]},{"marker":"installs-packages","because":["installs @neondatabase/auth"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

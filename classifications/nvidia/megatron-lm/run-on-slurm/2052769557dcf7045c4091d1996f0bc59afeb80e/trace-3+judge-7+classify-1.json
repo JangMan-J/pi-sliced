@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/run-on-slurm",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/run-on-slurm/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"c4ef3220ecf9c50aba16b319bc9ad9d807547a77e7acc51cf1d33203ec32e14f"},
+"status":"unresolvable",
+"reason":"no skill folder named run-on-slurm at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

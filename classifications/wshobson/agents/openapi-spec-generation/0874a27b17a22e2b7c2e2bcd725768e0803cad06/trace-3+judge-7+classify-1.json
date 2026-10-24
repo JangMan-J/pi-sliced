@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/openapi-spec-generation",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/openapi-spec-generation/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"c22462d895e344a40463e3e96ae3ad3d7926624d7749d09d79c37044fa075e4b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":25733,"own":{"files":3,"bytes":25733},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["openapi-generator-cli","redocly","spectral"],"package":["@openapitools/openapi-generator-cli","@redocly/cli","@stoplight/spectral-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 25 KiB · CLI openapi-generator-cli, redocly +1 · packages @openapitools/openapi-generator-cli +2","short":"25 KiB · 3 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs openapi-generator-cli","runs redocly","runs spectral"]},{"marker":"installs-packages","because":["installs @openapitools/openapi-generator-cli","installs @redocly/cli","installs @stoplight/spectral-cli"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

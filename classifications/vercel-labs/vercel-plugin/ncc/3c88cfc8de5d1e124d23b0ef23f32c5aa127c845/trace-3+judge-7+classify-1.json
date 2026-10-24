@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/ncc",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/ncc/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"c16e818269cbf7d6478910dacd1c455f9c5a87f109c7ee6406ce70ad62d44045"},
+"status":"unresolvable",
+"reason":"no skill folder named ncc at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

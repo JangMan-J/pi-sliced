@@ -1,0 +1,41 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/monorepo-management",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/developer-essentials/skills/monorepo-management",
+"status":"resolved",
+"totals":{"files":2,"bytes":13128},
+"files":[
+{"path":"plugins/developer-essentials/skills/monorepo-management/SKILL.md","size":5376,"blob":"bfbbe788707edbca50359db8e63b96dd59a9f040","how":"root"},
+{"path":"plugins/developer-essentials/skills/monorepo-management/references/details.md","size":7752,"blob":"cfb472ea9e789b1f9ee084844a02236f3f4256ea","how":"path","from":0,"line":129}
+],
+"outside":[
+{"kind":"cli","name":"@turbo/codemod","at":[[0,129]]},
+{"kind":"cli","name":"create-nx-workspace","at":[[1,73]]},
+{"kind":"cli","name":"create-turbo","at":[[0,61]]},
+{"kind":"cli","name":"nx","at":[[1,76],[1,77],[1,80],[1,81],[1,122],[1,123],[1,124],[1,127],[1,128],[1,131],[1,134],[1,394]]},
+{"kind":"cli","name":"turbo","at":[[1,331],[1,332]]},
+{"kind":"package","name":"@changesets/cli","at":[[0,196]]},
+{"kind":"package","name":"@repo/ui","at":[[1,32],[1,33],[1,36]]},
+{"kind":"package","name":"eslint","at":[[1,39]]},
+{"kind":"package","name":"react","at":[[1,32]]},
+{"kind":"package","name":"typescript","at":[[1,33]]},
+{"kind":"package","name":"web","at":[[1,36]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/developer-essentials/skills/monorepo-management","files":2,"bytes":13128}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @turbo/codemod","at":[[0,129]]},
+{"kind":"fetch-run","detail":"npx create-nx-workspace@latest","at":[[1,73]]},
+{"kind":"fetch-run","detail":"npx create-turbo@latest","at":[[0,61]]},
+{"kind":"fetch-run","detail":"npx nx@latest","at":[[1,394]]},
+{"kind":"fetch-run","detail":"npx turbo","at":[[1,331],[1,332]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

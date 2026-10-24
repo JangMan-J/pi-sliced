@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/skills/pdf",
+"revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+"trace":{"path":"traces/anthropics/skills/pdf/dbd4588f9e1033efb41dad4bef2f7947c8993d44/trace-3+judge-7.json","sha256":"8fc12736b116d79379fef860f7fed9287b5ff4c51a2f271a58ba4c01cb9867b7"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9539,"own":{"files":2,"bytes":9539},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pdfimages","pdftk","pdftotext","qpdf"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.3 KiB · CLI pdfimages, pdftk +2","short":"9.3 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs pdfimages","runs pdftk","runs pdftotext","runs qpdf"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

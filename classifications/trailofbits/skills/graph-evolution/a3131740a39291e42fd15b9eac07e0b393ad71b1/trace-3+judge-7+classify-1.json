@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/graph-evolution",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/graph-evolution/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"dc30adb5b0bdae1a267060a6668ce1d3cc12ce56ec9aef7ca4b13e4d47a77ad7"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":30896,"own":{"files":4,"bytes":30896},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["trailmark"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 30 KiB · CLI trailmark","short":"30 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs trailmark"]}],
+"security":{},
+"companions":{"named":[{"name":"diagramming-code","path":"plugins/trailmark/skills/diagramming-code"},{"name":"differential-review","path":"plugins/differential-review/skills/differential-review"},{"name":"genotoxic","path":"plugins/trailmark/skills/genotoxic"},{"name":"trailmark","path":"plugins/trailmark/skills/trailmark"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

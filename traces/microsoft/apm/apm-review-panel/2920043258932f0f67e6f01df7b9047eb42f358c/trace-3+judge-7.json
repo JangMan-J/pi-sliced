@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/apm/apm-review-panel",
+"source":"microsoft/apm",
+"revision":"2920043258932f0f67e6f01df7b9047eb42f358c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named apm-review-panel at 2920043258932f0f67e6f01df7b9047eb42f358c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

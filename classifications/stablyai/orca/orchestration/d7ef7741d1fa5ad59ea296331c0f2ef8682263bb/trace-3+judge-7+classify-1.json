@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stablyai/orca/orchestration",
+"revision":"d7ef7741d1fa5ad59ea296331c0f2ef8682263bb",
+"trace":{"path":"traces/stablyai/orca/orchestration/d7ef7741d1fa5ad59ea296331c0f2ef8682263bb/trace-3+judge-7.json","sha256":"4d5fa47d4b9f51cc508419fd3c00b04719652abd5d646e50f4d4b93ba92722d6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3671,"own":{"files":1,"bytes":3671},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB","short":"3.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"orca-cli","path":"skills/orca-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

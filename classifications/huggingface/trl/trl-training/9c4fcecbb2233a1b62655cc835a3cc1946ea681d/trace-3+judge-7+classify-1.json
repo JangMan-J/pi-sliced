@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/trl/trl-training",
+"revision":"9c4fcecbb2233a1b62655cc835a3cc1946ea681d",
+"trace":{"path":"traces/huggingface/trl/trl-training/9c4fcecbb2233a1b62655cc835a3cc1946ea681d/trace-3+judge-7.json","sha256":"3d3d51ac4b620b4432fa53b80e6ff40626ae2a68459eb15471f6c16b7b2fff56"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4323,"own":{"files":1,"bytes":4323},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["trl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.2 KiB · CLI trl","short":"4.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs trl"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

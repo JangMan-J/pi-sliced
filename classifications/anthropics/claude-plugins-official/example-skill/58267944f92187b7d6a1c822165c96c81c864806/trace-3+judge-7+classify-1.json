@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-plugins-official/example-skill",
+"revision":"58267944f92187b7d6a1c822165c96c81c864806",
+"trace":{"path":"traces/anthropics/claude-plugins-official/example-skill/58267944f92187b7d6a1c822165c96c81c864806/trace-3+judge-7.json","sha256":"779f85b0f9ed42e837fa048eb270b9469892e1fcc3392484d20d8d7340b44283"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2725,"own":{"files":1,"bytes":2725},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB","short":"2.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

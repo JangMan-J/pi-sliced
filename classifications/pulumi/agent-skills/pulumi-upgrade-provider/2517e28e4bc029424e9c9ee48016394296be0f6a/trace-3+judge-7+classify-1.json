@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills/pulumi-upgrade-provider",
+"revision":"2517e28e4bc029424e9c9ee48016394296be0f6a",
+"trace":{"path":"traces/pulumi/agent-skills/pulumi-upgrade-provider/2517e28e4bc029424e9c9ee48016394296be0f6a/trace-3+judge-7.json","sha256":"33720a4ea721f911268a95b8ab0c049f19464d2cd502ee0de42c7b73becb323f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":31221,"own":{"files":2,"bytes":31221},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Removal","The","gh","go","jq","mise","rg","that","upgrade-provider"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 30 KiB · CLI Removal, The +7","short":"30 KiB · 9 CLI"},
+"heavy":{"heavy":true,"because":["9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs go","runs jq","runs mise","runs Removal","runs rg","runs that","runs The","runs upgrade-provider"]}],
+"security":{},
+"companions":{"named":[{"name":"upstream-patches","path":"package-maintenance/skills/upstream-patches"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

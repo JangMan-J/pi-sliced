@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/cuopt/cuopt-qp-api-python",
+"source":"nvidia/cuopt",
+"revision":"b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named cuopt-qp-api-python at b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

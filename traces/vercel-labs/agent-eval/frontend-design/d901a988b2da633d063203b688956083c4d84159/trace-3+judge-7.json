@@ -1,0 +1,23 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/agent-eval/frontend-design",
+"source":"vercel-labs/agent-eval",
+"revision":"d901a988b2da633d063203b688956083c4d84159",
+"skillPath":"packages/playground/.agents/skills/frontend-design",
+"status":"resolved",
+"totals":{"files":2,"bytes":14614},
+"files":[
+{"path":"packages/playground/.agents/skills/frontend-design/LICENSE.txt","size":10174,"blob":"f433b1a53f5b830a205fd2df78e2b34974656c7b","how":"path","from":1,"line":4},
+{"path":"packages/playground/.agents/skills/frontend-design/SKILL.md","size":4440,"blob":"5be498e2585843c7137bf9a74e262f57415de5ce","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"packages/playground/.agents/skills/frontend-design","files":2,"bytes":14614}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"packages/playground/.agents/skills/frontend-design/LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

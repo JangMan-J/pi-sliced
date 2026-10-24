@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/skills/dg",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/skills/dg/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"6b94ce6a7461d21de7e0b7a3d6410da598d775aa9e3be99f3f377f50dc6d13bf"},
+"status":"unresolvable",
+"reason":"no skill folder named dg at ed0248b1b6b70710a8785e3ff4880b44496c0f94"
+}

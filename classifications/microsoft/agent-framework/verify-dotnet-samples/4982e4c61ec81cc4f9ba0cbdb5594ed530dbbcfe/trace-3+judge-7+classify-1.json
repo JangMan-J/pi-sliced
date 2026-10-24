@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-framework/verify-dotnet-samples",
+"revision":"4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe",
+"trace":{"path":"traces/microsoft/agent-framework/verify-dotnet-samples/4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe/trace-3+judge-7.json","sha256":"a0c2c2fd164da6c37be5d07a3505c68472a60c68643eecfe4eb048e727374d12"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3071,"own":{"files":1,"bytes":3071},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.0 KiB · CLI dotnet","short":"3.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"stub","because":["own folder 3.0 KiB (1 file)","content is the dotnet it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

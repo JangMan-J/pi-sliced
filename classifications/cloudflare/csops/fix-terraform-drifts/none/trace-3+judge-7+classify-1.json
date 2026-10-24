@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/fix-terraform-drifts",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/fix-terraform-drifts/none/trace-3+judge-7.json","sha256":"df51481a6a7c5b2abdc9d845f2076ae04f2cd222af4aac17f235c4f562d4a660"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

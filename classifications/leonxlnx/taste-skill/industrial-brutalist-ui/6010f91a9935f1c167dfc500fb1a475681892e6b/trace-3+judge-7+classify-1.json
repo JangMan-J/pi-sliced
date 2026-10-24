@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/industrial-brutalist-ui",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/industrial-brutalist-ui/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"ba61a4c18e92585c2c13f00616e50637e1ee73cb1cf266ae751b1365aa7c1e67"},
+"status":"unresolvable",
+"reason":"no skill folder named industrial-brutalist-ui at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/brutalist-skill)"
+}

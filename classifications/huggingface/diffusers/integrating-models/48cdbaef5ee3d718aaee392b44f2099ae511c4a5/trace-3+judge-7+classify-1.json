@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/diffusers/integrating-models",
+"revision":"48cdbaef5ee3d718aaee392b44f2099ae511c4a5",
+"trace":{"path":"traces/huggingface/diffusers/integrating-models/48cdbaef5ee3d718aaee392b44f2099ae511c4a5/trace-3+judge-7.json","sha256":"ff6b557acb92ebc7da727e096f6f58cb7a683c52ff83ebdfb78e07f7af180bae"},
+"status":"unresolvable",
+"reason":"no skill folder named integrating-models at 48cdbaef5ee3d718aaee392b44f2099ae511c4a5"
+}

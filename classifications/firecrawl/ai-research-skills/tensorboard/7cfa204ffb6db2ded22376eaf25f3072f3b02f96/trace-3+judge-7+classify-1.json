@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/tensorboard",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/tensorboard/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"54a5315483bfaf20966425315876f367d04690ba92c236cd144c6e0a510c92c6"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":59715,"own":{"files":4,"bytes":59715},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tensorboard"],"package":["tensorboard","tensorflow","torch","torchvision"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 58 KiB · CLI tensorboard · packages tensorboard +3","short":"58 KiB · 1 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tensorboard"]},{"marker":"installs-packages","because":["installs tensorboard","installs tensorflow","installs torch","installs torchvision"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

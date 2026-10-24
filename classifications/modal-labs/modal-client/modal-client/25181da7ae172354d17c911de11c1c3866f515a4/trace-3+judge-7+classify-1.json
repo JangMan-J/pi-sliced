@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"modal-labs/modal-client/modal-client",
+"revision":"25181da7ae172354d17c911de11c1c3866f515a4",
+"trace":{"path":"traces/modal-labs/modal-client/modal-client/25181da7ae172354d17c911de11c1c3866f515a4/trace-3+judge-7.json","sha256":"ab1cc5de0ffc1029208610f5b77c50843f89d22c552b4f220998026d62a30cdf"},
+"status":"unresolvable",
+"reason":"no skill folder named modal-client at 25181da7ae172354d17c911de11c1c3866f515a4 or at the remote HEAD c0bf0c2b50fe9c1a50dfa88bc2c946709f25587c"
+}

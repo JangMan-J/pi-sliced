@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/styled-jsx",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/styled-jsx/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"3e032de6dcfc5cdeec67dba14ecd547f8d3f76c74c41489c72c8f6c3a79232c4"},
+"status":"unresolvable",
+"reason":"no skill folder named styled-jsx at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

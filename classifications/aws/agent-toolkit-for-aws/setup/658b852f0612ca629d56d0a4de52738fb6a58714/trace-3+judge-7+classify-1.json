@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/setup",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/setup/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"8e8e5a918b84af55d96b0d05718048c82b0745a19a3f7fb4f4796ce28f9315e9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":495,"own":{"files":1,"bytes":495},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 495 B","short":"495 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"setup-devops-agent","path":"plugins/aws-agents-for-devsecops/skills/setup-devops-agent"},{"name":"setup-security-agent","path":"plugins/aws-agents-for-devsecops/skills/setup-security-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

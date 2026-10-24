@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/aks-known-issues",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/aks-known-issues/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"7d68f46c09c9c0bd64089f1d8591c2888b9fe1f33827ee233c059374126a526d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8852,"own":{"files":2,"bytes":8852},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["learn.microsoft.com"]},"summary":"2 files, 8.6 KiB · 1 host","short":"8.6 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from learn.microsoft.com"]}],
+"security":{},
+"companions":{"named":[{"name":"aks-troubleshooting","path":".github/plugins/aks-skills/skills/aks-troubleshooting"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

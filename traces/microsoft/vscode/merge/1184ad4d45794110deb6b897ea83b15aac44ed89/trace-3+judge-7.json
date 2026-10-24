@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/vscode/merge",
+"source":"microsoft/vscode",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"skillPath":"src/vs/sessions/skills/merge",
+"status":"resolved",
+"totals":{"files":1,"bytes":2291},
+"files":[
+{"path":"src/vs/sessions/skills/merge/SKILL.md","size":2291,"blob":"d3661e85902bba30c7379fc894789ec54f06873a","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"src/vs/sessions/skills/merge","files":1,"bytes":2291}
+],
+"signals":[
+{"kind":"injection","detail":"without asking the user","at":[[0,15]]}
+],
+"namedSkills":[
+{"name":"commit","path":"src/vs/sessions/skills/commit","at":[[0,26]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"MIT","frontmatter":null}
+}

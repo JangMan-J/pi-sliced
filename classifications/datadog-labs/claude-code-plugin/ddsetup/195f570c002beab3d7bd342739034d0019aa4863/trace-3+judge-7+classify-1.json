@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/claude-code-plugin/ddsetup",
+"revision":"195f570c002beab3d7bd342739034d0019aa4863",
+"trace":{"path":"traces/datadog-labs/claude-code-plugin/ddsetup/195f570c002beab3d7bd342739034d0019aa4863/trace-3+judge-7.json","sha256":"39f259074b96a18cc8a969216cdb07018440928cdf1da06a6902c2b1871b7ca1"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13758,"own":{"files":2,"bytes":13758},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["datadog","if","these"],"credential":[],"network":[]},"summary":"2 files, 13 KiB · MCP datadog, if +1","short":"13 KiB · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the datadog MCP server","uses the if MCP server","uses the these MCP server"]},{"marker":"agent-override-text","because":["\"do not tell the user\": skills/ddsetup/SKILL.md:73, skills/ddsetup/references/mcp-settings.md:32"]}],
+"security":{"injection":["do not tell the user @ skills/ddsetup/SKILL.md:73, skills/ddsetup/references/mcp-settings.md:32"]},
+"companions":{"named":[{"name":"ddconfig","path":"skills/ddconfig"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

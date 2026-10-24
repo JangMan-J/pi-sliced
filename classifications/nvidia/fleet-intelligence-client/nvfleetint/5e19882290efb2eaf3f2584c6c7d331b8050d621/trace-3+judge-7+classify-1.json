@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/fleet-intelligence-client/nvfleetint",
+"revision":"5e19882290efb2eaf3f2584c6c7d331b8050d621",
+"trace":{"path":"traces/nvidia/fleet-intelligence-client/nvfleetint/5e19882290efb2eaf3f2584c6c7d331b8050d621/trace-3+judge-7.json","sha256":"f6382893d020861abdff579810670cfa39d3b9230331e6857d284c11a902c6e7"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":14519,"own":{"files":3,"bytes":14519},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["computezone","nvfleetint"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 14 KiB · CLI computezone, nvfleetint","short":"14 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs computezone","runs nvfleetint"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

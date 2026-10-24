@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/posthog-survey-creator",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/posthog-survey-creator/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"dd29a9f6e0693e65ff85720cd92968b92b12cf1f7d462e7eeeb758990417b956"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":33126,"own":{"files":2,"bytes":33126},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["if","posthog"],"credential":[],"network":[]},"summary":"2 files, 32 KiB · MCP if, posthog","short":"32 KiB · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the if MCP server","uses the posthog MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

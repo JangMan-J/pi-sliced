@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mapbox-agent-skills/mapbox-mcp-runtime-patterns",
+"revision":"f71cd72b8d8937b06db440538bd65559eb792c49",
+"trace":{"path":"traces/mapbox/mapbox-agent-skills/mapbox-mcp-runtime-patterns/f71cd72b8d8937b06db440538bd65559eb792c49/trace-3+judge-7.json","sha256":"fa092830375d096b8b8b9d069f23b1de62d91d61cdff6a3c0450232237657a1f"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":50956,"own":{"files":9,"bytes":50956},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@mapbox/mcp-server"],"package":["@mapbox/mcp-server"],"mcp-server":["mapbox"],"credential":["MAPBOX_ACCESS_TOKEN"],"network":[]},"summary":"9 files, 50 KiB · MCP mapbox · CLI @mapbox/mcp-server · packages @mapbox/mcp-server · 1 key","short":"50 KiB · 1 CLI · 1 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @mapbox/mcp-server"]},{"marker":"installs-packages","because":["installs @mapbox/mcp-server"]},{"marker":"credentials","because":["needs MAPBOX_ACCESS_TOKEN"]},{"marker":"mcp-server","because":["uses the mapbox MCP server"]},{"marker":"unpinned-code","because":["npx @mapbox/mcp-server: skills/mapbox-mcp-runtime-patterns/SKILL.md:142"]}],
+"security":{"fetch-run":["npx @mapbox/mcp-server @ skills/mapbox-mcp-runtime-patterns/SKILL.md:142"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

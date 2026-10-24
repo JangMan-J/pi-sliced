@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/build-setup",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/build-setup/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"033950847c40d80065436c290cb4fa21dc6a37c9700e2263453a30b6aa7f95a1"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":3313,"own":{"files":2,"bytes":3313},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cobc","yum"],"package":["gnucobol"],"mcp-server":[],"credential":[],"network":["brew.sh"]},"summary":"2 files, 3.2 KiB · CLI cobc, yum · packages gnucobol · 1 host","short":"3.2 KiB · 2 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cobc","runs yum"]},{"marker":"installs-packages","because":["installs gnucobol"]},{"marker":"network","because":["fetches from brew.sh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

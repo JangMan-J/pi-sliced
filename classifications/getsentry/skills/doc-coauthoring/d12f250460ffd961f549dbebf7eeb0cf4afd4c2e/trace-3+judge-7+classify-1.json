@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/skills/doc-coauthoring",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"trace":{"path":"traces/getsentry/skills/doc-coauthoring/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e/trace-3+judge-7.json","sha256":"33e0585ef99d9b02644f86a731c9ba63f5356a0ed4875e31244fe37dc3504c26"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15967,"own":{"files":1,"bytes":15967},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["claude.ai"]},"summary":"1 file, 16 KiB · 1 host","short":"16 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from claude.ai"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

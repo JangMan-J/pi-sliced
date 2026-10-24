@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-skills/writing-user-docs",
+"revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+"trace":{"path":"traces/callstackincubator/agent-skills/writing-user-docs/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/trace-3+judge-7.json","sha256":"cd1c6d381577733c029556aa4a5a102611b2860a807335bedc112d2dc401ed0d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4832,"own":{"files":1,"bytes":4832},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB","short":"4.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

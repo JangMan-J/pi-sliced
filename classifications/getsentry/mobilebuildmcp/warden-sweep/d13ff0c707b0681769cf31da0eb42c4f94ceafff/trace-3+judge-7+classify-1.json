@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/mobilebuildmcp/warden-sweep",
+"revision":"d13ff0c707b0681769cf31da0eb42c4f94ceafff",
+"trace":{"path":"traces/getsentry/mobilebuildmcp/warden-sweep/d13ff0c707b0681769cf31da0eb42c4f94ceafff/trace-3+judge-7.json","sha256":"80e724b0caddd681c1722070027e58aa2558e24be9403123711e6dfcfd6ce12c"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":80034,"own":{"files":10,"bytes":80034},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Automated","Only","Ref","The","This","but","gh","run"],"package":["_utils","tomli"],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 78 KiB · CLI Automated, Only +6 · packages _utils +1","short":"78 KiB · 8 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Automated","runs but","runs gh","runs Only","runs Ref","runs run","runs The","runs This"]},{"marker":"installs-packages","because":["installs _utils","installs tomli"]}],
+"security":{},
+"companions":{"named":[{"name":"warden","path":".agents/skills/warden"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

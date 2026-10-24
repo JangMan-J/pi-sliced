@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/rename-swarm",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/rename-swarm/none/trace-3+judge-7.json","sha256":"8c36eb2e7a9f37b2a4b122a504ff0c8b0fb4d9dd5f576d6f71d1eaccc4f73899"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

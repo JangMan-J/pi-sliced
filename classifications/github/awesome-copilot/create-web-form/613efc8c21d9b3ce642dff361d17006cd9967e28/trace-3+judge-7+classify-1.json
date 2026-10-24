@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/create-web-form",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/create-web-form/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"ee1dba8caa8cd2135da0ddddb74cf71389ec1fd70aa7acdfd012d9a75939d19c"},
+"status":"unresolvable",
+"reason":"no skill folder named create-web-form at 613efc8c21d9b3ce642dff361d17006cd9967e28 or at the remote HEAD d85f762d6e521abf5fe16703946e9b38adc42da7"
+}

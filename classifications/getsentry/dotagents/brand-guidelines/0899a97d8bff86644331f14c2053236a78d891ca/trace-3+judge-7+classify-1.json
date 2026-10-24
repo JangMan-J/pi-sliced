@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/brand-guidelines",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/brand-guidelines/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"2b99a469f07835f7cd975ed1bb24dafdad4e20145c888afe67526d24b0ccf760"},
+"status":"unresolvable",
+"reason":"no skill folder named brand-guidelines at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

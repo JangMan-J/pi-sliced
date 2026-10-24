@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/configuring-experiment-rollout",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/configuring-experiment-rollout/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"aaf5c3a7842801bd601a5537db99ce64b9dec1db34e238891fe983c7caf5d093"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":20731,"own":{"files":2,"bytes":20731},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 20 KiB","short":"20 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"configuring-experiment-analytics","path":"skills/omnibus/configuring-experiment-analytics"},{"name":"creating-experiments","path":"skills/omnibus/creating-experiments"},{"name":"diagnosing-experiment-health","path":"skills/omnibus/diagnosing-experiment-health"},{"name":"finding-experiments","path":"skills/omnibus/finding-experiments"},{"name":"managing-experiment-lifecycle","path":"skills/omnibus/managing-experiment-lifecycle"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

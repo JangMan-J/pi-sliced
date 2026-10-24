@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-architecture",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-architecture/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"4f5e7df57bcf4fecd3c9ac393933c6ec333d0b846d7387c1fa2adb7134201ae4"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-architecture at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

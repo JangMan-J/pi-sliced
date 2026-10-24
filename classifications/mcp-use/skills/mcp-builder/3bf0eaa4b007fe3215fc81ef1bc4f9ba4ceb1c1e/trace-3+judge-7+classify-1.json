@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mcp-use/skills/mcp-builder",
+"revision":"3bf0eaa4b007fe3215fc81ef1bc4f9ba4ceb1c1e",
+"trace":{"path":"traces/mcp-use/skills/mcp-builder/3bf0eaa4b007fe3215fc81ef1bc4f9ba4ceb1c1e/trace-3+judge-7.json","sha256":"edb2838dbe958fc0d8490801e96cb4264b2469a6ec1769cd9b417f9dbe956745"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14927,"own":{"files":1,"bytes":14927},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@mcp-use/tunnel","create-mcp-use-app","mcp-use"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI @mcp-use/tunnel, create-mcp-use-app +1","short":"15 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @mcp-use/tunnel","runs create-mcp-use-app","runs mcp-use"]},{"marker":"unpinned-code","because":["npx @mcp-use/tunnel: skills/mcp-builder/SKILL.md:248","npx create-mcp-use-app: skills/mcp-builder/SKILL.md:12, skills/mcp-builder/SKILL.md:15, skills/mcp-builder/SKILL.md:26","npx mcp-use: skills/mcp-builder/SKILL.md:266, skills/mcp-builder/SKILL.md:274, skills/mcp-builder/SKILL.md:312"]}],
+"security":{"fetch-run":["npx @mcp-use/tunnel @ skills/mcp-builder/SKILL.md:248","npx create-mcp-use-app @ skills/mcp-builder/SKILL.md:12, skills/mcp-builder/SKILL.md:15, skills/mcp-builder/SKILL.md:26 +1","npx mcp-use @ skills/mcp-builder/SKILL.md:266, skills/mcp-builder/SKILL.md:274, skills/mcp-builder/SKILL.md:312 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

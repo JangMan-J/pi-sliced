@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/hashicorp-agent-skills/claude-code",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/hashicorp-agent-skills/claude-code/none/trace-3+judge-7.json","sha256":"324a42d5d89234181de3c15d7e9e54e002c555785ff9ffa1985b414e2904ee7a"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/hashicorp-agent-skills.git/' not found"
+}

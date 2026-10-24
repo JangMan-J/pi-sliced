@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-plugins",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-plugins/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"418cd330f5c54f8d5e3706f51e67175b5266c5ef410409b298eeb922d772eb27"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-plugins at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

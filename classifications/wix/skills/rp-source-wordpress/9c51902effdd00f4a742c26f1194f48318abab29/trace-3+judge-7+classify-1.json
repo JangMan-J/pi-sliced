@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wix/skills/rp-source-wordpress",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"trace":{"path":"traces/wix/skills/rp-source-wordpress/9c51902effdd00f4a742c26f1194f48318abab29/trace-3+judge-7.json","sha256":"f9310c1aae02a665d9ea72b06b12dcd183c533a8cef6e69949a58e8f82702759"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":79302,"own":{"files":5,"bytes":73924},"otherSkills":{"count":1,"files":1,"bytes":5378},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["ngrok"],"mcp-server":[],"credential":["WC_CONSUMER_KEY","WC_CONSUMER_SECRET","WP_API_KEY","WP_APPLICATION_PASSWORD"],"network":[]},"summary":"6 files, 77 KiB · +1 other skill · packages ngrok · 4 keys","short":"77 KiB · +1 skill · 1 pkg · 4 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","4 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs ngrok"]},{"marker":"credentials","because":["needs WC_CONSUMER_KEY","needs WC_CONSUMER_SECRET","needs WP_API_KEY","needs WP_APPLICATION_PASSWORD"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/wix-replatform"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/wix-replatform","files":1,"bytes":5378}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

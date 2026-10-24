@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-kubernetes-automatic-readiness",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-kubernetes-automatic-readiness/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"1132eaa0c9be6adf330a57a594177bdad5bc5c026c7ee840945db2ce747afe8f"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":73645,"own":{"files":6,"bytes":73645},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","jq","kubectl"],"package":[],"mcp-server":["azure"],"credential":[],"network":["learn.microsoft.com"]},"summary":"6 files, 72 KiB · MCP azure · CLI az, jq +1 · 1 host","short":"72 KiB · 3 CLI · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs jq","runs kubectl"]},{"marker":"network","because":["fetches from learn.microsoft.com"]},{"marker":"mcp-server","because":["uses the azure MCP server"]},{"marker":"agent-override-text","because":["\"without asking the user\": .github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-automatic-readiness/references/mcp-integration.md:65"]}],
+"security":{"injection":["without asking the user @ .github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-automatic-readiness/references/mcp-integration.md:65"]},
+"companions":{"named":[{"name":"azure-diagnostics","path":".github/plugins/azure-skills/skills/azure-diagnostics"},{"name":"azure-kubernetes","path":".github/plugins/azure-skills/skills/azure-kubernetes"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

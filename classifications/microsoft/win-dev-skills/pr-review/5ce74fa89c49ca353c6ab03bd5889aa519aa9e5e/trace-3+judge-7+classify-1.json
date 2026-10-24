@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/win-dev-skills/pr-review",
+"revision":"5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e",
+"trace":{"path":"traces/microsoft/win-dev-skills/pr-review/5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e/trace-3+judge-7.json","sha256":"ec55932ac27f4e4e25107b3437435e615e47262a6d5d2cb643121aa4df25bcdc"},
+"status":"unresolvable",
+"reason":"no skill folder named pr-review at 5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/agent-supply-chain",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/agent-supply-chain/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"12524ffb255ef18aea83248f319b372c78a4613dceb0f5a5944ec1ec7705ca75"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10732,"own":{"files":1,"bytes":10732},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB","short":"10 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

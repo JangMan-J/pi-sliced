@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/planning-oracle-to-postgres-migration-integration-testing",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/planning-oracle-to-postgres-migration-integration-testing/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"1ab527763eeda6a0f98c2fe2b3b2e94fff7b29c539e44dd81e75848b0d5ad15f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2685,"own":{"files":1,"bytes":2685},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.6 KiB","short":"2.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

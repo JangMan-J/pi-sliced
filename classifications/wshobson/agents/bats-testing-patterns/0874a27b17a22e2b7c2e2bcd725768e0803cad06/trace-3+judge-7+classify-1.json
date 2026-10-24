@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/bats-testing-patterns",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/bats-testing-patterns/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"9d5f523b1f72ff57cfe37bfb9fb9ef6808eed36031b72082ec64f5719e46d47c"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12447,"own":{"files":2,"bytes":12447},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bats","dash","line2","line3","load","my_function","my_operation","run","skip","skip_if"],"package":["bats","bats-core"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"2 files, 12 KiB · CLI bats, dash +8 · packages bats +1 · 1 host","short":"12 KiB · 10 CLI · 2 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install","10 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bats","runs dash","runs line2","runs line3","runs load","runs my_function","runs my_operation","runs run","runs skip","runs skip_if"]},{"marker":"installs-packages","because":["installs bats","installs bats-core"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

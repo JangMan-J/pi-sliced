@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"upstash/context7-mcp/find-docs",
+"source":"upstash/context7-mcp",
+"revision":"b5e81de845092694ba1bfc5af15400f319c89b6d",
+"skillPath":"skills/find-docs",
+"status":"resolved",
+"totals":{"files":1,"bytes":7881},
+"files":[
+{"path":"skills/find-docs/SKILL.md","size":7881,"blob":"b2c6151c58137101832131286f00993135e67c17","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"ctx7","at":[[0,24],[0,27],[0,28],[0,43],[0,46],[0,58],[0,59],[0,60],[0,98],[0,101],[0,111],[0,112],[0,113],[0,119],[0,147],[0,155],[0,163]]},
+{"kind":"credential","name":"CONTEXT7_API_KEY","at":[[0,144]]},
+{"kind":"package","name":"ctx7","at":[[0,34]]}
+],
+"regions":[
+{"kind":"own","path":"skills/find-docs","files":1,"bytes":7881}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,34]]},
+{"kind":"fetch-run","detail":"npx ctx7@latest","at":[[0,24],[0,27],[0,28],[0,43],[0,46],[0,58],[0,59],[0,60],[0,98],[0,101],[0,111],[0,112],[0,113],[0,119],[0,147],[0,155],[0,163]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

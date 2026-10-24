@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/security-threat-model",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/security-threat-model/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"8399792a2e663df60f899a5ea62311c1eeb6af19aa19a4dab018085dbbed542b"},
+"status":"unresolvable",
+"reason":"no skill folder named security-threat-model at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b"
+}

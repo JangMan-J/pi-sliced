@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/canva-edit-design",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/canva/skills/canva-edit-design",
+"status":"resolved",
+"totals":{"files":1,"bytes":5769},
+"files":[
+{"path":"plugins/canva/skills/canva-edit-design/SKILL.md","size":5769,"blob":"d0aaf0c0fb163a4a2a69cd62f9cbd1408b2010a1","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"plugins/canva/skills/canva-edit-design","files":1,"bytes":5769}
+],
+"signals":[
+{"kind":"injection","detail":"do not tell the user","at":[[0,49]]},
+{"kind":"injection","detail":"without telling the user","at":[[0,74]]}
+],
+"namedSkills":[
+{"name":"canva-implement-feedback","path":"plugins/canva/skills/canva-implement-feedback","at":[[0,53]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

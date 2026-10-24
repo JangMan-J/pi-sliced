@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/rozenite/rozenite-agent-sdk",
+"source":"callstackincubator/rozenite",
+"revision":"af5b0d7c71ace824261f5453461ea6de8648fd70",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named rozenite-agent-sdk at af5b0d7c71ace824261f5453461ea6de8648fd70",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

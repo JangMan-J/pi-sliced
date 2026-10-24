@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-ads-api-quickstart",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-ads-api-quickstart/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"e16e76e3d9d9bdc86570ae41abb697158961ba48a91df3320a0e33101032bf83"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":53525,"own":{"files":8,"bytes":53525},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["composer","cpanm","dotnet","gcloud","gem","mvn","perl","php","ruby"],"package":["Google.Ads.GoogleAds","google-ads","google-ads-googleads","googleads/google-ads-php"],"mcp-server":[],"credential":[],"network":["console.cloud.google.com","developers.google.com","googleads.googleapis.com","www.googleapis.com"]},"summary":"8 files, 52 KiB · CLI composer, cpanm +7 · packages Google.Ads.GoogleAds +3 · 4 hosts","short":"52 KiB · 9 CLI · 4 pkg · 4 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs composer","runs cpanm","runs dotnet","runs gcloud","runs gem","runs mvn","runs perl","runs php","runs ruby"]},{"marker":"installs-packages","because":["installs google-ads","installs google-ads-googleads","installs Google.Ads.GoogleAds","installs googleads/google-ads-php"]},{"marker":"network","because":["fetches from console.cloud.google.com","fetches from developers.google.com","fetches from googleads.googleapis.com","fetches from www.googleapis.com"]}],
+"security":{},
+"companions":{"named":[{"name":"google-ads-api-mcp-setup","path":"skills/ads/google-ads-api-mcp-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

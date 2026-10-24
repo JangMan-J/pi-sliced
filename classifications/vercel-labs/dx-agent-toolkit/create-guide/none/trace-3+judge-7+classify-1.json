@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/dx-agent-toolkit/create-guide",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/dx-agent-toolkit/create-guide/none/trace-3+judge-7.json","sha256":"579f533fb83e53d8fe98171ffd1852d15c89d3d3293fcd36f9a3aaf107e756ab"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/dx-agent-toolkit.git/' not found"
+}

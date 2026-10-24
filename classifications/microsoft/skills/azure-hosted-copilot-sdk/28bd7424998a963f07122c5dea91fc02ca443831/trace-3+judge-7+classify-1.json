@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-hosted-copilot-sdk",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-hosted-copilot-sdk/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"91fdfafd8ede5bfda1b526921319675eeda1d05aabb48f4434875961833def0d"},
+"status":"unresolvable",
+"reason":"no skill folder named azure-hosted-copilot-sdk at 28bd7424998a963f07122c5dea91fc02ca443831 or at the remote HEAD 2130750147dee0311215099ddf36647ba1e0f006"
+}

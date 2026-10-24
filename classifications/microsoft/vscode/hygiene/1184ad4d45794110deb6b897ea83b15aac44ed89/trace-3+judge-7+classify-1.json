@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/hygiene",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/hygiene/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"e3b5cc439641678f9b8b1c8f32c4fb63b27272171017a224e2a7e3aa83d1c803"},
+"status":"unresolvable",
+"reason":"no skill folder named hygiene at 1184ad4d45794110deb6b897ea83b15aac44ed89"
+}

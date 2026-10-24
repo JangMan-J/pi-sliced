@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/agent-observability-experiment-analyzer",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/agent-observability-experiment-analyzer/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"06876efae2d36a1e4b73ca6de2d42838624f709e3fd851498fd07b5f7a48072b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":25757,"own":{"files":1,"bytes":25757},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude","pup"],"package":[],"mcp-server":["datadog","if"],"credential":[],"network":[]},"summary":"1 file, 25 KiB · MCP datadog, if · CLI claude, pup","short":"25 KiB · 2 CLI · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs claude","runs pup"]},{"marker":"mcp-server","because":["uses the datadog MCP server","uses the if MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"agent-observability-trace-rca","path":"agent-observability/agent-observability-trace-rca"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

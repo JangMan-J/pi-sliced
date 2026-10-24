@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-contributor-onboard-messaging-channel",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-contributor-onboard-messaging-channel/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"bd002364b246db8f7ba70b6e070284ad5a786c68dc6787973d8d2f5b90900a2f"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-contributor-onboard-messaging-channel at f0ee12594687930cc378eb351643cb6e12007f39"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/init",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/init/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"e15036f0252188e2abfe6d0e49552840b8eaadf957d0c2ec894602ac764a920c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3981,"own":{"files":1,"bytes":3981},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.9 KiB","short":"3.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"agent-customization","path":"extensions/copilot/assets/prompts/skills/agent-customization"},{"name":"chronicle","path":"extensions/copilot/assets/prompts/skills/chronicle"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

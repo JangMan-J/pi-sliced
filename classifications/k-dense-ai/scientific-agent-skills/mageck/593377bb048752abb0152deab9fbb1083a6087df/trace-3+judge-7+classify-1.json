@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/mageck",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/mageck/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"c3d481681ce3dbaa7c75f849eeac0b7337535c92a6565b13ca3b197f1f58ea67"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":29192,"own":{"files":4,"bytes":29192},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["mageck"],"package":["mageck-env/bin/python","numpy","scipy","setuptools"],"mcp-server":[],"credential":[],"network":["sourceforge.net"]},"summary":"4 files, 29 KiB · CLI mageck · packages mageck-env/bin/python +3 · 1 host","short":"29 KiB · 1 CLI · 4 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs mageck"]},{"marker":"installs-packages","because":["installs mageck-env/bin/python","installs numpy","installs scipy","installs setuptools"]},{"marker":"network","because":["fetches from sourceforge.net"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

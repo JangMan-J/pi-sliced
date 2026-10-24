@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/skill-installer",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/skill-installer/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"540525b4a20357f78c20d1b85500bea74a83538da61cd39e03c6cd79f149929e"},
+"status":"unresolvable",
+"reason":"no skill folder named skill-installer at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b"
+}

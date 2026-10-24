@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/airflow-state-store",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/airflow-state-store/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"13820d9a0b6fcf995b76266a4e060e32d6d179510829a797c14d5b2a6e2db189"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":24618,"own":{"files":1,"bytes":24618},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 24 KiB","short":"24 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

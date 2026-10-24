@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/internal-agent-skills/docker",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/internal-agent-skills/docker/none/trace-3+judge-7.json","sha256":"81d864965543a907913e8e97d8e32464373ce62bec1592decef698fd0d76bf51"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"
+}

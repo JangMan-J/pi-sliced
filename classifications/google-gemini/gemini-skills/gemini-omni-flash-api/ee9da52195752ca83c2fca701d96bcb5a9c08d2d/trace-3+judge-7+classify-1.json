@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-skills/gemini-omni-flash-api",
+"revision":"ee9da52195752ca83c2fca701d96bcb5a9c08d2d",
+"trace":{"path":"traces/google-gemini/gemini-skills/gemini-omni-flash-api/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/trace-3+judge-7.json","sha256":"2dc9fcbe812b9ea6518bc5e2f892a442614d09ab723a4821f3e76d39cf45037e"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":89938,"own":{"files":5,"bytes":89938},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ffmpeg","ffprobe"],"package":["google-genai","inspect_video","upload_file"],"mcp-server":[],"credential":["GEMINI_API_KEY"],"network":["generativelanguage.googleapis.com"]},"summary":"5 files, 88 KiB · CLI ffmpeg, ffprobe · packages google-genai +2 · 1 key · 1 host","short":"88 KiB · 2 CLI · 3 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs ffmpeg","runs ffprobe"]},{"marker":"installs-packages","because":["installs google-genai","installs inspect_video","installs upload_file"]},{"marker":"network","because":["fetches from generativelanguage.googleapis.com"]},{"marker":"credentials","because":["needs GEMINI_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

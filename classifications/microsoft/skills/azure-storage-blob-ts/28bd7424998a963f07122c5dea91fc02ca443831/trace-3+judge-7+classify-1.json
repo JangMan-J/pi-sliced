@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-storage-blob-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-storage-blob-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"20d7b64230779e6c69b1f575567bd6dd41b9f4d8a4259be08ed5d8cd68a6c1db"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13154,"own":{"files":1,"bytes":13154},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/identity","@azure/storage-blob"],"mcp-server":[],"credential":["AZURE_STORAGE_ACCOUNT_KEY","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 13 KiB · packages @azure/identity +1 · 2 keys","short":"13 KiB · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/identity","installs @azure/storage-blob"]},{"marker":"credentials","because":["needs AZURE_STORAGE_ACCOUNT_KEY","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

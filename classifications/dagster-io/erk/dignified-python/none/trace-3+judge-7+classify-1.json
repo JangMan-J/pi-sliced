@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/dignified-python",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/dignified-python/none/trace-3+judge-7.json","sha256":"af3335dd3bdbe93b73c71a7824371776218292531e4034595bb0d9c9aa42df39"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

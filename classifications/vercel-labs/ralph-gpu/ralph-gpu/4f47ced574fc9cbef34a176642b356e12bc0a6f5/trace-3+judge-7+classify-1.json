@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/ralph-gpu/ralph-gpu",
+"revision":"4f47ced574fc9cbef34a176642b356e12bc0a6f5",
+"trace":{"path":"traces/vercel-labs/ralph-gpu/ralph-gpu/4f47ced574fc9cbef34a176642b356e12bc0a6f5/trace-3+judge-7.json","sha256":"a543310586f0bfbf920a9d9e3d21715549e1f9441c9d7ab3d374cda50ba4a650"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":58813,"own":{"files":11,"bytes":58813},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@webgpu/types","ralph-gpu"],"mcp-server":[],"credential":[],"network":[]},"summary":"11 files, 57 KiB · packages @webgpu/types +1","short":"57 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @webgpu/types","installs ralph-gpu"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

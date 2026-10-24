@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"android/skills/wear-compose-m3",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"trace":{"path":"traces/android/skills/wear-compose-m3/a3f56b8fc83039c407e20a7b4789c2b6ea192d57/trace-3+judge-7.json","sha256":"5f8291e1c7e95f2627a5f93b244fd08ba67f66b8837d82c4df76a305889fdecc"},
+"status":"resolved",
+"footprint":{"files":53,"bytes":458657,"own":{"files":53,"bytes":458657},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["dl.google.com"]},"summary":"53 files, 448 KiB · 1 host","short":"448 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from dl.google.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-skills/frontend-ui-dark-ts",
+"revision":"2130750147dee0311215099ddf36647ba1e0f006",
+"trace":{"path":"traces/microsoft/agent-skills/frontend-ui-dark-ts/2130750147dee0311215099ddf36647ba1e0f006/trace-3+judge-7.json","sha256":"6d747985cb2de01e901284f85299727acfb4040371b4398b84e4630cf4363e65"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":86436,"own":{"files":4,"bytes":86436},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tailwindcss"],"package":["autoprefixer","clsx","framer-motion","postcss","react-router-dom","tailwindcss"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 84 KiB · CLI tailwindcss · packages autoprefixer +5","short":"84 KiB · 1 CLI · 6 pkg"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tailwindcss"]},{"marker":"installs-packages","because":["installs autoprefixer","installs clsx","installs framer-motion","installs postcss","installs react-router-dom","installs tailwindcss"]},{"marker":"unpinned-code","because":["npx tailwindcss: .github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts/SKILL.md:34"]}],
+"security":{"fetch-run":["npx tailwindcss @ .github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts/SKILL.md:34"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

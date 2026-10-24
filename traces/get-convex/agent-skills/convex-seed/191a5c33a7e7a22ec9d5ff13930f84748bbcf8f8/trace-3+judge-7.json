@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"get-convex/agent-skills/convex-seed",
+"source":"get-convex/agent-skills",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"skillPath":"skills/convex-seed",
+"status":"resolved",
+"totals":{"files":1,"bytes":767},
+"files":[
+{"path":"skills/convex-seed/SKILL.md","size":767,"blob":"faf857f3027baff7e8bb6df126a94a8ac09de90a","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"convex","at":[[0,10],[0,14],[0,15]]}
+],
+"regions":[
+{"kind":"own","path":"skills/convex-seed","files":1,"bytes":767}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx convex","at":[[0,10],[0,14],[0,15]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

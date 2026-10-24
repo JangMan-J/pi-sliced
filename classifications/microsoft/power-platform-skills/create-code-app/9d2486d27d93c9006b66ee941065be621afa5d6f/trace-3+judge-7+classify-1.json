@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/create-code-app",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/create-code-app/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"79a02f3b35ae88d98540ce7bc8605d262ce831a23c00815cb91f1f1323811747"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":34092,"own":{"files":3,"bytes":20999},"otherSkills":{"count":1,"files":1,"bytes":13093},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["degit","pa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 33 KiB · +1 other skill · CLI degit, pa","short":"33 KiB · +1 skill · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs degit","runs pa"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/code-apps/skills/add-dataverse"]},{"marker":"unpinned-code","because":["npx degit: plugins/code-apps/skills/create-code-app/SKILL.md:83, plugins/code-apps/skills/create-code-app/SKILL.md:86, plugins/code-apps/skills/create-code-app/SKILL.md:94","npx pa: plugins/code-apps/skills/create-code-app/SKILL.md:101"]}],
+"security":{"fetch-run":["npx degit @ plugins/code-apps/skills/create-code-app/SKILL.md:83, plugins/code-apps/skills/create-code-app/SKILL.md:86, plugins/code-apps/skills/create-code-app/SKILL.md:94 +2","npx pa @ plugins/code-apps/skills/create-code-app/SKILL.md:101"]},
+"companions":{"named":[{"name":"add-azuredevops","path":"plugins/code-apps/skills/add-azuredevops"},{"name":"add-excel","path":"plugins/code-apps/skills/add-excel"},{"name":"add-mcscopilot","path":"plugins/code-apps/skills/add-mcscopilot"},{"name":"add-office365","path":"plugins/code-apps/skills/add-office365"},{"name":"add-onedrive","path":"plugins/code-apps/skills/add-onedrive"},{"name":"add-teams","path":"plugins/code-apps/skills/add-teams"},{"name":"add-workiq","path":"plugins/code-apps/skills/add-workiq"}],"pulled":[{"path":"plugins/code-apps/skills/add-dataverse","files":1,"bytes":13093}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"webflow/webflow-skills/webflow-code-component:component-scaffold",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"trace":{"path":"traces/webflow/webflow-skills/webflow-code-component:component-scaffold/e0c5321c054a87184484c638f5c490c2083d8639/trace-3+judge-7.json","sha256":"42a614a41c1736ae99f5041b199a28ca28edd6b4f0dc0c7677e0569da9daddb8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13823,"own":{"files":1,"bytes":13823},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["webflow"],"package":["@webflow/data-types","@webflow/react","@webflow/webflow-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB · CLI webflow · packages @webflow/data-types +2","short":"13 KiB · 1 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs webflow"]},{"marker":"installs-packages","because":["installs @webflow/data-types","installs @webflow/react","installs @webflow/webflow-cli"]},{"marker":"unpinned-code","because":["npx webflow: plugins/webflow-skills/skills/component-scaffold/SKILL.md:223"]}],
+"security":{"fetch-run":["npx webflow @ plugins/webflow-skills/skills/component-scaffold/SKILL.md:223"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

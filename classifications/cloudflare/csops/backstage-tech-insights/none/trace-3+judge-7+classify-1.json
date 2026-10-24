@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/backstage-tech-insights",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/backstage-tech-insights/none/trace-3+judge-7.json","sha256":"575a33324d90a045430a156c0abfb85bf3283eb0c4426e1e385c878e8f0c398b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

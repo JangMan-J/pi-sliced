@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/vcpkg",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/vcpkg/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"472f38bc805f43fea5889208acc641b132879c9f10796227612e28216e189f3b"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":21261,"own":{"files":4,"bytes":21261},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cmake","vcpkg"],"package":["catch2","curl","cxxopts","telemetry-sdk","toml11","zlib"],"mcp-server":[],"credential":["AZURE_STORAGE_SAS_TOKEN"],"network":[]},"summary":"4 files, 21 KiB · CLI cmake, vcpkg · packages catch2 +5 · 1 key","short":"21 KiB · 2 CLI · 6 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["6 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs cmake","runs vcpkg"]},{"marker":"installs-packages","because":["installs catch2","installs curl","installs cxxopts","installs telemetry-sdk","installs toml11","installs zlib"]},{"marker":"credentials","because":["needs AZURE_STORAGE_SAS_TOKEN"]},{"marker":"sends-credentials","because":["AZURE_STORAGE_SAS_TOKEN -> myaccount.blob.core.windows.net: skills/vcpkg/references/ci.md:14"]}],
+"security":{"secret-egress":["AZURE_STORAGE_SAS_TOKEN -> myaccount.blob.core.windows.net @ skills/vcpkg/references/ci.md:14"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

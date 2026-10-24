@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mapbox-agent-skills/mapbox-android-patterns",
+"revision":"f71cd72b8d8937b06db440538bd65559eb792c49",
+"trace":{"path":"traces/mapbox/mapbox-agent-skills/mapbox-android-patterns/f71cd72b8d8937b06db440538bd65559eb792c49/trace-3+judge-7.json","sha256":"3ba16ee19d63574262d3bfc6fc1b2e3124e2f62abdccfc3c41658a2a7b216c84"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":25789,"own":{"files":7,"bytes":25789},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["MAPBOX_ACCESS_TOKEN"],"network":[]},"summary":"7 files, 25 KiB · 1 key","short":"25 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs MAPBOX_ACCESS_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

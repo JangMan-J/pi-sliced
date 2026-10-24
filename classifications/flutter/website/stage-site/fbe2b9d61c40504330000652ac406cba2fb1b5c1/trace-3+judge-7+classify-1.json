@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/website/stage-site",
+"revision":"fbe2b9d61c40504330000652ac406cba2fb1b5c1",
+"trace":{"path":"traces/flutter/website/stage-site/fbe2b9d61c40504330000652ac406cba2fb1b5c1/trace-3+judge-7.json","sha256":"26fb98ab2b58180e1ac4c5b39379680c133822c3c18926478a8b35b024027e2b"},
+"status":"unresolvable",
+"reason":"no skill folder named stage-site at fbe2b9d61c40504330000652ac406cba2fb1b5c1"
+}

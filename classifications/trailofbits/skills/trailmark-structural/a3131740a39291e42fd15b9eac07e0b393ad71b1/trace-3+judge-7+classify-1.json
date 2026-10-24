@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/trailmark-structural",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/trailmark-structural/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"a9dd60ba7fd2214516b6bc444b8ecec9efbe146f59e302d781b7498c39df49c1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6194,"own":{"files":1,"bytes":6194},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["def","detect_languages","engine.subgraph_edges","engine.to_json","except","from","hasattr","import","json.dumps","kind","name","node.get","node_id","nodes","origin","payload","print","summary","target","trailmark"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.0 KiB · CLI def, detect_languages +18","short":"6.0 KiB · 20 CLI"},
+"heavy":{"heavy":true,"because":["20 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs def","runs detect_languages","runs engine.subgraph_edges","runs engine.to_json","runs except","runs from","runs hasattr","runs import","runs json.dumps","runs kind","runs name","runs node_id","runs node.get","runs nodes","runs origin","runs payload","runs print","runs summary","runs target","runs trailmark"]}],
+"security":{},
+"companions":{"named":[{"name":"trailmark","path":"plugins/trailmark/skills/trailmark"},{"name":"trailmark-summary","path":"plugins/trailmark/skills/trailmark-summary"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

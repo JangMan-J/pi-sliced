@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/navigating-the-initiative-funnel",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/navigating-the-initiative-funnel/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"e97e74b8b1736ad2a7be8faa11ea0f384d29bfb72c814b8785933a007feb4b25"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12058,"own":{"files":1,"bytes":12058},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"1 file, 12 KiB · 1 host","short":"12 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

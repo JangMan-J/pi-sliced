@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/elements/github-dependabot",
+"revision":"2efdddc9272c598845ca8c71833890b1fd658e3a",
+"trace":{"path":"traces/nvidia/elements/github-dependabot/2efdddc9272c598845ca8c71833890b1fd658e3a/trace-3+judge-7.json","sha256":"416d7126b1076bd1318288b195590a6ce505893edb1aa128017c89a13b59705f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5937,"own":{"files":1,"bytes":5937},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","mise"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.8 KiB · CLI gh, mise","short":"5.8 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs mise"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

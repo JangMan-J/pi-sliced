@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills-private/pulumi-terraform-to-pulumi",
+"revision":"none",
+"trace":{"path":"traces/pulumi/agent-skills-private/pulumi-terraform-to-pulumi/none/trace-3+judge-7.json","sha256":"b28876c2359aa93ee77f0aef6a226d7335a98d46c9df0f64a7ae3e2ae25a2d43"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/pulumi/agent-skills-private.git/' not found"
+}

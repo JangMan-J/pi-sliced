@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/activator-consumption-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/activator-consumption-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"a7fde8c12885b6474e8f8c53114070a09604c8e0f803e9a3b095ad81fecef818"},
+"status":"unresolvable",
+"reason":"no skill folder named activator-consumption-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

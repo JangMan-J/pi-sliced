@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/training-llms-megatron",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/training-llms-megatron/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"63fdde5cc27600ab27d33c0568fc7769cf3b6064739631f74941fd4310cff0d2"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":49151,"own":{"files":5,"bytes":49151},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Context","Data","DeepSpeed","Effective","Expert","Global","Learning","Micro-batch","Pipeline","Sequence","Tensor","Total","Training","docker","follows","saturated","sbatch","should","torchrun","uses"],"package":["megatron-core"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 48 KiB · CLI Context, Data +18 · packages megatron-core","short":"48 KiB · 20 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","20 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Context","runs Data","runs DeepSpeed","runs docker","runs Effective","runs Expert","runs follows","runs Global","runs Learning","runs Micro-batch","runs Pipeline","runs saturated","runs sbatch","runs Sequence","runs should","runs Tensor","runs torchrun","runs Total","runs Training","runs uses"]},{"marker":"installs-packages","because":["installs megatron-core"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

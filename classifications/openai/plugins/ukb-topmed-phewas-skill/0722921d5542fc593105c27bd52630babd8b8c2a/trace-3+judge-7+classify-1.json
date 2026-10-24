@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/ukb-topmed-phewas-skill",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/ukb-topmed-phewas-skill/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"26767103e1c89abaf080f2541c5d91a2dbd9c4227a0fa24dc7bbbf039dbef82f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9991,"own":{"files":2,"bytes":9991},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["requests"],"mcp-server":[],"credential":[],"network":["pheweb.org"]},"summary":"2 files, 9.8 KiB · packages requests · 1 host","short":"9.8 KiB · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs requests"]},{"marker":"network","because":["fetches from pheweb.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

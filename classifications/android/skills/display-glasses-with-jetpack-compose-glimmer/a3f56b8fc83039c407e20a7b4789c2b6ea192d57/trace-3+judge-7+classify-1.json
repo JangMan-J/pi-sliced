@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"android/skills/display-glasses-with-jetpack-compose-glimmer",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"trace":{"path":"traces/android/skills/display-glasses-with-jetpack-compose-glimmer/a3f56b8fc83039c407e20a7b4789c2b6ea192d57/trace-3+judge-7.json","sha256":"ab59a13324915a2f6850a7f43b5a540d0ef5303378b6a1dc45a5ab03c4590a7a"},
+"status":"resolved",
+"footprint":{"files":32,"bytes":376620,"own":{"files":32,"bytes":376620},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["developer.android.com"]},"summary":"32 files, 368 KiB · 1 host","short":"368 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from developer.android.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

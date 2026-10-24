@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-plugins-official/claude-automation-recommender",
+"revision":"58267944f92187b7d6a1c822165c96c81c864806",
+"trace":{"path":"traces/anthropics/claude-plugins-official/claude-automation-recommender/58267944f92187b7d6a1c822165c96c81c864806/trace-3+judge-7.json","sha256":"4f8e22885ca4e61904fb20c350855081a23c5ef216698b62766ed68aa56586f8"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":43280,"own":{"files":6,"bytes":43280},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude","convex","prisma","your_command"],"package":[],"mcp-server":["github"],"credential":[],"network":[]},"summary":"6 files, 42 KiB · MCP github · CLI claude, convex +2","short":"42 KiB · 4 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs claude","runs convex","runs prisma","runs your_command"]},{"marker":"mcp-server","because":["uses the github MCP server"]},{"marker":"unpinned-code","because":["npx convex: plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md:85","npx prisma: plugins/claude-code-setup/skills/claude-automation-recommender/references/skills-reference.md:188"]}],
+"security":{"fetch-run":["npx convex @ plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md:85","npx prisma @ plugins/claude-code-setup/skills/claude-automation-recommender/references/skills-reference.md:188"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

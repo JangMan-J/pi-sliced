@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-formrecognizer-java",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-formrecognizer-java/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"a695cf14f318c958c39b24730d49a8ef33a2cc24f4b263e380951e33ba0bc699"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":34245,"own":{"files":2,"bytes":34245},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"2 files, 33 KiB · 1 key","short":"33 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[{"name":"microsoft-docs","path":".github/skills/microsoft-docs"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

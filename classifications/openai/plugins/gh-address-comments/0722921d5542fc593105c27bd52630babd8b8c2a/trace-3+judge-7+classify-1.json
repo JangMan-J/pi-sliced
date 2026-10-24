@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/gh-address-comments",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/gh-address-comments/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"f3ba059288696cd7946cc3191b1cb2dc6c691d133a089a2f25b7dfd63009028d"},
+"status":"unresolvable",
+"reason":"no skill folder named gh-address-comments at 0722921d5542fc593105c27bd52630babd8b8c2a"
+}

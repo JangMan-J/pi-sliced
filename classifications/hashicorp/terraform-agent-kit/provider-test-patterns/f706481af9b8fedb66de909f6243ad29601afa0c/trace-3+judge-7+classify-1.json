@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/terraform-agent-kit/provider-test-patterns",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/terraform-agent-kit/provider-test-patterns/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"34d0f038e3eff4bedfe898364c6fc2939d7a0855bf26653e8a58e7a220412b2d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":28242,"own":{"files":4,"bytes":28242},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go","make"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 28 KiB · CLI go, make","short":"28 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs go","runs make"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elastic/agent-skills/security-generate-security-sample-data",
+"revision":"baa511126ba2dc37b52e273b52734f8e4e0d323c",
+"trace":{"path":"traces/elastic/agent-skills/security-generate-security-sample-data/baa511126ba2dc37b52e273b52734f8e4e0d323c/trace-3+judge-7.json","sha256":"55aaa32129d3a3548e3e3afe98d62d6eb96639b65d0e1e3fd8070959af20438b"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":116831,"own":{"files":6,"bytes":116831},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bcdedit","beacon","cmd","explorer","lsass","msiexec","notepad","payload","powershell","procdump","reg","rundll32","schtasks","services","vssadmin"],"package":["@elastic/elasticsearch"],"mcp-server":[],"credential":["ELASTICSEARCH_API_KEY","ELASTICSEARCH_PASSWORD","KIBANA_API_KEY","KIBANA_PASSWORD"],"network":["attack.mitre.org"]},"summary":"6 files, 114 KiB · CLI bcdedit, beacon +13 · packages @elastic/elasticsearch · 4 keys · 1 host","short":"114 KiB · 15 CLI · 1 pkg · 4 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","15 CLIs","4 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs bcdedit","runs beacon","runs cmd","runs explorer","runs lsass","runs msiexec","runs notepad","runs payload","runs powershell","runs procdump","runs reg","runs rundll32","runs schtasks","runs services","runs vssadmin"]},{"marker":"installs-packages","because":["installs @elastic/elasticsearch"]},{"marker":"network","because":["fetches from attack.mitre.org"]},{"marker":"credentials","because":["needs ELASTICSEARCH_API_KEY","needs ELASTICSEARCH_PASSWORD","needs KIBANA_API_KEY","needs KIBANA_PASSWORD"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

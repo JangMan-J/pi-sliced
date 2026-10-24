@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/stakeholder-comms",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/stakeholder-comms/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"9cca12e6231d4c464481fb8b4fab8e9bfc4033ea9c855521a2ccd559a64c6fb1"},
+"status":"unresolvable",
+"reason":"no skill folder named stakeholder-comms at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"duckdb/duckdb-skills/read-memories",
+"revision":"7feda8e01e22bc0886c86123f3884947e36d8c69",
+"trace":{"path":"traces/duckdb/duckdb-skills/read-memories/7feda8e01e22bc0886c86123f3884947e36d8c69/trace-3+judge-7.json","sha256":"ee31f64fc4aae51d5ee2388690ef714d1828ae3632adf30c9555967e1fbf2a2d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1390,"own":{"files":1,"bytes":1390},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["duckdb","left","message.role","regexp_extract","strftime"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.4 KiB · CLI duckdb, left +3","short":"1.4 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs duckdb","runs left","runs message.role","runs regexp_extract","runs strftime"]},{"marker":"stub","because":["own folder 1.4 KiB (1 file)","content is the duckdb, left it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

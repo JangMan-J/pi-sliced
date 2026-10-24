@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-database-setup-sqlite",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-database-setup-sqlite/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"5af726310c9616c02e49dc7957105224aa6456b7e079756dcbfa64db4fa37717"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-database-setup-sqlite at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

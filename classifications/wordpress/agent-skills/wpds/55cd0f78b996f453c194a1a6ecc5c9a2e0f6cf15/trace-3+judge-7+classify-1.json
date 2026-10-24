@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wordpress/agent-skills/wpds",
+"revision":"55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+"trace":{"path":"traces/wordpress/agent-skills/wpds/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/trace-3+judge-7.json","sha256":"ce7d73c2fa10215aa1da36bf1a3a374c25df7ee3ba356e185ccef6d75fbf766b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2812,"own":{"files":1,"bytes":2812},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["wpds"],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB · MCP wpds","short":"2.7 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the wpds MCP server"]},{"marker":"stub","because":["own folder 2.7 KiB (1 file)","content is the wpds it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

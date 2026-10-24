@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/create-quarkus-project",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/create-quarkus-project/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"3e0d1887ad5769ff9cc4a0a3bb3309ba9f292200c7caa6f9038fc06df5de9cdf"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":11439,"own":{"files":6,"bytes":11439},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","gh","java","mvn","quarkus"],"package":[],"mcp-server":[],"credential":["DB_PASSWORD"],"network":["code.quarkus.io","quarkus.io"]},"summary":"6 files, 11 KiB · CLI docker, gh +3 · 1 key · 2 hosts","short":"11 KiB · 5 CLI · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["5 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs gh","runs java","runs mvn","runs quarkus"]},{"marker":"network","because":["fetches from code.quarkus.io","fetches from quarkus.io"]},{"marker":"credentials","because":["needs DB_PASSWORD"]}],
+"security":{},
+"companions":{"named":[{"name":"quarkus-dev-services-and-testing","path":"skills/quarkus-dev-services-and-testing"},{"name":"quarkus-native-and-container","path":"skills/quarkus-native-and-container"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

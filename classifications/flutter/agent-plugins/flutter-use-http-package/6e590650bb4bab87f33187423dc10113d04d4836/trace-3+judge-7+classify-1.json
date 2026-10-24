@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/flutter-use-http-package",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/flutter-use-http-package/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"5f3748366aac42441bd7778a5aa94f39a50f1d185eef747eaa2edb9913e8542c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6456,"own":{"files":1,"bytes":6456},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["flutter"],"package":["http"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.3 KiB · CLI flutter · packages http","short":"6.3 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs flutter"]},{"marker":"installs-packages","because":["installs http"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

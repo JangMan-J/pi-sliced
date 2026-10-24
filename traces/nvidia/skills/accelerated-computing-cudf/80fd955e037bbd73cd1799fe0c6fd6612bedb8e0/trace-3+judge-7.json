@@ -1,0 +1,25 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skills/accelerated-computing-cudf",
+"source":"nvidia/skills",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"skillPath":"skills/accelerated-computing-cudf",
+"status":"resolved",
+"totals":{"files":4,"bytes":29265},
+"files":[
+{"path":"skills/accelerated-computing-cudf/SKILL.md","size":10234,"blob":"8245f13658d20a5fbd50d88e04143acb4291fb32","how":"root"},
+{"path":"skills/accelerated-computing-cudf/references/api-patterns.md","size":7909,"blob":"bfa0e1cbce455f0aa40a413652021c80928753cd","how":"path","from":0,"line":91},
+{"path":"skills/accelerated-computing-cudf/references/cudf-pandas-accelerator.md","size":3967,"blob":"a4fa32c3ed838937b74133c521f71dbbe25054ef","how":"path","from":0,"line":68},
+{"path":"skills/accelerated-computing-cudf/references/dask-cudf-patterns.md","size":7155,"blob":"057864e1f2ea59be27f0b841f72ca3b4bed2d183","how":"path","from":0,"line":39}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/accelerated-computing-cudf","files":4,"bytes":29265}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE-APACHE","spdx":"Apache-2.0","frontmatter":"CC-BY-4.0 AND Apache-2.0"}
+}

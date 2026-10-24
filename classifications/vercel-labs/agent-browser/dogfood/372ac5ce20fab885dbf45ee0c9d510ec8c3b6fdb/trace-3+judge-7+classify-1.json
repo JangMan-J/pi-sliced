@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-browser/dogfood",
+"revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"trace":{"path":"traces/vercel-labs/agent-browser/dogfood/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/trace-3+judge-7.json","sha256":"88e57bb6aa76056e272bae1f1b3a900671bdf323c99046635321856e1e7ac17d"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":15941,"own":{"files":3,"bytes":15941},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-browser"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 16 KiB · CLI agent-browser","short":"16 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser"]},{"marker":"unpinned-code","because":["npx agent-browser: skill-data/dogfood/SKILL.md:25"]}],
+"security":{"fetch-run":["npx agent-browser @ skill-data/dogfood/SKILL.md:25"]},
+"companions":{"named":[{"name":"agent-browser","path":"skills/agent-browser"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

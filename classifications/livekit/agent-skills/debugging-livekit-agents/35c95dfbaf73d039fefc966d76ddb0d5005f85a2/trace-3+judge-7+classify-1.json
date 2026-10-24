@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"livekit/agent-skills/debugging-livekit-agents",
+"revision":"35c95dfbaf73d039fefc966d76ddb0d5005f85a2",
+"trace":{"path":"traces/livekit/agent-skills/debugging-livekit-agents/35c95dfbaf73d039fefc966d76ddb0d5005f85a2/trace-3+judge-7.json","sha256":"03afd7302528819620d497b2241a6fe01341f3c90aacee6322c20f0113972890"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6546,"own":{"files":1,"bytes":6546},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["lk"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.4 KiB · CLI lk","short":"6.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs lk"]}],
+"security":{},
+"companions":{"named":[{"name":"building-livekit-agents","path":"skills/building-livekit-agents"},{"name":"operating-livekit-agents","path":"skills/operating-livekit-agents"},{"name":"reading-livekit-docs","path":"skills/reading-livekit-docs"},{"name":"running-livekit-simulations","path":"skills/running-livekit-simulations"},{"name":"testing-livekit-agents","path":"skills/testing-livekit-agents"},{"name":"writing-livekit-scenarios","path":"skills/writing-livekit-scenarios"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

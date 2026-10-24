@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-retriever/nemo-retriever-mcp",
+"revision":"b8925802c11c6715a0f3b26705987e8a718bca61",
+"trace":{"path":"traces/nvidia/nemo-retriever/nemo-retriever-mcp/b8925802c11c6715a0f3b26705987e8a718bca61/trace-3+judge-7.json","sha256":"639f6f5ed5fc6cbf934190e20524a902abc96979db3eece5bc924b4fd858d0f9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1526,"own":{"files":1,"bytes":1526},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["retriever"],"credential":[],"network":[]},"summary":"1 file, 1.5 KiB · MCP retriever","short":"1.5 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the retriever MCP server"]},{"marker":"stub","because":["own folder 1.5 KiB (1 file)","content is the retriever it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

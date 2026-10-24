@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/langsmith-fetch",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/langsmith-fetch/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"4a321f83cb56c521c12388249c754f6bb6551698196db5e64cc2e87d1fb99f36"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10922,"own":{"files":1,"bytes":10922},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["langsmith-fetch"],"package":["langsmith-fetch"],"mcp-server":[],"credential":["LANGSMITH_API_KEY"],"network":["github.com"]},"summary":"1 file, 11 KiB · CLI langsmith-fetch · packages langsmith-fetch · 1 key · 1 host","short":"11 KiB · 1 CLI · 1 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs langsmith-fetch"]},{"marker":"installs-packages","because":["installs langsmith-fetch"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs LANGSMITH_API_KEY"]},{"marker":"persistent-writes","because":["writes to a shell rc: langsmith-fetch/SKILL.md:393, langsmith-fetch/SKILL.md:394"]}],
+"security":{"persist-write":["shell rc @ langsmith-fetch/SKILL.md:393, langsmith-fetch/SKILL.md:394"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

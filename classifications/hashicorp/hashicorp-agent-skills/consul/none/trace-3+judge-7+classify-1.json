@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/hashicorp-agent-skills/consul",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/hashicorp-agent-skills/consul/none/trace-3+judge-7.json","sha256":"daa8a87cfb48099f2d4cab2b029f26fd9a98296aeaa25018d4c26e7e3afedee3"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/hashicorp-agent-skills.git/' not found"
+}

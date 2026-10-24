@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/financial-services-plugins/tax-loss-harvesting",
+"revision":"574ed3624aebd0418c7e96cd101262f30210ab26",
+"trace":{"path":"traces/anthropics/financial-services-plugins/tax-loss-harvesting/574ed3624aebd0418c7e96cd101262f30210ab26/trace-3+judge-7.json","sha256":"f8979b3a457ece45df61df3832f97a80b77dfe9f5d6a79da5e378f2da26e8d8f"},
+"status":"unresolvable",
+"reason":"no skill folder named tax-loss-harvesting at 574ed3624aebd0418c7e96cd101262f30210ab26"
+}

@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/react-native-architecture",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/frontend-mobile-development/skills/react-native-architecture",
+"status":"resolved",
+"totals":{"files":2,"bytes":17330},
+"files":[
+{"path":"plugins/frontend-mobile-development/skills/react-native-architecture/SKILL.md","size":3602,"blob":"e31619d62742b781fccf6064806664e8b2889cbe","how":"root"},
+{"path":"plugins/frontend-mobile-development/skills/react-native-architecture/references/details.md","size":13728,"blob":"89cbcb30591f58d621967c354a4ac6cf31998627","how":"path","from":0,"line":84}
+],
+"outside":[
+{"kind":"cli","name":"create-expo-app","at":[[0,53]]},
+{"kind":"cli","name":"eas","at":[[1,559],[1,560],[1,561],[1,564],[1,565],[1,568]]},
+{"kind":"cli","name":"expo","at":[[0,56],[0,57],[0,58]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/frontend-mobile-development/skills/react-native-architecture","files":2,"bytes":17330}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-expo-app@latest","at":[[0,53]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,56],[0,57],[0,58]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

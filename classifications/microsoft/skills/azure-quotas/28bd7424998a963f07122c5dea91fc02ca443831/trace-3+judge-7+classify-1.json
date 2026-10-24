@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-quotas",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-quotas/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"a7a8d037d1be2505de87c18c9975933868aa75f41a40c58650d42e7a22701cf7"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":31082,"own":{"files":5,"bytes":31082},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","b","eastus","f","import","print","quotas_data","usages_data"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 30 KiB · CLI az, b +6","short":"30 KiB · 8 CLI"},
+"heavy":{"heavy":true,"because":["8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs b","runs eastus","runs f","runs import","runs print","runs quotas_data","runs usages_data"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

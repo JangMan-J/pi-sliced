@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/differential-review",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/differential-review/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"c974a913734a6400379d3cdd0dc65e2eba859590932357e7cd7b9242e3f95e57"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":33244,"own":{"files":5,"bytes":33244},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["audit-context-building","gh","issue-writer"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 32 KiB · CLI audit-context-building, gh +1","short":"32 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs audit-context-building","runs gh","runs issue-writer"]}],
+"security":{},
+"companions":{"named":[{"name":"audit-context-building","path":"plugins/audit-context-building/skills/audit-context-building"},{"name":"token-integration-analyzer","path":"plugins/building-secure-contracts/skills/token-integration-analyzer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

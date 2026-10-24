@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/agent-skills/sentry-otel-exporter-setup",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/agent-skills/sentry-otel-exporter-setup/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"77cc5b47b2c91131b255698e0085937cfdae9f94db37f2be71e3d570c9abcfb0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13855,"own":{"files":1,"bytes":13855},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","validate"],"package":[],"mcp-server":[],"credential":["SENTRY_AUTH_TOKEN"],"network":["api.github.com","github.com","myorg.sentry.io"]},"summary":"1 file, 14 KiB · CLI docker, validate · 1 key · 3 hosts","short":"14 KiB · 2 CLI · 1 key · 3 hosts"},
+"heavy":{"heavy":true,"because":["2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs validate"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com","fetches from myorg.sentry.io"]},{"marker":"credentials","because":["needs SENTRY_AUTH_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

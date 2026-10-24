@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nv-generate-mr",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nv-generate-mr/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"3d931e21be9f03567f2dd25310fab374c58e6644c052dcbb35e3c488a23aca64"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":130204,"own":{"files":4,"bytes":42548},"otherSkills":{"count":2,"files":7,"bytes":87656},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nvidia-smi"],"package":["nibabel","numpy","torch","typer"],"mcp-server":[],"credential":[],"network":["github.com","huggingface.co"]},"summary":"11 files, 127 KiB · +2 other skills · CLI nvidia-smi · packages nibabel +3 · 2 hosts","short":"127 KiB · +2 skills · 1 CLI · 4 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nvidia-smi"]},{"marker":"installs-packages","because":["installs nibabel","installs numpy","installs torch","installs typer"]},{"marker":"network","because":["fetches from github.com","fetches from huggingface.co"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/deepstream-profile-pipeline","pulls in 4 files of the skill at skills/nv-generate-mr-brain"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/deepstream-profile-pipeline","files":3,"bytes":36758},{"path":"skills/nv-generate-mr-brain","files":4,"bytes":50898}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

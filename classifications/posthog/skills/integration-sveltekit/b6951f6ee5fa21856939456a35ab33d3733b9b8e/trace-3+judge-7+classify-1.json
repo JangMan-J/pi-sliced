@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-sveltekit",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-sveltekit/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"2962f131e06c1b3e4b2dd373569158314b8adef1397e0e8d002a8f87cdcd28d7"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":44203,"own":{"files":8,"bytes":44203},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard"],"package":["posthog-js","posthog-node"],"mcp-server":["svelte"],"credential":[],"network":[]},"summary":"8 files, 43 KiB · MCP svelte · CLI @posthog/wizard · packages posthog-js +1","short":"43 KiB · 1 CLI · 2 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard"]},{"marker":"installs-packages","because":["installs posthog-js","installs posthog-node"]},{"marker":"mcp-server","because":["uses the svelte MCP server"]},{"marker":"unpinned-code","because":["npx @posthog/wizard@latest: skills/posthog/integration/skills/sveltekit/references/svelte.md:11"]}],
+"security":{"fetch-run":["npx @posthog/wizard@latest @ skills/posthog/integration/skills/sveltekit/references/svelte.md:11"]},
+"companions":{"named":[{"name":"svelte","path":"skills/posthog/error-tracking/skills/svelte"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

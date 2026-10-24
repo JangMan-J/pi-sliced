@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dimillian/skills/macos-menubar-tuist-app",
+"revision":"05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+"trace":{"path":"traces/dimillian/skills/macos-menubar-tuist-app/05ba982bfeb0d77d3c97d4542b0ee15034d05f84/trace-3+judge-7.json","sha256":"d3150c063df9beb5d2ae11cf5d1240169623229fe4a497532a878f8a65bb0d24"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4264,"own":{"files":1,"bytes":4264},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tuist"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.2 KiB · CLI tuist","short":"4.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tuist"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

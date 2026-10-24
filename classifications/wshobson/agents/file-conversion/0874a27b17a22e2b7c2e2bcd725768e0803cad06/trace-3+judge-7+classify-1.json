@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/file-conversion",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/file-conversion/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"3263bf3c4d17e52f575e120bd97baef5b1c459fa342752aa63c1d10a53324e78"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8184,"own":{"files":1,"bytes":8184},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["as","dict","f","ffmpeg","ffprobe","from","headers","import","json.dump","len","magick","not","or","pandoc","print","raise","row","rows.append","soffice","stream.write","with"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.0 KiB · CLI as, dict +19","short":"8.0 KiB · 21 CLI"},
+"heavy":{"heavy":true,"because":["21 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs as","runs dict","runs f","runs ffmpeg","runs ffprobe","runs from","runs headers","runs import","runs json.dump","runs len","runs magick","runs not","runs or","runs pandoc","runs print","runs raise","runs row","runs rows.append","runs soffice","runs stream.write","runs with"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

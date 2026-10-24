@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/aicr/aicr-analyzing-snapshots",
+"revision":"b49eaaa41db33bcf40cff443aced396b07613100",
+"trace":{"path":"traces/nvidia/aicr/aicr-analyzing-snapshots/b49eaaa41db33bcf40cff443aced396b07613100/trace-3+judge-7.json","sha256":"3af4ad72dd816ed1cd8f803c1a787a1a9917f0d74c47871c9906794708f4a31d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13919,"own":{"files":1,"bytes":13919},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aicr"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI aicr","short":"14 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aicr"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

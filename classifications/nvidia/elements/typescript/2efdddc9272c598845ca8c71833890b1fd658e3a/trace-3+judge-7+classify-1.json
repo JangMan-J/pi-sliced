@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/elements/typescript",
+"revision":"2efdddc9272c598845ca8c71833890b1fd658e3a",
+"trace":{"path":"traces/nvidia/elements/typescript/2efdddc9272c598845ca8c71833890b1fd658e3a/trace-3+judge-7.json","sha256":"1ddd3997746b5e867956075ac22582b85486a1cffb26a6cea7efe6e44df500de"},
+"status":"unresolvable",
+"reason":"no skill folder named typescript at 2efdddc9272c598845ca8c71833890b1fd658e3a"
+}

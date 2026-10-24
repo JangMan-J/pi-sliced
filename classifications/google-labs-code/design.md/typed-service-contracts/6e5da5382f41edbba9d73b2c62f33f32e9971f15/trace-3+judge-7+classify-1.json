@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-labs-code/design.md/typed-service-contracts",
+"revision":"6e5da5382f41edbba9d73b2c62f33f32e9971f15",
+"trace":{"path":"traces/google-labs-code/design.md/typed-service-contracts/6e5da5382f41edbba9d73b2c62f33f32e9971f15/trace-3+judge-7.json","sha256":"2108f1cb688d0fc956f0c7afe6bbfd7313acbd6c3451d222bb31b3eaaf8dc073"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5671,"own":{"files":1,"bytes":5671},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.5 KiB","short":"5.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

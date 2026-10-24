@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/service-remapping",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/service-remapping/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"96bb193814bd9eddb331e5bedab82182bd368b2f127a7025e04e6ec071ace941"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19010,"own":{"files":1,"bytes":19010},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pup"],"package":["pup"],"mcp-server":[],"credential":["DD_API_KEY","DD_APP_KEY"],"network":[]},"summary":"1 file, 19 KiB · CLI pup · packages pup · 2 keys","short":"19 KiB · 1 CLI · 1 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs pup"]},{"marker":"installs-packages","because":["installs pup"]},{"marker":"credentials","because":["needs DD_API_KEY","needs DD_APP_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/authenticate-wallet",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/authenticate-wallet/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"34c1e75ed9946d94bc8f13202592a0ff021450a699695f7696882133fcfe8301"},
+"status":"unresolvable",
+"reason":"no skill folder named authenticate-wallet at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

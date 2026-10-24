@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"factory-ai/factory/memory-capture",
+"source":"factory-ai/factory",
+"revision":"892925c655a97e7a0bc7d558236015ebb22cb214",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named memory-capture at 892925c655a97e7a0bc7d558236015ebb22cb214",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/recipe-schedule-recurring-event",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/recipe-schedule-recurring-event/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"3ebb8621c45552803d17c16a9d804a81f12da44b2b6b70b59fcb2143753438d4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":923,"own":{"files":1,"bytes":923},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 923 B · CLI gws","short":"923 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gws"]},{"marker":"stub","because":["own folder 923 B (1 file)","content is the gws it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"gws-calendar","path":"skills/gws-calendar"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

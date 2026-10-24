@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/code-apps-dataverse",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/code-apps-dataverse/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"1db7e0b26082a3bacce33622223f07b6c0138a47c91788ab40f5990b93ca0fc0"},
+"status":"unresolvable",
+"reason":"no skill folder named code-apps-dataverse at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

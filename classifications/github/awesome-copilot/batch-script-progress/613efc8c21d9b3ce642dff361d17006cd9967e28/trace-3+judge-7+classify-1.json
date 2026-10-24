@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/batch-script-progress",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/batch-script-progress/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"cec8af16e084d99577a8bca62b8c1355b19ea8b080ab0c29a1a988bf413f3775"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":32403,"own":{"files":7,"bytes":32403},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["powershell","py"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 32 KiB · CLI powershell, py","short":"32 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs powershell","runs py"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

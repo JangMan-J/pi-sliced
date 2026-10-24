@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/api-review",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/api-review/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"e1a727367610a2160c93bcee2207b0c09c9d1247ffc77e352527181eada76680"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11308,"own":{"files":2,"bytes":11308},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

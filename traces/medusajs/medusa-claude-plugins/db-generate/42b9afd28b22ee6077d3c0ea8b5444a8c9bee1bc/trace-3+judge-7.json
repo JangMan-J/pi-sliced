@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"medusajs/medusa-claude-plugins/db-generate",
+"source":"medusajs/medusa-claude-plugins",
+"revision":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc",
+"skillPath":"plugins/medusa-dev/skills/db-generate",
+"status":"resolved",
+"totals":{"files":1,"bytes":768},
+"files":[
+{"path":"plugins/medusa-dev/skills/db-generate/SKILL.md","size":768,"blob":"abbd74ddff9e6cd4d2d04cc681199b36d78773fe","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"medusa","at":[[0,16],[0,23]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/medusa-dev/skills/db-generate","files":1,"bytes":768}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx medusa","at":[[0,16],[0,23]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

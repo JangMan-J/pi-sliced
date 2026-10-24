@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pinecone-io/skills/pinecone-docs",
+"revision":"885dc539fbc2c777dee9764a5b05656663b43c5f",
+"trace":{"path":"traces/pinecone-io/skills/pinecone-docs/885dc539fbc2c777dee9764a5b05656663b43c5f/trace-3+judge-7.json","sha256":"67465a507abddcc55abda0f953c5dda3f49ffb3a46bd7f16a8211814e5159eec"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":5512,"own":{"files":2,"bytes":5512},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["docs.pinecone.io"]},"summary":"2 files, 5.4 KiB · 1 host","short":"5.4 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from docs.pinecone.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

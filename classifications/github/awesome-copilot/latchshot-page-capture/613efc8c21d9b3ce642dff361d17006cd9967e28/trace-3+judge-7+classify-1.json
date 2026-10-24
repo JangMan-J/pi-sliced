@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/latchshot-page-capture",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/latchshot-page-capture/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"2694594fcb48ac8abf2d4db59140c3b2d74a6236b2dbd51bad5306d82a7d8800"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":23776,"own":{"files":2,"bytes":23776},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["LATCHSHOT_API_KEY"],"network":["latchshot.fly.dev"]},"summary":"2 files, 23 KiB · 1 key · 1 host","short":"23 KiB · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from latchshot.fly.dev"]},{"marker":"credentials","because":["needs LATCHSHOT_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

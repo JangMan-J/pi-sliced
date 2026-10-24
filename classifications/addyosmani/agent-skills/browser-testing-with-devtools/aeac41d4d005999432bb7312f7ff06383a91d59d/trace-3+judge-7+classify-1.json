@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"addyosmani/agent-skills/browser-testing-with-devtools",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"trace":{"path":"traces/addyosmani/agent-skills/browser-testing-with-devtools/aeac41d4d005999432bb7312f7ff06383a91d59d/trace-3+judge-7.json","sha256":"023931916b7137a3c5de40391e920a36fe6f9d31853eaf95751a05f42544b471"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14539,"own":{"files":1,"bytes":14539},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/browser-testing-with-devtools/SKILL.md:77"]}],
+"security":{"injection":["ignore previous instructions @ skills/browser-testing-with-devtools/SKILL.md:77"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

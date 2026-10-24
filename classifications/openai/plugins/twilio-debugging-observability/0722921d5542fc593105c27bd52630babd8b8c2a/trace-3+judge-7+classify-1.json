@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-debugging-observability",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-debugging-observability/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"5f6f5544bf7c54778bcad682f8d847db7cfabf04ea1891cff66d5b3a88fc491f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16305,"own":{"files":1,"bytes":16305},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["twilio"],"package":["requests","twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 16 KiB · CLI twilio · packages requests +1","short":"16 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs twilio"]},{"marker":"installs-packages","because":["installs requests","installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-compliance-traffic","path":"plugins/twilio-developer-kit/skills/twilio-compliance-traffic"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-numbers-senders","path":"plugins/twilio-developer-kit/skills/twilio-numbers-senders"},{"name":"twilio-reliability-patterns","path":"plugins/twilio-developer-kit/skills/twilio-reliability-patterns"},{"name":"twilio-webhook-architecture","path":"plugins/twilio-developer-kit/skills/twilio-webhook-architecture"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

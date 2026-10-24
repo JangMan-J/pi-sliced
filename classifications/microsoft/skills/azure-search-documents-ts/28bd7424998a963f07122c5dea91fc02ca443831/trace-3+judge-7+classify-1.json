@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-search-documents-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-search-documents-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"0f9b005f922b03eea5e938a3f21d36b3696a656c0d448043385ad6f8c4d46c34"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7236,"own":{"files":1,"bytes":7236},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/identity","@azure/search-documents"],"mcp-server":[],"credential":["AZURE_SEARCH_ADMIN_KEY","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 7.1 KiB · packages @azure/identity +1 · 2 keys","short":"7.1 KiB · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/identity","installs @azure/search-documents"]},{"marker":"credentials","because":["needs AZURE_SEARCH_ADMIN_KEY","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

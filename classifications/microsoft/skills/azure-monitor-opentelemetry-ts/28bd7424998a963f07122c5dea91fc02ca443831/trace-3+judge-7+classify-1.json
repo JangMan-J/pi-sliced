@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-monitor-opentelemetry-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-monitor-opentelemetry-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"a8cd931ad6d4ed597a0cfb71fbe5478c7e16ed425027a67ae3ccdf0ec0f00654"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8962,"own":{"files":1,"bytes":8962},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/monitor-ingestion","@azure/monitor-opentelemetry","@azure/monitor-opentelemetry-exporter"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 8.8 KiB · packages @azure/monitor-ingestion +2 · 1 key","short":"8.8 KiB · 3 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/monitor-ingestion","installs @azure/monitor-opentelemetry","installs @azure/monitor-opentelemetry-exporter"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

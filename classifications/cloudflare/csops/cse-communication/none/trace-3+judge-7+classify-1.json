@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/cse-communication",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/cse-communication/none/trace-3+judge-7.json","sha256":"30048667469a2fce23cf51b14015c8b4288899d2e0351faa38ccf4349bd9e65b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

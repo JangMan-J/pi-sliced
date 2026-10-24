@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/zotero",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/zotero/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"beaafdf0921e290b1e704d1c312e628ff2c731e01933820750caa4981cb91784"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":36670,"own":{"files":3,"bytes":36670},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["enable","open","osascript","pkill","taskkill","zotero","zotero.exe"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 36 KiB · CLI enable, open +5","short":"36 KiB · 7 CLI"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs enable","runs open","runs osascript","runs pkill","runs taskkill","runs zotero","runs zotero.exe"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

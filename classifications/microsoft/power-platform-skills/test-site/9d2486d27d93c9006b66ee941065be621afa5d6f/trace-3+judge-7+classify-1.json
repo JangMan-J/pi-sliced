@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/test-site",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/test-site/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"c55ecc93672e07c305eabbd5222c4bf8a3c7423407ec387ba2abbcc1626482ae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":45879,"own":{"files":1,"bytes":45879},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 45 KiB","short":"45 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"activate-site","path":"plugins/power-pages/skills/activate-site"},{"name":"add-seo","path":"plugins/power-pages/skills/add-seo"},{"name":"create-webroles","path":"plugins/power-pages/skills/create-webroles"},{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"},{"name":"integrate-webapi","path":"plugins/power-pages/skills/integrate-webapi"},{"name":"plan-alm","path":"plugins/power-pages/skills/plan-alm"},{"name":"setup-auth","path":"plugins/power-pages/skills/setup-auth"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

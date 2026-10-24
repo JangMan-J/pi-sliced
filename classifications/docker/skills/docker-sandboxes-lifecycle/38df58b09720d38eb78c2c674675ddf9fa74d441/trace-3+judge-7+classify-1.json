@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"docker/skills/docker-sandboxes-lifecycle",
+"revision":"38df58b09720d38eb78c2c674675ddf9fa74d441",
+"trace":{"path":"traces/docker/skills/docker-sandboxes-lifecycle/38df58b09720d38eb78c2c674675ddf9fa74d441/trace-3+judge-7.json","sha256":"d8f80ef7ae160e66d989aa5af8fd786b5f24163dee32ffa4235e55d1c5c7c80f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":21875,"own":{"files":3,"bytes":21875},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","sbx"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 21 KiB · CLI docker, sbx","short":"21 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs sbx"]}],
+"security":{},
+"companions":{"named":[{"name":"docker-agent-run","path":"skills/docker-agent-run"},{"name":"docker-sandboxes-env","path":"skills/docker-sandboxes-env"},{"name":"docker-sandboxes-kits","path":"skills/docker-sandboxes-kits"},{"name":"docker-sandboxes-network-credentials","path":"skills/docker-sandboxes-network-credentials"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

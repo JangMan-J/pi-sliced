@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"sanity-io/claude-plugins-official/frontend-design",
+"source":"sanity-io/claude-plugins-official",
+"revision":"b7a8f63bb2a7ba83a564c405432ec33183c66198",
+"skillPath":"plugins/frontend-design/skills/frontend-design",
+"status":"resolved",
+"totals":{"files":1,"bytes":4274},
+"files":[
+{"path":"plugins/frontend-design/skills/frontend-design/SKILL.md","size":4274,"blob":"600b6db41fac7e2081c7528ec6982960892c819d","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"plugins/frontend-design/skills/frontend-design","files":1,"bytes":4274}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"Complete terms in LICENSE.txt"}
+}

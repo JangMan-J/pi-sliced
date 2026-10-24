@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/next-upgrade",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/next-upgrade/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"0e80cca66e39836ae30660b8b9584e52a48e96e3b026c007c47bdbf04b0904be"},
+"status":"unresolvable",
+"reason":"no skill folder named next-upgrade at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

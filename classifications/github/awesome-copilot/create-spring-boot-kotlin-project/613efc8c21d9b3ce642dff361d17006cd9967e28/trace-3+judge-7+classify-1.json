@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/create-spring-boot-kotlin-project",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/create-spring-boot-kotlin-project/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"feab5754df9567bca30f446f8f169d91e861b680efbf81ce1ba5f052cdd17f85"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4180,"own":{"files":1,"bytes":4180},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["java"],"package":[],"mcp-server":[],"credential":[],"network":["start.spring.io"]},"summary":"1 file, 4.1 KiB · CLI java · 1 host","short":"4.1 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs java"]},{"marker":"network","because":["fetches from start.spring.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

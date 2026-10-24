@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/cds/ktlo",
+"revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"trace":{"path":"traces/coinbase/cds/ktlo/d35ad8e2c164cbd3ddccfed26720844b6f1db506/trace-3+judge-7.json","sha256":"93050b17b3469bbcf97206749447f6b28e573fad82217e1c9d8a357c99a546b1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1561,"own":{"files":1,"bytes":1561},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["linear"],"credential":[],"network":[]},"summary":"1 file, 1.5 KiB · MCP linear","short":"1.5 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the linear MCP server"]},{"marker":"stub","because":["own folder 1.5 KiB (1 file)","content is the linear it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

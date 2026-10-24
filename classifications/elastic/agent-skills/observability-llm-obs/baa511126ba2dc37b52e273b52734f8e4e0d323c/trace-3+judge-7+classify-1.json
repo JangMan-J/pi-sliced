@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elastic/agent-skills/observability-llm-obs",
+"revision":"baa511126ba2dc37b52e273b52734f8e4e0d323c",
+"trace":{"path":"traces/elastic/agent-skills/observability-llm-obs/baa511126ba2dc37b52e273b52734f8e4e0d323c/trace-3+judge-7.json","sha256":"0a1d83978593c24aed222c41c13da9e0cc18843c12aba275252636457688fde5"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":39838,"own":{"files":4,"bytes":39838},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["elastic"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 39 KiB · CLI elastic","short":"39 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs elastic"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

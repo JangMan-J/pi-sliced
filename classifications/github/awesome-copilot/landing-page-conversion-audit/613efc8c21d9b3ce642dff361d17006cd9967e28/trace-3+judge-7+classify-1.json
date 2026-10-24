@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/landing-page-conversion-audit",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/landing-page-conversion-audit/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"bb6f03af892ff9efeab3ceab3fb0c2062e09ff4192ba39d0ee6416d9ecde2e6a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7379,"own":{"files":1,"bytes":7379},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.2 KiB · CLI docker","short":"7.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]}],
+"security":{},
+"companions":{"named":[{"name":"server-side-conversion-tracking","path":"skills/server-side-conversion-tracking"},{"name":"setup","path":"skills/qdrant-monitoring/setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

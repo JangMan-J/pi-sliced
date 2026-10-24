@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/markstream-install",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/markstream-install/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"49fff2ccd9e47aef48bc126cc1724922468e7d67f7b8d3104bf017d3a0a7b43c"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8419,"own":{"files":2,"bytes":8419},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["markstream-angular","markstream-react","markstream-svelte","markstream-vue","markstream-vue2"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 8.2 KiB · packages markstream-angular +4","short":"8.2 KiB · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs markstream-angular","installs markstream-react","installs markstream-svelte","installs markstream-vue","installs markstream-vue2"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

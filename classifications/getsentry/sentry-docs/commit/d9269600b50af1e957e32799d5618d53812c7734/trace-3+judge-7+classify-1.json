@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-docs/commit",
+"revision":"d9269600b50af1e957e32799d5618d53812c7734",
+"trace":{"path":"traces/getsentry/sentry-docs/commit/d9269600b50af1e957e32799d5618d53812c7734/trace-3+judge-7.json","sha256":"b348f2b7063d217bc7de62790b251f3db778e19b625a58667f1284435e74f3e1"},
+"status":"unresolvable",
+"reason":"no skill folder named commit at d9269600b50af1e957e32799d5618d53812c7734"
+}

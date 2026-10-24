@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wordpress/php-mcp-schema/mcp-php-schema",
+"revision":"eeb9d35a9639715e520113a5edcef374d98a5214",
+"trace":{"path":"traces/wordpress/php-mcp-schema/mcp-php-schema/eeb9d35a9639715e520113a5edcef374d98a5214/trace-3+judge-7.json","sha256":"6555afb050ea1e35eb305ad41248acd5564c68d590604bad2db92112fd698f2b"},
+"status":"unresolvable",
+"reason":"no skill folder named mcp-php-schema at eeb9d35a9639715e520113a5edcef374d98a5214"
+}

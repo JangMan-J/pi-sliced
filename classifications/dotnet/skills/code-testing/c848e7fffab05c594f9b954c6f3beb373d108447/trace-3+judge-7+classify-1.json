@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/code-testing",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/code-testing/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"29a52f51d703ebbba0757f9140b89cd644bf1c0bf41e5ffd85a6b90e2e416268"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":36844,"own":{"files":2,"bytes":36844},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 36 KiB","short":"36 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"assertion-quality","path":"plugins/dotnet-test/skills/assertion-quality"},{"name":"code-testing-extensions","path":"plugins/dotnet-test/skills/code-testing-extensions"},{"name":"find-untested-sources","path":"plugins/dotnet-test/skills/find-untested-sources"},{"name":"run-tests","path":"plugins/dotnet-test/skills/run-tests"},{"name":"test-gap-analysis","path":"plugins/dotnet-test/skills/test-gap-analysis"},{"name":"writing-mstest-tests","path":"plugins/dotnet-test/skills/writing-mstest-tests"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

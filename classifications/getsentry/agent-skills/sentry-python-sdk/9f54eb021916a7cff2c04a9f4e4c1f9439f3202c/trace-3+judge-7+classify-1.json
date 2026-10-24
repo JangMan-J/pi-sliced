@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/agent-skills/sentry-python-sdk",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/agent-skills/sentry-python-sdk/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"2b0b79546005136304432847db8d4d18c9d8301e4bc918d9621b57ddddc4a9da"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":63095,"own":{"files":8,"bytes":63095},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["rq"],"package":["sentry-sdk"],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 62 KiB · CLI rq · packages sentry-sdk","short":"62 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs rq"]},{"marker":"installs-packages","because":["installs sentry-sdk"]}],
+"security":{},
+"companions":{"named":[{"name":"sentry-react-sdk","path":"skills/sentry-react-sdk"},{"name":"sentry-svelte-sdk","path":"skills/sentry-svelte-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

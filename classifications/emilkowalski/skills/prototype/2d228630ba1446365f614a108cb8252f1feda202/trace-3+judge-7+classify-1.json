@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/prototype",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/prototype/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"a0c7534384c3e616a69b748e621f8164397383ec9b7d3fac1b551b9fdf24c464"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15378,"own":{"files":2,"bytes":15378},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"improve-animations","path":"skills/improve-animations"},{"name":"pick-ui-library","path":"skills/pick-ui-library"},{"name":"review-animations","path":"skills/review-animations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"parallel-web/parallel-agent-skills/parallel-web-extract",
+"revision":"88a5201eac1dda998e4f8b66280872ced4be7bb0",
+"trace":{"path":"traces/parallel-web/parallel-agent-skills/parallel-web-extract/88a5201eac1dda998e4f8b66280872ced4be7bb0/trace-3+judge-7.json","sha256":"f00882c385ff09a5d11905bc2c3b82efe25e31ad80909466254900ddd684539d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4773,"own":{"files":1,"bytes":4773},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["parallel-cli"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB · CLI parallel-cli","short":"4.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs parallel-cli"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

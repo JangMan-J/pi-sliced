@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"get-convex/agent-skills/convex-migrate-rehearse",
+"source":"get-convex/agent-skills",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"skillPath":"skills/convex-migrate-rehearse",
+"status":"resolved",
+"totals":{"files":1,"bytes":4810},
+"files":[
+{"path":"skills/convex-migrate-rehearse/SKILL.md","size":4810,"blob":"85c881c07a72a19d7f4fc879d91b016e41d6a281","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"convex","at":[[0,14],[0,16],[0,17],[0,18],[0,20]]}
+],
+"regions":[
+{"kind":"own","path":"skills/convex-migrate-rehearse","files":1,"bytes":4810}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx convex","at":[[0,14],[0,16],[0,17],[0,18],[0,20]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

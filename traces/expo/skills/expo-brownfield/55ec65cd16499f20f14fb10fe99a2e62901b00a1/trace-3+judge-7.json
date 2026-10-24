@@ -1,0 +1,48 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/expo-brownfield",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/expo-brownfield",
+"status":"resolved",
+"totals":{"files":7,"bytes":80604},
+"files":[
+{"path":"plugins/expo/skills/expo-brownfield/SKILL.md","size":5803,"blob":"23841c0d484970e578083287c1bf189e61c0d935","how":"root"},
+{"path":"plugins/expo/skills/expo-brownfield/references/brownfield-integrated.md","size":22723,"blob":"bf8ea3a4b990ba86ec36a2f934f60530f54a29f7","how":"path","from":0,"line":37},
+{"path":"plugins/expo/skills/expo-brownfield/references/brownfield-isolated.md","size":22287,"blob":"ff72f189d0445dda83beec64fe65f3bf07548f23","how":"path","from":0,"line":36},
+{"path":"plugins/expo/skills/expo-brownfield/references/comparison.md","size":6797,"blob":"6a8c18442548f1616b970875e6f118a37fc7e7f4","how":"link","from":0,"line":23},
+{"path":"plugins/expo/skills/expo-brownfield/references/feature-integration.md","size":10149,"blob":"5ddcff6d90a24ca9c3709eba4f5742720881c038","how":"path","from":0,"line":38},
+{"path":"plugins/expo/skills/expo-brownfield/references/troubleshooting.md","size":8381,"blob":"32cf7e5d28625c24b77a2d513f9c43595da0620b","how":"path","from":0,"line":40},
+{"path":"plugins/expo/skills/expo-brownfield/references/version-compatibility.md","size":4464,"blob":"d7ee01a23bd273329ffee5bf6440c7de72461959","how":"link","from":0,"line":57}
+],
+"outside":[
+{"kind":"cli","name":"bundle","at":[[5,11]]},
+{"kind":"cli","name":"create-expo-app","at":[[1,28],[2,38],[6,16]]},
+{"kind":"cli","name":"expo","at":[[0,55],[1,31],[2,47],[2,95],[2,259],[2,434],[4,13],[5,11],[5,20],[5,30],[5,79],[6,10],[6,18]]},
+{"kind":"cli","name":"expo-brownfield","at":[[2,117],[2,170],[2,171],[2,181],[2,208],[2,240],[2,248],[2,249],[2,437],[3,33],[5,22]]},
+{"kind":"cli","name":"package.json","at":[[1,385]]},
+{"kind":"cli","name":"pod","at":[[1,347]]},
+{"kind":"cli","name":"resolveAppEntry","at":[[1,382]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[0,66]]},
+{"kind":"network","name":"docs.expo.dev","at":[[5,11]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-brownfield","files":7,"bytes":80604}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-expo-app@latest","at":[[1,28],[2,38],[6,16]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,55],[1,31],[2,47],[2,95],[2,259],[2,434],[4,13],[5,11],[5,20],[5,30],[5,79],[6,10],[6,18]]},
+{"kind":"fetch-run","detail":"npx expo-brownfield","at":[[2,117],[2,170],[2,171],[2,181],[2,208],[2,240],[2,248],[2,249],[2,437],[3,33],[5,22]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[0,66]]}
+],
+"namedSkills":[
+{"name":"eas-app-stores","path":"plugins/expo/skills/eas-app-stores","at":[[0,12]]},
+{"name":"expo-router","path":"plugins/expo/skills/expo-router","at":[[2,56]]},
+{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback","at":[[0,69]]},
+{"name":"expo-upgrade","path":"plugins/expo/skills/expo-upgrade","at":[[6,10]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":null}
+}

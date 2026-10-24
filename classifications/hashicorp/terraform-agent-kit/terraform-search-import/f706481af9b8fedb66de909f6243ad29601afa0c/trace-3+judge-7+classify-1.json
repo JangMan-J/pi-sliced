@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/terraform-agent-kit/terraform-search-import",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/terraform-agent-kit/terraform-search-import/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"3ddade7aecc1dc42088246e4df9b9827fc584b4e710289d07a31203b50600ed4"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":13607,"own":{"files":3,"bytes":13607},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","from_entries","import","jq","keys","map","resource","split","terraform","to_entries"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 13 KiB · CLI aws, from_entries +8","short":"13 KiB · 10 CLI"},
+"heavy":{"heavy":true,"because":["10 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs from_entries","runs import","runs jq","runs keys","runs map","runs resource","runs split","runs terraform","runs to_entries"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

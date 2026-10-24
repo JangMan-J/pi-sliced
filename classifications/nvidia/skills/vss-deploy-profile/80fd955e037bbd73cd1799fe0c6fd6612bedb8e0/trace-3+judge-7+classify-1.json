@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/vss-deploy-profile",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/vss-deploy-profile/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"9de66ec9c195fb3d7bfb72b4c774ec7aaf4b184febd032dc26c57236f86cf99a"},
+"status":"unresolvable",
+"reason":"no skill folder named vss-deploy-profile at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf (the archive had skills/vss-deploy-profile)"
+}

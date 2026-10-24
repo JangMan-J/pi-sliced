@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/configuring-experiment-analytics",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/configuring-experiment-analytics/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"695089e169ecd580e69ec104a7ac49872108f0c73de0e457447a5b138a3e5c62"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":142877,"own":{"files":4,"bytes":142877},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 140 KiB","short":"140 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"analyzing-experiment-session-replays","path":"skills/analyzing-experiment-session-replays"},{"name":"configuring-experiment-rollout","path":"skills/configuring-experiment-rollout"},{"name":"diagnosing-experiment-health","path":"skills/diagnosing-experiment-health"},{"name":"finding-experiments","path":"skills/finding-experiments"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

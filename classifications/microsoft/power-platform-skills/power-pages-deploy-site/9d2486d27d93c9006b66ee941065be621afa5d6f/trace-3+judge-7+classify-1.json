@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/power-pages-deploy-site",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/power-pages-deploy-site/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"a435b59d07b179fc2c8e7fc33fe553c75ffccccdb229f1e3aa49def0a0700ea3"},
+"status":"unresolvable",
+"reason":"no skill folder named power-pages-deploy-site at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/teams-sdk/teams-dev",
+"revision":"13a90f9c7b09737599e317ecf958b1de0500aa3b",
+"trace":{"path":"traces/microsoft/teams-sdk/teams-dev/13a90f9c7b09737599e317ecf958b1de0500aa3b/trace-3+judge-7.json","sha256":"4028812e047ea5c9db0bdadad8d0ab5b792ef020c717dddce55d76e1ed8b8a21"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":31060,"own":{"files":6,"bytes":31060},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","devtunnel","teams","tsc"],"package":["@microsoft/teams.cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 30 KiB · CLI az, devtunnel +2 · packages @microsoft/teams.cli","short":"30 KiB · 4 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs devtunnel","runs teams","runs tsc"]},{"marker":"installs-packages","because":["installs @microsoft/teams.cli"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

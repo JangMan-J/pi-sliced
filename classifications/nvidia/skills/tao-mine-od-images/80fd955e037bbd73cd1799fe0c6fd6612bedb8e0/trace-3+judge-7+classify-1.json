@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-mine-od-images",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-mine-od-images/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"f9d6ad529faa228693d42912c597578552e76356b330a84e7b959ac38f82b562"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9114,"own":{"files":2,"bytes":9114},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","nvidia-smi","tmm"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 8.9 KiB · CLI docker, nvidia-smi +1","short":"8.9 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs nvidia-smi","runs tmm"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/sitecore-skills/marketplace-add-ai",
+"revision":"8d91731a5d7b6cc5caad620aba86ebba4b9668a6",
+"trace":{"path":"traces/vercel-labs/sitecore-skills/marketplace-add-ai/8d91731a5d7b6cc5caad620aba86ebba4b9668a6/trace-3+judge-7.json","sha256":"77ba5db17f14a416e971f847d5a891c8be91141b63f09b5e7cd75e1d20fae7e9"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7543,"own":{"files":2,"bytes":7543},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["shadcn"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 7.4 KiB · CLI shadcn","short":"7.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs shadcn"]},{"marker":"unpinned-code","because":["npx shadcn@latest: .claude/skills/marketplace-add-ai/SKILL.md:14"]}],
+"security":{"fetch-run":["npx shadcn@latest @ .claude/skills/marketplace-add-ai/SKILL.md:14"]},
+"companions":{"named":[{"name":"marketplace-build-component","path":".claude/skills/marketplace-build-component"},{"name":"marketplace-sdk-reference","path":".claude/skills/marketplace-sdk-reference"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

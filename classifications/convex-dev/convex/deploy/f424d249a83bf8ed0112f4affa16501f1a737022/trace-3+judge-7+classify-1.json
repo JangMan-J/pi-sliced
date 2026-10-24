@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"convex-dev/convex/deploy",
+"revision":"f424d249a83bf8ed0112f4affa16501f1a737022",
+"trace":{"path":"traces/convex-dev/convex/deploy/f424d249a83bf8ed0112f4affa16501f1a737022/trace-3+judge-7.json","sha256":"77a3ed7fa5a986037d0953032dcf74d446274e8b511438585638c1576e9e6622"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":2635,"own":{"files":1,"bytes":570},"otherSkills":{"count":1,"files":1,"bytes":2065},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 2.6 KiB · +1 other skill","short":"2.6 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at .claude/skills/deploy"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".claude/skills/deploy","files":1,"bytes":2065}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

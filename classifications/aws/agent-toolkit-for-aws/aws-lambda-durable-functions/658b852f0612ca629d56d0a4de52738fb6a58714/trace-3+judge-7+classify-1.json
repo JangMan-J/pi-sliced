@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-lambda-durable-functions",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-lambda-durable-functions/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"15421519603e09a6bdf157fbf3f965110464c413685c641f12e3d52a10a09730"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":124617,"own":{"files":12,"bytes":124617},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","cdk","pytest","sam","tsc"],"package":["@aws/durable-execution-sdk-js","@aws/durable-execution-sdk-js-eslint-plugin","@aws/durable-execution-sdk-js-testing","aws-durable-execution-sdk-python","aws-durable-execution-sdk-python-testing","pytest"],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"12 files, 122 KiB · MCP aws · CLI aws, cdk +3 · packages @aws/durable-execution-sdk-js +5","short":"122 KiB · 5 CLI · 6 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 MCP server","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs cdk","runs pytest","runs sam","runs tsc"]},{"marker":"installs-packages","because":["installs @aws/durable-execution-sdk-js","installs @aws/durable-execution-sdk-js-eslint-plugin","installs @aws/durable-execution-sdk-js-testing","installs aws-durable-execution-sdk-python","installs aws-durable-execution-sdk-python-testing","installs pytest"]},{"marker":"mcp-server","because":["uses the aws MCP server"]},{"marker":"unpinned-code","because":["npx tsc: skills/specialized-skills/serverless-skills/aws-lambda-durable-functions/references/getting-started.md:445"]}],
+"security":{"fetch-run":["npx tsc @ skills/specialized-skills/serverless-skills/aws-lambda-durable-functions/references/getting-started.md:445"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

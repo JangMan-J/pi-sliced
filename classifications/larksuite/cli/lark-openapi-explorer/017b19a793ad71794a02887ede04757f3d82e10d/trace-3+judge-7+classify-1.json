@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"larksuite/cli/lark-openapi-explorer",
+"revision":"017b19a793ad71794a02887ede04757f3d82e10d",
+"trace":{"path":"traces/larksuite/cli/lark-openapi-explorer/017b19a793ad71794a02887ede04757f3d82e10d/trace-3+judge-7.json","sha256":"57c6739a1adf5ecd17669951b307f53e0437a64dfa1eb3e608846a040ca1f9d3"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":22497,"own":{"files":1,"bytes":4927},"otherSkills":{"count":2,"files":7,"bytes":17570},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["lark-cli"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 22 KiB · +2 other skills · CLI lark-cli","short":"22 KiB · +2 skills · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs lark-cli"]},{"marker":"chain-loads","because":["pulls in 6 files of the skill at skills/lark-shared","pulls in 1 file of the skill at skills/lark-skill-maker"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/lark-shared","files":6,"bytes":15110},{"path":"skills/lark-skill-maker","files":1,"bytes":2460}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

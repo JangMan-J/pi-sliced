@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/frontend-app-builder",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/frontend-app-builder/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"fbe95aa74956b119abca8e432d542c67fe7834e422e4b6cd1a250ef0fe60c6fb"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":51475,"own":{"files":2,"bytes":51475},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 50 KiB","short":"50 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

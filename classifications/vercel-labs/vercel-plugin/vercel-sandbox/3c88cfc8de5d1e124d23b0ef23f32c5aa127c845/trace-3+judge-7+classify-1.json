@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/vercel-sandbox",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/vercel-sandbox/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"82ef6ba1317e5c56b0388282d58c955038b683efc6efc8cd5ae22569132df9b6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":25087,"own":{"files":1,"bytes":25087},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sandbox"],"package":["@vercel/sandbox","add","bun","yarn"],"mcp-server":[],"credential":["VERCEL_OIDC_TOKEN"],"network":[]},"summary":"1 file, 24 KiB · CLI sandbox · packages @vercel/sandbox +3 · 1 key","short":"24 KiB · 1 CLI · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs sandbox"]},{"marker":"installs-packages","because":["installs @vercel/sandbox","installs add","installs bun","installs yarn"]},{"marker":"credentials","because":["needs VERCEL_OIDC_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

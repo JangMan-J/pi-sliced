@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/cloud-monitoring-promql-query",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/cloud-monitoring-promql-query/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"f6139b2bd51c286ceb60205aa1d4b4bc004c4d7bbc8d232d37b93c9d67b24905"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":38708,"own":{"files":5,"bytes":38708},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":["promql-parser","promql_parser"],"mcp-server":["monitoring"],"credential":[],"network":["monitoring.googleapis.com"]},"summary":"5 files, 38 KiB · MCP monitoring · CLI gcloud · packages promql-parser +1 · 1 host","short":"38 KiB · 1 CLI · 2 pkg · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"installs-packages","because":["installs promql_parser","installs promql-parser"]},{"marker":"network","because":["fetches from monitoring.googleapis.com"]},{"marker":"mcp-server","because":["uses the monitoring MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"cloud-monitoring-metric-selection","path":"skills/cloud/cloud-monitoring-metric-selection"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wordpress/agent-skills/wp-abilities-api",
+"revision":"55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+"trace":{"path":"traces/wordpress/agent-skills/wp-abilities-api/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/trace-3+judge-7.json","sha256":"4f4f2d28861fe144f836611867c969912bd3d3ea646a641e71f5338e48600037"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":89962,"own":{"files":10,"bytes":89962},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 88 KiB","short":"88 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"wp-project-triage","path":"skills/wp-project-triage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

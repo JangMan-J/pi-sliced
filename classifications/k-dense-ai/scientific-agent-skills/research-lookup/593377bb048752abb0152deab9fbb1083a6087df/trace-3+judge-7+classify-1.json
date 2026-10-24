@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/research-lookup",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/research-lookup/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"59d827f24797a58969418e58fe98c7f91b1115a0c8ef90cdc5a26d818d103fc0"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":72231,"own":{"files":3,"bytes":72231},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["parallel-cli"],"package":["requests"],"mcp-server":[],"credential":["OPENROUTER_API_KEY","PARALLEL_API_KEY"],"network":["api.parallel.ai","arxiv.org","doi.org","openrouter.ai"]},"summary":"3 files, 71 KiB · CLI parallel-cli · packages requests · 2 keys · 4 hosts","short":"71 KiB · 1 CLI · 1 pkg · 2 keys · 4 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs parallel-cli"]},{"marker":"installs-packages","because":["installs requests"]},{"marker":"network","because":["fetches from api.parallel.ai","fetches from arxiv.org","fetches from doi.org","fetches from openrouter.ai"]},{"marker":"credentials","because":["needs OPENROUTER_API_KEY","needs PARALLEL_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"citation-management","path":"skills/citation-management"},{"name":"literature-review","path":"skills/literature-review"},{"name":"parallel-web","path":"skills/parallel-web"},{"name":"scientific-writing","path":"skills/scientific-writing"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

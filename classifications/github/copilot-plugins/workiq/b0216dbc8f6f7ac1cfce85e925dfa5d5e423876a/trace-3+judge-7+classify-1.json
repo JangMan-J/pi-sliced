@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/copilot-plugins/workiq",
+"revision":"b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a",
+"trace":{"path":"traces/github/copilot-plugins/workiq/b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a/trace-3+judge-7.json","sha256":"11260554a4c09975276a93c6a274ef8f9c881cd283ee5320ee2dd560e3b01665"},
+"status":"unresolvable",
+"reason":"no skill folder named workiq at b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a"
+}

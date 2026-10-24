@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/deploying-java-sdk-bundles",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/deploying-java-sdk-bundles/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"08b24d5967df0ebb6b1f153cb43fbd8406cb21fd1b15c2207d4287be359ae57f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11204,"own":{"files":1,"bytes":11204},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["astro"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI astro","short":"11 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs astro"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

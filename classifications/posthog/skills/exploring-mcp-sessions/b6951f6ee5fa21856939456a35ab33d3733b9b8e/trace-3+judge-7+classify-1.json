@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/exploring-mcp-sessions",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/exploring-mcp-sessions/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"b09acab0fa86d744c707176818bd79bf48a44d9d044ea1f09a792ef969f9e45c"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":31195,"own":{"files":1,"bytes":8253},"otherSkills":{"count":3,"files":3,"bytes":22942},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["any","exploring","posthog"],"credential":[],"network":[]},"summary":"4 files, 30 KiB · +3 other skills · MCP any, exploring +1","short":"30 KiB · +3 skills · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the any MCP server","uses the exploring MCP server","uses the posthog MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/omnibus/exploring-mcp-intent-clusters","pulls in 1 file of the skill at skills/omnibus/exploring-mcp-tool-quality","pulls in 1 file of the skill at skills/omnibus/exploring-mcp-tool-usage"]}],
+"security":{},
+"companions":{"named":[{"name":"exploring-mcp-intent-clusters","path":"skills/omnibus/exploring-mcp-intent-clusters"},{"name":"exploring-mcp-tool-quality","path":"skills/omnibus/exploring-mcp-tool-quality"},{"name":"exploring-mcp-tool-usage","path":"skills/omnibus/exploring-mcp-tool-usage"}],"pulled":[{"path":"skills/omnibus/exploring-mcp-intent-clusters","files":1,"bytes":7725},{"path":"skills/omnibus/exploring-mcp-tool-quality","files":1,"bytes":7897},{"path":"skills/omnibus/exploring-mcp-tool-usage","files":1,"bytes":7320}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

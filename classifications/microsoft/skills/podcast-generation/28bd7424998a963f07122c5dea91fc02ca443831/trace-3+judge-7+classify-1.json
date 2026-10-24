@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/podcast-generation",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/podcast-generation/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"b4ac58414c1c993b85db68ebcc4ed64b13cd7898f284e06998d645fc3768aceb"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":17114,"own":{"files":4,"bytes":17114},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["pcm_to_wav"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 17 KiB · packages pcm_to_wav","short":"17 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs pcm_to_wav"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

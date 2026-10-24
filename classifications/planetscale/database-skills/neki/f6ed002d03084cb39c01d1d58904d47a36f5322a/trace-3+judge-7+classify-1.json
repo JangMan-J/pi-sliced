@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"planetscale/database-skills/neki",
+"revision":"f6ed002d03084cb39c01d1d58904d47a36f5322a",
+"trace":{"path":"traces/planetscale/database-skills/neki/f6ed002d03084cb39c01d1d58904d47a36f5322a/trace-3+judge-7.json","sha256":"63e5c4d5f57f0d97ace1b44dbc00d88dceacbea36cf89d7e3c4796304fde48f6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8467,"own":{"files":1,"bytes":8467},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.3 KiB","short":"8.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

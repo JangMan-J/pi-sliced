@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel/vercel-plugin/routing-middleware",
+"source":"vercel/vercel-plugin",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"skillPath":"skills/routing-middleware",
+"status":"resolved",
+"totals":{"files":1,"bytes":11265},
+"files":[
+{"path":"skills/routing-middleware/SKILL.md","size":11265,"blob":"c15fcc97cb0a98964781b1ad62b94a494b25ecce","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@next/codemod","at":[[0,91]]},
+{"kind":"cli","name":"vercel","at":[[0,265]]}
+],
+"regions":[
+{"kind":"own","path":"skills/routing-middleware","files":1,"bytes":11265}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @next/codemod@latest","at":[[0,91]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-generate-image-embeddings",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-generate-image-embeddings/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"68908de9bf467e4057aaa77e54c6265dc787414f8c120f80a1aa377943661899"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9161,"own":{"files":2,"bytes":9161},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","embedding","nvidia-smi"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 8.9 KiB · CLI docker, embedding +1","short":"8.9 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs embedding","runs nvidia-smi"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-mine-nearest-neighbors","path":"skills/tao-mine-nearest-neighbors"},{"name":"tao-mine-od-images","path":"skills/tao-mine-od-images"},{"name":"tao-run-on-docker","path":"skills/tao-run-on-docker"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

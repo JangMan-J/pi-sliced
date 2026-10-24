@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/flashdreams/apply-inference-optimizations",
+"revision":"9d98934d965252e7098c88d24fd5431e435b496c",
+"trace":{"path":"traces/nvidia/flashdreams/apply-inference-optimizations/9d98934d965252e7098c88d24fd5431e435b496c/trace-3+judge-7.json","sha256":"0a56f029529002d29012a266861480e4282bb7138d7ea79680d9c4e275fb50a4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6458,"own":{"files":1,"bytes":6458},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.3 KiB","short":"6.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"flashdreams-integrations","path":"skills/flashdreams-integrations"},{"name":"profile-model-performance","path":"skills/profile-model-performance"},{"name":"validate-performance-quality","path":"skills/validate-performance-quality"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

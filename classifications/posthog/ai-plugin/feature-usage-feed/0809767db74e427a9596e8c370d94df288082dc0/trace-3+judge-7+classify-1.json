@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/feature-usage-feed",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/feature-usage-feed/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"dbfef1cbb403209c3600ca7f725de5c62ed944d9f68e4deaf0d105ea19c21a50"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":30488,"own":{"files":1,"bytes":30488},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 30 KiB","short":"30 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"exploring-llm-evaluations","path":"skills/exploring-llm-evaluations"},{"name":"exploring-llm-traces","path":"skills/exploring-llm-traces"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

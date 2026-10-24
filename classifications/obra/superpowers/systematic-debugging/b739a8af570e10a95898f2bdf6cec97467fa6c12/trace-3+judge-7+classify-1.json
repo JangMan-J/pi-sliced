@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"obra/superpowers/systematic-debugging",
+"revision":"b739a8af570e10a95898f2bdf6cec97467fa6c12",
+"trace":{"path":"traces/obra/superpowers/systematic-debugging/b739a8af570e10a95898f2bdf6cec97467fa6c12/trace-3+judge-7.json","sha256":"71f05ce3fd4fc664ef5f9e79a54c4ac61a1526edd6d0cf0971e104044bb25728"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":29057,"own":{"files":6,"bytes":29057},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["codesign","security"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 28 KiB · CLI codesign, security","short":"28 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs codesign","runs security"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

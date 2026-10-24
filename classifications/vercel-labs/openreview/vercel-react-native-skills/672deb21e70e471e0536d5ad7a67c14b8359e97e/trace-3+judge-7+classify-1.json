@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/openreview/vercel-react-native-skills",
+"revision":"672deb21e70e471e0536d5ad7a67c14b8359e97e",
+"trace":{"path":"traces/vercel-labs/openreview/vercel-react-native-skills/672deb21e70e471e0536d5ad7a67c14b8359e97e/trace-3+judge-7.json","sha256":"ee9c60183aa3e6d0693a2fcc0a2e0286e5ff160e2a8501f9fb9c17eb24a46c43"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":82011,"own":{"files":4,"bytes":82011},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 80 KiB · CLI expo","short":"80 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs expo"]},{"marker":"unpinned-code","because":["npx expo: .agents/skills/vercel-react-native-skills/AGENTS.md:2882"]}],
+"security":{"fetch-run":["npx expo @ .agents/skills/vercel-react-native-skills/AGENTS.md:2882"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

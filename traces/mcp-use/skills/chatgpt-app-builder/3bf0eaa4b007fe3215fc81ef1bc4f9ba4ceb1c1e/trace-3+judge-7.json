@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"mcp-use/skills/chatgpt-app-builder",
+"source":"mcp-use/skills",
+"revision":"3bf0eaa4b007fe3215fc81ef1bc4f9ba4ceb1c1e",
+"skillPath":"skills/chatgpt-app-builder",
+"status":"resolved",
+"totals":{"files":1,"bytes":24623},
+"files":[
+{"path":"skills/chatgpt-app-builder/SKILL.md","size":24623,"blob":"cd0fc71dc8293d6fe5770ffd8e596db0185bb78d","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"create-mcp-use-app","at":[[0,15],[0,944]]},
+{"kind":"cli","name":"mcp-use","at":[[0,777]]}
+],
+"regions":[
+{"kind":"own","path":"skills/chatgpt-app-builder","files":1,"bytes":24623}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-mcp-use-app","at":[[0,15],[0,944]]},
+{"kind":"fetch-run","detail":"npx mcp-use","at":[[0,777]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/chatgpt-app-builder/LICENSE.txt","spdx":"Apache-2.0","frontmatter":null}
+}

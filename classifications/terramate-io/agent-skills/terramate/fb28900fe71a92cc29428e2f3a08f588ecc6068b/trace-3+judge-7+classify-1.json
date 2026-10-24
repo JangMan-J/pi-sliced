@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"terramate-io/agent-skills/terramate",
+"revision":"fb28900fe71a92cc29428e2f3a08f588ecc6068b",
+"trace":{"path":"traces/terramate-io/agent-skills/terramate/fb28900fe71a92cc29428e2f3a08f588ecc6068b/trace-3+judge-7.json","sha256":"d3a154ef456e4ed8bf3b5fa19285d69f7799cd57a5a9e45f73df42f9469ac44c"},
+"status":"unresolvable",
+"reason":"no skill folder named terramate at fb28900fe71a92cc29428e2f3a08f588ecc6068b"
+}

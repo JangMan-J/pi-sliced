@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/skills/agent-experience",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"trace":{"path":"traces/browserbase/skills/agent-experience/6811ca31163332d9d60309cff48e77f09de37a17/trace-3+judge-7.json","sha256":"16c7aa5bf694a7c445a917a412efbd82909fee25695e0b240b673bcab1bbe8b2"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":81500,"own":{"files":5,"bytes":81500},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["security"],"package":[],"mcp-server":[],"credential":["API_KEY","BROWSERBASE_API_KEY","FOOBAR_API_KEY"],"network":["api.browserbase.com","fonts.googleapis.com"]},"summary":"5 files, 80 KiB · CLI security · 3 keys · 2 hosts","short":"80 KiB · 1 CLI · 3 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs security"]},{"marker":"network","because":["fetches from api.browserbase.com","fetches from fonts.googleapis.com"]},{"marker":"credentials","because":["needs API_KEY","needs BROWSERBASE_API_KEY","needs FOOBAR_API_KEY"]},{"marker":"sends-credentials","because":["BROWSERBASE_API_KEY -> api.browserbase.com: skills/agent-experience/SKILL.md:217"]}],
+"security":{"secret-egress":["BROWSERBASE_API_KEY -> api.browserbase.com @ skills/agent-experience/SKILL.md:217"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

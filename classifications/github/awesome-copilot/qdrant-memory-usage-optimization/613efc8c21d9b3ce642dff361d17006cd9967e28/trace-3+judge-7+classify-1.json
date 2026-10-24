@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/qdrant-memory-usage-optimization",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/qdrant-memory-usage-optimization/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"b12d216903f9e36400482fe006e5a654f54838cbfc5b84f81d54201ba6a470c7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4859,"own":{"files":1,"bytes":4859},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["qdrant.tech","search.qdrant.tech"]},"summary":"1 file, 4.7 KiB · 2 hosts","short":"4.7 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from qdrant.tech","fetches from search.qdrant.tech"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

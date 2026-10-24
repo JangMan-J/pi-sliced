@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/mcp",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/mcp/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"97b9aff884366f8ea42c1d9555a591a90a797f202e6d36e5c48a17bc688e4abb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3528,"own":{"files":1,"bytes":3528},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@json-render/core","@json-render/mcp","@json-render/react","@json-render/shadcn","@modelcontextprotocol/sdk","@vitejs/plugin-react","react","react-dom","vite","vite-plugin-singlefile"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB · packages @json-render/core +9","short":"3.4 KiB · 10 pkg"},
+"heavy":{"heavy":true,"because":["10 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @json-render/core","installs @json-render/mcp","installs @json-render/react","installs @json-render/shadcn","installs @modelcontextprotocol/sdk","installs @vitejs/plugin-react","installs react","installs react-dom","installs vite","installs vite-plugin-singlefile"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/hve-core/pr-reference",
+"revision":"6cd810c7b9448d98ea07db0a7a9124824d32dacc",
+"trace":{"path":"traces/microsoft/hve-core/pr-reference/6cd810c7b9448d98ea07db0a7a9124824d32dacc/trace-3+judge-7.json","sha256":"086c23105d8fca108890c7091f6c361b095e69308229eedf34710e237ade20b6"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":66994,"own":{"files":9,"bytes":66994},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["added++","i","i++","next","print","printing","removed++","sub","substr"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 65 KiB · CLI added++, i +7","short":"65 KiB · 9 CLI"},
+"heavy":{"heavy":true,"because":["9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs added++","runs i","runs i++","runs next","runs print","runs printing","runs removed++","runs sub","runs substr"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

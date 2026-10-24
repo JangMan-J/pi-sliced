@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/exploring-llm-costs",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/exploring-llm-costs/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"36ca46dacea17e932379a1e2acee11a840ac7b3d0fe43b6808a559fcfa964431"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":42143,"own":{"files":7,"bytes":34026},"otherSkills":{"count":1,"files":1,"bytes":8117},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 41 KiB · +1 other skill","short":"41 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/omnibus/exploring-llm-traces"]}],
+"security":{},
+"companions":{"named":[{"name":"analyzing-expensive-users","path":"skills/omnibus/analyzing-expensive-users"},{"name":"exploring-llm-traces","path":"skills/omnibus/exploring-llm-traces"}],"pulled":[{"path":"skills/omnibus/exploring-llm-traces","files":1,"bytes":8117}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openhands/extensions/upstream-fork-sync",
+"source":"openhands/extensions",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"skillPath":"skills/upstream-fork-sync",
+"status":"resolved",
+"totals":{"files":1,"bytes":4606},
+"files":[
+{"path":"skills/upstream-fork-sync/SKILL.md","size":4606,"blob":"598a1b313cb8488f50df8f2352c3f7a0c598c08c","how":"root"}
+],
+"outside":[
+{"kind":"credential","name":"GITHUB_PERSONAL_ACCESS_TOKEN","at":[[0,38],[0,39],[0,43]]},
+{"kind":"credential","name":"OPENHANDS_AUTOMATION_API_KEY","at":[[0,84]]},
+{"kind":"network","name":"api.github.com","at":[[0,43]]}
+],
+"regions":[
+{"kind":"own","path":"skills/upstream-fork-sync","files":1,"bytes":4606}
+],
+"signals":[
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,43]]},
+{"kind":"secret-egress","detail":"GITHUB_PERSONAL_ACCESS_TOKEN -> api.github.com","at":[[0,43]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

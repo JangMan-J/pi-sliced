@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"supabase/supabase/use-static-effect-event",
+"revision":"7e866ef83e89e35cdda45a6c98abd069d5fa1b2f",
+"trace":{"path":"traces/supabase/supabase/use-static-effect-event/7e866ef83e89e35cdda45a6c98abd069d5fa1b2f/trace-3+judge-7.json","sha256":"fc4d691e8c47ebacb25d632c3471f2c416dcd0c2aeab9a0778d795db3a81e0d3"},
+"status":"unresolvable",
+"reason":"no skill folder named use-static-effect-event at 7e866ef83e89e35cdda45a6c98abd069d5fa1b2f"
+}

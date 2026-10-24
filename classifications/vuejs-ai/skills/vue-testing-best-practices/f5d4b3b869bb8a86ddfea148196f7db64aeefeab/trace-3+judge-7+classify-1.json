@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vuejs-ai/skills/vue-testing-best-practices",
+"revision":"f5d4b3b869bb8a86ddfea148196f7db64aeefeab",
+"trace":{"path":"traces/vuejs-ai/skills/vue-testing-best-practices/f5d4b3b869bb8a86ddfea148196f7db64aeefeab/trace-3+judge-7.json","sha256":"33292d9d52af8439a2de614f779729de1261ecd37b0c8c96e6eae3578ff5000a"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":63510,"own":{"files":12,"bytes":63510},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["playwright"],"package":["@testing-library/jest-dom","@testing-library/vue","@vitest/browser","@vue/test-utils","happy-dom","jsdom","playwright","vitest"],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 62 KiB · CLI playwright · packages @testing-library/jest-dom +7","short":"62 KiB · 1 CLI · 8 pkg"},
+"heavy":{"heavy":true,"because":["8 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs playwright"]},{"marker":"installs-packages","because":["installs @testing-library/jest-dom","installs @testing-library/vue","installs @vitest/browser","installs @vue/test-utils","installs happy-dom","installs jsdom","installs playwright","installs vitest"]},{"marker":"unpinned-code","because":["npx playwright: skills/vue-testing-best-practices/reference/testing-e2e-playwright-recommended.md:221, skills/vue-testing-best-practices/reference/testing-e2e-playwright-recommended.md:224, skills/vue-testing-best-practices/reference/testing-e2e-playwright-recommended.md:227"]}],
+"security":{"fetch-run":["npx playwright @ skills/vue-testing-best-practices/reference/testing-e2e-playwright-recommended.md:221, skills/vue-testing-best-practices/reference/testing-e2e-playwright-recommended.md:224, skills/vue-testing-best-practices/reference/testing-e2e-playwright-recommended.md:227 +3"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

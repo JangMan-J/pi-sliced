@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/incident-retrospective",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/incident-retrospective/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"5533315e0de75930960ee87b34ea44baa8ec010b7f8319e1df224b27ca77aa84"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3724,"own":{"files":1,"bytes":3724},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["OPENHANDS_API_KEY","OPENHANDS_AUTOMATION_API_KEY"],"network":[]},"summary":"1 file, 3.6 KiB · 2 keys","short":"3.6 KiB · 2 keys"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"credentials","because":["needs OPENHANDS_API_KEY","needs OPENHANDS_AUTOMATION_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

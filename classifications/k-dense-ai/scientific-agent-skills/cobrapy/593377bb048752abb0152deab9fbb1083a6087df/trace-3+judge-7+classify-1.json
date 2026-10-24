@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/cobrapy",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/cobrapy/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"dbe9113c0461f44323d5a5e2f493b3c3231ce668bcf2a29131fc83be6b9624e4"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":44129,"own":{"files":3,"bytes":44129},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["arxiv.org","www.biomodels.org"]},"summary":"3 files, 43 KiB · 2 hosts","short":"43 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from arxiv.org","fetches from www.biomodels.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

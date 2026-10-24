@@ -1,0 +1,37 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"better-auth/skills/better-auth-best-practices",
+"source":"better-auth/skills",
+"revision":"20c9e88a5c007461a703f1c213572b073196113e",
+"skillPath":"better-auth/best-practices",
+"status":"resolved",
+"totals":{"files":1,"bytes":8231},
+"files":[
+{"path":"better-auth/best-practices/SKILL.md","size":8231,"blob":"74195ce314348e2f2eb3fa992d51eaaf29a9281c","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"auth","at":[[0,29],[0,30],[0,31],[0,48],[0,49],[0,50]]},
+{"kind":"cli","name":"drizzle-kit","at":[[0,30]]},
+{"kind":"cli","name":"prisma","at":[[0,31]]},
+{"kind":"credential","name":"BETTER_AUTH_SECRET","at":[[0,39]]},
+{"kind":"package","name":"better-auth","at":[[0,24]]}
+],
+"regions":[
+{"kind":"own","path":"better-auth/best-practices","files":1,"bytes":8231}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx auth@latest","at":[[0,29],[0,30],[0,31],[0,48],[0,49],[0,50]]},
+{"kind":"fetch-run","detail":"npx drizzle-kit","at":[[0,30]]},
+{"kind":"fetch-run","detail":"npx prisma","at":[[0,31]]}
+],
+"namedSkills":[
+{"name":"create-auth","path":"better-auth/create-auth","at":[[0,181]]},
+{"name":"emailAndPassword","path":"better-auth/emailAndPassword","at":[[0,66]]},
+{"name":"organization","path":"better-auth/organization","at":[[0,151]]},
+{"name":"twoFactor","path":"better-auth/twoFactor","at":[[0,151]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

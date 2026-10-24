@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/query-onchain-data",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/query-onchain-data/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"ca6657dc50901a71bd57135f9ecdac1c228a94ca42c0bbbb0f6c25bbfe05ea9f"},
+"status":"unresolvable",
+"reason":"no skill folder named query-onchain-data at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

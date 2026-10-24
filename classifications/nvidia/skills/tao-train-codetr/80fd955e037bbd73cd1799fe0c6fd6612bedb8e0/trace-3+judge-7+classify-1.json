@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-train-codetr",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-train-codetr/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"729e8b2b0b371c67f20686c56ccb7d76deed8f3ed3ef3ba92a081d37e6d470c7"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":24357,"own":{"files":5,"bytes":24357},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["DINOAugmentationConfig","DINODatasetConfig","annotations","codetr","docker","from","huggingface-cli","import","print"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 24 KiB · CLI DINOAugmentationConfig, DINODatasetConfig +7","short":"24 KiB · 9 CLI"},
+"heavy":{"heavy":true,"because":["9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs annotations","runs codetr","runs DINOAugmentationConfig","runs DINODatasetConfig","runs docker","runs from","runs huggingface-cli","runs import","runs print"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-setup","path":"skills/tao-setup"},{"name":"tao-train-dino","path":"skills/tao-train-dino"},{"name":"tao-train-rtdetr","path":"skills/tao-train-rtdetr"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

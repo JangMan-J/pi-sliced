@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/sentry-for-cursor/sentry-setup-ai-monitoring",
+"source":"getsentry/sentry-for-cursor",
+"revision":"e436b5a0977d902407ba72c6ab8a01764dab2c5f",
+"skillPath":"skills/sentry-setup-ai-monitoring",
+"status":"resolved",
+"totals":{"files":1,"bytes":20996},
+"files":[
+{"path":"skills/sentry-setup-ai-monitoring/SKILL.md","size":20996,"blob":"61a07ad1a8031057d6012db1833104da33e34fd4","how":"root"}
+],
+"outside":[
+{"kind":"package","name":"@sentry/nextjs","at":[[0,76]]}
+],
+"regions":[
+{"kind":"own","path":"skills/sentry-setup-ai-monitoring","files":1,"bytes":20996}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,76]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-relay/karpathy-guidelines",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"trace":{"path":"traces/nvidia/nemo-relay/karpathy-guidelines/8109e75036c1c97c26fab532fcf6a83f2152babe/trace-3+judge-7.json","sha256":"236a8d52a9ff3f420a4a3560a4b18092b884ab66ab1ead96479452c7ebb615ad"},
+"status":"unresolvable",
+"reason":"no skill folder named karpathy-guidelines at 8109e75036c1c97c26fab532fcf6a83f2152babe"
+}

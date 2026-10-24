@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"contentful/skills/contentful-personalization",
+"revision":"6dc5d75db7fc6515658e8f8eb2394d76292cfdf3",
+"trace":{"path":"traces/contentful/skills/contentful-personalization/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/trace-3+judge-7.json","sha256":"467cd8cb1f2d555a2575c1142339041fd266889e114f3d6a4a0910d483afcf2d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12713,"own":{"files":2,"bytes":12713},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["advance","topic","topics"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB · CLI advance, topic +1","short":"12 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs advance","runs topic","runs topics"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

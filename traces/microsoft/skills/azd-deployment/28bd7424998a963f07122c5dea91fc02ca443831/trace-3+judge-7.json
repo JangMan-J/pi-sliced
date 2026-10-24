@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/skills/azd-deployment",
+"source":"microsoft/skills",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named azd-deployment at 28bd7424998a963f07122c5dea91fc02ca443831 or at the remote HEAD 2130750147dee0311215099ddf36647ba1e0f006",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

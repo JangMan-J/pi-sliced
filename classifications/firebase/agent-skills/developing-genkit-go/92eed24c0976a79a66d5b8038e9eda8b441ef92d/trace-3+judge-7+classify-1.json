@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/developing-genkit-go",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/developing-genkit-go/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"c16261d6947c53fefff6ab28a8c87e6285f0249652e235e22388bc1608d8d1d6"},
+"status":"unresolvable",
+"reason":"no skill folder named developing-genkit-go at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

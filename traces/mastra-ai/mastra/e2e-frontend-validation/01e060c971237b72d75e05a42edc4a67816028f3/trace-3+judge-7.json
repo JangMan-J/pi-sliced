@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"mastra-ai/mastra/e2e-frontend-validation",
+"source":"mastra-ai/mastra",
+"revision":"01e060c971237b72d75e05a42edc4a67816028f3",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named e2e-frontend-validation at 01e060c971237b72d75e05a42edc4a67816028f3",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

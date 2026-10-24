@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/turborepo",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/turborepo/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"8803f1155c05b90dca6728353cd09d30feadb938020bffd7931b1d1238b00c02"},
+"status":"unresolvable",
+"reason":"no skill folder named turborepo at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

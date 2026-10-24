@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/claude-code-notion-plugin/notion-meeting-intelligence",
+"revision":"9847f2aa1a15f25df35ed1fb7b4557dbb60cd651",
+"trace":{"path":"traces/makenotion/claude-code-notion-plugin/notion-meeting-intelligence/9847f2aa1a15f25df35ed1fb7b4557dbb60cd651/trace-3+judge-7.json","sha256":"db5f4ffbf036110cb20de8a3749d15d29e565b3a618d7042091dad749dc561be"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":41736,"own":{"files":12,"bytes":41736},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 41 KiB","short":"41 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

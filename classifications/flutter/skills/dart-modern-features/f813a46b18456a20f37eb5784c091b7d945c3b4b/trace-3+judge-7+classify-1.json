@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/dart-modern-features",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/dart-modern-features/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"6ca0625ddb58a48136c4d2d9fe76bfd090e36b970ada7de17568ae9118e71a32"},
+"status":"unresolvable",
+"reason":"no skill folder named dart-modern-features at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

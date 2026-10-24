@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-embedding-native-views",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-embedding-native-views/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"51d1524036d157674654514213fa05a5f86aa6459fbefdd1100bba85a46d1ad9"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-embedding-native-views at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

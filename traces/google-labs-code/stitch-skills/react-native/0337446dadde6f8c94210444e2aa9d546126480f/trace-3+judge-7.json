@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"google-labs-code/stitch-skills/react-native",
+"source":"google-labs-code/stitch-skills",
+"revision":"0337446dadde6f8c94210444e2aa9d546126480f",
+"skillPath":"plugins/stitch-build/skills/react-native",
+"status":"resolved",
+"totals":{"files":4,"bytes":16018},
+"files":[
+{"path":"plugins/stitch-build/skills/react-native/SKILL.md","size":12427,"blob":"2ffab43a5e8951c6420a884d7adb81af96379611","how":"root"},
+{"path":"plugins/stitch-build/skills/react-native/resources/architecture-checklist.md","size":2060,"blob":"fad3a130e9b9513b46edc3218c6973bdc7e927ee","how":"path","from":0,"line":160},
+{"path":"plugins/stitch-build/skills/react-native/resources/component-template.tsx","size":498,"blob":"da4895659bb268b5b78c8354258f736a747e17fb","how":"path","from":0,"line":155},
+{"path":"plugins/stitch-build/skills/react-native/scripts/fetch-stitch.sh","size":1033,"blob":"f41b54b1a7d1442ff646f578b0667b1466978a16","how":"path","from":0,"line":22}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[0,161]]},
+{"kind":"cli","name":"react-native","at":[[0,161]]},
+{"kind":"cli","name":"tsc","at":[[0,159]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/stitch-build/skills/react-native","files":4,"bytes":16018}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx expo","at":[[0,161]]},
+{"kind":"fetch-run","detail":"npx react-native","at":[[0,161]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

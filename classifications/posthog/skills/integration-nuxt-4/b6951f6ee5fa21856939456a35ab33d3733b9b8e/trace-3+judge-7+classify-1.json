@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-nuxt-4",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-nuxt-4/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"f2967a8b302441b1e6e27ace49e451167dc5a785a0541474266d5c95da53275a"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":54438,"own":{"files":8,"bytes":54438},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@posthog/nuxt"],"mcp-server":[],"credential":["NUXT_PUBLIC_POSTHOG_PROJECT_TOKEN","PERSONAL_API_KEY"],"network":[]},"summary":"8 files, 53 KiB · packages @posthog/nuxt · 2 keys","short":"53 KiB · 1 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @posthog/nuxt"]},{"marker":"credentials","because":["needs NUXT_PUBLIC_POSTHOG_PROJECT_TOKEN","needs PERSONAL_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"nuxt-3.6","path":"skills/posthog/integration/skills/nuxt-3.6"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

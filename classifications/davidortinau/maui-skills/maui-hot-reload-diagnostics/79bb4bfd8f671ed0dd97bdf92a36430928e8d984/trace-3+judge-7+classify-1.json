@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"davidortinau/maui-skills/maui-hot-reload-diagnostics",
+"revision":"79bb4bfd8f671ed0dd97bdf92a36430928e8d984",
+"trace":{"path":"traces/davidortinau/maui-skills/maui-hot-reload-diagnostics/79bb4bfd8f671ed0dd97bdf92a36430928e8d984/trace-3+judge-7.json","sha256":"f4f475f29e9286fb69f1556df75464606c55ff2e7ce3233c155da715a30ff920"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11295,"own":{"files":2,"bytes":11295},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Where-Object","dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 11 KiB · CLI Where-Object, dotnet","short":"11 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs Where-Object"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

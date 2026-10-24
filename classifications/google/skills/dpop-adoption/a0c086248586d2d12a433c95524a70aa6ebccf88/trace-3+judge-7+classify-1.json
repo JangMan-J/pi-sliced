@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/dpop-adoption",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/dpop-adoption/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"7b44cd271d4671657fe15beb8dc384c5e16303015cc3970c051b40abfdbfba9c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11264,"own":{"files":1,"bytes":11264},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@google/mcp-developer-knowledge-server"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI @google/mcp-developer-knowledge-server","short":"11 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs @google/mcp-developer-knowledge-server"]},{"marker":"unpinned-code","because":["npx @google/mcp-developer-knowledge-server: skills/identity/dpop-adoption/SKILL.md:206"]}],
+"security":{"fetch-run":["npx @google/mcp-developer-knowledge-server @ skills/identity/dpop-adoption/SKILL.md:206"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

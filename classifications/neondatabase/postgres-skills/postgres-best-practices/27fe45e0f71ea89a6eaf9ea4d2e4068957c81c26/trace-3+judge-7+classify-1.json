@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/postgres-skills/postgres-best-practices",
+"revision":"27fe45e0f71ea89a6eaf9ea4d2e4068957c81c26",
+"trace":{"path":"traces/neondatabase/postgres-skills/postgres-best-practices/27fe45e0f71ea89a6eaf9ea4d2e4068957c81c26/trace-3+judge-7.json","sha256":"7010584196082477eab88e46162611bba16b62fecb780f22553683c64df044c1"},
+"status":"resolved",
+"footprint":{"files":14,"bytes":159913,"own":{"files":14,"bytes":159913},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["createdb","dropdb","initdb","pg_basebackup","pg_createsubscriber","pg_ctl","pg_dump","pg_dumpall","pg_restore","pg_upgrade","pg_verifybackup","psql","vacuumdb"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"14 files, 156 KiB · CLI createdb, dropdb +11","short":"156 KiB · 13 CLI"},
+"heavy":{"heavy":true,"because":["13 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs createdb","runs dropdb","runs initdb","runs pg_basebackup","runs pg_createsubscriber","runs pg_ctl","runs pg_dump","runs pg_dumpall","runs pg_restore","runs pg_upgrade","runs pg_verifybackup","runs psql","runs vacuumdb"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

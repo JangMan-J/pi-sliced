@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wix/skills/wix-cli-site-plugin",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"trace":{"path":"traces/wix/skills/wix-cli-site-plugin/9c51902effdd00f4a742c26f1194f48318abab29/trace-3+judge-7.json","sha256":"a9c2f12020cda63800a806a4ba83681639a529db9cb5bec4020f5483a5f9bf0c"},
+"status":"unresolvable",
+"reason":"no skill folder named wix-cli-site-plugin at 9c51902effdd00f4a742c26f1194f48318abab29 or at the remote HEAD 687e2faf013aeee2afcaa7ca0456a43754306302"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"larksuite/cli/good-skill-minimal",
+"revision":"017b19a793ad71794a02887ede04757f3d82e10d",
+"trace":{"path":"traces/larksuite/cli/good-skill-minimal/017b19a793ad71794a02887ede04757f3d82e10d/trace-3+judge-7.json","sha256":"d247caba081c83336c40f829da245a46a25c6cb55d2931fb8db3c65990e2db63"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":161,"own":{"files":1,"bytes":161},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 161 B","short":"161 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/model-apps-genpage",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/model-apps-genpage/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"a7908d7975998e6ec8157d1bbc0ca9aa4d99c4d7b9e13d30dd8b4963c4fe2877"},
+"status":"unresolvable",
+"reason":"no skill folder named model-apps-genpage at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

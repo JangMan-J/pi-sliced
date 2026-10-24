@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/model-optimizer/eagle3-validate",
+"revision":"0638a274cf195870564d8e3c164e4f859e5be2a2",
+"trace":{"path":"traces/nvidia/model-optimizer/eagle3-validate/0638a274cf195870564d8e3c164e4f859e5be2a2/trace-3+judge-7.json","sha256":"60761a4534be02f48cec8c6f6bdae402cb0f1108a0578af68a38a209734da1c4"},
+"status":"unresolvable",
+"reason":"no skill folder named eagle3-validate at 0638a274cf195870564d8e3c164e4f859e5be2a2"
+}

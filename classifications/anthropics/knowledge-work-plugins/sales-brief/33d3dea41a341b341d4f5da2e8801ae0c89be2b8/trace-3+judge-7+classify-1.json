@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/sales-brief",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/sales-brief/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"bccbb7733bb5b0c419ed39e478cf2061ebea05739790803c92b768bc0a1d41b0"},
+"status":"unresolvable",
+"reason":"no skill folder named sales-brief at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

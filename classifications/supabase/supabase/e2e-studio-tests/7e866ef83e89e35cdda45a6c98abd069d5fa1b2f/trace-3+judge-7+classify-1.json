@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"supabase/supabase/e2e-studio-tests",
+"revision":"7e866ef83e89e35cdda45a6c98abd069d5fa1b2f",
+"trace":{"path":"traces/supabase/supabase/e2e-studio-tests/7e866ef83e89e35cdda45a6c98abd069d5fa1b2f/trace-3+judge-7.json","sha256":"56c67aa674d7b830c07e836eefb6b0de55ef9156e99229c1251df82f8e5df3ed"},
+"status":"unresolvable",
+"reason":"no skill folder named e2e-studio-tests at 7e866ef83e89e35cdda45a6c98abd069d5fa1b2f"
+}

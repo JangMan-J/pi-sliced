@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-run-on-virtualenv",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-run-on-virtualenv/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"a2f45e892ebfc4d0d13bc9bbc4169ea75e74eda0d687786fabb6ec578e8664bb"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":70059,"own":{"files":3,"bytes":70059},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nvidia-smi","pgrep"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 68 KiB · CLI nvidia-smi, pgrep","short":"68 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs nvidia-smi","runs pgrep"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-data-io","path":"skills/tao-data-io"},{"name":"tao-run-on-docker","path":"skills/tao-run-on-docker"},{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

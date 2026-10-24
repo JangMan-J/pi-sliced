@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"uniformdev/agent-skills/uniform-automations",
+"revision":"63a07f2990395cb3a5bf846db7563a463395de36",
+"trace":{"path":"traces/uniformdev/agent-skills/uniform-automations/63a07f2990395cb3a5bf846db7563a463395de36/trace-3+judge-7.json","sha256":"266576c655b2663de07a9029fe308158eaadd2c013eddbd244c9a0902681b5c0"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":41172,"own":{"files":8,"bytes":41172},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["uniform"],"package":["@uniformdev/automations-sdk","@uniformdev/canvas","zod"],"mcp-server":[],"credential":["UNIFORM_ENV_SLACK_TOKEN"],"network":["docs.uniform.app"]},"summary":"8 files, 40 KiB · CLI uniform · packages @uniformdev/automations-sdk +2 · 1 key · 1 host","short":"40 KiB · 1 CLI · 3 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs uniform"]},{"marker":"installs-packages","because":["installs @uniformdev/automations-sdk","installs @uniformdev/canvas","installs zod"]},{"marker":"network","because":["fetches from docs.uniform.app"]},{"marker":"credentials","because":["needs UNIFORM_ENV_SLACK_TOKEN"]},{"marker":"unpinned-code","because":["npx uniform: skills/uniform-automations/SKILL.md:51"]}],
+"security":{"fetch-run":["npx uniform @ skills/uniform-automations/SKILL.md:51"]},
+"companions":{"named":[{"name":"uniform-sdk","path":"skills/uniform-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

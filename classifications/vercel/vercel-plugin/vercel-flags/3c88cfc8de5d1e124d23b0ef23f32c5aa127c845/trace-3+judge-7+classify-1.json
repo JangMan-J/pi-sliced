@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-plugin/vercel-flags",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel/vercel-plugin/vercel-flags/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"d2d1c96e3e1021f48d7fd367fb557349ae35c50d76b78c561043fab4dfe8bcde"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":22539,"own":{"files":2,"bytes":22539},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":["vercel"],"mcp-server":[],"credential":[],"network":["vercel.com"]},"summary":"2 files, 22 KiB · CLI skills · packages vercel · 1 host","short":"22 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"installs-packages","because":["installs vercel"]},{"marker":"network","because":["fetches from vercel.com"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/vercel-flags/SKILL.md:113, skills/vercel-flags/SKILL.md:135"]}],
+"security":{"fetch-run":["npx skills @ skills/vercel-flags/SKILL.md:113, skills/vercel-flags/SKILL.md:135"],"skill-fetch":["npx skills add @ skills/vercel-flags/SKILL.md:113, skills/vercel-flags/SKILL.md:135"]},
+"companions":{"named":[{"name":"flags-sdk","path":"skills/flags-sdk"},{"name":"vercel-cli","path":"skills/vercel-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

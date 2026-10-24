@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/openai-agents-python/examples-auto-run",
+"source":"openai/openai-agents-python",
+"revision":"0dc4cf152bff1f50bdc0e41f28808563406545b2",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named examples-auto-run at 0dc4cf152bff1f50bdc0e41f28808563406545b2",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

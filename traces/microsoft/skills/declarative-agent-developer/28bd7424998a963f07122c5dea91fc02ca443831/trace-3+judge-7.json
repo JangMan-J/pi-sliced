@@ -1,0 +1,56 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/skills/declarative-agent-developer",
+"source":"microsoft/skills",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"skillPath":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer",
+"status":"resolved",
+"totals":{"files":14,"bytes":244346},
+"files":[
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/SKILL.md","size":12900,"blob":"a974c332cdbed595eed80f79285ba12d7946f61e","how":"root"},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/api-plugins.md","size":37025,"blob":"6f25dc39e2562bdaaf6a1dff8afe3883d23652e2","how":"link","from":0,"line":80},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/authentication.md","size":9262,"blob":"f4451f1d0dae144ec60df6676f7af29f8361c782","how":"link","from":0,"line":82},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/best-practices.md","size":3578,"blob":"9f662a7278ef96d71b0eeb7b1fbf5a3d7f48b495","how":"link","from":0,"line":178},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/conversation-design.md","size":15950,"blob":"fb06599262a552ec6c93bc466adc5fb402d03351","how":"link","from":0,"line":87},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/deployment.md","size":12984,"blob":"3891652b5afbbf31596b3cb382876959615e4dee","how":"link","from":0,"line":181},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/editing-workflow.md","size":15436,"blob":"d758c8658f8711f0f709f1fca58d50d5255b6369","how":"link","from":0,"line":44},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/examples.md","size":11449,"blob":"65132a1f82e475dc240607f68f3fefc342964f50","how":"link","from":0,"line":193},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/instruction-review.md","size":46106,"blob":"118c33fbd93f13c1b19e4d328bc56d66c667a891","how":"link","from":0,"line":43},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/localization.md","size":18853,"blob":"3731fe08998d99287728446b2610947f81a956a7","how":"link","from":0,"line":85},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/mcp-plugin.md","size":39192,"blob":"4d601b501b35d9bb1db7225a4d80e2c9835ee2a7","how":"link","from":0,"line":81},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/scaffolding-workflow.md","size":8581,"blob":"9c42d2840be057fa12eb76124da18d361d59b5d4","how":"link","from":0,"line":41},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/schema.md","size":3627,"blob":"1650061c727f8f083cf785c3215cce3765f9f374","how":"link","from":0,"line":62},
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/references/workspace-gates.md","size":9403,"blob":"afb0869578db634f82d66a56619401c207a2cd21","how":"link","from":0,"line":46}
+],
+"outside":[
+{"kind":"cli","name":"@apidevtools/swagger-cli","at":[[1,1079]]},
+{"kind":"cli","name":"@microsoft/m365agentstoolkit-cli","at":[[0,30],[0,52],[0,56],[0,93],[0,95],[0,106],[0,141],[0,147],[0,150],[0,152],[1,15],[1,17],[1,23],[1,25],[1,31],[1,33],[1,35],[1,40],[1,79],[1,89],[1,99],[1,118],[1,137],[1,141],[1,1110],[1,1165],[1,1166],[1,1167],[1,1176],[5,8],[5,9],[5,18],[5,52],[5,55],[5,58],[5,61],[5,70],[5,96],[5,105],[5,108],[5,133],[5,141],[5,153],[5,174],[5,324],[5,327],[5,330],[5,357],[5,377],[5,380],[6,23],[6,27],[6,30],[6,99],[6,105],[6,109],[6,113],[6,116],[6,144],[6,154],[6,189],[6,199],[6,202],[6,213],[6,243],[7,18],[7,33],[7,36],[7,51],[9,10],[9,221],[9,268],[9,366],[10,11],[10,23],[10,26],[10,42],[10,339],[10,722],[11,9],[11,16],[11,23],[11,24],[11,25],[11,26],[11,77],[11,192],[13,13],[13,52],[13,53],[13,81],[13,93],[13,98],[13,125],[13,127],[13,153],[13,154]]},
+{"kind":"cli","name":"as","at":[[10,158],[10,162]]},
+{"kind":"cli","name":"f","at":[[10,159],[10,165],[10,167]]},
+{"kind":"cli","name":"import","at":[[10,156]]},
+{"kind":"cli","name":"json.dump","at":[[10,163]]},
+{"kind":"cli","name":"mcp-remote","at":[[10,87]]},
+{"kind":"cli","name":"mcp-tools-response.json","at":[[10,158]]},
+{"kind":"cli","name":"print","at":[[10,165],[10,167]]},
+{"kind":"cli","name":"with","at":[[10,158],[10,162]]},
+{"kind":"credential","name":"API_KEY","at":[[5,216]]},
+{"kind":"mcp-server","name":"insurance","at":[[10,481]]},
+{"kind":"mcp-server","name":"oauth-protected","at":[[10,634]]},
+{"kind":"mcp-server","name":"the","at":[[2,11]]},
+{"kind":"mcp-server","name":"your","at":[[2,6]]}
+],
+"regions":[
+{"kind":"own","path":".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer","files":14,"bytes":244346}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @apidevtools/swagger-cli","at":[[1,1079]]},
+{"kind":"fetch-run","detail":"npx @microsoft/m365agentstoolkit-cli","at":[[0,30],[0,52],[0,56],[0,93],[0,95],[0,106],[0,141],[0,147],[0,150],[0,152],[1,15],[1,17],[1,23],[1,25],[1,31],[1,33],[1,35],[1,40],[1,79],[1,89],[1,99],[1,118],[1,137],[1,141],[1,1110],[1,1165],[1,1166],[1,1167],[1,1176],[5,8],[5,9],[5,18],[5,52],[5,55],[5,58],[5,61],[5,70],[5,96],[5,105],[5,108],[5,133],[5,141],[5,153],[5,174],[5,324],[5,327],[5,330],[5,357],[5,377],[5,380],[6,23],[6,27],[6,30],[6,99],[6,105],[6,109],[6,113],[6,116],[6,144],[6,154],[6,189],[6,199],[6,202],[6,213],[6,243],[7,18],[7,33],[7,36],[7,51],[9,10],[9,221],[9,268],[9,366],[10,11],[10,23],[10,26],[10,42],[10,339],[10,722],[11,9],[11,16],[11,23],[11,24],[11,25],[11,26],[11,77],[11,192],[13,13],[13,52],[13,53],[13,81],[13,93],[13,98],[13,125],[13,127],[13,153],[13,154]]},
+{"kind":"fetch-run","detail":"npx mcp-remote@latest","at":[[10,87]]},
+{"kind":"injection","detail":"without telling the user","at":[[13,96]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

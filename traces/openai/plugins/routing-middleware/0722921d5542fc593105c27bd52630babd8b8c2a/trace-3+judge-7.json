@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/routing-middleware",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/routing-middleware",
+"status":"resolved",
+"totals":{"files":1,"bytes":9502},
+"files":[
+{"path":"plugins/vercel/skills/routing-middleware/SKILL.md","size":9502,"blob":"f7ea2329ed7548e3e1b4f600d30330275eedba6f","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@next/codemod","at":[[0,57]]},
+{"kind":"cli","name":"@vercel/config","at":[[0,223],[0,224],[0,225]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/routing-middleware","files":1,"bytes":9502}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @next/codemod@latest","at":[[0,57]]},
+{"kind":"fetch-run","detail":"npx @vercel/config","at":[[0,223],[0,224],[0,225]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

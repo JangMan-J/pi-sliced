@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/ignite/write-post-mortem",
+"revision":"none",
+"trace":{"path":"traces/prisma/ignite/write-post-mortem/none/trace-3+judge-7.json","sha256":"fd73b7859edb95a849fcb5bc42228bd351d99acccd6ed208746d73718f5dfe3a"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/prisma/ignite.git/' not found"
+}

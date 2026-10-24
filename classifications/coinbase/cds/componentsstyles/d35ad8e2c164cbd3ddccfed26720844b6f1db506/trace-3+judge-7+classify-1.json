@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/cds/componentsstyles",
+"revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"trace":{"path":"traces/coinbase/cds/componentsstyles/d35ad8e2c164cbd3ddccfed26720844b6f1db506/trace-3+judge-7.json","sha256":"d5ab66c66db9b4daa01f80038e48f09018962325127785332462fcd183049171"},
+"status":"unresolvable",
+"reason":"no skill folder named componentsstyles at d35ad8e2c164cbd3ddccfed26720844b6f1db506"
+}

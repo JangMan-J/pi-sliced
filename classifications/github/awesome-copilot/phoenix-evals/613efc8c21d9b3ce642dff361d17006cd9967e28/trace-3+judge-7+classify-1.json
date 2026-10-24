@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/phoenix-evals",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/phoenix-evals/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"b69f21fde89fd5a75b7aa23431a8e1522517e5d7e3cbd530da8635f7ffbfda58"},
+"status":"resolved",
+"footprint":{"files":35,"bytes":92636,"own":{"files":35,"bytes":92636},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@ai-sdk/anthropic","@ai-sdk/google","@ai-sdk/openai","@anthropic-ai/sdk","@arizeai/phoenix-client","@arizeai/phoenix-evals","@arizeai/phoenix-otel","ai","anthropic","arize-phoenix","arize-phoenix-client","arize-phoenix-evals","arize-phoenix-otel","google-generativeai","openai","scikit-learn"],"mcp-server":[],"credential":[],"network":[]},"summary":"35 files, 90 KiB · packages @ai-sdk/anthropic +15","short":"90 KiB · 16 pkg"},
+"heavy":{"heavy":true,"because":["16 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @ai-sdk/anthropic","installs @ai-sdk/google","installs @ai-sdk/openai","installs @anthropic-ai/sdk","installs @arizeai/phoenix-client","installs @arizeai/phoenix-evals","installs @arizeai/phoenix-otel","installs ai","installs anthropic","installs arize-phoenix","installs arize-phoenix-client","installs arize-phoenix-evals","installs arize-phoenix-otel","installs google-generativeai","installs openai","installs scikit-learn"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

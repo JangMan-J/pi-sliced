@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-sdk-swift-usage",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-sdk-swift-usage/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"6bbe28a32d4d60d577bed26a8f26df406024115977cd6c5af491b4d94a0f5be5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5044,"own":{"files":1,"bytes":5044},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.9 KiB","short":"4.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

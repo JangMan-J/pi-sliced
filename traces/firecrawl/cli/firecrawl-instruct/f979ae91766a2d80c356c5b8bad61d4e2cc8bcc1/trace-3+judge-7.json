@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firecrawl/cli/firecrawl-instruct",
+"source":"firecrawl/cli",
+"revision":"f979ae91766a2d80c356c5b8bad61d4e2cc8bcc1",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named firecrawl-instruct at f979ae91766a2d80c356c5b8bad61d4e2cc8bcc1",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

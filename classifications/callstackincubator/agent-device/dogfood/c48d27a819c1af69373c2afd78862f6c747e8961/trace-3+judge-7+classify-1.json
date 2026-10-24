@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-device/dogfood",
+"revision":"c48d27a819c1af69373c2afd78862f6c747e8961",
+"trace":{"path":"traces/callstackincubator/agent-device/dogfood/c48d27a819c1af69373c2afd78862f6c747e8961/trace-3+judge-7.json","sha256":"3d8cefbc70d25e644989cd4d31f5a2c1e7f0c15b92f2e06e886040adfcbb8ec8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1364,"own":{"files":1,"bytes":1364},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-device"],"package":["agent-device"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.3 KiB · CLI agent-device · packages agent-device","short":"1.3 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-device"]},{"marker":"installs-packages","because":["installs agent-device"]},{"marker":"stub","because":["own folder 1.3 KiB (1 file)","content is the agent-device it wraps"]},{"marker":"unpinned-code","because":["install @latest: skills/dogfood/SKILL.md:17","npx agent-device: skills/dogfood/SKILL.md:15","npx agent-device@latest: skills/dogfood/SKILL.md:17"]}],
+"security":{"fetch-run":["install @latest @ skills/dogfood/SKILL.md:17","npx agent-device @ skills/dogfood/SKILL.md:15","npx agent-device@latest @ skills/dogfood/SKILL.md:17"]},
+"companions":{"named":[{"name":"agent-device","path":"skills/agent-device"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

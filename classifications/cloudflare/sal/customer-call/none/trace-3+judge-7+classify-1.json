@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/customer-call",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/customer-call/none/trace-3+judge-7.json","sha256":"e9277b0438e7905cfca539435d2127c2e3ef2886fffa52438eaf435150ade0e0"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

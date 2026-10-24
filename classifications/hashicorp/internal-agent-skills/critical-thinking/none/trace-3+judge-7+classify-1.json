@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/internal-agent-skills/critical-thinking",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/internal-agent-skills/critical-thinking/none/trace-3+judge-7.json","sha256":"77e8d70eb625918d3feab05586e01116dd49d3cf0d19a846e8837541ca6ef455"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"
+}

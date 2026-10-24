@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/stripe-projects-auth0",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/stripe-projects-auth0/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"109abb116e92da2c9bef0c57945fad3b0da7b5c8ba05de4c4f3b997533e1ac4f"},
+"status":"unresolvable",
+"reason":"no skill folder named stripe-projects-auth0 at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

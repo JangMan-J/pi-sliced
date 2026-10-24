@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/diagnosing-experiment-results",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/diagnosing-experiment-results/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"6a409b348c8b6765194fd4c989341f2bb0b66d78e42964bb2b5583aa6e1485a8"},
+"status":"unresolvable",
+"reason":"no skill folder named diagnosing-experiment-results at 0809767db74e427a9596e8c370d94df288082dc0"
+}

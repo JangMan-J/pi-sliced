@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/reconciler-logic",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/reconciler-logic/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"9d6e2bc6382708ffaea5d55cbb45438d4e294d253ee39839ed459066e9d4c568"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":12277,"own":{"files":4,"bytes":12277},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go","grafana-app-sdk"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 12 KiB · CLI go, grafana-app-sdk","short":"12 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs go","runs grafana-app-sdk"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

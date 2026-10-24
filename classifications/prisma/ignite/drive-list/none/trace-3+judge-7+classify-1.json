@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/ignite/drive-list",
+"revision":"none",
+"trace":{"path":"traces/prisma/ignite/drive-list/none/trace-3+judge-7.json","sha256":"41ac3cdd879fd6893dcf57b61477857a71d0786c9fec5af87dc67c0847b2a325"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/prisma/ignite.git/' not found"
+}

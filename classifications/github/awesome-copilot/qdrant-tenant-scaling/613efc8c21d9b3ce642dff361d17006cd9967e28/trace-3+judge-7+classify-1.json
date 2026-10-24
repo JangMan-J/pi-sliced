@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/qdrant-tenant-scaling",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/qdrant-tenant-scaling/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"d71544d69ef28211687408cd673deab724f6bcb322f41883c543a3bf0ca236f5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2745,"own":{"files":1,"bytes":2745},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["search.qdrant.tech"]},"summary":"1 file, 2.7 KiB · 1 host","short":"2.7 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from search.qdrant.tech"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

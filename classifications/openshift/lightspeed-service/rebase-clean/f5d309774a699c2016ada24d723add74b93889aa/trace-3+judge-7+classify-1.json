@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openshift/lightspeed-service/rebase-clean",
+"revision":"f5d309774a699c2016ada24d723add74b93889aa",
+"trace":{"path":"traces/openshift/lightspeed-service/rebase-clean/f5d309774a699c2016ada24d723add74b93889aa/trace-3+judge-7.json","sha256":"c7adf6028a59763078c32809c65d2f9a5c59e1c1addf632b56d75d3751f776bd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3960,"own":{"files":1,"bytes":3960},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["make"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.9 KiB · CLI make","short":"3.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs make"]},{"marker":"stub","because":["own folder 3.9 KiB (1 file)","content is the make it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

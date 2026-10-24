@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-finetune-anomalygennext",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-finetune-anomalygennext/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"eaa61ae6b988acb3b3020e68199e657d079b4b4bd3337071678662f9a95437d4"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":30501,"own":{"files":7,"bytes":30501},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["torchrun"],"package":["pillow","pyyaml"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 30 KiB · CLI torchrun · packages pillow +1","short":"30 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs torchrun"]},{"marker":"installs-packages","because":["installs pillow","installs pyyaml"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-launch-workflow","path":"skills/tao-launch-workflow"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

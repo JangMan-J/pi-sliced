@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/uv-package-manager",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/uv-package-manager/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"d387746e82912ce20aabed777ce09b6732968ff90509393a5b19fb8538112420"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15742,"own":{"files":2,"bytes":15742},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","pip-compile","pip-sync","poetry","winget"],"package":["1","4","PACKAGE","black","click","docs","fastapi","matplotlib","mypy","new-package","numpy","package","package1","package2","pandas","pydantic","pytest","pytest-cov","repo","requests","ruff","sphinx","uv","uvicorn"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"2 files, 15 KiB · CLI cargo, pip-compile +3 · packages 1 +23 · 1 host","short":"15 KiB · 5 CLI · 24 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["24 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs pip-compile","runs pip-sync","runs poetry","runs winget"]},{"marker":"installs-packages","because":["installs 1","installs 4","installs black","installs click","installs docs","installs fastapi","installs matplotlib","installs mypy","installs new-package","installs numpy","installs package","installs PACKAGE","installs package1","installs package2","installs pandas","installs pydantic","installs pytest","installs pytest-cov","installs repo","installs requests","installs ruff","installs sphinx","installs uv","installs uvicorn"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"persistent-writes","because":["writes to a shell rc: plugins/python-development/skills/uv-package-manager/references/advanced-patterns.md:343"]}],
+"security":{"persist-write":["shell rc @ plugins/python-development/skills/uv-package-manager/references/advanced-patterns.md:343"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

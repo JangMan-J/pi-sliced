@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mastra-ai/mastra/tailwind-best-practices",
+"revision":"01e060c971237b72d75e05a42edc4a67816028f3",
+"trace":{"path":"traces/mastra-ai/mastra/tailwind-best-practices/01e060c971237b72d75e05a42edc4a67816028f3/trace-3+judge-7.json","sha256":"9a1893b31d2ac419dc18b31d2605c5bdc7dfe2c82e3a8705c4dfa6ef690611cd"},
+"status":"unresolvable",
+"reason":"no skill folder named tailwind-best-practices at 01e060c971237b72d75e05a42edc4a67816028f3"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/airflow",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/airflow/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"86b44c899fdabd792a448401b11b66e248a8c731a65a569e8c1e128b88a46b9f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":18077,"own":{"files":2,"bytes":18077},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["af","astro","jq"],"package":[],"mcp-server":[],"credential":["AIRFLOW_AUTH_TOKEN","AIRFLOW_PASSWORD","API_TOKEN"],"network":[]},"summary":"2 files, 18 KiB · CLI af, astro +1 · 3 keys","short":"18 KiB · 3 CLI · 3 keys"},
+"heavy":{"heavy":true,"because":["3 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs af","runs astro","runs jq"]},{"marker":"credentials","because":["needs AIRFLOW_AUTH_TOKEN","needs AIRFLOW_PASSWORD","needs API_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/airtable-cli",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/airtable-cli/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"1b56d3b219efd0c28c1c6c117afab23e9aeed1a446ba6473c1a6ade2a5730d3f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8571,"own":{"files":1,"bytes":8571},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["airtable-mcp"],"package":["@airtable/mcp-cli"],"mcp-server":[],"credential":["AIRTABLE_TOKEN"],"network":[]},"summary":"1 file, 8.4 KiB · CLI airtable-mcp · packages @airtable/mcp-cli · 1 key","short":"8.4 KiB · 1 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs airtable-mcp"]},{"marker":"installs-packages","because":["installs @airtable/mcp-cli"]},{"marker":"credentials","because":["needs AIRTABLE_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"airtable-filters","path":"plugins/airtable/skills/airtable-filters"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

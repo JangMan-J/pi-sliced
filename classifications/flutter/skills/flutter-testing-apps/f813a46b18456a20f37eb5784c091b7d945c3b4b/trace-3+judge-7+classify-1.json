@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-testing-apps",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-testing-apps/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"399ed1a694869ea27fdca2c36eaffd48b38543c1d924ec9fa805460db5d6f7b4"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-testing-apps at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

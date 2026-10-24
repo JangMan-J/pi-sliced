@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/financial-services-plugins/funding-digest",
+"revision":"574ed3624aebd0418c7e96cd101262f30210ab26",
+"trace":{"path":"traces/anthropics/financial-services-plugins/funding-digest/574ed3624aebd0418c7e96cd101262f30210ab26/trace-3+judge-7.json","sha256":"cc451bfccfc0b07d4888ad26e71a5144a129d3a50bcc95e7ca556d3c4e905b9c"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":35270,"own":{"files":2,"bytes":35270},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pdftoppm"],"package":["sharp","simple-icons"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 34 KiB · CLI pdftoppm · packages sharp +1","short":"34 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pdftoppm"]},{"marker":"installs-packages","because":["installs sharp","installs simple-icons"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

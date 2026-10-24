@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/raffle-winner-picker",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/raffle-winner-picker/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"65d7b188ae42746fc1e5395a87f23c41d228c29928ffc0b35152ba80391475ea"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3796,"own":{"files":1,"bytes":3796},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.7 KiB","short":"3.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/flutter/dart-log-failure-parser",
+"revision":"56aa96cf12bc2d075c61b50f82c3a60ea9e6d08c",
+"trace":{"path":"traces/flutter/flutter/dart-log-failure-parser/56aa96cf12bc2d075c61b50f82c3a60ea9e6d08c/trace-3+judge-7.json","sha256":"666d5cd8516ceb1cea842549ea553329d97792b8f3cb09d3cd5b07b0d01ae42d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2266,"own":{"files":1,"bytes":2266},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.2 KiB","short":"2.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

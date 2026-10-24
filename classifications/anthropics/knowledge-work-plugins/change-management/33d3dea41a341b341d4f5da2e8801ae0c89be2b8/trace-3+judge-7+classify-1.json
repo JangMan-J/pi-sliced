@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/change-management",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/change-management/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"1a5212b31160321ad66a23c64cc9354b11bbbcf5b36972bc642523dc2473d544"},
+"status":"unresolvable",
+"reason":"no skill folder named change-management at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

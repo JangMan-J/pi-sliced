@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/pr-feedback-classifier",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/pr-feedback-classifier/none/trace-3+judge-7.json","sha256":"96127dc01173eb43dc6faea40661519f1a8456b8e4cdb84c3e89dc09babb4792"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

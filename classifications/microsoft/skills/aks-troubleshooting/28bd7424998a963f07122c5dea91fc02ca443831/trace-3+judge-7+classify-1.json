@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/aks-troubleshooting",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/aks-troubleshooting/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"3b655e426191d5cd51827ac0414c04c94bfe8c38dbc8415cb40eaf5de9b42076"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":130708,"own":{"files":20,"bytes":130708},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","jq","kubectl","nslookup","openssl"],"package":[],"mcp-server":["aks","azure"],"credential":[],"network":["aka.ms","jqlang.github.io","kubernetes.io"]},"summary":"20 files, 128 KiB · MCP aks, azure · CLI az, jq +3 · 3 hosts","short":"128 KiB · 5 CLI · 3 hosts · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs jq","runs kubectl","runs nslookup","runs openssl"]},{"marker":"network","because":["fetches from aka.ms","fetches from jqlang.github.io","fetches from kubernetes.io"]},{"marker":"mcp-server","because":["uses the aks MCP server","uses the azure MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"aks-known-issues","path":".github/plugins/aks-skills/skills/aks-known-issues"},{"name":"aks-network-capture","path":".github/plugins/aks-skills/skills/aks-network-capture"},{"name":"azure-kubernetes","path":".github/plugins/azure-skills/skills/azure-kubernetes"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

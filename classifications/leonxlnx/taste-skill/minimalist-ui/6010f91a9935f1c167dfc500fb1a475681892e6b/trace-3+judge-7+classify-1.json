@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/minimalist-ui",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/minimalist-ui/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"b1cf079b5459a2902e386db5a2af00d44803b7add9025d876e2ccb823c8b01b7"},
+"status":"unresolvable",
+"reason":"no skill folder named minimalist-ui at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/minimalist-skill)"
+}

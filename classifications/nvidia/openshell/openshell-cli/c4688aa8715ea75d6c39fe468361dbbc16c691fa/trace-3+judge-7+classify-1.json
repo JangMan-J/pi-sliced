@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/openshell/openshell-cli",
+"revision":"c4688aa8715ea75d6c39fe468361dbbc16c691fa",
+"trace":{"path":"traces/nvidia/openshell/openshell-cli/c4688aa8715ea75d6c39fe468361dbbc16c691fa/trace-3+judge-7.json","sha256":"cf193b6bccddd83d7d97268ae23195c8feeb869bfa4a1874be462bd270958114"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":53078,"own":{"files":1,"bytes":53078},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","gateway","helm","kubectl","openshell","podman","sandbox"],"package":[],"mcp-server":[],"credential":["REFRESH_TOKEN"],"network":["docs.nvidia.com"]},"summary":"1 file, 52 KiB · CLI docker, gateway +5 · 1 key · 1 host","short":"52 KiB · 7 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["7 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs gateway","runs helm","runs kubectl","runs openshell","runs podman","runs sandbox"]},{"marker":"network","because":["fetches from docs.nvidia.com"]},{"marker":"credentials","because":["needs REFRESH_TOKEN"]},{"marker":"persistent-writes","because":["writes to a ssh: skills/openshell-cli/SKILL.md:410"]}],
+"security":{"persist-write":["ssh @ skills/openshell-cli/SKILL.md:410"]},
+"companions":{"named":[{"name":"debug-inference","path":"skills/debug-inference"},{"name":"debug-openshell-cluster","path":"skills/debug-openshell-cluster"},{"name":"generate-sandbox-policy","path":"skills/generate-sandbox-policy"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

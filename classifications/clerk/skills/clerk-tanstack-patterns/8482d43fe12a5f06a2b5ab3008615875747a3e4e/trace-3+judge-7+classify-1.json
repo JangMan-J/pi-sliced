@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clerk/skills/clerk-tanstack-patterns",
+"revision":"8482d43fe12a5f06a2b5ab3008615875747a3e4e",
+"trace":{"path":"traces/clerk/skills/clerk-tanstack-patterns/8482d43fe12a5f06a2b5ab3008615875747a3e4e/trace-3+judge-7.json","sha256":"63c7e8bc6cd8bb252996c5cadd248c0e4d0c967ef88865a954b7bc41ddc600c0"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":12515,"own":{"files":5,"bytes":12515},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 12 KiB","short":"12 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"clerk-custom-ui","path":"skills/clerk-custom-ui"},{"name":"clerk-orgs","path":"skills/clerk-orgs"},{"name":"clerk-setup","path":"skills/clerk-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

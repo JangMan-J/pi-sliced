@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/implementing-dapper-queries",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/implementing-dapper-queries/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"a0c65048c25c8e4cc9e55ca138bec377696585bbcdc8f77b82f63281a0a254d7"},
+"status":"unresolvable",
+"reason":"no skill folder named implementing-dapper-queries at f57db069f72e5f0aba7b6e7beecd0a72df86f103"
+}

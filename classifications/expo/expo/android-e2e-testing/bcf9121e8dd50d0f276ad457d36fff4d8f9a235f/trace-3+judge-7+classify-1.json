@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/expo/android-e2e-testing",
+"revision":"bcf9121e8dd50d0f276ad457d36fff4d8f9a235f",
+"trace":{"path":"traces/expo/expo/android-e2e-testing/bcf9121e8dd50d0f276ad457d36fff4d8f9a235f/trace-3+judge-7.json","sha256":"cecbb137dedb00971c6bce568dc0ddd969c9b2dc090ea576ccb1d4efd40fb10f"},
+"status":"unresolvable",
+"reason":"no skill folder named android-e2e-testing at bcf9121e8dd50d0f276ad457d36fff4d8f9a235f"
+}

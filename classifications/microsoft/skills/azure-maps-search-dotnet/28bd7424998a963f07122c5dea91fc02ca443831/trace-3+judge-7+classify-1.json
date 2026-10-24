@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-maps-search-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-maps-search-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"8325d6234ad58ebe8f9eb492cd709775f9d131f0d717b5082de7b1475273ca22"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15829,"own":{"files":1,"bytes":15829},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.Maps.Geolocation","Azure.Maps.Rendering","Azure.Maps.Routing","Azure.Maps.Search","Azure.Maps.Weather","Azure.ResourceManager.Maps"],"mcp-server":[],"credential":["AZURE_MAPS_SUBSCRIPTION_KEY","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 15 KiB · CLI dotnet · packages Azure.Identity +6 · 2 keys","short":"15 KiB · 1 CLI · 7 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["7 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.Maps.Geolocation","installs Azure.Maps.Rendering","installs Azure.Maps.Routing","installs Azure.Maps.Search","installs Azure.Maps.Weather","installs Azure.ResourceManager.Maps"]},{"marker":"credentials","because":["needs AZURE_MAPS_SUBSCRIPTION_KEY","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

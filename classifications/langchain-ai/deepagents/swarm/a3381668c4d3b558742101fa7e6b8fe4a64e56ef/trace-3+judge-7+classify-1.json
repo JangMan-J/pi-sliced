@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/deepagents/swarm",
+"revision":"a3381668c4d3b558742101fa7e6b8fe4a64e56ef",
+"trace":{"path":"traces/langchain-ai/deepagents/swarm/a3381668c4d3b558742101fa7e6b8fe4a64e56ef/trace-3+judge-7.json","sha256":"b2752f70f6bac8ffd952487bb154bbed642d93794656097cb2be7a9300c24af3"},
+"status":"unresolvable",
+"reason":"no skill folder named swarm at a3381668c4d3b558742101fa7e6b8fe4a64e56ef"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/phoenix-cli",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/phoenix-cli/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"4ba9c83753cd2dc347d24d0f7136e6080c068f84497cb463a73434a3b07ccc70"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":51823,"own":{"files":3,"bytes":51823},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@arizeai/phoenix-cli","first","group_by","jq","last","length","map","px","sort_by"],"package":[],"mcp-server":[],"credential":["PHOENIX_API_KEY"],"network":[]},"summary":"3 files, 51 KiB · CLI @arizeai/phoenix-cli, first +7 · 1 key","short":"51 KiB · 9 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["9 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @arizeai/phoenix-cli","runs first","runs group_by","runs jq","runs last","runs length","runs map","runs px","runs sort_by"]},{"marker":"credentials","because":["needs PHOENIX_API_KEY"]},{"marker":"unpinned-code","because":["npx @arizeai/phoenix-cli: skills/phoenix-cli/SKILL.md:17"]}],
+"security":{"fetch-run":["npx @arizeai/phoenix-cli @ skills/phoenix-cli/SKILL.md:17"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

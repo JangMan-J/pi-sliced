@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"cloudflare/cloudflare-docs/building-ai-agent-on-cloudflare",
+"source":"cloudflare/cloudflare-docs",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named building-ai-agent-on-cloudflare at b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

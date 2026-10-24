@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/radar-trends",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/radar-trends/none/trace-3+judge-7.json","sha256":"2d676d72304dc70a5570b09822a8e2b2be7fed5226f8b8eeb5875e97c80543ab"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/summarize",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/summarize/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"7b49cdee00459f4bf540a7e4007428e8e38a29a5cdef002812cbac647846e24c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2232,"own":{"files":1,"bytes":2232},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["summarize"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.2 KiB · CLI summarize","short":"2.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs summarize"]},{"marker":"stub","because":["own folder 2.2 KiB (1 file)","content is the summarize it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

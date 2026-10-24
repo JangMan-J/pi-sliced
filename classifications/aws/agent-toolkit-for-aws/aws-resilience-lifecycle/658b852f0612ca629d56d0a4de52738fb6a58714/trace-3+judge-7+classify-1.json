@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-resilience-lifecycle",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-resilience-lifecycle/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"c36a9a1f190129b23ebb979fe2bfe92470d2491b7530350975f4222fa349c744"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":40429,"own":{"files":4,"bytes":40429},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Off","aws","create-assertion","create-control-panel","create-experiment-template","create-input-source","create-policy","create-practice-run-configuration","create-report","create-routing-control","create-service","create-service-function","create-service-function-resources","create-system","create-user-journey","delete-assertion","delete-input-source","delete-service-function","delete-user-journey","get-failure-mode-finding","start-zonal-shift","update-assertion","update-failure-mode-finding","update-policy","update-routing-control-state","update-service-function","update-user-journey","update-zonal-autoshift-configuration"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"4 files, 39 KiB · MCP aws · CLI Off, aws +26","short":"39 KiB · 28 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","28 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs create-assertion","runs create-control-panel","runs create-experiment-template","runs create-input-source","runs create-policy","runs create-practice-run-configuration","runs create-report","runs create-routing-control","runs create-service","runs create-service-function","runs create-service-function-resources","runs create-system","runs create-user-journey","runs delete-assertion","runs delete-input-source","runs delete-service-function","runs delete-user-journey","runs get-failure-mode-finding","runs Off","runs start-zonal-shift","runs update-assertion","runs update-failure-mode-finding","runs update-policy","runs update-routing-control-state","runs update-service-function","runs update-user-journey","runs update-zonal-autoshift-configuration"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"recovery-controller-setup","path":"skills/specialized-skills/resilience-skills/recovery-controller-setup"},{"name":"resilience-hub-getting-started","path":"skills/specialized-skills/resilience-skills/resilience-hub-getting-started"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

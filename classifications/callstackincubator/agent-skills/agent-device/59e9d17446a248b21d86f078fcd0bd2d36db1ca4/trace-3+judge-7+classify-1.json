@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-skills/agent-device",
+"revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+"trace":{"path":"traces/callstackincubator/agent-skills/agent-device/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/trace-3+judge-7.json","sha256":"c74c03a5320ff415bfb5745122806d8d711f5b564d256c0b5b9ee4603ac91de8"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":52924,"own":{"files":8,"bytes":41331},"otherSkills":{"count":1,"files":3,"bytes":11593},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-device","apps","desktop","menubar","open","perf","replay","snapshot"],"package":[],"mcp-server":[],"credential":["AGENT_DEVICE_DAEMON_AUTH_TOKEN"],"network":[]},"summary":"11 files, 52 KiB · +1 other skill · CLI agent-device, apps +6 · 1 key","short":"52 KiB · +1 skill · 8 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-device","runs apps","runs desktop","runs menubar","runs open","runs perf","runs replay","runs snapshot"]},{"marker":"credentials","because":["needs AGENT_DEVICE_DAEMON_AUTH_TOKEN"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at plugins/vendored/.agents/skills/dogfood"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"plugins/vendored/.agents/skills/dogfood","files":3,"bytes":11593}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

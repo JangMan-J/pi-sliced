@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firebase-ai-logic-basics",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firebase-ai-logic-basics/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"625acf4d490e3214bbf0e86ef40b35fab01cd044deea7663da30b9e2033ad3f9"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":63779,"own":{"files":6,"bytes":63779},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firebase-tools","flutter","xcodebuild"],"package":["firebase","firebase_ai","firebase_app_check","firebase_auth","firebase_core"],"mcp-server":[],"credential":["APP_CHECK_DEBUG_TOKEN","YOUR_DEBUG_TOKEN"],"network":[]},"summary":"6 files, 62 KiB · CLI firebase-tools, flutter +1 · packages firebase +4 · 2 keys","short":"62 KiB · 3 CLI · 5 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["5 packages to install","3 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs firebase-tools","runs flutter","runs xcodebuild"]},{"marker":"installs-packages","because":["installs firebase","installs firebase_ai","installs firebase_app_check","installs firebase_auth","installs firebase_core"]},{"marker":"credentials","because":["needs APP_CHECK_DEBUG_TOKEN","needs YOUR_DEBUG_TOKEN"]},{"marker":"unpinned-code","because":["install @latest: skills/firebase-ai-logic-basics/references/usage_patterns_web.md:8","npx firebase-tools: skills/firebase-ai-logic-basics/references/flutter_setup.md:12","npx firebase-tools@latest: skills/firebase-ai-logic-basics/SKILL.md:61, skills/firebase-ai-logic-basics/SKILL.md:68, skills/firebase-ai-logic-basics/SKILL.md:74"]}],
+"security":{"fetch-run":["install @latest @ skills/firebase-ai-logic-basics/references/usage_patterns_web.md:8","npx firebase-tools @ skills/firebase-ai-logic-basics/references/flutter_setup.md:12","npx firebase-tools@latest @ skills/firebase-ai-logic-basics/SKILL.md:61, skills/firebase-ai-logic-basics/SKILL.md:68, skills/firebase-ai-logic-basics/SKILL.md:74 +3"]},
+"companions":{"named":[{"name":"firebase-basics","path":"skills/firebase-basics"},{"name":"xcode-project-setup","path":"skills/xcode-project-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

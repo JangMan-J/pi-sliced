@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/dagster-claude-plugins/dagster-expert",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/dagster-claude-plugins/dagster-expert/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"2e1aea64434cf08a760ef656ebc8a4531fcf5fa89735e733e7fa8c335fef1fe0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1286,"own":{"files":1,"bytes":1286},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.3 KiB","short":"1.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

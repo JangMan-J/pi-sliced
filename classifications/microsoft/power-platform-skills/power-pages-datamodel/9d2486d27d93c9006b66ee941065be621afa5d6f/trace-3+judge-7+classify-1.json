@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/power-pages-datamodel",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/power-pages-datamodel/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"9c2e5071f0cb687d7a54cc468b93a5805e17d340e15569b26ae08c2754010dd2"},
+"status":"unresolvable",
+"reason":"no skill folder named power-pages-datamodel at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

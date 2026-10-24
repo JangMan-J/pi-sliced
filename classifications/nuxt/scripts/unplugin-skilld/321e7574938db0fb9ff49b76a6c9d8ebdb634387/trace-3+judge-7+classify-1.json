@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nuxt/scripts/unplugin-skilld",
+"revision":"321e7574938db0fb9ff49b76a6c9d8ebdb634387",
+"trace":{"path":"traces/nuxt/scripts/unplugin-skilld/321e7574938db0fb9ff49b76a6c9d8ebdb634387/trace-3+judge-7.json","sha256":"a032ad5947a9c4d9e29e1fad6a66c884cc665ca6781e273c5c8688cca1bb0878"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1352,"own":{"files":1,"bytes":1352},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skilld"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.3 KiB · CLI skilld","short":"1.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skilld"]},{"marker":"stub","because":["own folder 1.3 KiB (1 file)","content is the skilld it wraps"]},{"marker":"unpinned-code","because":["npx skilld: .claude/skills/unplugin-skilld/SKILL.md:21, .claude/skills/unplugin-skilld/SKILL.md:24, .claude/skills/unplugin-skilld/SKILL.md:25"]}],
+"security":{"fetch-run":["npx skilld @ .claude/skills/unplugin-skilld/SKILL.md:21, .claude/skills/unplugin-skilld/SKILL.md:24, .claude/skills/unplugin-skilld/SKILL.md:25 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

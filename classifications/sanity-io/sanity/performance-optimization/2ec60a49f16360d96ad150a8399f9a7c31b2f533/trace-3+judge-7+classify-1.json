@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/sanity/performance-optimization",
+"revision":"2ec60a49f16360d96ad150a8399f9a7c31b2f533",
+"trace":{"path":"traces/sanity-io/sanity/performance-optimization/2ec60a49f16360d96ad150a8399f9a7c31b2f533/trace-3+judge-7.json","sha256":"6df196d8ce968518a7d0bc581f530d21384b4664112cc9620a1bd3066b6b2613"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12441,"own":{"files":1,"bytes":12441},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bundlesize","console.log","console.time","console.timeEnd","const","db-query","from","import","lhci","onCLS","onINP","onLCP"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB · CLI bundlesize, console.log +10","short":"12 KiB · 12 CLI"},
+"heavy":{"heavy":true,"because":["12 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bundlesize","runs console.log","runs console.time","runs console.timeEnd","runs const","runs db-query","runs from","runs import","runs lhci","runs onCLS","runs onINP","runs onLCP"]},{"marker":"unpinned-code","because":["npx bundlesize: .agents/skills/performance-optimization/SKILL.md:319","npx lhci: .agents/skills/performance-optimization/SKILL.md:322"]}],
+"security":{"fetch-run":["npx bundlesize @ .agents/skills/performance-optimization/SKILL.md:319","npx lhci @ .agents/skills/performance-optimization/SKILL.md:322"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

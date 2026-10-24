@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/openai-agents-python/openai-knowledge",
+"revision":"0dc4cf152bff1f50bdc0e41f28808563406545b2",
+"trace":{"path":"traces/openai/openai-agents-python/openai-knowledge/0dc4cf152bff1f50bdc0e41f28808563406545b2/trace-3+judge-7.json","sha256":"b81625b3053d56c42e8b9fd2962d1216ab300e20c44bd4d93d9edfc4795b84cf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1634,"own":{"files":1,"bytes":1634},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["docs","documentation","use"],"credential":[],"network":[]},"summary":"1 file, 1.6 KiB · MCP docs, documentation +1","short":"1.6 KiB · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the docs MCP server","uses the documentation MCP server","uses the use MCP server"]},{"marker":"stub","because":["own folder 1.6 KiB (1 file)","content is the docs, documentation it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

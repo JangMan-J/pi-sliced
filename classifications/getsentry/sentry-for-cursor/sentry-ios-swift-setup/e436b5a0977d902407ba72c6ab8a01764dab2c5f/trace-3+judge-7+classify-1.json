@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-cursor/sentry-ios-swift-setup",
+"revision":"e436b5a0977d902407ba72c6ab8a01764dab2c5f",
+"trace":{"path":"traces/getsentry/sentry-for-cursor/sentry-ios-swift-setup/e436b5a0977d902407ba72c6ab8a01764dab2c5f/trace-3+judge-7.json","sha256":"36a5bac0a6ae2306c7586fe0514e3f2431e1b3ee460c87d8c4010d209c28359c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9583,"own":{"files":1,"bytes":9583},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pod"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.4 KiB · CLI pod","short":"9.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pod"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

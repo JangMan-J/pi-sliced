@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-resource-manager-cosmosdb-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-resource-manager-cosmosdb-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"317d55d3cf46f6e552982de70e561d47fb9e3362ac37ee9aa13f80d8c3f2562e"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":33924,"own":{"files":4,"bytes":33924},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.ResourceManager.CosmosDB","Microsoft.Azure.Cosmos"],"mcp-server":[],"credential":["AZURE_CLIENT_SECRET","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"4 files, 33 KiB · CLI dotnet · packages Azure.Identity +2 · 2 keys","short":"33 KiB · 1 CLI · 3 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.ResourceManager.CosmosDB","installs Microsoft.Azure.Cosmos"]},{"marker":"credentials","because":["needs AZURE_CLIENT_SECRET","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/modeling-product-usage-metrics",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/modeling-product-usage-metrics/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"e4a20634ff5a4a86d91b8fb003b56581a593ea121cf9192eefd8bf246158a8d0"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":15703,"own":{"files":9,"bytes":15703},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"modeling-activation-metrics","path":"skills/omnibus/modeling-activation-metrics"},{"name":"modeling-dimension-tables","path":"skills/omnibus/modeling-dimension-tables"},{"name":"modeling-warehouse-foundations","path":"skills/omnibus/modeling-warehouse-foundations"},{"name":"querying-posthog-data","path":"skills/omnibus/querying-posthog-data"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-007-nonvisual-materials",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-007-nonvisual-materials/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"74457b15a4b8623a79162a2e1f67bc2230d1df3347ca1f6c0600e02147bf87a8"},
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-007-nonvisual-materials at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wix/skills/wix-cli-embedded-script",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"trace":{"path":"traces/wix/skills/wix-cli-embedded-script/9c51902effdd00f4a742c26f1194f48318abab29/trace-3+judge-7.json","sha256":"2ee00392e7867127b7fe076921c0634a42a549c6a5b7508055e76bfb55709fc4"},
+"status":"unresolvable",
+"reason":"no skill folder named wix-cli-embedded-script at 9c51902effdd00f4a742c26f1194f48318abab29 or at the remote HEAD 687e2faf013aeee2afcaa7ca0456a43754306302"
+}

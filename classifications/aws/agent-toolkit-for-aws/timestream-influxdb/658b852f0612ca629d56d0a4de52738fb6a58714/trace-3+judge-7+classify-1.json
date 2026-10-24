@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/timestream-influxdb",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/timestream-influxdb/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"06f0176f4d8168ac259152221dcc6410c77953ea6eae9e5273c1e63ce731a933"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":95787,"own":{"files":11,"bytes":95787},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","influx","influxdb3","install","jq"],"package":[],"mcp-server":["aws"],"credential":["INFLUXDB3_AUTH_TOKEN","INFLUX_TOKEN","V3_TOKEN"],"network":["docs.aws.amazon.com"]},"summary":"11 files, 94 KiB · MCP aws · CLI aws, influx +3 · 3 keys · 1 host","short":"94 KiB · 5 CLI · 3 keys · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","5 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs influx","runs influxdb3","runs install","runs jq"]},{"marker":"network","because":["fetches from docs.aws.amazon.com"]},{"marker":"credentials","because":["needs INFLUX_TOKEN","needs INFLUXDB3_AUTH_TOKEN","needs V3_TOKEN"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/ad-pipeline-failure-pr",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/ad-pipeline-failure-pr/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"10aa8a4dc40ed6188ebe1d4c8d1ca4ca9e9d66f53a3a147946e2c63b89d5312d"},
+"status":"unresolvable",
+"reason":"no skill folder named ad-pipeline-failure-pr at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

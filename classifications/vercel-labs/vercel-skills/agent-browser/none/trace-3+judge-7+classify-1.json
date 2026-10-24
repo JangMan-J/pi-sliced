@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/agent-browser",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/agent-browser/none/trace-3+judge-7.json","sha256":"ec5473db3e003d9ab711f9c99628eb90dc2c60f01c13ffeca7a13fc9f4eb8d16"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

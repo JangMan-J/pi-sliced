@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/acul-screen-generator",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/acul-screen-generator/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"ebc146d4990ed156de9c24ec699c46a3195d0c3284cef39af55b603bef25683f"},
+"status":"unresolvable",
+"reason":"no skill folder named acul-screen-generator at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

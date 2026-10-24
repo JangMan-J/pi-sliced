@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-eventgrid-java",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-eventgrid-java/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"582a8a8bd812e60570ff3b6fb9b87f29b80e6d017cb27b6ed28e83f0843115c0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9240,"own":{"files":1,"bytes":9240},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","EVENT_GRID_ACCESS_KEY"],"network":[]},"summary":"1 file, 9.0 KiB · 2 keys","short":"9.0 KiB · 2 keys"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs EVENT_GRID_ACCESS_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

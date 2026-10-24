@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-nextjs-app-router",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-nextjs-app-router/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"bf2d0ca515b4dd8caa018e312a196350f616f02a034c0d437fd54938eee4ec99"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":49220,"own":{"files":8,"bytes":49220},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard"],"package":["posthog-js","posthog-node"],"mcp-server":[],"credential":["NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN","NEXT_PUBLIC_POSTHOG_TOKEN"],"network":[]},"summary":"8 files, 48 KiB · CLI @posthog/wizard · packages posthog-js +1 · 2 keys","short":"48 KiB · 1 CLI · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard"]},{"marker":"installs-packages","because":["installs posthog-js","installs posthog-node"]},{"marker":"credentials","because":["needs NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN","needs NEXT_PUBLIC_POSTHOG_TOKEN"]},{"marker":"unpinned-code","because":["npx @posthog/wizard@latest: skills/posthog/integration/skills/nextjs-app-router/references/next-js.md:24"]}],
+"security":{"fetch-run":["npx @posthog/wizard@latest @ skills/posthog/integration/skills/nextjs-app-router/references/next-js.md:24"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

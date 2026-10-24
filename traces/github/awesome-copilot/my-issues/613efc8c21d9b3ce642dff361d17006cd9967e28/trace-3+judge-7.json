@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"github/awesome-copilot/my-issues",
+"source":"github/awesome-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named my-issues at 613efc8c21d9b3ce642dff361d17006cd9967e28 or at the remote HEAD d85f762d6e521abf5fe16703946e9b38adc42da7",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

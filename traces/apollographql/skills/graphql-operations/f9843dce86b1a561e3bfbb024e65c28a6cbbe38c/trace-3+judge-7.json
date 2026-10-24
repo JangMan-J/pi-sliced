@@ -1,0 +1,40 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"apollographql/skills/graphql-operations",
+"source":"apollographql/skills",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"skillPath":"skills/graphql-operations",
+"status":"resolved",
+"totals":{"files":6,"bytes":43701},
+"files":[
+{"path":"skills/graphql-operations/SKILL.md","size":5251,"blob":"1c61e1b8cfb6ab3f2fa28217445a110bad8efed0","how":"root"},
+{"path":"skills/graphql-operations/references/fragments.md","size":7653,"blob":"db9b1c6e1e3daa319d5b961ab6175d40a69c02fb","how":"link","from":0,"line":237},
+{"path":"skills/graphql-operations/references/mutations.md","size":7840,"blob":"cc5c09d9446132781c0eadf6bd73954ed9c114de","how":"link","from":0,"line":236},
+{"path":"skills/graphql-operations/references/queries.md","size":7846,"blob":"cddf3e59b837dc3f4238748aab42a9e8ac538987","how":"link","from":0,"line":235},
+{"path":"skills/graphql-operations/references/tooling.md","size":8537,"blob":"4fb4e61805208316fa536f1fc8d3fbe8f41a6db9","how":"link","from":0,"line":239},
+{"path":"skills/graphql-operations/references/variables.md","size":6574,"blob":"c1d32160312ba10f7279eff23fdc22dfefde2c73","how":"link","from":0,"line":238}
+],
+"outside":[
+{"kind":"cli","name":"graphql-codegen","at":[[4,69],[4,72]]},
+{"kind":"cli","name":"graphql-inspector","at":[[4,327]]},
+{"kind":"cli","name":"graphql-query-complexity-checker","at":[[4,372]]},
+{"kind":"package","name":"@graphql-codegen/cli","at":[[4,21]]},
+{"kind":"package","name":"@graphql-codegen/typed-document-node","at":[[4,21]]},
+{"kind":"package","name":"@graphql-codegen/typescript","at":[[4,21]]},
+{"kind":"package","name":"@graphql-codegen/typescript-operations","at":[[4,21]]},
+{"kind":"package","name":"@graphql-eslint/eslint-plugin","at":[[4,176]]}
+],
+"regions":[
+{"kind":"own","path":"skills/graphql-operations","files":6,"bytes":43701}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx graphql-codegen","at":[[4,69],[4,72]]},
+{"kind":"fetch-run","detail":"npx graphql-inspector","at":[[4,327]]},
+{"kind":"fetch-run","detail":"npx graphql-query-complexity-checker","at":[[4,372]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

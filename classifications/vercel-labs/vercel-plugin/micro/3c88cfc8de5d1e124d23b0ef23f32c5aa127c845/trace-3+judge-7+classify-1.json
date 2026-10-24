@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/micro",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/micro/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"86c7d8d5f4c724fcea7c0b20470ad613e093d2ebe6e863a67ef5fda6431b1194"},
+"status":"unresolvable",
+"reason":"no skill folder named micro at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-005-simulate-grasp-physics",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-005-simulate-grasp-physics/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"353167fb0adf33c34841f6b3ee9df91e95031e66716e95d37a4795d70d466e38"},
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-005-simulate-grasp-physics at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e"
+}

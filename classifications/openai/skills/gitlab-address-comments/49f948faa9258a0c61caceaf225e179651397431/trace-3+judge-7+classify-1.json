@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/gitlab-address-comments",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/gitlab-address-comments/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"69589bf766ea835e104828430976fb1a39b86f66ad234618dd75df65f393bb69"},
+"status":"unresolvable",
+"reason":"no skill folder named gitlab-address-comments at 49f948faa9258a0c61caceaf225e179651397431"
+}

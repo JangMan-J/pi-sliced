@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-cursor/sentry-setup-ai-monitoring",
+"revision":"e436b5a0977d902407ba72c6ab8a01764dab2c5f",
+"trace":{"path":"traces/getsentry/sentry-for-cursor/sentry-setup-ai-monitoring/e436b5a0977d902407ba72c6ab8a01764dab2c5f/trace-3+judge-7.json","sha256":"c6162ddd91c616ab49f0209a852f84b14fde9260ce5f604e8b848ec0e9cc2ead"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20996,"own":{"files":1,"bytes":20996},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@sentry/nextjs"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 21 KiB · packages @sentry/nextjs","short":"21 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @sentry/nextjs"]},{"marker":"unpinned-code","because":["install @latest: skills/sentry-setup-ai-monitoring/SKILL.md:76"]}],
+"security":{"fetch-run":["install @latest @ skills/sentry-setup-ai-monitoring/SKILL.md:76"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

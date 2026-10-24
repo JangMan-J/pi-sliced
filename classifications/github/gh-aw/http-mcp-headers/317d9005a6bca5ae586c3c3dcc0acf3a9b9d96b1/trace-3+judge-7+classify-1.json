@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/gh-aw/http-mcp-headers",
+"revision":"317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1",
+"trace":{"path":"traces/github/gh-aw/http-mcp-headers/317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1/trace-3+judge-7.json","sha256":"dae2cac7871ea7739a5279c12bd1e36a4c17534d0786feb141e98d88cb0be20f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4839,"own":{"files":1,"bytes":4839},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["each","http"],"credential":["DD_API_KEY"],"network":[]},"summary":"1 file, 4.7 KiB · MCP each, http · 1 key","short":"4.7 KiB · 1 key · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","1 credential"]},
+"markers":[{"marker":"credentials","because":["needs DD_API_KEY"]},{"marker":"mcp-server","because":["uses the each MCP server","uses the http MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

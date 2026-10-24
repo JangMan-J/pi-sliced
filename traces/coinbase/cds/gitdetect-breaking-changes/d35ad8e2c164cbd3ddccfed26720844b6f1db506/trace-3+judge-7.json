@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"coinbase/cds/gitdetect-breaking-changes",
+"source":"coinbase/cds",
+"revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named gitdetect-breaking-changes at d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

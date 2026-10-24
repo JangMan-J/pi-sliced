@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-labs-code/stitch-sdk/stitch-sdk-usage",
+"revision":"e3f8ece5fee46d18fa621b716bfef1fe56661b10",
+"trace":{"path":"traces/google-labs-code/stitch-sdk/stitch-sdk-usage/e3f8ece5fee46d18fa621b716bfef1fe56661b10/trace-3+judge-7.json","sha256":"28b3a4046f140043a95549cb4cf739f54e09471d927a10f25a6bc19d652e1e17"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11404,"own":{"files":1,"bytes":11404},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@google/stitch-sdk"],"mcp-server":[],"credential":["STITCH_API_KEY"],"network":[]},"summary":"1 file, 11 KiB · packages @google/stitch-sdk · 1 key","short":"11 KiB · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @google/stitch-sdk"]},{"marker":"credentials","because":["needs STITCH_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

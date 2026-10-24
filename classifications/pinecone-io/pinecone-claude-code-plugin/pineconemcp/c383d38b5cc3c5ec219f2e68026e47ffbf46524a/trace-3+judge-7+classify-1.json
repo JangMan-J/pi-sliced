@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pinecone-io/pinecone-claude-code-plugin/pineconemcp",
+"revision":"c383d38b5cc3c5ec219f2e68026e47ffbf46524a",
+"trace":{"path":"traces/pinecone-io/pinecone-claude-code-plugin/pineconemcp/c383d38b5cc3c5ec219f2e68026e47ffbf46524a/trace-3+judge-7.json","sha256":"d24bfac30c7e9ec3deb750162d340411b43916c0f4f7c44a015eafba45c5db86"},
+"status":"unresolvable",
+"reason":"no skill folder named pineconemcp at c383d38b5cc3c5ec219f2e68026e47ffbf46524a"
+}

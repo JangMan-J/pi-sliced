@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/cloud-sql-basics",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/cloud-sql-basics/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"1cc114b256e19af77c01917dd3f4ccdb3cca67d5796446b2f4d2e841d56291ee"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":44487,"own":{"files":9,"bytes":44487},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud","go","psql"],"package":["@google-cloud/cloud-sql-connector","cloud.google.com/go/cloudsqlconn"],"mcp-server":["knowledge","sql"],"credential":[],"network":[]},"summary":"9 files, 43 KiB · MCP knowledge, sql · CLI gcloud, go +1 · packages @google-cloud/cloud-sql-connector +1","short":"43 KiB · 3 CLI · 2 pkg · MCP 2"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 MCP servers","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud","runs go","runs psql"]},{"marker":"installs-packages","because":["installs @google-cloud/cloud-sql-connector","installs cloud.google.com/go/cloudsqlconn"]},{"marker":"mcp-server","because":["uses the knowledge MCP server","uses the sql MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

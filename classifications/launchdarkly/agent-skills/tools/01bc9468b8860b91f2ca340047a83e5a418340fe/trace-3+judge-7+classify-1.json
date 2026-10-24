@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/tools",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/tools/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"454be8f1c0c065e47c27f47f8b33c0debf7a9d143c2e7ac7435afba1f92db094"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":65282,"own":{"files":1,"bytes":11430},"otherSkills":{"count":1,"files":6,"bytes":53852},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["launchdarkly","optional","required"],"credential":["CONFIG_KEY"],"network":["app.launchdarkly.com"]},"summary":"7 files, 64 KiB · +1 other skill · MCP launchdarkly, optional +1 · 1 key · 1 host","short":"64 KiB · +1 skill · 1 key · 1 host · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers","1 credential"]},
+"markers":[{"marker":"network","because":["fetches from app.launchdarkly.com"]},{"marker":"credentials","because":["needs CONFIG_KEY"]},{"marker":"mcp-server","because":["uses the launchdarkly MCP server","uses the optional MCP server","uses the required MCP server"]},{"marker":"chain-loads","because":["pulls in 6 files of the skill at skills/agentcontrol/built-in-metrics"]},{"marker":"sends-credentials","because":["CONFIG_KEY -> app.launchdarkly.com: skills/agentcontrol/built-in-metrics/references/langchain-tracking.md:36"]}],
+"security":{"secret-egress":["CONFIG_KEY -> app.launchdarkly.com @ skills/agentcontrol/built-in-metrics/references/langchain-tracking.md:36"]},
+"companions":{"named":[{"name":"built-in-metrics","path":"skills/agentcontrol/built-in-metrics"},{"name":"configs-create","path":"skills/agentcontrol/configs-create"},{"name":"configs-variations","path":"skills/agentcontrol/configs-variations"}],"pulled":[{"path":"skills/agentcontrol/built-in-metrics","files":6,"bytes":53852}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

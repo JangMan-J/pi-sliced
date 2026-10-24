@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw-community/coach-nemoclaw-hermes",
+"revision":"54bac91992830b6249f1f727c0f6d628d3a984e8",
+"trace":{"path":"traces/nvidia/nemoclaw-community/coach-nemoclaw-hermes/54bac91992830b6249f1f727c0f6d628d3a984e8/trace-3+judge-7.json","sha256":"2bf9efe0218a3cd60ba481d1db0ee4fe007fdf4f2319a94d6cf9a9ab87143e8c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5384,"own":{"files":1,"bytes":5384},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nemohermes","pgrep"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.3 KiB · CLI nemohermes, pgrep","short":"5.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs nemohermes","runs pgrep"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

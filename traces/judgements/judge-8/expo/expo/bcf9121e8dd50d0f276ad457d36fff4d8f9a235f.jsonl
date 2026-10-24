@@ -1,0 +1,1 @@
+{"id":"3402b18caa8482f4be7d788dec1eac24110d0c7f9ad77dc0bc890bcc232e1f87","pullsIn":false,"reason":"packages/expo-* appears in a \"when to use\" trigger about where API work happens, not a direction to read it.","judge":"judge-8","model":"claude-sonnet-5-5","file":".claude/skills/expo-api-docs/SKILL.md","line":17,"ref":"packages/expo-*","target":"packages/expo-*"}

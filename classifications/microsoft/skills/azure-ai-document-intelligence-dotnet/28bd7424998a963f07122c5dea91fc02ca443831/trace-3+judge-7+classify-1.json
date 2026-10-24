@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-document-intelligence-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-document-intelligence-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"75225434f27596ace3b7228c6c42ac601f275916bbae448b0a21f803f9edeaa7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11895,"own":{"files":1,"bytes":11895},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.AI.DocumentIntelligence","Azure.Identity"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","DOCUMENT_INTELLIGENCE_API_KEY"],"network":[]},"summary":"1 file, 12 KiB · CLI dotnet · packages Azure.AI.DocumentIntelligence +1 · 2 keys","short":"12 KiB · 1 CLI · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.AI.DocumentIntelligence","installs Azure.Identity"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs DOCUMENT_INTELLIGENCE_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

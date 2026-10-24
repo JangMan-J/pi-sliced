@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"resend/resend-skills/resend-cli",
+"revision":"b2ae7b1798b70134faf679f35fc05b4331462988",
+"trace":{"path":"traces/resend/resend-skills/resend-cli/b2ae7b1798b70134faf679f35fc05b4331462988/trace-3+judge-7.json","sha256":"6a2cbf0a9e417018f19decf21e4b71b5db129f161b8ced4cec78adc2e91d2d55"},
+"status":"resolved",
+"footprint":{"files":19,"bytes":103673,"own":{"files":19,"bytes":103673},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["broadcasts","resend","suppressions","threads"],"package":["resend-cli","resend/cli/resend"],"mcp-server":[],"credential":["RESEND_API_KEY","RESEND_PROD_API_KEY","RESEND_STAGING_API_KEY"],"network":[]},"summary":"19 files, 101 KiB · CLI broadcasts, resend +2 · packages resend-cli +1 · 3 keys","short":"101 KiB · 4 CLI · 2 pkg · 3 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","4 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs broadcasts","runs resend","runs suppressions","runs threads"]},{"marker":"installs-packages","because":["installs resend-cli","installs resend/cli/resend"]},{"marker":"credentials","because":["needs RESEND_API_KEY","needs RESEND_PROD_API_KEY","needs RESEND_STAGING_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"agent-email-inbox","path":"skills/agent-email-inbox"},{"name":"react-email","path":"skills/react-email"},{"name":"resend","path":"skills/resend"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

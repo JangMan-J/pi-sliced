@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/workflow-audit",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/workflow-audit/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"ec46573107b4231ef45db8b37bdf2b74277a11aa2272fc1e0cf6c874244a9dec"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2786,"own":{"files":1,"bytes":2786},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bwwl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB · CLI bwwl","short":"2.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs bwwl"]},{"marker":"stub","because":["own folder 2.7 KiB (1 file)","content is the bwwl it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"bitwarden-workflow-linter-rules","path":"plugins/bitwarden-devops-engineer/skills/bitwarden-workflow-linter-rules"},{"name":"workflow-fix","path":"plugins/bitwarden-devops-engineer/skills/workflow-fix"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

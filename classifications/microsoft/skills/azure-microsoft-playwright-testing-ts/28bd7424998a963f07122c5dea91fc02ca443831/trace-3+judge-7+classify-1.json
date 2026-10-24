@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-microsoft-playwright-testing-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-microsoft-playwright-testing-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"5f0508f6a83153fece7a19b8d729cb7b70b76b269ce35d83a9910a494218d963"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8806,"own":{"files":1,"bytes":8806},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","playwright"],"package":["@azure/identity","@azure/playwright","@playwright/test"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 8.6 KiB · CLI az, playwright · packages @azure/identity +2 · 1 key","short":"8.6 KiB · 2 CLI · 3 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs playwright"]},{"marker":"installs-packages","because":["installs @azure/identity","installs @azure/playwright","installs @playwright/test"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]},{"marker":"unpinned-code","because":["npx playwright: .github/plugins/azure-sdk-typescript/skills/azure-microsoft-playwright-testing-ts/SKILL.md:110"]}],
+"security":{"fetch-run":["npx playwright @ .github/plugins/azure-sdk-typescript/skills/azure-microsoft-playwright-testing-ts/SKILL.md:110"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

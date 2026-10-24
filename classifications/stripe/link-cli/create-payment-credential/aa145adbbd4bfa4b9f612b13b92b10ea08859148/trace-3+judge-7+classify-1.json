@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/link-cli/create-payment-credential",
+"revision":"aa145adbbd4bfa4b9f612b13b92b10ea08859148",
+"trace":{"path":"traces/stripe/link-cli/create-payment-credential/aa145adbbd4bfa4b9f612b13b92b10ea08859148/trace-3+judge-7.json","sha256":"7582c483df7c40d7dbaeca9144475aa7f635f5c0e6e0d16242cfb1f3faff079b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":40020,"own":{"files":1,"bytes":40020},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@stripe/link-cli","entered","link-cli","spend-request"],"package":["@stripe/link-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 39 KiB · CLI @stripe/link-cli, entered +2 · packages @stripe/link-cli","short":"39 KiB · 4 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @stripe/link-cli","runs entered","runs link-cli","runs spend-request"]},{"marker":"installs-packages","because":["installs @stripe/link-cli"]},{"marker":"unpinned-code","because":["npx @stripe/link-cli: skills/create-payment-credential/SKILL.md:39","npx @stripe/link-cli@latest: skills/create-payment-credential/SKILL.md:58"]}],
+"security":{"fetch-run":["npx @stripe/link-cli @ skills/create-payment-credential/SKILL.md:39","npx @stripe/link-cli@latest @ skills/create-payment-credential/SKILL.md:58"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

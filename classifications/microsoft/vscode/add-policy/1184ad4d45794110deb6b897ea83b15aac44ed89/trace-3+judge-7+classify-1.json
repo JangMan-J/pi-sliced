@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/add-policy",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/add-policy/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"ff57e0bed6748e9f044c0c9e598dc56e1c0da7396cec1e0adeff9ffd17f4120b"},
+"status":"unresolvable",
+"reason":"no skill folder named add-policy at 1184ad4d45794110deb6b897ea83b15aac44ed89"
+}

@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/nemo-fabric/karpathy-guidelines",
+"source":"nvidia/nemo-fabric",
+"revision":"fd3963de708eb49e19d00f0272c9d14a92fd61f1",
+"skillPath":".agents/skills/karpathy-guidelines",
+"status":"resolved",
+"totals":{"files":1,"bytes":2629},
+"files":[
+{"path":".agents/skills/karpathy-guidelines/SKILL.md","size":2629,"blob":"8220f348e037d95a8f2fe8352fb8a722fbce7db2","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":".agents/skills/karpathy-guidelines","files":1,"bytes":2629}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":"MIT, Apache-2.0"}
+}

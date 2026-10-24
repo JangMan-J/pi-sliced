@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/aspire/aspireify",
+"source":"microsoft/aspire",
+"revision":"7a8a24ea649df02e1edeead53ab78e305202acf3",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named aspireify at 7a8a24ea649df02e1edeead53ab78e305202acf3",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/connect",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/connect/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"b3a05c94444bd1a19f33157a3ef22c5b93d70278d8f1dc817cd76460803b65f7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3953,"own":{"files":1,"bytes":3953},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@composio/core","@composio/vercel","claude-agent-sdk","composio","composio-langchain","openai-agents"],"mcp-server":[],"credential":["COMPOSIO_API_KEY"],"network":[]},"summary":"1 file, 3.9 KiB · packages @composio/core +5 · 1 key","short":"3.9 KiB · 6 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @composio/core","installs @composio/vercel","installs claude-agent-sdk","installs composio","installs composio-langchain","installs openai-agents"]},{"marker":"credentials","because":["needs COMPOSIO_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

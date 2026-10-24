@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/airflow-plugins",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/airflow-plugins/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"80421f47c27dfbae9d6f7c7ef8a70f6b974a40de7164060ca3bbe3e9beab6aed"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":24142,"own":{"files":1,"bytes":24142},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["airflow","astro"],"package":["apache-airflow-client"],"mcp-server":[],"credential":["MYPLUGIN_TOKEN"],"network":[]},"summary":"1 file, 24 KiB · CLI airflow, astro · packages apache-airflow-client · 1 key","short":"24 KiB · 2 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs airflow","runs astro"]},{"marker":"installs-packages","because":["installs apache-airflow-client"]},{"marker":"credentials","because":["needs MYPLUGIN_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

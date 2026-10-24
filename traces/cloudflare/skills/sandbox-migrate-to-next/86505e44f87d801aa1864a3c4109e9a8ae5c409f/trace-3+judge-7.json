@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"cloudflare/skills/sandbox-migrate-to-next",
+"source":"cloudflare/skills",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"skillPath":"skills/sandbox-migrate-to-next",
+"status":"resolved",
+"totals":{"files":1,"bytes":7902},
+"files":[
+{"path":"skills/sandbox-migrate-to-next/SKILL.md","size":7902,"blob":"cb08594ac2c7235809f6954058941c82d465c691","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"rg","at":[[0,60]]},
+{"kind":"cli","name":"wrangler","at":[[0,157]]},
+{"kind":"package","name":"@cloudflare/sandbox","at":[[0,77]]}
+],
+"regions":[
+{"kind":"own","path":"skills/sandbox-migrate-to-next","files":1,"bytes":7902}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,77]]},
+{"kind":"fetch-run","detail":"npx wrangler","at":[[0,157]]}
+],
+"namedSkills":[
+{"name":"sandbox-next","path":"skills/sandbox-next","at":[[0,12],[0,55],[0,173]]},
+{"name":"sandbox-stable","path":"skills/sandbox-stable","at":[[0,12]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

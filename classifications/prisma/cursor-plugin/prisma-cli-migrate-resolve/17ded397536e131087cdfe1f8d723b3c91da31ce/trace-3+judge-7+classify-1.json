@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-cli-migrate-resolve",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-cli-migrate-resolve/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"5c4a39e8e181a75abb93a84a88f364f4c428d76719d13fafe7cc6c27f4e6e577"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-cli-migrate-resolve at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

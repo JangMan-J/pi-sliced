@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/notion-cookbook/notion-meeting-intelligence",
+"revision":"8a038e30575514da33329d8d215a9357c01c08ca",
+"trace":{"path":"traces/makenotion/notion-cookbook/notion-meeting-intelligence/8a038e30575514da33329d8d215a9357c01c08ca/trace-3+judge-7.json","sha256":"2e6247784d07e9d5c29133e079fe00b267a6052ea3117910f49a9a54ce1d894a"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":38564,"own":{"files":12,"bytes":38564},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 38 KiB","short":"38 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

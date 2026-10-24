@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/openrlhf-training",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/openrlhf-training/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"bee107d3c30154187b2b7261cac871ec03f96eaa4072a0286c63551955cafda7"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":52392,"own":{"files":5,"bytes":52392},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["actor_num_nodes","deepspeed","docker","ray","telnet"],"package":["openrlhf"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 51 KiB · CLI actor_num_nodes, deepspeed +3 · packages openrlhf","short":"51 KiB · 5 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs actor_num_nodes","runs deepspeed","runs docker","runs ray","runs telnet"]},{"marker":"installs-packages","because":["installs openrlhf"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

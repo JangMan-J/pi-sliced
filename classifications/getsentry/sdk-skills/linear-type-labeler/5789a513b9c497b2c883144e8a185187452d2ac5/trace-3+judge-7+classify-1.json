@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sdk-skills/linear-type-labeler",
+"revision":"5789a513b9c497b2c883144e8a185187452d2ac5",
+"trace":{"path":"traces/getsentry/sdk-skills/linear-type-labeler/5789a513b9c497b2c883144e8a185187452d2ac5/trace-3+judge-7.json","sha256":"3baec744c93a20922d4133ab148e9c3f46b05c86b7c1c78728591580ed8e8c5e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6134,"own":{"files":1,"bytes":6134},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["linear"],"credential":[],"network":[]},"summary":"1 file, 6.0 KiB · MCP linear","short":"6.0 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the linear MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

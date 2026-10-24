@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/monorepo-management",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/monorepo-management/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"e9d0414443dbd02ed30b927551cca1ef9993c70c7bfc65016b39fe3bce36db3f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13128,"own":{"files":2,"bytes":13128},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@turbo/codemod","create-nx-workspace","create-turbo","nx","turbo"],"package":["@changesets/cli","@repo/ui","eslint","react","typescript","web"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 13 KiB · CLI @turbo/codemod, create-nx-workspace +3 · packages @changesets/cli +5","short":"13 KiB · 5 CLI · 6 pkg"},
+"heavy":{"heavy":true,"because":["6 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @turbo/codemod","runs create-nx-workspace","runs create-turbo","runs nx","runs turbo"]},{"marker":"installs-packages","because":["installs @changesets/cli","installs @repo/ui","installs eslint","installs react","installs typescript","installs web"]},{"marker":"unpinned-code","because":["npx @turbo/codemod: plugins/developer-essentials/skills/monorepo-management/SKILL.md:129","npx create-nx-workspace@latest: plugins/developer-essentials/skills/monorepo-management/references/details.md:73","npx create-turbo@latest: plugins/developer-essentials/skills/monorepo-management/SKILL.md:61","npx nx@latest: plugins/developer-essentials/skills/monorepo-management/references/details.md:394","npx turbo: plugins/developer-essentials/skills/monorepo-management/references/details.md:331, plugins/developer-essentials/skills/monorepo-management/references/details.md:332"]}],
+"security":{"fetch-run":["npx @turbo/codemod @ plugins/developer-essentials/skills/monorepo-management/SKILL.md:129","npx create-nx-workspace@latest @ plugins/developer-essentials/skills/monorepo-management/references/details.md:73","npx create-turbo@latest @ plugins/developer-essentials/skills/monorepo-management/SKILL.md:61","npx nx@latest @ plugins/developer-essentials/skills/monorepo-management/references/details.md:394","npx turbo @ plugins/developer-essentials/skills/monorepo-management/references/details.md:331, plugins/developer-essentials/skills/monorepo-management/references/details.md:332"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

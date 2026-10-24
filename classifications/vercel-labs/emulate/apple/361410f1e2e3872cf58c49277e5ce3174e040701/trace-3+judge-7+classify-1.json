@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/emulate/apple",
+"revision":"361410f1e2e3872cf58c49277e5ce3174e040701",
+"trace":{"path":"traces/vercel-labs/emulate/apple/361410f1e2e3872cf58c49277e5ce3174e040701/trace-3+judge-7.json","sha256":"738a1e6151aeb72bd7f2b998d03b272d0dfc4e2a5de3d7cb7c6ad51f3b4edc59"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8348,"own":{"files":1,"bytes":8348},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["emulate"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.2 KiB · CLI emulate","short":"8.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs emulate"]},{"marker":"unpinned-code","because":["npx emulate: skills/apple/SKILL.md:17, skills/apple/SKILL.md:247"]}],
+"security":{"fetch-run":["npx emulate @ skills/apple/SKILL.md:17, skills/apple/SKILL.md:247"]},
+"companions":{"named":[{"name":"emulate","path":"skills/emulate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

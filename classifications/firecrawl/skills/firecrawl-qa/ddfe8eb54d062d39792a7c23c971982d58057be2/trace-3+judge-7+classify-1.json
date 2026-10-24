@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/firecrawl-qa",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/firecrawl-qa/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"91fe58bc66d0c66c9b124390542ce164e0cabec36af6589562e951a393082308"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2319,"own":{"files":1,"bytes":2319},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.3 KiB","short":"2.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

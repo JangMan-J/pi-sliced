@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/review-hog-perspective-performance-reliability",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/review-hog-perspective-performance-reliability/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"b132b48600a36187193b7baf913981153b647cd63db59bc1adc3016d0e41f8b4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3898,"own":{"files":1,"bytes":3898},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["rg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.8 KiB · CLI rg","short":"3.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs rg"]},{"marker":"stub","because":["own folder 3.8 KiB (1 file)","content is the rg it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/recovery-controller-setup",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/recovery-controller-setup/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"6a71a966317d823930b87e598472e424fa379591227e733401770c87c15c5535"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":21666,"own":{"files":3,"bytes":21666},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"3 files, 21 KiB · MCP aws · CLI aws","short":"21 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"arc-region-switch","path":"skills/specialized-skills/resilience-skills/arc-region-switch"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

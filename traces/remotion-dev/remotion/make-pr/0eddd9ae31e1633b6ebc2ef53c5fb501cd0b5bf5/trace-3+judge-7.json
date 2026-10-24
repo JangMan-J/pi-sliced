@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"remotion-dev/remotion/make-pr",
+"source":"remotion-dev/remotion",
+"revision":"0eddd9ae31e1633b6ebc2ef53c5fb501cd0b5bf5",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named make-pr at 0eddd9ae31e1633b6ebc2ef53c5fb501cd0b5bf5",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

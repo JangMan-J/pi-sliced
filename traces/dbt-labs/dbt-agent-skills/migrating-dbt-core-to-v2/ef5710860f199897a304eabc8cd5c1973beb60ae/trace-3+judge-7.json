@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"dbt-labs/dbt-agent-skills/migrating-dbt-core-to-v2",
+"source":"dbt-labs/dbt-agent-skills",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"skillPath":"skills/dbt-migration/skills/migrating-dbt-core-to-v2",
+"status":"resolved",
+"totals":{"files":4,"bytes":42489},
+"files":[
+{"path":"skills/dbt-migration/skills/migrating-dbt-core-to-v2/SKILL.md","size":18469,"blob":"296b627a8fc86f085e5819b7abd0652309e4f007","how":"root"},
+{"path":"skills/dbt-migration/skills/migrating-dbt-core-to-v2/references/README.md","size":761,"blob":"287c96b892910a01272c1141068ac58d81a21afe","how":"link","from":0,"line":35},
+{"path":"skills/dbt-migration/skills/migrating-dbt-core-to-v2/references/classification-categories.md","size":12994,"blob":"159741e52e5fa8be905459bab96d21b60d6fb531","how":"link","from":0,"line":37},
+{"path":"skills/dbt-migration/skills/migrating-dbt-core-to-v2/references/error-patterns-reference.md","size":10265,"blob":"7749206633bba0429b488e3f16df068ff34b62d0","how":"link","from":0,"line":36}
+],
+"outside":[
+{"kind":"cli","name":"dbt","at":[[0,56]]},
+{"kind":"cli","name":"dbt-autofix","at":[[0,89],[3,71]]}
+],
+"regions":[
+{"kind":"own","path":"skills/dbt-migration/skills/migrating-dbt-core-to-v2","files":4,"bytes":42489}
+],
+"signals":[
+{"kind":"fetch-run","detail":"uvx git+https://github.com/dbt-labs/dbt-autofix.git","at":[[0,89]]},
+{"kind":"injection","detail":"don't tell the user","at":[[0,174]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

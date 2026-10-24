@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/feature-risk-assessment",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/feature-risk-assessment/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"b3812abd52339e564c29cff332948c70461f6f5b2d4ff2b9c60bac1aa4461667"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8965,"own":{"files":1,"bytes":8965},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.8 KiB","short":"8.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/fast/documentation",
+"revision":"2b199ce3ded38c33d9cf83d6b185e0061d2dc5b2",
+"trace":{"path":"traces/microsoft/fast/documentation/2b199ce3ded38c33d9cf83d6b185e0061d2dc5b2/trace-3+judge-7.json","sha256":"85690e2f53670728949a21edb0ee1cc5be1fbc18df3498d079f184bc9b0843e6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1269,"own":{"files":1,"bytes":1269},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.2 KiB","short":"1.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

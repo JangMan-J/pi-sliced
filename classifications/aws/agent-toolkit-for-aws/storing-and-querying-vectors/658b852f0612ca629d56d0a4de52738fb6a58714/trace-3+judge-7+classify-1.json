@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/storing-and-querying-vectors",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/storing-and-querying-vectors/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"e0b30f3bbf6d564523e629d7150a60db358a0219b1b373679291717e9e17c73b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":12546,"own":{"files":3,"bytes":12546},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"3 files, 12 KiB · MCP aws · CLI aws","short":"12 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

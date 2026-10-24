@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/generate-canvas-app",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/generate-canvas-app/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"6576c1963d783399cf1d8024e9273ff98b7091ba092b1fb971c81847f40c609c"},
+"status":"unresolvable",
+"reason":"no skill folder named generate-canvas-app at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

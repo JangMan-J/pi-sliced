@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vapiai/skills/setup-webhook",
+"source":"vapiai/skills",
+"revision":"be94005f1ba39e30cb57087b0ddf182919209111",
+"skillPath":"setup-webhook",
+"status":"resolved",
+"totals":{"files":2,"bytes":11953},
+"files":[
+{"path":"setup-webhook/SKILL.md","size":8537,"blob":"c1c065baf535dbcd96bb1329e6a3d27f951a2e93","how":"root"},
+{"path":"setup-webhook/references/webhook-events.md","size":3416,"blob":"fa4458607e48ac35525f7a0a687c3c4cc21b4d91","how":"link","from":0,"line":230}
+],
+"outside":[
+{"kind":"cli","name":"claude","at":[[0,241]]},
+{"kind":"cli","name":"ngrok","at":[[0,202],[0,211]]},
+{"kind":"cli","name":"vapi","at":[[0,205]]},
+{"kind":"credential","name":"VAPI_API_KEY","at":[[0,26]]},
+{"kind":"network","name":"api.vapi.ai","at":[[0,26]]},
+{"kind":"network","name":"vapi.ai","at":[[0,199]]}
+],
+"regions":[
+{"kind":"own","path":"setup-webhook","files":2,"bytes":11953}
+],
+"signals":[
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,199]]},
+{"kind":"secret-egress","detail":"VAPI_API_KEY -> api.vapi.ai","at":[[0,26]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"MIT"}
+}

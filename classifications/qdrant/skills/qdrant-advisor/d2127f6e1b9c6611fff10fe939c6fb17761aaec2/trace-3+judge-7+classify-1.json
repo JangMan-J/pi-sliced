@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"qdrant/skills/qdrant-advisor",
+"revision":"d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+"trace":{"path":"traces/qdrant/skills/qdrant-advisor/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/trace-3+judge-7.json","sha256":"79a48b4706ac4cbdd77dd765c514645a688bec8a1870191dbb7c3b38bfc72998"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6831,"own":{"files":1,"bytes":6831},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["skills.qdrant.tech"]},"summary":"1 file, 6.7 KiB · 1 host","short":"6.7 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from skills.qdrant.tech"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

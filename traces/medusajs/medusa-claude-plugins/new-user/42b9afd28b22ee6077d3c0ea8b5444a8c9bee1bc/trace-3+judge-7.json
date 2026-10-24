@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"medusajs/medusa-claude-plugins/new-user",
+"source":"medusajs/medusa-claude-plugins",
+"revision":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc",
+"skillPath":"plugins/medusa-dev/skills/new-user",
+"status":"resolved",
+"totals":{"files":1,"bytes":793},
+"files":[
+{"path":"plugins/medusa-dev/skills/new-user/SKILL.md","size":793,"blob":"914ecf10369706179b39d66eae04e21989b249c8","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"medusa","at":[[0,18]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/medusa-dev/skills/new-user","files":1,"bytes":793}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx medusa","at":[[0,18]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

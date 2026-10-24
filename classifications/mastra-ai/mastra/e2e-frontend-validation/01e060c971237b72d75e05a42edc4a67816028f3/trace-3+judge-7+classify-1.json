@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mastra-ai/mastra/e2e-frontend-validation",
+"revision":"01e060c971237b72d75e05a42edc4a67816028f3",
+"trace":{"path":"traces/mastra-ai/mastra/e2e-frontend-validation/01e060c971237b72d75e05a42edc4a67816028f3/trace-3+judge-7.json","sha256":"c61fc9dbafde21d5f49a4c57af22c46ec203c42889f38fc225ea88a794a2d708"},
+"status":"unresolvable",
+"reason":"no skill folder named e2e-frontend-validation at 01e060c971237b72d75e05a42edc4a67816028f3"
+}

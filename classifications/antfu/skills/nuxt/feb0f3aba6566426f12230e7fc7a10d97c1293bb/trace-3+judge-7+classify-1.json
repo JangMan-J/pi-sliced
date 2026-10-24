@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"antfu/skills/nuxt",
+"revision":"feb0f3aba6566426f12230e7fc7a10d97c1293bb",
+"trace":{"path":"traces/antfu/skills/nuxt/feb0f3aba6566426f12230e7fc7a10d97c1293bb/trace-3+judge-7.json","sha256":"5fa16a9e32f383c91f00609dfd0d6fbb53163fe45eb075d58ed295041b5cb99d"},
+"status":"resolved",
+"footprint":{"files":19,"bytes":133689,"own":{"files":19,"bytes":133689},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","netlify","nuxi","nuxt","vercel"],"package":["netlify-cli","vercel"],"mcp-server":[],"credential":[],"network":[]},"summary":"19 files, 131 KiB · CLI docker, netlify +3 · packages netlify-cli +1","short":"131 KiB · 5 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs netlify","runs nuxi","runs nuxt","runs vercel"]},{"marker":"installs-packages","because":["installs netlify-cli","installs vercel"]},{"marker":"unpinned-code","because":["npx nuxi: skills/nuxt/references/advanced-layers.md:244, skills/nuxt/references/advanced-module-authoring.md:580, skills/nuxt/references/features-state.md:102","npx nuxi@latest: skills/nuxt/references/core-cli.md:18, skills/nuxt/references/core-cli.md:21, skills/nuxt/references/core-cli.md:24","npx nuxt: skills/nuxt/references/core-cli.md:8, skills/nuxt/references/core-cli.md:48, skills/nuxt/references/core-cli.md:51"]}],
+"security":{"fetch-run":["npx nuxi @ skills/nuxt/references/advanced-layers.md:244, skills/nuxt/references/advanced-module-authoring.md:580, skills/nuxt/references/features-state.md:102","npx nuxi@latest @ skills/nuxt/references/core-cli.md:18, skills/nuxt/references/core-cli.md:21, skills/nuxt/references/core-cli.md:24 +2","npx nuxt @ skills/nuxt/references/core-cli.md:8, skills/nuxt/references/core-cli.md:48, skills/nuxt/references/core-cli.md:51 +32"]},
+"companions":{"named":[{"name":"nitro","path":"skills/nitro"},{"name":"vite","path":"skills/vite"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

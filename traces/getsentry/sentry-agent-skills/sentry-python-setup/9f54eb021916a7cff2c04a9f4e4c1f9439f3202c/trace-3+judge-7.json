@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/sentry-agent-skills/sentry-python-setup",
+"source":"getsentry/sentry-agent-skills",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named sentry-python-setup at 9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

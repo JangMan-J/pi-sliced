@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/running-an-architectural-assessment",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/running-an-architectural-assessment/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"5274338add5f85494f3fa5c34edea4be981a07b08e195b3c9035d1313322066e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11218,"own":{"files":1,"bytes":11218},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"running-a-proof-of-concept","path":"plugins/bitwarden-shepherd/skills/running-a-proof-of-concept"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

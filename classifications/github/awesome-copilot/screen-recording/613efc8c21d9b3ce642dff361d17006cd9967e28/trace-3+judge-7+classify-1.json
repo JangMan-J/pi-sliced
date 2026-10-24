@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/screen-recording",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/screen-recording/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"5207a68c5194d760debfa21d95c1dc7dd1c9f332ff0fd2e2d97d515f09f03eb6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8067,"own":{"files":1,"bytes":8067},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["playwright"],"package":["Pillow","imageio","mss","numpy","playwright","scipy"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.9 KiB · CLI playwright · packages Pillow +5","short":"7.9 KiB · 1 CLI · 6 pkg"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs playwright"]},{"marker":"installs-packages","because":["installs imageio","installs mss","installs numpy","installs Pillow","installs playwright","installs scipy"]}],
+"security":{},
+"companions":{"named":[{"name":"image-annotations","path":"skills/image-annotations"},{"name":"ui-screenshots","path":"skills/ui-screenshots"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mastra-ai/mastra/debugging-difficult-bugs",
+"revision":"01e060c971237b72d75e05a42edc4a67816028f3",
+"trace":{"path":"traces/mastra-ai/mastra/debugging-difficult-bugs/01e060c971237b72d75e05a42edc4a67816028f3/trace-3+judge-7.json","sha256":"69d128a0a210fb8376c9d0da08c538aad67ec3b1d8887a7d8dfb69b05c8a0ac9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7454,"own":{"files":1,"bytes":7454},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB","short":"7.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/chatting-with-aws-devops-agent",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/chatting-with-aws-devops-agent/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"83b66d92a9ca5b8e315db225a2adb171e225f4504d09a57f6b5730d447f1eea9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5452,"own":{"files":1,"bytes":5452},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.3 KiB · CLI aws","short":"5.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]}],
+"security":{},
+"companions":{"named":[{"name":"investigating-incidents-with-aws-devops-agent","path":"plugins/aws-agents-for-devsecops/skills/investigating-incidents-with-aws-devops-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

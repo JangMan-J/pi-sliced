@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/excalidraw-diagram-generator",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/excalidraw-diagram-generator/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"d1396616dd5c5555f5291f8669354cfe39f36469af10a1349741bb1cbe6485c7"},
+"status":"resolved",
+"footprint":{"files":16,"bytes":144659,"own":{"files":16,"bytes":144659},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dashed"],"package":[],"mcp-server":[],"credential":[],"network":["excalidraw.com","libraries.excalidraw.com"]},"summary":"16 files, 141 KiB · CLI dashed · 2 hosts","short":"141 KiB · 1 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dashed"]},{"marker":"network","because":["fetches from excalidraw.com","fetches from libraries.excalidraw.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/firecrawl-job-postings",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/firecrawl-job-postings/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"aaf740d68925330ccf1d8013a5d282ff5b7de4c111395050cbb37d2eea3f4421"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2448,"own":{"files":1,"bytes":2448},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firecrawl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.4 KiB · CLI firecrawl","short":"2.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs firecrawl"]},{"marker":"stub","because":["own folder 2.4 KiB (1 file)","content is the firecrawl it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

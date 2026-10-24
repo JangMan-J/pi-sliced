@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/expo-deployment",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/expo-deployment/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"36f2937dcf4332fee76960b72602c05cc55e675d0ccfbb73186ce2840d99a3d5"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":34018,"own":{"files":6,"bytes":34018},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["eas","eas-cli","expo","testflight"],"package":["eas-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 33 KiB · CLI eas, eas-cli +2 · packages eas-cli","short":"33 KiB · 4 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs eas","runs eas-cli","runs expo","runs testflight"]},{"marker":"installs-packages","because":["installs eas-cli"]},{"marker":"unpinned-code","because":["npx eas-cli@latest: plugins/expo/skills/expo-deployment/SKILL.md:34, plugins/expo/skills/expo-deployment/SKILL.md:45, plugins/expo/skills/expo-deployment/SKILL.md:48","npx expo: plugins/expo/skills/expo-deployment/SKILL.md:73","npx testflight: plugins/expo/skills/expo-deployment/SKILL.md:64, plugins/expo/skills/expo-deployment/SKILL.md:121, plugins/expo/skills/expo-deployment/references/ios-app-store.md:79"]}],
+"security":{"fetch-run":["npx eas-cli@latest @ plugins/expo/skills/expo-deployment/SKILL.md:34, plugins/expo/skills/expo-deployment/SKILL.md:45, plugins/expo/skills/expo-deployment/SKILL.md:48 +5","npx expo @ plugins/expo/skills/expo-deployment/SKILL.md:73","npx testflight @ plugins/expo/skills/expo-deployment/SKILL.md:64, plugins/expo/skills/expo-deployment/SKILL.md:121, plugins/expo/skills/expo-deployment/references/ios-app-store.md:79 +2"]},
+"companions":{"named":[{"name":"alpha","path":"plugins/plugin-eval/fixtures/multi-skill-plugin/skills/alpha"},{"name":"beta","path":"plugins/plugin-eval/fixtures/multi-skill-plugin/skills/beta"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

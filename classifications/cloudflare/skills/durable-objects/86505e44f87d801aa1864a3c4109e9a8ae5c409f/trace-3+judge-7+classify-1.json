@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/skills/durable-objects",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"trace":{"path":"traces/cloudflare/skills/durable-objects/86505e44f87d801aa1864a3c4109e9a8ae5c409f/trace-3+judge-7.json","sha256":"8c5503eebe92d6316c26780a24ceb931e8572b8001bc008f13f5cf0a604a196e"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":18955,"own":{"files":4,"bytes":18955},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["wrangler"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 19 KiB · CLI wrangler","short":"19 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs wrangler"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

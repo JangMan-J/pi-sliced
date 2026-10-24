@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/play-billing-library-version-upgrade",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"play/play-billing-library-version-upgrade",
+"status":"resolved",
+"totals":{"files":4,"bytes":93873},
+"files":[
+{"path":"play/play-billing-library-version-upgrade/SKILL.md","size":5656,"blob":"efe36117fdc1eb6347a2e7aaf80ac7067e5ddf2c","how":"root"},
+{"path":"play/play-billing-library-version-upgrade/references/android/google/play/billing/release-notes.md","size":80434,"blob":"02c41147910928d59f8faf638dd69e5e31e65ea4","how":"link","from":0,"line":50},
+{"path":"play/play-billing-library-version-upgrade/references/migration-logic.md","size":4379,"blob":"227a537011013442578bf315b58d83100761ac3f","how":"link","from":0,"line":70},
+{"path":"play/play-billing-library-version-upgrade/references/version-checklist.md","size":3404,"blob":"98f583127cd4b1e62b44e0bddec0f517cfa896ad","how":"link","from":0,"line":82}
+],
+"outside":[
+{"kind":"network","name":"developer.android.com","at":[[1,10]]}
+],
+"regions":[
+{"kind":"own","path":"play/play-billing-library-version-upgrade","files":4,"bytes":93873}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

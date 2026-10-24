@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/debugview",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/debugview/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"9a73e2008d75d4e431a18065eafa4dce6d87c3af700ce56b294b068f1e2ac357"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":34597,"own":{"files":7,"bytes":34597},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dbgviewcli","myapp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 34 KiB · CLI dbgviewcli, myapp","short":"34 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dbgviewcli","runs myapp"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

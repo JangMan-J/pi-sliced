@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/pup/dd-file-issue",
+"revision":"6c3a4707f5ab87688566020d868a50810db08166",
+"trace":{"path":"traces/datadog-labs/pup/dd-file-issue/6c3a4707f5ab87688566020d868a50810db08166/trace-3+judge-7.json","sha256":"978de18102e2df7c5e09c3bf911d3ad23f9ecc2d5ade23fbee33e8f7badaca73"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":16005,"own":{"files":1,"bytes":9180},"otherSkills":{"count":1,"files":1,"bytes":6825},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Add","Command","Confusing","Medium","Should","Shows","The","focuses","gh","lines","need","pup","times"],"package":[],"mcp-server":[],"credential":["DD_API_KEY","DD_APP_KEY"],"network":[]},"summary":"2 files, 16 KiB · +1 other skill · CLI Add, Command +11 · 2 keys","short":"16 KiB · +1 skill · 13 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["13 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs Add","runs Command","runs Confusing","runs focuses","runs gh","runs lines","runs Medium","runs need","runs pup","runs Should","runs Shows","runs The","runs times"]},{"marker":"credentials","because":["needs DD_API_KEY","needs DD_APP_KEY"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at ."]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".","files":1,"bytes":6825}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

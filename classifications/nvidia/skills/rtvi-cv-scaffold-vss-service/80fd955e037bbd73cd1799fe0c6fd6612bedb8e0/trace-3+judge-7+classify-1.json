@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/rtvi-cv-scaffold-vss-service",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/rtvi-cv-scaffold-vss-service/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"fcca6be1bba2ecd6565772d3fb267d6029437f0774e44bc42ef9632b8217d93b"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":101549,"own":{"files":5,"bytes":92822},"otherSkills":{"count":1,"files":1,"bytes":8727},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","strings"],"package":["ca-certificates","curl","python3","python3-pip"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 99 KiB · +1 other skill · CLI docker, strings · packages ca-certificates +3","short":"99 KiB · +1 skill · 2 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs strings"]},{"marker":"installs-packages","because":["installs ca-certificates","installs curl","installs python3","installs python3-pip"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/rtvi-cv-customize-model"]}],
+"security":{},
+"companions":{"named":[{"name":"rtvi-cv-customize-model","path":"skills/rtvi-cv-customize-model"}],"pulled":[{"path":"skills/rtvi-cv-customize-model","files":1,"bytes":8727}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

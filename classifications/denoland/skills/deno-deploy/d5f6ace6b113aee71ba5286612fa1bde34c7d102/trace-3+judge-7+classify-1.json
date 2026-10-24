@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"denoland/skills/deno-deploy",
+"revision":"d5f6ace6b113aee71ba5286612fa1bde34c7d102",
+"trace":{"path":"traces/denoland/skills/deno-deploy/d5f6ace6b113aee71ba5286612fa1bde34c7d102/trace-3+judge-7.json","sha256":"21f339468f6d543ea676a597909e45fe0ca131f1bb7402eb8a4184e449113a25"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":54286,"own":{"files":9,"bytes":54286},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["deno"],"package":[],"mcp-server":[],"credential":["DENO_DEPLOY_TOKEN"],"network":["console.deno.com"]},"summary":"9 files, 53 KiB · CLI deno · 1 key · 1 host","short":"53 KiB · 1 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs deno"]},{"marker":"network","because":["fetches from console.deno.com"]},{"marker":"credentials","because":["needs DENO_DEPLOY_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"deno","path":"skills/deno"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

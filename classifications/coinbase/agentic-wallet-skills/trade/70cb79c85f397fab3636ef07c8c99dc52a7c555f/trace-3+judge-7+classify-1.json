@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/trade",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/trade/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"83df97841bc1be9c7779e535801585adba148f81c111206005d0737b25180c5f"},
+"status":"unresolvable",
+"reason":"no skill folder named trade at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

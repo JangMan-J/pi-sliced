@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skills/paidf-orchestration-write-dag",
+"source":"nvidia/skills",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"skillPath":"skills/paidf-orchestration-write-dag",
+"status":"resolved",
+"totals":{"files":2,"bytes":39599},
+"files":[
+{"path":"skills/paidf-orchestration-write-dag/SKILL.md","size":33109,"blob":"567e0df58a3be4b18b6b97d81d8614a71bfdebe3","how":"root"},
+{"path":"skills/paidf-orchestration-write-dag/references/component-skills-excerpt.md","size":6490,"blob":"c1c472b93fb18440829bdf1b9391cdeb09dbdea3","how":"link","from":0,"line":76}
+],
+"outside":[
+{"kind":"cli","name":"kubectl","at":[[0,416]]},
+{"kind":"cli","name":"make","at":[[0,310]]}
+],
+"regions":[
+{"kind":"own","path":"skills/paidf-orchestration-write-dag","files":2,"bytes":39599}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE-APACHE","spdx":"Apache-2.0","frontmatter":"CC-BY-4.0 AND Apache-2.0"}
+}

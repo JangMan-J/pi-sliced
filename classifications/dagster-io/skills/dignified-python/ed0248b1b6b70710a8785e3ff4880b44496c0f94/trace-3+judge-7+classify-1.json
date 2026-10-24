@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/skills/dignified-python",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/skills/dignified-python/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"2a8d8f1e2179d2a8317f878a7d6520d39ef11b270f49dcd73a92ad3ef481d5c9"},
+"status":"unresolvable",
+"reason":"no skill folder named dignified-python at ed0248b1b6b70710a8785e3ff4880b44496c0f94"
+}

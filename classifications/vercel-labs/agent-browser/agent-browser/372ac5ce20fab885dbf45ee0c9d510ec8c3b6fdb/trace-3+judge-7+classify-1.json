@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-browser/agent-browser",
+"revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"trace":{"path":"traces/vercel-labs/agent-browser/agent-browser/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/trace-3+judge-7.json","sha256":"14718cbedab70055d82d6ab5faa17c4f715956bf90474fdac410cfde6388c57d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3457,"own":{"files":1,"bytes":3457},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-browser"],"package":["agent-browser"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB · CLI agent-browser · packages agent-browser","short":"3.4 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser"]},{"marker":"installs-packages","because":["installs agent-browser"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the agent-browser it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

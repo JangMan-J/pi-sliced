@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/openai-agents-python/code-change-verification",
+"revision":"0dc4cf152bff1f50bdc0e41f28808563406545b2",
+"trace":{"path":"traces/openai/openai-agents-python/code-change-verification/0dc4cf152bff1f50bdc0e41f28808563406545b2/trace-3+judge-7.json","sha256":"9179f8956132448062316fda51ef7dc23fd91c4ae0d564a218f9678a4dd0deef"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":13874,"own":{"files":3,"bytes":13874},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["make","powershell"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 14 KiB · CLI make, powershell","short":"14 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs make","runs powershell"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-vue",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-vue/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"d18815731556f2116cbd994761ec878b4afd9bec1827fe9a7f8d93202a455255"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-vue at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

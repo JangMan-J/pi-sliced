@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/terraform-agent-kit/terraform-stacks",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/terraform-agent-kit/terraform-stacks/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"519cbc7371849f6edb53c56638e0401d74bcbcaf89a0961cc4626d25b8ac13d4"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":104671,"own":{"files":7,"bytes":104671},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["const","import","jq","terraform"],"package":[],"mcp-server":[],"credential":["TFC_TOKEN"],"network":["app.terraform.io"]},"summary":"7 files, 102 KiB · CLI const, import +2 · 1 key · 1 host","short":"102 KiB · 4 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs const","runs import","runs jq","runs terraform"]},{"marker":"network","because":["fetches from app.terraform.io"]},{"marker":"credentials","because":["needs TFC_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

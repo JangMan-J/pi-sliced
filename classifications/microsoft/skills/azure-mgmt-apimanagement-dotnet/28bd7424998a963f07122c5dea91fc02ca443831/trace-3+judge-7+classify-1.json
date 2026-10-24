@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-mgmt-apimanagement-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-mgmt-apimanagement-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"120d48646e1d2bb8bc0a2eb0a6d653084462353b10f886c3a5f17ce6b45d92f8"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":22530,"own":{"files":4,"bytes":22530},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.ResourceManager.ApiManagement"],"mcp-server":[],"credential":["AZURE_CLIENT_SECRET","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"4 files, 22 KiB · CLI dotnet · packages Azure.Identity +1 · 2 keys","short":"22 KiB · 1 CLI · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.ResourceManager.ApiManagement"]},{"marker":"credentials","because":["needs AZURE_CLIENT_SECRET","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

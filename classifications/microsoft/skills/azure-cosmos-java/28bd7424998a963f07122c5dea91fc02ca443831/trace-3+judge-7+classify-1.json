@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-cosmos-java",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-cosmos-java/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"e1b2356edca612f86283575e385303c8726fae6f063ed3fd26abe83556a9a594"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7499,"own":{"files":1,"bytes":7499},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["COSMOS_KEY"],"network":[]},"summary":"1 file, 7.3 KiB · 1 key","short":"7.3 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs COSMOS_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

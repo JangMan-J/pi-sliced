@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/expo-skill-feedback",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/expo-skill-feedback/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"f68d920b3b8b9fe66292c73f8f11778f89436a538201262dbb1ba127a0d18dc2"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":15397,"own":{"files":3,"bytes":15397},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo","submit-expo-feedback"],"package":[],"mcp-server":["exact"],"credential":["EXPO_SKILLS_POSTHOG_KEY"],"network":["us.i.posthog.com"]},"summary":"3 files, 15 KiB · MCP exact · CLI expo, submit-expo-feedback · 1 key · 1 host","short":"15 KiB · 2 CLI · 1 key · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs expo","runs submit-expo-feedback"]},{"marker":"network","because":["fetches from us.i.posthog.com"]},{"marker":"credentials","because":["needs EXPO_SKILLS_POSTHOG_KEY"]},{"marker":"mcp-server","because":["uses the exact MCP server"]},{"marker":"unpinned-code","because":["npx expo: plugins/expo/skills/expo-skill-feedback/SKILL.md:31","npx submit-expo-feedback@latest: plugins/expo/skills/expo-skill-feedback/SKILL.md:14, plugins/expo/skills/expo-skill-feedback/SKILL.md:20, plugins/expo/skills/expo-skill-feedback/SKILL.md:84"]}],
+"security":{"fetch-run":["npx expo @ plugins/expo/skills/expo-skill-feedback/SKILL.md:31","npx submit-expo-feedback@latest @ plugins/expo/skills/expo-skill-feedback/SKILL.md:14, plugins/expo/skills/expo-skill-feedback/SKILL.md:20, plugins/expo/skills/expo-skill-feedback/SKILL.md:84"]},
+"companions":{"named":[{"name":"expo-router","path":"plugins/expo/skills/expo-router"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

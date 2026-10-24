@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/plugin-audit",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/plugin-audit/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"a7f7741bd141daaabcb21446b6903b95981105443b3045d5651cd6a485f843e3"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":11330,"own":{"files":3,"bytes":11330},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"checkout-scripts","because":["code reaches hooks/pretooluse-skill-inject.mjs (1 files) in the repository checkout","code reaches hooks/logger.mjs (1 files) in the repository checkout"]},{"marker":"persistent-writes","because":["writes to a skill folder: .claude/skills/plugin-audit/SKILL.md:55"]}],
+"security":{"persist-write":["skill folder @ .claude/skills/plugin-audit/SKILL.md:55"]},
+"companions":{"named":[{"name":"vercel-storage","path":"skills/vercel-storage"}],"pulled":[]},
+"checkoutReach":{"edges":2,"targets":["hooks/logger.mjs","hooks/pretooluse-skill-inject.mjs"],"files":2,"bytes":38552}
+}

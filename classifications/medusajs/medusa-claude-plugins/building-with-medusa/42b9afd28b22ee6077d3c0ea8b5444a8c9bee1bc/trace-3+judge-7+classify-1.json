@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"medusajs/medusa-claude-plugins/building-with-medusa",
+"revision":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc",
+"trace":{"path":"traces/medusajs/medusa-claude-plugins/building-with-medusa/42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc/trace-3+judge-7.json","sha256":"6150e2f2c45c5fd4f48cc55bd7bb1eb70609c517a1e514262fddaef98642957d"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":161851,"own":{"files":12,"bytes":161851},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["medusa"],"package":["@medusajs/index"],"mcp-server":["medusadocs"],"credential":[],"network":[]},"summary":"12 files, 158 KiB · MCP medusadocs · CLI medusa · packages @medusajs/index","short":"158 KiB · 1 CLI · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs medusa"]},{"marker":"installs-packages","because":["installs @medusajs/index"]},{"marker":"mcp-server","because":["uses the medusadocs MCP server"]},{"marker":"unpinned-code","because":["npx medusa: plugins/medusa-dev/skills/building-with-medusa/SKILL.md:226, plugins/medusa-dev/skills/building-with-medusa/reference/custom-modules.md:138, plugins/medusa-dev/skills/building-with-medusa/reference/custom-modules.md:142"]}],
+"security":{"fetch-run":["npx medusa @ plugins/medusa-dev/skills/building-with-medusa/SKILL.md:226, plugins/medusa-dev/skills/building-with-medusa/reference/custom-modules.md:138, plugins/medusa-dev/skills/building-with-medusa/reference/custom-modules.md:142 +9"]},
+"companions":{"named":[{"name":"building-admin-dashboard-customizations","path":"plugins/medusa-dev/skills/building-admin-dashboard-customizations"},{"name":"building-storefronts","path":"plugins/medusa-dev/skills/building-storefronts"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

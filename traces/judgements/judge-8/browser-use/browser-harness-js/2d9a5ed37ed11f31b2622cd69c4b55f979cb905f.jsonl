@@ -1,0 +1,1 @@
+{"id":"29261ab6bd8db23f741bb6e3300e2744b400144a9424b431764cd17a66f833ec","pullsIn":false,"reason":"States where the SDK lives, a location rather than a direction to read the directory.","judge":"judge-8","model":"claude-sonnet-5-5","file":"SKILL.md","line":10,"ref":"sdk/","target":"sdk"}

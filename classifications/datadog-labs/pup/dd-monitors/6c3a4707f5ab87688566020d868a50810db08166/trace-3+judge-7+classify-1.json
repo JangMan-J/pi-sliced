@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/pup/dd-monitors",
+"revision":"6c3a4707f5ab87688566020d868a50810db08166",
+"trace":{"path":"traces/datadog-labs/pup/dd-monitors/6c3a4707f5ab87688566020d868a50810db08166/trace-3+judge-7.json","sha256":"3b2cb83e5a30ae5a34b7dcfa14e757f93f4d8ba76a3123ca93c9c94860f3ccb5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4571,"own":{"files":1,"bytes":4571},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","pup"],"package":["pup"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.5 KiB · CLI jq, pup · packages pup","short":"4.5 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs pup"]},{"marker":"installs-packages","because":["installs pup"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

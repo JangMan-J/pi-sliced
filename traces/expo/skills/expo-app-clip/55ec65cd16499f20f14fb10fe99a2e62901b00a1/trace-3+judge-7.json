@@ -1,0 +1,42 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/expo-app-clip",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/expo-app-clip",
+"status":"resolved",
+"totals":{"files":2,"bytes":11909},
+"files":[
+{"path":"plugins/expo/skills/expo-app-clip/SKILL.md","size":9604,"blob":"4d862ecb66691a22936d9248bb0fdb652851a701","how":"root"},
+{"path":"plugins/expo/skills/expo-app-clip/references/native-module.md","size":2305,"blob":"1eeefe011ff52f951403192037ffcd862f1d5c26","how":"link","from":0,"line":278}
+],
+"outside":[
+{"kind":"cli","name":"create-expo-module","at":[[0,276],[1,6]]},
+{"kind":"cli","name":"eas","at":[[0,174],[0,225],[0,258]]},
+{"kind":"cli","name":"expo","at":[[0,41],[0,135],[0,173],[0,188]]},
+{"kind":"cli","name":"setup-safari","at":[[0,80]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[0,287]]},
+{"kind":"cli","name":"testflight","at":[[0,8],[0,210]]},
+{"kind":"network","name":"developer.apple.com","at":[[0,8]]},
+{"kind":"network","name":"expo.dev","at":[[0,8]]},
+{"kind":"network","name":"may20.expo.app","at":[[0,180]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-app-clip","files":2,"bytes":11909}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx create-expo-module","at":[[0,276],[1,6]]},
+{"kind":"fetch-run","detail":"bunx expo","at":[[0,41],[0,135],[0,173]]},
+{"kind":"fetch-run","detail":"bunx setup-safari","at":[[0,80]]},
+{"kind":"fetch-run","detail":"bunx testflight","at":[[0,8],[0,210]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,188]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[0,287]]}
+],
+"namedSkills":[
+{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback","at":[[0,290]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":null}
+}

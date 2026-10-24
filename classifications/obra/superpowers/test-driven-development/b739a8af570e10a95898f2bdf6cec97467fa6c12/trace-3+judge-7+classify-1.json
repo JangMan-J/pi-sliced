@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"obra/superpowers/test-driven-development",
+"revision":"b739a8af570e10a95898f2bdf6cec97467fa6c12",
+"trace":{"path":"traces/obra/superpowers/test-driven-development/b739a8af570e10a95898f2bdf6cec97467fa6c12/trace-3+judge-7.json","sha256":"5cfa5a11a20440f9784e66b432a73ae5c1f34db7311625e763f5d47862985354"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":17846,"own":{"files":2,"bytes":17846},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 17 KiB","short":"17 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

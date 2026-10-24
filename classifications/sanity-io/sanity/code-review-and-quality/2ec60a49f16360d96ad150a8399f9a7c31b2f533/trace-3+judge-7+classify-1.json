@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/sanity/code-review-and-quality",
+"revision":"2ec60a49f16360d96ad150a8399f9a7c31b2f533",
+"trace":{"path":"traces/sanity-io/sanity/code-review-and-quality/2ec60a49f16360d96ad150a8399f9a7c31b2f533/trace-3+judge-7.json","sha256":"a779435ab94ad78ece899d4ee685aad925ff484c33fedfee7590f092e91df733"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15240,"own":{"files":1,"bytes":15240},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"performance-optimization","path":".agents/skills/performance-optimization"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

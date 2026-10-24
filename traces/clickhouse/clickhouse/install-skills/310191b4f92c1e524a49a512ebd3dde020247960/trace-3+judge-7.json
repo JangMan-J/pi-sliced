@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"clickhouse/clickhouse/install-skills",
+"source":"clickhouse/clickhouse",
+"revision":"310191b4f92c1e524a49a512ebd3dde020247960",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named install-skills at 310191b4f92c1e524a49a512ebd3dde020247960",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

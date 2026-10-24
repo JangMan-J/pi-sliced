@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-projects-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-projects-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"b5c903fd7b0b4a525c3cfea0b0577ccf51ba98ef503d60f71e17bbb64617a053"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11686,"own":{"files":1,"bytes":11686},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.AI.Agents.Persistent","Azure.AI.Projects","Azure.AI.Projects.OpenAI","Azure.Identity"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 11 KiB · CLI dotnet · packages Azure.AI.Agents.Persistent +3 · 1 key","short":"11 KiB · 1 CLI · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.AI.Agents.Persistent","installs Azure.AI.Projects","installs Azure.AI.Projects.OpenAI","installs Azure.Identity"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

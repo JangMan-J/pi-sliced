@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/doc",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/doc/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"02e2fe6eb7e08dfbc45598ea08a82ceee0351661cd5a7d8a720335f85e14005b"},
+"status":"unresolvable",
+"reason":"no skill folder named doc at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b"
+}

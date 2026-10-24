@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/agent-skills/neon-object-storage",
+"revision":"d814689cbba1506b7a25a7a6df5346258ba8ccf8",
+"trace":{"path":"traces/neondatabase/agent-skills/neon-object-storage/d814689cbba1506b7a25a7a6df5346258ba8ccf8/trace-3+judge-7.json","sha256":"dab838a39b07dae7e72d06c032921ae2b43f36f1b976255bc4604019bf6d1774"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14238,"own":{"files":1,"bytes":14238},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["neon","neon-env"],"package":["@aws-sdk/client-s3","@aws-sdk/s3-presigned-post","@aws-sdk/s3-request-presigner","files-sdk"],"mcp-server":[],"credential":["AWS_SECRET_ACCESS_KEY"],"network":["files-sdk.dev","neon.com"]},"summary":"1 file, 14 KiB · CLI neon, neon-env · packages @aws-sdk/client-s3 +3 · 1 key · 2 hosts","short":"14 KiB · 2 CLI · 4 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs neon","runs neon-env"]},{"marker":"installs-packages","because":["installs @aws-sdk/client-s3","installs @aws-sdk/s3-presigned-post","installs @aws-sdk/s3-request-presigner","installs files-sdk"]},{"marker":"network","because":["fetches from files-sdk.dev","fetches from neon.com"]},{"marker":"credentials","because":["needs AWS_SECRET_ACCESS_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

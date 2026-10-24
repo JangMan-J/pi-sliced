@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/nano-banana-pro-openrouter",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/nano-banana-pro-openrouter/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"0e3bfa014fd1fe6ad958d35d019142c68001496d8f69c69affb719d122554ba6"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":3841,"own":{"files":2,"bytes":3841},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["OPENROUTER_API_KEY"],"network":[]},"summary":"2 files, 3.8 KiB · 1 key","short":"3.8 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs OPENROUTER_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

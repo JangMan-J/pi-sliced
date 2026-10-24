@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/skills/firebase-local-env-setup",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/skills/firebase-local-env-setup/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"2ff7d00e40f5213ae9ae057b87fd8629f6180dd4d59459dd932f6782c085b1f9"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase-local-env-setup at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"2eb4c0b3cd55a67f1576d43a957a0d07d96683221c9918b1f0fcf8582f5aa796"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15080,"own":{"files":1,"bytes":15080},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents","Microsoft.Identity.Web"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI dotnet · packages Azure.Identity +2","short":"15 KiB · 1 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents","installs Microsoft.Identity.Web"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

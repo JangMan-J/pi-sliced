@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"prisma/cursor-plugin/prisma-database-setup-mysql",
+"source":"prisma/cursor-plugin",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named prisma-database-setup-mysql at 17ded397536e131087cdfe1f8d723b3c91da31ce",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

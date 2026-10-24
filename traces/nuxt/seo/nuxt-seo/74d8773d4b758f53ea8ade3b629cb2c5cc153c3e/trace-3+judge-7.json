@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nuxt/seo/nuxt-seo",
+"source":"nuxt/seo",
+"revision":"74d8773d4b758f53ea8ade3b629cb2c5cc153c3e",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named nuxt-seo at 74d8773d4b758f53ea8ade3b629cb2c5cc153c3e",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

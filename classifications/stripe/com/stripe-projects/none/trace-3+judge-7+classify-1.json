@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/com/stripe-projects",
+"revision":"none",
+"trace":{"path":"traces/stripe/com/stripe-projects/none/trace-3+judge-7.json","sha256":"88ac61eb2dc4abc3040547876d64e543cb2b1293ecbb3139758fc20858a2d094"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/stripe/com.git/' not found"
+}

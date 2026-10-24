@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/crewai-multi-agent",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/crewai-multi-agent/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"53cfe3fda14c9f5b949eb7356f613cbc7fb43d2d143d469ef75bbf10fb7a82bf"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":42531,"own":{"files":4,"bytes":42531},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["crewai","pyenv"],"package":["crewai","uv"],"mcp-server":[],"credential":["OPENAI_API_KEY","SERPER_API_KEY","TAVILY_API_KEY"],"network":[]},"summary":"4 files, 42 KiB · CLI crewai, pyenv · packages crewai +1 · 3 keys","short":"42 KiB · 2 CLI · 2 pkg · 3 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs crewai","runs pyenv"]},{"marker":"installs-packages","because":["installs crewai","installs uv"]},{"marker":"credentials","because":["needs OPENAI_API_KEY","needs SERPER_API_KEY","needs TAVILY_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/figma-create-new-file",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/figma-create-new-file/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"4c20b7ca3ccdbeb03bbb7e3b0e7d65ed717e11b7ea9e7c5880ac393fc44c058f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":9212,"own":{"files":1,"bytes":3946},"otherSkills":{"count":1,"files":2,"bytes":5266},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 9.0 KiB · +1 other skill","short":"9.0 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 2 files of the skill at plugins/figma/skills/figma-use-slides"]}],
+"security":{},
+"companions":{"named":[{"name":"figma-use","path":"plugins/figma/skills/figma-use"}],"pulled":[{"path":"plugins/figma/skills/figma-use-slides","files":2,"bytes":5266}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

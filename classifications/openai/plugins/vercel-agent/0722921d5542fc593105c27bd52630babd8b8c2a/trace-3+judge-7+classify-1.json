@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/vercel-agent",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/vercel-agent/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"aae289afbfc33cea272839a4adc8b5846da5e66835874ef5fea627d1cac18c04"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2352,"own":{"files":1,"bytes":2352},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.3 KiB","short":"2.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

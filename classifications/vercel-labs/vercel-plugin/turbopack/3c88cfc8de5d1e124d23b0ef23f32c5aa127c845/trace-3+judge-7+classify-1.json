@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/turbopack",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/turbopack/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"d3b7ff28b0380e6c0b95f7a91a80b2d740e6fe7e3572066d00e09906cedfd6ed"},
+"status":"unresolvable",
+"reason":"no skill folder named turbopack at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

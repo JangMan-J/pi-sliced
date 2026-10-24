@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tavily-ai/tavily-plugins/research",
+"revision":"none",
+"trace":{"path":"traces/tavily-ai/tavily-plugins/research/none/trace-3+judge-7.json","sha256":"a7346d058340f458ac330ab2790188523cec13cff0c02b6ffd68925639c4aec1"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/tavily-ai/tavily-plugins.git/' not found"
+}

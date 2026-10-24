@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/aspire/aspire-deployment",
+"revision":"7a8a24ea649df02e1edeead53ab78e305202acf3",
+"trace":{"path":"traces/microsoft/aspire/aspire-deployment/7a8a24ea649df02e1edeead53ab78e305202acf3/trace-3+judge-7.json","sha256":"c22431ee7597518a788f9364e28e294427a41e25e7eb76e27d09cdbed922bceb"},
+"status":"unresolvable",
+"reason":"no skill folder named aspire-deployment at 7a8a24ea649df02e1edeead53ab78e305202acf3"
+}

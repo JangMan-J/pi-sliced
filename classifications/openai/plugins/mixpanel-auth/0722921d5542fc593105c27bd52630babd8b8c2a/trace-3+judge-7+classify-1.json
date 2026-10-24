@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/mixpanel-auth",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/mixpanel-auth/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"609f8edfbad3dba77ca5934dcd9ee530c574d6516b4427844bf71d6066f6c88f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":24527,"own":{"files":1,"bytes":9906},"otherSkills":{"count":1,"files":1,"bytes":14621},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Now","mp"],"package":["mixpanel_headless"],"mcp-server":[],"credential":["MP_OAUTH_TOKEN"],"network":[]},"summary":"2 files, 24 KiB · +1 other skill · CLI Now, mp · packages mixpanel_headless · 1 key","short":"24 KiB · +1 skill · 2 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs mp","runs Now"]},{"marker":"installs-packages","because":["installs mixpanel_headless"]},{"marker":"credentials","because":["needs MP_OAUTH_TOKEN"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/mixpanel-headless/skills/mixpanelyst"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"plugins/mixpanel-headless/skills/mixpanelyst","files":1,"bytes":14621}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/check-bin-obj-clash",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/check-bin-obj-clash/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"db039174998dd01230efe8a386bd30119096c0843a29c2f47d14642ee13415a7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":21919,"own":{"files":1,"bytes":21919},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":["the"],"credential":[],"network":[]},"summary":"1 file, 21 KiB · MCP the · CLI dotnet","short":"21 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"mcp-server","because":["uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"binlog-generation","path":"plugins/dotnet-msbuild/skills/binlog-generation"},{"name":"msbuild-antipatterns","path":"plugins/dotnet-msbuild/skills/msbuild-antipatterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/dwarf-expert",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/dwarf-expert/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"f84cbd496dc3d68bf48a64a5f11828f397d67d238dfd08a043859bc3ab6a1556"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6020,"own":{"files":1,"bytes":6020},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["llvm-dwarfdump"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.9 KiB · CLI llvm-dwarfdump","short":"5.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs llvm-dwarfdump"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

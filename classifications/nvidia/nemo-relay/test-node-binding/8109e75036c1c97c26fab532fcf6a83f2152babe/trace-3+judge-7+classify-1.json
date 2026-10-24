@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-relay/test-node-binding",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"trace":{"path":"traces/nvidia/nemo-relay/test-node-binding/8109e75036c1c97c26fab532fcf6a83f2152babe/trace-3+judge-7.json","sha256":"df5ace8a56a4d1c7ec12a597daad36f6ccb0d57dee7704ac5a48726aeab6e629"},
+"status":"unresolvable",
+"reason":"no skill folder named test-node-binding at 8109e75036c1c97c26fab532fcf6a83f2152babe"
+}

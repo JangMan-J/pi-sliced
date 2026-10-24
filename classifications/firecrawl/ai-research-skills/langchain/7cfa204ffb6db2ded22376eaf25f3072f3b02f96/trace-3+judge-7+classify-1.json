@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/langchain",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/langchain/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"6e02ed1a93743e8178f30daba795480aa3911a5b835b438102305d6af9ef7228"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":51822,"own":{"files":4,"bytes":51822},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":["langchain","langchain-anthropic","langchain-chroma","langchain-community","langchain-openai"],"mcp-server":[],"credential":["LANGCHAIN_API_KEY","OPENAI_API_KEY"],"network":[]},"summary":"4 files, 51 KiB · CLI docker · packages langchain +4 · 2 keys","short":"51 KiB · 1 CLI · 5 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["5 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]},{"marker":"installs-packages","because":["installs langchain","installs langchain-anthropic","installs langchain-chroma","installs langchain-community","installs langchain-openai"]},{"marker":"credentials","because":["needs LANGCHAIN_API_KEY","needs OPENAI_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

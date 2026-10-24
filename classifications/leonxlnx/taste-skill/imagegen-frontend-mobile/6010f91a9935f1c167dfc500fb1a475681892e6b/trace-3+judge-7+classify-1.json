@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/imagegen-frontend-mobile",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/imagegen-frontend-mobile/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"d33fa33ad6f699021048155f8f8cba65dfd73ce6b6d92bbf7f1e959c86151e3d"},
+"status":"unresolvable",
+"reason":"no skill folder named imagegen-frontend-mobile at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/imagegen-frontend-mobile)"
+}

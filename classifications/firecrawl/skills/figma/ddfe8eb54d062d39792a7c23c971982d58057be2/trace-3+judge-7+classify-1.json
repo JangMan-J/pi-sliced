@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/figma",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/figma/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"de0dd1d5004e53a836d2f184af69ee0e0101a6acb0009b757e14eddf0cd2ecdb"},
+"status":"unresolvable",
+"reason":"no skill folder named figma at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"runwayml/skills/rw-check-org-details",
+"revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de",
+"trace":{"path":"traces/runwayml/skills/rw-check-org-details/3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de/trace-3+judge-7.json","sha256":"bf3f138d20601e4a5b651181c387df71d1c962976e4b8ea08b10241b30fbb789"},
+"status":"unresolvable",
+"reason":"no skill folder named rw-check-org-details at 3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de (the archive had legacy/skills/rw-check-org-details)"
+}

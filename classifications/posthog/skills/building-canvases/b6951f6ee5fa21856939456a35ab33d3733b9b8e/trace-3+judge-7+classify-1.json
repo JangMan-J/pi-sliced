@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/building-canvases",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/building-canvases/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"cb777585b24a220d3a6ec3f549cc2774bcdb71ece067bb3d4d67a9af838f129e"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":23191,"own":{"files":2,"bytes":23191},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 23 KiB","short":"23 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"building-html-canvases","path":"skills/omnibus/building-html-canvases"},{"name":"building-react-quill-canvases","path":"skills/omnibus/building-react-quill-canvases"},{"name":"composing-grid-canvases","path":"skills/omnibus/composing-grid-canvases"},{"name":"querying-canvas-data","path":"skills/omnibus/querying-canvas-data"},{"name":"validating-and-publishing-canvases","path":"skills/omnibus/validating-and-publishing-canvases"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

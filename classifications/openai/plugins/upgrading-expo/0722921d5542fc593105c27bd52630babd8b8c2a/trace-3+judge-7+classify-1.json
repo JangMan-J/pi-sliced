@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/upgrading-expo",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/upgrading-expo/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"b4d5af892de1aaaf41ec1855abfb0d4d6d8a3acd121277cfcef9cb512eca7ce7"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":22794,"own":{"files":7,"bytes":22794},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo","expo-doctor","pod","watchman","xcobra"],"package":[],"mcp-server":[],"credential":[],"network":["docs.expo.dev"]},"summary":"7 files, 22 KiB · CLI expo, expo-doctor +3 · 1 host","short":"22 KiB · 5 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs expo","runs expo-doctor","runs pod","runs watchman","runs xcobra"]},{"marker":"network","because":["fetches from docs.expo.dev"]},{"marker":"unpinned-code","because":["bunx xcobra: plugins/expo/skills/upgrading-expo/references/new-architecture.md:72","npx expo: plugins/expo/skills/upgrading-expo/SKILL.md:24, plugins/expo/skills/upgrading-expo/SKILL.md:32, plugins/expo/skills/upgrading-expo/SKILL.md:33","npx expo-doctor: plugins/expo/skills/upgrading-expo/SKILL.md:36"]}],
+"security":{"fetch-run":["bunx xcobra @ plugins/expo/skills/upgrading-expo/references/new-architecture.md:72","npx expo @ plugins/expo/skills/upgrading-expo/SKILL.md:24, plugins/expo/skills/upgrading-expo/SKILL.md:32, plugins/expo/skills/upgrading-expo/SKILL.md:33 +7","npx expo-doctor @ plugins/expo/skills/upgrading-expo/SKILL.md:36"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/ruff-recursive-fix",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/ruff-recursive-fix/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"9aca5afb4ee03a6e955be05395b5c48392cd54d6c11be8d0a0cb7ce98e58ada8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6193,"own":{"files":1,"bytes":6193},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["check","format","ruff"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.0 KiB · CLI check, format +1","short":"6.0 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs check","runs format","runs ruff"]},{"marker":"unpinned-code","because":["pipx run ruff: skills/ruff-recursive-fix/SKILL.md:27, skills/ruff-recursive-fix/SKILL.md:49"]}],
+"security":{"fetch-run":["pipx run ruff @ skills/ruff-recursive-fix/SKILL.md:27, skills/ruff-recursive-fix/SKILL.md:49"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

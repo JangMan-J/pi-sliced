@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"box/skills/box-sdk-development",
+"revision":"84320fd8984b95cab430335cd341d8314c14bbcb",
+"trace":{"path":"traces/box/skills/box-sdk-development/84320fd8984b95cab430335cd341d8314c14bbcb/trace-3+judge-7.json","sha256":"dd52245a44af50f4acac7cae2a4f20ec1c4e7b78a55704a6ee5c737b758c191e"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":8998,"own":{"files":5,"bytes":8998},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["developer.box.com"]},"summary":"5 files, 8.8 KiB · 1 host","short":"8.8 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from developer.box.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

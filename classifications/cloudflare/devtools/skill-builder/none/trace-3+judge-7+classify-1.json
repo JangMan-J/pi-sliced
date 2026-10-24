@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/devtools/skill-builder",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/devtools/skill-builder/none/trace-3+judge-7.json","sha256":"e5efad03b9addeeb52b83d574c9181beaed92aca5d3d00633117ee96130faae9"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/devtools.git/' not found"
+}

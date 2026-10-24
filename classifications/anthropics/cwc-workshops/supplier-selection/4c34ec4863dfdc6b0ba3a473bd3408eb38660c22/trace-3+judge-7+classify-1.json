@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/cwc-workshops/supplier-selection",
+"revision":"4c34ec4863dfdc6b0ba3a473bd3408eb38660c22",
+"trace":{"path":"traces/anthropics/cwc-workshops/supplier-selection/4c34ec4863dfdc6b0ba3a473bd3408eb38660c22/trace-3+judge-7.json","sha256":"a74431de11e4d7e50483b97ca28d94d6162388e9414ad997cb92002aafa8ee0a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3655,"own":{"files":1,"bytes":3655},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB","short":"3.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"reorder-policy","path":"agent-decomposition/.claude/skills/reorder-policy"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

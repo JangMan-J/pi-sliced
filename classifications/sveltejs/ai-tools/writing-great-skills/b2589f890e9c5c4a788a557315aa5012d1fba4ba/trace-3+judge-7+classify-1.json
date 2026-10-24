@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sveltejs/ai-tools/writing-great-skills",
+"revision":"b2589f890e9c5c4a788a557315aa5012d1fba4ba",
+"trace":{"path":"traces/sveltejs/ai-tools/writing-great-skills/b2589f890e9c5c4a788a557315aa5012d1fba4ba/trace-3+judge-7.json","sha256":"1854cefbaec5af3c67cf0a36243613a56a7f60e013a75a5884a8945670f5380a"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":26659,"own":{"files":2,"bytes":26659},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 26 KiB","short":"26 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

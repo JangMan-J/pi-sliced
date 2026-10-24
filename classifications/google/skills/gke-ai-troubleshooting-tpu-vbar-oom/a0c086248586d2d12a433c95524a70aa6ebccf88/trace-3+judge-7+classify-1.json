@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-ai-troubleshooting-tpu-vbar-oom/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"06b06926b5153e694097dadc8078eb549ae8fa17f5d6a995468e0b8a95b82f2c"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":10181,"own":{"files":3,"bytes":10181},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud","kubectl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 9.9 KiB · CLI gcloud, kubectl","short":"9.9 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud","runs kubectl"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

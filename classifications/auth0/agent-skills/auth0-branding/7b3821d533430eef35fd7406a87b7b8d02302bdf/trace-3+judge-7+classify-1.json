@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-branding",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-branding/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"bab8ff115e822f85503acf6d82933e18f4a04c2db25019cd835a6ba315f71035"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-branding at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

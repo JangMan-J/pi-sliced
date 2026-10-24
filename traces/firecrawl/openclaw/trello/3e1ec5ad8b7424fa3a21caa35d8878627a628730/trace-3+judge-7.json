@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firecrawl/openclaw/trello",
+"source":"firecrawl/openclaw",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"skillPath":"skills/trello",
+"status":"resolved",
+"totals":{"files":1,"bytes":2687},
+"files":[
+{"path":"skills/trello/SKILL.md","size":2687,"blob":"3428be880f7073bc63c5d46be6707feac9d20826","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"jq","at":[[0,33],[0,39],[0,45],[0,88],[0,91],[0,94]]},
+{"kind":"credential","name":"TRELLO_API_KEY","at":[[0,22],[0,33],[0,39],[0,45],[0,51],[0,60],[0,67],[0,74],[0,88],[0,91],[0,94]]},
+{"kind":"credential","name":"TRELLO_TOKEN","at":[[0,23],[0,33],[0,39],[0,45],[0,51],[0,60],[0,67],[0,74],[0,88],[0,91],[0,94]]},
+{"kind":"network","name":"api.trello.com","at":[[0,33],[0,39],[0,45],[0,51],[0,60],[0,67],[0,74],[0,88],[0,91],[0,94]]}
+],
+"regions":[
+{"kind":"own","path":"skills/trello","files":1,"bytes":2687}
+],
+"signals":[
+{"kind":"secret-egress","detail":"TRELLO_API_KEY -> api.trello.com","at":[[0,33],[0,39],[0,45],[0,51],[0,60],[0,67],[0,74],[0,88],[0,91],[0,94]]},
+{"kind":"secret-egress","detail":"TRELLO_TOKEN -> api.trello.com","at":[[0,33],[0,39],[0,45],[0,51],[0,60],[0,67],[0,74],[0,88],[0,91],[0,94]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

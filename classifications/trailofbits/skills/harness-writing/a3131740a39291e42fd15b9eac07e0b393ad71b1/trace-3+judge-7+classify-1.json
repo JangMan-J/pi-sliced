@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/harness-writing",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/harness-writing/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"6067892a71b1928149c7114486d92fe204ba8c7da6fbfb3f19d5d1435f73f18c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":21244,"own":{"files":1,"bytes":21244},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["afl-clang-fast++","afl-fuzz","cargo","clang++","go-fuzz","go-fuzz-build"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 21 KiB · CLI afl-clang-fast++, afl-fuzz +4","short":"21 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs afl-clang-fast++","runs afl-fuzz","runs cargo","runs clang++","runs go-fuzz","runs go-fuzz-build"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

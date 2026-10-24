@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuopt-examples/tabular-optimization-ingestion",
+"revision":"65224c92ec9750b1c01a66eb09fe65782e027b7e",
+"trace":{"path":"traces/nvidia/cuopt-examples/tabular-optimization-ingestion/65224c92ec9750b1c01a66eb09fe65782e027b7e/trace-3+judge-7.json","sha256":"b6492ea6b78ba466d87abcaba2e51b55ff9611606fb8afdfcc8b024e0d081117"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11456,"own":{"files":1,"bytes":11456},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"cuopt-sandbox","path":"cuopt_on_nemoclaw/openclaw-skills/cuopt-sandbox"},{"name":"optimization-from-data-orchestrator","path":"cuopt_on_nemoclaw/openclaw-skills/optimization-from-data-orchestrator"},{"name":"optimization-intent-router","path":"cuopt_on_nemoclaw/openclaw-skills/optimization-intent-router"},{"name":"optimization-mode-router","path":"cuopt_on_nemoclaw/openclaw-skills/optimization-mode-router"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

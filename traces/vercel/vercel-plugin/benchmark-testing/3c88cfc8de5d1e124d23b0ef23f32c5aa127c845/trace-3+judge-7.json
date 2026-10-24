@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel/vercel-plugin/benchmark-testing",
+"source":"vercel/vercel-plugin",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"skillPath":".claude/skills/benchmark-testing",
+"status":"resolved",
+"totals":{"files":1,"bytes":3788},
+"files":[
+{"path":".claude/skills/benchmark-testing/SKILL.md","size":3788,"blob":"d9b956a17d89a097a74c2a13c8ef57b219db63ed","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"add-plugin","at":[[0,24]]},
+{"kind":"cli","name":"wezterm","at":[[0,44]]}
+],
+"regions":[
+{"kind":"own","path":".claude/skills/benchmark-testing","files":1,"bytes":3788}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx add-plugin","at":[[0,24]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

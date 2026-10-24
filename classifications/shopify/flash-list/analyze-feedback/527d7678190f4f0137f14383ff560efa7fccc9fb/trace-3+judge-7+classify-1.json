@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"shopify/flash-list/analyze-feedback",
+"revision":"527d7678190f4f0137f14383ff560efa7fccc9fb",
+"trace":{"path":"traces/shopify/flash-list/analyze-feedback/527d7678190f4f0137f14383ff560efa7fccc9fb/trace-3+judge-7.json","sha256":"84ee7a67479ca7435c65c61134be4baa1265eab8ed1cce61f550c830a2def9a1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6515,"own":{"files":1,"bytes":6515},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.4 KiB","short":"6.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

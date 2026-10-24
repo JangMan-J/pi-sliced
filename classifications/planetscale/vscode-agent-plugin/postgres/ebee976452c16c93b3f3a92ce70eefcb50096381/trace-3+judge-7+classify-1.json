@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"planetscale/vscode-agent-plugin/postgres",
+"revision":"ebee976452c16c93b3f3a92ce70eefcb50096381",
+"trace":{"path":"traces/planetscale/vscode-agent-plugin/postgres/ebee976452c16c93b3f3a92ce70eefcb50096381/trace-3+judge-7.json","sha256":"d248c455dedb6d2052973020521f9a636830ae8ddd3c8af16a94ce19d1471704"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7137,"own":{"files":1,"bytes":7137},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.0 KiB","short":"7.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

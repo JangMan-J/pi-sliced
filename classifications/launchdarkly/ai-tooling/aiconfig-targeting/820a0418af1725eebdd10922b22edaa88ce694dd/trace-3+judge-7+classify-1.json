@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/ai-tooling/aiconfig-targeting",
+"revision":"820a0418af1725eebdd10922b22edaa88ce694dd",
+"trace":{"path":"traces/launchdarkly/ai-tooling/aiconfig-targeting/820a0418af1725eebdd10922b22edaa88ce694dd/trace-3+judge-7.json","sha256":"e3d16f3083f5ef50ea7c41f69c71c2a2cf31807150d27b92e2c9f3aad64f04f0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":723,"own":{"files":1,"bytes":723},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 723 B","short":"723 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"configs-targeting","path":"skills/agentcontrol/configs-targeting"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

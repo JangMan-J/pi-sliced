@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openai-skills/sentry",
+"revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+"trace":{"path":"traces/firecrawl/openai-skills/sentry/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc/trace-3+judge-7.json","sha256":"52dbaac7a1bdec6a880c1fbe6495ab85d80b682cf9322a700109794211941c51"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11087,"own":{"files":2,"bytes":11087},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["SENTRY_AUTH_TOKEN"],"network":["sentry.io"]},"summary":"2 files, 11 KiB · 1 key · 1 host","short":"11 KiB · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from sentry.io"]},{"marker":"credentials","because":["needs SENTRY_AUTH_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

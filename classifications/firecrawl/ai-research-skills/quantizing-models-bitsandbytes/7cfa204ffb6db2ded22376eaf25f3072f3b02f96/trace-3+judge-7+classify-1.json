@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/quantizing-models-bitsandbytes",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/quantizing-models-bitsandbytes/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"5c9d6bf636f66e3f92737600bd489888695dea79bd80e725e7000a0eb230071e"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":45041,"own":{"files":4,"bytes":45041},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["accelerate","nvcc"],"package":["accelerate","bitsandbytes","datasets","peft","transformers"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 44 KiB · CLI accelerate, nvcc · packages accelerate +4","short":"44 KiB · 2 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs accelerate","runs nvcc"]},{"marker":"installs-packages","because":["installs accelerate","installs bitsandbytes","installs datasets","installs peft","installs transformers"]}],
+"security":{},
+"companions":{"named":[{"name":"accelerate","path":"08-distributed-training/accelerate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/clients/angular-modernization",
+"revision":"c0ca72a0c83cc8b7f990138ac04961cf63d985bc",
+"trace":{"path":"traces/bitwarden/clients/angular-modernization/c0ca72a0c83cc8b7f990138ac04961cf63d985bc/trace-3+judge-7.json","sha256":"71d45436ba6308e42b68e6ea9b0d3ac3e2c8100cbc99b07009c5aa677bd98be9"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10143,"own":{"files":2,"bytes":10143},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ng"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.9 KiB · CLI ng","short":"9.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs ng"]},{"marker":"unpinned-code","because":["npx ng: .claude/skills/angular-modernization/SKILL.md:24, .claude/skills/angular-modernization/SKILL.md:31, .claude/skills/angular-modernization/SKILL.md:39"]}],
+"security":{"fetch-run":["npx ng @ .claude/skills/angular-modernization/SKILL.md:24, .claude/skills/angular-modernization/SKILL.md:31, .claude/skills/angular-modernization/SKILL.md:39 +6"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

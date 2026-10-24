@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/neon-js/neon-auth-react",
+"revision":"8dc8114f1390613ed7d77e8eeb3f46801ff5a0da",
+"trace":{"path":"traces/neondatabase/neon-js/neon-auth-react/8dc8114f1390613ed7d77e8eeb3f46801ff5a0da/trace-3+judge-7.json","sha256":"bc7f7d473edf0fce7228915032792ad20ba6b8a8deec14e7ea874919bbdaf1e3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18300,"own":{"files":1,"bytes":18300},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@neondatabase/auth"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 18 KiB · packages @neondatabase/auth","short":"18 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @neondatabase/auth"]}],
+"security":{},
+"companions":{"named":[{"name":"neon-auth-nextjs","path":"skills/neon-auth-nextjs"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

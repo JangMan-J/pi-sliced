@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemoclaw-user-configure-security",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemoclaw-user-configure-security/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"6fcf7f3c1b44e905a8e7de366b3203ae69b2b1edbef21d9cb3b0bc18f6cc03e4"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-user-configure-security at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

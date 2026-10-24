@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/dotnet-mcp-builder",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/dotnet-mcp-builder/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"b567eacc936489c89243a3351b33445f04c2b3c86c1f2d285dd8f53bea380302"},
+"status":"resolved",
+"footprint":{"files":14,"bytes":94638,"own":{"files":14,"bytes":94638},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@modelcontextprotocol/inspector","dnx"],"package":["10.0.11","2.2.0","Microsoft.Extensions.Hosting","ModelContextProtocol","ModelContextProtocol.AspNetCore","ModelContextProtocol.Core"],"mcp-server":["net","using"],"credential":[],"network":["csharp.sdk.modelcontextprotocol.io","github.com","modelcontextprotocol.io"]},"summary":"14 files, 92 KiB · MCP net, using · CLI @modelcontextprotocol/inspector, dnx · packages 10.0.11 +5 · 3 hosts","short":"92 KiB · 2 CLI · 6 pkg · 3 hosts · MCP 2"},
+"heavy":{"heavy":true,"because":["6 packages to install","2 MCP servers","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @modelcontextprotocol/inspector","runs dnx"]},{"marker":"installs-packages","because":["installs 10.0.11","installs 2.2.0","installs Microsoft.Extensions.Hosting","installs ModelContextProtocol","installs ModelContextProtocol.AspNetCore","installs ModelContextProtocol.Core"]},{"marker":"network","because":["fetches from csharp.sdk.modelcontextprotocol.io","fetches from github.com","fetches from modelcontextprotocol.io"]},{"marker":"mcp-server","because":["uses the net MCP server","uses the using MCP server"]},{"marker":"unpinned-code","because":["npx @modelcontextprotocol/inspector: skills/dotnet-mcp-builder/references/testing.md:12, skills/dotnet-mcp-builder/references/testing.md:18, skills/dotnet-mcp-builder/references/transport-stdio.md:145"]}],
+"security":{"fetch-run":["npx @modelcontextprotocol/inspector @ skills/dotnet-mcp-builder/references/testing.md:12, skills/dotnet-mcp-builder/references/testing.md:18, skills/dotnet-mcp-builder/references/transport-stdio.md:145"]},
+"companions":{"named":[{"name":"code-review","path":".github/skills/code-review"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

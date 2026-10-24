@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"contentstack/contentstack-agent-skills/cms-live-preview-visual-builder-support-assistant",
+"source":"contentstack/contentstack-agent-skills",
+"revision":"d1e52b9f3745a29bcfa64561bc8f34a03d52d754",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named cms-live-preview-visual-builder-support-assistant at d1e52b9f3745a29bcfa64561bc8f34a03d52d754 or at the remote HEAD a3615878d5dfffe62622542f4c6c46fe99528d14",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

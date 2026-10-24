@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-urom",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-urom/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"31829a76205d0079076760fe32159d221b9cb6cd0262bed56e22e35131f89b12"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":35742,"own":{"files":1,"bytes":19512},"otherSkills":{"count":1,"files":1,"bytes":16230},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["meson","ninja","pkg-config"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 35 KiB · +1 other skill · CLI meson, ninja +1","short":"35 KiB · +1 skill · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs meson","runs ninja","runs pkg-config"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/doca-rdma"]}],
+"security":{},
+"companions":{"named":[{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-programming-guide","path":"skills/doca-programming-guide"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-rdma","path":"skills/doca-rdma"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-structured-tools-contract","path":"skills/doca-structured-tools-contract"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[{"path":"skills/doca-rdma","files":1,"bytes":16230}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

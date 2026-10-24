@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/dgx-spark-playbooks/dgx-diagnose",
+"revision":"30883150541743d580c9c347700c6ac99fc396d2",
+"trace":{"path":"traces/nvidia/dgx-spark-playbooks/dgx-diagnose/30883150541743d580c9c347700c6ac99fc396d2/trace-3+judge-7.json","sha256":"20510cfc67c168512f97b1e323d788bee96e721eb7832e28aadff976d7dc59c9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3490,"own":{"files":1,"bytes":3490},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","fuser","nvidia-smi","systemctl"],"package":[],"mcp-server":[],"credential":["HF_TOKEN"],"network":[]},"summary":"1 file, 3.4 KiB · CLI docker, fuser +2 · 1 key","short":"3.4 KiB · 4 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs fuser","runs nvidia-smi","runs systemctl"]},{"marker":"credentials","because":["needs HF_TOKEN"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the docker, fuser it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

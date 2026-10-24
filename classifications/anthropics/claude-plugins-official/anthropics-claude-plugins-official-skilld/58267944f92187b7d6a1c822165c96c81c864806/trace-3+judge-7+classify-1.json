@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-plugins-official/anthropics-claude-plugins-official-skilld",
+"revision":"58267944f92187b7d6a1c822165c96c81c864806",
+"trace":{"path":"traces/anthropics/claude-plugins-official/anthropics-claude-plugins-official-skilld/58267944f92187b7d6a1c822165c96c81c864806/trace-3+judge-7.json","sha256":"f5cea77592ec06c3eed7989b40ea3dd0d39b693e15e66e48efb0cdec0d1eb9ad"},
+"status":"unresolvable",
+"reason":"no skill folder named anthropics-claude-plugins-official-skilld at 58267944f92187b7d6a1c822165c96c81c864806"
+}

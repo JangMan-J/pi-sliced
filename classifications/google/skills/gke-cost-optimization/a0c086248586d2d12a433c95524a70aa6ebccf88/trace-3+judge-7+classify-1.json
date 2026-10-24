@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-cost-optimization",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-cost-optimization/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"a0b028b9a6ae11e77af3099f3101c48c58d9f6c1323cf86b4b0592ffc983c85f"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":12357,"own":{"files":5,"bytes":12357},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud","kubectl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 12 KiB · CLI gcloud, kubectl","short":"12 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud","runs kubectl"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-cluster-autoscaler","path":"skills/cloud/gke-cluster-autoscaler"},{"name":"gke-compute-classes","path":"skills/cloud/gke-compute-classes"},{"name":"gke-cost-analysis","path":"skills/cloud/gke-cost-analysis"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

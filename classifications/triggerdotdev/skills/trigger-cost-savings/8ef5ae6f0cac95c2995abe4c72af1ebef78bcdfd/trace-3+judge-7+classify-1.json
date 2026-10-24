@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"triggerdotdev/skills/trigger-cost-savings",
+"revision":"8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+"trace":{"path":"traces/triggerdotdev/skills/trigger-cost-savings/8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd/trace-3+judge-7.json","sha256":"00c9b0ec008566c1386c51b244c6ce5923f3462420781328c9c065e67cec8f7e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5484,"own":{"files":1,"bytes":5484},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["trigger.dev"],"package":[],"mcp-server":["trigger.dev"],"credential":[],"network":[]},"summary":"1 file, 5.4 KiB · MCP trigger.dev · CLI trigger.dev","short":"5.4 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs trigger.dev"]},{"marker":"mcp-server","because":["uses the trigger.dev MCP server"]},{"marker":"unpinned-code","because":["npx trigger.dev@latest: trigger-cost-savings/SKILL.md:43"]}],
+"security":{"fetch-run":["npx trigger.dev@latest @ trigger-cost-savings/SKILL.md:43"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

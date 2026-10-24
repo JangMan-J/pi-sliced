@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/m365-agent-evaluator",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/m365-agent-evaluator/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"85941d61462a3e913a252bfbf6010e04584c37887c3b29b96c660f993954139a"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":37904,"own":{"files":7,"bytes":37904},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@microsoft/m365-copilot-eval","Get-Command","runevals"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 37 KiB · CLI @microsoft/m365-copilot-eval, Get-Command +1","short":"37 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @microsoft/m365-copilot-eval","runs Get-Command","runs runevals"]},{"marker":"unpinned-code","because":["npx @microsoft/m365-copilot-eval@latest: .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:16, .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:93, .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:94","npx runevals: .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:19, .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/references/workflow.md:13"]}],
+"security":{"fetch-run":["npx @microsoft/m365-copilot-eval@latest @ .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:16, .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:93, .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:94 +44","npx runevals @ .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md:19, .github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/references/workflow.md:13"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

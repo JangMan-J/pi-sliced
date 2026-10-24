@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/meeting-sdklinux",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/meeting-sdklinux/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"41912af81573535cd5cfa5f1dd219c40250c0846b32d6053cfc16503563c427a"},
+"status":"unresolvable",
+"reason":"no skill folder named meeting-sdklinux at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

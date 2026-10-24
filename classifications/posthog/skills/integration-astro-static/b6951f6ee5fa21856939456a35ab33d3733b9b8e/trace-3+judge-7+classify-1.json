@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-astro-static",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-astro-static/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"e2af9229e09fc15555cfb068534cb2e9acd5e81c9c8d6f6451765f0c2d32fe4b"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":46360,"own":{"files":8,"bytes":46360},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard"],"package":[],"mcp-server":[],"credential":["PUBLIC_POSTHOG_PROJECT_TOKEN"],"network":[]},"summary":"8 files, 45 KiB · CLI @posthog/wizard · 1 key","short":"45 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard"]},{"marker":"credentials","because":["needs PUBLIC_POSTHOG_PROJECT_TOKEN"]},{"marker":"unpinned-code","because":["npx @posthog/wizard@latest: skills/posthog/integration/skills/astro-static/references/astro.md:11"]}],
+"security":{"fetch-run":["npx @posthog/wizard@latest @ skills/posthog/integration/skills/astro-static/references/astro.md:11"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

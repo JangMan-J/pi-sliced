@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/firecrawl-build-scrape",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/firecrawl-build-scrape/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"99ef6d6992a6057257428584ac0acfb1a779900d70a65892d5331ea8c3a93c42"},
+"status":"resolved",
+"footprint":{"files":15,"bytes":36728,"own":{"files":2,"bytes":6121},"otherSkills":{"count":4,"files":13,"bytes":30607},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firecrawl-cli","openssl","skills","stripe"],"package":["@mendable/firecrawl-js","firecrawl-py"],"mcp-server":[],"credential":[],"network":[]},"summary":"15 files, 36 KiB · +4 other skills · CLI firecrawl-cli, openssl +2 · packages @mendable/firecrawl-js +1","short":"36 KiB · +4 skills · 4 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs firecrawl-cli","runs openssl","runs skills","runs stripe"]},{"marker":"installs-packages","because":["installs @mendable/firecrawl-js","installs firecrawl-py"]},{"marker":"chain-loads","because":["pulls in 7 files of the skill at skills/build/firecrawl-build","pulls in 1 file of the skill at skills/build/firecrawl-build-interact","pulls in 4 files of the skill at skills/build/firecrawl-build-onboarding","pulls in 1 file of the skill at skills/build/firecrawl-build-search","fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx firecrawl-cli@latest: skills/build/firecrawl-build-onboarding/SKILL.md:33, skills/build/firecrawl-build/SKILL.md:128","npx skills: skills/build/firecrawl-build-onboarding/SKILL.md:38"]}],
+"security":{"fetch-run":["npx firecrawl-cli@latest @ skills/build/firecrawl-build-onboarding/SKILL.md:33, skills/build/firecrawl-build/SKILL.md:128","npx skills @ skills/build/firecrawl-build-onboarding/SKILL.md:38"],"skill-fetch":["npx skills add @ skills/build/firecrawl-build-onboarding/SKILL.md:38"]},
+"companions":{"named":[{"name":"firecrawl-build-onboarding","path":"skills/build/firecrawl-build-onboarding"}],"pulled":[{"path":"skills/build/firecrawl-build","files":7,"bytes":15981},{"path":"skills/build/firecrawl-build-interact","files":1,"bytes":2924},{"path":"skills/build/firecrawl-build-onboarding","files":4,"bytes":7407},{"path":"skills/build/firecrawl-build-search","files":1,"bytes":4295}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/reviewing-dependencies",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/reviewing-dependencies/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"04567eacb186061677e44de991efa6fceb4a2cdf06dbf9778d886663a8dd4f3c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8131,"own":{"files":1,"bytes":8131},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.9 KiB · CLI dotnet, gh","short":"7.9 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs gh"]}],
+"security":{},
+"companions":{"named":[{"name":"triaging-security-findings","path":"plugins/bitwarden-security-engineer/skills/triaging-security-findings"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

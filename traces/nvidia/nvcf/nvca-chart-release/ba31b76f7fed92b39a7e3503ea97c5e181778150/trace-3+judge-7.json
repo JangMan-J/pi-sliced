@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/nvcf/nvca-chart-release",
+"source":"nvidia/nvcf",
+"revision":"ba31b76f7fed92b39a7e3503ea97c5e181778150",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named nvca-chart-release at ba31b76f7fed92b39a7e3503ea97c5e181778150",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

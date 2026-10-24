@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/configuring-experiment-rollout",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/configuring-experiment-rollout/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"2ed621c5dc702334baef662cbfa2f0aa9165b4ee9df3e3c70b2935cacb8bd1ca"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":20731,"own":{"files":2,"bytes":20731},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 20 KiB","short":"20 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"configuring-experiment-analytics","path":"skills/configuring-experiment-analytics"},{"name":"creating-experiments","path":"skills/creating-experiments"},{"name":"diagnosing-experiment-health","path":"skills/diagnosing-experiment-health"},{"name":"finding-experiments","path":"skills/finding-experiments"},{"name":"managing-experiment-lifecycle","path":"skills/managing-experiment-lifecycle"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

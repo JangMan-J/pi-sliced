@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/remotion",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/remotion/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"89ee2748929d41613e3e66784b3f7c06ebca26e9f961891590f9f94f74585a04"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3064,"own":{"files":1,"bytes":3064},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.0 KiB","short":"3.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

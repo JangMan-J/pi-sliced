@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/code-apps-create",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/code-apps-create/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"cdc65f635f1a450e15f4c3648568003efe0e94e4eda51e704207a8d3e9f21003"},
+"status":"unresolvable",
+"reason":"no skill folder named code-apps-create at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

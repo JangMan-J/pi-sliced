@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/openreview/vercel-composition-patterns",
+"revision":"672deb21e70e471e0536d5ad7a67c14b8359e97e",
+"trace":{"path":"traces/vercel-labs/openreview/vercel-composition-patterns/672deb21e70e471e0536d5ad7a67c14b8359e97e/trace-3+judge-7.json","sha256":"b43351b059aefb8ff0b5c7be31cddf9f9131ac29f0793e9d56769840a5f66ef0"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":32754,"own":{"files":4,"bytes":32754},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 32 KiB","short":"32 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-implementing-navigation-and-routing",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-implementing-navigation-and-routing/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"3493711641dd92815f94e47a10b123b1eb40240c562d37856d04190bd6683ca5"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-implementing-navigation-and-routing at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/create-webroles",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/create-webroles/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"e5fdd74aa00ac3b39a7e7a9814859e022a1a02dd66a3221cfad7b33a1d28e035"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13484,"own":{"files":1,"bytes":13484},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB","short":"13 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"add-ai-webapi","path":"plugins/power-pages/skills/add-ai-webapi"},{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

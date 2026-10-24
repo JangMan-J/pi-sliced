@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/azure-devops-skills/pipelines-build-summary",
+"revision":"844a1f6f5202aa920ce5b1be95c056d529d63ded",
+"trace":{"path":"traces/microsoft/azure-devops-skills/pipelines-build-summary/844a1f6f5202aa920ce5b1be95c056d529d63ded/trace-3+judge-7.json","sha256":"4e3b65b38450d0a00c00286ba3a8b7a14793f6fbf301bf7c920cad0b20a3f6a5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5242,"own":{"files":1,"bytes":5242},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.1 KiB","short":"5.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

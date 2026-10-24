@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/next-cache-components",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/next-cache-components/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"9a58f40c73d53ae189ac9e7ea36509b3dcd506608e428c5f56f50dad86877c88"},
+"status":"unresolvable",
+"reason":"no skill folder named next-cache-components at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

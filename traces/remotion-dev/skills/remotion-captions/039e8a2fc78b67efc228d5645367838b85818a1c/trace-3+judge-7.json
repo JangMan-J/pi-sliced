@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"remotion-dev/skills/remotion-captions",
+"source":"remotion-dev/skills",
+"revision":"039e8a2fc78b67efc228d5645367838b85818a1c",
+"skillPath":"skills/remotion-captions",
+"status":"resolved",
+"totals":{"files":4,"bytes":14841},
+"files":[
+{"path":"skills/remotion-captions/SKILL.md","size":1137,"blob":"574aabc563676e7f7edbc20d1dc07e5174510cb5","how":"root"},
+{"path":"skills/remotion-captions/display-captions.md","size":5940,"blob":"f698d42ad2788485abb1a1be462934d2decf3dcb","how":"link","from":0,"line":32},
+{"path":"skills/remotion-captions/import-srt-captions.md","size":2231,"blob":"1a809442e3bdb42b3c49ba0d7bfa6f2973e3b427","how":"link","from":0,"line":36},
+{"path":"skills/remotion-captions/transcribe-captions.md","size":5533,"blob":"1818b7446282f53aa6157d1560b275b86c2bf32e","how":"link","from":0,"line":28}
+],
+"outside":[
+{"kind":"cli","name":"remotion","at":[[1,20],[1,21],[2,20],[2,21],[3,11],[3,12]]},
+{"kind":"network","name":"www.remotion.dev","at":[[1,32]]}
+],
+"regions":[
+{"kind":"own","path":"skills/remotion-captions","files":4,"bytes":14841}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx remotion","at":[[1,21],[2,21],[3,12]]},
+{"kind":"fetch-run","detail":"npx remotion","at":[[1,20],[2,20],[3,11]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/zustand",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/zustand/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"f9f5a4f63cc83f3f3df9de71ce7026e5f2c77b4988f32ee1e7554c974fefc806"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1908,"own":{"files":1,"bytes":1908},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@json-render/core","@json-render/react","@json-render/zustand","zustand"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.9 KiB · packages @json-render/core +3","short":"1.9 KiB · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @json-render/core","installs @json-render/react","installs @json-render/zustand","installs zustand"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

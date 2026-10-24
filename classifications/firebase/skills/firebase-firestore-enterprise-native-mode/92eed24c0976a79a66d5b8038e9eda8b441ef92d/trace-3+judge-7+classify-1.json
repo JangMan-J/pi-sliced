@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/skills/firebase-firestore-enterprise-native-mode",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/skills/firebase-firestore-enterprise-native-mode/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"85897715e4a644566b75f30cb87c56a3165b71b266071a8ee863f9176c95e8a0"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase-firestore-enterprise-native-mode at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

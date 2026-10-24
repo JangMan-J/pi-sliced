@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/action-remediate",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/action-remediate/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"46c6022d8ea6fc4cd4f39254cdcec977745ce74c68f0688278706d5a23f34a23"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4291,"own":{"files":1,"bytes":4291},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Remediates","across","gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.2 KiB · CLI Remediates, across +1","short":"4.2 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs across","runs gh","runs Remediates"]}],
+"security":{},
+"companions":{"named":[{"name":"action-audit","path":"plugins/bitwarden-devops-engineer/skills/action-audit"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

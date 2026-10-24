@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"posthog/posthog/inbox-exploration",
+"source":"posthog/posthog",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"skillPath":"products/signals/skills/inbox-exploration",
+"status":"resolved",
+"totals":{"files":1,"bytes":38345},
+"files":[
+{"path":"products/signals/skills/inbox-exploration/SKILL.md","size":38345,"blob":"b05f797b463a24b8a399ee4b1540bde19c99c6cc","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"products/signals/skills/inbox-exploration","files":1,"bytes":38345}
+],
+"signals":[
+{"kind":"injection","detail":"do not tell the user","at":[[0,129]]}
+],
+"namedSkills":[
+{"name":"signals","path":"products/signals/skills/signals","at":[[0,9],[0,43],[0,75],[0,226],[0,302],[0,327],[0,331],[0,335],[0,393],[0,595],[0,660]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

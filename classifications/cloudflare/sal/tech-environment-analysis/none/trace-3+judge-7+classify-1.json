@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/tech-environment-analysis",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/tech-environment-analysis/none/trace-3+judge-7.json","sha256":"256a41fd40a6c4927f71ad4125df6d1f9f7029ed90aec0f1356220ebfb0bab36"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

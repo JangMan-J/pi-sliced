@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/earth2studio-install",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/earth2studio-install/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"ffc50572c2b8abebf626b403047474af56fa0169c457e0e281ad3059aeb95c34"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6581,"own":{"files":1,"bytes":6581},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["eccodes","libeccodes-dev","python3-dev"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.4 KiB · packages eccodes +2","short":"6.4 KiB · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs eccodes","installs libeccodes-dev","installs python3-dev"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

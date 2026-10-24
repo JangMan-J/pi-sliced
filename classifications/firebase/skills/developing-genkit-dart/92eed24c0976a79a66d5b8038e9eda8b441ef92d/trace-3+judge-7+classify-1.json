@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/skills/developing-genkit-dart",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/skills/developing-genkit-dart/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"4f1c4b9a9eedcd34c0ab0b0bc73ba864563821628cae7019be4e49da164f5762"},
+"status":"unresolvable",
+"reason":"no skill folder named developing-genkit-dart at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

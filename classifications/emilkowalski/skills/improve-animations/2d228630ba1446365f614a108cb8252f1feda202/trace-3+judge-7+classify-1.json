@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/improve-animations",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/improve-animations/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"0c87f48d297a6cd82ad251e46eb21f14c6838fb9c7f2b9faae85fae88750d2a5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":18695,"own":{"files":3,"bytes":18695},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 18 KiB","short":"18 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/improve-animations/SKILL.md:33","invisible U+200B: skills/improve-animations/PLAN-TEMPLATE.md:19, skills/improve-animations/PLAN-TEMPLATE.md:22, skills/improve-animations/PLAN-TEMPLATE.md:29"]}],
+"security":{"injection":["ignore previous instructions @ skills/improve-animations/SKILL.md:33"],"invisible-unicode":["U+200B @ skills/improve-animations/PLAN-TEMPLATE.md:19, skills/improve-animations/PLAN-TEMPLATE.md:22, skills/improve-animations/PLAN-TEMPLATE.md:29 +1"]},
+"companions":{"named":[{"name":"animate","path":"skills/animate"},{"name":"review-animations","path":"skills/review-animations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

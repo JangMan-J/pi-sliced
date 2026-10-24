@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/powerbi-authoring-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/powerbi-authoring-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"8ccaa238a0aeb5d5f2e9429377aabd6032e6d4eb5317e969af924165ef95837e"},
+"status":"unresolvable",
+"reason":"no skill folder named powerbi-authoring-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

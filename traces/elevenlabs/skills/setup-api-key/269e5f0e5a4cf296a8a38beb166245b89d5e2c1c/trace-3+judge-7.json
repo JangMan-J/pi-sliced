@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"elevenlabs/skills/setup-api-key",
+"source":"elevenlabs/skills",
+"revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+"skillPath":"setup-api-key",
+"status":"resolved",
+"totals":{"files":1,"bytes":3988},
+"files":[
+{"path":"setup-api-key/SKILL.md","size":3988,"blob":"fb3f1d9cf917f1bb2c8ab094f1a9e12a8cd80533","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@elevenlabs/cli","at":[[0,21]]},
+{"kind":"cli","name":"powershell","at":[[0,66]]},
+{"kind":"credential","name":"ELEVENLABS_API_KEY","at":[[0,14]]},
+{"kind":"network","name":"github.com","at":[[0,65]]},
+{"kind":"package","name":"elevenlabs/tap/elevenlabs","at":[[0,64]]}
+],
+"regions":[
+{"kind":"own","path":"setup-api-key","files":1,"bytes":3988}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @elevenlabs/cli@latest","at":[[0,21]]},
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,65],[0,66]]}
+],
+"namedSkills":[
+{"name":"onboarding","path":"onboarding","at":[[0,11]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

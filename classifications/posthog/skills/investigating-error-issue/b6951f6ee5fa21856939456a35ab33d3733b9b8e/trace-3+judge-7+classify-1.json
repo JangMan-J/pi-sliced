@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/investigating-error-issue",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/investigating-error-issue/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"6f3f3d68b1951ee71805bcaa0e0cf38cc63b2b7240b13a8f472b71ae4702f647"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17944,"own":{"files":1,"bytes":17944},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 18 KiB","short":"18 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"authoring-error-tracking-alerts","path":"skills/omnibus/authoring-error-tracking-alerts"},{"name":"finding-replay-for-issue","path":"skills/omnibus/finding-replay-for-issue"},{"name":"grouping-noisy-errors","path":"skills/omnibus/grouping-noisy-errors"},{"name":"triaging-error-issues","path":"skills/omnibus/triaging-error-issues"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

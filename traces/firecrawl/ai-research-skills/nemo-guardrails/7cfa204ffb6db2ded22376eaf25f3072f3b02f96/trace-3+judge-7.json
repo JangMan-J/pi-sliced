@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firecrawl/ai-research-skills/nemo-guardrails",
+"source":"firecrawl/ai-research-skills",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"skillPath":"07-safety-alignment/nemo-guardrails",
+"status":"resolved",
+"totals":{"files":1,"bytes":7642},
+"files":[
+{"path":"07-safety-alignment/nemo-guardrails/SKILL.md","size":7642,"blob":"b85b1d5f4abe4bc7dc288dc33f100c4afcbc5822","how":"root"}
+],
+"outside":[
+{"kind":"package","name":"nemoguardrails","at":[[0,19]]}
+],
+"regions":[
+{"kind":"own","path":"07-safety-alignment/nemo-guardrails","files":1,"bytes":7642}
+],
+"signals":[
+{"kind":"injection","detail":"ignore all previous instructions","at":[[0,76]]},
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,60]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

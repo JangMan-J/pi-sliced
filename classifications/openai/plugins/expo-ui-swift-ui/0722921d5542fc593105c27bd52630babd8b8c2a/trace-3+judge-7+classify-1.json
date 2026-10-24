@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/expo-ui-swift-ui",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/expo-ui-swift-ui/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"ae1b63b9596d3e8b7be8cb47b19d4acfb70884de77aee98ca76821cb70df9da0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1598,"own":{"files":1,"bytes":1598},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo"],"package":[],"mcp-server":[],"credential":[],"network":["docs.expo.dev"]},"summary":"1 file, 1.6 KiB · CLI expo · 1 host","short":"1.6 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs expo"]},{"marker":"network","because":["fetches from docs.expo.dev"]},{"marker":"stub","because":["own folder 1.6 KiB (1 file)","content is the expo it wraps"]},{"marker":"unpinned-code","because":["npx expo: plugins/expo/skills/expo-ui-swift-ui/SKILL.md:11, plugins/expo/skills/expo-ui-swift-ui/SKILL.md:14"]}],
+"security":{"fetch-run":["npx expo @ plugins/expo/skills/expo-ui-swift-ui/SKILL.md:11, plugins/expo/skills/expo-ui-swift-ui/SKILL.md:14"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

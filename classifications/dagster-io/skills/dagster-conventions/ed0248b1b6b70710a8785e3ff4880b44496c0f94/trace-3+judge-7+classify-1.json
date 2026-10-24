@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/skills/dagster-conventions",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/skills/dagster-conventions/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"c0109bd486560065b4258b83dc7e9a329677b5932e8b5d8f29837fa2149c35d2"},
+"status":"unresolvable",
+"reason":"no skill folder named dagster-conventions at ed0248b1b6b70710a8785e3ff4880b44496c0f94"
+}

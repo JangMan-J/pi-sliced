@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/i4h-catheter-navigation",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/i4h-catheter-navigation/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"16524bdc4175bd8317d2faa46f1ef8b6b39d736e4714f6b58680bb1e9f9d87d6"},
+"status":"unresolvable",
+"reason":"no skill folder named i4h-catheter-navigation at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

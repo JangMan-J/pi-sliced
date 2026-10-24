@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/your-skill-name",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/your-skill-name/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"cc95a1629811f05690dc4508c7de921e36bdddac04e9cf112890d00b120b7beb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1763,"own":{"files":1,"bytes":1763},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.7 KiB","short":"1.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

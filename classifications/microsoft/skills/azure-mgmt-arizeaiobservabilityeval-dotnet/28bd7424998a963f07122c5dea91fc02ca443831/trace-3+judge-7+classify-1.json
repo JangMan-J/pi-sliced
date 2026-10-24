@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-mgmt-arizeaiobservabilityeval-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-mgmt-arizeaiobservabilityeval-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"62fd851477c2a5083e40974e8c7c006f43e4fcc5414c072eb29872088dd5c43b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7963,"own":{"files":1,"bytes":7963},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["1.0.0","Azure.ResourceManager.ArizeAIObservabilityEval"],"mcp-server":[],"credential":["AZURE_CLIENT_SECRET","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 7.8 KiB · CLI dotnet · packages 1.0.0 +1 · 2 keys","short":"7.8 KiB · 1 CLI · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs 1.0.0","installs Azure.ResourceManager.ArizeAIObservabilityEval"]},{"marker":"credentials","because":["needs AZURE_CLIENT_SECRET","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

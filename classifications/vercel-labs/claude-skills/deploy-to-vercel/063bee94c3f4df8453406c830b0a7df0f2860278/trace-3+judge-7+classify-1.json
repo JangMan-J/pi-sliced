@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/claude-skills/deploy-to-vercel",
+"revision":"063bee94c3f4df8453406c830b0a7df0f2860278",
+"trace":{"path":"traces/vercel-labs/claude-skills/deploy-to-vercel/063bee94c3f4df8453406c830b0a7df0f2860278/trace-3+judge-7.json","sha256":"3db9edcdef67f69a5013dc01ac9aa94128db3a15f232be2a661b620c5188ffb3"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":20641,"own":{"files":2,"bytes":20641},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vercel"],"package":["vercel"],"mcp-server":[],"credential":[],"network":["codex-deploy-skills.vercel.sh"]},"summary":"2 files, 20 KiB · CLI vercel · packages vercel · 1 host","short":"20 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs vercel"]},{"marker":"installs-packages","because":["installs vercel"]},{"marker":"network","because":["fetches from codex-deploy-skills.vercel.sh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

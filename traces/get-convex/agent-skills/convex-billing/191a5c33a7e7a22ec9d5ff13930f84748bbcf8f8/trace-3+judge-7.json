@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"get-convex/agent-skills/convex-billing",
+"source":"get-convex/agent-skills",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"skillPath":"skills/convex-billing",
+"status":"resolved",
+"totals":{"files":1,"bytes":4019},
+"files":[
+{"path":"skills/convex-billing/SKILL.md","size":4019,"blob":"7ffac8b62ec1047a1a65c2184303012cd9d3f0e8","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"convex","at":[[0,61]]},
+{"kind":"package","name":"@convex-dev/stripe","at":[[0,14]]}
+],
+"regions":[
+{"kind":"own","path":"skills/convex-billing","files":1,"bytes":4019}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx convex","at":[[0,61]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

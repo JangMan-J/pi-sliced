@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-javascript/dotagents",
+"revision":"21a9938c36976a230c56380b94c45e5ac789b33c",
+"trace":{"path":"traces/getsentry/sentry-javascript/dotagents/21a9938c36976a230c56380b94c45e5ac789b33c/trace-3+judge-7.json","sha256":"b9774b407bd01db8fe125aad8d85def3765bfdeaa057fefcf4fa219cf9730088"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":25109,"own":{"files":4,"bytes":25109},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@sentry/dotagents","dotagents"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 25 KiB · CLI @sentry/dotagents, dotagents","short":"25 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @sentry/dotagents","runs dotagents"]},{"marker":"unpinned-code","because":["npx @sentry/dotagents: .agents/skills/dotagents/SKILL.md:10"]}],
+"security":{"fetch-run":["npx @sentry/dotagents @ .agents/skills/dotagents/SKILL.md:10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

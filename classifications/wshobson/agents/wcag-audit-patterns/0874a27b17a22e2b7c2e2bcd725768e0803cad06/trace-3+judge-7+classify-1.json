@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/wcag-audit-patterns",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/wcag-audit-patterns/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"bcb084e72f8b246b0f4e74be194b8670ae432a8827d6f6111f82f183fc6e4a7b"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12483,"own":{"files":2,"bytes":12483},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@axe-core/cli","lighthouse","pa11y"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB · CLI @axe-core/cli, lighthouse +1","short":"12 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @axe-core/cli","runs lighthouse","runs pa11y"]},{"marker":"unpinned-code","because":["npx @axe-core/cli: plugins/accessibility-compliance/skills/wcag-audit-patterns/references/details.md:396","npx pa11y: plugins/accessibility-compliance/skills/wcag-audit-patterns/references/details.md:397"]}],
+"security":{"fetch-run":["npx @axe-core/cli @ plugins/accessibility-compliance/skills/wcag-audit-patterns/references/details.md:396","npx pa11y @ plugins/accessibility-compliance/skills/wcag-audit-patterns/references/details.md:397"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

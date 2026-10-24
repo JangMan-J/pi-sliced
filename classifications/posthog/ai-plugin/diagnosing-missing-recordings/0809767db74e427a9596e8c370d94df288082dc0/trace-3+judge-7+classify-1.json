@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/diagnosing-missing-recordings",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/diagnosing-missing-recordings/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"65421c1202f083d53e933400fb516c5311b6acdb00dc4a6e3f0a81b6a8b70eb7"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":23115,"own":{"files":4,"bytes":23115},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 23 KiB","short":"23 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"diagnosing-sdk-health","path":"skills/diagnosing-sdk-health"},{"name":"finding-sessions-to-watch","path":"skills/finding-sessions-to-watch"},{"name":"investigating-replay","path":"skills/investigating-replay"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

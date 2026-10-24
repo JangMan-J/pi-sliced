@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw-community/ovphysx-host-runtime-boundary",
+"revision":"54bac91992830b6249f1f727c0f6d628d3a984e8",
+"trace":{"path":"traces/nvidia/nemoclaw-community/ovphysx-host-runtime-boundary/54bac91992830b6249f1f727c0f6d628d3a984e8/trace-3+judge-7.json","sha256":"814036e7c4879ba73a1b4b075d2ca5899fdd619778b424cfd41d1b850715ceb5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6486,"own":{"files":1,"bytes":6486},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["blender"],"credential":[],"network":[]},"summary":"1 file, 6.3 KiB · MCP blender","short":"6.3 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the blender MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"blender-python-api-verification","path":"examples/demos/field/blender-omniverse-dgx-station/skills/blender-python-api-verification"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

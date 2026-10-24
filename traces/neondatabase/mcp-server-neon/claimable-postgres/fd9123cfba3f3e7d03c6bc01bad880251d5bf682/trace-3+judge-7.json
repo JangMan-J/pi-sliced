@@ -1,0 +1,38 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"neondatabase/mcp-server-neon/claimable-postgres",
+"source":"neondatabase/mcp-server-neon",
+"revision":"fd9123cfba3f3e7d03c6bc01bad880251d5bf682",
+"skillPath":".agents/skills/claimable-postgres",
+"status":"resolved",
+"totals":{"files":1,"bytes":12485},
+"files":[
+{"path":".agents/skills/claimable-postgres/SKILL.md","size":12485,"blob":"8a74990c13fc8121b13fb271185d0f33821aef2e","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"neon","at":[[0,239]]},
+{"kind":"cli","name":"neon-new","at":[[0,42],[0,73],[0,149],[0,178],[0,215]]},
+{"kind":"cli","name":"psql","at":[[0,61]]},
+{"kind":"cli","name":"skills","at":[[0,20]]},
+{"kind":"network","name":"neon.com","at":[[0,17]]},
+{"kind":"network","name":"neon.new","at":[[0,30],[0,103],[0,133]]},
+{"kind":"package","name":"@neon/config","at":[[0,224]]},
+{"kind":"package","name":"vite-plugin-neon-new","at":[[0,208]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/claimable-postgres","files":1,"bytes":12485}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx neon-new@latest","at":[[0,178]]},
+{"kind":"fetch-run","detail":"npx neon-new@latest","at":[[0,42],[0,73],[0,149],[0,215]]},
+{"kind":"fetch-run","detail":"npx skills","at":[[0,20]]},
+{"kind":"fetch-run","detail":"pnpm dlx neon-new@latest","at":[[0,178]]},
+{"kind":"fetch-run","detail":"yarn dlx neon-new@latest","at":[[0,178]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,20]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

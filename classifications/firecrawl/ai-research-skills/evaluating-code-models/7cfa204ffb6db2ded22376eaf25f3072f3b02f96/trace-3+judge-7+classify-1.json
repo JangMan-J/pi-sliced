@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/evaluating-code-models",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/evaluating-code-models/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"8e904b08882d117c48e2fb729152396d1a0ebe60fc0882e440795e4ffc19aa08"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11696,"own":{"files":1,"bytes":11696},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["CodeLlama-7b-hf","accelerate","deepseek-coder-6.7b-base","docker","starcoder2-7b"],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"1 file, 11 KiB · CLI CodeLlama-7b-hf, accelerate +3 · 1 host","short":"11 KiB · 5 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs accelerate","runs CodeLlama-7b-hf","runs deepseek-coder-6.7b-base","runs docker","runs starcoder2-7b"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

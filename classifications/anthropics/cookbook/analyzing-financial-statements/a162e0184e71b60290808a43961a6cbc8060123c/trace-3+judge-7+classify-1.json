@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/cookbook/analyzing-financial-statements",
+"revision":"a162e0184e71b60290808a43961a6cbc8060123c",
+"trace":{"path":"traces/anthropics/cookbook/analyzing-financial-statements/a162e0184e71b60290808a43961a6cbc8060123c/trace-3+judge-7.json","sha256":"33947f42e3a1eae49ca395ac6d4e0a481366f5903129ae225ab241b695b61224"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":31820,"own":{"files":3,"bytes":31820},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 31 KiB","short":"31 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

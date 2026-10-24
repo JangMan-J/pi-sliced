@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tldraw/tldraw/clean-copy",
+"revision":"12921f6d3996b4330688113371cd88890b673ab5",
+"trace":{"path":"traces/tldraw/tldraw/clean-copy/12921f6d3996b4330688113371cd88890b673ab5/trace-3+judge-7.json","sha256":"07377922e24535dfdaa6acc83f36621cd071e6bf8a7e312817a4299898db6c2c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2101,"own":{"files":1,"bytes":2101},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.1 KiB","short":"2.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"pr","path":"skills/pr"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/aiconfig-ai-metrics",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/aiconfig-ai-metrics/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"8e93c2fea567167f044c7e4e9c42eb5a05b5efb2bd824e16935ce67b1e93c718"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":721,"own":{"files":1,"bytes":721},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 721 B","short":"721 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"built-in-metrics","path":"skills/agentcontrol/built-in-metrics"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

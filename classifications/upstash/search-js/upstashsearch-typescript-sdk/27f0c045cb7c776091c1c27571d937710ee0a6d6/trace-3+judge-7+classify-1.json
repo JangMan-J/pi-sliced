@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/search-js/upstashsearch-typescript-sdk",
+"revision":"27f0c045cb7c776091c1c27571d937710ee0a6d6",
+"trace":{"path":"traces/upstash/search-js/upstashsearch-typescript-sdk/27f0c045cb7c776091c1c27571d937710ee0a6d6/trace-3+judge-7.json","sha256":"7ad4bc38c191aad7817b15c071148cd3ef49b657bc4918d3861f7511e6ab2dd2"},
+"status":"unresolvable",
+"reason":"no skill folder named upstashsearch-typescript-sdk at 27f0c045cb7c776091c1c27571d937710ee0a6d6"
+}

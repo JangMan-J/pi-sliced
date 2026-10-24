@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-024-base-articulation",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-024-base-articulation/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"2fac93055fe4ade8e4f44b28c4d256a0c42eb2b40d73fa51dbd8d2c9dba8c5ba"},
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-024-base-articulation at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/product-gotchas",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/product-gotchas/none/trace-3+judge-7.json","sha256":"672534583a6f2fe98855de4c50215c7f31f4bc04f31be81db9aae3880b32a87a"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

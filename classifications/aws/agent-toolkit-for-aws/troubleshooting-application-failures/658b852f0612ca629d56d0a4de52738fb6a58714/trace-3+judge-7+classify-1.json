@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/troubleshooting-application-failures",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/troubleshooting-application-failures/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"7c94035ac2cf90ef7d8f9c8a62fd0c898521492efad10e6f9ebefca5a9a59657"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":18784,"own":{"files":2,"bytes":18784},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 18 KiB · CLI aws","short":"18 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

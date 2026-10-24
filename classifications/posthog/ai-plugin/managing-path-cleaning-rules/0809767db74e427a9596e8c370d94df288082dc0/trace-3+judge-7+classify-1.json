@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/managing-path-cleaning-rules",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/managing-path-cleaning-rules/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"f5141e59120346dbf9942ae3c6e9ad96e7a2b2b6690c259d79e3fcb551bf089e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8881,"own":{"files":1,"bytes":8881},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.7 KiB","short":"8.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

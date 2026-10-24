@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/browser-agent",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/browser-agent/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"ef3bbf749d01edec2101f873e5c81b93431daa2444ece026d692af8dfd529267"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19067,"own":{"files":1,"bytes":19067},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["shadcn"],"package":["@deepgram/agents","@deepgram/react","@deepgram/ui","react","react-dom"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 19 KiB · CLI shadcn · packages @deepgram/agents +4","short":"19 KiB · 1 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs shadcn"]},{"marker":"installs-packages","because":["installs @deepgram/agents","installs @deepgram/react","installs @deepgram/ui","installs react","installs react-dom"]},{"marker":"unpinned-code","because":["npx shadcn: skills/browser-agent/SKILL.md:133"]}],
+"security":{"fetch-run":["npx shadcn @ skills/browser-agent/SKILL.md:133"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"docs","path":"skills/docs"},{"name":"examples","path":"skills/examples"},{"name":"recipes","path":"skills/recipes"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"starters","path":"skills/starters"},{"name":"voice-agent","path":"skills/voice-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

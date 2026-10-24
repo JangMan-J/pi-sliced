@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/monkey-patch-kernels-to-transformers",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/monkey-patch-kernels-to-transformers/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"a793b398bdd5ce48922bc704eb58937351ba24f73f597de99c8c0f676af6ab55"},
+"status":"unresolvable",
+"reason":"no skill folder named monkey-patch-kernels-to-transformers at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

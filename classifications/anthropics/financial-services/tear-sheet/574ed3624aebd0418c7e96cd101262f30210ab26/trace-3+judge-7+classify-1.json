@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/financial-services/tear-sheet",
+"revision":"574ed3624aebd0418c7e96cd101262f30210ab26",
+"trace":{"path":"traces/anthropics/financial-services/tear-sheet/574ed3624aebd0418c7e96cd101262f30210ab26/trace-3+judge-7.json","sha256":"e22f0e6db83cc17333ca0e14597c58a45fb9ab0e262603d94bb2f73463214d2d"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":76766,"own":{"files":5,"bytes":76766},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["api","global"],"credential":[],"network":[]},"summary":"5 files, 75 KiB · MCP api, global","short":"75 KiB · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the api MCP server","uses the global MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

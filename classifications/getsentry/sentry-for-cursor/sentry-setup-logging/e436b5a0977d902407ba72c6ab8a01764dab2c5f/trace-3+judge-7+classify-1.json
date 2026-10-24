@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-cursor/sentry-setup-logging",
+"revision":"e436b5a0977d902407ba72c6ab8a01764dab2c5f",
+"trace":{"path":"traces/getsentry/sentry-for-cursor/sentry-setup-logging/e436b5a0977d902407ba72c6ab8a01764dab2c5f/trace-3+judge-7.json","sha256":"42775110666b1ae9f1ce5dbc546f3f3945c3576d3164b07ece3d8542c19993b3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13832,"own":{"files":1,"bytes":13832},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bundle","gem"],"package":["@sentry/nextjs","sentry-sdk"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI bundle, gem · packages @sentry/nextjs +1","short":"14 KiB · 2 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bundle","runs gem"]},{"marker":"installs-packages","because":["installs @sentry/nextjs","installs sentry-sdk"]},{"marker":"unpinned-code","because":["install @latest: skills/sentry-setup-logging/SKILL.md:77"]}],
+"security":{"fetch-run":["install @latest @ skills/sentry-setup-logging/SKILL.md:77"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

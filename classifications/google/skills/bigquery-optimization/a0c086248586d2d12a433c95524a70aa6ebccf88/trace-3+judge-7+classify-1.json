@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/bigquery-optimization",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/bigquery-optimization/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"2d67d2673624dba37750c64f83a5f363909c29b9947a30c5be05405fdb0bcb0f"},
+"status":"resolved",
+"footprint":{"files":21,"bytes":259667,"own":{"files":10,"bytes":83619},"otherSkills":{"count":1,"files":11,"bytes":176048},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bq","gcloud","skills"],"package":[],"mcp-server":[],"credential":["GOOGLE_APPLICATION_CREDENTIALS"],"network":[]},"summary":"21 files, 254 KiB · +1 other skill · CLI bq, gcloud +1 · 1 key","short":"254 KiB · +1 skill · 3 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs bq","runs gcloud","runs skills"]},{"marker":"credentials","because":["needs GOOGLE_APPLICATION_CREDENTIALS"]},{"marker":"chain-loads","because":["pulls in 11 files of the skill at skills/cloud/bigquery-observability","fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/cloud/bigquery-observability/SKILL.md:86, skills/cloud/bigquery-optimization/SKILL.md:77"]}],
+"security":{"fetch-run":["npx skills @ skills/cloud/bigquery-observability/SKILL.md:86, skills/cloud/bigquery-optimization/SKILL.md:77"],"skill-fetch":["npx skills add @ skills/cloud/bigquery-observability/SKILL.md:86, skills/cloud/bigquery-optimization/SKILL.md:77"]},
+"companions":{"named":[{"name":"bigquery-observability","path":"skills/cloud/bigquery-observability"},{"name":"bigquery-troubleshooting","path":"skills/cloud/bigquery-troubleshooting"}],"pulled":[{"path":"skills/cloud/bigquery-observability","files":11,"bytes":176048}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

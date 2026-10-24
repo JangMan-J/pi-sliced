@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/hashicorp-agent-skills/feature-flags",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/hashicorp-agent-skills/feature-flags/none/trace-3+judge-7.json","sha256":"694c06993768b4ea971db7ea3eeb9c1b02d8e1f82c57d58803677391cb0b4a11"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/hashicorp-agent-skills.git/' not found"
+}

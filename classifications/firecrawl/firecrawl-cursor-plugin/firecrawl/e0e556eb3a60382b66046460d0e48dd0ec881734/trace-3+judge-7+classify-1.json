@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/firecrawl-cursor-plugin/firecrawl",
+"revision":"e0e556eb3a60382b66046460d0e48dd0ec881734",
+"trace":{"path":"traces/firecrawl/firecrawl-cursor-plugin/firecrawl/e0e556eb3a60382b66046460d0e48dd0ec881734/trace-3+judge-7.json","sha256":"63f1dfe25bd1d535f4c7f8917379d8c77d5265275634ec73b113dbef4be7a42c"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":16297,"own":{"files":9,"bytes":16297},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"firecrawl-deep-research","path":"skills/firecrawl-deep-research"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

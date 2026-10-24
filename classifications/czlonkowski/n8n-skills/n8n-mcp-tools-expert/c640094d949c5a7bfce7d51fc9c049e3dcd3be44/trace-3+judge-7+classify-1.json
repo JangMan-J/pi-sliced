@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"czlonkowski/n8n-skills/n8n-mcp-tools-expert",
+"revision":"c640094d949c5a7bfce7d51fc9c049e3dcd3be44",
+"trace":{"path":"traces/czlonkowski/n8n-skills/n8n-mcp-tools-expert/c640094d949c5a7bfce7d51fc9c049e3dcd3be44/trace-3+judge-7.json","sha256":"dc01fe751a06b50f392cdae76bf7ef3a308667beeb002cae45c608b6c057fa5a"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":181764,"own":{"files":5,"bytes":105738},"otherSkills":{"count":1,"files":4,"bytes":76026},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 178 KiB · +1 other skill","short":"178 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 4 files of the skill at skills/n8n-node-configuration"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/n8n-node-configuration","files":4,"bytes":76026}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

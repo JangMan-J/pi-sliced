@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"kotlin/kotlin-agent-skills/kotlin-tooling-native-build-performance",
+"revision":"c2f90697bf71966a117a13340d5fff787f004140",
+"trace":{"path":"traces/kotlin/kotlin-agent-skills/kotlin-tooling-native-build-performance/c2f90697bf71966a117a13340d5fff787f004140/trace-3+judge-7.json","sha256":"53849944b723b61178a8e512920f6ce7711c3def09af694b7cb63468dfcbc268"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":21680,"own":{"files":6,"bytes":21680},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 21 KiB","short":"21 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

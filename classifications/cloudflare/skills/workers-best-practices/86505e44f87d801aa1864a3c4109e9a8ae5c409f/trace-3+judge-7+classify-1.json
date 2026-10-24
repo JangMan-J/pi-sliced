@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/skills/workers-best-practices",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"trace":{"path":"traces/cloudflare/skills/workers-best-practices/86505e44f87d801aa1864a3c4109e9a8ae5c409f/trace-3+judge-7.json","sha256":"57c600f29b40e1128d4c1fa0026a394c991ef25f743f69036fa02195364c78c5"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":28786,"own":{"files":4,"bytes":28786},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["api.cloudflare.com"]},"summary":"4 files, 28 KiB · 1 host","short":"28 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from api.cloudflare.com"]}],
+"security":{},
+"companions":{"named":[{"name":"cf-cli","path":"skills/cf-cli"},{"name":"durable-objects","path":"skills/durable-objects"},{"name":"wrangler","path":"skills/wrangler"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

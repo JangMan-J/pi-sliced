@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/new-unity-project",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/new-unity-project/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"f3acfe3dbc001db5da12d40fe6996b3f7f40ebd71ce460dd3b4aa9f7d1ce4d88"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15326,"own":{"files":1,"bytes":15326},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["unity"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI unity","short":"15 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs unity"]}],
+"security":{},
+"companions":{"named":[{"name":"2d-pixel-perfect","path":"skills/2d-pixel-perfect"},{"name":"build-live-game","path":"skills/build-live-game"},{"name":"implement-in-app-purchases","path":"skills/implement-in-app-purchases"},{"name":"levelplay-unity-integration","path":"skills/levelplay-unity-integration"},{"name":"migrate-birp-to-urp","path":"skills/migrate-birp-to-urp"},{"name":"ui","path":"skills/ui"},{"name":"unity-cli","path":"skills/unity-cli"},{"name":"unity-package-management","path":"skills/unity-package-management"},{"name":"urp-postprocessing","path":"skills/urp-postprocessing"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

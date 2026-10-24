@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/grill-with-docs",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/grill-with-docs/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"da9705ddb54e5b8d2523e0f55fbb833a60a5db3ff86e44b790897f9d191b45a2"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":9463,"own":{"files":3,"bytes":9463},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["accepted","deprecated","proposed","superseded"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 9.2 KiB · CLI accepted, deprecated +2","short":"9.2 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs accepted","runs deprecated","runs proposed","runs superseded"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

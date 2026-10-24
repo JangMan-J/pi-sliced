@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/error-tracking-go",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/error-tracking-go/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"833da2a50bd884ec2380ce1674160996bba2d3869ece37780ddd9c1e7ee7f4fa"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":31276,"own":{"files":7,"bytes":31276},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go"],"package":["github.com/posthog/posthog-go"],"mcp-server":[],"credential":[],"network":["app.posthog.com"]},"summary":"7 files, 31 KiB · CLI go · packages github.com/posthog/posthog-go · 1 host","short":"31 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs go"]},{"marker":"installs-packages","because":["installs github.com/posthog/posthog-go"]},{"marker":"network","because":["fetches from app.posthog.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

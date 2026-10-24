@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/dlp/prometheus-metrics",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/dlp/prometheus-metrics/none/trace-3+judge-7.json","sha256":"a4cb50b5a8241f98a1ebbf909bf74db00d0e126c424a21f0f3b8eaac4947f150"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/dlp.git/' not found"
+}

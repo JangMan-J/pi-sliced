@@ -1,0 +1,37 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/sitecore-skills/marketplace-scaffold",
+"source":"vercel-labs/sitecore-skills",
+"revision":"8d91731a5d7b6cc5caad620aba86ebba4b9668a6",
+"skillPath":".claude/skills/marketplace-scaffold",
+"status":"resolved",
+"totals":{"files":3,"bytes":7707},
+"files":[
+{"path":".claude/skills/marketplace-scaffold/SKILL.md","size":4474,"blob":"4f93e18116396be67e5932a709d5f46c43dda224","how":"root"},
+{"path":".claude/skills/marketplace-scaffold/references/architecture-guide.md","size":1975,"blob":"5ce5dcbfc12d5b08822cd6a94be395ccb1d42917","how":"link","from":0,"line":106},
+{"path":".claude/skills/marketplace-scaffold/references/env-template.md","size":1258,"blob":"35db1b8b537ee9fa71332f3c4eb2b40edc1d77cd","how":"link","from":0,"line":66}
+],
+"outside":[
+{"kind":"cli","name":"create-next-app","at":[[0,58]]},
+{"kind":"cli","name":"shadcn","at":[[0,32],[0,35],[0,38],[0,41],[0,44],[0,47],[0,50],[0,53],[0,89]]},
+{"kind":"credential","name":"AUTH0_CLIENT_SECRET","at":[[2,37]]},
+{"kind":"credential","name":"AUTH0_SECRET","at":[[2,33]]}
+],
+"regions":[
+{"kind":"own","path":".claude/skills/marketplace-scaffold","files":3,"bytes":7707}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-next-app@latest","at":[[0,58]]},
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,32],[0,35],[0,38],[0,41],[0,44],[0,47],[0,50],[0,53],[0,89]]}
+],
+"namedSkills":[
+{"name":"marketplace-add-extension","path":".claude/skills/marketplace-add-extension","at":[[0,100]]},
+{"name":"marketplace-build-component","path":".claude/skills/marketplace-build-component","at":[[0,102]]},
+{"name":"marketplace-deploy","path":".claude/skills/marketplace-deploy","at":[[0,103]]},
+{"name":"marketplace-sdk-reference","path":".claude/skills/marketplace-sdk-reference","at":[[0,101]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

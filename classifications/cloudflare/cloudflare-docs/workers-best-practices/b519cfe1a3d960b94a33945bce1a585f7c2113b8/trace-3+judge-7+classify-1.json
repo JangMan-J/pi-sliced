@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/workers-best-practices",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/workers-best-practices/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"25ce4ee93ee85b9d8feff0fc1bf79eee4d1118c3eed0483dc75a72618c122bc8"},
+"status":"unresolvable",
+"reason":"no skill folder named workers-best-practices at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

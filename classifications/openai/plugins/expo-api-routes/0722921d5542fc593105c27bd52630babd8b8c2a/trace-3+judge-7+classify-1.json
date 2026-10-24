@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/expo-api-routes",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/expo-api-routes/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"3ed5346c3b7c7df27871d8b67dc09121b4184dfb86e3d3bb59968841d0b45e4e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8704,"own":{"files":1,"bytes":8704},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["eas","expo"],"package":["eas-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.5 KiB · CLI eas, expo · packages eas-cli","short":"8.5 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs eas","runs expo"]},{"marker":"installs-packages","because":["installs eas-cli"]},{"marker":"unpinned-code","because":["npx expo: plugins/expo/skills/expo-api-routes/SKILL.md:201"]}],
+"security":{"fetch-run":["npx expo @ plugins/expo/skills/expo-api-routes/SKILL.md:201"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

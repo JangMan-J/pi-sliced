@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-servicebus-py",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-servicebus-py/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"9eeaa22be30521208637b3d2bc562bbb099a0f8a0e95fad74b3e61df37814d95"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":51695,"own":{"files":4,"bytes":51695},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["azure","azure-identity","azure-servicebus"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"4 files, 50 KiB · packages azure +2 · 1 key","short":"50 KiB · 3 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs azure","installs azure-identity","installs azure-servicebus"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,38 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"grafana/skills/react-19-plugin-migration",
+"source":"grafana/skills",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"skillPath":"skills/grafana-plugins/react-19-plugin-migration",
+"status":"resolved",
+"totals":{"files":2,"bytes":16881},
+"files":[
+{"path":"skills/grafana-plugins/react-19-plugin-migration/SKILL.md","size":12206,"blob":"40225bfc63486662aba4d70ace117c2253539e61","how":"root"},
+{"path":"skills/grafana-plugins/react-19-plugin-migration/references/known-issues.md","size":4675,"blob":"db45e0f93f4cb0a7d6b4feb42a3dc15dacde6a17","how":"link","from":0,"line":350}
+],
+"outside":[
+{"kind":"cli","name":"@grafana/create-plugin","at":[[0,72],[0,87],[0,193]]},
+{"kind":"cli","name":"@grafana/react-detect","at":[[0,45]]},
+{"kind":"cli","name":"create-plugin","at":[[0,190],[0,342]]},
+{"kind":"cli","name":"eslint","at":[[0,128]]},
+{"kind":"cli","name":"jq","at":[[0,29],[0,31],[0,220]]},
+{"kind":"package","name":"@grafana/i18n","at":[[0,344]]},
+{"kind":"package","name":"@openfeature/core","at":[[0,300],[0,343]]},
+{"kind":"package","name":"@openfeature/web-sdk","at":[[0,300],[0,343]]},
+{"kind":"package","name":"2","at":[[0,80],[0,106],[0,275],[0,294],[0,334]]},
+{"kind":"package","name":"string-replace-loader","at":[[1,86]]}
+],
+"regions":[
+{"kind":"own","path":"skills/grafana-plugins/react-19-plugin-migration","files":2,"bytes":16881}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @grafana/create-plugin@latest","at":[[0,72],[0,87],[0,193]]},
+{"kind":"fetch-run","detail":"npx @grafana/react-detect@latest","at":[[0,45]]},
+{"kind":"fetch-run","detail":"npx eslint","at":[[0,128]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":"Apache-2.0"}
+}

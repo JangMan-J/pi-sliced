@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/ai/react-native-ai-skills",
+"revision":"d4ce05ff1b39e203fb1d2585dd0484ef91d84050",
+"trace":{"path":"traces/callstackincubator/ai/react-native-ai-skills/d4ce05ff1b39e203fb1d2585dd0484ef91d84050/trace-3+judge-7.json","sha256":"a2c5490a77f56000e5f344ad5e02d87a34c477fa6a427cb0ef6329d0f6525e4f"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":17089,"own":{"files":6,"bytes":17089},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo"],"package":["@react-native-ai/apple","@react-native-ai/llama","@react-native-ai/mlc","@react-native-ai/ncnn-wrapper","ai","llama.rn"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 17 KiB · CLI expo · packages @react-native-ai/apple +5","short":"17 KiB · 1 CLI · 6 pkg"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs expo"]},{"marker":"installs-packages","because":["installs @react-native-ai/apple","installs @react-native-ai/llama","installs @react-native-ai/mlc","installs @react-native-ai/ncnn-wrapper","installs ai","installs llama.rn"]},{"marker":"unpinned-code","because":["npx expo: skills/react-native-ai/references/mlc-provider.md:53"]}],
+"security":{"fetch-run":["npx expo @ skills/react-native-ai/references/mlc-provider.md:53"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

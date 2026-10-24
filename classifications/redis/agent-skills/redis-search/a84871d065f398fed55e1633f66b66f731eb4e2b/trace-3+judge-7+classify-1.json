@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"redis/agent-skills/redis-search",
+"revision":"a84871d065f398fed55e1633f66b66f731eb4e2b",
+"trace":{"path":"traces/redis/agent-skills/redis-search/a84871d065f398fed55e1633f66b66f731eb4e2b/trace-3+judge-7.json","sha256":"4df6ec95c64e18810a08ff2f70b91744ca8af378785112daa9d58f37eff22575"},
+"status":"resolved",
+"footprint":{"files":23,"bytes":262013,"own":{"files":23,"bytes":262013},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["github.com","redis.io"]},"summary":"23 files, 256 KiB · 2 hosts","short":"256 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from github.com","fetches from redis.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

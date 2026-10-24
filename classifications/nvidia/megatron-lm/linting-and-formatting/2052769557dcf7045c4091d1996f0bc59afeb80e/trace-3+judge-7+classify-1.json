@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/linting-and-formatting",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/linting-and-formatting/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"c01fe1202cfab1cbdb7d0a3a622c739f995669eeec98addbf3867371afa8feb7"},
+"status":"unresolvable",
+"reason":"no skill folder named linting-and-formatting at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

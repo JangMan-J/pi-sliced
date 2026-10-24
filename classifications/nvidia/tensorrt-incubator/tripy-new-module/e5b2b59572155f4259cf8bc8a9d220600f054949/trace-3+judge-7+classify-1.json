@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/tensorrt-incubator/tripy-new-module",
+"revision":"e5b2b59572155f4259cf8bc8a9d220600f054949",
+"trace":{"path":"traces/nvidia/tensorrt-incubator/tripy-new-module/e5b2b59572155f4259cf8bc8a9d220600f054949/trace-3+judge-7.json","sha256":"f58c3d77248b458683e85c1b6b3492f9800315b8b00313db27e8143ac9106b64"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8418,"own":{"files":1,"bytes":8418},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.2 KiB","short":"8.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

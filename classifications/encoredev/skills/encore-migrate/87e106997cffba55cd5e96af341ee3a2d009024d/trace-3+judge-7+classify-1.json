@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-migrate",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-migrate/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"dce28d7212daa78c0914c061bda24e258c5b795394357ef5965e0ea1efb70001"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":33078,"own":{"files":1,"bytes":26205},"otherSkills":{"count":1,"files":1,"bytes":6873},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["encore","hurl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 32 KiB · +1 other skill · CLI encore, hurl","short":"32 KiB · +1 skill · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs encore","runs hurl"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at encore/frontend"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"encore/frontend","files":1,"bytes":6873}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

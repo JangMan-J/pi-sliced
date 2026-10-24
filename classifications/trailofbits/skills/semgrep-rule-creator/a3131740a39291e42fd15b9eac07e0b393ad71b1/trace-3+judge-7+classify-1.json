@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/semgrep-rule-creator",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/semgrep-rule-creator/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"60eb6afaaf214f33d1f18e21d9833d23b51d151b95a5caaf6d2b864f89f5c39b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7320,"own":{"files":1,"bytes":7320},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["semgrep"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.1 KiB · CLI semgrep","short":"7.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs semgrep"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

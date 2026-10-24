@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/prometheus-configuration",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/prometheus-configuration/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"9a3f5c65da276c079d15b369d863dc113b8fdbab754337d1e29b23dae4c238dd"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10110,"own":{"files":2,"bytes":10110},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["helm","promtool"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.9 KiB · CLI helm, promtool","short":"9.9 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs helm","runs promtool"]}],
+"security":{},
+"companions":{"named":[{"name":"distributed-tracing","path":"plugins/observability-monitoring/skills/distributed-tracing"},{"name":"grafana-dashboards","path":"plugins/observability-monitoring/skills/grafana-dashboards"},{"name":"slo-implementation","path":"plugins/observability-monitoring/skills/slo-implementation"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

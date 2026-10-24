@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/cupynumeric-parallel-data-load",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/cupynumeric-parallel-data-load/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"7d07eefb98ec38bfef4cadd9dd329d5b80e497b37fe335fc3c094aaae728d207"},
+"status":"unresolvable",
+"reason":"no skill folder named cupynumeric-parallel-data-load at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

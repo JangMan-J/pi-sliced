@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firebase/skills/developing-genkit-js",
+"source":"firebase/skills",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named developing-genkit-js at 92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

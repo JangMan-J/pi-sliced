@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/ai/security-review",
+"revision":"0257b47857e2f24807d5b2cab0b56bbdab28809f",
+"trace":{"path":"traces/vercel/ai/security-review/0257b47857e2f24807d5b2cab0b56bbdab28809f/trace-3+judge-7.json","sha256":"d078b06545950d392a8720042fbf5e54d8ae20b57f208bf1b646092f78dbd47e"},
+"status":"unresolvable",
+"reason":"no skill folder named security-review at 0257b47857e2f24807d5b2cab0b56bbdab28809f or at the remote HEAD e729d588b3291e22cfcd6cba32b6dcf7778ef21c"
+}

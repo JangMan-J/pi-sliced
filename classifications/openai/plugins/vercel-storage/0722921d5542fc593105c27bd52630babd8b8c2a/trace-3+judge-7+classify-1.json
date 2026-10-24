@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/vercel-storage",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/vercel-storage/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"0134f609bda0d9ff71c0f3116de5592e951cce0f7fb7d695d96ce57dd3f55bbf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15334,"own":{"files":1,"bytes":15334},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["convex","dotenv","drizzle-kit","prisma","vercel"],"package":["@libsql/client","@neondatabase/serverless","@prisma/client","@supabase/ssr","@supabase/supabase-js","@upstash/redis","@vercel/blob","@vercel/edge-config","convex","dotenv-cli","mongodb","prisma"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI convex, dotenv +3 · packages @libsql/client +11","short":"15 KiB · 5 CLI · 12 pkg"},
+"heavy":{"heavy":true,"because":["12 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs convex","runs dotenv","runs drizzle-kit","runs prisma","runs vercel"]},{"marker":"installs-packages","because":["installs @libsql/client","installs @neondatabase/serverless","installs @prisma/client","installs @supabase/ssr","installs @supabase/supabase-js","installs @upstash/redis","installs @vercel/blob","installs @vercel/edge-config","installs convex","installs dotenv-cli","installs mongodb","installs prisma"]},{"marker":"unpinned-code","because":["npx convex: plugins/vercel/skills/vercel-storage/SKILL.md:344","npx dotenv: plugins/vercel/skills/vercel-storage/SKILL.md:239, plugins/vercel/skills/vercel-storage/SKILL.md:240","npx drizzle-kit: plugins/vercel/skills/vercel-storage/SKILL.md:235","npx prisma: plugins/vercel/skills/vercel-storage/SKILL.md:308"]}],
+"security":{"fetch-run":["npx convex @ plugins/vercel/skills/vercel-storage/SKILL.md:344","npx dotenv @ plugins/vercel/skills/vercel-storage/SKILL.md:239, plugins/vercel/skills/vercel-storage/SKILL.md:240","npx drizzle-kit @ plugins/vercel/skills/vercel-storage/SKILL.md:235","npx prisma @ plugins/vercel/skills/vercel-storage/SKILL.md:308"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

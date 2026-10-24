@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/repo-story-time",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/repo-story-time/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"f3959281a58e0ff9a8c57897a0ff498683b6077e0e50d9828eb14994ee3da5a6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6676,"own":{"files":1,"bytes":6676},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ForEach-Object","Group-Object","Select-Object","Sort-Object","Where-Object"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.5 KiB · CLI ForEach-Object, Group-Object +3","short":"6.5 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ForEach-Object","runs Group-Object","runs Select-Object","runs Sort-Object","runs Where-Object"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

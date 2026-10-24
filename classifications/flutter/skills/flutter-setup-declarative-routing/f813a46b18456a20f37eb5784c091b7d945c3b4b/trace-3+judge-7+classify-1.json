@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-setup-declarative-routing",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-setup-declarative-routing/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"b1e3d4ddfa5f2a3b51ec877a666d0b17dedbce956ee22fdd1637af41ece547db"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8204,"own":{"files":1,"bytes":8204},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adb","flutter","xcrun"],"package":["go_router"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.0 KiB · CLI adb, flutter +1 · packages go_router","short":"8.0 KiB · 3 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs flutter","runs xcrun"]},{"marker":"installs-packages","because":["installs go_router"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

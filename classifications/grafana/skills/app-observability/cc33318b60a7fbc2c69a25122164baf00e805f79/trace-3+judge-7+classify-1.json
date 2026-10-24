@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/app-observability",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/app-observability/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"9a9f4d2f1f9855d04ad6b3b9b1ec390147c90190f73759f11b447fbab3506f2c"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":55212,"own":{"files":6,"bytes":55212},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["alloy","docker","go","helm","java","jq","opentelemetry-bootstrap","opentelemetry-instrument","run"],"package":["@grafana/faro-react","@grafana/faro-web-sdk","@grafana/faro-web-tracing","@opentelemetry/auto-instrumentations-node","@opentelemetry/exporter-trace-otlp-grpc","@opentelemetry/sdk-node","alloy","anthropic","cohere","go.opentelemetry.io/otel","go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc","go.opentelemetry.io/otel/sdk","grafana/grafana/alloy","openai","openlit","opentelemetry-distro","opentelemetry-exporter-otlp"],"mcp-server":[],"credential":["GRAFANA_CLOUD_API_KEY"],"network":["github.com"]},"summary":"6 files, 54 KiB · CLI alloy, docker +7 · packages @grafana/faro-react +16 · 1 key · 1 host","short":"54 KiB · 9 CLI · 17 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["17 packages to install","9 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs alloy","runs docker","runs go","runs helm","runs java","runs jq","runs opentelemetry-bootstrap","runs opentelemetry-instrument","runs run"]},{"marker":"installs-packages","because":["installs @grafana/faro-react","installs @grafana/faro-web-sdk","installs @grafana/faro-web-tracing","installs @opentelemetry/auto-instrumentations-node","installs @opentelemetry/exporter-trace-otlp-grpc","installs @opentelemetry/sdk-node","installs alloy","installs anthropic","installs cohere","installs go.opentelemetry.io/otel","installs go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc","installs go.opentelemetry.io/otel/sdk","installs grafana/grafana/alloy","installs openai","installs openlit","installs opentelemetry-distro","installs opentelemetry-exporter-otlp"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GRAFANA_CLOUD_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

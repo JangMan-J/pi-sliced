@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/chatgpt-app-submission",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/chatgpt-app-submission/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"03e0bc93270ecabab301c3b7d5dfd087c2a9583a70feebe20e503a91ae1dd00b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11256,"own":{"files":1,"bytes":11256},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["apps"],"credential":[],"network":[]},"summary":"1 file, 11 KiB · MCP apps","short":"11 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the apps MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

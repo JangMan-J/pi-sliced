@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-route-visual-changenet-samples",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-route-visual-changenet-samples/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"73aa745526bc541fc965f9d2061eb65c375ea18dd2c7351d4d5e1c7a01428441"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12657,"own":{"files":1,"bytes":12657},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB","short":"12 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"tao-analyze-gaps-visual-changenet","path":"skills/tao-analyze-gaps-visual-changenet"},{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

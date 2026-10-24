@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-security-best",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-security-best/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"3950720094a61c63424496ab8f514601449e9488b6cfb8d7c100bd60602e91b0"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-security-best at f0ee12594687930cc378eb351643cb6e12007f39"
+}

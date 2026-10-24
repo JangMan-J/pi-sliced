@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/routing-middleware",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/routing-middleware/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"acce9657b98d87b034d5b61090cd8640b29441123a5f6a2b06be52da95eb127f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9502,"own":{"files":1,"bytes":9502},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@next/codemod","@vercel/config"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.3 KiB · CLI @next/codemod, @vercel/config","short":"9.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @next/codemod","runs @vercel/config"]},{"marker":"unpinned-code","because":["npx @next/codemod@latest: plugins/vercel/skills/routing-middleware/SKILL.md:57","npx @vercel/config: plugins/vercel/skills/routing-middleware/SKILL.md:223, plugins/vercel/skills/routing-middleware/SKILL.md:224, plugins/vercel/skills/routing-middleware/SKILL.md:225"]}],
+"security":{"fetch-run":["npx @next/codemod@latest @ plugins/vercel/skills/routing-middleware/SKILL.md:57","npx @vercel/config @ plugins/vercel/skills/routing-middleware/SKILL.md:223, plugins/vercel/skills/routing-middleware/SKILL.md:224, plugins/vercel/skills/routing-middleware/SKILL.md:225"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

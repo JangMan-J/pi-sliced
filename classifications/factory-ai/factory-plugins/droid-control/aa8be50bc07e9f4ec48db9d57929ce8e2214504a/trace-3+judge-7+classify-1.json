@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"factory-ai/factory-plugins/droid-control",
+"revision":"aa8be50bc07e9f4ec48db9d57929ce8e2214504a",
+"trace":{"path":"traces/factory-ai/factory-plugins/droid-control/aa8be50bc07e9f4ec48db9d57929ce8e2214504a/trace-3+judge-7.json","sha256":"c93b7ece0c2dc1917876e4b7e1fbfc19acbd82701747590c52de3d84238d7a7b"},
+"status":"resolved",
+"footprint":{"files":17,"bytes":102579,"own":{"files":17,"bytes":102579},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-browser","cargo","close","cua-driver","document.querySelectorAll","droid","fd","ffmpeg","ffprobe","import","launch","not","perl","shutdown","snapshot","sys.stdout.write","tctl","termios.tcsetattr","tty.setraw","tuistory"],"package":["agg","asciinema","cage","clang","ffmpeg","grim","libclang-dev","libx264-dev","python3","tuistory","wf-recorder","wtype","x264"],"mcp-server":[],"credential":["DROID_VM_SSH_KEY"],"network":["github.com"]},"summary":"17 files, 100 KiB · CLI agent-browser, cargo +18 · packages agg +12 · 1 key · 1 host","short":"100 KiB · 20 CLI · 13 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["13 packages to install","20 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser","runs cargo","runs close","runs cua-driver","runs document.querySelectorAll","runs droid","runs fd","runs ffmpeg","runs ffprobe","runs import","runs launch","runs not","runs perl","runs shutdown","runs snapshot","runs sys.stdout.write","runs tctl","runs termios.tcsetattr","runs tty.setraw","runs tuistory"]},{"marker":"installs-packages","because":["installs agg","installs asciinema","installs cage","installs clang","installs ffmpeg","installs grim","installs libclang-dev","installs libx264-dev","installs python3","installs tuistory","installs wf-recorder","installs wtype","installs x264"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs DROID_VM_SSH_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

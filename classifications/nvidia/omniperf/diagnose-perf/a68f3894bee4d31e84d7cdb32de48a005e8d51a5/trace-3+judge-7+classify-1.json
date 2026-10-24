@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/omniperf/diagnose-perf",
+"revision":"a68f3894bee4d31e84d7cdb32de48a005e8d51a5",
+"trace":{"path":"traces/nvidia/omniperf/diagnose-perf/a68f3894bee4d31e84d7cdb32de48a005e8d51a5/trace-3+judge-7.json","sha256":"670469d37ce4b33c3fea4709337c9d85b550bec23d9800d0e91db5592acea7d1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7335,"own":{"files":1,"bytes":7335},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["and","cpupower","fps","free","import","isinstance","lscpu","name","nvidia-smi","or","pgrep","print","sys.stdin","top","value"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.2 KiB · CLI and, cpupower +13","short":"7.2 KiB · 15 CLI"},
+"heavy":{"heavy":true,"because":["15 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs and","runs cpupower","runs fps","runs free","runs import","runs isinstance","runs lscpu","runs name","runs nvidia-smi","runs or","runs pgrep","runs print","runs sys.stdin","runs top","runs value"]}],
+"security":{},
+"companions":{"named":[{"name":"benchmark-isaaclab","path":".agents/skills/benchmark-isaaclab"},{"name":"benchmark-isaacsim","path":".agents/skills/benchmark-isaacsim"},{"name":"nsys-analyze","path":".agents/skills/nsys-analyze"},{"name":"perf-tuning","path":".agents/skills/perf-tuning"},{"name":"profiling","path":".agents/skills/profiling"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

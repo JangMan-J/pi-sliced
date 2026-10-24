@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/debugging-dags",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/debugging-dags/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"802b2f4f01f4519e66292f557e7ef5ec89f513c2e89a22a8b89cb66942b302d3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7494,"own":{"files":1,"bytes":7494},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["af","docker"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB · CLI af, docker","short":"7.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs af","runs docker"]}],
+"security":{},
+"companions":{"named":[{"name":"airflow","path":"skills/airflow"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

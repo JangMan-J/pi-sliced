@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/agent-skills/optimizing-streamlit-performance",
+"revision":"c69a265613f17cdd69d42e6f67b704214178fae5",
+"trace":{"path":"traces/streamlit/agent-skills/optimizing-streamlit-performance/c69a265613f17cdd69d42e6f67b704214178fae5/trace-3+judge-7.json","sha256":"b4e6e3c98123d8e6a202960926e78d8531ac6aa3f8a8a2e2e1b5a733e5af8f96"},
+"status":"unresolvable",
+"reason":"no skill folder named optimizing-streamlit-performance at c69a265613f17cdd69d42e6f67b704214178fae5"
+}

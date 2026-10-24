@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/skill-scanner",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/skill-scanner/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"32e0118a6667da28b39afb6e0b39fda7a49ba5cabecc1fa0d7377fec61c4af01"},
+"status":"unresolvable",
+"reason":"no skill folder named skill-scanner at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

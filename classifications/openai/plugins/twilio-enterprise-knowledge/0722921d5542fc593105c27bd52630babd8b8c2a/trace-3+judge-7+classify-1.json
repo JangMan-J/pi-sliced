@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-enterprise-knowledge",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-enterprise-knowledge/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"4b604495a1bcb4cc84667d6fd32f0c293a2cca1819e4d77c379c52ae1d51b3c1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12901,"own":{"files":1,"bytes":12901},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB","short":"13 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-agent-connect","path":"plugins/twilio-developer-kit/skills/twilio-agent-connect"},{"name":"twilio-conversation-intelligence","path":"plugins/twilio-developer-kit/skills/twilio-conversation-intelligence"},{"name":"twilio-customer-memory","path":"plugins/twilio-developer-kit/skills/twilio-customer-memory"},{"name":"twilio-debugging-observability","path":"plugins/twilio-developer-kit/skills/twilio-debugging-observability"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-voice-conversation-relay","path":"plugins/twilio-developer-kit/skills/twilio-voice-conversation-relay"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

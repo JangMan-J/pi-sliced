@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/omnibus-instrument-error-tracking",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/omnibus-instrument-error-tracking/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"911a6a63d3b69890ae7789a54c483acd514e1f4922959538bcf0996ce4b6518e"},
+"status":"resolved",
+"footprint":{"files":21,"bytes":116036,"own":{"files":21,"bytes":116036},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bundle","expo","go","nuxt","pod","rails"],"package":["@posthog/nuxt","@posthog/react","@react-native-async-storage/async-storage","github.com/posthog/posthog-go","posthog","posthog-js","posthog-node","posthog-react-native","react-native-device-info","react-native-localize"],"mcp-server":[],"credential":["NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN","VITE_PUBLIC_POSTHOG_PROJECT_TOKEN"],"network":["app.posthog.com"]},"summary":"21 files, 113 KiB · CLI bundle, expo +4 · packages @posthog/nuxt +9 · 2 keys · 1 host","short":"113 KiB · 6 CLI · 10 pkg · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["10 packages to install","6 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs bundle","runs expo","runs go","runs nuxt","runs pod","runs rails"]},{"marker":"installs-packages","because":["installs @posthog/nuxt","installs @posthog/react","installs @react-native-async-storage/async-storage","installs github.com/posthog/posthog-go","installs posthog","installs posthog-js","installs posthog-node","installs posthog-react-native","installs react-native-device-info","installs react-native-localize"]},{"marker":"network","because":["fetches from app.posthog.com"]},{"marker":"credentials","because":["needs NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN","needs VITE_PUBLIC_POSTHOG_PROJECT_TOKEN"]},{"marker":"unpinned-code","because":["npx expo: skills/posthog/error-tracking/skills/all/references/react-native.md:16"]}],
+"security":{"fetch-run":["npx expo @ skills/posthog/error-tracking/skills/all/references/react-native.md:16"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/ai-rules/neon-auth",
+"revision":"1ceaf89a4e0acfbaf152ac2e85d45afd55f49c0f",
+"trace":{"path":"traces/neondatabase/ai-rules/neon-auth/1ceaf89a4e0acfbaf152ac2e85d45afd55f49c0f/trace-3+judge-7.json","sha256":"d3c1b763c9cc3e09444c685b9606de7ab4c99962becc42ee5e1eb9db323f9695"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":32194,"own":{"files":5,"bytes":32194},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@neondatabase/auth","react-router-dom"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 31 KiB · packages @neondatabase/auth +1","short":"31 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @neondatabase/auth","installs react-router-dom"]}],
+"security":{},
+"companions":{"named":[{"name":"add-neon-docs","path":"neon-plugin/skills/add-neon-docs"},{"name":"neon-js","path":"neon-plugin/skills/neon-js"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

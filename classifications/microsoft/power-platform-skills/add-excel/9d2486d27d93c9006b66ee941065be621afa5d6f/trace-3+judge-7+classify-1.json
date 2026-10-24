@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-excel",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-excel/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"8f4fbf3e704fdd8985a82c0f68f4ea797707dc2f565ab74f7b942ec6e25327a7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3202,"own":{"files":1,"bytes":3202},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.1 KiB · CLI pa","short":"3.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pa"]},{"marker":"stub","because":["own folder 3.1 KiB (1 file)","content is the pa it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

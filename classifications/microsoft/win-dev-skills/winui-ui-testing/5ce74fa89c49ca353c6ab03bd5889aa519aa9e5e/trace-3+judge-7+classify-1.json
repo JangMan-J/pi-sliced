@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/win-dev-skills/winui-ui-testing",
+"revision":"5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e",
+"trace":{"path":"traces/microsoft/win-dev-skills/winui-ui-testing/5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e/trace-3+judge-7.json","sha256":"c4981447e85d8fe5ea5b4e74954fc30800033d43c07b43dddcede2c64ea660bc"},
+"status":"unresolvable",
+"reason":"no skill folder named winui-ui-testing at 5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e"
+}

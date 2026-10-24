@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/skypilot-multi-cloud-orchestration",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/skypilot-multi-cloud-orchestration/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"c156003583fa061c50e52d70b966c3c60c6ddcd8543c26daf099afb42801fa9b"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":27603,"own":{"files":3,"bytes":27603},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","az","gcloud","journalctl","kubectl","nvidia-smi","sky","ssh"],"package":[],"mcp-server":[],"credential":["SKYPILOT_API_TOKEN"],"network":[]},"summary":"3 files, 27 KiB · CLI aws, az +6 · 1 key","short":"27 KiB · 8 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs az","runs gcloud","runs journalctl","runs kubectl","runs nvidia-smi","runs sky","runs ssh"]},{"marker":"credentials","because":["needs SKYPILOT_API_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

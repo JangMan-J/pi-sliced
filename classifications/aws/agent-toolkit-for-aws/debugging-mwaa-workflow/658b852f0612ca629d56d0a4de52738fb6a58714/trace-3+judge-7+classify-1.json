@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/debugging-mwaa-workflow",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/debugging-mwaa-workflow/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"8da6e412857e0977b5d3287b780d0471bb451ccd286a7b17242bd40dbe4efdc5"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":30049,"own":{"files":4,"bytes":30049},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":["aws","logs"],"credential":[],"network":["docs.aws.amazon.com"]},"summary":"4 files, 29 KiB · MCP aws, logs · CLI aws · 1 host","short":"29 KiB · 1 CLI · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]},{"marker":"network","because":["fetches from docs.aws.amazon.com"]},{"marker":"mcp-server","because":["uses the aws MCP server","uses the logs MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

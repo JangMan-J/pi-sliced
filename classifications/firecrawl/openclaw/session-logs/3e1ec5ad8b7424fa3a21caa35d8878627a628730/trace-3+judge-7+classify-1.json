@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/session-logs",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/session-logs/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"0c671616e7bd85c87c99740a4e1337543858cbbab92c428efb20ea664b63cfb8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3429,"own":{"files":1,"bytes":3429},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","rg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.3 KiB · CLI jq, rg","short":"3.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs rg"]},{"marker":"stub","because":["own folder 3.3 KiB (1 file)","content is the jq, rg it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/codex-expo-run-actions",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/codex-expo-run-actions/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"b1f65475ff30b7f570d72dce1f1407eb63a05b8b36fff914843dd0ee4348643f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8349,"own":{"files":2,"bytes":8349},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Export","Start","expo","expo-doctor"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 8.2 KiB · CLI Export, Start +2","short":"8.2 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs expo","runs expo-doctor","runs Export","runs Start"]},{"marker":"unpinned-code","because":["bunx expo: plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:63","bunx expo-doctor: plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:75","npx expo: plugins/expo/skills/codex-expo-run-actions/SKILL.md:26, plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:65","npx expo-doctor: plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:77"]}],
+"security":{"fetch-run":["bunx expo @ plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:63","bunx expo-doctor @ plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:75","npx expo @ plugins/expo/skills/codex-expo-run-actions/SKILL.md:26, plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:65","npx expo-doctor @ plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md:77"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"qdrant/skills/qdrant-clients-sdk",
+"revision":"d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+"trace":{"path":"traces/qdrant/skills/qdrant-clients-sdk/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/trace-3+judge-7.json","sha256":"9ba03d80ea1aa4d9982523e192fdc7663b8956910b38b822a1a9ec02a4af71f1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3028,"own":{"files":1,"bytes":3028},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@qdrant/js-client-rest","Qdrant.Client","github.com/qdrant/go-client","qdrant-client"],"mcp-server":[],"credential":[],"network":["skills.qdrant.tech"]},"summary":"1 file, 3.0 KiB · packages @qdrant/js-client-rest +3 · 1 host","short":"3.0 KiB · 4 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["4 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @qdrant/js-client-rest","installs github.com/qdrant/go-client","installs qdrant-client","installs Qdrant.Client"]},{"marker":"network","because":["fetches from skills.qdrant.tech"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

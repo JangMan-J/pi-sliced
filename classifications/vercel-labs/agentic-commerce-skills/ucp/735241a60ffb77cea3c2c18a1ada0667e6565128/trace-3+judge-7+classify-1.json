@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agentic-commerce-skills/ucp",
+"revision":"735241a60ffb77cea3c2c18a1ada0667e6565128",
+"trace":{"path":"traces/vercel-labs/agentic-commerce-skills/ucp/735241a60ffb77cea3c2c18a1ada0667e6565128/trace-3+judge-7.json","sha256":"384d4c4c407bf8e8380fa6d275246d049c488084d2715de07b5d581bf652982c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":82072,"own":{"files":1,"bytes":82072},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","openssl"],"package":["@modelcontextprotocol/sdk","mcp-handler","zod"],"mcp-server":[],"credential":["STRIPE_SECRET_KEY","UCP_SIGNING_KEY"],"network":["github.com"]},"summary":"1 file, 80 KiB · CLI jq, openssl · packages @modelcontextprotocol/sdk +2 · 2 keys · 1 host","short":"80 KiB · 2 CLI · 3 pkg · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs openssl"]},{"marker":"installs-packages","because":["installs @modelcontextprotocol/sdk","installs mcp-handler","installs zod"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs STRIPE_SECRET_KEY","needs UCP_SIGNING_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

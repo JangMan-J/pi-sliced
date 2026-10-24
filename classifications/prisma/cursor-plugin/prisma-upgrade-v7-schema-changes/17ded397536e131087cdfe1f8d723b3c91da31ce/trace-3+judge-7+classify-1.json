@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-upgrade-v7-schema-changes",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-upgrade-v7-schema-changes/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"eae823c08bc4056d8035cd8d5109d0b9636a983764af470f9d6f1c213e701df2"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-upgrade-v7-schema-changes at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

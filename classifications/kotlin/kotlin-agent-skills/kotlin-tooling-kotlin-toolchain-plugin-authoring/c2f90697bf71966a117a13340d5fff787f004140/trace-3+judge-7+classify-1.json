@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"kotlin/kotlin-agent-skills/kotlin-tooling-kotlin-toolchain-plugin-authoring",
+"revision":"c2f90697bf71966a117a13340d5fff787f004140",
+"trace":{"path":"traces/kotlin/kotlin-agent-skills/kotlin-tooling-kotlin-toolchain-plugin-authoring/c2f90697bf71966a117a13340d5fff787f004140/trace-3+judge-7.json","sha256":"507774ae63a59212580ebc71c700da31a955963ef6b5c0aea718b5f5703cbdf5"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15743,"own":{"files":2,"bytes":15743},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

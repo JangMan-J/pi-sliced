@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/sast-configuration",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/sast-configuration/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"32dc32c8c213cd1edb8795a3101fb872c169b5affc2dbb4a14f3cb27bcdfc810"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":53281,"own":{"files":1,"bytes":5403},"otherSkills":{"count":2,"files":4,"bytes":47878},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["codeql","docker","gh","semgrep"],"package":["semgrep"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 52 KiB · +2 other skills · CLI codeql, docker +2 · packages semgrep","short":"52 KiB · +2 skills · 4 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs codeql","runs docker","runs gh","runs semgrep"]},{"marker":"installs-packages","because":["installs semgrep"]},{"marker":"chain-loads","because":["pulls in 2 files of the skill at plugins/security-scanning/skills/stride-analysis-patterns","pulls in 2 files of the skill at plugins/security-scanning/skills/threat-mitigation-mapping"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"plugins/security-scanning/skills/stride-analysis-patterns","files":2,"bytes":20951},{"path":"plugins/security-scanning/skills/threat-mitigation-mapping","files":2,"bytes":26927}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

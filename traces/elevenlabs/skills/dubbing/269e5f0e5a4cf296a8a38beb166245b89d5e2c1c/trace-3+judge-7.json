@@ -1,0 +1,43 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"elevenlabs/skills/dubbing",
+"source":"elevenlabs/skills",
+"revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+"skillPath":"dubbing",
+"status":"resolved",
+"totals":{"files":3,"bytes":30085},
+"files":[
+{"path":"dubbing/SKILL.md","size":13395,"blob":"a402f53b0babe823e42ba9574099e8a0eed6dd13","how":"root"},
+{"path":"dubbing/references/api-reference.md","size":13788,"blob":"fcd3ff5e88be71cf4d7e9a55fd1a5f34c3c80edb","how":"link","from":0,"line":272},
+{"path":"dubbing/references/installation.md","size":2902,"blob":"66a069e9b82634c0c56f46d41195a0b5351848d4","how":"link","from":0,"line":15}
+],
+"outside":[
+{"kind":"cli","name":"@elevenlabs/cli","at":[[0,15],[2,95]]},
+{"kind":"cli","name":"elevenlabs","at":[[0,137],[0,141],[0,144],[0,147],[0,192],[0,195],[0,220],[2,41],[2,47],[2,90]]},
+{"kind":"cli","name":"scoop","at":[[2,22],[2,23]]},
+{"kind":"credential","name":"ELEVENLABS_API_KEY","at":[[2,35],[2,106]]},
+{"kind":"network","name":"api.elevenlabs.io","at":[[0,15]]},
+{"kind":"network","name":"elevenlabs.io","at":[[2,98]]},
+{"kind":"network","name":"github.com","at":[[2,29]]},
+{"kind":"package","name":"@elevenlabs/cli","at":[[2,10]]},
+{"kind":"package","name":"@elevenlabs/elevenlabs-js","at":[[2,71]]},
+{"kind":"package","name":"elevenlabs","at":[[2,53]]},
+{"kind":"package","name":"elevenlabs/tap/elevenlabs","at":[[2,16]]},
+{"kind":"package","name":"requests","at":[[2,53]]}
+],
+"regions":[
+{"kind":"own","path":"dubbing","files":3,"bytes":30085}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[2,71]]},
+{"kind":"fetch-run","detail":"npx @elevenlabs/cli@latest","at":[[0,15],[2,95]]},
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[2,29]]}
+],
+"namedSkills":[
+{"name":"setup-api-key","path":"setup-api-key","at":[[2,95]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

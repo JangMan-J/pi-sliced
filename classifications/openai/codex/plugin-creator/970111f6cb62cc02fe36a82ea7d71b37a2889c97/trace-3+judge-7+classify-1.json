@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex/plugin-creator",
+"revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"trace":{"path":"traces/openai/codex/plugin-creator/970111f6cb62cc02fe36a82ea7d71b37a2889c97/trace-3+judge-7.json","sha256":"1267c3ad86b015d9420278d82ba1a0d3ff7a4fd6fcecab6553be7e46ad445c82"},
+"status":"unresolvable",
+"reason":"no skill folder named plugin-creator at 970111f6cb62cc02fe36a82ea7d71b37a2889c97"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/error-tracking-svelte",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/error-tracking-svelte/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"50da17c378183736c3af122b7c59be39fb748e07e2c67d8b62c968764607dc25"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":31646,"own":{"files":7,"bytes":31646},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["posthog-js","posthog-node"],"mcp-server":["svelte"],"credential":[],"network":["app.posthog.com"]},"summary":"7 files, 31 KiB · MCP svelte · packages posthog-js +1 · 1 host","short":"31 KiB · 2 pkg · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server"]},
+"markers":[{"marker":"installs-packages","because":["installs posthog-js","installs posthog-node"]},{"marker":"network","because":["fetches from app.posthog.com"]},{"marker":"mcp-server","because":["uses the svelte MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

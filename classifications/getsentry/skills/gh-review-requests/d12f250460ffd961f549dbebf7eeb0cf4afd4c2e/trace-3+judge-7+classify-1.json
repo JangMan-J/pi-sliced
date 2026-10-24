@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/skills/gh-review-requests",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"trace":{"path":"traces/getsentry/skills/gh-review-requests/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e/trace-3+judge-7.json","sha256":"be1b627958fef53831825cc5a85f16e8d6f2a709c4679ad003d6dea95779d2e2"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6034,"own":{"files":2,"bytes":6034},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":["api.github.com","github.com"]},"summary":"2 files, 5.9 KiB · CLI gh · 2 hosts","short":"5.9 KiB · 1 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

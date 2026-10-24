@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-php-api",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-php-api/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"296a34ae2cf835c1b7d3cb189a27bfcf1adbced010fc976298e7cbcee9fd28e7"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-php-api at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/azure-skills/appinsights-instrumentation",
+"revision":"5be6708de8c5af9dd54b175b98ea00ed2d35deae",
+"trace":{"path":"traces/microsoft/azure-skills/appinsights-instrumentation/5be6708de8c5af9dd54b175b98ea00ed2d35deae/trace-3+judge-7.json","sha256":"6b3dc16a51402658977ef1122b6db794d983ce8b726192739e177fa9a758fb8b"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":23378,"own":{"files":12,"bytes":23378},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":["azure-monitor-opentelemetry","azure-monitor-opentelemetry-exporter"],"mcp-server":[],"credential":["WORKSPACE_KEY"],"network":[]},"summary":"12 files, 23 KiB · CLI az · packages azure-monitor-opentelemetry +1 · 1 key","short":"23 KiB · 1 CLI · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"installs-packages","because":["installs azure-monitor-opentelemetry","installs azure-monitor-opentelemetry-exporter"]},{"marker":"credentials","because":["needs WORKSPACE_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

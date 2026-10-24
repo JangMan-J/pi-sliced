@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/azure-well-architected-review",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/azure-well-architected-review/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"c43e096f6b52d395c9630b346b67ea1cd48b1b03e4c8315b2ad51532da6ab511"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10158,"own":{"files":1,"bytes":10158},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":[],"mcp-server":["github"],"credential":[],"network":[]},"summary":"1 file, 9.9 KiB · MCP github · CLI az","short":"9.9 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"mcp-server","because":["uses the github MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

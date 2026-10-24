@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firebase/firebase-tools/firebase-auth-basics",
+"source":"firebase/firebase-tools",
+"revision":"926b3fe846dd861f5743e50d45f3475bac6fa209",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named firebase-auth-basics at 926b3fe846dd861f5743e50d45f3475bac6fa209",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

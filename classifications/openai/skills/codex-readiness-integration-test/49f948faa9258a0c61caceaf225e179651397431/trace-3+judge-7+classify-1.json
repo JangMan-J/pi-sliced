@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/codex-readiness-integration-test",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/codex-readiness-integration-test/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"6027e4adcb9d77cd8f3242efd95aa43c2758d6c785fd794e8aa74df538680f1e"},
+"status":"unresolvable",
+"reason":"no skill folder named codex-readiness-integration-test at 49f948faa9258a0c61caceaf225e179651397431"
+}

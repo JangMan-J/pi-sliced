@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/cuopt-multi-objective-exploration",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/cuopt-multi-objective-exploration/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"331e430a6bdb0bec16c0a0c487c9849baba0f08a9f5ec42b22b4f848005276f6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15639,"own":{"files":1,"bytes":15639},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"cuopt-numerical-optimization-api","path":"skills/cuopt-numerical-optimization-api"},{"name":"cuopt-numerical-optimization-formulation","path":"skills/cuopt-numerical-optimization-formulation"},{"name":"cuopt-routing-api-python","path":"skills/cuopt-routing-api-python"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

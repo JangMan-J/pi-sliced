@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/pg_stat_ch/cpp-header-template",
+"revision":"1ed654109325f4c62827c2d9923909f77e920060",
+"trace":{"path":"traces/clickhouse/pg_stat_ch/cpp-header-template/1ed654109325f4c62827c2d9923909f77e920060/trace-3+judge-7.json","sha256":"51b74682f71dff39690cfc9bd4d0e7f1743ecc08c87788bc47877cb8dc9b9fb5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3087,"own":{"files":1,"bytes":3087},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.0 KiB","short":"3.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

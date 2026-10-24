@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-fault-injection-service",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-fault-injection-service/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"3686a0b933e379e52c067b9b25443b598c28feed25ef5ce50332fbdba3b53864"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":54703,"own":{"files":6,"bytes":54703},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","create-target-account-configuration","delete-target-account-configuration","failed","get-target-account-configuration","pending","stopping","tag-resource","untag-resource","update-experiment-template","update-target-account-configuration"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"6 files, 53 KiB · MCP aws · CLI aws, create-target-account-configuration +9","short":"53 KiB · 11 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","11 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs create-target-account-configuration","runs delete-target-account-configuration","runs failed","runs get-target-account-configuration","runs pending","runs stopping","runs tag-resource","runs untag-resource","runs update-experiment-template","runs update-target-account-configuration"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"aws-resilience-lifecycle","path":"skills/specialized-skills/resilience-skills/aws-resilience-lifecycle"},{"name":"recovery-controller-setup","path":"skills/specialized-skills/resilience-skills/recovery-controller-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

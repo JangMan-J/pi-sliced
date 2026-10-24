@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/m365-agents-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/m365-agents-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"496ed13f8646a642f603efd2d576ec66f741669d31a31028e96e114c2cf8aa20"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6879,"own":{"files":1,"bytes":6879},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@microsoft/agents-activity","@microsoft/agents-copilotstudio-client","@microsoft/agents-hosting","@microsoft/agents-hosting-express"],"mcp-server":[],"credential":["AZURE_API_KEY","CLIENT_SECRET","COPILOT_BEARER_TOKEN"],"network":[]},"summary":"1 file, 6.7 KiB · packages @microsoft/agents-activity +3 · 3 keys","short":"6.7 KiB · 4 pkg · 3 keys"},
+"heavy":{"heavy":true,"because":["4 packages to install","3 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @microsoft/agents-activity","installs @microsoft/agents-copilotstudio-client","installs @microsoft/agents-hosting","installs @microsoft/agents-hosting-express"]},{"marker":"credentials","because":["needs AZURE_API_KEY","needs CLIENT_SECRET","needs COPILOT_BEARER_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

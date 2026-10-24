@@ -1,0 +1,38 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/v0-dev",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/v0-dev",
+"status":"resolved",
+"totals":{"files":1,"bytes":14603},
+"files":[
+{"path":"plugins/vercel/skills/v0-dev/SKILL.md","size":14603,"blob":"5ebe0b83edc96da8620357fc59f707825270077e","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"create-next-app","at":[[0,78]]},
+{"kind":"cli","name":"create-v0-sdk-app","at":[[0,94],[0,97]]},
+{"kind":"cli","name":"shadcn","at":[[0,69]]},
+{"kind":"cli","name":"v0","at":[[0,52],[0,55],[0,58],[0,59],[0,81],[0,85],[0,402],[0,403]]},
+{"kind":"credential","name":"V0_API_KEY","at":[[0,207]]},
+{"kind":"package","name":"@ai-sdk/vercel","at":[[0,240]]},
+{"kind":"package","name":"@v0-sdk/ai-tools","at":[[0,258]]},
+{"kind":"package","name":"ai","at":[[0,258]]},
+{"kind":"package","name":"v0-sdk","at":[[0,105]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/v0-dev","files":1,"bytes":14603}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-next-app@latest","at":[[0,78]]},
+{"kind":"fetch-run","detail":"npx create-v0-sdk-app@latest","at":[[0,94],[0,97]]},
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,69]]},
+{"kind":"fetch-run","detail":"npx v0@latest","at":[[0,52],[0,55],[0,81],[0,85],[0,402],[0,403]]},
+{"kind":"fetch-run","detail":"pnpm dlx v0@latest","at":[[0,58],[0,59]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/aiconfig-snippets",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/aiconfig-snippets/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"c9250c089abb5f8aefb498956e734b32352ea5279c58116f7d465094427b9f31"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":675,"own":{"files":1,"bytes":675},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 675 B","short":"675 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"snippets","path":"skills/agentcontrol/snippets"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

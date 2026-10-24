@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langfuse/langfuse/pnpm-upgrade-package",
+"revision":"f3500cd1167ec459851730913ebbb94c5003535c",
+"trace":{"path":"traces/langfuse/langfuse/pnpm-upgrade-package/f3500cd1167ec459851730913ebbb94c5003535c/trace-3+judge-7.json","sha256":"71b5c83b66a55af0c78d6edec72b5a93b8d19f759907b9bef341bf7b42b5ab73"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5228,"own":{"files":1,"bytes":5228},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.1 KiB","short":"5.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

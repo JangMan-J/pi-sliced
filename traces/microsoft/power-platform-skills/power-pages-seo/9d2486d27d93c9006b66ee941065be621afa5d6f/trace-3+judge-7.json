@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/power-platform-skills/power-pages-seo",
+"source":"microsoft/power-platform-skills",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named power-pages-seo at 9d2486d27d93c9006b66ee941065be621afa5d6f",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

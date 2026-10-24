@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"terramate-io/agent-skills/terraform-best-practices",
+"revision":"fb28900fe71a92cc29428e2f3a08f588ecc6068b",
+"trace":{"path":"traces/terramate-io/agent-skills/terraform-best-practices/fb28900fe71a92cc29428e2f3a08f588ecc6068b/trace-3+judge-7.json","sha256":"d3a7ca75c2e1fad6d9fb877775b26bb7e829e22d269aa6a2473275fbbee798d2"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":173605,"own":{"files":5,"bytes":173605},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Failed","Passed","app-frontend-dev","app-frontend-prod","app-frontend-staging","aws","checkov","conftest","database-dev","database-prod","database-staging","eks-cluster-dev","eks-cluster-prod","eks-cluster-staging","jq","networking-dev","networking-prod","networking-staging","pre-commit","terraform","terraformer","tflint","tfsec","trivy","vim"],"package":["pre-commit","tflint"],"mcp-server":[],"credential":["AWS_SECRET_ACCESS_KEY"],"network":["raw.githubusercontent.com"]},"summary":"5 files, 170 KiB · CLI Failed, Passed +23 · packages pre-commit +1 · 1 key · 1 host","short":"170 KiB · 25 CLI · 2 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install","25 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs app-frontend-dev","runs app-frontend-prod","runs app-frontend-staging","runs aws","runs checkov","runs conftest","runs database-dev","runs database-prod","runs database-staging","runs eks-cluster-dev","runs eks-cluster-prod","runs eks-cluster-staging","runs Failed","runs jq","runs networking-dev","runs networking-prod","runs networking-staging","runs Passed","runs pre-commit","runs terraform","runs terraformer","runs tflint","runs tfsec","runs trivy","runs vim"]},{"marker":"installs-packages","because":["installs pre-commit","installs tflint"]},{"marker":"network","because":["fetches from raw.githubusercontent.com"]},{"marker":"credentials","because":["needs AWS_SECRET_ACCESS_KEY"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/terraform-best-practices/AGENTS.md:707"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/terraform-best-practices/AGENTS.md:707"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

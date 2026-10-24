@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/setup-local-sdk",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/setup-local-sdk/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"4887dac41c221805b7c1b2e069707df6c2ff6cd15ad733792ed9bdb9cece10ea"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14686,"own":{"files":1,"bytes":14686},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Add-Content","Add-Member","ConvertFrom-Json","ConvertTo-Json","Get-Content","Invoke-WebRequest","Select-String","Set-Content","dotnet","finally","foreach","jq","param","try"],"package":[],"mcp-server":[],"credential":[],"network":["dot.net"]},"summary":"1 file, 14 KiB · CLI Add-Content, Add-Member +12 · 1 host","short":"14 KiB · 14 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["14 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Add-Content","runs Add-Member","runs ConvertFrom-Json","runs ConvertTo-Json","runs dotnet","runs finally","runs foreach","runs Get-Content","runs Invoke-WebRequest","runs jq","runs param","runs Select-String","runs Set-Content","runs try"]},{"marker":"network","because":["fetches from dot.net"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/browse-plugin/browser-automation",
+"revision":"63058628010474f4b9509ea9bcb0afd0528ef738",
+"trace":{"path":"traces/browserbase/browse-plugin/browser-automation/63058628010474f4b9509ea9bcb0afd0528ef738/trace-3+judge-7.json","sha256":"1d2157d3dfbc4ff22977437591db7cd46e2bd9e8a748aeba22b316f65125addc"},
+"status":"unresolvable",
+"reason":"no skill folder named browser-automation at 63058628010474f4b9509ea9bcb0afd0528ef738"
+}

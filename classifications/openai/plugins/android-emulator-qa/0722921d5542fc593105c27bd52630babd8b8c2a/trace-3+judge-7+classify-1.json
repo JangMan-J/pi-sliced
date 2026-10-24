@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/android-emulator-qa",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/android-emulator-qa/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"0ff5ccf448109a89acc867021489278cfb0c4a34bdf325d29d2ce6d2a79373e6"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":8445,"own":{"files":3,"bytes":8445},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adb","rg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 8.2 KiB · CLI adb, rg","short":"8.2 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs rg"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

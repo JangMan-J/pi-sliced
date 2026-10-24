@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/recipes",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/recipes/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"3085dfcd960304601f7f5669c08b57fcb39cab9ffe930265b93db29b3ebd1437"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5700,"own":{"files":1,"bytes":5700},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":["deepgram"],"credential":[],"network":[]},"summary":"1 file, 5.6 KiB · MCP deepgram · CLI skills","short":"5.6 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"mcp-server","because":["uses the deepgram MCP server"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/recipes/SKILL.md:68, skills/recipes/SKILL.md:69, skills/recipes/SKILL.md:70"]}],
+"security":{"fetch-run":["npx skills @ skills/recipes/SKILL.md:68, skills/recipes/SKILL.md:69, skills/recipes/SKILL.md:70 +4"],"skill-fetch":["npx skills add @ skills/recipes/SKILL.md:68, skills/recipes/SKILL.md:69, skills/recipes/SKILL.md:70 +4"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"audio-intelligence","path":"skills/audio-intelligence"},{"name":"browser-agent","path":"skills/browser-agent"},{"name":"cli","path":"skills/cli"},{"name":"docs","path":"skills/docs"},{"name":"examples","path":"skills/examples"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"starters","path":"skills/starters"},{"name":"text-intelligence","path":"skills/text-intelligence"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

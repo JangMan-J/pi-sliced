@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/ui-screenshots",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/ui-screenshots/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"5210710657336ed41fa150333d804cb2441721d143e9926098b83ab38ee63053"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7485,"own":{"files":1,"bytes":7485},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["playwright"],"package":["Pillow","mss","pillow","playwright"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB · CLI playwright · packages Pillow +3","short":"7.3 KiB · 1 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs playwright"]},{"marker":"installs-packages","because":["installs mss","installs pillow","installs Pillow","installs playwright"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

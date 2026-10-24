@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-agent-skills/sentry-react-native-sdk",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/sentry-agent-skills/sentry-react-native-sdk/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"49b27cb3bb1c1ce0ade1bbe1dd498eeb48a0f4ecbba689c52f3c922557bfeec3"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":183646,"own":{"files":7,"bytes":183646},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@sentry/wizard","expo","pod","sentry-cli"],"package":["@sentry/react-native"],"mcp-server":[],"credential":["SENTRY_AUTH_TOKEN"],"network":[]},"summary":"7 files, 179 KiB · CLI @sentry/wizard, expo +2 · packages @sentry/react-native · 1 key","short":"179 KiB · 4 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @sentry/wizard","runs expo","runs pod","runs sentry-cli"]},{"marker":"installs-packages","because":["installs @sentry/react-native"]},{"marker":"credentials","because":["needs SENTRY_AUTH_TOKEN"]},{"marker":"unpinned-code","because":["npx @sentry/wizard@latest: skills/sentry-react-native-sdk/SKILL.md:121","npx expo: skills/sentry-react-native-sdk/SKILL.md:147, skills/sentry-react-native-sdk/SKILL.md:160, skills/sentry-react-native-sdk/SKILL.md:633","npx sentry-cli: skills/sentry-react-native-sdk/SKILL.md:641"]}],
+"security":{"fetch-run":["npx @sentry/wizard@latest @ skills/sentry-react-native-sdk/SKILL.md:121","npx expo @ skills/sentry-react-native-sdk/SKILL.md:147, skills/sentry-react-native-sdk/SKILL.md:160, skills/sentry-react-native-sdk/SKILL.md:633","npx sentry-cli @ skills/sentry-react-native-sdk/SKILL.md:641"]},
+"companions":{"named":[{"name":"sentry-go-sdk","path":"skills/sentry-go-sdk"},{"name":"sentry-python-sdk","path":"skills/sentry-python-sdk"},{"name":"sentry-react-sdk","path":"skills/sentry-react-sdk"},{"name":"sentry-ruby-sdk","path":"skills/sentry-ruby-sdk"},{"name":"sentry-svelte-sdk","path":"skills/sentry-svelte-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

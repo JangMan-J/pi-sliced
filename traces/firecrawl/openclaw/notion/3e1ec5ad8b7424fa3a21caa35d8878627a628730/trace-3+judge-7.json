@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firecrawl/openclaw/notion",
+"source":"firecrawl/openclaw",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"skillPath":"skills/notion",
+"status":"resolved",
+"totals":{"files":1,"bytes":5147},
+"files":[
+{"path":"skills/notion/SKILL.md","size":5147,"blob":"52b2ef5245d262beb20074eacbc7540b8a5b5b78","how":"root"}
+],
+"outside":[
+{"kind":"credential","name":"NOTION_KEY","at":[[0,34],[0,35],[0,48],[0,58],[0,66],[0,74],[0,90],[0,103],[0,121],[0,131]]},
+{"kind":"network","name":"api.notion.com","at":[[0,35],[0,48],[0,58],[0,66],[0,74],[0,90],[0,103],[0,121],[0,131]]}
+],
+"regions":[
+{"kind":"own","path":"skills/notion","files":1,"bytes":5147}
+],
+"signals":[
+{"kind":"secret-egress","detail":"NOTION_KEY -> api.notion.com","at":[[0,35],[0,48],[0,58],[0,66],[0,74],[0,90],[0,103],[0,121],[0,131]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

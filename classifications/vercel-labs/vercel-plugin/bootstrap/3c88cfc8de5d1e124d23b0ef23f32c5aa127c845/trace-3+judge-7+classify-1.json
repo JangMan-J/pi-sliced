@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/bootstrap",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/bootstrap/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"1519ef0890c5e35b96b4db5275e6349f15f80f519460aa83cd50aa2c6f7f4409"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8276,"own":{"files":1,"bytes":8276},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["base64url","comm","next-forge","require","shadcn","vercel"],"package":[],"mcp-server":[],"credential":["AUTH_SECRET"],"network":[]},"summary":"1 file, 8.1 KiB · CLI base64url, comm +4 · 1 key","short":"8.1 KiB · 6 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["6 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs base64url","runs comm","runs next-forge","runs require","runs shadcn","runs vercel"]},{"marker":"credentials","because":["needs AUTH_SECRET"]},{"marker":"unpinned-code","because":["npx next-forge: skills/bootstrap/SKILL.md:227","npx shadcn@latest: skills/bootstrap/SKILL.md:186"]}],
+"security":{"fetch-run":["npx next-forge @ skills/bootstrap/SKILL.md:227","npx shadcn@latest @ skills/bootstrap/SKILL.md:186"]},
+"companions":{"named":[{"name":"auth","path":"skills/auth"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

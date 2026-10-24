@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/winappcli/winapp-frameworks",
+"revision":"6564e7adba6d339f2b06868baca050e54687a2b3",
+"trace":{"path":"traces/microsoft/winappcli/winapp-frameworks/6564e7adba6d339f2b06868baca050e54687a2b3/trace-3+judge-7.json","sha256":"f0e0763e6445a95df8ae3ce7a56d460b6b9042518161fb8c46e0230a9bc089ad"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11331,"own":{"files":1,"bytes":11331},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","winapp"],"package":["@microsoft/winappcli","Microsoft.winappcli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI dotnet, winapp · packages @microsoft/winappcli +1","short":"11 KiB · 2 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs winapp"]},{"marker":"installs-packages","because":["installs @microsoft/winappcli","installs Microsoft.winappcli"]},{"marker":"unpinned-code","because":["npx winapp: plugins/winapp/skills/winapp-frameworks/SKILL.md:35, plugins/winapp/skills/winapp-frameworks/SKILL.md:41, plugins/winapp/skills/winapp-frameworks/SKILL.md:42"]}],
+"security":{"fetch-run":["npx winapp @ plugins/winapp/skills/winapp-frameworks/SKILL.md:35, plugins/winapp/skills/winapp-frameworks/SKILL.md:41, plugins/winapp/skills/winapp-frameworks/SKILL.md:42 +4"]},
+"companions":{"named":[{"name":"winapp-identity","path":"plugins/winapp/skills/winapp-identity"},{"name":"winapp-manifest","path":"plugins/winapp/skills/winapp-manifest"},{"name":"winapp-maui","path":"plugins/winapp/skills/winapp-maui"},{"name":"winapp-package","path":"plugins/winapp/skills/winapp-package"},{"name":"winapp-setup","path":"plugins/winapp/skills/winapp-setup"},{"name":"winapp-signing","path":"plugins/winapp/skills/winapp-signing"},{"name":"winapp-troubleshoot","path":"plugins/winapp/skills/winapp-troubleshoot"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

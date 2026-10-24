@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/break-ui",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/break-ui/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"91e905c9f11f165183d3eea4b7ea07cab2ff81cc7aa19a2dce98c6fcea41f350"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":22648,"own":{"files":2,"bytes":22648},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 22 KiB","short":"22 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/break-ui/SKILL.md:36"]}],
+"security":{"injection":["ignore previous instructions @ skills/break-ui/SKILL.md:36"]},
+"companions":{"named":[{"name":"emil-design-eng","path":"skills/emil-design-eng"},{"name":"prototype","path":"skills/prototype"},{"name":"review-animations","path":"skills/review-animations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

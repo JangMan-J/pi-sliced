@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/claude-settings-audit",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/claude-settings-audit/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"24e306442a42abbf9b82f9cfead8a629cef24e55d19942eb32476632868a28a8"},
+"status":"unresolvable",
+"reason":"no skill folder named claude-settings-audit at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

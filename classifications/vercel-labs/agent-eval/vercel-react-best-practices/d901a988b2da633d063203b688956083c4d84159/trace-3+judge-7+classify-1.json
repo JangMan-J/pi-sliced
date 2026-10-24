@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-eval/vercel-react-best-practices",
+"revision":"d901a988b2da633d063203b688956083c4d84159",
+"trace":{"path":"traces/vercel-labs/agent-eval/vercel-react-best-practices/d901a988b2da633d063203b688956083c4d84159/trace-3+judge-7.json","sha256":"6ce00033069066e278bb1f727a9fc7b4e0bdc9fb6a9e4e619e6660cef8e78f91"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":90905,"own":{"files":4,"bytes":90905},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["svgo"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 89 KiB · CLI svgo","short":"89 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs svgo"]},{"marker":"unpinned-code","because":["npx svgo: packages/playground/.agents/skills/vercel-react-best-practices/AGENTS.md:1953"]}],
+"security":{"fetch-run":["npx svgo @ packages/playground/.agents/skills/vercel-react-best-practices/AGENTS.md:1953"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

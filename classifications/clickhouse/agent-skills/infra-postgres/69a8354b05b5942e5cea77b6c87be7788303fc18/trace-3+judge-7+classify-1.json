@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/agent-skills/infra-postgres",
+"revision":"69a8354b05b5942e5cea77b6c87be7788303fc18",
+"trace":{"path":"traces/clickhouse/agent-skills/infra-postgres/69a8354b05b5942e5cea77b6c87be7788303fc18/trace-3+judge-7.json","sha256":"bbee9758b45c647eef8a73abe471d15aa841fca55a4a30d840af219cc14d2aa9"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":16684,"own":{"files":4,"bytes":16684},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["clickhousectl","cloud","docker","neonctl","pg_dump","pg_restore","psql"],"package":[],"mcp-server":[],"credential":[],"network":["clickhouse.cloud","clickhouse.com"]},"summary":"4 files, 16 KiB · CLI clickhousectl, cloud +5 · 2 hosts","short":"16 KiB · 7 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs clickhousectl","runs cloud","runs docker","runs neonctl","runs pg_dump","runs pg_restore","runs psql"]},{"marker":"network","because":["fetches from clickhouse.cloud","fetches from clickhouse.com"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/infra-postgres/SKILL.md:42"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/infra-postgres/SKILL.md:42"]},
+"companions":{"named":[{"name":"infra-clickhouse","path":"skills/infra-clickhouse"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

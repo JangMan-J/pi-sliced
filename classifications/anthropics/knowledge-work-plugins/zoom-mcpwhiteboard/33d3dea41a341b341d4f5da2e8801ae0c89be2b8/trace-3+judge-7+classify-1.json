@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/zoom-mcpwhiteboard",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/zoom-mcpwhiteboard/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"4133dbec63019d58265dda74ed1967776674759386997003457603287691fd3f"},
+"status":"unresolvable",
+"reason":"no skill folder named zoom-mcpwhiteboard at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

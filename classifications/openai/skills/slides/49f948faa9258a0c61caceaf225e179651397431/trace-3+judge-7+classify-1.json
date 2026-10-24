@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/slides",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/slides/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"d137834ecce84e4a8d7e49e834b3f360bf888f815fe372cd9c5092a698388d7e"},
+"status":"unresolvable",
+"reason":"no skill folder named slides at 49f948faa9258a0c61caceaf225e179651397431"
+}

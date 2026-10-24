@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/react-modernization",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/framework-migration/skills/react-modernization",
+"status":"resolved",
+"totals":{"files":2,"bytes":11251},
+"files":[
+{"path":"plugins/framework-migration/skills/react-modernization/SKILL.md","size":6815,"blob":"bf9a545b589b4ad0fb9fb0a4440f965023fe0c88","how":"root"},
+{"path":"plugins/framework-migration/skills/react-modernization/references/details.md","size":4436,"blob":"7ec464f6702dcba4d0f7ba9d1cf94b075ab7f852","how":"path","from":0,"line":327}
+],
+"outside":[
+{"kind":"cli","name":"codemod","at":[[1,24]]},
+{"kind":"cli","name":"jscodeshift","at":[[1,9],[1,12],[1,15],[1,18],[1,21]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/framework-migration/skills/react-modernization","files":2,"bytes":11251}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx codemod","at":[[1,24]]},
+{"kind":"fetch-run","detail":"npx jscodeshift","at":[[1,9],[1,12],[1,15],[1,18],[1,21]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

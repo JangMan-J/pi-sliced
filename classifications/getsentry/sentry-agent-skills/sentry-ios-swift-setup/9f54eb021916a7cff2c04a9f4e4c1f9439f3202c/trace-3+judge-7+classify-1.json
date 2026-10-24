@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-agent-skills/sentry-ios-swift-setup",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/sentry-agent-skills/sentry-ios-swift-setup/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"08e8067de385cf810f8d30cc26bb5dcfebd692981c6b26a03fdb3048e6dcd243"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-ios-swift-setup at 9f54eb021916a7cff2c04a9f4e4c1f9439f3202c"
+}

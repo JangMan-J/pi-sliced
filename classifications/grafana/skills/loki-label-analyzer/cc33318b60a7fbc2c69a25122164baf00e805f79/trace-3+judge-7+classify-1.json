@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/loki-label-analyzer",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/loki-label-analyzer/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"5be96bdc0f0d935a7e669fecd80b84523092c6116e896da38b12689c362ee959"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":33865,"own":{"files":5,"bytes":33865},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 33 KiB","short":"33 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

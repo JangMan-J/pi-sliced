@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/life-sciences/instrument-data-to-allotrope",
+"revision":"6aab04111074ac932ef9f72e36216ab6ff153f11",
+"trace":{"path":"traces/anthropics/life-sciences/instrument-data-to-allotrope/6aab04111074ac932ef9f72e36216ab6ff153f11/trace-3+judge-7.json","sha256":"b9e84f4589def4335a25fa2018d47e37595481974d1608f2c5a99805ef3d8432"},
+"status":"unresolvable",
+"reason":"no skill folder named instrument-data-to-allotrope at 6aab04111074ac932ef9f72e36216ab6ff153f11"
+}

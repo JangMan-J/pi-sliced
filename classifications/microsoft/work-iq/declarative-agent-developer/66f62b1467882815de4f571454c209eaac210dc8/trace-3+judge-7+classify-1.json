@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/work-iq/declarative-agent-developer",
+"revision":"66f62b1467882815de4f571454c209eaac210dc8",
+"trace":{"path":"traces/microsoft/work-iq/declarative-agent-developer/66f62b1467882815de4f571454c209eaac210dc8/trace-3+judge-7.json","sha256":"e50173e0e53d74da56d2f5b1a46d79c4359a27316c3bc775475938df926df3ed"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2071,"own":{"files":1,"bytes":2071},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["keep"],"credential":[],"network":[]},"summary":"1 file, 2.0 KiB · MCP keep","short":"2.0 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the keep MCP server"]},{"marker":"stub","because":["own folder 2.0 KiB (1 file)","content is the keep it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"teams-app-developer","path":"plugins/microsoft-365-agents-toolkit/skills/teams-app-developer"},{"name":"ui-widget-developer","path":"plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

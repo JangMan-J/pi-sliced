@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/modal",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/modal/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"b78e3c42fd74d3f20b8141cfe20ecd603c6421179ab8bba5dd7d41faaf446f52"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":98196,"own":{"files":13,"bytes":98196},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["modal"],"package":[],"mcp-server":[],"credential":["API_KEY","DB_PASSWORD","MODAL_TOKEN_SECRET"],"network":["arxiv.org","modal.com"]},"summary":"13 files, 96 KiB · CLI modal · 3 keys · 2 hosts","short":"96 KiB · 1 CLI · 3 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs modal"]},{"marker":"network","because":["fetches from arxiv.org","fetches from modal.com"]},{"marker":"credentials","because":["needs API_KEY","needs DB_PASSWORD","needs MODAL_TOKEN_SECRET"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

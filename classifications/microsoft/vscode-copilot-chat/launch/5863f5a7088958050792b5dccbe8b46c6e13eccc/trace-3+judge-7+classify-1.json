@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode-copilot-chat/launch",
+"revision":"5863f5a7088958050792b5dccbe8b46c6e13eccc",
+"trace":{"path":"traces/microsoft/vscode-copilot-chat/launch/5863f5a7088958050792b5dccbe8b46c6e13eccc/trace-3+judge-7.json","sha256":"fea8702391f2da86a7efd20bc178f29a7e221106c350f49ec4c9291bee0ded67"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14727,"own":{"files":1,"bytes":14727},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-browser","code-insiders","const","editor.dispatchEvent","findstr","inputPart.querySelectorAll","netstat","new"],"package":["agent-browser"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI agent-browser, code-insiders +6 · packages agent-browser","short":"14 KiB · 8 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser","runs code-insiders","runs const","runs editor.dispatchEvent","runs findstr","runs inputPart.querySelectorAll","runs netstat","runs new"]},{"marker":"installs-packages","because":["installs agent-browser"]},{"marker":"unpinned-code","because":["npx agent-browser: .agents/skills/launch/SKILL.md:14"]}],
+"security":{"fetch-run":["npx agent-browser @ .agents/skills/launch/SKILL.md:14"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

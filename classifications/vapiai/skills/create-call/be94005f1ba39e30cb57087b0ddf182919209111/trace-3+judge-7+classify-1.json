@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vapiai/skills/create-call",
+"revision":"be94005f1ba39e30cb57087b0ddf182919209111",
+"trace":{"path":"traces/vapiai/skills/create-call/be94005f1ba39e30cb57087b0ddf182919209111/trace-3+judge-7.json","sha256":"4817d01541c7068d9f3f9e7ef001dc15c755584e22ac26cb20c712eaa22cfd2c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6392,"own":{"files":1,"bytes":6392},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["VAPI_API_KEY"],"network":["api.vapi.ai"]},"summary":"1 file, 6.2 KiB · 1 key · 1 host","short":"6.2 KiB · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from api.vapi.ai"]},{"marker":"credentials","because":["needs VAPI_API_KEY"]},{"marker":"sends-credentials","because":["VAPI_API_KEY -> api.vapi.ai: plugins/vapi-voice-ai/skills/create-call/SKILL.md:18, plugins/vapi-voice-ai/skills/create-call/SKILL.md:201, plugins/vapi-voice-ai/skills/create-call/SKILL.md:205"]}],
+"security":{"secret-egress":["VAPI_API_KEY -> api.vapi.ai @ plugins/vapi-voice-ai/skills/create-call/SKILL.md:18, plugins/vapi-voice-ai/skills/create-call/SKILL.md:201, plugins/vapi-voice-ai/skills/create-call/SKILL.md:205 +2"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

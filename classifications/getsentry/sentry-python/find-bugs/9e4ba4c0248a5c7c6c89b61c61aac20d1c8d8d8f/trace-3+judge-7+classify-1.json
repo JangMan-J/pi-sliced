@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-python/find-bugs",
+"revision":"9e4ba4c0248a5c7c6c89b61c61aac20d1c8d8d8f",
+"trace":{"path":"traces/getsentry/sentry-python/find-bugs/9e4ba4c0248a5c7c6c89b61c61aac20d1c8d8d8f/trace-3+judge-7.json","sha256":"41a0e25dfd056e29f292fb2794dd25632d1df8c417b73c3860def43e3cdcc640"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2830,"own":{"files":1,"bytes":2830},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.8 KiB · CLI gh","short":"2.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"stub","because":["own folder 2.8 KiB (1 file)","content is the gh it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

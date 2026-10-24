@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-labs-code/stitch-skills/enhance-prompt",
+"revision":"0337446dadde6f8c94210444e2aa9d546126480f",
+"trace":{"path":"traces/google-labs-code/stitch-skills/enhance-prompt/0337446dadde6f8c94210444e2aa9d546126480f/trace-3+judge-7.json","sha256":"5da197f3f1a5ff286fe02c5a1cbd56607f9308fd5bac3a0f71d28a71a549d3d1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6640,"own":{"files":1,"bytes":6640},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.5 KiB","short":"6.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"design-md","path":"plugins/stitch-utilities/skills/design-md"},{"name":"stitch-loop","path":"plugins/stitch-utilities/skills/stitch-loop"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

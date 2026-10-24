@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/collect-files-with-request",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/collect-files-with-request/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"21a1f5affb5cfc68c9fc7781cd34e6b81d242d6e72f430cff9eafdbe2a95d531"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3172,"own":{"files":1,"bytes":3172},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.1 KiB","short":"3.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"organize-dropbox-folder","path":"plugins/dropbox/skills/organize-dropbox-folder"},{"name":"share-dropbox-content","path":"plugins/dropbox/skills/share-dropbox-content"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

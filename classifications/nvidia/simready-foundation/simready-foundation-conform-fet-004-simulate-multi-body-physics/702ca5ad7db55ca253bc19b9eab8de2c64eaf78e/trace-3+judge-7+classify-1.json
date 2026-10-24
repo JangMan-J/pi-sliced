@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-004-simulate-multi-body-physics",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-004-simulate-multi-body-physics/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"b57a929e932f86a2bae0165d42fb2527885e5d0e3e95d9a1f4a5adefa64dcb89"},
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-004-simulate-multi-body-physics at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e"
+}

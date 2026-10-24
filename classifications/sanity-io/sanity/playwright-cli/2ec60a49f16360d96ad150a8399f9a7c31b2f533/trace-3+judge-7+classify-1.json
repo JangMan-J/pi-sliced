@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/sanity/playwright-cli",
+"revision":"2ec60a49f16360d96ad150a8399f9a7c31b2f533",
+"trace":{"path":"traces/sanity-io/sanity/playwright-cli/2ec60a49f16360d96ad150a8399f9a7c31b2f533/trace-3+judge-7.json","sha256":"a8f51cf3eed1102886ff04e1bde8b473c793cc45fb93ee575d8eb9fc2f8bd49f"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":31590,"own":{"files":8,"bytes":31590},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["a.download-link","async","await","button","catch","const","dashboard","download","e","i","i++","indexedDB.deleteDatabase","internetdisconnected","li","localStorage.setItem","login","microphone","myDatabase","networkidle","page-2026-02-14T19-22-42-679Z.yml","page.click","page.waitForEvent","playwright-cli","results.push","route.fulfill","text","try"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 31 KiB · CLI a.download-link, async +25","short":"31 KiB · 27 CLI"},
+"heavy":{"heavy":true,"because":["27 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs a.download-link","runs async","runs await","runs button","runs catch","runs const","runs dashboard","runs download","runs e","runs i","runs i++","runs indexedDB.deleteDatabase","runs internetdisconnected","runs li","runs localStorage.setItem","runs login","runs microphone","runs myDatabase","runs networkidle","runs page-2026-02-14T19-22-42-679Z.yml","runs page.click","runs page.waitForEvent","runs playwright-cli","runs results.push","runs route.fulfill","runs text","runs try"]},{"marker":"unpinned-code","because":["npx playwright-cli: .agents/skills/playwright-cli/SKILL.md:220, .agents/skills/playwright-cli/SKILL.md:223, .agents/skills/playwright-cli/SKILL.md:224"]}],
+"security":{"fetch-run":["npx playwright-cli @ .agents/skills/playwright-cli/SKILL.md:220, .agents/skills/playwright-cli/SKILL.md:223, .agents/skills/playwright-cli/SKILL.md:224"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/csharp-xunit",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/csharp-xunit/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"787a15eb7d218f06bfd3b930fa91ac491b56a310d0621fc63b4da2fbfeb4bc34"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2707,"own":{"files":1,"bytes":2707},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.6 KiB","short":"2.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

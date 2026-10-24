@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/arize-evaluator",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/arize-evaluator/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"c354550bdbad6884f92b23ead58f078c9b540755041c14a5e561ebf502074c10"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":38464,"own":{"files":3,"bytes":38464},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Model","None","Respond","User","ax","f","import","isinstance","p","print","s.get","spans","sys.stdin"],"package":["arize-ax-cli"],"mcp-server":[],"credential":["ARIZE_API_KEY","OPENAI_API_KEY"],"network":["app.arize.com"]},"summary":"3 files, 38 KiB · CLI Model, None +11 · packages arize-ax-cli · 2 keys · 1 host","short":"38 KiB · 13 CLI · 1 pkg · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","13 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ax","runs f","runs import","runs isinstance","runs Model","runs None","runs p","runs print","runs Respond","runs s.get","runs spans","runs sys.stdin","runs User"]},{"marker":"installs-packages","because":["installs arize-ax-cli"]},{"marker":"network","because":["fetches from app.arize.com"]},{"marker":"credentials","because":["needs ARIZE_API_KEY","needs OPENAI_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

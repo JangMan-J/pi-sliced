@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/analyzing-data",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/analyzing-data/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"357a06392f6cf664c9c41f7f3ba1e12e3ec58a0e6355e08dc63cf93ecb5c0999"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":25562,"own":{"files":4,"bytes":25562},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["cache","click","kernel","warehouse"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 25 KiB · packages cache +3","short":"25 KiB · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs cache","installs click","installs kernel","installs warehouse"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/analyzing-data/scripts/cli.py:50"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/analyzing-data/scripts/cli.py:50"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

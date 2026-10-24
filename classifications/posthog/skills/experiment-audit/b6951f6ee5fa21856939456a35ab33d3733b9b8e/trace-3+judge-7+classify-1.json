@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/experiment-audit",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/experiment-audit/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"5d0a09daba3c4ed0da6298e48e43057aa76b148467328af9a4720c3d30c66fed"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20862,"own":{"files":1,"bytes":20862},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["How","What","Why","jq","refusals.log_"],"package":[],"mcp-server":["no","the"],"credential":[],"network":[]},"summary":"1 file, 20 KiB · MCP no, the · CLI How, What +3","short":"20 KiB · 5 CLI · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs How","runs jq","runs refusals.log_","runs What","runs Why"]},{"marker":"mcp-server","because":["uses the no MCP server","uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"other","path":"skills/posthog/logs/skills/other"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

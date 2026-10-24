@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/nmrglue",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/nmrglue/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"24a178edb9e7c3479f166c02712e48e512b44830fbc73880578d33aeb8a485d1"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":25756,"own":{"files":4,"bytes":25756},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["nmrglue","numpy","scipy"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 25 KiB · packages nmrglue +2","short":"25 KiB · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs nmrglue","installs numpy","installs scipy"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

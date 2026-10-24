@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/activate-site",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/activate-site/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"9aa2efcb615f1658d791f80a6fcf8845623a6d0349be18a208966ea5b981b964"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":26381,"own":{"files":3,"bytes":26381},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","dotnet","fs","pac"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 26 KiB · CLI az, dotnet +2","short":"26 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs dotnet","runs fs","runs pac"]}],
+"security":{},
+"companions":{"named":[{"name":"create-site","path":"plugins/power-pages/skills/create-site"},{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"},{"name":"plan-alm","path":"plugins/power-pages/skills/plan-alm"},{"name":"test-site","path":"plugins/power-pages/skills/test-site"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

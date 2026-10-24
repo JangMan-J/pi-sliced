@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/vercel-storage",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/vercel-storage/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"c7cf281ac20c551a103b1a343ed0202520586ab4fc3cce92d7fe4544c282ceb3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":23528,"own":{"files":1,"bytes":23528},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["convex","dotenv","drizzle-kit","skills","vercel"],"package":["@libsql/client","@neondatabase/serverless","@supabase/ssr","@supabase/supabase-js","@upstash/redis","@vercel/blob","@vercel/functions","@vercel/global-config","convex","dotenv-cli","mongodb","pg"],"mcp-server":[],"credential":[],"network":["vercel.com"]},"summary":"1 file, 23 KiB · CLI convex, dotenv +3 · packages @libsql/client +11 · 1 host","short":"23 KiB · 5 CLI · 12 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["12 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs convex","runs dotenv","runs drizzle-kit","runs skills","runs vercel"]},{"marker":"installs-packages","because":["installs @libsql/client","installs @neondatabase/serverless","installs @supabase/ssr","installs @supabase/supabase-js","installs @upstash/redis","installs @vercel/blob","installs @vercel/functions","installs @vercel/global-config","installs convex","installs dotenv-cli","installs mongodb","installs pg"]},{"marker":"network","because":["fetches from vercel.com"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx convex: skills/vercel-storage/SKILL.md:456","npx dotenv: skills/vercel-storage/SKILL.md:336, skills/vercel-storage/SKILL.md:337","npx drizzle-kit: skills/vercel-storage/SKILL.md:332","npx skills: skills/vercel-storage/SKILL.md:542"]}],
+"security":{"fetch-run":["npx convex @ skills/vercel-storage/SKILL.md:456","npx dotenv @ skills/vercel-storage/SKILL.md:336, skills/vercel-storage/SKILL.md:337","npx drizzle-kit @ skills/vercel-storage/SKILL.md:332","npx skills @ skills/vercel-storage/SKILL.md:542"],"skill-fetch":["npx skills add @ skills/vercel-storage/SKILL.md:542"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

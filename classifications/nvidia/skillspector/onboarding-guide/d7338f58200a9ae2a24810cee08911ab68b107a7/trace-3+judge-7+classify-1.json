@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skillspector/onboarding-guide",
+"revision":"d7338f58200a9ae2a24810cee08911ab68b107a7",
+"trace":{"path":"traces/nvidia/skillspector/onboarding-guide/d7338f58200a9ae2a24810cee08911ab68b107a7/trace-3+judge-7.json","sha256":"1277b65738379b951fe16b260493b308c24c28192ec9455725eee949c67f3814"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1100,"own":{"files":1,"bytes":1100},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.1 KiB","short":"1.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

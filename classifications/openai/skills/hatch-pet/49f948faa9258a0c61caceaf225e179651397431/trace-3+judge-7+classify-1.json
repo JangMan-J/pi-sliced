@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/hatch-pet",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/hatch-pet/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"ebe13391246f49dd6aeb2284ba4eec9a8f17b895ed17dfed8eff466fe48386c8"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":116688,"own":{"files":10,"bytes":116688},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":["pillow"],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 114 KiB · CLI jq · packages pillow","short":"114 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"installs-packages","because":["installs pillow"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

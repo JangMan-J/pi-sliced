@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"addyosmani/agent-skills/ci-cd-and-automation",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"trace":{"path":"traces/addyosmani/agent-skills/ci-cd-and-automation/aeac41d4d005999432bb7312f7ff06383a91d59d/trace-3+judge-7.json","sha256":"68bea64fc01c7fc816936d142ef98aa3a5a12c3c69f3f4e47cf3e6ce5ec6589f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11332,"own":{"files":1,"bytes":11332},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

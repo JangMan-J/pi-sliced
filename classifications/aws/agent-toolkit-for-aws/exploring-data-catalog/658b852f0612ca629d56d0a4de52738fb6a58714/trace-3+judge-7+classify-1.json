@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/exploring-data-catalog",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/exploring-data-catalog/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"33d5baa7dc3566a22cf2df698bb88b848018da80ed8c3dd623a2f1fa2e7949ad"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13528,"own":{"files":2,"bytes":13528},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"2 files, 13 KiB · MCP aws · CLI aws","short":"13 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

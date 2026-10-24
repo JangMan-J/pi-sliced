@@ -1,0 +1,45 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"heygen-com/hyperframes/figma",
+"source":"heygen-com/hyperframes",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"skillPath":"skills/figma",
+"status":"resolved",
+"totals":{"files":5,"bytes":29455},
+"files":[
+{"path":"skills/figma/SKILL.md","size":18312,"blob":"f19ec095b95a5d893c9209d756944d07043bba31","how":"root"},
+{"path":"skills/figma/scripts/verify-motion.mjs","size":5050,"blob":"38247a8fa4f058dfd76d157b69fb2ed8acb979da","how":"variable-path","from":0,"line":97},
+{"path":"skills/hyperframes/references/plugin-installation.md","size":2715,"blob":"bb601b98cc12542626490d98ecbfa39759a3658e","how":"link","from":0,"line":6},
+{"path":"skills/hyperframes/scripts/lib/main-module.mjs","size":479,"blob":"5fd2fa9d04a8dd840842d18bd3e889736add9e2d","how":"script-read","from":4,"line":7},
+{"path":"skills/hyperframes/scripts/plugin-cli.mjs","size":2899,"blob":"4eeb01b8bd91803a729a00b1d85bb4be6038ca12","how":"variable-path","from":2,"line":21}
+],
+"outside":[
+{"kind":"cli","name":"error","at":[[0,91]]},
+{"kind":"cli","name":"ffmpeg","at":[[1,96],[1,99],[1,113]]},
+{"kind":"cli","name":"ffprobe","at":[[1,47],[1,64]]},
+{"kind":"cli","name":"hyperframes","at":[[0,8],[0,56],[0,66],[0,80],[0,91],[0,100],[2,12],[2,18]]},
+{"kind":"cli","name":"jpg","at":[[0,56]]},
+{"kind":"cli","name":"png","at":[[0,56]]},
+{"kind":"cli","name":"resolve","at":[[0,59]]},
+{"kind":"cli","name":"skills","at":[[2,12]]},
+{"kind":"credential","name":"BAD_TOKEN","at":[[0,36]]},
+{"kind":"credential","name":"FIGMA_TOKEN","at":[[0,26]]}
+],
+"regions":[
+{"kind":"own","path":"skills/figma","files":2,"bytes":23362},
+{"kind":"skill","path":"skills/hyperframes","files":3,"bytes":6093}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx hyperframes","at":[[0,8],[0,91],[0,100],[2,18]]},
+{"kind":"fetch-run","detail":"npx skills","at":[[2,12]]},
+{"kind":"skill-fetch","detail":"hyperframes skills update","at":[[0,8]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[2,12]]}
+],
+"namedSkills":[
+{"name":"hyperframes","path":"skills/hyperframes","at":[[2,5],[2,17],[2,18]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

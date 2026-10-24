@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/dart-test-coverage",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/dart-test-coverage/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"3fdec7b6bb6845b3c0188ff1ac7840ba518dcbedae1a0aa9bde7c5827608c6b4"},
+"status":"unresolvable",
+"reason":"no skill folder named dart-test-coverage at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/expo-dev-client",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/expo-dev-client/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"b0f56a042c0abad96858f7c9974f97fc1fcdc6176048e8422dbb1ddf81abc0ce"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7168,"own":{"files":1,"bytes":5417},"otherSkills":{"count":1,"files":1,"bytes":1751},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["PlistBuddy","adb","eas","expo","ideviceinstaller","submit-expo-feedback","xcrun"],"package":[],"mcp-server":[],"credential":[],"network":["expo.dev"]},"summary":"2 files, 7.0 KiB · +1 other skill · CLI PlistBuddy, adb +5 · 1 host","short":"7.0 KiB · +1 skill · 7 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs eas","runs expo","runs ideviceinstaller","runs PlistBuddy","runs submit-expo-feedback","runs xcrun"]},{"marker":"network","because":["fetches from expo.dev"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/expo/skills/expo-overview"]},{"marker":"unpinned-code","because":["npx expo: plugins/expo/skills/expo-dev-client/SKILL.md:150","npx submit-expo-feedback@latest: plugins/expo/skills/expo-dev-client/SKILL.md:181"]}],
+"security":{"fetch-run":["npx expo @ plugins/expo/skills/expo-dev-client/SKILL.md:150","npx submit-expo-feedback@latest @ plugins/expo/skills/expo-dev-client/SKILL.md:181"]},
+"companions":{"named":[{"name":"eas-app-stores","path":"plugins/expo/skills/eas-app-stores"},{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback"}],"pulled":[{"path":"plugins/expo/skills/expo-overview","files":1,"bytes":1751}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

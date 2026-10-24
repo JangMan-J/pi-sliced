@@ -1,0 +1,34 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"browserbase/skills/functions",
+"source":"browserbase/skills",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"skillPath":"skills/functions",
+"status":"resolved",
+"totals":{"files":2,"bytes":6800},
+"files":[
+{"path":"skills/functions/REFERENCE.md","size":3876,"blob":"c018fe7e8739aa2d392c7b2fb42858791a96f6b4","how":"link","from":1,"line":121},
+{"path":"skills/functions/SKILL.md","size":2924,"blob":"b8fc4185ee606a4db54a50e6085d18307e503057","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@browserbasehq/sdk-functions","at":[[0,140]]},
+{"kind":"cli","name":"browse","at":[[1,26],[1,81],[1,101]]},
+{"kind":"credential","name":"BROWSERBASE_API_KEY","at":[[0,15],[0,23],[0,131],[1,18],[1,41]]},
+{"kind":"network","name":"api.browserbase.com","at":[[0,15],[0,23]]},
+{"kind":"network","name":"news.ycombinator.com","at":[[1,89]]},
+{"kind":"package","name":"@browserbasehq/sdk-functions","at":[[0,137]]},
+{"kind":"package","name":"browse","at":[[1,4]]}
+],
+"regions":[
+{"kind":"own","path":"skills/functions","files":2,"bytes":6800}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @browserbasehq/sdk-functions","at":[[0,140]]},
+{"kind":"secret-egress","detail":"BROWSERBASE_API_KEY -> api.browserbase.com","at":[[0,15],[0,23]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/functions/LICENSE.txt","spdx":"MIT","frontmatter":"MIT"}
+}

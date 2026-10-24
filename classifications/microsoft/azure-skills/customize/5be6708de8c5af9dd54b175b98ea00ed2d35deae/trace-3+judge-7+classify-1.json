@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/azure-skills/customize",
+"revision":"5be6708de8c5af9dd54b175b98ea00ed2d35deae",
+"trace":{"path":"traces/microsoft/azure-skills/customize/5be6708de8c5af9dd54b175b98ea00ed2d35deae/trace-3+judge-7.json","sha256":"bf00f5854bed212880d2db8d4a8471507ff5a803cc4d3e83bf3a144157c65c3a"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":77162,"own":{"files":3,"bytes":25878},"otherSkills":{"count":1,"files":7,"bytes":51284},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertFrom-Json","ConvertTo-Json","az","eastus","jq"],"package":[],"mcp-server":["azure"],"credential":[],"network":["management.azure.com","portal.azure.com"]},"summary":"10 files, 75 KiB · +1 other skill · MCP azure · CLI ConvertFrom-Json, ConvertTo-Json +3 · 2 hosts","short":"75 KiB · +1 skill · 5 CLI · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs ConvertFrom-Json","runs ConvertTo-Json","runs eastus","runs jq"]},{"marker":"network","because":["fetches from management.azure.com","fetches from portal.azure.com"]},{"marker":"mcp-server","because":["uses the azure MCP server"]},{"marker":"chain-loads","because":["pulls in 7 files of the skill at skills/microsoft-foundry"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/microsoft-foundry","files":7,"bytes":51284}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

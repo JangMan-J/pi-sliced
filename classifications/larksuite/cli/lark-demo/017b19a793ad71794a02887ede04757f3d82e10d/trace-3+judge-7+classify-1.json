@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"larksuite/cli/lark-demo",
+"revision":"017b19a793ad71794a02887ede04757f3d82e10d",
+"trace":{"path":"traces/larksuite/cli/lark-demo/017b19a793ad71794a02887ede04757f3d82e10d/trace-3+judge-7.json","sha256":"bdd746fc537fa1f819ca873766533764bc06f66ef71393482c09daf39e6b3641"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":210,"own":{"files":1,"bytes":210},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["lark-cli","other-tool"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 210 B · CLI lark-cli, other-tool","short":"210 B · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs lark-cli","runs other-tool"]},{"marker":"stub","because":["own folder 210 B (1 file)","content is the lark-cli, other-tool it wraps"]},{"marker":"unpinned-code","because":["npx other-tool: internal/qualitygate/skillscan/testdata/skills/lark-demo/SKILL.md:12"]}],
+"security":{"fetch-run":["npx other-tool @ internal/qualitygate/skillscan/testdata/skills/lark-demo/SKILL.md:12"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

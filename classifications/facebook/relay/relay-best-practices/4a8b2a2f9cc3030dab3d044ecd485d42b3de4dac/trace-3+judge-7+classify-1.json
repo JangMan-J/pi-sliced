@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"facebook/relay/relay-best-practices",
+"revision":"4a8b2a2f9cc3030dab3d044ecd485d42b3de4dac",
+"trace":{"path":"traces/facebook/relay/relay-best-practices/4a8b2a2f9cc3030dab3d044ecd485d42b3de4dac/trace-3+judge-7.json","sha256":"a2e0d15b4c2fc2e9d2040eceb6e0ed751f333595084de2e30ef1166e0d4f112f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":18462,"own":{"files":1,"bytes":18462},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["relay-compiler"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 18 KiB · CLI relay-compiler","short":"18 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs relay-compiler"]},{"marker":"unpinned-code","because":["npx relay-compiler: skills/relay-best-practices/SKILL.md:91, skills/relay-best-practices/SKILL.md:95"]}],
+"security":{"fetch-run":["npx relay-compiler @ skills/relay-best-practices/SKILL.md:91, skills/relay-best-practices/SKILL.md:95"]},
+"companions":{"named":[{"name":"relay-performance","path":"skills/relay-performance"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

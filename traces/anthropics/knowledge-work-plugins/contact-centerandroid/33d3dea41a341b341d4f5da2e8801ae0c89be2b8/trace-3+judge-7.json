@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"anthropics/knowledge-work-plugins/contact-centerandroid",
+"source":"anthropics/knowledge-work-plugins",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named contact-centerandroid at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

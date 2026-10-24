@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/eventstream-consumption-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/eventstream-consumption-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"3d448d01eed4b39e10746fe5146138834244b0bf0d24a0a6d6426326d24ce744"},
+"status":"unresolvable",
+"reason":"no skill folder named eventstream-consumption-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

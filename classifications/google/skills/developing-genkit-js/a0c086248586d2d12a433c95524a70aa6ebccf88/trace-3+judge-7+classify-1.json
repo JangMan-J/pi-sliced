@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/developing-genkit-js",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/developing-genkit-js/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"4456cd282e59b795ccedcbe65a268b6e20af30d168f0864a2a4cfef41cca2958"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":111287,"own":{"files":20,"bytes":111287},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["genkit","genkit-cli","tsc"],"package":["@a2ui/lit","@a2ui/markdown-it","@a2ui/web_core","@genkit-ai/a2ui","@genkit-ai/middleware","@lit/context","genkit-cli","lit"],"mcp-server":[],"credential":[],"network":[]},"summary":"20 files, 109 KiB · CLI genkit, genkit-cli +1 · packages @a2ui/lit +7","short":"109 KiB · 3 CLI · 8 pkg"},
+"heavy":{"heavy":true,"because":["8 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs genkit","runs genkit-cli","runs tsc"]},{"marker":"installs-packages","because":["installs @a2ui/lit","installs @a2ui/markdown-it","installs @a2ui/web_core","installs @genkit-ai/a2ui","installs @genkit-ai/middleware","installs @lit/context","installs genkit-cli","installs lit"]},{"marker":"unpinned-code","because":["npx tsc: skills/cloud/developing-genkit-js/SKILL.md:134"]}],
+"security":{"fetch-run":["npx tsc @ skills/cloud/developing-genkit-js/SKILL.md:134"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

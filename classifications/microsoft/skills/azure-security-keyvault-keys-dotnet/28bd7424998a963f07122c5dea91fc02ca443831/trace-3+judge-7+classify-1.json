@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-security-keyvault-keys-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-security-keyvault-keys-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"5defa26e5386a306156bb27d2b20e4c2e41decb5974de3b3d1d483a09af5c6bf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12637,"own":{"files":1,"bytes":12637},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.Security.KeyVault.Certificates","Azure.Security.KeyVault.Keys","Azure.Security.KeyVault.Secrets"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 12 KiB · CLI dotnet · packages Azure.Identity +3 · 1 key","short":"12 KiB · 1 CLI · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.Security.KeyVault.Certificates","installs Azure.Security.KeyVault.Keys","installs Azure.Security.KeyVault.Secrets"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

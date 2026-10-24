@@ -1,0 +1,43 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/turborepo",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/turborepo",
+"status":"resolved",
+"totals":{"files":2,"bytes":26254},
+"files":[
+{"path":"plugins/vercel/skills/auth/SKILL.md","size":9387,"blob":"33d51411b356561d75afdd6622fa0f2a4717d780","how":"path","from":1,"line":480},
+{"path":"plugins/vercel/skills/turborepo/SKILL.md","size":16867,"blob":"5e64535405810cfb63a0c9fda5d56dbe9af4e837","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@clerk/upgrade","at":[[0,330]]},
+{"kind":"cli","name":"@turbo/codemod","at":[[1,42],[1,366]]},
+{"kind":"cli","name":"create-turbo","at":[[1,38]]},
+{"kind":"cli","name":"tsc","at":[[1,273]]},
+{"kind":"cli","name":"turbo","at":[[1,137],[1,140],[1,143],[1,146],[1,149],[1,152],[1,155],[1,158],[1,161],[1,250],[1,259],[1,262],[1,265],[1,309],[1,328],[1,331],[1,334],[1,337],[1,344],[1,347],[1,360],[1,363],[1,391],[1,394],[1,397],[1,400],[1,403],[1,406],[1,409],[1,416],[1,419],[1,422],[1,454],[1,490],[1,493],[1,496],[1,583]]},
+{"kind":"cli","name":"vercel","at":[[0,52],[0,204]]},
+{"kind":"credential","name":"TURBO_TOKEN","at":[[1,246]]},
+{"kind":"package","name":"@auth0/nextjs-auth0","at":[[0,262]]},
+{"kind":"package","name":"@clerk/nextjs","at":[[0,63]]},
+{"kind":"package","name":"@descope/nextjs-sdk","at":[[0,210]]},
+{"kind":"package","name":"turbo","at":[[1,40]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/turborepo","files":1,"bytes":16867},
+{"kind":"skill","path":"plugins/vercel/skills/auth","files":1,"bytes":9387}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @clerk/upgrade","at":[[0,330]]},
+{"kind":"fetch-run","detail":"npx @turbo/codemod","at":[[1,42],[1,366]]},
+{"kind":"fetch-run","detail":"npx create-turbo@latest","at":[[1,38]]}
+],
+"namedSkills":[
+{"name":"auth","path":"plugins/vercel/skills/auth","at":[[1,514]]},
+{"name":"config","path":"plugins/circleci/skills/config","at":[[1,514]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

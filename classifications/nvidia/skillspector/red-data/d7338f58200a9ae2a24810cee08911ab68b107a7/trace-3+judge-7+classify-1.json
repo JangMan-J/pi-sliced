@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skillspector/red-data",
+"revision":"d7338f58200a9ae2a24810cee08911ab68b107a7",
+"trace":{"path":"traces/nvidia/skillspector/red-data/d7338f58200a9ae2a24810cee08911ab68b107a7/trace-3+judge-7.json","sha256":"d182a21bdf2d51610bdd330ca528538360480cbf8811524d67492a605ae7bb2b"},
+"status":"unresolvable",
+"reason":"no skill folder named red-data at d7338f58200a9ae2a24810cee08911ab68b107a7"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/jetson-package",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/jetson-package/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"9b95931712670ddaea0b23c12b0d39a03780f882b4e05ee3f06fcb10d45f0272"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":22409,"own":{"files":4,"bytes":12698},"otherSkills":{"count":1,"files":1,"bytes":9711},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["COMPATIBLE_SPEC_is_used_when_present","Orin_GPUs_use_SM_8.7","i++","i+1","import","json.dumps","major","mem_gb","mem_gb.isdigit","nvidia-smi","print","rev","sub","vllm-openai_on_Thor_and_Orin_L4T_r39+"],"package":["onnxruntime-gpu"],"mcp-server":[],"credential":[],"network":["github.com","pypi.jetson-ai-lab.io"]},"summary":"5 files, 22 KiB · +1 other skill · CLI COMPATIBLE_SPEC_is_used_when_present, Orin_GPUs_use_SM_8.7 +12 · packages onnxruntime-gpu · 2 hosts","short":"22 KiB · +1 skill · 14 CLI · 1 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","14 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs COMPATIBLE_SPEC_is_used_when_present","runs i++","runs i+1","runs import","runs json.dumps","runs major","runs mem_gb","runs mem_gb.isdigit","runs nvidia-smi","runs Orin_GPUs_use_SM_8.7","runs print","runs rev","runs sub","runs vllm-openai_on_Thor_and_Orin_L4T_r39+"]},{"marker":"installs-packages","because":["installs onnxruntime-gpu"]},{"marker":"network","because":["fetches from github.com","fetches from pypi.jetson-ai-lab.io"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/jetson-diagnostic"]},{"marker":"unpinned-code","because":["pip install from URL: skills/jetson-package/SKILL.md:62"]}],
+"security":{"fetch-run":["pip install from URL @ skills/jetson-package/SKILL.md:62"]},
+"companions":{"named":[{"name":"jetson-diagnostic","path":"skills/jetson-diagnostic"},{"name":"jetson-llm-benchmark","path":"skills/jetson-llm-benchmark"},{"name":"jetson-llm-serve","path":"skills/jetson-llm-serve"}],"pulled":[{"path":"skills/jetson-diagnostic","files":1,"bytes":9711}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/write-swift",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/write-swift/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"eecbc6cb39b913d38a0afe25de1aeea70238a01a20c8acbda741acf545ece787"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":42445,"own":{"files":1,"bytes":42445},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["log"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 41 KiB · CLI log","short":"41 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs log"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

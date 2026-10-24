@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/create-datadriven-aspnetcore",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/create-datadriven-aspnetcore/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"2e898729d5bb909bd1bbda3d20262d865ba2e55fe2a9b07d4af5c5ec3429310a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12725,"own":{"files":1,"bytes":12725},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB · CLI dotnet","short":"12 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

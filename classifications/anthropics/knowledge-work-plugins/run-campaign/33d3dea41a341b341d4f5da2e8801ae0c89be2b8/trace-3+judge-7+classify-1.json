@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/run-campaign",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/run-campaign/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"d658bd4dbeb05e55261492c87dd762d61cc288f24f92f64b1fa52775697216e7"},
+"status":"unresolvable",
+"reason":"no skill folder named run-campaign at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

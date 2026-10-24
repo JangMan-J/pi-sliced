@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"facebook/react/fix",
+"revision":"a6b912fbe77f698ad43c922f206db0d4f4ad7485",
+"trace":{"path":"traces/facebook/react/fix/a6b912fbe77f698ad43c922f206db0d4f4ad7485/trace-3+judge-7.json","sha256":"d74a590a8921478ee1398d68baba8b4b56ac9ca5847dfc7f7f21a274bca0584b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":495,"own":{"files":1,"bytes":495},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 495 B","short":"495 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

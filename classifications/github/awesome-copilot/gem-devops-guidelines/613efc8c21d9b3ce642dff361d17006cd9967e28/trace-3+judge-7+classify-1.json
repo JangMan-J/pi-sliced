@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/gem-devops-guidelines",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/gem-devops-guidelines/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"b0481803e6f4851039b090a85a218bca5c881264a5ae6b49285d3b6f4f3d5f8a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2972,"own":{"files":1,"bytes":2972},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["android","eas"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB · CLI android, eas","short":"2.9 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs android","runs eas"]},{"marker":"stub","because":["own folder 2.9 KiB (1 file)","content is the android, eas it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

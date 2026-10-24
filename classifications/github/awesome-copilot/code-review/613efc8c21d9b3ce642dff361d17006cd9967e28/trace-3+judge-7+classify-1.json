@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/code-review",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/code-review/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"7d126f9535cfa2b25447621861bafbfeef82ba1fe01098e901593f4ffd34f5ab"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8265,"own":{"files":1,"bytes":8265},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["github"],"credential":[],"network":[]},"summary":"1 file, 8.1 KiB · MCP github","short":"8.1 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the github MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

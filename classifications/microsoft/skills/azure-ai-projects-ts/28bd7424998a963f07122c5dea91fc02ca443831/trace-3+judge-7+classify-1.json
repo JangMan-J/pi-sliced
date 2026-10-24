@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-projects-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-projects-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"aa237b5535657555ec7b7c98c32e32a6241d5d32fd9a973479c5b4f3727e6372"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7556,"own":{"files":1,"bytes":7556},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/ai-projects","@azure/identity","@azure/monitor-opentelemetry","@opentelemetry/api"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 7.4 KiB · packages @azure/ai-projects +3 · 1 key","short":"7.4 KiB · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/ai-projects","installs @azure/identity","installs @azure/monitor-opentelemetry","installs @opentelemetry/api"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

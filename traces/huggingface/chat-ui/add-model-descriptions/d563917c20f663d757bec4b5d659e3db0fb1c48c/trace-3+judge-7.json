@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"huggingface/chat-ui/add-model-descriptions",
+"source":"huggingface/chat-ui",
+"revision":"d563917c20f663d757bec4b5d659e3db0fb1c48c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named add-model-descriptions at d563917c20f663d757bec4b5d659e3db0fb1c48c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo/babysit-pr",
+"revision":"b19b1a79d86ec30c1de078682b4b3ed0f59098bb",
+"trace":{"path":"traces/nvidia/nemo/babysit-pr/b19b1a79d86ec30c1de078682b4b3ed0f59098bb/trace-3+judge-7.json","sha256":"580e9460c3940100e64012781ed6151b1b308949e830fa9758e032e2b68a1b2c"},
+"status":"unresolvable",
+"reason":"no skill folder named babysit-pr at b19b1a79d86ec30c1de078682b4b3ed0f59098bb"
+}

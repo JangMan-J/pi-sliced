@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/sqldw-operations-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/sqldw-operations-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"c019da1e018615477cd8344ffb42bbe3e232b7d5a7553933678e1989b8ae657d"},
+"status":"unresolvable",
+"reason":"no skill folder named sqldw-operations-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

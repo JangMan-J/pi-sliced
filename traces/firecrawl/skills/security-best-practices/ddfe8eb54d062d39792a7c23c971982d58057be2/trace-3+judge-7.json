@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firecrawl/skills/security-best-practices",
+"source":"firecrawl/skills",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named security-best-practices at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/entra-agent-id",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/entra-agent-id/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"1635ccef900b8e770fba2bfff63b89670c9f8e616f3adb9a3be32fe2dd65f1fc"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":32670,"own":{"files":4,"bytes":32670},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Connect-MgGraph","ConvertTo-Json","Get-MgContext","Get-MgUser","Install-Module","Set-MgRequestContext","User.Read","az"],"package":["azure-identity","requests"],"mcp-server":[],"credential":["AZURE_CLIENT_SECRET"],"network":[]},"summary":"4 files, 32 KiB · CLI Connect-MgGraph, ConvertTo-Json +6 · packages azure-identity +1 · 1 key","short":"32 KiB · 8 CLI · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs Connect-MgGraph","runs ConvertTo-Json","runs Get-MgContext","runs Get-MgUser","runs Install-Module","runs Set-MgRequestContext","runs User.Read"]},{"marker":"installs-packages","because":["installs azure-identity","installs requests"]},{"marker":"credentials","because":["needs AZURE_CLIENT_SECRET"]}],
+"security":{},
+"companions":{"named":[{"name":"microsoft-docs","path":".github/skills/microsoft-docs"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

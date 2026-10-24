@@ -1,0 +1,46 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"resend/resend-skills/react-email",
+"source":"resend/resend-skills",
+"revision":"b2ae7b1798b70134faf679f35fc05b4331462988",
+"skillPath":"skills/react-email",
+"status":"resolved",
+"totals":{"files":7,"bytes":86976},
+"files":[
+{"path":"skills/react-email/SKILL.md","size":14424,"blob":"0b495e5bf5273c068f5c28a6dd8377d27a08c45a","how":"root"},
+{"path":"skills/react-email/references/COMPONENTS.md","size":11992,"blob":"b905023dfe4bb015e5d16a44a6190ebff942a55a","how":"link","from":0,"line":151},
+{"path":"skills/react-email/references/EDITOR.md","size":11612,"blob":"8b4f98879f4bb044c5edb372fdba52d609027748","how":"link","from":0,"line":317},
+{"path":"skills/react-email/references/I18N.md","size":14698,"blob":"9961f694393bb0e7ae164778cb45e4ce5c3e0ab7","how":"link","from":0,"line":311},
+{"path":"skills/react-email/references/PATTERNS.md","size":22633,"blob":"9fc4f996222d1244cadb466e9be51f1e0d039186","how":"link","from":0,"line":347},
+{"path":"skills/react-email/references/SENDING.md","size":3798,"blob":"6e506872550e5662ed4eb124fcb0071c396a8473","how":"link","from":0,"line":276},
+{"path":"skills/react-email/references/STYLING.md","size":7819,"blob":"044609f3b4b76c26b4d08db72c000f2760c4284a","how":"link","from":0,"line":229}
+],
+"outside":[
+{"kind":"cli","name":"create-email","at":[[0,33]]},
+{"kind":"cli","name":"email","at":[[0,302],[0,305]]},
+{"kind":"cli","name":"react-email","at":[[5,57]]},
+{"kind":"mcp-server","name":"resend","at":[[5,9]]},
+{"kind":"package","name":"@react-email/editor","at":[[2,24]]},
+{"kind":"package","name":"i18next","at":[[3,246]]},
+{"kind":"package","name":"i18next-resources-to-backend","at":[[3,246]]},
+{"kind":"package","name":"next-intl","at":[[3,23]]},
+{"kind":"package","name":"react-email","at":[[0,27],[0,376]]},
+{"kind":"package","name":"react-i18next","at":[[3,246]]},
+{"kind":"package","name":"react-intl","at":[[3,163]]}
+],
+"regions":[
+{"kind":"own","path":"skills/react-email","files":7,"bytes":86976}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,376]]},
+{"kind":"fetch-run","detail":"npx create-email@latest","at":[[0,33]]},
+{"kind":"fetch-run","detail":"npx react-email@latest","at":[[5,57]]}
+],
+"namedSkills":[
+{"name":"email-best-practices","path":"skills/email-best-practices","at":[[0,387]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

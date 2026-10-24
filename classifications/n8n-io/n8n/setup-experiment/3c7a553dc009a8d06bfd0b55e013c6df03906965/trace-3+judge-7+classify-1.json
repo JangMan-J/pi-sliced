@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/setup-experiment",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/setup-experiment/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"8e9552e07918255466bdf2f607c715cdbdc936498ccf3d59a62901ff3d747635"},
+"status":"unresolvable",
+"reason":"no skill folder named setup-experiment at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

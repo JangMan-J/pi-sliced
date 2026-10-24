@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/express-oauth2-jwt-bearer",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/express-oauth2-jwt-bearer/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"54f1c0d00121585a9ae2613dbb463d5e343e690cdcb4e34c9ec295e752478963"},
+"status":"unresolvable",
+"reason":"no skill folder named express-oauth2-jwt-bearer at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

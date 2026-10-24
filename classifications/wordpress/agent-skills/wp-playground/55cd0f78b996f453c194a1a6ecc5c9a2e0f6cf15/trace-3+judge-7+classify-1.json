@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wordpress/agent-skills/wp-playground",
+"revision":"55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+"trace":{"path":"traces/wordpress/agent-skills/wp-playground/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/trace-3+judge-7.json","sha256":"8c0add5f781809213524fdb001283aeedbe38f605fd229b1ccb4f5ab3d4ab0dc"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":25218,"own":{"files":7,"bytes":25218},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@wp-playground/cli"],"package":[],"mcp-server":["playground"],"credential":[],"network":[]},"summary":"7 files, 25 KiB · MCP playground · CLI @wp-playground/cli","short":"25 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs @wp-playground/cli"]},{"marker":"mcp-server","because":["uses the playground MCP server"]},{"marker":"unpinned-code","because":["npx @wp-playground/cli@latest: skills/wp-playground/references/cli.md:14, skills/wp-playground/references/cli.md:15, skills/wp-playground/references/cli.md:16"]}],
+"security":{"fetch-run":["npx @wp-playground/cli@latest @ skills/wp-playground/references/cli.md:14, skills/wp-playground/references/cli.md:15, skills/wp-playground/references/cli.md:16 +9"]},
+"companions":{"named":[{"name":"blueprint","path":"skills/blueprint"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw-community/blender-python-api-verification",
+"revision":"54bac91992830b6249f1f727c0f6d628d3a984e8",
+"trace":{"path":"traces/nvidia/nemoclaw-community/blender-python-api-verification/54bac91992830b6249f1f727c0f6d628d3a984e8/trace-3+judge-7.json","sha256":"61fcb13c1cd0f86b98f1c0acde956eba6326a2898731e863be94c5fb89c809fe"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":4563,"own":{"files":2,"bytes":4563},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 4.5 KiB","short":"4.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

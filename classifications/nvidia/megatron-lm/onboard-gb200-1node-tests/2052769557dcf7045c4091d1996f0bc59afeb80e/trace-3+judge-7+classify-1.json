@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/onboard-gb200-1node-tests",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/onboard-gb200-1node-tests/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"c77f490785219cc28a4b28d19971b55aa24e81975bd512c07f529e57c6667e12"},
+"status":"unresolvable",
+"reason":"no skill folder named onboard-gb200-1node-tests at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

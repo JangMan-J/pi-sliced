@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/projects",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/projects/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"7498f5eb734f00e0b0a86da797f7403c46eba786c3cf093de755aa3f768cb42b"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":104257,"own":{"files":10,"bytes":104257},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ansible-playbook","go","jq","make","pulumi","terraform"],"package":["axios","click","dotenv","flask","github.com/joho/godotenv","python-dotenv","requests","tabulate"],"mcp-server":["launchdarkly"],"credential":["LAUNCHDARKLY_API_TOKEN","LAUNCHDARKLY_PROJECT_KEY","LAUNCHDARKLY_SDK_KEY"],"network":["app.launchdarkly.com"]},"summary":"10 files, 102 KiB · MCP launchdarkly · CLI ansible-playbook, go +4 · packages axios +7 · 3 keys · 1 host","short":"102 KiB · 6 CLI · 8 pkg · 3 keys · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["8 packages to install","1 MCP server","6 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ansible-playbook","runs go","runs jq","runs make","runs pulumi","runs terraform"]},{"marker":"installs-packages","because":["installs axios","installs click","installs dotenv","installs flask","installs github.com/joho/godotenv","installs python-dotenv","installs requests","installs tabulate"]},{"marker":"network","because":["fetches from app.launchdarkly.com"]},{"marker":"credentials","because":["needs LAUNCHDARKLY_API_TOKEN","needs LAUNCHDARKLY_PROJECT_KEY","needs LAUNCHDARKLY_SDK_KEY"]},{"marker":"mcp-server","because":["uses the launchdarkly MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"configs-create","path":"skills/agentcontrol/configs-create"},{"name":"configs-targeting","path":"skills/agentcontrol/configs-targeting"},{"name":"configs-variations","path":"skills/agentcontrol/configs-variations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,45 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/sentry-agent-skills/sentry-react-native-sdk",
+"source":"getsentry/sentry-agent-skills",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"skillPath":"skills/sentry-react-native-sdk",
+"status":"resolved",
+"totals":{"files":7,"bytes":183646},
+"files":[
+{"path":"skills/sentry-react-native-sdk/SKILL.md","size":31398,"blob":"85869821b9df5ca601b72894bd2a1683e42b1f3b","how":"root"},
+{"path":"skills/sentry-react-native-sdk/references/error-monitoring.md","size":44766,"blob":"410d91bcc89f278d3be8ddf8c8f670f689046a8e","how":"variable-path","from":0,"line":508},
+{"path":"skills/sentry-react-native-sdk/references/logging.md","size":13492,"blob":"cbcc9902ff0d6e56445f33557d267e5eaca4d26e","how":"variable-path","from":0,"line":512},
+{"path":"skills/sentry-react-native-sdk/references/profiling.md","size":14737,"blob":"d89a91478456804c9e16a5446ee81a11646b260a","how":"variable-path","from":0,"line":510},
+{"path":"skills/sentry-react-native-sdk/references/session-replay.md","size":22591,"blob":"1246ba781d8501d86e5a5e3eede6f165eb18babd","how":"variable-path","from":0,"line":511},
+{"path":"skills/sentry-react-native-sdk/references/tracing.md","size":34462,"blob":"f6bdea7451d2729d3efbeaaf3cfd2a7296248515","how":"variable-path","from":0,"line":509},
+{"path":"skills/sentry-react-native-sdk/references/user-feedback.md","size":22200,"blob":"6fa1e2abdedb55b90641f9e74b5d7f34a7bd9072","how":"variable-path","from":0,"line":513}
+],
+"outside":[
+{"kind":"cli","name":"@sentry/wizard","at":[[0,121]]},
+{"kind":"cli","name":"expo","at":[[0,147],[0,160],[0,633]]},
+{"kind":"cli","name":"pod","at":[[0,295],[0,841]]},
+{"kind":"cli","name":"sentry-cli","at":[[0,641]]},
+{"kind":"credential","name":"SENTRY_AUTH_TOKEN","at":[[0,605],[0,633]]},
+{"kind":"package","name":"@sentry/react-native","at":[[0,294],[4,51],[4,53]]}
+],
+"regions":[
+{"kind":"own","path":"skills/sentry-react-native-sdk","files":7,"bytes":183646}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @sentry/wizard@latest","at":[[0,121]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,147],[0,160],[0,633]]},
+{"kind":"fetch-run","detail":"npx sentry-cli","at":[[0,641]]}
+],
+"namedSkills":[
+{"name":"sentry-go-sdk","path":"skills/sentry-go-sdk","at":[[0,813]]},
+{"name":"sentry-python-sdk","path":"skills/sentry-python-sdk","at":[[0,814]]},
+{"name":"sentry-react-sdk","path":"skills/sentry-react-sdk","at":[[0,817]]},
+{"name":"sentry-ruby-sdk","path":"skills/sentry-ruby-sdk","at":[[0,815]]},
+{"name":"sentry-svelte-sdk","path":"skills/sentry-svelte-sdk","at":[[0,818]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"Apache-2.0"}
+}

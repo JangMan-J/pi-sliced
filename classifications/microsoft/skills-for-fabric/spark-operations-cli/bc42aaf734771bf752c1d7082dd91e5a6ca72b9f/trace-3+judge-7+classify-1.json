@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/spark-operations-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/spark-operations-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"f5de4f00ced0036efc1751e1411bda3d3885deb3e7505fa91e310771c6f42bcc"},
+"status":"unresolvable",
+"reason":"no skill folder named spark-operations-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

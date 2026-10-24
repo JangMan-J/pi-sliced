@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/cli",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/cli/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"e5328d8659c1addab50b965ec073163cc7b2276898ed9e63a8e4c998f3a8f675"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20172,"own":{"files":1,"bytes":20172},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["deepctl","dg","ffmpeg","iex","iwr","jq","skills"],"package":["deepctl","deepgram","deepgram/tap/deepgram"],"mcp-server":[],"credential":["DEEPGRAM_API_KEY"],"network":["deepgram.com"]},"summary":"1 file, 20 KiB · CLI deepctl, dg +5 · packages deepctl +2 · 1 key · 1 host","short":"20 KiB · 7 CLI · 3 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install","7 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs deepctl","runs dg","runs ffmpeg","runs iex","runs iwr","runs jq","runs skills"]},{"marker":"installs-packages","because":["installs deepctl","installs deepgram","installs deepgram/tap/deepgram"]},{"marker":"network","because":["fetches from deepgram.com"]},{"marker":"credentials","because":["needs DEEPGRAM_API_KEY"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/cli/SKILL.md:130, skills/cli/SKILL.md:136, skills/cli/SKILL.md:181","pipe to interpreter: skills/cli/SKILL.md:30, skills/cli/SKILL.md:35","uvx deepctl: skills/cli/SKILL.md:32"]}],
+"security":{"fetch-run":["npx skills @ skills/cli/SKILL.md:130, skills/cli/SKILL.md:136, skills/cli/SKILL.md:181","pipe to interpreter @ skills/cli/SKILL.md:30, skills/cli/SKILL.md:35","uvx deepctl @ skills/cli/SKILL.md:32"],"skill-fetch":["npx skills add @ skills/cli/SKILL.md:130, skills/cli/SKILL.md:136, skills/cli/SKILL.md:181"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"docs","path":"skills/docs"},{"name":"examples","path":"skills/examples"},{"name":"recipes","path":"skills/recipes"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"speech-to-text","path":"skills/speech-to-text"},{"name":"starters","path":"skills/starters"},{"name":"text-intelligence","path":"skills/text-intelligence"},{"name":"text-to-speech","path":"skills/text-to-speech"},{"name":"voice-agent","path":"skills/voice-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

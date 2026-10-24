@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/mcore-run-on-slurm",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/mcore-run-on-slurm/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"a6872821a58cc17f63f83bc05de288d2577f5fb0f56ddf8d7e59e22054b15737"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7235,"own":{"files":1,"bytes":7235},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sacct","sbatch","scancel","scontrol","squeue","srun"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.1 KiB · CLI sacct, sbatch +4","short":"7.1 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs sacct","runs sbatch","runs scancel","runs scontrol","runs squeue","runs srun"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

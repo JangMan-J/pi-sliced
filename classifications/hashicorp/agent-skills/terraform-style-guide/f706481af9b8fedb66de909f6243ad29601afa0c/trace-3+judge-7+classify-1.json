@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/agent-skills/terraform-style-guide",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/agent-skills/terraform-style-guide/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"ff0264eb68c0ec322045b94aec6d49194359ff7fb744efc0460b5d596aa0cbfd"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11835,"own":{"files":2,"bytes":11835},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["terraform"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB · CLI terraform","short":"12 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs terraform"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

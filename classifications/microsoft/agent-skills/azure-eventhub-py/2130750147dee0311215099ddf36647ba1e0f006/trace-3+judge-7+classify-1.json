@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-skills/azure-eventhub-py",
+"revision":"2130750147dee0311215099ddf36647ba1e0f006",
+"trace":{"path":"traces/microsoft/agent-skills/azure-eventhub-py/2130750147dee0311215099ddf36647ba1e0f006/trace-3+judge-7.json","sha256":"f939ec618694ede47a38b396e57032865a7b99982fe81a1de66dd6dc5ae580e3"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":43548,"own":{"files":4,"bytes":43548},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["azure","azure-eventhub","azure-eventhub-checkpointstoreblob-aio","azure-identity"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"4 files, 43 KiB · packages azure +3 · 1 key","short":"43 KiB · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs azure","installs azure-eventhub","installs azure-eventhub-checkpointstoreblob-aio","installs azure-identity"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

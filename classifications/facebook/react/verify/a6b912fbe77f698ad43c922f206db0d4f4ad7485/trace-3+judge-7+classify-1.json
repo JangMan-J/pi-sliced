@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"facebook/react/verify",
+"revision":"a6b912fbe77f698ad43c922f206db0d4f4ad7485",
+"trace":{"path":"traces/facebook/react/verify/a6b912fbe77f698ad43c922f206db0d4f4ad7485/trace-3+judge-7.json","sha256":"9ee8e3ad8ca70cebc1002e5454df877b25cd1657b73e02646ea4f024f6b6f894"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":724,"own":{"files":1,"bytes":724},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 724 B","short":"724 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"flow","path":".claude/skills/flow"},{"name":"test","path":".claude/skills/test"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

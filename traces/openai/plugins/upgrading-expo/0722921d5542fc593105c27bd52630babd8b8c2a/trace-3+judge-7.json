@@ -1,0 +1,39 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/upgrading-expo",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/expo/skills/upgrading-expo",
+"status":"resolved",
+"totals":{"files":7,"bytes":22794},
+"files":[
+{"path":"plugins/expo/skills/upgrading-expo/SKILL.md","size":5632,"blob":"f43cb4ef5bf09438f5bb30055a1b1dd32035947d","how":"root"},
+{"path":"plugins/expo/skills/upgrading-expo/references/expo-av-to-audio.md","size":3683,"blob":"afacde7fe90a0b2ec173992327f469db97d39965","how":"path","from":0,"line":14},
+{"path":"plugins/expo/skills/upgrading-expo/references/expo-av-to-video.md","size":4262,"blob":"5c9bec1919b3598697857b24b87139047dbf8e73","how":"path","from":0,"line":15},
+{"path":"plugins/expo/skills/upgrading-expo/references/native-tabs.md","size":3520,"blob":"95214c2e49c593ecf9745d52e3164a326ecd9e30","how":"path","from":0,"line":13},
+{"path":"plugins/expo/skills/upgrading-expo/references/new-architecture.md","size":2177,"blob":"b4b27ba7b5229942a5583e6e0827a294d92a6c0f","how":"path","from":0,"line":10},
+{"path":"plugins/expo/skills/upgrading-expo/references/react-19.md","size":1875,"blob":"74035b2b1353902018ab92a005e97098e62c6812","how":"path","from":0,"line":11},
+{"path":"plugins/expo/skills/upgrading-expo/references/react-compiler.md","size":1645,"blob":"4d58e281093552d7f5628d24ad5b4db74f2e94f9","how":"path","from":0,"line":12}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[0,24],[0,32],[0,33],[0,41],[0,61],[0,71],[4,54],[4,76],[4,77],[6,56]]},
+{"kind":"cli","name":"expo-doctor","at":[[0,36]]},
+{"kind":"cli","name":"pod","at":[[0,70]]},
+{"kind":"cli","name":"watchman","at":[[0,43]]},
+{"kind":"cli","name":"xcobra","at":[[4,72]]},
+{"kind":"network","name":"docs.expo.dev","at":[[3,124]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/upgrading-expo","files":7,"bytes":22794}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx xcobra","at":[[4,72]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,24],[0,32],[0,33],[0,41],[0,61],[0,71],[4,54],[4,76],[4,77],[6,56]]},
+{"kind":"fetch-run","detail":"npx expo-doctor","at":[[0,36]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

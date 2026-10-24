@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-messaging-overview",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-messaging-overview/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"aef85fdcd19b31cd25a16cc1f1feb67caa3f5ede863a3b4f9b33999618f4f066"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6023,"own":{"files":1,"bytes":6023},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.9 KiB","short":"5.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-compliance-onboarding","path":"plugins/twilio-developer-kit/skills/twilio-compliance-onboarding"},{"name":"twilio-compliance-traffic","path":"plugins/twilio-developer-kit/skills/twilio-compliance-traffic"},{"name":"twilio-content-template-builder","path":"plugins/twilio-developer-kit/skills/twilio-content-template-builder"},{"name":"twilio-marketing-promotions-advisor","path":"plugins/twilio-developer-kit/skills/twilio-marketing-promotions-advisor"},{"name":"twilio-messaging-services","path":"plugins/twilio-developer-kit/skills/twilio-messaging-services"},{"name":"twilio-messaging-webhooks","path":"plugins/twilio-developer-kit/skills/twilio-messaging-webhooks"},{"name":"twilio-notifications-alerts-advisor","path":"plugins/twilio-developer-kit/skills/twilio-notifications-alerts-advisor"},{"name":"twilio-rcs-messaging","path":"plugins/twilio-developer-kit/skills/twilio-rcs-messaging"},{"name":"twilio-sms-send-message","path":"plugins/twilio-developer-kit/skills/twilio-sms-send-message"},{"name":"twilio-whatsapp-send-message","path":"plugins/twilio-developer-kit/skills/twilio-whatsapp-send-message"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

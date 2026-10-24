@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/ignite/drive-reverse-spec",
+"revision":"none",
+"trace":{"path":"traces/prisma/ignite/drive-reverse-spec/none/trace-3+judge-7.json","sha256":"db360b582bf5f23e7614616d64426dfba94d0bdd05ff0e3a2630b8c2d996fe21"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/prisma/ignite.git/' not found"
+}

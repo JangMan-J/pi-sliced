@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/force-link-environment",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/force-link-environment/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"78423aaa5f9f490bec7a6e8fd7f399ebcaef4d34098dfbe8caf09f9a1fc1230c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16063,"own":{"files":1,"bytes":16063},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"ensure-pipelines-host","path":"plugins/power-pages/skills/ensure-pipelines-host"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

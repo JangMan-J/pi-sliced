@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/skills/hf-cloud-sagemaker-iam-preflight",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"trace":{"path":"traces/huggingface/skills/hf-cloud-sagemaker-iam-preflight/c3ff942be3e07116b475253f0a8fc4f54682c1a8/trace-3+judge-7.json","sha256":"7bda6e87e89539d93a7db5a9b245f86e825805d134cef96722083ca740cc4567"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":19009,"own":{"files":5,"bytes":19009},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 19 KiB · CLI aws","short":"19 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]}],
+"security":{},
+"companions":{"named":[{"name":"hf-cloud-aws-context-discovery","path":"skills/hf-cloud-aws-context-discovery"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

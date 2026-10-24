@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/legacy-circuit-mockups",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/legacy-circuit-mockups/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"3f3741631ea392bf0dedc6d732c7a5097abc1e09598974a3c97bcca5d0ad9c46"},
+"status":"resolved",
+"footprint":{"files":21,"bytes":149149,"own":{"files":21,"bytes":149149},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ca65","ld65","make","minipro"],"package":["minipro"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"21 files, 146 KiB · CLI ca65, ld65 +2 · packages minipro · 1 host","short":"146 KiB · 4 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ca65","runs ld65","runs make","runs minipro"]},{"marker":"installs-packages","because":["installs minipro"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

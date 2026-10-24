@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/feature-flags-dotnet",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/feature-flags-dotnet/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"f83d97ca61e035f3791c351aa77c6effaf6226c835535435785ec78c7c541e3f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":127758,"own":{"files":4,"bytes":127758},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","groups"],"package":["PostHog","PostHog.AspNetCore"],"mcp-server":["posthog"],"credential":[],"network":[]},"summary":"4 files, 125 KiB · MCP posthog · CLI dotnet, groups · packages PostHog +1","short":"125 KiB · 2 CLI · 2 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs groups"]},{"marker":"installs-packages","because":["installs PostHog","installs PostHog.AspNetCore"]},{"marker":"mcp-server","because":["uses the posthog MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

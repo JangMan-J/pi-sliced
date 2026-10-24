@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/dashboarding",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/dashboarding/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"643491da0e460a68164f8ef15d122d2b283add414dd3a1d07b8db8b0ae1f6366"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10220,"own":{"files":2,"bytes":10220},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 10.0 KiB · CLI jq","short":"10.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tavily-ai/tavily-plugins/deal-hunt",
+"revision":"none",
+"trace":{"path":"traces/tavily-ai/tavily-plugins/deal-hunt/none/trace-3+judge-7.json","sha256":"4a929f5b2b9c473037a06d87d0f74b94b380a2d9b103052b7fd00facf3672dc4"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/tavily-ai/tavily-plugins.git/' not found"
+}

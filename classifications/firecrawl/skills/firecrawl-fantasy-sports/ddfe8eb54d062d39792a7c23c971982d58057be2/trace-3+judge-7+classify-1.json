@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/firecrawl-fantasy-sports",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/firecrawl-fantasy-sports/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"b3e34c56287d009083398fa03b1ea0667bcb40a84d81dabe9aabc1f3c7de8031"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3470,"own":{"files":1,"bytes":3470},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firecrawl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB · CLI firecrawl","short":"3.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs firecrawl"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the firecrawl it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

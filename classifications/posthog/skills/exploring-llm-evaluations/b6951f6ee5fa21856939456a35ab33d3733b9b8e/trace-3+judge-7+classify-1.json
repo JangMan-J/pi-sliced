@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/exploring-llm-evaluations",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/exploring-llm-evaluations/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"2788db98da9c81a4d4e06c3d56b8c7a70650ac63bb282dd7b15e5225ce4a83dd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":24982,"own":{"files":1,"bytes":24982},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 24 KiB","short":"24 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"analyzing-offline-evaluations","path":"skills/omnibus/analyzing-offline-evaluations"},{"name":"creating-online-evaluations","path":"skills/omnibus/creating-online-evaluations"},{"name":"exploring-ai-failures","path":"skills/omnibus/exploring-ai-failures"},{"name":"exploring-llm-traces","path":"skills/omnibus/exploring-llm-traces"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

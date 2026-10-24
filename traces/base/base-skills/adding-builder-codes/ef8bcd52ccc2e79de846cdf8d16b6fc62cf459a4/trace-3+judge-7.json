@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"base/base-skills/adding-builder-codes",
+"source":"base/base-skills",
+"revision":"ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named adding-builder-codes at ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

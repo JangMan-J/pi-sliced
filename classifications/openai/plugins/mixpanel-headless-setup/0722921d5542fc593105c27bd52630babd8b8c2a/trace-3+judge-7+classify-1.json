@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/mixpanel-headless-setup",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/mixpanel-headless-setup/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"71c53d2ca18463d876149aff2b5d595a3a78a50500450460b16699f0a0ee0dd3"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":27797,"own":{"files":2,"bytes":13176},"otherSkills":{"count":1,"files":1,"bytes":14621},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["a","a.name","as","bridge.get","default_project","except","expires_at","f","fh","headers","import","len","mp","mp_login","oauth_set","oauth_triple","or","pandas","print","project","sa_quad","sa_set","sys.exit","sys.version_info","sys.version_info.major","sys.version_info.minor","tokens","v","version","with","workspace"],"package":["mixpanel_headless"],"mcp-server":[],"credential":["MP_OAUTH_TOKEN","MP_SECRET"],"network":["docs.astral.sh","python.org"]},"summary":"3 files, 27 KiB · +1 other skill · CLI a, a.name +29 · packages mixpanel_headless · 2 keys · 2 hosts","short":"27 KiB · +1 skill · 31 CLI · 1 pkg · 2 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","31 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs a","runs a.name","runs as","runs bridge.get","runs default_project","runs except","runs expires_at","runs f","runs fh","runs headers","runs import","runs len","runs mp","runs mp_login","runs oauth_set","runs oauth_triple","runs or","runs pandas","runs print","runs project","runs sa_quad","runs sa_set","runs sys.exit","runs sys.version_info","runs sys.version_info.major","runs sys.version_info.minor","runs tokens","runs v","runs version","runs with","runs workspace"]},{"marker":"installs-packages","because":["installs mixpanel_headless"]},{"marker":"network","because":["fetches from docs.astral.sh","fetches from python.org"]},{"marker":"credentials","because":["needs MP_OAUTH_TOKEN","needs MP_SECRET"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/mixpanel-headless/skills/mixpanelyst"]}],
+"security":{},
+"companions":{"named":[{"name":"mixpanel-auth","path":"plugins/mixpanel-headless/skills/mixpanel-auth"}],"pulled":[{"path":"plugins/mixpanel-headless/skills/mixpanelyst","files":1,"bytes":14621}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

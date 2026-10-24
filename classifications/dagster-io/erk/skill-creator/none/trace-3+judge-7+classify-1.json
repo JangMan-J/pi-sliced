@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/skill-creator",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/skill-creator/none/trace-3+judge-7.json","sha256":"119501c7d4f98654cdfdf18848c82c4952f6916daae835ed639bfad276a013bf"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

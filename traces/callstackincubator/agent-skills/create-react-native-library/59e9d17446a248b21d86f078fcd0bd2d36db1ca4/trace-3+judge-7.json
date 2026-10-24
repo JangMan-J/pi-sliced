@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/agent-skills/create-react-native-library",
+"source":"callstackincubator/agent-skills",
+"revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+"skillPath":"skills/create-react-native-library",
+"status":"resolved",
+"totals":{"files":3,"bytes":11042},
+"files":[
+{"path":"skills/create-react-native-library/SKILL.md","size":2736,"blob":"3613cd0735ecb263cd100c2057d4cb4844e046f0","how":"root"},
+{"path":"skills/create-react-native-library/references/local-library.md","size":3817,"blob":"480c147339fff9c832aa4e5009ea09e75f56bd64","how":"link","from":0,"line":73},
+{"path":"skills/create-react-native-library/references/scaffold-library.md","size":4489,"blob":"9dbec73c4931ef7a8c18acbb3e4ae5c99b0d1550","how":"link","from":0,"line":72}
+],
+"outside":[
+{"kind":"cli","name":"create-react-native-library","at":[[0,36],[0,39],[0,49],[1,29],[1,36],[1,42],[2,34],[2,47],[2,51]]},
+{"kind":"cli","name":"pod-install","at":[[2,63]]}
+],
+"regions":[
+{"kind":"own","path":"skills/create-react-native-library","files":3,"bytes":11042}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-react-native-library@latest","at":[[0,36],[0,39],[0,49],[1,29],[1,36],[1,42],[2,34],[2,47],[2,51]]},
+{"kind":"fetch-run","detail":"npx pod-install","at":[[2,63]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

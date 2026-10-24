@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-agent-sdk-demos/listener-creator",
+"revision":"826b268506a5f3707623c9e6140b200befcbebae",
+"trace":{"path":"traces/anthropics/claude-agent-sdk-demos/listener-creator/826b268506a5f3707623c9e6140b200befcbebae/trace-3+judge-7.json","sha256":"155c0ca9b2fcfe37527149e61c421d6c800afd2166e8c69a33f65495d173a560"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":20175,"own":{"files":5,"bytes":20175},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 20 KiB","short":"20 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/dotnet-maui-doctor",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/dotnet-maui-doctor/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"e91281b8bdeb2be2b742acad02976c73e25f22289ccb676bfb2abfc031040fcd"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":44277,"own":{"files":12,"bytes":44277},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Add-Type","ConvertFrom-Json","Invoke-WebRequest","Select-String","Where-Object","adb","android.nupkg","dotnet","findstr","java","java_home","jq","kvm-ok","manifest.nupkg","modprobe","sdkmanager","sw_vers","systeminfo","update-java-alternatives","workload","workloadset.nupkg","xcode-select","xcodebuild","xcrun"],"package":[],"mcp-server":[],"credential":[],"network":["api.nuget.org","developer.android.com","developer.apple.com","dot.net","dotnetcli.blob.core.windows.net","learn.microsoft.com"]},"summary":"12 files, 43 KiB · CLI Add-Type, ConvertFrom-Json +22 · 6 hosts","short":"43 KiB · 24 CLI · 6 hosts"},
+"heavy":{"heavy":true,"because":["24 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs Add-Type","runs android.nupkg","runs ConvertFrom-Json","runs dotnet","runs findstr","runs Invoke-WebRequest","runs java","runs java_home","runs jq","runs kvm-ok","runs manifest.nupkg","runs modprobe","runs sdkmanager","runs Select-String","runs sw_vers","runs systeminfo","runs update-java-alternatives","runs Where-Object","runs workload","runs workloadset.nupkg","runs xcode-select","runs xcodebuild","runs xcrun"]},{"marker":"network","because":["fetches from api.nuget.org","fetches from developer.android.com","fetches from developer.apple.com","fetches from dot.net","fetches from dotnetcli.blob.core.windows.net","fetches from learn.microsoft.com"]},{"marker":"unpinned-code","because":["pipe to interpreter: plugins/dotnet-maui/skills/dotnet-maui-doctor/references/troubleshooting.md:60"]}],
+"security":{"fetch-run":["pipe to interpreter @ plugins/dotnet-maui/skills/dotnet-maui-doctor/references/troubleshooting.md:60"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-auth",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-auth/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"4abe2c135ceb1686225e5660f4cb29a8da6250ff13dda0c8d8557cb60292384a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2995,"own":{"files":1,"bytes":2995},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@convex-dev/auth","convex","shadcn"],"package":["jose"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB · CLI @convex-dev/auth, convex +1 · packages jose","short":"2.9 KiB · 3 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @convex-dev/auth","runs convex","runs shadcn"]},{"marker":"installs-packages","because":["installs jose"]},{"marker":"stub","because":["own folder 2.9 KiB (1 file)","content is the @convex-dev/auth, convex it wraps"]},{"marker":"unpinned-code","because":["npx @convex-dev/auth: skills/convex-auth/SKILL.md:16, skills/convex-auth/SKILL.md:25","npx convex: skills/convex-auth/SKILL.md:18","npx shadcn@latest: skills/convex-auth/SKILL.md:20, skills/convex-auth/SKILL.md:28"]}],
+"security":{"fetch-run":["npx @convex-dev/auth @ skills/convex-auth/SKILL.md:16, skills/convex-auth/SKILL.md:25","npx convex @ skills/convex-auth/SKILL.md:18","npx shadcn@latest @ skills/convex-auth/SKILL.md:20, skills/convex-auth/SKILL.md:28"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

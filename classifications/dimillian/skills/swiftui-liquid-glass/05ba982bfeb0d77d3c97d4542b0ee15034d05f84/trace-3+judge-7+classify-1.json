@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dimillian/skills/swiftui-liquid-glass",
+"revision":"05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+"trace":{"path":"traces/dimillian/skills/swiftui-liquid-glass/05ba982bfeb0d77d3c97d4542b0ee15034d05f84/trace-3+judge-7.json","sha256":"4ac9f0f967479bcf61b0592943d483480ac79e966c4364dd9c472dcd1d8d4d68"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11922,"own":{"files":2,"bytes":11922},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB","short":"12 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

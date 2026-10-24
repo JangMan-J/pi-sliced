@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/agents-v2-py",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/agents-v2-py/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"ac5f9c521b6624cfa5e3179ee1d6f1ea4e12cc132343ec0eb853fb4dd1a238e3"},
+"status":"unresolvable",
+"reason":"no skill folder named agents-v2-py at 28bd7424998a963f07122c5dea91fc02ca443831 or at the remote HEAD 2130750147dee0311215099ddf36647ba1e0f006"
+}

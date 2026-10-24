@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/scaffolding-oracle-to-postgres-migration-test-project",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/scaffolding-oracle-to-postgres-migration-test-project/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"5a330f9434baf8513d03e24e5f19033b568ed3f4b69a481e077ae3aac1bfe18a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2762,"own":{"files":1,"bytes":2762},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB","short":"2.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

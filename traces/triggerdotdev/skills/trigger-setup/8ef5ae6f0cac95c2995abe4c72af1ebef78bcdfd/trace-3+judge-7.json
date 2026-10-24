@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"triggerdotdev/skills/trigger-setup",
+"source":"triggerdotdev/skills",
+"revision":"8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+"skillPath":"trigger-setup",
+"status":"resolved",
+"totals":{"files":1,"bytes":8048},
+"files":[
+{"path":"trigger-setup/SKILL.md","size":8048,"blob":"6882908b2e690e4565c08205575fcbe81e09ccfe","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"trigger","at":[[0,186],[0,187]]},
+{"kind":"cli","name":"trigger.dev","at":[[0,32],[0,44],[0,51],[0,66],[0,152],[0,191]]},
+{"kind":"credential","name":"TRIGGER_SECRET_KEY","at":[[0,146]]},
+{"kind":"package","name":"@trigger.dev/build","at":[[0,80]]},
+{"kind":"package","name":"@trigger.dev/sdk","at":[[0,79]]}
+],
+"regions":[
+{"kind":"own","path":"trigger-setup","files":1,"bytes":8048}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,79],[0,80]]},
+{"kind":"fetch-run","detail":"npx trigger.dev@latest","at":[[0,32],[0,44],[0,51],[0,66],[0,152],[0,191]]}
+],
+"namedSkills":[
+{"name":"trigger-tasks","path":"trigger-tasks","at":[[0,11]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

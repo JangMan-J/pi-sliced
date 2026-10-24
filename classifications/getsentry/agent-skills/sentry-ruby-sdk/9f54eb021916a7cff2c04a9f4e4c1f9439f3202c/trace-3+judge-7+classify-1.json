@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/agent-skills/sentry-ruby-sdk",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/agent-skills/sentry-ruby-sdk/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"49a190ab5a82156ca504673001214b3c2864c7f7ffc3483e50236ae1d920f774"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":64548,"own":{"files":8,"bytes":64548},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@spotlightjs/spotlight","bundle"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 63 KiB · CLI @spotlightjs/spotlight, bundle","short":"63 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @spotlightjs/spotlight","runs bundle"]},{"marker":"unpinned-code","because":["npx @spotlightjs/spotlight: skills/sentry-ruby-sdk/SKILL.md:243, skills/sentry-ruby-sdk/SKILL.md:245"]}],
+"security":{"fetch-run":["npx @spotlightjs/spotlight @ skills/sentry-ruby-sdk/SKILL.md:243, skills/sentry-ruby-sdk/SKILL.md:245"]},
+"companions":{"named":[{"name":"sentry-react-sdk","path":"skills/sentry-react-sdk"},{"name":"sentry-svelte-sdk","path":"skills/sentry-svelte-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

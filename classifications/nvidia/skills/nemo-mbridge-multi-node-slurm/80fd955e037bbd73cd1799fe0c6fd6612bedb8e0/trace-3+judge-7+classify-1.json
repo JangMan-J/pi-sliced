@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemo-mbridge-multi-node-slurm",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemo-mbridge-multi-node-slurm/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"58a4168d17d8506dc40cb6e1963edc3adceaca67ced97c642abb38e8c1b5b0da"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":20528,"own":{"files":2,"bytes":20528},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["salloc","srun","wandb"],"package":["uv"],"mcp-server":[],"credential":["GH_TOKEN","HF_TOKEN","WANDB_API_KEY","YOUR_GITHUB_TOKEN","YOUR_HF_TOKEN","YOUR_WANDB_KEY"],"network":[]},"summary":"2 files, 20 KiB · CLI salloc, srun +1 · packages uv · 6 keys","short":"20 KiB · 3 CLI · 1 pkg · 6 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs","6 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs salloc","runs srun","runs wandb"]},{"marker":"installs-packages","because":["installs uv"]},{"marker":"credentials","because":["needs GH_TOKEN","needs HF_TOKEN","needs WANDB_API_KEY","needs YOUR_GITHUB_TOKEN","needs YOUR_HF_TOKEN","needs YOUR_WANDB_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

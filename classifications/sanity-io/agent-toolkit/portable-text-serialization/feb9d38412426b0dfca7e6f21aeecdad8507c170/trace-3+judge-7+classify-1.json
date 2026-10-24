@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/agent-toolkit/portable-text-serialization",
+"revision":"feb9d38412426b0dfca7e6f21aeecdad8507c170",
+"trace":{"path":"traces/sanity-io/agent-toolkit/portable-text-serialization/feb9d38412426b0dfca7e6f21aeecdad8507c170/trace-3+judge-7.json","sha256":"3c2edc2c4e28d0dff3280d94b41385f087eccf1badf1c062d6e14bb08e89fa5f"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":25001,"own":{"files":8,"bytes":25001},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@portabletext/markdown","@portabletext/react","@portabletext/svelte","@portabletext/to-html","@portabletext/vue","astro-portabletext"],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 24 KiB · packages @portabletext/markdown +5","short":"24 KiB · 6 pkg"},
+"heavy":{"heavy":true,"because":["6 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @portabletext/markdown","installs @portabletext/react","installs @portabletext/svelte","installs @portabletext/to-html","installs @portabletext/vue","installs astro-portabletext"]}],
+"security":{},
+"companions":{"named":[{"name":"portable-text-conversion","path":"skills/portable-text-conversion"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

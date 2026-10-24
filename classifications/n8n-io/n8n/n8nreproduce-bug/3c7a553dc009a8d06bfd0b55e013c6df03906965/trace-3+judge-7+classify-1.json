@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8nreproduce-bug",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8nreproduce-bug/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"e387d48778f00a5dfd75887f96b71c454fc34af3941fc846288f9bbf62491cc6"},
+"status":"unresolvable",
+"reason":"no skill folder named n8nreproduce-bug at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

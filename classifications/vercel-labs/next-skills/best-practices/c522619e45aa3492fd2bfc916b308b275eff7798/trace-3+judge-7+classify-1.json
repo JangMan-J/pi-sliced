@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/next-skills/best-practices",
+"revision":"c522619e45aa3492fd2bfc916b308b275eff7798",
+"trace":{"path":"traces/vercel-labs/next-skills/best-practices/c522619e45aa3492fd2bfc916b308b275eff7798/trace-3+judge-7.json","sha256":"438d9c40b9e4ba9cdcdf0db29b142c6ef8e5c0a40979e9a7a5243963ee867e17"},
+"status":"unresolvable",
+"reason":"no skill folder named best-practices at c522619e45aa3492fd2bfc916b308b275eff7798"
+}

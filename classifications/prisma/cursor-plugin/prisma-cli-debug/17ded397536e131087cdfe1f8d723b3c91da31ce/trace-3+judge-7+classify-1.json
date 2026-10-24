@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-cli-debug",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-cli-debug/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"5f23111dbfe2bbd23466f140cb9f73a75862b7322f0a91cec2a1ce201ff0f829"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-cli-debug at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/authoring-log-alerts",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/authoring-log-alerts/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"eea2c631b1b8253920013e3a5ee023e017e83cb667608e9c087912efd3e86560"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":23253,"own":{"files":4,"bytes":23253},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 23 KiB","short":"23 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"authoring-error-tracking-alerts","path":"skills/omnibus/authoring-error-tracking-alerts"},{"name":"investigating-logs","path":"skills/omnibus/investigating-logs"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

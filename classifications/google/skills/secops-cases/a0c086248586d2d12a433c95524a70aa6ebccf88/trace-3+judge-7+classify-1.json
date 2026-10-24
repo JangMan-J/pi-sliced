@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/secops-cases",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/secops-cases/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"82c40968b3a1f50ec055f76c12b7072502d7e62c38fc7e07c5615e9c8453ea96"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12757,"own":{"files":1,"bytes":12757},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":["python","secops"],"credential":[],"network":[]},"summary":"1 file, 12 KiB · MCP python, secops · CLI gcloud","short":"12 KiB · 1 CLI · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"mcp-server","because":["uses the python MCP server","uses the secops MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

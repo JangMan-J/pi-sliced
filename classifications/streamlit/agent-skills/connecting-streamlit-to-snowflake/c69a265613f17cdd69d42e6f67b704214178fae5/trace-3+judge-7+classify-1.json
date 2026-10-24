@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/agent-skills/connecting-streamlit-to-snowflake",
+"revision":"c69a265613f17cdd69d42e6f67b704214178fae5",
+"trace":{"path":"traces/streamlit/agent-skills/connecting-streamlit-to-snowflake/c69a265613f17cdd69d42e6f67b704214178fae5/trace-3+judge-7.json","sha256":"5d48a395c42e2c5e297df70d7771ed3aacb621fa310bc9f2eff149e59f98995d"},
+"status":"unresolvable",
+"reason":"no skill folder named connecting-streamlit-to-snowflake at c69a265613f17cdd69d42e6f67b704214178fae5"
+}

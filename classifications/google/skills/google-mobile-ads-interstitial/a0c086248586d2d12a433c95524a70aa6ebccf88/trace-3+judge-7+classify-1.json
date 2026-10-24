@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-mobile-ads-interstitial",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-mobile-ads-interstitial/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"1374a8135c7dac57a0bcebdfc39e12dc9f1a234cd18972122a1df8cb0b219269"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":7848,"own":{"files":4,"bytes":7848},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gradle"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 7.7 KiB · CLI gradle","short":"7.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gradle"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

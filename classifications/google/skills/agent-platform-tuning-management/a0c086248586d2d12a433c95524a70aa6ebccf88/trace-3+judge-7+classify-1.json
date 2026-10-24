@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/agent-platform-tuning-management",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/agent-platform-tuning-management/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"000355428c661a3f5f29e29258ec2126d27e10aba9ca9cc7f58ab2fcefda10d8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7587,"own":{"files":1,"bytes":7587},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":["google-cloud-aiplatform"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.4 KiB · CLI gcloud · packages google-cloud-aiplatform","short":"7.4 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"installs-packages","because":["installs google-cloud-aiplatform"]}],
+"security":{},
+"companions":{"named":[{"name":"agent-platform-deploy","path":"skills/cloud/agent-platform-deploy"},{"name":"agent-platform-endpoint-management","path":"skills/cloud/agent-platform-endpoint-management"},{"name":"agent-platform-tuning","path":"skills/cloud/agent-platform-tuning"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/next-docs-agentic-rag/ask-next",
+"revision":"1499363ba917dddcdc474b61600ce4111727ad3b",
+"trace":{"path":"traces/vercel-labs/next-docs-agentic-rag/ask-next/1499363ba917dddcdc474b61600ce4111727ad3b/trace-3+judge-7.json","sha256":"3d0af55d91b4091c8a6c640a86064be94eeea89bf2a719dc69884d8320a24181"},
+"status":"unresolvable",
+"reason":"no skill folder named ask-next at 1499363ba917dddcdc474b61600ce4111727ad3b"
+}

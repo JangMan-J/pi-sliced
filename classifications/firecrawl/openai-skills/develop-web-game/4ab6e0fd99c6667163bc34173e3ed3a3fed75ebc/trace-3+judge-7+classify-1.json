@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openai-skills/develop-web-game",
+"revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+"trace":{"path":"traces/firecrawl/openai-skills/develop-web-game/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc/trace-3+judge-7.json","sha256":"8483824d1123e0c3e11adc3c68f49a86c331b03b18da191740677b570e6682c1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9233,"own":{"files":1,"bytes":9233},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.0 KiB","short":"9.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"playwright","path":"skills/.curated/playwright"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

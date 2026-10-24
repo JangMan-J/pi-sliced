@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"remotion-dev/skills/remotion-create",
+"revision":"039e8a2fc78b67efc228d5645367838b85818a1c",
+"trace":{"path":"traces/remotion-dev/skills/remotion-create/039e8a2fc78b67efc228d5645367838b85818a1c/trace-3+judge-7.json","sha256":"78731d7d51616cab47ed36dc0e82717d577d16899e7698f321cf1b93c0f414d9"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":3595,"own":{"files":3,"bytes":3595},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["create-video"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 3.5 KiB · CLI create-video","short":"3.5 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs create-video"]},{"marker":"unpinned-code","because":["npx create-video@latest: skills/remotion-create/SKILL.md:26, skills/remotion-create/SKILL.md:36"]}],
+"security":{"fetch-run":["npx create-video@latest @ skills/remotion-create/SKILL.md:26, skills/remotion-create/SKILL.md:36"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

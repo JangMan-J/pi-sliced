@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/pocket-casts-ios/update-swiftui-uikit-for-dynamic-type-support",
+"revision":"c0086a18b0771cb4bdb7d5ec3780d86ae9327580",
+"trace":{"path":"traces/automattic/pocket-casts-ios/update-swiftui-uikit-for-dynamic-type-support/c0086a18b0771cb4bdb7d5ec3780d86ae9327580/trace-3+judge-7.json","sha256":"f69bd749c6363d58d32b1d117fb9b7c55579acef1ed157fde5af8ff5d95bc75e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7929,"own":{"files":1,"bytes":7929},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.7 KiB","short":"7.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

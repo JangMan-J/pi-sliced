@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/holoscan-install-container",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/holoscan-install-container/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"726e81162533c1515e9c2c95836cbcbcd2af9356284c6bdecf705c4f9af0d64f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4866,"own":{"files":1,"bytes":4866},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","nvidia-smi"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.8 KiB · CLI docker, nvidia-smi","short":"4.8 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs nvidia-smi"]}],
+"security":{},
+"companions":{"named":[{"name":"holoscan-install-source","path":"skills/holoscan-install-source"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

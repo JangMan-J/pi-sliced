@@ -1,0 +1,42 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"deepgram/skills/setup-mcp",
+"source":"deepgram/skills",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"skillPath":"skills/setup-mcp",
+"status":"resolved",
+"totals":{"files":1,"bytes":12301},
+"files":[
+{"path":"skills/setup-mcp/SKILL.md","size":12301,"blob":"da2eb96cf6bd9687e54b090de17b7f399ddab751","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"claude","at":[[0,114],[0,117],[0,181],[0,226],[0,229],[0,271]]},
+{"kind":"cli","name":"deepgram-mcp","at":[[0,176]]},
+{"kind":"cli","name":"dg","at":[[0,101],[0,102],[0,162],[0,303],[0,334]]},
+{"kind":"cli","name":"iex","at":[[0,83]]},
+{"kind":"cli","name":"iwr","at":[[0,83]]},
+{"kind":"credential","name":"DEEPGRAM_API_KEY","at":[[0,172],[0,271],[0,313]]},
+{"kind":"mcp-server","name":"deepgram","at":[[0,4]]},
+{"kind":"mcp-server","name":"docs","at":[[0,297]]},
+{"kind":"mcp-server","name":"the","at":[[0,168]]},
+{"kind":"network","name":"deepgram.com","at":[[0,73],[0,83]]},
+{"kind":"network","name":"developers.deepgram.com","at":[[0,217]]},
+{"kind":"package","name":"deepctl","at":[[0,76],[0,78],[0,86]]},
+{"kind":"package","name":"deepgram","at":[[0,93]]},
+{"kind":"package","name":"deepgram-mcp","at":[[0,171]]},
+{"kind":"package","name":"deepgram/tap/deepgram","at":[[0,70],[0,92]]}
+],
+"regions":[
+{"kind":"own","path":"skills/setup-mcp","files":1,"bytes":12301}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx deepgram-mcp","at":[[0,176]]},
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,73],[0,83]]},
+{"kind":"secret-egress","detail":"DEEPGRAM_API_KEY -> api.dx.deepgram.com","at":[[0,271]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

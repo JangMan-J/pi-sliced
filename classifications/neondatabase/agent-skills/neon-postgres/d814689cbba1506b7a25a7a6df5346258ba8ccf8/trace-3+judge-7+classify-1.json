@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/agent-skills/neon-postgres",
+"revision":"d814689cbba1506b7a25a7a6df5346258ba8ccf8",
+"trace":{"path":"traces/neondatabase/agent-skills/neon-postgres/d814689cbba1506b7a25a7a6df5346258ba8ccf8/trace-3+judge-7.json","sha256":"964cd7e84c34138a7a74be7937af2be678e4da240be6229d3204e5e562708fb0"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":48059,"own":{"files":5,"bytes":48059},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["drizzle-kit","neon"],"package":["@neon/ai-sdk-provider","ai","dotenv","openai","pg"],"mcp-server":["neon"],"credential":[],"network":["neon.com"]},"summary":"5 files, 47 KiB · MCP neon · CLI drizzle-kit, neon · packages @neon/ai-sdk-provider +4 · 1 host","short":"47 KiB · 2 CLI · 5 pkg · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["5 packages to install","1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs drizzle-kit","runs neon"]},{"marker":"installs-packages","because":["installs @neon/ai-sdk-provider","installs ai","installs dotenv","installs openai","installs pg"]},{"marker":"network","because":["fetches from neon.com"]},{"marker":"mcp-server","because":["uses the neon MCP server"]},{"marker":"unpinned-code","because":["npx drizzle-kit: skills/neon-postgres/references/lakebase-search-drizzle.md:50, skills/neon-postgres/references/lakebase-search-drizzle.md:106, skills/neon-postgres/references/lakebase-search-drizzle.md:107"]}],
+"security":{"fetch-run":["npx drizzle-kit @ skills/neon-postgres/references/lakebase-search-drizzle.md:50, skills/neon-postgres/references/lakebase-search-drizzle.md:106, skills/neon-postgres/references/lakebase-search-drizzle.md:107 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

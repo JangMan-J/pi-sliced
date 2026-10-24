@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-dataverse",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-dataverse/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"68d3df009a90726416276fcf8acd149fce4d8267657a00403c89e0d52673fd2f"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":43708,"own":{"files":5,"bytes":43708},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertTo-Json","ForEach-Object","Invoke-RestMethod","Select-Object","Test-ColumnExists","Where-Object","az","catch","foreach","pa","param","throw","try"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 43 KiB · CLI ConvertTo-Json, ForEach-Object +11","short":"43 KiB · 13 CLI"},
+"heavy":{"heavy":true,"because":["13 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs catch","runs ConvertTo-Json","runs foreach","runs ForEach-Object","runs Invoke-RestMethod","runs pa","runs param","runs Select-Object","runs Test-ColumnExists","runs throw","runs try","runs Where-Object"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

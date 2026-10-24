@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-flow-dpa-perf",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-flow-dpa-perf/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"bc7cebb322ca20f8b8c028542f64f99c99ef1b6a9467117549d137aef1b73008"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":94012,"own":{"files":1,"bytes":15713},"otherSkills":{"count":5,"files":5,"bytes":78299},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["doca_caps"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 92 KiB · +5 other skills · CLI doca_caps","short":"92 KiB · +5 skills · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs doca_caps"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/doca-bench","pulls in 1 file of the skill at skills/doca-caps","pulls in 1 file of the skill at skills/doca-flow-grpc-server","pulls in 1 file of the skill at skills/doca-flow-perf","pulls in 1 file of the skill at skills/doca-flow-tune"]}],
+"security":{},
+"companions":{"named":[{"name":"doca-bench","path":"skills/doca-bench"},{"name":"doca-caps","path":"skills/doca-caps"},{"name":"doca-comch","path":"skills/doca-comch"},{"name":"doca-compress","path":"skills/doca-compress"},{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-dpa","path":"skills/doca-dpa"},{"name":"doca-flow","path":"skills/doca-flow"},{"name":"doca-flow-grpc-server","path":"skills/doca-flow-grpc-server"},{"name":"doca-flow-perf","path":"skills/doca-flow-perf"},{"name":"doca-flow-tune","path":"skills/doca-flow-tune"},{"name":"doca-hardware-safety","path":"skills/doca-hardware-safety"},{"name":"doca-programming-guide","path":"skills/doca-programming-guide"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-structured-tools-contract","path":"skills/doca-structured-tools-contract"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[{"path":"skills/doca-bench","files":1,"bytes":14128},{"path":"skills/doca-caps","files":1,"bytes":10785},{"path":"skills/doca-flow-grpc-server","files":1,"bytes":17272},{"path":"skills/doca-flow-perf","files":1,"bytes":16690},{"path":"skills/doca-flow-tune","files":1,"bytes":19424}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

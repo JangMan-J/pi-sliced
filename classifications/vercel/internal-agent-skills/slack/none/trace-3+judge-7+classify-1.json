@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/internal-agent-skills/slack",
+"revision":"none",
+"trace":{"path":"traces/vercel/internal-agent-skills/slack/none/trace-3+judge-7.json","sha256":"fba02b07e734b25f56de746e756918244d02d239fbf6fd10464dc9853b7b42ac"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/internal-agent-skills.git/' not found"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/msgraph-sdk",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/msgraph-sdk/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"1afecb8679952bb90ec2547b47256455cd0d27c27e1ef3412d88b648cd8a6b0f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":31058,"own":{"files":4,"bytes":31058},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["@azure/identity","@microsoft/microsoft-graph-client","@microsoft/microsoft-graph-types","Azure.Identity","Microsoft.Graph","azure-identity","msgraph-sdk","node-fetch"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 30 KiB · CLI dotnet · packages @azure/identity +7","short":"30 KiB · 1 CLI · 8 pkg"},
+"heavy":{"heavy":true,"because":["8 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs @azure/identity","installs @microsoft/microsoft-graph-client","installs @microsoft/microsoft-graph-types","installs azure-identity","installs Azure.Identity","installs Microsoft.Graph","installs msgraph-sdk","installs node-fetch"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

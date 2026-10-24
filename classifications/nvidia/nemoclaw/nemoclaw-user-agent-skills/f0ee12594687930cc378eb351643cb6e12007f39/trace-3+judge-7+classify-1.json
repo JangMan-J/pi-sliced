@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-user-agent-skills",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-user-agent-skills/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"5b789b0820dfc22f6eb2865590a58fed9bbee849e39d9208a451cd434c2a2d54"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-user-agent-skills at f0ee12594687930cc378eb351643cb6e12007f39"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/monetize-service",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/monetize-service/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"7b8b31cac1758e72ec8a85c4265d008c900ee0fd45cd9995e2d6c75c8b1eb2a8"},
+"status":"unresolvable",
+"reason":"no skill folder named monetize-service at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/skills/k2",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"trace":{"path":"traces/cloudflare/skills/k2/86505e44f87d801aa1864a3c4109e9a8ae5c409f/trace-3+judge-7.json","sha256":"11cd001ad812f1a63a9a5e40c2adf1584fd865c23d798933cea9132e459f7580"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2174,"own":{"files":1,"bytes":2174},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.1 KiB","short":"2.1 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"basin","path":"skills/basin"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

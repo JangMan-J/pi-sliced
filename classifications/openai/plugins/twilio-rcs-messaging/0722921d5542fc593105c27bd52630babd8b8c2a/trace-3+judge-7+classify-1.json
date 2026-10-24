@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-rcs-messaging",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-rcs-messaging/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"678f14565a735043b9f1b1a6367b982b2a53393822b053e0727494352a63d949"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10344,"own":{"files":1,"bytes":10344},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB · packages twilio","short":"10 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-compliance-onboarding","path":"plugins/twilio-developer-kit/skills/twilio-compliance-onboarding"},{"name":"twilio-content-template-builder","path":"plugins/twilio-developer-kit/skills/twilio-content-template-builder"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-messaging-overview","path":"plugins/twilio-developer-kit/skills/twilio-messaging-overview"},{"name":"twilio-messaging-services","path":"plugins/twilio-developer-kit/skills/twilio-messaging-services"},{"name":"twilio-numbers-senders","path":"plugins/twilio-developer-kit/skills/twilio-numbers-senders"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

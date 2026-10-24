@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/duckgres/ducklake-test",
+"revision":"da4aafdc9e6aec9a27363af257acda574d323e32",
+"trace":{"path":"traces/posthog/duckgres/ducklake-test/da4aafdc9e6aec9a27363af257acda574d323e32/trace-3+judge-7.json","sha256":"9b0c2123df1cd1ce28073685b6685b5e6b5051a8eb061e35073690194fb423f6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1354,"own":{"files":1,"bytes":1354},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker-compose","go","pkill","psql"],"package":[],"mcp-server":[],"credential":["PGPASSWORD"],"network":[]},"summary":"1 file, 1.3 KiB · CLI docker-compose, go +2 · 1 key","short":"1.3 KiB · 4 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker-compose","runs go","runs pkill","runs psql"]},{"marker":"credentials","because":["needs PGPASSWORD"]},{"marker":"stub","because":["own folder 1.3 KiB (1 file)","content is the docker-compose, go it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

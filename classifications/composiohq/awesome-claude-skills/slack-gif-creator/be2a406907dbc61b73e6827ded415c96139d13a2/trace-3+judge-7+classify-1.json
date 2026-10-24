@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/slack-gif-creator",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/slack-gif-creator/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"3148a9bb7ce80e1dcbc3a77822ad657d33ccdf06f7ca9dd69c19f8fa79f77a33"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":34788,"own":{"files":3,"bytes":34788},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["imageio","numpy","pillow"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 34 KiB · packages imageio +2","short":"34 KiB · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs imageio","installs numpy","installs pillow"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

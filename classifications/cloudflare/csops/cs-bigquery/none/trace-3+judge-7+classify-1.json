@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/cs-bigquery",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/cs-bigquery/none/trace-3+judge-7.json","sha256":"ef2c013ca55cdd685a167f56853a5acb770182d7ee82c4b78b75e69c1887286d"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

@@ -1,0 +1,44 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"apollographql/skills/apollo-mcp-server",
+"source":"apollographql/skills",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"skillPath":"skills/apollo-mcp-server",
+"status":"resolved",
+"totals":{"files":8,"bytes":44141},
+"files":[
+{"path":"skills/apollo-mcp-server/SKILL.md","size":7718,"blob":"567e62b6293373f07bdf0e1742045c1c9428acd9","how":"root"},
+{"path":"skills/apollo-mcp-server/references/auth.md","size":5362,"blob":"472970c40e8db1f535f6d493badacd39c8c63ed3","how":"link","from":0,"line":165},
+{"path":"skills/apollo-mcp-server/references/configuration.md","size":7627,"blob":"18d07a90c7adcd56cd437e9ce868da52cf286774","how":"link","from":0,"line":164},
+{"path":"skills/apollo-mcp-server/references/prompts.md","size":2225,"blob":"deed0ad49127e6c350fac32326d3735367b3fa6d","how":"link","from":0,"line":167},
+{"path":"skills/apollo-mcp-server/references/rhai-scripting.md","size":5001,"blob":"3272ca4c1c17aeba2483bf1c4c293867ede9430b","how":"link","from":0,"line":166},
+{"path":"skills/apollo-mcp-server/references/telemetry.md","size":5546,"blob":"d2d2564e87d5256653f0691f7a6234a68f021904","how":"link","from":0,"line":168},
+{"path":"skills/apollo-mcp-server/references/tools.md","size":5225,"blob":"b7cc1ae1689d8b67c3f7bccca37d19bd2f688291","how":"link","from":0,"line":163},
+{"path":"skills/apollo-mcp-server/references/troubleshooting.md","size":5437,"blob":"1778521bd9cac6e1f58fafda6c6526a61f86a3a5","how":"link","from":0,"line":169}
+],
+"outside":[
+{"kind":"cli","name":"@modelcontextprotocol/inspector","at":[[7,21],[7,28],[7,33]]},
+{"kind":"cli","name":"claude","at":[[0,92]]},
+{"kind":"cli","name":"iex","at":[[0,32]]},
+{"kind":"cli","name":"iwr","at":[[0,32]]},
+{"kind":"cli","name":"mcp-remote","at":[[7,72]]},
+{"kind":"cli","name":"yaml-lint","at":[[7,56]]},
+{"kind":"credential","name":"API_TOKEN","at":[[7,121]]},
+{"kind":"credential","name":"APOLLO_KEY","at":[[7,201]]},
+{"kind":"network","name":"mcp.apollo.dev","at":[[0,29],[0,32]]}
+],
+"regions":[
+{"kind":"own","path":"skills/apollo-mcp-server","files":8,"bytes":44141}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @modelcontextprotocol/inspector","at":[[7,21],[7,28],[7,33]]},
+{"kind":"fetch-run","detail":"npx mcp-remote","at":[[7,72]]},
+{"kind":"fetch-run","detail":"npx yaml-lint","at":[[7,56]]},
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,29],[0,32]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

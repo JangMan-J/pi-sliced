@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/gtars",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/gtars/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"17b21ffea42dbde6d2fac15754510574b2dfaf2fa40cbe74225f50dcaae5d735"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":134126,"own":{"files":13,"bytes":134126},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","gtars"],"package":["0.10.0","gtars-cli"],"mcp-server":[],"credential":[],"network":["arxiv.org"]},"summary":"13 files, 131 KiB · CLI cargo, gtars · packages 0.10.0 +1 · 1 host","short":"131 KiB · 2 CLI · 2 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs gtars"]},{"marker":"installs-packages","because":["installs 0.10.0","installs gtars-cli"]},{"marker":"network","because":["fetches from arxiv.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

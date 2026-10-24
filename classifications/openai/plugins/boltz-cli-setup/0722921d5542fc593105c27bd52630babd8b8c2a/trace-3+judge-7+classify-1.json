@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/boltz-cli-setup",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/boltz-cli-setup/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"7b89522b8cd991a571856b82ba9997310345430ce32ed3127bd57eb34dcbf466"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":5710,"own":{"files":2,"bytes":5710},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["boltz-api","iex","irm"],"package":[],"mcp-server":[],"credential":["BOLTZ_API_KEY"],"network":["install.boltz.bio"]},"summary":"2 files, 5.6 KiB · CLI boltz-api, iex +1 · 1 key · 1 host","short":"5.6 KiB · 3 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs boltz-api","runs iex","runs irm"]},{"marker":"network","because":["fetches from install.boltz.bio"]},{"marker":"credentials","because":["needs BOLTZ_API_KEY"]},{"marker":"unpinned-code","because":["pipe to interpreter: plugins/boltz-api-cli/skills/boltz-cli-setup/SKILL.md:31, plugins/boltz-api-cli/skills/boltz-cli-setup/SKILL.md:37, plugins/boltz-api-cli/skills/boltz-cli-setup/references/sandbox.md:24"]}],
+"security":{"fetch-run":["pipe to interpreter @ plugins/boltz-api-cli/skills/boltz-cli-setup/SKILL.md:31, plugins/boltz-api-cli/skills/boltz-cli-setup/SKILL.md:37, plugins/boltz-api-cli/skills/boltz-cli-setup/references/sandbox.md:24"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

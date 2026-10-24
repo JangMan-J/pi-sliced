@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/system-text-json-net11",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/system-text-json-net11/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"04e7d666546bd2e35ad3628fc29e8123d2376c892083f02e88aaa692c228be97"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15762,"own":{"files":1,"bytes":15762},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Invoke-WebRequest","dotnet","finally","try"],"package":[],"mcp-server":[],"credential":[],"network":["dot.net"]},"summary":"1 file, 15 KiB · CLI Invoke-WebRequest, dotnet +2 · 1 host","short":"15 KiB · 4 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs finally","runs Invoke-WebRequest","runs try"]},{"marker":"network","because":["fetches from dot.net"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

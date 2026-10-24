@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"aws/agent-toolkit-for-aws/signing-in-to-aws",
+"source":"aws/agent-toolkit-for-aws",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"skillPath":"skills/core-skills/signing-in-to-aws",
+"status":"resolved",
+"totals":{"files":1,"bytes":6854},
+"files":[
+{"path":"skills/core-skills/signing-in-to-aws/SKILL.md","size":6854,"blob":"3f56dd7330dc9ff8ade816425d5d1d5b4a79c5f7","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"aws","at":[[0,4],[0,9],[0,13],[0,14],[0,23],[0,41],[0,46],[0,70]]}
+],
+"regions":[
+{"kind":"own","path":"skills/core-skills/signing-in-to-aws","files":1,"bytes":6854}
+],
+"signals":[
+{"kind":"injection","detail":"do not tell the user","at":[[0,14],[0,46]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

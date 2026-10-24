@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/openshell/triage-issue",
+"revision":"c4688aa8715ea75d6c39fe468361dbbc16c691fa",
+"trace":{"path":"traces/nvidia/openshell/triage-issue/c4688aa8715ea75d6c39fe468361dbbc16c691fa/trace-3+judge-7.json","sha256":"56660d550af7c64e4efa9e58b108d2b57da92a9639d0ec7f97ae31adff03649a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3385,"own":{"files":1,"bytes":3385},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.3 KiB · CLI gh","short":"3.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"stub","because":["own folder 3.3 KiB (1 file)","content is the gh it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"build-from-issue","path":".agents/skills/build-from-issue"},{"name":"create-spike","path":".agents/skills/create-spike"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

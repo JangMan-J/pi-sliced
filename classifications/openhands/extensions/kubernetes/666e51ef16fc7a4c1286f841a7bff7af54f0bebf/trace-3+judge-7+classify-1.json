@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/kubernetes",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/kubernetes/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"75f596ed0a3cc8441f0390910d5784d40270d11cad05294196509da2c0a46c3f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":2200,"own":{"files":2,"bytes":2200},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Invoke-RestMethod","Invoke-WebRequest","Join-Path","Out-Null","kind","kubectl"],"package":[],"mcp-server":[],"credential":[],"network":["dl.k8s.io","kind.sigs.k8s.io"]},"summary":"2 files, 2.1 KiB · CLI Invoke-RestMethod, Invoke-WebRequest +4 · 2 hosts","short":"2.1 KiB · 6 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Invoke-RestMethod","runs Invoke-WebRequest","runs Join-Path","runs kind","runs kubectl","runs Out-Null"]},{"marker":"network","because":["fetches from dl.k8s.io","fetches from kind.sigs.k8s.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

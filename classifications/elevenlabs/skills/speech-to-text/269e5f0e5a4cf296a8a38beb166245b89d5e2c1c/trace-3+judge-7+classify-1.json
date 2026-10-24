@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elevenlabs/skills/speech-to-text",
+"revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+"trace":{"path":"traces/elevenlabs/skills/speech-to-text/269e5f0e5a4cf296a8a38beb166245b89d5e2c1c/trace-3+judge-7.json","sha256":"048365b955848543290b56c37a735a13f4bae204a2ca2708d3c83abbecda166d"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":55139,"own":{"files":7,"bytes":55139},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@elevenlabs/cli","elevenlabs","scoop"],"package":["@elevenlabs/cli","@elevenlabs/client","@elevenlabs/elevenlabs-js","@elevenlabs/react","dotenv","elevenlabs","elevenlabs/tap/elevenlabs","pydub","python-dotenv"],"mcp-server":[],"credential":["ELEVENLABS_API_KEY"],"network":["elevenlabs.io","github.com"]},"summary":"7 files, 54 KiB · CLI @elevenlabs/cli, elevenlabs +1 · packages @elevenlabs/cli +8 · 1 key · 2 hosts","short":"54 KiB · 3 CLI · 9 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["9 packages to install","3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @elevenlabs/cli","runs elevenlabs","runs scoop"]},{"marker":"installs-packages","because":["installs @elevenlabs/cli","installs @elevenlabs/client","installs @elevenlabs/elevenlabs-js","installs @elevenlabs/react","installs dotenv","installs elevenlabs","installs elevenlabs/tap/elevenlabs","installs pydub","installs python-dotenv"]},{"marker":"network","because":["fetches from elevenlabs.io","fetches from github.com"]},{"marker":"credentials","because":["needs ELEVENLABS_API_KEY"]},{"marker":"unpinned-code","because":["install @latest: speech-to-text/references/installation.md:41, speech-to-text/references/installation.md:66, speech-to-text/references/installation.md:69","npx @elevenlabs/cli@latest: speech-to-text/SKILL.md:13, speech-to-text/references/installation.md:107","pipe to interpreter: speech-to-text/references/installation.md:25"]}],
+"security":{"fetch-run":["install @latest @ speech-to-text/references/installation.md:41, speech-to-text/references/installation.md:66, speech-to-text/references/installation.md:69 +4","npx @elevenlabs/cli@latest @ speech-to-text/SKILL.md:13, speech-to-text/references/installation.md:107","pipe to interpreter @ speech-to-text/references/installation.md:25"]},
+"companions":{"named":[{"name":"setup-api-key","path":"setup-api-key"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

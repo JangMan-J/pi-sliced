@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/skills/algorithmic-art",
+"revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+"trace":{"path":"traces/anthropics/skills/algorithmic-art/dbd4588f9e1033efb41dad4bef2f7947c8993d44/trace-3+judge-7.json","sha256":"8b46bd108a73a927bf94cdf42e2048169bdb0b360bc0f7cdc95e0256e6d1b090"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":51958,"own":{"files":3,"bytes":51958},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["cdnjs.cloudflare.com","fonts.googleapis.com"]},"summary":"3 files, 51 KiB · 2 hosts","short":"51 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from cdnjs.cloudflare.com","fetches from fonts.googleapis.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

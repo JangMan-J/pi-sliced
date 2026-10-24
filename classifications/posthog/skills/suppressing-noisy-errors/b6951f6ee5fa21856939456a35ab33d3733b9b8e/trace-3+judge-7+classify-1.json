@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/suppressing-noisy-errors",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/suppressing-noisy-errors/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"116f40bc76dc949823800a8db6598cc64470f02da1506557d4eaf54585d03a4e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16008,"own":{"files":1,"bytes":16008},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["the"],"credential":[],"network":[]},"summary":"1 file, 16 KiB · MCP the","short":"16 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"grouping-noisy-errors","path":"skills/omnibus/grouping-noisy-errors"},{"name":"triaging-error-issues","path":"skills/omnibus/triaging-error-issues"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

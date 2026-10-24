@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/hve-core/hve-core-installer",
+"revision":"6cd810c7b9448d98ea07db0a7a9124824d32dacc",
+"trace":{"path":"traces/microsoft/hve-core/hve-core-installer/6cd810c7b9448d98ea07db0a7a9124824d32dacc/trace-3+judge-7.json","sha256":"7768b59773f7743d5c1edeccbbf39e628be4feabde6abd1d43a4ca35efa9ce45"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":121954,"own":{"files":20,"bytes":121954},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["existing_entry","existing_status","index","jq","kept_components","membership","plan_files","plan_index","plan_kinds","plan_maturities","plan_targets","readonly","seen_targets","sort_by","to_entries","unique"],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"20 files, 119 KiB · CLI existing_entry, existing_status +14 · 1 host","short":"119 KiB · 16 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["16 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs existing_entry","runs existing_status","runs index","runs jq","runs kept_components","runs membership","runs plan_files","runs plan_index","runs plan_kinds","runs plan_maturities","runs plan_targets","runs readonly","runs seen_targets","runs sort_by","runs to_entries","runs unique"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[{"name":"jira","path":".github/skills/project-planning/jira"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/devgtm/devgtm-querying",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/devgtm/devgtm-querying/none/trace-3+judge-7.json","sha256":"ffaedb865d8c4d8042f811b2f5350114c98640c60e7a832427ddcf79b3392aa3"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/devgtm.git/' not found"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tinybirdco/tinybird-agent-skills/tinybird-python-sdk-guidelines",
+"revision":"19a3ec18b2270fb82cc3489eabf122da0706e6a0",
+"trace":{"path":"traces/tinybirdco/tinybird-agent-skills/tinybird-python-sdk-guidelines/19a3ec18b2270fb82cc3489eabf122da0706e6a0/trace-3+judge-7.json","sha256":"b40fb643a4c56039138bb58e27284748d374a96f0c21b21ca734ecb6048dea5f"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":32625,"own":{"files":12,"bytes":32625},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","tinybird"],"package":["tinybird-sdk"],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 32 KiB · CLI docker, tinybird · packages tinybird-sdk","short":"32 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs tinybird"]},{"marker":"installs-packages","because":["installs tinybird-sdk"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

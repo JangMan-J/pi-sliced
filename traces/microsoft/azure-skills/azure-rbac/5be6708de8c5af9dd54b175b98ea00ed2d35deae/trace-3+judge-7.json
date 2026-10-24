@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/azure-skills/azure-rbac",
+"source":"microsoft/azure-skills",
+"revision":"5be6708de8c5af9dd54b175b98ea00ed2d35deae",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named azure-rbac at 5be6708de8c5af9dd54b175b98ea00ed2d35deae or at the remote HEAD f3b512517ed86feceebfee480a46c971f6c6aff4",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

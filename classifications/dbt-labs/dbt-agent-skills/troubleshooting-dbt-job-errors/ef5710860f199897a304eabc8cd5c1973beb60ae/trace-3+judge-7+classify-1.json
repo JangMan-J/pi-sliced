@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dbt-labs/dbt-agent-skills/troubleshooting-dbt-job-errors",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"trace":{"path":"traces/dbt-labs/dbt-agent-skills/troubleshooting-dbt-job-errors/ef5710860f199897a304eabc8cd5c1973beb60ae/trace-3+judge-7.json","sha256":"0762e59a3b4c011e19fe628e59add0ffe7d5bd77aec3609b4d0a7bf86eadbfe7"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12218,"own":{"files":2,"bytes":12218},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dbt"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB · CLI dbt","short":"12 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dbt"]}],
+"security":{},
+"companions":{"named":[{"name":"using-dbt-for-analytics-engineering","path":"skills/dbt/skills/using-dbt-for-analytics-engineering"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

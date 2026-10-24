@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/mcp-server-neon/logging-best-practices",
+"revision":"fd9123cfba3f3e7d03c6bc01bad880251d5bf682",
+"trace":{"path":"traces/neondatabase/mcp-server-neon/logging-best-practices/fd9123cfba3f3e7d03c6bc01bad880251d5bf682/trace-3+judge-7.json","sha256":"e0b3f80876b0045de5ad45c915791b0b00b8c091abaa283a7468983c182c7850"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":22407,"own":{"files":5,"bytes":22407},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 22 KiB","short":"22 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

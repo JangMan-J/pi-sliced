@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-platform-security",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-platform-security/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"d93ee9dbf42dc6198dfb84aa4ba9238f5be9ce55469b32bbb3485d8397b4eb84"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12327,"own":{"files":2,"bytes":12327},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gVisor","gcloud","hardening-your-cluster","rbac","sandbox-pods","secret-manager-managed-csi-component","setting-up","shielded-gke-nodes"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB · CLI gVisor, gcloud +6","short":"12 KiB · 8 CLI"},
+"heavy":{"heavy":true,"because":["8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud","runs gVisor","runs hardening-your-cluster","runs rbac","runs sandbox-pods","runs secret-manager-managed-csi-component","runs setting-up","runs shielded-gke-nodes"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-multitenancy","path":"skills/cloud/gke-multitenancy"},{"name":"gke-networking","path":"skills/cloud/gke-networking"},{"name":"gke-workload-security","path":"skills/cloud/gke-workload-security"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

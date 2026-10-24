@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/flutter-setup-localization",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/flutter-setup-localization/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"22d04b6530fba4bec6ea2cb69cd618d8cad7f130a83b42b5d1f654c8a85094d3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5920,"own":{"files":1,"bytes":5920},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["flutter"],"package":["flutter_localizations","intl","intl:any"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.8 KiB · CLI flutter · packages flutter_localizations +2","short":"5.8 KiB · 1 CLI · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs flutter"]},{"marker":"installs-packages","because":["installs flutter_localizations","installs intl","installs intl:any"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-caching-data",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-caching-data/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"dcc04c622809277d892d75ceb4dc59421c14df054da699012d8bcca05663bdb4"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-caching-data at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

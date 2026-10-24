@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/context7-mcp/find-docs",
+"revision":"b5e81de845092694ba1bfc5af15400f319c89b6d",
+"trace":{"path":"traces/upstash/context7-mcp/find-docs/b5e81de845092694ba1bfc5af15400f319c89b6d/trace-3+judge-7.json","sha256":"d3d11c26dbda546f311b402526ccf446e1f54c3d3fe7fecc54531b72b131b4ad"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7881,"own":{"files":1,"bytes":7881},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ctx7"],"package":["ctx7"],"mcp-server":[],"credential":["CONTEXT7_API_KEY"],"network":[]},"summary":"1 file, 7.7 KiB · CLI ctx7 · packages ctx7 · 1 key","short":"7.7 KiB · 1 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs ctx7"]},{"marker":"installs-packages","because":["installs ctx7"]},{"marker":"credentials","because":["needs CONTEXT7_API_KEY"]},{"marker":"unpinned-code","because":["install @latest: skills/find-docs/SKILL.md:34","npx ctx7@latest: skills/find-docs/SKILL.md:24, skills/find-docs/SKILL.md:27, skills/find-docs/SKILL.md:28"]}],
+"security":{"fetch-run":["install @latest @ skills/find-docs/SKILL.md:34","npx ctx7@latest @ skills/find-docs/SKILL.md:24, skills/find-docs/SKILL.md:27, skills/find-docs/SKILL.md:28 +14"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"elevenlabs/packages/elevenlabssdk-migration",
+"source":"elevenlabs/packages",
+"revision":"93991e27a52bcd241c5d2fcb0cb4f23e4c24c2d0",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named elevenlabssdk-migration at 93991e27a52bcd241c5d2fcb0cb4f23e4c24c2d0",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

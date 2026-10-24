@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-mgmt-botservice-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-mgmt-botservice-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"7477ed57f8d7371b239a099393e7f363db5bf86dcc8cf86cfba863d7598e544b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10332,"own":{"files":1,"bytes":10332},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.ResourceManager.BotService","Microsoft.Bot.Builder","Microsoft.Bot.Builder.Integration.AspNet.Core"],"mcp-server":[],"credential":["AZURE_CLIENT_SECRET","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 10 KiB · CLI dotnet · packages Azure.Identity +3 · 2 keys","short":"10 KiB · 1 CLI · 4 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.ResourceManager.BotService","installs Microsoft.Bot.Builder","installs Microsoft.Bot.Builder.Integration.AspNet.Core"]},{"marker":"credentials","because":["needs AZURE_CLIENT_SECRET","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openai-skills/security-threat-model",
+"revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+"trace":{"path":"traces/firecrawl/openai-skills/security-threat-model/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc/trace-3+judge-7.json","sha256":"2e274118d8334d9932ed5b52a0b3f9556d118e9a27c808c55d18d345092a81db"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":19883,"own":{"files":3,"bytes":19883},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 19 KiB","short":"19 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

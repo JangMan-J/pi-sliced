@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/java-add-graalvm-native-image-support",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/java-add-graalvm-native-image-support/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"3bcd257ebf4a221a33beb444706b64566da84a4f2d9a2f104221c43d89363035"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12909,"own":{"files":1,"bytes":12909},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["java","mvn"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB · CLI java, mvn","short":"13 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs java","runs mvn"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

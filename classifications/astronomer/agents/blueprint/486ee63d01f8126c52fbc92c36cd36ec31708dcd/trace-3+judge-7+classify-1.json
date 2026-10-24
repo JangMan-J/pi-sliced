@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/blueprint",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/blueprint/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"205278ec3c43699477081e020479832425d09e6e0466eed9e4f68e44b771fb2f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":33735,"own":{"files":1,"bytes":33735},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["af","airflow-blueprint"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 33 KiB · CLI af, airflow-blueprint","short":"33 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs af","runs airflow-blueprint"]},{"marker":"unpinned-code","because":["uvx airflow-blueprint: skills/blueprint/SKILL.md:534, skills/blueprint/SKILL.md:550, skills/blueprint/SKILL.md:646"]}],
+"security":{"fetch-run":["uvx airflow-blueprint @ skills/blueprint/SKILL.md:534, skills/blueprint/SKILL.md:550, skills/blueprint/SKILL.md:646"]},
+"companions":{"named":[{"name":"airflow","path":"skills/airflow"},{"name":"authoring-dags","path":"skills/authoring-dags"},{"name":"dag-factory","path":"skills/dag-factory"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/mobilebuildmcp/mobilebuildmcp-cli",
+"revision":"d13ff0c707b0681769cf31da0eb42c4f94ceafff",
+"trace":{"path":"traces/getsentry/mobilebuildmcp/mobilebuildmcp-cli/d13ff0c707b0681769cf31da0eb42c4f94ceafff/trace-3+judge-7.json","sha256":"66cd9c2c5fedc6472ab7d63bfc9ef78a97cd64982afe0820b8cede1dad0e5a8e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1671,"own":{"files":1,"bytes":1671},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["mobilebuildmcp"],"package":["mobilebuildmcp"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.6 KiB · CLI mobilebuildmcp · packages mobilebuildmcp","short":"1.6 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs mobilebuildmcp"]},{"marker":"installs-packages","because":["installs mobilebuildmcp"]},{"marker":"stub","because":["own folder 1.6 KiB (1 file)","content is the mobilebuildmcp it wraps"]},{"marker":"unpinned-code","because":["install @latest: skills/mobilebuildmcp-cli/SKILL.md:24"]}],
+"security":{"fetch-run":["install @latest @ skills/mobilebuildmcp-cli/SKILL.md:24"]},
+"companions":{"named":[{"name":"mobilebuildmcp","path":"skills/mobilebuildmcp"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

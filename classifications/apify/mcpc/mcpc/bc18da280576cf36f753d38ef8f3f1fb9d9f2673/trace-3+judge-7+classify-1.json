@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/mcpc/mcpc",
+"revision":"bc18da280576cf36f753d38ef8f3f1fb9d9f2673",
+"trace":{"path":"traces/apify/mcpc/mcpc/bc18da280576cf36f753d38ef8f3f1fb9d9f2673/trace-3+judge-7.json","sha256":"c2f7d1c13e35fcc72d0917ef8ba99441fe9514e9ef0c283688079e0d54babcc9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14598,"own":{"files":1,"bytes":14598},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@apify/mcpc","jq","mcpc"],"package":[],"mcp-server":[],"credential":["GITHUB_TOKEN"],"network":[]},"summary":"1 file, 14 KiB · CLI @apify/mcpc, jq +1 · 1 key","short":"14 KiB · 3 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @apify/mcpc","runs jq","runs mcpc"]},{"marker":"credentials","because":["needs GITHUB_TOKEN"]},{"marker":"unpinned-code","because":["npx @apify/mcpc: skills/mcpc/SKILL.md:20, skills/mcpc/SKILL.md:21","npx @apify/mcpc@latest: skills/mcpc/SKILL.md:17"]}],
+"security":{"fetch-run":["npx @apify/mcpc @ skills/mcpc/SKILL.md:20, skills/mcpc/SKILL.md:21","npx @apify/mcpc@latest @ skills/mcpc/SKILL.md:17"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/workflow",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/workflow",
+"status":"resolved",
+"totals":{"files":1,"bytes":27514},
+"files":[
+{"path":"plugins/vercel/skills/workflow/SKILL.md","size":27514,"blob":"b1ac772b9250572e2d8d551b85736eafbea46201","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"workflow","at":[[0,765],[0,766],[0,769],[0,770],[0,773],[0,774],[0,777],[0,778],[0,781],[0,782],[0,785],[0,786]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/workflow","files":1,"bytes":27514}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx workflow","at":[[0,765],[0,766],[0,769],[0,770],[0,773],[0,774],[0,777],[0,778],[0,781],[0,782],[0,785],[0,786]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

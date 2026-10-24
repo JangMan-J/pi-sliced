@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/internal-agent-skills/figma-to-ui",
+"revision":"none",
+"trace":{"path":"traces/vercel/internal-agent-skills/figma-to-ui/none/trace-3+judge-7.json","sha256":"e3b89c5ac3c60b36579c3e36ecdf658cceb07fc27985f3578a06c1c164b5e19d"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/internal-agent-skills.git/' not found"
+}

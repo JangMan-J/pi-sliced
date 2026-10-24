@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skillspector/markdown-formatter",
+"revision":"d7338f58200a9ae2a24810cee08911ab68b107a7",
+"trace":{"path":"traces/nvidia/skillspector/markdown-formatter/d7338f58200a9ae2a24810cee08911ab68b107a7/trace-3+judge-7.json","sha256":"2328637364173fe9f9d2d1e8095f5aa4137a12a3680441be6c240e55b7c8ada1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":315,"own":{"files":1,"bytes":315},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 315 B","short":"315 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

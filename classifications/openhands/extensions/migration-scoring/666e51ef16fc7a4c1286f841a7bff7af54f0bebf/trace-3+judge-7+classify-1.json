@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/migration-scoring",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/migration-scoring/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"aa319b78ab20ce841a90bef916060428991ea17abed76dae6581fb670ba1c631"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":14168,"own":{"files":1,"bytes":3411},"otherSkills":{"count":4,"files":5,"bytes":10757},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["LLM_API_KEY"],"network":[]},"summary":"6 files, 14 KiB · +4 other skills · 1 key","short":"14 KiB · +4 skills · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs LLM_API_KEY"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/migration-scoring/skills/migration-mapping","pulls in 1 file of the skill at plugins/migration-scoring/skills/migration-report","pulls in 2 files of the skill at plugins/migration-scoring/skills/score-quality","pulls in 1 file of the skill at plugins/migration-scoring/skills/score-style"]}],
+"security":{},
+"companions":{"named":[{"name":"migration-mapping","path":"plugins/migration-scoring/skills/migration-mapping"},{"name":"uv","path":"skills/uv"}],"pulled":[{"path":"plugins/migration-scoring/skills/migration-mapping","files":1,"bytes":2284},{"path":"plugins/migration-scoring/skills/migration-report","files":1,"bytes":3089},{"path":"plugins/migration-scoring/skills/score-quality","files":2,"bytes":2499},{"path":"plugins/migration-scoring/skills/score-style","files":1,"bytes":2885}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

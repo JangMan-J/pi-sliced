@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/pdf",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/pdf/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"306f6f9993d51c8ba122e78e8d8b81f93dbd8670982f2945814d6f88caa326a5"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":55116,"own":{"files":10,"bytes":55116},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pdfimages","pdftk","pdftoppm","pdftotext","qpdf"],"package":["extract_form_field_info","pdf2image","pillow","pypdf"],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 54 KiB · CLI pdfimages, pdftk +3 · packages extract_form_field_info +3","short":"54 KiB · 5 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs pdfimages","runs pdftk","runs pdftoppm","runs pdftotext","runs qpdf"]},{"marker":"installs-packages","because":["installs extract_form_field_info","installs pdf2image","installs pillow","installs pypdf"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

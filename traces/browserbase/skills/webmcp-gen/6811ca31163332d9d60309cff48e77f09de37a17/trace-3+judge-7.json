@@ -1,0 +1,37 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"browserbase/skills/webmcp-gen",
+"source":"browserbase/skills",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"skillPath":"skills/webmcp-gen",
+"status":"resolved",
+"totals":{"files":5,"bytes":22330},
+"files":[
+{"path":"skills/webmcp-gen/SKILL.md","size":4440,"blob":"6c657b133d2f5c97e1089fc93d529a86bee79b8f","how":"root"},
+{"path":"skills/webmcp-gen/scripts/compile.mjs","size":5891,"blob":"44bd13aa1fa43c74c131a8a8f0c37d723237e210","how":"path","from":0,"line":65},
+{"path":"skills/webmcp-gen/scripts/generate-stagehand-example.mjs","size":3505,"blob":"64774c32b5d5ce96a67b7999dbc394dd7ea68731","how":"path","from":0,"line":71},
+{"path":"skills/webmcp-gen/scripts/scaffold.mjs","size":3226,"blob":"5341869ab8a681e7762e65daa63cea3090a2272e","how":"path","from":0,"line":44},
+{"path":"skills/webmcp-gen/scripts/validate.mjs","size":5268,"blob":"895487cc1e7717fc64671a88331059da866e7d1e","how":"path","from":0,"line":78}
+],
+"outside":[
+{"kind":"cli","name":"browse","at":[[0,50],[0,51],[0,52],[0,53],[0,54],[0,55]]},
+{"kind":"cli","name":"create-browser-app","at":[[0,136]]},
+{"kind":"cli","name":"tsx","at":[[0,72]]},
+{"kind":"package","name":"@browserbasehq/stagehand","at":[[2,35],[4,4]]},
+{"kind":"package","name":"browse","at":[[0,4]]}
+],
+"regions":[
+{"kind":"own","path":"skills/webmcp-gen","files":5,"bytes":22330}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-browser-app","at":[[0,136]]},
+{"kind":"fetch-run","detail":"npx tsx","at":[[0,72]]}
+],
+"namedSkills":[
+{"name":"fetch","path":"skills/fetch","at":[[0,114]]}
+],
+"checkoutReach":[],
+"licence":{"path":"skills/webmcp-gen/LICENSE.txt","spdx":"MIT","frontmatter":"MIT"}
+}

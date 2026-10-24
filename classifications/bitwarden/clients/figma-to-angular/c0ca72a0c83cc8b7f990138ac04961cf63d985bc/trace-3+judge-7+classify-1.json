@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/clients/figma-to-angular",
+"revision":"c0ca72a0c83cc8b7f990138ac04961cf63d985bc",
+"trace":{"path":"traces/bitwarden/clients/figma-to-angular/c0ca72a0c83cc8b7f990138ac04961cf63d985bc/trace-3+judge-7.json","sha256":"8535017a9ae712c2dd5f9835ab309998bf163832d62296aea8e3a264dd873289"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10013,"own":{"files":1,"bytes":10013},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["figma","playwright"],"credential":[],"network":[]},"summary":"1 file, 9.8 KiB · MCP figma, playwright","short":"9.8 KiB · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the figma MCP server","uses the playwright MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-iam-auth-setup",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-iam-auth-setup/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"047d0a71897c9b69fcce138564c3c595a4ae60f293223193c86eaf3003c22777"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9582,"own":{"files":1,"bytes":9582},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["TWILIO_API_KEY","TWILIO_API_SECRET","TWILIO_AUTH_TOKEN","TWILIO_TEST_AUTH_TOKEN"],"network":[]},"summary":"1 file, 9.4 KiB · 4 keys","short":"9.4 KiB · 4 keys"},
+"heavy":{"heavy":true,"because":["4 credentials"]},
+"markers":[{"marker":"credentials","because":["needs TWILIO_API_KEY","needs TWILIO_API_SECRET","needs TWILIO_AUTH_TOKEN","needs TWILIO_TEST_AUTH_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-security-hardening","path":"plugins/twilio-developer-kit/skills/twilio-security-hardening"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

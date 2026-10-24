@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-conversations-classic-api",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-conversations-classic-api/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"bcb0bce3e2db14bd1883c92c95bf4117c441e353fc493b290cf0a8764f14337d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17072,"own":{"files":1,"bytes":17072},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB · packages twilio","short":"17 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-sms-send-message","path":"plugins/twilio-developer-kit/skills/twilio-sms-send-message"},{"name":"twilio-webhook-architecture","path":"plugins/twilio-developer-kit/skills/twilio-webhook-architecture"},{"name":"twilio-whatsapp-send-message","path":"plugins/twilio-developer-kit/skills/twilio-whatsapp-send-message"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

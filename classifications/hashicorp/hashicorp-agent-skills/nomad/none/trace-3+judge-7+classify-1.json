@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/hashicorp-agent-skills/nomad",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/hashicorp-agent-skills/nomad/none/trace-3+judge-7.json","sha256":"a6664e60302a7bb3b84c7cf16083e02729e5aa2275e0325e87dae6efcbc4381b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/hashicorp-agent-skills.git/' not found"
+}

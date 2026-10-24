@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/msbuild-antipatterns",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/msbuild-antipatterns/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"5cae563c8c6829a6c4c9d1db87328b9280dad79dcff6a54cde6a7c1d27f0c7d0"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":41243,"own":{"files":4,"bytes":41243},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 40 KiB","short":"40 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"check-bin-obj-clash","path":"plugins/dotnet-msbuild/skills/check-bin-obj-clash"},{"name":"directory-build-organization","path":"plugins/dotnet-msbuild/skills/directory-build-organization"},{"name":"extension-points","path":"plugins/dotnet-msbuild/skills/extension-points"},{"name":"incremental-build","path":"plugins/dotnet-msbuild/skills/incremental-build"},{"name":"msbuild-modernization","path":"plugins/dotnet-msbuild/skills/msbuild-modernization"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nuxt/ui/nuxt-ui",
+"revision":"bda0b3fb8333a03a4144b4701c889c89d72fdfbc",
+"trace":{"path":"traces/nuxt/ui/nuxt-ui/bda0b3fb8333a03a4144b4701c889c89d72fdfbc/trace-3+judge-7.json","sha256":"6c4d4da4f64db486a9902293a59f8e941cc9db42e1c20537525daae8b26740aa"},
+"status":"resolved",
+"footprint":{"files":15,"bytes":94452,"own":{"files":15,"bytes":94452},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude"],"package":["@ai-sdk/openai","@ai-sdk/vue","@comark/nuxt","@comark/vue","@iconify-json/lucide","@iconify-json/simple-icons","@nuxt/ui","ai","tailwindcss"],"mcp-server":["key","ui"],"credential":[],"network":[]},"summary":"15 files, 92 KiB · MCP key, ui · CLI claude · packages @ai-sdk/openai +8","short":"92 KiB · 1 CLI · 9 pkg · MCP 2"},
+"heavy":{"heavy":true,"because":["9 packages to install","2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs claude"]},{"marker":"installs-packages","because":["installs @ai-sdk/openai","installs @ai-sdk/vue","installs @comark/nuxt","installs @comark/vue","installs @iconify-json/lucide","installs @iconify-json/simple-icons","installs @nuxt/ui","installs ai","installs tailwindcss"]},{"marker":"mcp-server","because":["uses the key MCP server","uses the ui MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

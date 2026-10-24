@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/notion-cookbook/notion-spec-to-implementation",
+"revision":"8a038e30575514da33329d8d215a9357c01c08ca",
+"trace":{"path":"traces/makenotion/notion-cookbook/notion-spec-to-implementation/8a038e30575514da33329d8d215a9357c01c08ca/trace-3+judge-7.json","sha256":"90e824a5833f02c0057b45fe3e78d3dacdcf7e194ea3f64e1cc8eccbb0dc6584"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":54131,"own":{"files":12,"bytes":54131},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 53 KiB","short":"53 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

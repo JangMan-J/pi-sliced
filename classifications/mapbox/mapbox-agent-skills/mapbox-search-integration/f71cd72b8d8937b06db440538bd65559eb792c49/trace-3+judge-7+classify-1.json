@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mapbox-agent-skills/mapbox-search-integration",
+"revision":"f71cd72b8d8937b06db440538bd65559eb792c49",
+"trace":{"path":"traces/mapbox/mapbox-agent-skills/mapbox-search-integration/f71cd72b8d8937b06db440538bd65559eb792c49/trace-3+judge-7.json","sha256":"e6e3e37339236a4adec9ecbc96ef3de99e8444fec2366c6195857ad6ffe69fdd"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":55390,"own":{"files":10,"bytes":55390},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@mapbox/search-js-core","@mapbox/search-js-react"],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 54 KiB · packages @mapbox/search-js-core +1","short":"54 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @mapbox/search-js-core","installs @mapbox/search-js-react"]}],
+"security":{},
+"companions":{"named":[{"name":"mapbox-search-patterns","path":"skills/mapbox-search-patterns"},{"name":"mapbox-token-security","path":"skills/mapbox-token-security"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

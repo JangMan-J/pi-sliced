@@ -1,0 +1,23 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"anthropics/skills/academy-guide",
+"source":"anthropics/skills",
+"revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+"skillPath":"skills/academy-guide",
+"status":"resolved",
+"totals":{"files":2,"bytes":19100},
+"files":[
+{"path":"skills/academy-guide/LICENSE.txt","size":11345,"blob":"4f881c52d1f72f4cfb720e339e2d35c3058d01a9","how":"path","from":1,"line":18},
+{"path":"skills/academy-guide/SKILL.md","size":7755,"blob":"cefeaeb20cc29a803af0335d7c7155b066d8770f","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/academy-guide","files":2,"bytes":19100}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/academy-guide/LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

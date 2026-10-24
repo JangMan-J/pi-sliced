@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/power-platform-skills/list-connections",
+"source":"microsoft/power-platform-skills",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"skillPath":"plugins/code-apps/skills/list-connections",
+"status":"resolved",
+"totals":{"files":1,"bytes":1764},
+"files":[
+{"path":"plugins/code-apps/skills/list-connections/SKILL.md","size":1764,"blob":"91be30d57f2cf22486b09ae4eb71c687213338c0","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"pa","at":[[0,23],[0,26]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/code-apps/skills/list-connections","files":1,"bytes":1764}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx pa","at":[[0,23]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

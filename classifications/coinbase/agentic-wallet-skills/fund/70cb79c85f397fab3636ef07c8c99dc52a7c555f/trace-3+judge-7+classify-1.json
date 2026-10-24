@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/fund",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/fund/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"d9fb7b3b77d78c056d3f9e293bebf32f9903a730c5dbd812a591f93b9ed83cd4"},
+"status":"unresolvable",
+"reason":"no skill folder named fund at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

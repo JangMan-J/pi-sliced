@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/swift-linux",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/swift-linux/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"d299655ceb576426c993cc89a60a18495036eeda900f27e113888a9343e11df9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2637,"own":{"files":1,"bytes":2637},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["swift"],"package":["binutils-gold","gcc","git","libcurl4-openssl-dev","libedit-dev","libicu-dev","libncurses-dev","libpython3-dev","libsqlite3-dev","libxml2-dev","pkg-config","tzdata","uuid-dev"],"mcp-server":[],"credential":[],"network":["download.swift.org","www.swift.org"]},"summary":"1 file, 2.6 KiB · CLI swift · packages binutils-gold +12 · 2 hosts","short":"2.6 KiB · 1 CLI · 13 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["13 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs swift"]},{"marker":"installs-packages","because":["installs binutils-gold","installs gcc","installs git","installs libcurl4-openssl-dev","installs libedit-dev","installs libicu-dev","installs libncurses-dev","installs libpython3-dev","installs libsqlite3-dev","installs libxml2-dev","installs pkg-config","installs tzdata","installs uuid-dev"]},{"marker":"network","because":["fetches from download.swift.org","fetches from www.swift.org"]},{"marker":"stub","because":["own folder 2.6 KiB (1 file)","content is the swift it wraps"]},{"marker":"persistent-writes","because":["writes to a shell rc: skills/swift-linux/SKILL.md:70"]}],
+"security":{"persist-write":["shell rc @ skills/swift-linux/SKILL.md:70"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

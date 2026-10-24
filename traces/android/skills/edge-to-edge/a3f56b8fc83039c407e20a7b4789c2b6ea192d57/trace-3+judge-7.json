@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/edge-to-edge",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"system/edge-to-edge",
+"status":"resolved",
+"totals":{"files":1,"bytes":14433},
+"files":[
+{"path":"system/edge-to-edge/SKILL.md","size":14433,"blob":"77cc0d649c0b41d64527a1c8923d2cbd853fa8e8","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"system/edge-to-edge","files":1,"bytes":14433}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

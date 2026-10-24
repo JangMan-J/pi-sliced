@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-skills/vercel-deploy-claimable",
+"revision":"063bee94c3f4df8453406c830b0a7df0f2860278",
+"trace":{"path":"traces/vercel-labs/agent-skills/vercel-deploy-claimable/063bee94c3f4df8453406c830b0a7df0f2860278/trace-3+judge-7.json","sha256":"436c19e1f470bf80ec7dc6f5df2d399063140c8f5d2e147bf5f758c56943987e"},
+"status":"unresolvable",
+"reason":"no skill folder named vercel-deploy-claimable at 063bee94c3f4df8453406c830b0a7df0f2860278"
+}

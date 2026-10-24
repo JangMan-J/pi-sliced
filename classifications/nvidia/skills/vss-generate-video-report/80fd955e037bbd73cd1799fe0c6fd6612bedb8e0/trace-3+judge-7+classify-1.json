@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/vss-generate-video-report",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/vss-generate-video-report/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"29304163f988cfd4b2ff3e3a677eff3e1fe73becb38ff503422a135d15a1cf2a"},
+"status":"unresolvable",
+"reason":"no skill folder named vss-generate-video-report at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf (the archive had skills/vss-generate-video-report)"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode-cosmosdb/cosmosdb-best-practices",
+"revision":"a6b5edb823ab62c1f60ce4c4e23f24168bd2e735",
+"trace":{"path":"traces/microsoft/vscode-cosmosdb/cosmosdb-best-practices/a6b5edb823ab62c1f60ce4c4e23f24168bd2e735/trace-3+judge-7.json","sha256":"725399a9ed38037d583442db3b598af748a0b7d7b8a24916e99d128bd275e747"},
+"status":"resolved",
+"footprint":{"files":118,"bytes":528335,"own":{"files":118,"bytes":528335},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","dotnet","findstr","java","keytool","localhost","mvn","openssl"],"package":[],"mcp-server":["filter"],"credential":["COSMOS_KEY"],"network":["devblogs.microsoft.com","learn.microsoft.com"]},"summary":"118 files, 516 KiB · MCP filter · CLI az, dotnet +6 · 1 key · 2 hosts","short":"516 KiB · 8 CLI · 1 key · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs dotnet","runs findstr","runs java","runs keytool","runs localhost","runs mvn","runs openssl"]},{"marker":"network","because":["fetches from devblogs.microsoft.com","fetches from learn.microsoft.com"]},{"marker":"credentials","because":["needs COSMOS_KEY"]},{"marker":"mcp-server","because":["uses the filter MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

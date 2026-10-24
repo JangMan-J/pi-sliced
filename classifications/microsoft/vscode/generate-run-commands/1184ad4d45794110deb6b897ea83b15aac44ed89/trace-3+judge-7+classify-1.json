@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/generate-run-commands",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/generate-run-commands/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"9d200929cc1f76c4a082cce777fed343c0f5c70ace7fe148e7996431aa6fe1f5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2381,"own":{"files":1,"bytes":2381},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.3 KiB · CLI cargo","short":"2.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo"]},{"marker":"stub","because":["own folder 2.3 KiB (1 file)","content is the cargo it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

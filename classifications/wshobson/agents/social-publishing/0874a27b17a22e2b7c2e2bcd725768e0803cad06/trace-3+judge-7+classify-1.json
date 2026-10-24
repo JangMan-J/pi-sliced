@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/social-publishing",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/social-publishing/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"dec3afb815c5708306e9c0e12db3bdaae0e6cb312aba6298bafe2ac7d8065923"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3669,"own":{"files":1,"bytes":3669},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":["socialclaw"],"mcp-server":[],"credential":["SOCIALCLAW_API_KEY"],"network":[]},"summary":"1 file, 3.6 KiB · CLI skills · packages socialclaw · 1 key","short":"3.6 KiB · 1 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"installs-packages","because":["installs socialclaw"]},{"marker":"credentials","because":["needs SOCIALCLAW_API_KEY"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","content is the skills it wraps"]},{"marker":"unpinned-code","because":["npx skills: plugins/social-publishing/skills/social-publishing/SKILL.md:48"]}],
+"security":{"fetch-run":["npx skills @ plugins/social-publishing/skills/social-publishing/SKILL.md:48"],"skill-fetch":["npx skills add @ plugins/social-publishing/skills/social-publishing/SKILL.md:48"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

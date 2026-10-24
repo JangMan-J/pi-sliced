@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/isaaccapture/rebot-orin-setup",
+"revision":"32ee7e48498284e048a2d0a70bfbb4662e67d409",
+"trace":{"path":"traces/nvidia/isaaccapture/rebot-orin-setup/32ee7e48498284e048a2d0a70bfbb4662e67d409/trace-3+judge-7.json","sha256":"246f0b4e252078ba88b4ed4a29def8c3302116f03b77e5f4881befa142567ff2"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":15352,"own":{"files":1,"bytes":870},"otherSkills":{"count":1,"files":5,"bytes":14482},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cansend","install","ip","modprobe","systemctl","up"],"package":["can-utils"],"mcp-server":[],"credential":["MOTORBRIDGE_WS_TOKEN"],"network":[]},"summary":"6 files, 15 KiB · +1 other skill · CLI cansend, install +4 · packages can-utils · 1 key","short":"15 KiB · +1 skill · 6 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","6 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs cansend","runs install","runs ip","runs modprobe","runs systemctl","runs up"]},{"marker":"installs-packages","because":["installs can-utils"]},{"marker":"credentials","because":["needs MOTORBRIDGE_WS_TOKEN"]},{"marker":"chain-loads","because":["pulls in 5 files of the skill at examples/rebot"]},{"marker":"stub","because":["own folder 870 B (1 file)","14 KiB outside it"]},{"marker":"persistent-writes","because":["writes to a autostart: examples/rebot/SKILL.md:134, examples/rebot/SKILL.md:135"]}],
+"security":{"persist-write":["autostart @ examples/rebot/SKILL.md:134, examples/rebot/SKILL.md:135"]},
+"companions":{"named":[],"pulled":[{"path":"examples/rebot","files":5,"bytes":14482}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/firecrawl-claude-skills/firecrawl-api",
+"revision":"none",
+"trace":{"path":"traces/firecrawl/firecrawl-claude-skills/firecrawl-api/none/trace-3+judge-7.json","sha256":"a65042c2c14f0f11bd9f5ff13b6ade7b5f28b446fe22be4c995c03bf1410cf1f"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/firecrawl/firecrawl-claude-skills.git/' not found"
+}

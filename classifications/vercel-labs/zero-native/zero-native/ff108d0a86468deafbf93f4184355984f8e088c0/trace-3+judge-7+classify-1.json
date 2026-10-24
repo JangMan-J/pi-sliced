@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/zero-native/zero-native",
+"revision":"ff108d0a86468deafbf93f4184355984f8e088c0",
+"trace":{"path":"traces/vercel-labs/zero-native/zero-native/ff108d0a86468deafbf93f4184355984f8e088c0/trace-3+judge-7.json","sha256":"d1508c465c50151090c2f25138eb9eddcaabf792fb8c836a97a1ac5ec04863c2"},
+"status":"unresolvable",
+"reason":"no skill folder named zero-native at ff108d0a86468deafbf93f4184355984f8e088c0"
+}

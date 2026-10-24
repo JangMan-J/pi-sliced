@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browser-use/browser-use/browser-use",
+"revision":"aa093a843da5edbf323c0b4145c9b6a0db3ecde8",
+"trace":{"path":"traces/browser-use/browser-use/browser-use/aa093a843da5edbf323c0b4145c9b6a0db3ecde8/trace-3+judge-7.json","sha256":"b347b5ce60efa22971c6f9ebe08fc4f6e116122949fd8436b22b5570371fb166"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14721,"own":{"files":1,"bytes":14721},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["browser-use","example.com","new_tab","page_info","print","r7k2","recordings","start_remote_daemon"],"package":[],"mcp-server":[],"credential":["BROWSER_USE_API_KEY"],"network":["github.com"]},"summary":"1 file, 14 KiB · CLI browser-use, example.com +6 · 1 key · 1 host","short":"14 KiB · 8 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs browser-use","runs example.com","runs new_tab","runs page_info","runs print","runs r7k2","runs recordings","runs start_remote_daemon"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs BROWSER_USE_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

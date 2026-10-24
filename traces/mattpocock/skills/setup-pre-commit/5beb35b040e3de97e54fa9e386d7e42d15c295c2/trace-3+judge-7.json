@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"mattpocock/skills/setup-pre-commit",
+"source":"mattpocock/skills",
+"revision":"5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+"skillPath":"skills/misc/setup-pre-commit",
+"status":"resolved",
+"totals":{"files":1,"bytes":2258},
+"files":[
+{"path":"skills/misc/setup-pre-commit/SKILL.md","size":2258,"blob":"1b9708168263067adb4684d06ebb8f4ccfe9682c","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"husky","at":[[0,32]]},
+{"kind":"cli","name":"lint-staged","at":[[0,79]]}
+],
+"regions":[
+{"kind":"own","path":"skills/misc/setup-pre-commit","files":1,"bytes":2258}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx husky","at":[[0,32]]},
+{"kind":"fetch-run","detail":"npx lint-staged","at":[[0,79]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

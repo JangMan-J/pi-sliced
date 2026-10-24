@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/finding-experiments",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/finding-experiments/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"3c64a5db053576f33f54809078e9e24c401bce9e7c0a7065e16811e79ac35a01"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3311,"own":{"files":1,"bytes":3311},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["posthog-local"],"credential":[],"network":[]},"summary":"1 file, 3.2 KiB · MCP posthog-local","short":"3.2 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the posthog-local MCP server"]},{"marker":"stub","because":["own folder 3.2 KiB (1 file)","content is the posthog-local it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"diagnosing-experiment-health","path":"skills/diagnosing-experiment-health"},{"name":"managing-experiment-lifecycle","path":"skills/managing-experiment-lifecycle"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

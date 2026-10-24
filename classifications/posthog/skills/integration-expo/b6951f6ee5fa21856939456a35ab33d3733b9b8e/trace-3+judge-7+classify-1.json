@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-expo",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-expo/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"86216210a129f761e39518af6cce02cd984ed852c0517e3e1f2bbcccb354a9fe"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":99718,"own":{"files":8,"bytes":99718},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["eas","expo"],"package":["@react-native-async-storage/async-storage","eas-cli","posthog-react-native","react-native-device-info","react-native-localize"],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 97 KiB · CLI eas, expo · packages @react-native-async-storage/async-storage +4","short":"97 KiB · 2 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs eas","runs expo"]},{"marker":"installs-packages","because":["installs @react-native-async-storage/async-storage","installs eas-cli","installs posthog-react-native","installs react-native-device-info","installs react-native-localize"]},{"marker":"unpinned-code","because":["npx expo: skills/posthog/integration/skills/expo/references/EXAMPLE.md:92, skills/posthog/integration/skills/expo/references/EXAMPLE.md:99, skills/posthog/integration/skills/expo/references/EXAMPLE.md:102"]}],
+"security":{"fetch-run":["npx expo @ skills/posthog/integration/skills/expo/references/EXAMPLE.md:92, skills/posthog/integration/skills/expo/references/EXAMPLE.md:99, skills/posthog/integration/skills/expo/references/EXAMPLE.md:102 +2"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

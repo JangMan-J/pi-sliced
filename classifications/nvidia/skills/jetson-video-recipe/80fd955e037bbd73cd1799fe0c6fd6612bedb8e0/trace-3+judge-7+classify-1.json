@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/jetson-video-recipe",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/jetson-video-recipe/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"c479a0a207b17015ac5543826acc689573a8eccf53049cac99b36e31225b43b5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":23397,"own":{"files":3,"bytes":23397},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 23 KiB","short":"23 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"jetson-video-benchmark","path":"skills/jetson-video-benchmark"},{"name":"jetson-video-capability","path":"skills/jetson-video-capability"},{"name":"jetson-video-pipeline","path":"skills/jetson-video-pipeline"},{"name":"jetson-video-setup","path":"skills/jetson-video-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

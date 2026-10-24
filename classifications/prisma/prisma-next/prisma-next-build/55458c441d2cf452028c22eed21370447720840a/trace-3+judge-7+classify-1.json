@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/prisma-next/prisma-next-build",
+"revision":"55458c441d2cf452028c22eed21370447720840a",
+"trace":{"path":"traces/prisma/prisma-next/prisma-next-build/55458c441d2cf452028c22eed21370447720840a/trace-3+judge-7.json","sha256":"e374027f8ee875529916001b0f32851ca0fc7bff8f9401100e661f358cb95771"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10052,"own":{"files":1,"bytes":10052},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tsx","vite"],"package":["@prisma-next/vite-plugin-contract-emit"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.8 KiB · CLI tsx, vite · packages @prisma-next/vite-plugin-contract-emit","short":"9.8 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs tsx","runs vite"]},{"marker":"installs-packages","because":["installs @prisma-next/vite-plugin-contract-emit"]}],
+"security":{},
+"companions":{"named":[{"name":"prisma-next-debug","path":"skills/prisma-next-debug"},{"name":"prisma-next-feedback","path":"skills/prisma-next-feedback"},{"name":"prisma-next-runtime","path":"skills/prisma-next-runtime"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

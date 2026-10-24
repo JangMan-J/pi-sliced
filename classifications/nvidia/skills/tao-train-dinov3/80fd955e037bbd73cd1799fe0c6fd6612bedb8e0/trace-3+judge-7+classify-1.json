@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-train-dinov3",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-train-dinov3/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"15a427a4bdd45945f7cff4a3b941007587a601cc47077d8ef4146e63109ef649"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":262239,"own":{"files":13,"bytes":262239},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"13 files, 256 KiB · CLI docker","short":"256 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-run-dinov3-ssl-deft","path":"skills/tao-run-dinov3-ssl-deft"},{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

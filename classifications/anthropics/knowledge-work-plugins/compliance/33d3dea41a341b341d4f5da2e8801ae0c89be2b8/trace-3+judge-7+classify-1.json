@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/compliance",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/compliance/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"fb69dd47df1c3a1003893b4d36d495269cdc1576d519a10f8bb885e7e5c07b17"},
+"status":"unresolvable",
+"reason":"no skill folder named compliance at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

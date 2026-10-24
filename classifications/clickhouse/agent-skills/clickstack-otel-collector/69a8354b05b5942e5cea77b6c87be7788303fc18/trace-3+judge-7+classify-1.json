@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/agent-skills/clickstack-otel-collector",
+"revision":"69a8354b05b5942e5cea77b6c87be7788303fc18",
+"trace":{"path":"traces/clickhouse/agent-skills/clickstack-otel-collector/69a8354b05b5942e5cea77b6c87be7788303fc18/trace-3+judge-7.json","sha256":"6c296d229449959d97d9f45c61e24ae09faca9b0fa3d974f7e66837c65c92c4d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":39456,"own":{"files":1,"bytes":39456},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["clickhousectl","docker","jq","openssl","otel_metrics_summary","rows"],"package":[],"mcp-server":[],"credential":["CLICKHOUSE_CLOUD_API_KEY","CLICKHOUSE_CLOUD_API_SECRET","CLICKHOUSE_PASSWORD","OTLP_AUTH_TOKEN"],"network":["clickhouse.com","console.clickhouse.cloud"]},"summary":"1 file, 39 KiB · CLI clickhousectl, docker +4 · 4 keys · 2 hosts","short":"39 KiB · 6 CLI · 4 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["6 CLIs","4 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs clickhousectl","runs docker","runs jq","runs openssl","runs otel_metrics_summary","runs rows"]},{"marker":"network","because":["fetches from clickhouse.com","fetches from console.clickhouse.cloud"]},{"marker":"credentials","because":["needs CLICKHOUSE_CLOUD_API_KEY","needs CLICKHOUSE_CLOUD_API_SECRET","needs CLICKHOUSE_PASSWORD","needs OTLP_AUTH_TOKEN"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/clickstack-otel-collector/SKILL.md:201"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/clickstack-otel-collector/SKILL.md:201"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

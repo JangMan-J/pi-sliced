@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-skills/azure-ai-evaluation-py",
+"revision":"2130750147dee0311215099ddf36647ba1e0f006",
+"trace":{"path":"traces/microsoft/agent-skills/azure-ai-evaluation-py/2130750147dee0311215099ddf36647ba1e0f006/trace-3+judge-7.json","sha256":"57fc8907d3350018172e4d5316c083548b9e4877379f6ba7d9aed7136696d4fb"},
+"status":"unresolvable",
+"reason":"no skill folder named azure-ai-evaluation-py at 2130750147dee0311215099ddf36647ba1e0f006"
+}

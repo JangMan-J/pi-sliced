@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/phoenix-observability",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/phoenix-observability/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"65ca7eb6d0a7c1ade91df4e07c26c8013dae09f6c47f2bb705cf2e19064ad332"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":37687,"own":{"files":3,"bytes":37687},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","from","lsof","phoenix","psql"],"package":["arize-phoenix","arize-phoenix-client","arize-phoenix-evals","arize-phoenix-otel","opentelemetry-api","opentelemetry-sdk"],"mcp-server":[],"credential":["PHOENIX_ADMIN_SECRET","PHOENIX_SECRET"],"network":[]},"summary":"3 files, 37 KiB · CLI docker, from +3 · packages arize-phoenix +5 · 2 keys","short":"37 KiB · 5 CLI · 6 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["6 packages to install","5 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs from","runs lsof","runs phoenix","runs psql"]},{"marker":"installs-packages","because":["installs arize-phoenix","installs arize-phoenix-client","installs arize-phoenix-evals","installs arize-phoenix-otel","installs opentelemetry-api","installs opentelemetry-sdk"]},{"marker":"credentials","because":["needs PHOENIX_ADMIN_SECRET","needs PHOENIX_SECRET"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

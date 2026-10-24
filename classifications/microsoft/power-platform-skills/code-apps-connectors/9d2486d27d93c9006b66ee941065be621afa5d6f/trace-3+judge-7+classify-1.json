@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/code-apps-connectors",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/code-apps-connectors/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"64464b38ca657e2f22bbd68c6955b3eefd2c80210b9a7d33742b40a1f54f0a5a"},
+"status":"unresolvable",
+"reason":"no skill folder named code-apps-connectors at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

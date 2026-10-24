@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/dotnet-pinvoke",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/dotnet-pinvoke/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"f0bdcf88ccc370c435fb7d309772466687f300b61d48233a57a374bb581fd5f5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":26412,"own":{"files":3,"bytes":26412},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Microsoft.Windows.CsWin32"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 26 KiB · CLI dotnet · packages Microsoft.Windows.CsWin32","short":"26 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Microsoft.Windows.CsWin32"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

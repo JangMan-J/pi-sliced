@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-productionize",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-productionize/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"89ad7acfa22e77a14df0ebfda72013e7038d3f67aea496cd977708a9a184650d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9743,"own":{"files":2,"bytes":9743},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.5 KiB · CLI gcloud","short":"9.5 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-app-onboarding","path":"skills/cloud/gke-app-onboarding"},{"name":"gke-backup-dr","path":"skills/cloud/gke-backup-dr"},{"name":"gke-cost-optimization","path":"skills/cloud/gke-cost-optimization"},{"name":"gke-golden-path","path":"skills/cloud/gke-golden-path"},{"name":"gke-observability","path":"skills/cloud/gke-observability"},{"name":"gke-platform-security","path":"skills/cloud/gke-platform-security"},{"name":"gke-reliability","path":"skills/cloud/gke-reliability"},{"name":"gke-service-networking","path":"skills/cloud/gke-service-networking"},{"name":"gke-upgrades","path":"skills/cloud/gke-upgrades"},{"name":"gke-workload-scaling","path":"skills/cloud/gke-workload-scaling"},{"name":"gke-workload-security","path":"skills/cloud/gke-workload-security"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

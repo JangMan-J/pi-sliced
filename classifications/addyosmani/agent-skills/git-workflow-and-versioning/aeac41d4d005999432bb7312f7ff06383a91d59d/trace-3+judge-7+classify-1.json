@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"addyosmani/agent-skills/git-workflow-and-versioning",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"trace":{"path":"traces/addyosmani/agent-skills/git-workflow-and-versioning/aeac41d4d005999432bb7312f7ff06383a91d59d/trace-3+judge-7.json","sha256":"403ec6737f442b5d49021bcff9e9ec57c95dfa5e237fb43ee18f481295afae59"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14141,"own":{"files":1,"bytes":14141},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tsc"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI tsc","short":"14 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tsc"]},{"marker":"unpinned-code","because":["npx tsc: skills/git-workflow-and-versioning/SKILL.md:229"]}],
+"security":{"fetch-run":["npx tsc @ skills/git-workflow-and-versioning/SKILL.md:229"]},
+"companions":{"named":[{"name":"api-and-interface-design","path":"skills/api-and-interface-design"},{"name":"code-review-and-quality","path":"skills/code-review-and-quality"},{"name":"deprecation-and-migration","path":"skills/deprecation-and-migration"},{"name":"shipping-and-launch","path":"skills/shipping-and-launch"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

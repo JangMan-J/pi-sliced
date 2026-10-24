@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/cuopt-numerical-optimization-api-python",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/cuopt-numerical-optimization-api-python/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"1fee954748e194ea333de2547ae68e055461b98d48545be9b2c263e39e593ca4"},
+"status":"unresolvable",
+"reason":"no skill folder named cuopt-numerical-optimization-api-python at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

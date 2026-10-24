@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/skills/fetch",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"trace":{"path":"traces/browserbase/skills/fetch/6811ca31163332d9d60309cff48e77f09de37a17/trace-3+judge-7.json","sha256":"e103af9a23c875f99851a7b00ad9d6fe830350e4e7486bba1bb3454f7967d8a6"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":14995,"own":{"files":3,"bytes":14995},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":["@browserbasehq/sdk","browserbase"],"mcp-server":[],"credential":["BROWSERBASE_API_KEY"],"network":["api.browserbase.com","target-site.com"]},"summary":"3 files, 15 KiB · CLI jq · packages @browserbasehq/sdk +1 · 1 key · 2 hosts","short":"15 KiB · 1 CLI · 2 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"installs-packages","because":["installs @browserbasehq/sdk","installs browserbase"]},{"marker":"network","because":["fetches from api.browserbase.com","fetches from target-site.com"]},{"marker":"credentials","because":["needs BROWSERBASE_API_KEY"]},{"marker":"sends-credentials","because":["BROWSERBASE_API_KEY -> api.browserbase.com: skills/fetch/EXAMPLES.md:16, skills/fetch/EXAMPLES.md:45, skills/fetch/EXAMPLES.md:70","BROWSERBASE_API_KEY -> target-site.com: skills/fetch/EXAMPLES.md:70"]}],
+"security":{"secret-egress":["BROWSERBASE_API_KEY -> api.browserbase.com @ skills/fetch/EXAMPLES.md:16, skills/fetch/EXAMPLES.md:45, skills/fetch/EXAMPLES.md:70 +7","BROWSERBASE_API_KEY -> target-site.com @ skills/fetch/EXAMPLES.md:70"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

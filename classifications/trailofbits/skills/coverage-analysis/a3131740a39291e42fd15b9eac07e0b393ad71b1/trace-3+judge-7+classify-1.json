@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/coverage-analysis",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/coverage-analysis/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"176d94b1fd93017788edc1056e3c209891d5e71a23d490054d34c4c142a529db"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":21004,"own":{"files":1,"bytes":21004},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["afl-gcc","cargo","clang","clang++","cmake","g++","gcovr","llvm-cov","llvm-profdata","rustc","rustup"],"package":["cargo-binutils","rustfilt"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 21 KiB · CLI afl-gcc, cargo +9 · packages cargo-binutils +1","short":"21 KiB · 11 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","11 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs afl-gcc","runs cargo","runs clang","runs clang++","runs cmake","runs g++","runs gcovr","runs llvm-cov","runs llvm-profdata","runs rustc","runs rustup"]},{"marker":"installs-packages","because":["installs cargo-binutils","installs rustfilt"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

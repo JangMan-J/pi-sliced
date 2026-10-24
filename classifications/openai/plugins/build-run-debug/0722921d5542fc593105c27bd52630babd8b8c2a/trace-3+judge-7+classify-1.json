@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/build-run-debug",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/build-run-debug/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"c973dbf20023872a16a492819171562c18f355b163b48bee8966d52292095fbe"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12682,"own":{"files":2,"bytes":12682},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["lldb","log","open","pgrep","pkill","plist","swift","xcodebuild"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB · CLI lldb, log +6","short":"12 KiB · 8 CLI"},
+"heavy":{"heavy":true,"because":["8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs lldb","runs log","runs open","runs pgrep","runs pkill","runs plist","runs swift","runs xcodebuild"]}],
+"security":{},
+"companions":{"named":[{"name":"telemetry","path":"plugins/build-macos-apps/skills/telemetry"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

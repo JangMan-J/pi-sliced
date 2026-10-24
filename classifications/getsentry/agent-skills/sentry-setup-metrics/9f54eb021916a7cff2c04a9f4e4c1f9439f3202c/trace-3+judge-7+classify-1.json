@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/agent-skills/sentry-setup-metrics",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/agent-skills/sentry-setup-metrics/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"26c4ee6d2892996a56b9e1d7ab1e06cdb5b76acdc6a8dfb53e16f2ec58f118cc"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-setup-metrics at 9f54eb021916a7cff2c04a9f4e4c1f9439f3202c"
+}

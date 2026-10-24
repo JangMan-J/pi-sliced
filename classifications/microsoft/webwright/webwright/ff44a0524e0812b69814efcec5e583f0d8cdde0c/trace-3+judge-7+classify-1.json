@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/webwright/webwright",
+"revision":"ff44a0524e0812b69814efcec5e583f0d8cdde0c",
+"trace":{"path":"traces/microsoft/webwright/webwright/ff44a0524e0812b69814efcec5e583f0d8cdde0c/trace-3+judge-7.json","sha256":"5e1f7af5f842edc81c21adc30b3cb5a3acf7ae6df4b59d90daca2c6a97ef9876"},
+"status":"unresolvable",
+"reason":"no skill folder named webwright at ff44a0524e0812b69814efcec5e583f0d8cdde0c"
+}

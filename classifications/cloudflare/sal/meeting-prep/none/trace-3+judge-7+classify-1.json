@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/meeting-prep",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/meeting-prep/none/trace-3+judge-7.json","sha256":"b09450bc1bf449a5c5ff6e22f1ae7fcd260da20fc6dd076a8585c27523ef7ff5"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

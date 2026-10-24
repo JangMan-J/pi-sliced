@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/configure-auth",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/configure-auth/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"2a46cfd465c89fe213fd6451a1e1c7f8851e8eef45f029b6e7c7980aa7aade1e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7151,"own":{"files":1,"bytes":7151},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.0 KiB","short":"7.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/clickhouse/perf-report",
+"revision":"310191b4f92c1e524a49a512ebd3dde020247960",
+"trace":{"path":"traces/clickhouse/clickhouse/perf-report/310191b4f92c1e524a49a512ebd3dde020247960/trace-3+judge-7.json","sha256":"80a0c837267a96b370ba026710e87fcca2011f2c472944e46374341c932f0aa9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10624,"own":{"files":1,"bytes":10624},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["array_sort","clickhouse","countIf","norm_distance","replaceRegexpOne"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB · CLI array_sort, clickhouse +3","short":"10 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs array_sort","runs clickhouse","runs countIf","runs norm_distance","runs replaceRegexpOne"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

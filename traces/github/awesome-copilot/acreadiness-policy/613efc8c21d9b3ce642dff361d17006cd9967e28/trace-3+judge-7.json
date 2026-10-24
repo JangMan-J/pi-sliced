@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"github/awesome-copilot/acreadiness-policy",
+"source":"github/awesome-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"skillPath":"skills/acreadiness-policy",
+"status":"resolved",
+"totals":{"files":1,"bytes":3788},
+"files":[
+{"path":"skills/acreadiness-policy/SKILL.md","size":3788,"blob":"ba2476200d292552f1d859a9ba51da0b37b1c926","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"agentrc","at":[[0,74]]},
+{"kind":"cli","name":"github:microsoft/agentrc","at":[[0,76]]}
+],
+"regions":[
+{"kind":"own","path":"skills/acreadiness-policy","files":1,"bytes":3788}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx github:microsoft/agentrc","at":[[0,76]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

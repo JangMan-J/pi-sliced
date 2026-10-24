@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-copilot-studio/best-practices",
+"revision":"fd9653d0ec743b39443596d7132f907d0d993f1f",
+"trace":{"path":"traces/microsoft/skills-for-copilot-studio/best-practices/fd9653d0ec743b39443596d7132f907d0d993f1f/trace-3+judge-7.json","sha256":"7ce15e29fd1c501ae29ca53e715d24acbd58b96b2d338a82a0b9f93abfbbf5dd"},
+"status":"unresolvable",
+"reason":"no skill folder named best-practices at fd9653d0ec743b39443596d7132f907d0d993f1f"
+}

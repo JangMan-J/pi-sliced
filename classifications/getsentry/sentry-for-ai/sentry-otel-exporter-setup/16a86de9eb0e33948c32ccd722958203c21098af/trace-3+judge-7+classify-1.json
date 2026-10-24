@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-ai/sentry-otel-exporter-setup",
+"revision":"16a86de9eb0e33948c32ccd722958203c21098af",
+"trace":{"path":"traces/getsentry/sentry-for-ai/sentry-otel-exporter-setup/16a86de9eb0e33948c32ccd722958203c21098af/trace-3+judge-7.json","sha256":"a29b4622ebd032afe77a8f9ff84b391624ed5e753cedcfcdbc23ea2e4f07e471"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17523,"own":{"files":1,"bytes":17523},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bundle","docker","validate"],"package":["@opentelemetry/api","@opentelemetry/sdk-trace-base","@opentelemetry/sdk-trace-node","@sentry/node-core"],"mcp-server":[],"credential":["SENTRY_AUTH_TOKEN"],"network":["api.github.com","github.com"]},"summary":"1 file, 17 KiB · CLI bundle, docker +1 · packages @opentelemetry/api +3 · 1 key · 2 hosts","short":"17 KiB · 3 CLI · 4 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs bundle","runs docker","runs validate"]},{"marker":"installs-packages","because":["installs @opentelemetry/api","installs @opentelemetry/sdk-trace-base","installs @opentelemetry/sdk-trace-node","installs @sentry/node-core"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com"]},{"marker":"credentials","because":["needs SENTRY_AUTH_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

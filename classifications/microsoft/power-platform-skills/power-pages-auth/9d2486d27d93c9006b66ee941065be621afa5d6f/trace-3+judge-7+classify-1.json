@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/power-pages-auth",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/power-pages-auth/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"ce634b38e92d5bff173372464682d4d4fb45849920aa227b1d2363b4657b023b"},
+"status":"unresolvable",
+"reason":"no skill folder named power-pages-auth at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

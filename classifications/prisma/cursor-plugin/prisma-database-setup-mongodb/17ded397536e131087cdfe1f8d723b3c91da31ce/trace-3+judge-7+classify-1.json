@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-database-setup-mongodb",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-database-setup-mongodb/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"ca08a83139281e39f6596ec5a0427f4abc40cdf3e5bbe24ab9c07aa3e0e80ba1"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-database-setup-mongodb at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

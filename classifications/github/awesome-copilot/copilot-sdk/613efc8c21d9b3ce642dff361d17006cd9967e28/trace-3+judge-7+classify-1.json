@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/copilot-sdk",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/copilot-sdk/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"84aaf042fff51ec17d28360147252c9fe9c26e6f11a3379dca09e3fcb52b96ad"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":25060,"own":{"files":1,"bytes":25060},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["copilot","dotnet","go","tsx"],"package":["@github/copilot-sdk","GitHub.Copilot.SDK","github-copilot-sdk","github.com/github/copilot-sdk/go","tsx"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 24 KiB · CLI copilot, dotnet +2 · packages @github/copilot-sdk +4","short":"24 KiB · 4 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs copilot","runs dotnet","runs go","runs tsx"]},{"marker":"installs-packages","because":["installs @github/copilot-sdk","installs github-copilot-sdk","installs github.com/github/copilot-sdk/go","installs GitHub.Copilot.SDK","installs tsx"]},{"marker":"unpinned-code","because":["npx tsx: skills/copilot-sdk/SKILL.md:73"]}],
+"security":{"fetch-run":["npx tsx @ skills/copilot-sdk/SKILL.md:73"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

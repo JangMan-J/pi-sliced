@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-cli/pirate-skill",
+"revision":"cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005",
+"trace":{"path":"traces/google-gemini/gemini-cli/pirate-skill/cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005/trace-3+judge-7.json","sha256":"c40b2904a859975fcc12dc684aeffb4f6fcd4441bb5a06d5263dd7239dc14adf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":140,"own":{"files":1,"bytes":140},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 140 B","short":"140 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

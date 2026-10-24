@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/audit-permissions",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/audit-permissions/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"4669a91b19771a9cec263b971cc1d97ba0e156c64521bb9611cc504e6752f1c7"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":85287,"own":{"files":4,"bytes":85287},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pac"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 83 KiB · CLI pac","short":"83 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pac"]},{"marker":"agent-override-text","because":["\"do not tell the user\": plugins/power-pages/skills/audit-permissions/SKILL.md:619"]}],
+"security":{"injection":["do not tell the user @ plugins/power-pages/skills/audit-permissions/SKILL.md:619"]},
+"companions":{"named":[{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"},{"name":"integrate-webapi","path":"plugins/power-pages/skills/integrate-webapi"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

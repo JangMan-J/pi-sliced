@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/next-upgrade",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/next-upgrade/none/trace-3+judge-7.json","sha256":"5509b5d526f80ce7753c37d8fa77c1d7e1b092e37279806285110bde59f84d49"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

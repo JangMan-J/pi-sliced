@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/dev3000/d3k",
+"revision":"c422348707c7082ee87e2d362b6e52da9027ea21",
+"trace":{"path":"traces/vercel-labs/dev3000/d3k/c422348707c7082ee87e2d362b6e52da9027ea21/trace-3+judge-7.json","sha256":"e797e6fda9660d6ddc366f96e8259c2661efbbc5a439b20291f43c1555a7cad7"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":5164,"own":{"files":2,"bytes":5164},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["runtime"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 5.0 KiB · CLI runtime","short":"5.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs runtime"]},{"marker":"checkout-scripts","because":["code reaches src/runtime/cli.ts (1 files) in the repository checkout"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":1,"targets":["src/runtime/cli.ts"],"files":1,"bytes":3629}
+}

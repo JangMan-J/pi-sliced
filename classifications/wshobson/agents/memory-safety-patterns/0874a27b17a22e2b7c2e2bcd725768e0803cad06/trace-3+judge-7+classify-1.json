@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/memory-safety-patterns",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/memory-safety-patterns/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"42111f59bd4d6f12bdc6a8e06d8c2b0878b52ca93232479166996ba1c31253d6"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13618,"own":{"files":2,"bytes":13618},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","clang++","valgrind"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 13 KiB · CLI cargo, clang++ +1","short":"13 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs clang++","runs valgrind"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

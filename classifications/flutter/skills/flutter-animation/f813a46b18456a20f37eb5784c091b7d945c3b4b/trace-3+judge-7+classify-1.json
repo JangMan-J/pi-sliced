@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-animation",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-animation/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"d12df42d0b76d2b9ceeba08bf056958bbf96e8f8183463965c23fb24af4ed62f"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-animation at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

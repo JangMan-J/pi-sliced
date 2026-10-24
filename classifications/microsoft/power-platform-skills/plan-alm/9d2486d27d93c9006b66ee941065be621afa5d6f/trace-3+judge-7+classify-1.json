@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/plan-alm",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/plan-alm/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"4eefd234398525eef6a9c8b4bb5286584c1c0ae316677dfc62cce8c2016871af"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":219785,"own":{"files":3,"bytes":219785},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["JSON.stringify","Start-Process","az","catch","const","fs","fs.readFileSync","meta","null","open","pac","powershell.exe","process.stdout.write","try","xdg-open"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 215 KiB · CLI JSON.stringify, Start-Process +13","short":"215 KiB · 15 CLI"},
+"heavy":{"heavy":true,"because":["15 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs catch","runs const","runs fs","runs fs.readFileSync","runs JSON.stringify","runs meta","runs null","runs open","runs pac","runs powershell.exe","runs process.stdout.write","runs Start-Process","runs try","runs xdg-open"]}],
+"security":{},
+"companions":{"named":[{"name":"add-cloud-flow","path":"plugins/power-pages/skills/add-cloud-flow"},{"name":"add-server-logic","path":"plugins/power-pages/skills/add-server-logic"},{"name":"configure-env-variables","path":"plugins/power-pages/skills/configure-env-variables"},{"name":"deploy-pipeline","path":"plugins/power-pages/skills/deploy-pipeline"},{"name":"ensure-pipelines-host","path":"plugins/power-pages/skills/ensure-pipelines-host"},{"name":"export-solution","path":"plugins/power-pages/skills/export-solution"},{"name":"import-solution","path":"plugins/power-pages/skills/import-solution"},{"name":"setup-auth","path":"plugins/power-pages/skills/setup-auth"},{"name":"setup-pipeline","path":"plugins/power-pages/skills/setup-pipeline"},{"name":"setup-solution","path":"plugins/power-pages/skills/setup-solution"},{"name":"test-site","path":"plugins/power-pages/skills/test-site"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-cloud-scc-remediation",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-cloud-scc-remediation/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"2b4b0fe6fc1462f0b77afc73d7c992045234c4c53013a14070be621b385e1e3f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":32735,"own":{"files":4,"bytes":32735},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 32 KiB · CLI gcloud","short":"32 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[{"name":"google-cloud-scc-query","path":"skills/cloud/google-cloud-scc-query"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,24 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"addyosmani/agent-skills/browser-testing-with-devtools",
+"source":"addyosmani/agent-skills",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"skillPath":"skills/browser-testing-with-devtools",
+"status":"resolved",
+"totals":{"files":1,"bytes":14539},
+"files":[
+{"path":"skills/browser-testing-with-devtools/SKILL.md","size":14539,"blob":"9864d2724e273e1164d62ab10b73590ae00fd6a8","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/browser-testing-with-devtools","files":1,"bytes":14539}
+],
+"signals":[
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,77]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

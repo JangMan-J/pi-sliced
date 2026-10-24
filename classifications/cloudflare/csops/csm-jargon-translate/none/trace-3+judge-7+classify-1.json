@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/csm-jargon-translate",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/csm-jargon-translate/none/trace-3+judge-7.json","sha256":"1089dba2c9ad8bb70100b7bfa81c9670b66605ed56bdaa941bd1d110197719e4"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

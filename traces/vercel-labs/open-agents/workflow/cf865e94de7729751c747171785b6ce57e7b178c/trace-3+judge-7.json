@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/open-agents/workflow",
+"source":"vercel-labs/open-agents",
+"revision":"cf865e94de7729751c747171785b6ce57e7b178c",
+"skillPath":".agents/skills/workflow",
+"status":"resolved",
+"totals":{"files":1,"bytes":6030},
+"files":[
+{"path":".agents/skills/workflow/SKILL.md","size":6030,"blob":"c0c313dc9ed0c52a480b019b87043fa61feb2ef4","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"workflow","at":[[0,169],[0,170],[0,173],[0,174],[0,177],[0,178]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/workflow","files":1,"bytes":6030}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx workflow","at":[[0,169],[0,170],[0,173],[0,174],[0,177],[0,178]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":null}
+}

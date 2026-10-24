@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/doca-spcx-cc",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/doca-spcx-cc/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"0cda0eaa19c4fc31b172394e7aa2272c72822c5069690260732d002902edc16b"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":31389,"own":{"files":1,"bytes":18943},"otherSkills":{"count":1,"files":1,"bytes":12446},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 31 KiB · +1 other skill","short":"31 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/doca-pcc-counters"]}],
+"security":{},
+"companions":{"named":[{"name":"doca-debug","path":"skills/doca-debug"},{"name":"doca-dpa","path":"skills/doca-dpa"},{"name":"doca-hardware-safety","path":"skills/doca-hardware-safety"},{"name":"doca-pcc","path":"skills/doca-pcc"},{"name":"doca-pcc-counters","path":"skills/doca-pcc-counters"},{"name":"doca-pcc-ztr-rttcc-algo","path":"skills/doca-pcc-ztr-rttcc-algo"},{"name":"doca-programming-guide","path":"skills/doca-programming-guide"},{"name":"doca-public-knowledge-map","path":"skills/doca-public-knowledge-map"},{"name":"doca-rdma","path":"skills/doca-rdma"},{"name":"doca-setup","path":"skills/doca-setup"},{"name":"doca-structured-tools-contract","path":"skills/doca-structured-tools-contract"},{"name":"doca-version","path":"skills/doca-version"}],"pulled":[{"path":"skills/doca-pcc-counters","files":1,"bytes":12446}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

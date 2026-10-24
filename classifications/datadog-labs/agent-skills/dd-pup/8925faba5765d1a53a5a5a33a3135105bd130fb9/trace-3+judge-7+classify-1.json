@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/dd-pup",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/dd-pup/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"74bdae9db3b2b3364d542c2be44a6481ddc914ef61c59e45ad71419f3e303a66"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12491,"own":{"files":1,"bytes":12491},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","pup"],"package":[],"mcp-server":[],"credential":["DD_API_KEY","DD_APP_KEY"],"network":[]},"summary":"1 file, 12 KiB · CLI jq, pup · 2 keys","short":"12 KiB · 2 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["2 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs pup"]},{"marker":"credentials","because":["needs DD_API_KEY","needs DD_APP_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

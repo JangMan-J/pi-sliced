@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/model-optimizer/benchmark-model-kernels",
+"revision":"0638a274cf195870564d8e3c164e4f859e5be2a2",
+"trace":{"path":"traces/nvidia/model-optimizer/benchmark-model-kernels/0638a274cf195870564d8e3c164e4f859e5be2a2/trace-3+judge-7.json","sha256":"0ae85a7c3e9f232bc0207f5a4eae95e99c95a678df0d365dc17b8d95c648545f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":71309,"own":{"files":3,"bytes":71309},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["accelerate","flashinfer","modelopt","numpy","pynvml","torch","transformers","vllm"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 70 KiB · packages accelerate +7","short":"70 KiB · 8 pkg"},
+"heavy":{"heavy":true,"because":["8 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs accelerate","installs flashinfer","installs modelopt","installs numpy","installs pynvml","installs torch","installs transformers","installs vllm"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/cloudflare",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/cloudflare/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"3cc1b0f1aab87de0d34dc5d63b5842b12480188ded5b1ed91071d4dc0cdbeb62"},
+"status":"unresolvable",
+"reason":"no skill folder named cloudflare at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

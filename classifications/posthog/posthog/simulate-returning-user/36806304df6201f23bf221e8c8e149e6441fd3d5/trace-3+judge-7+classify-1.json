@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/simulate-returning-user",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/simulate-returning-user/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"73e12e289ffef366da4176023e5c04ac7f113e221c2282c651fca66475a57ae3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1987,"own":{"files":1,"bytes":1987},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["traffic-sim"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.9 KiB · CLI traffic-sim","short":"1.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs traffic-sim"]},{"marker":"stub","because":["own folder 1.9 KiB (1 file)","content is the traffic-sim it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-handling-concurrency",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-handling-concurrency/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"9fac201c3af27f499bac5d7729b0553d09bd893ba98b2a2f268a548ec22e76f3"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-handling-concurrency at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

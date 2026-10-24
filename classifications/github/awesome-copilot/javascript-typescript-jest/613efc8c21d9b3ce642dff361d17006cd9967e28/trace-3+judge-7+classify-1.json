@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/javascript-typescript-jest",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/javascript-typescript-jest/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"ec5a11f7f2497ed89c6af2708b248f2d8e907b1c4b8121b4e7e079e55ba04694"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2235,"own":{"files":1,"bytes":2235},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.2 KiB","short":"2.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

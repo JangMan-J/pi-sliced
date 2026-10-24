@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-working-with-databases",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-working-with-databases/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"8ed8d79ef5848dc91dfce2213a69bb48111d595263b8b5d0122389f13be73aca"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-working-with-databases at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

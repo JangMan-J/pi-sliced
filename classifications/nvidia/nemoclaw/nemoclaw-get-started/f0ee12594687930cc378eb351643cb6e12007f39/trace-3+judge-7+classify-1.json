@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-get-started",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-get-started/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"63923625d9faadc356d297a69f0bb6aa7541aba1f8aa3f6bb367eedf714e64fc"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-get-started at f0ee12594687930cc378eb351643cb6e12007f39"
+}

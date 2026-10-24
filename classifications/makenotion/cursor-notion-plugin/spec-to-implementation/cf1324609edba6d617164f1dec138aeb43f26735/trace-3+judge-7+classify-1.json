@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/cursor-notion-plugin/spec-to-implementation",
+"revision":"cf1324609edba6d617164f1dec138aeb43f26735",
+"trace":{"path":"traces/makenotion/cursor-notion-plugin/spec-to-implementation/cf1324609edba6d617164f1dec138aeb43f26735/trace-3+judge-7.json","sha256":"11a714e20800661c5f0ab939a84129a753917526688a047b131bd4486230b1d3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4352,"own":{"files":1,"bytes":4352},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.3 KiB","short":"4.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

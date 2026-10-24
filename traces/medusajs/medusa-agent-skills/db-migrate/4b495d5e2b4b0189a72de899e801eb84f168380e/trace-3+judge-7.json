@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"medusajs/medusa-agent-skills/db-migrate",
+"source":"medusajs/medusa-agent-skills",
+"revision":"4b495d5e2b4b0189a72de899e801eb84f168380e",
+"skillPath":"plugins/medusa-dev/skills/db-migrate",
+"status":"resolved",
+"totals":{"files":1,"bytes":411},
+"files":[
+{"path":"plugins/medusa-dev/skills/db-migrate/SKILL.md","size":411,"blob":"8c489f78fc7a8bda5b6c709895141b5e1e7e12d9","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"medusa","at":[[0,11]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/medusa-dev/skills/db-migrate","files":1,"bytes":411}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx medusa","at":[[0,11]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

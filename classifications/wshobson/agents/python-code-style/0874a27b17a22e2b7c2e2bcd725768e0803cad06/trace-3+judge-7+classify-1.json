@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/python-code-style",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/python-code-style/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"cdc97f6bf86e10701584f993db5d18344c6af7cfceb48ac2b6ef47d2d0c23dc8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7970,"own":{"files":1,"bytes":7970},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ruff"],"package":["mypy","ruff"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.8 KiB · CLI ruff · packages mypy +1","short":"7.8 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs ruff"]},{"marker":"installs-packages","because":["installs mypy","installs ruff"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

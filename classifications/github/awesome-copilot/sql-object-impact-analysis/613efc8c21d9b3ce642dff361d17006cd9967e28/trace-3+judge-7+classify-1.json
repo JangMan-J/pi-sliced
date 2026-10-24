@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/sql-object-impact-analysis",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/sql-object-impact-analysis/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"d9d50592146b88a6a44acbf1b5e2a7eb0198ad62fdbd3389484ee4fb0dcf317c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5723,"own":{"files":1,"bytes":5723},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.6 KiB","short":"5.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"data-breach-blast-radius","path":"skills/data-breach-blast-radius"},{"name":"doc-and-modernize","path":"skills/doc-and-modernize"},{"name":"sql-code-review","path":"skills/sql-code-review"},{"name":"sql-optimization","path":"skills/sql-optimization"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

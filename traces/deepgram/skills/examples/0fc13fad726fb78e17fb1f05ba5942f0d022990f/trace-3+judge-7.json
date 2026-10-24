@@ -1,0 +1,35 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"deepgram/skills/examples",
+"source":"deepgram/skills",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"skillPath":"skills/examples",
+"status":"resolved",
+"totals":{"files":1,"bytes":5238},
+"files":[
+{"path":"skills/examples/SKILL.md","size":5238,"blob":"92a1ef1beaf601b1ff38b4b41229852b7a5af299","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,58],[0,59],[0,60],[0,61],[0,62],[0,63],[0,66]]},
+{"kind":"mcp-server","name":"deepgram","at":[[0,74]]}
+],
+"regions":[
+{"kind":"own","path":"skills/examples","files":1,"bytes":5238}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,58],[0,59],[0,60],[0,61],[0,62],[0,63],[0,66]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,58],[0,59],[0,60],[0,61],[0,62],[0,63],[0,66]]}
+],
+"namedSkills":[
+{"name":"api","path":"skills/api","at":[[0,26],[0,51],[0,70]]},
+{"name":"browser-agent","path":"skills/browser-agent","at":[[0,66]]},
+{"name":"docs","path":"skills/docs","at":[[0,73]]},
+{"name":"recipes","path":"skills/recipes","at":[[0,24],[0,71]]},
+{"name":"setup-mcp","path":"skills/setup-mcp","at":[[0,74]]},
+{"name":"starters","path":"skills/starters","at":[[0,25],[0,72]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

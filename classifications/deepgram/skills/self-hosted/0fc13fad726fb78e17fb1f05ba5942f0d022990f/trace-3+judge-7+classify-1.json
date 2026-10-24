@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/self-hosted",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/self-hosted/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"168922303a9ee77e99bda11ab7fe0021d0353fe67bd4ea0ab2a31badaa7a3487"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":75460,"own":{"files":5,"bytes":75460},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","docker","helm","jq","kubectl","wscat"],"package":["@deepgram/sagemaker","@deepgram/sdk","deepgram-sagemaker"],"mcp-server":[],"credential":["DEEPGRAM_API_KEY"],"network":["api.deepgram.com","developers.deepgram.com","dpgr.am","github.com","raw.githubusercontent.com"]},"summary":"5 files, 74 KiB · CLI aws, docker +4 · packages @deepgram/sagemaker +2 · 1 key · 5 hosts","short":"74 KiB · 6 CLI · 3 pkg · 1 key · 5 hosts"},
+"heavy":{"heavy":true,"because":["3 packages to install","6 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs docker","runs helm","runs jq","runs kubectl","runs wscat"]},{"marker":"installs-packages","because":["installs @deepgram/sagemaker","installs @deepgram/sdk","installs deepgram-sagemaker"]},{"marker":"network","because":["fetches from api.deepgram.com","fetches from developers.deepgram.com","fetches from dpgr.am","fetches from github.com","fetches from raw.githubusercontent.com"]},{"marker":"credentials","because":["needs DEEPGRAM_API_KEY"]},{"marker":"sends-credentials","because":["DEEPGRAM_API_KEY -> api.deepgram.com: skills/self-hosted/SKILL.md:56"]}],
+"security":{"secret-egress":["DEEPGRAM_API_KEY -> api.deepgram.com @ skills/self-hosted/SKILL.md:56"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"docs","path":"skills/docs"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"speech-to-text","path":"skills/speech-to-text"},{"name":"starters","path":"skills/starters"},{"name":"text-to-speech","path":"skills/text-to-speech"},{"name":"voice-agent","path":"skills/voice-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

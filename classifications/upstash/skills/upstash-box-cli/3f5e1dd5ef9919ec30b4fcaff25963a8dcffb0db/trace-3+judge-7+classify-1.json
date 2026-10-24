@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/skills/upstash-box-cli",
+"revision":"3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db",
+"trace":{"path":"traces/upstash/skills/upstash-box-cli/3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db/trace-3+judge-7.json","sha256":"b141e9bb4be266fb468377d813a4402e2eb25d24040334b85d1052bf96a36038"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":22106,"own":{"files":1,"bytes":22106},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["JSON.stringify","Page.getLayoutMetrics","await","box","const","data","fs","fs.readFileSync","fs.writeFileSync","http","http.createServer","index.html","jq","json","m","m.data","msg.id","msg.result","new","page.webSocketDebuggerUrl","pending.delete","pending.get","pending.set","r","res.end","res.writeHead","resolve","ssh","t","the","ws.close","ws.send"],"package":["@upstash/box-cli","@upstash/docs7"],"mcp-server":[],"credential":["GITHUB_TOKEN","UPSTASH_BOX_API_KEY"],"network":["github.com"]},"summary":"1 file, 22 KiB · CLI JSON.stringify, Page.getLayoutMetrics +30 · packages @upstash/box-cli +1 · 2 keys · 1 host","short":"22 KiB · 32 CLI · 2 pkg · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install","32 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs await","runs box","runs const","runs data","runs fs","runs fs.readFileSync","runs fs.writeFileSync","runs http","runs http.createServer","runs index.html","runs jq","runs json","runs JSON.stringify","runs m","runs m.data","runs msg.id","runs msg.result","runs new","runs Page.getLayoutMetrics","runs page.webSocketDebuggerUrl","runs pending.delete","runs pending.get","runs pending.set","runs r","runs res.end","runs res.writeHead","runs resolve","runs ssh","runs t","runs the","runs ws.close","runs ws.send"]},{"marker":"installs-packages","because":["installs @upstash/box-cli","installs @upstash/docs7"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GITHUB_TOKEN","needs UPSTASH_BOX_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

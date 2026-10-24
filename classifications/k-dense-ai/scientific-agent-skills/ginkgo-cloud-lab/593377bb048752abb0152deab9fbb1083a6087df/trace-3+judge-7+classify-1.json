@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/ginkgo-cloud-lab",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/ginkgo-cloud-lab/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"f85c6c80502e463fe13e6c4d3fbd01fb01a340ebc37137d5b4198b5a4757a579"},
+"status":"resolved",
+"footprint":{"files":19,"bytes":58019,"own":{"files":19,"bytes":58019},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["arxiv.org"]},"summary":"19 files, 57 KiB · 1 host","short":"57 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from arxiv.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

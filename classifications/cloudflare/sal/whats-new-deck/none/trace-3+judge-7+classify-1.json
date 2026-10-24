@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/whats-new-deck",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/whats-new-deck/none/trace-3+judge-7.json","sha256":"6b5e5ad963db516b4b382c4b54a89f811ad77f51ccdd196f2d3cf25a4b6ce43b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/dataverse-skills/dv-python-sdk",
+"source":"microsoft/dataverse-skills",
+"revision":"1966192f0bee20216f1b58cf11f8b0c4b0e3edb8",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named dv-python-sdk at 1966192f0bee20216f1b58cf11f8b0c4b0e3edb8",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

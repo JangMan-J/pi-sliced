@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elevenlabs/skills/setup-api-key",
+"revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+"trace":{"path":"traces/elevenlabs/skills/setup-api-key/269e5f0e5a4cf296a8a38beb166245b89d5e2c1c/trace-3+judge-7.json","sha256":"c2e8412fb47e0a1727e53a467bed1e0c94e041f1ba5b0a3d5e601bd3ae49d178"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3988,"own":{"files":1,"bytes":3988},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@elevenlabs/cli","powershell"],"package":["elevenlabs/tap/elevenlabs"],"mcp-server":[],"credential":["ELEVENLABS_API_KEY"],"network":["github.com"]},"summary":"1 file, 3.9 KiB · CLI @elevenlabs/cli, powershell · packages elevenlabs/tap/elevenlabs · 1 key · 1 host","short":"3.9 KiB · 2 CLI · 1 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @elevenlabs/cli","runs powershell"]},{"marker":"installs-packages","because":["installs elevenlabs/tap/elevenlabs"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs ELEVENLABS_API_KEY"]},{"marker":"stub","because":["own folder 3.9 KiB (1 file)","content is the @elevenlabs/cli, powershell it wraps"]},{"marker":"unpinned-code","because":["npx @elevenlabs/cli@latest: setup-api-key/SKILL.md:21","pipe to interpreter: setup-api-key/SKILL.md:65, setup-api-key/SKILL.md:66"]}],
+"security":{"fetch-run":["npx @elevenlabs/cli@latest @ setup-api-key/SKILL.md:21","pipe to interpreter @ setup-api-key/SKILL.md:65, setup-api-key/SKILL.md:66"]},
+"companions":{"named":[{"name":"onboarding","path":"onboarding"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

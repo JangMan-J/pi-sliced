@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/inbox-exploration",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/inbox-exploration/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"21bfce3de4b3caa117873debd9ff481e026794a18e176ea853e8487676225b2d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":38345,"own":{"files":1,"bytes":38345},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 37 KiB","short":"37 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"do not tell the user\": products/signals/skills/inbox-exploration/SKILL.md:129"]}],
+"security":{"injection":["do not tell the user @ products/signals/skills/inbox-exploration/SKILL.md:129"]},
+"companions":{"named":[{"name":"signals","path":"products/signals/skills/signals"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

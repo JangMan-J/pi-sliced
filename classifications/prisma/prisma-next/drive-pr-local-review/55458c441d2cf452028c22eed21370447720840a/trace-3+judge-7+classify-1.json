@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/prisma-next/drive-pr-local-review",
+"revision":"55458c441d2cf452028c22eed21370447720840a",
+"trace":{"path":"traces/prisma/prisma-next/drive-pr-local-review/55458c441d2cf452028c22eed21370447720840a/trace-3+judge-7.json","sha256":"93070e50c58bb13a8f5a28c74017f723eb7eb511d28eb7f7bba48cd3ab8bd8ce"},
+"status":"unresolvable",
+"reason":"no skill folder named drive-pr-local-review at 55458c441d2cf452028c22eed21370447720840a"
+}

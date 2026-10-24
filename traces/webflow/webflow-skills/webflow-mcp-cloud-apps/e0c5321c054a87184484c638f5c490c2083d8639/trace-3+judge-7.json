@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"webflow/webflow-skills/webflow-mcp-cloud-apps",
+"source":"webflow/webflow-skills",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"skillPath":"plugins/webflow-skills/skills/cloud-apps",
+"status":"resolved",
+"totals":{"files":1,"bytes":22807},
+"files":[
+{"path":"plugins/webflow-skills/skills/cloud-apps/SKILL.md","size":22807,"blob":"09597170957c5b40d05c2af4801e945c708a7870","how":"root"}
+],
+"outside":[
+{"kind":"mcp-server","name":"webflow","at":[[0,27],[0,29]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/webflow-skills/skills/cloud-apps","files":1,"bytes":22807}
+],
+"signals":[
+{"kind":"injection","detail":"without asking the user","at":[[0,21]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

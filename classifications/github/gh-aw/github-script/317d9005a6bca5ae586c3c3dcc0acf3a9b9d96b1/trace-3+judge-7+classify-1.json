@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/gh-aw/github-script",
+"revision":"317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1",
+"trace":{"path":"traces/github/gh-aw/github-script/317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1/trace-3+judge-7.json","sha256":"0b3a1e66f9291fe259af129d3d124b327c4d6cedf5861604c86a8037492ea236"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1800,"own":{"files":1,"bytes":1800},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.8 KiB","short":"1.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -68,7 +68,7 @@ test("determinations: append-only, pinned to the bytes they read; rederive flags
   // A tampered Classification fails the check; a new Trace version flags the Determination.
   const clsFile = join(root, cls);
   const good = readFileSync(clsFile, "utf8");
-  writeFileSync(clsFile, good.replace('"heavy": false', '"heavy": true'));
+  writeFileSync(clsFile, good.replace('"heavy":false', '"heavy":true'));
   assert.equal(rederive(root).status, 1);
   writeFileSync(clsFile, good);
   const next = join(root, TDD.replace("trace-3+judge-4", "trace-3+judge-5"));

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"badlogic/pi-skills/brave-search",
+"revision":"90bb51cae36515a648515b633a81c0c6efc8c74d",
+"trace":{"path":"traces/badlogic/pi-skills/brave-search/90bb51cae36515a648515b633a81c0c6efc8c74d/trace-3+judge-7.json","sha256":"b3f11ee3581328ae650115a1bb5109590b0030c5f25acbbd0ecfe8e03428d718"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2366,"own":{"files":1,"bytes":2366},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["BRAVE_API_KEY"],"network":[]},"summary":"1 file, 2.3 KiB · 1 key","short":"2.3 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs BRAVE_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

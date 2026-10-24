@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/nemo-relay/test-node-binding",
+"source":"nvidia/nemo-relay",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named test-node-binding at 8109e75036c1c97c26fab532fcf6a83f2152babe",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

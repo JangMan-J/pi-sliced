@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/building-mcp-server-on-cloudflare",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/cloudflare/skills/building-mcp-server-on-cloudflare",
+"status":"resolved",
+"totals":{"files":4,"bytes":24781},
+"files":[
+{"path":"plugins/cloudflare/skills/building-mcp-server-on-cloudflare/SKILL.md","size":6429,"blob":"168a82879a62bfde7e69d7380b9e30a522dffcf6","how":"root"},
+{"path":"plugins/cloudflare/skills/building-mcp-server-on-cloudflare/references/examples.md","size":2077,"blob":"57b213830a07024a12e442aaf6442f8b410f9af2","how":"link","from":0,"line":264},
+{"path":"plugins/cloudflare/skills/building-mcp-server-on-cloudflare/references/oauth-setup.md","size":10111,"blob":"e97479d7a4ad09626c7d1edae86847eb5dce49a9","how":"link","from":0,"line":60},
+{"path":"plugins/cloudflare/skills/building-mcp-server-on-cloudflare/references/troubleshooting.md","size":6164,"blob":"f1e62e7767870715790200be6d0beec7479d6282","how":"link","from":0,"line":266}
+],
+"outside":[
+{"kind":"cli","name":"@modelcontextprotocol/inspector","at":[[0,130],[1,98],[3,301]]},
+{"kind":"cli","name":"codex","at":[[0,147],[1,92]]},
+{"kind":"cli","name":"wrangler","at":[[0,137],[1,85],[2,316],[2,317],[3,24],[3,26],[3,31],[3,156],[3,162],[3,214],[3,217],[3,269],[3,294],[3,310],[3,313]]},
+{"kind":"package","name":"wrangler","at":[[0,37]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/cloudflare/skills/building-mcp-server-on-cloudflare","files":4,"bytes":24781}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @modelcontextprotocol/inspector@latest","at":[[0,130],[1,98],[3,301]]},
+{"kind":"fetch-run","detail":"npx wrangler","at":[[0,137],[1,85]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

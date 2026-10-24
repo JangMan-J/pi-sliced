@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/error-tracking-nuxt",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/error-tracking-nuxt/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"4fa28f6fdd44687657bc79b9d780c1fa9d8d3552b03c2939cc5f95edb94f9ff8"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":30995,"own":{"files":7,"bytes":30995},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nuxt"],"package":["@posthog/nuxt"],"mcp-server":[],"credential":[],"network":["app.posthog.com"]},"summary":"7 files, 30 KiB · CLI nuxt · packages @posthog/nuxt · 1 host","short":"30 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nuxt"]},{"marker":"installs-packages","because":["installs @posthog/nuxt"]},{"marker":"network","because":["fetches from app.posthog.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/agent-toolkit/sanity-singletons",
+"revision":"feb9d38412426b0dfca7e6f21aeecdad8507c170",
+"trace":{"path":"traces/sanity-io/agent-toolkit/sanity-singletons/feb9d38412426b0dfca7e6f21aeecdad8507c170/trace-3+judge-7.json","sha256":"54263097d2f705af32eab7e5541babb09239a659b8ca55a3e67713e83b97242d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19142,"own":{"files":1,"bytes":19142},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 19 KiB","short":"19 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"sanity-best-practices","path":"skills/sanity-best-practices"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

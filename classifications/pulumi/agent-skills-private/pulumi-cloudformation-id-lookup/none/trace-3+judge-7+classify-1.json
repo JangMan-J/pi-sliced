@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills-private/pulumi-cloudformation-id-lookup",
+"revision":"none",
+"trace":{"path":"traces/pulumi/agent-skills-private/pulumi-cloudformation-id-lookup/none/trace-3+judge-7.json","sha256":"fc7f5f409830ac128f270c217bedeea9c6a6230cf322b34aedb8ef7eed5575f5"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/pulumi/agent-skills-private.git/' not found"
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firecrawl/firecrawl-claude-plugin/firecrawl-map",
+"source":"firecrawl/firecrawl-claude-plugin",
+"revision":"3e1fb0c319d71b067906b8b602208dded3932cdb",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named firecrawl-map at 3e1fb0c319d71b067906b8b602208dded3932cdb",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

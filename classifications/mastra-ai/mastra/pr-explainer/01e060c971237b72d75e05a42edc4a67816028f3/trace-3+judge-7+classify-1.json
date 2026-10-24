@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mastra-ai/mastra/pr-explainer",
+"revision":"01e060c971237b72d75e05a42edc4a67816028f3",
+"trace":{"path":"traces/mastra-ai/mastra/pr-explainer/01e060c971237b72d75e05a42edc4a67816028f3/trace-3+judge-7.json","sha256":"c3c428510d45eca2c0df1a7ef8f68d129dc8e4d144f995760de9294d3724f038"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5647,"own":{"files":1,"bytes":5647},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.5 KiB","short":"5.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

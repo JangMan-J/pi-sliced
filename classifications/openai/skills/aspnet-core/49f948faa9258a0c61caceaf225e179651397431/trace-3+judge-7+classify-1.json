@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/aspnet-core",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/aspnet-core/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"b5907166605825e74f58d5c819452264228d4d43a92d78a39f58c6dc804f8442"},
+"status":"resolved",
+"footprint":{"files":14,"bytes":39329,"own":{"files":14,"bytes":39329},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"14 files, 38 KiB","short":"38 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

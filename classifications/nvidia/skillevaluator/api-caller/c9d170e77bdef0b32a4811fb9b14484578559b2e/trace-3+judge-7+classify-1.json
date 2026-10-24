@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skillevaluator/api-caller",
+"revision":"c9d170e77bdef0b32a4811fb9b14484578559b2e",
+"trace":{"path":"traces/nvidia/skillevaluator/api-caller/c9d170e77bdef0b32a4811fb9b14484578559b2e/trace-3+judge-7.json","sha256":"ff533805a55098a8f9cb38fd02c60726c03a14913884da2ecac8df42b7dd8484"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":18340,"own":{"files":3,"bytes":18340},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["api.weather.gov"]},"summary":"3 files, 18 KiB · 1 host","short":"18 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from api.weather.gov"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

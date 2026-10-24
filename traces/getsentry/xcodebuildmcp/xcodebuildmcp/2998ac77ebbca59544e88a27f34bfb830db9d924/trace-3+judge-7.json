@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/xcodebuildmcp/xcodebuildmcp",
+"source":"getsentry/xcodebuildmcp",
+"revision":"2998ac77ebbca59544e88a27f34bfb830db9d924",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named xcodebuildmcp at 2998ac77ebbca59544e88a27f34bfb830db9d924",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/apple-crash-symbolication",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/apple-crash-symbolication/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"6aa092870eb1d49501ed8c7c86eea440a44eef8e53531ccd1d209771c951ccaa"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":51941,"own":{"files":3,"bytes":51941},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["atos","dotnet-symbol","dwarfdump","idevicecrashreport","pwsh"],"package":[],"mcp-server":[],"credential":[],"network":["api.nuget.org","msdl.microsoft.com"]},"summary":"3 files, 51 KiB · CLI atos, dotnet-symbol +3 · 2 hosts","short":"51 KiB · 5 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs atos","runs dotnet-symbol","runs dwarfdump","runs idevicecrashreport","runs pwsh"]},{"marker":"network","because":["fetches from api.nuget.org","fetches from msdl.microsoft.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

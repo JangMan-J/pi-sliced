@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/skill-builder",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/skill-builder/none/trace-3+judge-7.json","sha256":"a67edf097d33195612a7fec05ece4c641b0860d97580ccbb0b99ac276932f9be"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

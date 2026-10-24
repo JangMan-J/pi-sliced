@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/agent-skills/wp-performance",
+"revision":"48d4aa21d0da0e7bda1c7ac155fef2e16b87aa25",
+"trace":{"path":"traces/automattic/agent-skills/wp-performance/48d4aa21d0da0e7bda1c7ac155fef2e16b87aa25/trace-3+judge-7.json","sha256":"675e3ba879a3afb7a4d21136b376e39298679bcd5bb27b29b088975178b2e006"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":17267,"own":{"files":11,"bytes":17267},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["wp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"11 files, 17 KiB · CLI wp","short":"17 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs wp"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

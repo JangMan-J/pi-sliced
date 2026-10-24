@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/expo-animation",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/expo-animation/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"fb3e6457b4f61d804166bfac75bc89e3fcb8cefb1628b723a2a44e158a319292"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":35789,"own":{"files":2,"bytes":35789},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo","submit-expo-feedback"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 35 KiB · CLI expo, submit-expo-feedback","short":"35 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs expo","runs submit-expo-feedback"]},{"marker":"unpinned-code","because":["npx expo: plugins/expo/skills/expo-animation/RECIPES.md:10, plugins/expo/skills/expo-animation/RECIPES.md:258, plugins/expo/skills/expo-animation/SKILL.md:80","npx submit-expo-feedback@latest: plugins/expo/skills/expo-animation/SKILL.md:271"]}],
+"security":{"fetch-run":["npx expo @ plugins/expo/skills/expo-animation/RECIPES.md:10, plugins/expo/skills/expo-animation/RECIPES.md:258, plugins/expo/skills/expo-animation/SKILL.md:80 +1","npx submit-expo-feedback@latest @ plugins/expo/skills/expo-animation/SKILL.md:271"]},
+"companions":{"named":[{"name":"expo-router","path":"plugins/expo/skills/expo-router"},{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

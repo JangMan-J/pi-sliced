@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"heygen-com/hyperframes/cut-the-curve",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"trace":{"path":"traces/heygen-com/hyperframes/cut-the-curve/00d55a7f1dab0765296793b4da2f3e791b5ce42e/trace-3+judge-7.json","sha256":"c3c3c7fc8ea690ab1604b5a5501b4e941d96b5734cff502fd572e791859a19cf"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":28929,"own":{"files":2,"bytes":28929},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 28 KiB","short":"28 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

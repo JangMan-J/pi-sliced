@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"base/base-skills/converting-minikit-to-farcaster",
+"revision":"ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4",
+"trace":{"path":"traces/base/base-skills/converting-minikit-to-farcaster/ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4/trace-3+judge-7.json","sha256":"893b7b963c2ca82b80c775851f570400803629885a28c46e404506ea2a708c3b"},
+"status":"unresolvable",
+"reason":"no skill folder named converting-minikit-to-farcaster at ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4"
+}

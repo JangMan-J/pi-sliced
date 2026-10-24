@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuopt/cuopt-qp-api-cli",
+"revision":"b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e",
+"trace":{"path":"traces/nvidia/cuopt/cuopt-qp-api-cli/b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e/trace-3+judge-7.json","sha256":"03aeaaffc4bd3cfa0c98fe48fb7d63bdcc8586ccdde52e517af5ef0014e82e06"},
+"status":"unresolvable",
+"reason":"no skill folder named cuopt-qp-api-cli at b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-resource-manager-sql-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-resource-manager-sql-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"0ef80459cf26df002ee05eab1c822d09ddb0a4181650a49bedb536039ba908c5"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":28773,"own":{"files":4,"bytes":28773},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.ResourceManager.Sql","Microsoft.Data.SqlClient","Microsoft.EntityFrameworkCore.SqlServer"],"mcp-server":[],"credential":["AZURE_CLIENT_SECRET","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"4 files, 28 KiB · CLI dotnet · packages Azure.Identity +3 · 2 keys","short":"28 KiB · 1 CLI · 4 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.ResourceManager.Sql","installs Microsoft.Data.SqlClient","installs Microsoft.EntityFrameworkCore.SqlServer"]},{"marker":"credentials","because":["needs AZURE_CLIENT_SECRET","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

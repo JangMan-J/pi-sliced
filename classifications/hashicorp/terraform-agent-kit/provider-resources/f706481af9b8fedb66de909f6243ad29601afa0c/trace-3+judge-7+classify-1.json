@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/terraform-agent-kit/provider-resources",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/terraform-agent-kit/provider-resources/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"15e34f2cdf26934ec029f968098a31bfa02a64ca6a38a9f700ca8d399f4dd036"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":29127,"own":{"files":3,"bytes":29127},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 28 KiB","short":"28 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"provider-actions","path":"plugins/terraform/skills/provider-actions"},{"name":"provider-configuration","path":"plugins/terraform/skills/provider-configuration"},{"name":"provider-docs","path":"plugins/terraform/skills/provider-docs"},{"name":"provider-framework-migration","path":"plugins/terraform/skills/provider-framework-migration"},{"name":"provider-test-patterns","path":"plugins/terraform/skills/provider-test-patterns"},{"name":"run-acceptance-tests","path":"plugins/terraform/skills/run-acceptance-tests"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

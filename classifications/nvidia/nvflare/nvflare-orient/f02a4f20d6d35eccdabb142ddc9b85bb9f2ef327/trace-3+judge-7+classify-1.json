@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nvflare/nvflare-orient",
+"revision":"f02a4f20d6d35eccdabb142ddc9b85bb9f2ef327",
+"trace":{"path":"traces/nvidia/nvflare/nvflare-orient/f02a4f20d6d35eccdabb142ddc9b85bb9f2ef327/trace-3+judge-7.json","sha256":"7b20a57d85d50f8554c10f200386a25b27b1fd2217ed04cb14b8044a876093a3"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":5411,"own":{"files":2,"bytes":5411},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nvflare"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 5.3 KiB · CLI nvflare","short":"5.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nvflare"]}],
+"security":{},
+"companions":{"named":[{"name":"nvflare-autofl","path":"skills/nvflare-autofl"},{"name":"nvflare-convert-huggingface","path":"skills/nvflare-convert-huggingface"},{"name":"nvflare-convert-lightning","path":"skills/nvflare-convert-lightning"},{"name":"nvflare-convert-pytorch","path":"skills/nvflare-convert-pytorch"},{"name":"nvflare-diagnose-job","path":"skills/nvflare-diagnose-job"},{"name":"nvflare-fed-stats","path":"skills/nvflare-fed-stats"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

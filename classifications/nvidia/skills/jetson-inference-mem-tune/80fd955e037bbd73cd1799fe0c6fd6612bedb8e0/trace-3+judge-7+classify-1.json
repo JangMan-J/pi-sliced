@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/jetson-inference-mem-tune",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/jetson-inference-mem-tune/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"4cd6c7cc16b86c6a727fe0d988a454806392ffcff1a9ac4efd3bf0b117e613c3"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":38853,"own":{"files":2,"bytes":21691},"otherSkills":{"count":2,"files":2,"bytes":17162},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["as","c++","candidate_services","default_systemd_target","docker","efi","except","f","gdm3","generation","gsub","i++","import","jq","json.dumps","l4t_version","line.split","line.startswith","llama-server","mem_total_gb","memory_kb","need_value","next","not","null_","nvidia-smi","nvmap","nvpmodel","nvsmi_useful","os.environ","pid","print","product_line","product_model","read_meminfo_kb","rows.append","rows.sort","s","size","sku","systemctl","tegrastats_sample","top_processes","v","variant","vllm","with"],"package":[],"mcp-server":[],"credential":["HF_TOKEN"],"network":[]},"summary":"4 files, 38 KiB · +2 other skills · CLI as, c++ +45 · 1 key","short":"38 KiB · +2 skills · 47 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["47 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs as","runs c++","runs candidate_services","runs default_systemd_target","runs docker","runs efi","runs except","runs f","runs gdm3","runs generation","runs gsub","runs i++","runs import","runs jq","runs json.dumps","runs l4t_version","runs line.split","runs line.startswith","runs llama-server","runs mem_total_gb","runs memory_kb","runs need_value","runs next","runs not","runs null_","runs nvidia-smi","runs nvmap","runs nvpmodel","runs nvsmi_useful","runs os.environ","runs pid","runs print","runs product_line","runs product_model","runs read_meminfo_kb","runs rows.append","runs rows.sort","runs s","runs size","runs sku","runs systemctl","runs tegrastats_sample","runs top_processes","runs v","runs variant","runs vllm","runs with"]},{"marker":"credentials","because":["needs HF_TOKEN"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/jetson-diagnostic","pulls in 1 file of the skill at skills/jetson-memory-audit"]}],
+"security":{},
+"companions":{"named":[{"name":"jetson-memory-audit","path":"skills/jetson-memory-audit"}],"pulled":[{"path":"skills/jetson-diagnostic","files":1,"bytes":14378},{"path":"skills/jetson-memory-audit","files":1,"bytes":2784}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/setup-my-iq",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/setup-my-iq/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"d367ccc8cc95c2aa54c34bc95007c87c028eea81f2cf2c3c7d71de74230c65e7"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":49071,"own":{"files":8,"bytes":49071},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Get-ItemPropertyValue","New-ItemProperty"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 48 KiB · CLI Get-ItemPropertyValue, New-ItemProperty","short":"48 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Get-ItemPropertyValue","runs New-ItemProperty"]},{"marker":"persistent-writes","because":["writes to a skill folder: skills/setup-my-iq/SKILL.md:483, skills/setup-my-iq/SKILL.md:494"]},{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/setup-my-iq/assets/templates/AGENTS.md:68"]}],
+"security":{"injection":["ignore previous instructions @ skills/setup-my-iq/assets/templates/AGENTS.md:68"],"persist-write":["skill folder @ skills/setup-my-iq/SKILL.md:483, skills/setup-my-iq/SKILL.md:494"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

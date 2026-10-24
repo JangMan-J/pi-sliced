@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/mobilebuildmcp/mobilebuildmcp-test-boundary-review",
+"revision":"d13ff0c707b0681769cf31da0eb42c4f94ceafff",
+"trace":{"path":"traces/getsentry/mobilebuildmcp/mobilebuildmcp-test-boundary-review/d13ff0c707b0681769cf31da0eb42c4f94ceafff/trace-3+judge-7.json","sha256":"721ddf1965623be78596dc1dc2b368285759fefb108b9d0dee621467e6b17b79"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1391,"own":{"files":1,"bytes":1391},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skill-check"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.4 KiB · CLI skill-check","short":"1.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skill-check"]},{"marker":"stub","because":["own folder 1.4 KiB (1 file)","content is the skill-check it wraps"]},{"marker":"unpinned-code","because":["npx skill-check: .agents/skills/mobilebuildmcp-test-boundary-review/SKILL.md:41"]}],
+"security":{"fetch-run":["npx skill-check @ .agents/skills/mobilebuildmcp-test-boundary-review/SKILL.md:41"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel/nextjs-skills/upgrade",
+"source":"vercel/nextjs-skills",
+"revision":"c522619e45aa3492fd2bfc916b308b275eff7798",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named upgrade at c522619e45aa3492fd2bfc916b308b275eff7798",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

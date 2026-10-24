@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/gws-modelarmor-create-template",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/gws-modelarmor-create-template/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"eb2c71c75b9f219e1a2f62fb4bf825133ab8c353b2c49605f403a356b25c7e69"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":8444,"own":{"files":1,"bytes":1693},"otherSkills":{"count":4,"files":4,"bytes":6751},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gws","model_cmd"],"package":[],"mcp-server":[],"credential":["GOOGLE_APPLICATION_CREDENTIALS"],"network":["github.com"]},"summary":"5 files, 8.2 KiB · +4 other skills · CLI gws, model_cmd · 1 key · 1 host","short":"8.2 KiB · +4 skills · 2 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gws","runs model_cmd"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GOOGLE_APPLICATION_CREDENTIALS"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/gws-modelarmor","pulls in 1 file of the skill at skills/gws-modelarmor-sanitize-prompt","pulls in 1 file of the skill at skills/gws-modelarmor-sanitize-response","pulls in 1 file of the skill at skills/gws-shared"]},{"marker":"stub","because":["own folder 1.7 KiB (1 file)","6.6 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/gws-modelarmor","files":1,"bytes":1216},{"path":"skills/gws-modelarmor-sanitize-prompt","files":1,"bytes":1431},{"path":"skills/gws-modelarmor-sanitize-response","files":1,"bytes":1436},{"path":"skills/gws-shared","files":1,"bytes":2668}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

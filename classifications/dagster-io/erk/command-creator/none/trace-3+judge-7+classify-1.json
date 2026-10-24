@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/command-creator",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/command-creator/none/trace-3+judge-7.json","sha256":"abef440214d895c70ab99e477207932279b8e895780af878dda9d4d51ca0d29a"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

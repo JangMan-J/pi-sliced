@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-lookup-phone-intelligence",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-lookup-phone-intelligence/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"42757b3d44aa1bb4bf780563cc2623fe1fb9c1b8cb2ac0005e348f65e0d86b6e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5336,"own":{"files":1,"bytes":5336},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.2 KiB · packages twilio","short":"5.2 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-sms-send-message","path":"plugins/twilio-developer-kit/skills/twilio-sms-send-message"},{"name":"twilio-verify-send-otp","path":"plugins/twilio-developer-kit/skills/twilio-verify-send-otp"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

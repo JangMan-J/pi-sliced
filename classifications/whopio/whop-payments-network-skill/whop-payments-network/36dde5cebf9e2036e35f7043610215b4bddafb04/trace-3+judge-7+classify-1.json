@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"whopio/whop-payments-network-skill/whop-payments-network",
+"revision":"36dde5cebf9e2036e35f7043610215b4bddafb04",
+"trace":{"path":"traces/whopio/whop-payments-network-skill/whop-payments-network/36dde5cebf9e2036e35f7043610215b4bddafb04/trace-3+judge-7.json","sha256":"039d4abf7eaa32682559d7aa24da51ee31cea1eebb2c4d4fa482c3ec218632e4"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":78073,"own":{"files":7,"bytes":78073},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gem","ngrok"],"package":["@whop/checkout","@whop/embedded-components-react-js","@whop/embedded-components-vanilla-js","@whop/sdk","whop-sdk","whop_sdk"],"mcp-server":[],"credential":["WHOP_WEBHOOK_SECRET"],"network":["api.whop.com","whop.com"]},"summary":"7 files, 76 KiB · CLI gem, ngrok · packages @whop/checkout +5 · 1 key · 2 hosts","short":"76 KiB · 2 CLI · 6 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["6 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gem","runs ngrok"]},{"marker":"installs-packages","because":["installs @whop/checkout","installs @whop/embedded-components-react-js","installs @whop/embedded-components-vanilla-js","installs @whop/sdk","installs whop_sdk","installs whop-sdk"]},{"marker":"network","because":["fetches from api.whop.com","fetches from whop.com"]},{"marker":"credentials","because":["needs WHOP_WEBHOOK_SECRET"]},{"marker":"agent-override-text","because":["invisible U+200B: codebase-scan.md:200, codebase-scan.md:288"]}],
+"security":{"invisible-unicode":["U+200B @ codebase-scan.md:200, codebase-scan.md:288"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-mobile-ads-get-started",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-mobile-ads-get-started/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"16c486e83bc568dae5ea73bc5eb75cf5a4905a25d21169b7b62f4232511ab17f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":16509,"own":{"files":4,"bytes":16509},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","gradle","jq","ruby"],"package":[],"mcp-server":[],"credential":[],"network":["api.github.com","dl.google.com"]},"summary":"4 files, 16 KiB · CLI dotnet, gradle +2 · 2 hosts","short":"16 KiB · 4 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs gradle","runs jq","runs ruby"]},{"marker":"network","because":["fetches from api.github.com","fetches from dl.google.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

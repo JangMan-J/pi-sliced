@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/clients/fix-angular-fixmes",
+"revision":"c0ca72a0c83cc8b7f990138ac04961cf63d985bc",
+"trace":{"path":"traces/bitwarden/clients/fix-angular-fixmes/c0ca72a0c83cc8b7f990138ac04961cf63d985bc/trace-3+judge-7.json","sha256":"484b47138a80766ec3db467ce2125de5b6e6a63c9f08feda7c28f996713d871c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11323,"own":{"files":1,"bytes":11323},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"angular-modernization","path":".claude/skills/angular-modernization"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

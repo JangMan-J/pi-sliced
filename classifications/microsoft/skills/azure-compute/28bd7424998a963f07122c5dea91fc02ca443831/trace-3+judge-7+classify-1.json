@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-compute",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-compute/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"36c2a8972c27be7aad023ec9fabbb04e70d512c64b9b3af2a430f3007c494f93"},
+"status":"resolved",
+"footprint":{"files":38,"bytes":126651,"own":{"files":38,"bytes":126651},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Adds","Resources","Select-Object","apply","array_length","az","gh","in","location","project","properties.virtualMachinesAssociated","terraform","where"],"package":[],"mcp-server":["azure","use"],"credential":["VM_ADMIN_PASSWORD"],"network":["learn.microsoft.com","prices.azure.com"]},"summary":"38 files, 124 KiB · MCP azure, use · CLI Adds, Resources +11 · 1 key · 2 hosts","short":"124 KiB · 13 CLI · 1 key · 2 hosts · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","13 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs Adds","runs apply","runs array_length","runs az","runs gh","runs in","runs location","runs project","runs properties.virtualMachinesAssociated","runs Resources","runs Select-Object","runs terraform","runs where"]},{"marker":"network","because":["fetches from learn.microsoft.com","fetches from prices.azure.com"]},{"marker":"credentials","because":["needs VM_ADMIN_PASSWORD"]},{"marker":"mcp-server","because":["uses the azure MCP server","uses the use MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-prepare","path":".github/plugins/azure-skills/skills/azure-prepare"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

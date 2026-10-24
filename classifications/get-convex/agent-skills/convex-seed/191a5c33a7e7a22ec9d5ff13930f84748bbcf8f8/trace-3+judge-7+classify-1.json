@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-seed",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-seed/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"19a4adfd4f440298f72ad8c18ea2a975b5cddec76cf8aba0f6bf0531e7c3c1f6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":767,"own":{"files":1,"bytes":767},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["convex"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 767 B · CLI convex","short":"767 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs convex"]},{"marker":"stub","because":["own folder 767 B (1 file)","content is the convex it wraps"]},{"marker":"unpinned-code","because":["npx convex: skills/convex-seed/SKILL.md:10, skills/convex-seed/SKILL.md:14, skills/convex-seed/SKILL.md:15"]}],
+"security":{"fetch-run":["npx convex @ skills/convex-seed/SKILL.md:10, skills/convex-seed/SKILL.md:14, skills/convex-seed/SKILL.md:15"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-android",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-android/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"d64a8a940bb44529a88f21d24e784b50cf54f90358b1e3938ac2d79110487bd0"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-android at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

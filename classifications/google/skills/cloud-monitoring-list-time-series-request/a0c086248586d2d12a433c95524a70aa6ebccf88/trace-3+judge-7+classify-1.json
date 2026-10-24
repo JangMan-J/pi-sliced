@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/cloud-monitoring-list-time-series-request",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/cloud-monitoring-list-time-series-request/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"72e2193a808a623b487b464e9558587c948db1d41164aa482661ebda6484c8e8"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":24333,"own":{"files":3,"bytes":24333},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":["monitoring"],"credential":[],"network":[]},"summary":"3 files, 24 KiB · MCP monitoring · CLI gcloud","short":"24 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"mcp-server","because":["uses the monitoring MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"cloud-monitoring-metric-selection","path":"skills/cloud/cloud-monitoring-metric-selection"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

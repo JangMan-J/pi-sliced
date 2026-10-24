@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-ai-contentsafety-java",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-ai-contentsafety-java/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"32110f32af4cd2b56da5fdf3af7c440e6b4bee31036b39367d19a8946ec878da"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8510,"own":{"files":1,"bytes":8510},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","CONTENT_SAFETY_KEY"],"network":[]},"summary":"1 file, 8.3 KiB · 2 keys","short":"8.3 KiB · 2 keys"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs CONTENT_SAFETY_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"bitwarden/android/perform-android-preflight-checklist",
+"source":"bitwarden/android",
+"revision":"d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named perform-android-preflight-checklist at d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

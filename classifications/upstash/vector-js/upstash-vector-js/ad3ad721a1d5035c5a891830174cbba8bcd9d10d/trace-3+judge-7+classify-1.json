@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/vector-js/upstash-vector-js",
+"revision":"ad3ad721a1d5035c5a891830174cbba8bcd9d10d",
+"trace":{"path":"traces/upstash/vector-js/upstash-vector-js/ad3ad721a1d5035c5a891830174cbba8bcd9d10d/trace-3+judge-7.json","sha256":"a5ea982f8bbbe62a38af0aba0a55392f076068e6807a8c46403189794506275d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9087,"own":{"files":4,"bytes":9087},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 8.9 KiB","short":"8.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

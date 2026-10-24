@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/data-manager-api-event-ingestion",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/data-manager-api-event-ingestion/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"eb3402cd84f8cb5419a2053de6d1533a02ded14d50ba64d49276cbf8240fb254"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11279,"own":{"files":1,"bytes":11279},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["developers.google.com"]},"summary":"1 file, 11 KiB · 1 host","short":"11 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from developers.google.com"]}],
+"security":{},
+"companions":{"named":[{"name":"data-manager-api-setup","path":"skills/ads/data-manager-api-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

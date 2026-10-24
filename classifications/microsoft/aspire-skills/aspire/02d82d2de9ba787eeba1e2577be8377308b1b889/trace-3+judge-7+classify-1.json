@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/aspire-skills/aspire",
+"revision":"02d82d2de9ba787eeba1e2577be8377308b1b889",
+"trace":{"path":"traces/microsoft/aspire-skills/aspire/02d82d2de9ba787eeba1e2577be8377308b1b889/trace-3+judge-7.json","sha256":"87d9e9721cf863b6d1f35d12dca35adc6b51ad36cdae15237a7d530f7c510c4f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":34642,"own":{"files":3,"bytes":34642},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aspire","typescript"],"package":["@microsoft/aspire-cli"],"mcp-server":["apphost-level","aspire","dashboard"],"credential":[],"network":[]},"summary":"3 files, 34 KiB · MCP apphost-level, aspire +1 · CLI aspire, typescript · packages @microsoft/aspire-cli","short":"34 KiB · 2 CLI · 1 pkg · MCP 3"},
+"heavy":{"heavy":true,"because":["1 package to install","3 MCP servers","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aspire","runs typescript"]},{"marker":"installs-packages","because":["installs @microsoft/aspire-cli"]},{"marker":"mcp-server","because":["uses the apphost-level MCP server","uses the aspire MCP server","uses the dashboard MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

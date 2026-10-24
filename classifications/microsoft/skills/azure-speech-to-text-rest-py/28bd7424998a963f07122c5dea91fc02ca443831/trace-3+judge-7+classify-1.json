@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-speech-to-text-rest-py",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-speech-to-text-rest-py/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"0e94223e14d974db097ba3c5206e613d3eb1508f6c7d1ed66de4824a3130ccf5"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":19823,"own":{"files":2,"bytes":19823},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["requests"],"mcp-server":[],"credential":["AZURE_SPEECH_KEY"],"network":[]},"summary":"2 files, 19 KiB · packages requests · 1 key","short":"19 KiB · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs requests"]},{"marker":"credentials","because":["needs AZURE_SPEECH_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

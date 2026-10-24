@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/preset",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/preset/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"6f6442d4ff60ce6c95d89987782e56a69266ee3039d073cfda87437bf2c0a687"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":62007,"own":{"files":2,"bytes":10723},"otherSkills":{"count":1,"files":7,"bytes":51284},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","eastus","jq"],"package":[],"mcp-server":["azure"],"credential":[],"network":["management.azure.com","portal.azure.com"]},"summary":"9 files, 61 KiB · +1 other skill · MCP azure · CLI az, eastus +1 · 2 hosts","short":"61 KiB · +1 skill · 3 CLI · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs eastus","runs jq"]},{"marker":"network","because":["fetches from management.azure.com","fetches from portal.azure.com"]},{"marker":"mcp-server","because":["uses the azure MCP server"]},{"marker":"chain-loads","because":["pulls in 7 files of the skill at .github/plugins/azure-skills/skills/microsoft-foundry"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".github/plugins/azure-skills/skills/microsoft-foundry","files":7,"bytes":51284}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

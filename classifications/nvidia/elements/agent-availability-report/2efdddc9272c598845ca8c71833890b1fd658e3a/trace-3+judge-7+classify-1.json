@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/elements/agent-availability-report",
+"revision":"2efdddc9272c598845ca8c71833890b1fd658e3a",
+"trace":{"path":"traces/nvidia/elements/agent-availability-report/2efdddc9272c598845ca8c71833890b1fd658e3a/trace-3+judge-7.json","sha256":"57b8276de4c586779eca16a2ac7de6efaf5ebdaa8bbdc811392b1b4b1dd3bbab"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":23913,"own":{"files":2,"bytes":23913},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["mise","skills"],"package":["@nvidia-elements/code","@nvidia-elements/core","@nvidia-elements/forms","@nvidia-elements/markdown","@nvidia-elements/monaco","@nvidia-elements/styles","@nvidia-elements/themes","before","check","failed","resolve"],"mcp-server":[],"credential":[],"network":["github.com","nvidia.github.io"]},"summary":"2 files, 23 KiB · CLI mise, skills · packages @nvidia-elements/code +10 · 2 hosts","short":"23 KiB · 2 CLI · 11 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["11 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs mise","runs skills"]},{"marker":"installs-packages","because":["installs @nvidia-elements/code","installs @nvidia-elements/core","installs @nvidia-elements/forms","installs @nvidia-elements/markdown","installs @nvidia-elements/monaco","installs @nvidia-elements/styles","installs @nvidia-elements/themes","installs before","installs check","installs failed","installs resolve"]},{"marker":"network","because":["fetches from github.com","fetches from nvidia.github.io"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]}],
+"security":{"skill-fetch":["npx skills add @ .agents/skills/agent-availability-report/SKILL.md:62"]},
+"companions":{"named":[{"name":"elements","path":".agents/skills/elements"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

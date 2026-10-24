@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/cloudflare-deploy",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/cloudflare-deploy/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"15163ec5ad9594a0e4f2f773fc1f0c3e32977feb856b58c8d488c8ff0d405e21"},
+"status":"unresolvable",
+"reason":"no skill folder named cloudflare-deploy at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b"
+}

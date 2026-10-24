@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"android/skills/play-policy-insights",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"trace":{"path":"traces/android/skills/play-policy-insights/a3f56b8fc83039c407e20a7b4789c2b6ea192d57/trace-3+judge-7.json","sha256":"1f5a3b35c5f36c339271b77a7206d214cdeda0cdd75c748b81c23245a81a1c5f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":82933,"own":{"files":3,"bytes":82933},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["play_store_scraper","scanner","template_engine"],"mcp-server":[],"credential":[],"network":["schemas.android.com"]},"summary":"3 files, 81 KiB · packages play_store_scraper +2 · 1 host","short":"81 KiB · 3 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs play_store_scraper","installs scanner","installs template_engine"]},{"marker":"network","because":["fetches from schemas.android.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

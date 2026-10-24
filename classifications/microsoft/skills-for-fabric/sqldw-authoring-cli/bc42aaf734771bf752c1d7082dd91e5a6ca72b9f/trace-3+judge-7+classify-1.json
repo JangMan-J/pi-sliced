@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/sqldw-authoring-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/sqldw-authoring-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"49e6f832b5f9b493849a472ee3982ff3dab0637eadacd32753c7b0c350e447f3"},
+"status":"unresolvable",
+"reason":"no skill folder named sqldw-authoring-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

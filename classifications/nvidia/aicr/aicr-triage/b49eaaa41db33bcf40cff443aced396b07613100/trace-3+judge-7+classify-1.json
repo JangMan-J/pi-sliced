@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/aicr/aicr-triage",
+"revision":"b49eaaa41db33bcf40cff443aced396b07613100",
+"trace":{"path":"traces/nvidia/aicr/aicr-triage/b49eaaa41db33bcf40cff443aced396b07613100/trace-3+judge-7.json","sha256":"cabd2a03fd6d1d42a2d7f12be5488e5faff04565dc598c3d5fd3511412f188d8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":27817,"own":{"files":1,"bytes":27817},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Done","Records","This","approved","duplicate","gh","jq","not","not_planned","slice","the"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 27 KiB · CLI Done, Records +9","short":"27 KiB · 11 CLI"},
+"heavy":{"heavy":true,"because":["11 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs approved","runs Done","runs duplicate","runs gh","runs jq","runs not","runs not_planned","runs Records","runs slice","runs the","runs This"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

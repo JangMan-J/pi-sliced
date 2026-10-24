@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/debugpy/flask",
+"revision":"671f6c7d1b228b8001f659bf61e39b7668587302",
+"trace":{"path":"traces/microsoft/debugpy/flask/671f6c7d1b228b8001f659bf61e39b7668587302/trace-3+judge-7.json","sha256":"d2e64f99b3814ef734f27019777386942c6d4e6821a0e8dff75ccfe74122fc03"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1731,"own":{"files":1,"bytes":1731},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.7 KiB","short":"1.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

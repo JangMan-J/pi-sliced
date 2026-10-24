@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/cloud-integrations",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/cloud-integrations/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"4565aff1fec8e3936bc99410b708f41bb7a812582dde469cbfb428b1931a934f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9994,"own":{"files":1,"bytes":9994},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","jq"],"package":[],"mcp-server":[],"credential":["API_KEY","API_TOKEN"],"network":["integrations-api.grafana.net","prometheus-prod-xx-xx-x.grafana.net"]},"summary":"1 file, 9.8 KiB · CLI az, jq · 2 keys · 2 hosts","short":"9.8 KiB · 2 CLI · 2 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs jq"]},{"marker":"network","because":["fetches from integrations-api.grafana.net","fetches from prometheus-prod-xx-xx-x.grafana.net"]},{"marker":"credentials","because":["needs API_KEY","needs API_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

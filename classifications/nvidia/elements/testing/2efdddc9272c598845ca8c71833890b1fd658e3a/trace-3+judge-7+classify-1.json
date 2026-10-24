@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/elements/testing",
+"revision":"2efdddc9272c598845ca8c71833890b1fd658e3a",
+"trace":{"path":"traces/nvidia/elements/testing/2efdddc9272c598845ca8c71833890b1fd658e3a/trace-3+judge-7.json","sha256":"fa3e3c9f877f7ea01035263254cf90bea6a3f942fab89554d48e168f3067127b"},
+"status":"unresolvable",
+"reason":"no skill folder named testing at 2efdddc9272c598845ca8c71833890b1fd658e3a"
+}

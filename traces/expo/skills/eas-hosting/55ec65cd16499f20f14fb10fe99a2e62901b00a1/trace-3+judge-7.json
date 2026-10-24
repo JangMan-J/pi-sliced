@@ -1,0 +1,36 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/eas-hosting",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/eas-hosting",
+"status":"resolved",
+"totals":{"files":1,"bytes":11495},
+"files":[
+{"path":"plugins/expo/skills/eas-hosting/SKILL.md","size":11495,"blob":"bf94617ae9d409f878b37e1e4470227761426766","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"eas","at":[[0,12],[0,225],[0,249]]},
+{"kind":"cli","name":"eas-cli","at":[[0,237],[0,240]]},
+{"kind":"cli","name":"expo","at":[[0,12],[0,207],[0,234]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[0,428]]},
+{"kind":"package","name":"eas-cli","at":[[0,224]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/eas-hosting","files":1,"bytes":11495}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx eas-cli@latest","at":[[0,237],[0,240]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,12],[0,207],[0,234]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[0,428]]}
+],
+"namedSkills":[
+{"name":"eas-app-stores","path":"plugins/expo/skills/eas-app-stores","at":[[0,3]]},
+{"name":"eas-workflows","path":"plugins/expo/skills/eas-workflows","at":[[0,296]]},
+{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback","at":[[0,431]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

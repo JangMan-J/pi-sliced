@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/data-quality-frameworks",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/data-quality-frameworks/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"54dc6362593be8e810eebaeedc151922a527691ed7e432a460d87fd7c46228ba"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":16146,"own":{"files":2,"bytes":16146},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["great_expectations"],"package":["great_expectations"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 16 KiB · CLI great_expectations · packages great_expectations","short":"16 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs great_expectations"]},{"marker":"installs-packages","because":["installs great_expectations"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

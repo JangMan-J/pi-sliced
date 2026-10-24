@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elastic/agent-skills/cloud-provisioning",
+"revision":"baa511126ba2dc37b52e273b52734f8e4e0d323c",
+"trace":{"path":"traces/elastic/agent-skills/cloud-provisioning/baa511126ba2dc37b52e273b52734f8e4e0d323c/trace-3+judge-7.json","sha256":"6d6c9c49e7043371db0a16ca371970708df27196f3467ff90d4ed0ecea47ff82"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":50341,"own":{"files":5,"bytes":50341},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["elastic"],"package":[],"mcp-server":[],"credential":["EC_API_KEY"],"network":[]},"summary":"5 files, 49 KiB · CLI elastic · 1 key","short":"49 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs elastic"]},{"marker":"credentials","because":["needs EC_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

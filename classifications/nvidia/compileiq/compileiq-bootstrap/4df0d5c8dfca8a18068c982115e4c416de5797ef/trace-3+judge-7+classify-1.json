@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/compileiq/compileiq-bootstrap",
+"revision":"4df0d5c8dfca8a18068c982115e4c416de5797ef",
+"trace":{"path":"traces/nvidia/compileiq/compileiq-bootstrap/4df0d5c8dfca8a18068c982115e4c416de5797ef/trace-3+judge-7.json","sha256":"2e444b71202163a20d977b0efb3bfad13cc0f17b9c2577d84938efc4d70baf7f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9341,"own":{"files":2,"bytes":9341},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["and","assert","f","from","imports_OK","nvcc","nvidia-smi","print","ptxas"],"package":["compileiq"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.1 KiB · CLI and, assert +7 · packages compileiq","short":"9.1 KiB · 9 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs and","runs assert","runs f","runs from","runs imports_OK","runs nvcc","runs nvidia-smi","runs print","runs ptxas"]},{"marker":"installs-packages","because":["installs compileiq"]}],
+"security":{},
+"companions":{"named":[{"name":"compileiq-author-objective","path":"agent-skills/compileiq-author-objective"},{"name":"compileiq-booster-pack","path":"agent-skills/compileiq-booster-pack"},{"name":"compileiq-search-space","path":"agent-skills/compileiq-search-space"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

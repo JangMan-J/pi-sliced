@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/sonoscli",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/sonoscli/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"6539c8c0a7ee5476001d9def5e4e4c467632932022327c45a113e5178b0b3533"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2455,"own":{"files":1,"bytes":2455},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sonos"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.4 KiB · CLI sonos","short":"2.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs sonos"]},{"marker":"stub","because":["own folder 2.4 KiB (1 file)","content is the sonos it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

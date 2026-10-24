@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/mlflow",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/mlflow/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"3280e010a2b914816d4f1a7e741d3d38fc705ae8fcdf46e892c640f9eac2c74c"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":64739,"own":{"files":4,"bytes":64739},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","kubectl","mlflow"],"package":["mlflow"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 63 KiB · CLI docker, kubectl +1 · packages mlflow","short":"63 KiB · 3 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs kubectl","runs mlflow"]},{"marker":"installs-packages","because":["installs mlflow"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

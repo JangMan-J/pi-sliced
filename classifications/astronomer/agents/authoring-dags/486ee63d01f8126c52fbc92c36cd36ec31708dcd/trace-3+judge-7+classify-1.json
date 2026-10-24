@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/authoring-dags",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/authoring-dags/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"72a667c8ddf795321d007d2556fcc05861904d15e34a669d471c31076e72f3a6"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":17911,"own":{"files":2,"bytes":17911},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["af","astro"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 17 KiB · CLI af, astro","short":"17 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs af","runs astro"]}],
+"security":{},
+"companions":{"named":[{"name":"testing-dags","path":"skills/testing-dags"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

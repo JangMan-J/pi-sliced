@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/agent-platform-model-registry",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/agent-platform-model-registry/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"932a3b488399fe1da0cfb1db24c42a4848d0d53a47e243795acf5cad0b368c4d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10239,"own":{"files":1,"bytes":10239},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aiplatform.init","f","from","gcloud","model.update","print"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10.0 KiB · CLI aiplatform.init, f +4","short":"10.0 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aiplatform.init","runs f","runs from","runs gcloud","runs model.update","runs print"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

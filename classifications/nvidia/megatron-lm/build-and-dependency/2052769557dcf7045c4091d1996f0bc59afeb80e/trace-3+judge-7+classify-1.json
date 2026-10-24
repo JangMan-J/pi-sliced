@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/build-and-dependency",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/build-and-dependency/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"21db5ecaaf00e8b67062599d441ef941cd775a03f78af1680e766bed2343c841"},
+"status":"unresolvable",
+"reason":"no skill folder named build-and-dependency at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

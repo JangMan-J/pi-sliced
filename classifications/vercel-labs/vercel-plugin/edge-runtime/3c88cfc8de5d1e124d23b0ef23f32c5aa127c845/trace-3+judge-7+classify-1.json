@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/edge-runtime",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/edge-runtime/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"da271e07b74a0f7bc67f911c2b0aec7d29f7d2e247fc938374b377b140ee7ed1"},
+"status":"unresolvable",
+"reason":"no skill folder named edge-runtime at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

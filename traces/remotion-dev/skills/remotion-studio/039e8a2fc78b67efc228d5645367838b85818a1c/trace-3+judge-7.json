@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"remotion-dev/skills/remotion-studio",
+"source":"remotion-dev/skills",
+"revision":"039e8a2fc78b67efc228d5645367838b85818a1c",
+"skillPath":"skills/remotion-studio",
+"status":"resolved",
+"totals":{"files":1,"bytes":1611},
+"files":[
+{"path":"skills/remotion-studio/SKILL.md","size":1611,"blob":"5c4d0ac84f5f0e674d2d04273acc4a092be3281d","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"remotion","at":[[0,12],[0,18]]}
+],
+"regions":[
+{"kind":"own","path":"skills/remotion-studio","files":1,"bytes":1611}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx remotion","at":[[0,12],[0,18]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

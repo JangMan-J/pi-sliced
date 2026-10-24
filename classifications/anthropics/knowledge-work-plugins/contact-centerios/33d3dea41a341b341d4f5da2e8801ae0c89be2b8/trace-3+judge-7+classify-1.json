@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/contact-centerios",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/contact-centerios/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"4f25b81b384e483af74ac9b23d074625fd4a6dcfdf2258d01c34c9c4f86898b1"},
+"status":"unresolvable",
+"reason":"no skill folder named contact-centerios at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

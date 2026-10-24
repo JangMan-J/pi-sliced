@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"brave/brave-core/top-crashers",
+"revision":"1e6f00267d382150bac8f87266a163d36e609eb8",
+"trace":{"path":"traces/brave/brave-core/top-crashers/1e6f00267d382150bac8f87266a163d36e609eb8/trace-3+judge-7.json","sha256":"1b763a3c8a5fd9a2680d6cad71233e374125904877d7c1483512feceb775a359"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13970,"own":{"files":1,"bytes":13970},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI jq","short":"14 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

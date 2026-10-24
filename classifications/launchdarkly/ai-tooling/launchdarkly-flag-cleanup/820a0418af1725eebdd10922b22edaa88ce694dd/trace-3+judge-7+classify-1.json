@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/ai-tooling/launchdarkly-flag-cleanup",
+"revision":"820a0418af1725eebdd10922b22edaa88ce694dd",
+"trace":{"path":"traces/launchdarkly/ai-tooling/launchdarkly-flag-cleanup/820a0418af1725eebdd10922b22edaa88ce694dd/trace-3+judge-7.json","sha256":"2b91d2ef5e2a1f117d3018ebd6f8eb9772b0d8ca6fabb4fb34a033b372a60328"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":65149,"own":{"files":3,"bytes":18631},"otherSkills":{"count":2,"files":8,"bytes":46518},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["launchdarkly","optional","required"],"credential":[],"network":[]},"summary":"11 files, 64 KiB · +2 other skills · MCP launchdarkly, optional +1","short":"64 KiB · +2 skills · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the launchdarkly MCP server","uses the optional MCP server","uses the required MCP server"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/feature-flags/launchdarkly-flag-discovery","pulls in 5 files of the skill at skills/feature-flags/launchdarkly-flag-targeting"]},{"marker":"agent-override-text","because":["\"override all rules\": skills/feature-flags/launchdarkly-flag-targeting/SKILL.md:128, skills/feature-flags/launchdarkly-flag-targeting/references/targeting-patterns.md:220","\"override rules\": skills/feature-flags/launchdarkly-flag-targeting/references/safety-checklist.md:60"]}],
+"security":{"injection":["override all rules @ skills/feature-flags/launchdarkly-flag-targeting/SKILL.md:128, skills/feature-flags/launchdarkly-flag-targeting/references/targeting-patterns.md:220","override rules @ skills/feature-flags/launchdarkly-flag-targeting/references/safety-checklist.md:60"]},
+"companions":{"named":[],"pulled":[{"path":"skills/feature-flags/launchdarkly-flag-discovery","files":3,"bytes":15016},{"path":"skills/feature-flags/launchdarkly-flag-targeting","files":5,"bytes":31502}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

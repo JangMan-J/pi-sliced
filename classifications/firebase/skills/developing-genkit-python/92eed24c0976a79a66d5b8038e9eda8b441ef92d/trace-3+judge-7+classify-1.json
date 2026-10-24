@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/skills/developing-genkit-python",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/skills/developing-genkit-python/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"e6571f5dbbfb724651b9778c54dd8290723b33d5b63844c2cb97b400b6baf81a"},
+"status":"unresolvable",
+"reason":"no skill folder named developing-genkit-python at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

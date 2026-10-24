@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-plugin/ai-generation-persistence",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel/vercel-plugin/ai-generation-persistence/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"8305fa1d977baf63b0884abddd64d2d36c9e509a6b13e548f514098a6997fa10"},
+"status":"unresolvable",
+"reason":"no skill folder named ai-generation-persistence at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

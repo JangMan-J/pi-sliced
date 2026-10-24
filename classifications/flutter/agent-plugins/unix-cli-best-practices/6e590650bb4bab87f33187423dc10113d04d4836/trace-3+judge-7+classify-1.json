@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/unix-cli-best-practices",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/unix-cli-best-practices/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"464778131a63fec43aea8e60928b8bc6d4442c08371f4e22109042070f1e9811"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7504,"own":{"files":1,"bytes":7504},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["fd","mdfind","open","pbcopy","pbpaste","rg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB · CLI fd, mdfind +4","short":"7.3 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs fd","runs mdfind","runs open","runs pbcopy","runs pbpaste","runs rg"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

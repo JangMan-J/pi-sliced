@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/skills/playwright",
+"source":"openai/skills",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"skillPath":"skills/.curated/playwright",
+"status":"resolved",
+"totals":{"files":3,"bytes":7498},
+"files":[
+{"path":"skills/.curated/playwright/SKILL.md","size":3771,"blob":"77c01afb31aa602d0b002ae2438c2b67f0335fcb","how":"root"},
+{"path":"skills/.curated/playwright/references/cli.md","size":1863,"blob":"ec0b4e1aca28021a493ba84ce67489bd8ef9e876","how":"path","from":0,"line":136},
+{"path":"skills/.curated/playwright/references/workflows.md","size":1864,"blob":"ffd45c0d8249fe1a3766f9745b75154112d04d87","how":"path","from":0,"line":137}
+],
+"outside":[
+{"kind":"cli","name":"@playwright/cli","at":[[0,124]]},
+{"kind":"cli","name":"pwcli","at":[[1,22],[1,23],[1,24],[1,25],[1,26],[1,27],[1,28],[1,29],[1,30],[1,31],[1,32],[1,33],[1,34],[1,35],[1,36],[1,37],[1,38],[1,39],[1,40],[1,41],[1,47],[1,48],[1,49],[1,55],[1,56],[1,57],[1,58],[1,64],[1,65],[1,66],[1,67],[1,68],[1,69],[1,75],[1,76],[1,77],[1,83],[1,84],[1,85],[1,86],[1,87],[1,88],[1,94],[1,95],[1,96],[1,97],[1,98],[1,99],[1,107],[1,108],[1,115],[2,10],[2,11],[2,12],[2,13],[2,19],[2,20],[2,21],[2,22],[2,23],[2,24],[2,25],[2,31],[2,32],[2,33],[2,34],[2,42],[2,43],[2,49],[2,51],[2,52],[2,60],[2,61],[2,62],[2,69]]},
+{"kind":"package","name":"@playwright/cli","at":[[0,28],[0,59]]}
+],
+"regions":[
+{"kind":"own","path":"skills/.curated/playwright","files":3,"bytes":7498}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,28],[0,59]]},
+{"kind":"fetch-run","detail":"npx @playwright/cli","at":[[0,124]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/.curated/playwright/LICENSE.txt","spdx":"Apache-2.0","frontmatter":null}
+}

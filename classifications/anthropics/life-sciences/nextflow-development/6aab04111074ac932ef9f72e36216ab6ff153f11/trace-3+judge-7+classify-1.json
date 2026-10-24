@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/life-sciences/nextflow-development",
+"revision":"6aab04111074ac932ef9f72e36216ab6ff153f11",
+"trace":{"path":"traces/anthropics/life-sciences/nextflow-development/6aab04111074ac932ef9f72e36216ab6ff153f11/trace-3+judge-7.json","sha256":"956b3f17193a5e9d33042edf4f2adad5a8b6c1a2f8868ccc1fe950b16e6d276a"},
+"status":"unresolvable",
+"reason":"no skill folder named nextflow-development at 6aab04111074ac932ef9f72e36216ab6ff153f11"
+}

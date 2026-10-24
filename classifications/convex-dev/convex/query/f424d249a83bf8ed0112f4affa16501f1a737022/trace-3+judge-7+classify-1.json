@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"convex-dev/convex/query",
+"revision":"f424d249a83bf8ed0112f4affa16501f1a737022",
+"trace":{"path":"traces/convex-dev/convex/query/f424d249a83bf8ed0112f4affa16501f1a737022/trace-3+judge-7.json","sha256":"66d41dd1259aaf94f47fea9a0235cb29c80090a8b9299b22bc3f73a0e1023810"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":2390,"own":{"files":1,"bytes":596},"otherSkills":{"count":1,"files":1,"bytes":1794},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["balance","java"],"package":[],"mcp-server":["convex"],"credential":[],"network":[]},"summary":"2 files, 2.3 KiB · +1 other skill · MCP convex · CLI balance, java","short":"2.3 KiB · +1 skill · 2 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs balance","runs java"]},{"marker":"mcp-server","because":["uses the convex MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at .claude/skills/query"]},{"marker":"stub","because":["own folder 596 B (1 file)","1.8 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".claude/skills/query","files":1,"bytes":1794}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

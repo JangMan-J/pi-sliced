@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/shap",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/shap/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"957126466663a3ed7b9e9537decb2d7c1cb0dd41993a0efee7af38b0458313f8"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":140153,"own":{"files":10,"bytes":140153},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["matplotlib","numpy","pandas","scikit-learn","shap"],"mcp-server":[],"credential":[],"network":["arxiv.org"]},"summary":"10 files, 137 KiB · packages matplotlib +4 · 1 host","short":"137 KiB · 5 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["5 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs matplotlib","installs numpy","installs pandas","installs scikit-learn","installs shap"]},{"marker":"network","because":["fetches from arxiv.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

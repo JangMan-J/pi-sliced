@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/code-review",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/coderabbit/skills/coderabbit-review",
+"status":"resolved",
+"totals":{"files":1,"bytes":3407},
+"files":[
+{"path":"plugins/coderabbit/skills/coderabbit-review/SKILL.md","size":3407,"blob":"4ab0d87ba852fd3144e665bf2b58817daca63887","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"coderabbit","at":[[0,18],[0,27],[0,32],[0,38],[0,41],[0,48],[0,54],[0,55],[0,56],[0,57],[0,67]]},
+{"kind":"network","name":"cli.coderabbit.ai","at":[[0,24]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/coderabbit/skills/coderabbit-review","files":1,"bytes":3407}
+],
+"signals":[
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,24]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

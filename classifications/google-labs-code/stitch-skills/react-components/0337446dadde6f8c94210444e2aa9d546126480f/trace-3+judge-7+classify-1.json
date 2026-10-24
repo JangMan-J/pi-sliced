@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-labs-code/stitch-skills/react-components",
+"revision":"0337446dadde6f8c94210444e2aa9d546126480f",
+"trace":{"path":"traces/google-labs-code/stitch-skills/react-components/0337446dadde6f8c94210444e2aa9d546126480f/trace-3+judge-7.json","sha256":"88da407319f3ed08c929a431faf79579dccbc7bc2db9965fdb768daf0c11bf24"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":11936,"own":{"files":5,"bytes":11936},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tsc"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 12 KiB · CLI tsc","short":"12 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tsc"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

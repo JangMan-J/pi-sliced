@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/mcp-server-neon/claimable-postgres",
+"revision":"fd9123cfba3f3e7d03c6bc01bad880251d5bf682",
+"trace":{"path":"traces/neondatabase/mcp-server-neon/claimable-postgres/fd9123cfba3f3e7d03c6bc01bad880251d5bf682/trace-3+judge-7.json","sha256":"0200cc6cf34a06d3c1d228dc46cc67b9de13ec4d99314ddc7553f8408ff6e761"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12485,"own":{"files":1,"bytes":12485},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["neon","neon-new","psql","skills"],"package":["@neon/config","vite-plugin-neon-new"],"mcp-server":[],"credential":[],"network":["neon.com","neon.new"]},"summary":"1 file, 12 KiB · CLI neon, neon-new +2 · packages @neon/config +1 · 2 hosts","short":"12 KiB · 4 CLI · 2 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs neon","runs neon-new","runs psql","runs skills"]},{"marker":"installs-packages","because":["installs @neon/config","installs vite-plugin-neon-new"]},{"marker":"network","because":["fetches from neon.com","fetches from neon.new"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["bunx neon-new@latest: .agents/skills/claimable-postgres/SKILL.md:178","npx neon-new@latest: .agents/skills/claimable-postgres/SKILL.md:42, .agents/skills/claimable-postgres/SKILL.md:73, .agents/skills/claimable-postgres/SKILL.md:149","npx skills: .agents/skills/claimable-postgres/SKILL.md:20","pnpm dlx neon-new@latest: .agents/skills/claimable-postgres/SKILL.md:178","yarn dlx neon-new@latest: .agents/skills/claimable-postgres/SKILL.md:178"]}],
+"security":{"fetch-run":["bunx neon-new@latest @ .agents/skills/claimable-postgres/SKILL.md:178","npx neon-new@latest @ .agents/skills/claimable-postgres/SKILL.md:42, .agents/skills/claimable-postgres/SKILL.md:73, .agents/skills/claimable-postgres/SKILL.md:149 +1","npx skills @ .agents/skills/claimable-postgres/SKILL.md:20","pnpm dlx neon-new@latest @ .agents/skills/claimable-postgres/SKILL.md:178","yarn dlx neon-new@latest @ .agents/skills/claimable-postgres/SKILL.md:178"],"skill-fetch":["npx skills add @ .agents/skills/claimable-postgres/SKILL.md:20"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

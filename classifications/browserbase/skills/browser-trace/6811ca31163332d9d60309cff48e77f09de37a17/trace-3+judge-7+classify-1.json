@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/skills/browser-trace",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"trace":{"path":"traces/browserbase/skills/browser-trace/6811ca31163332d9d60309cff48e77f09de37a17/trace-3+judge-7.json","sha256":"ef2401955dfc352c094b8f6fbde7393895c3ea3eec6e9408a7db9e412f8570d3"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":79361,"own":{"files":11,"bytes":79361},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Cannot_read","Cannot_read_properties_of_undefined","Google_Chrome","add","as","browse","first","floor","group_by","jq","map","not","now","null","open","pkill","print","rg","sort_by"],"package":["browse"],"mcp-server":[],"credential":["BROWSERBASE_API_KEY"],"network":[]},"summary":"11 files, 78 KiB · CLI Cannot_read, Cannot_read_properties_of_undefined +17 · packages browse · 1 key","short":"78 KiB · 19 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","19 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs add","runs as","runs browse","runs Cannot_read","runs Cannot_read_properties_of_undefined","runs first","runs floor","runs Google_Chrome","runs group_by","runs jq","runs map","runs not","runs now","runs null","runs open","runs pkill","runs print","runs rg","runs sort_by"]},{"marker":"installs-packages","because":["installs browse"]},{"marker":"credentials","because":["needs BROWSERBASE_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"browser","path":"skills/browser"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemoclaw-maintainer-security-code-review",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemoclaw-maintainer-security-code-review/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"9aa0cbaa7a04f01bbc54e9ed06b464974e0e36bbb5c31ea97c10999a84c0c520"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-maintainer-security-code-review at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

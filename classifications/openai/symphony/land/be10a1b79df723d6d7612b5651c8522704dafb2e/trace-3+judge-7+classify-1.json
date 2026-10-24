@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/symphony/land",
+"revision":"be10a1b79df723d6d7612b5651c8522704dafb2e",
+"trace":{"path":"traces/openai/symphony/land/be10a1b79df723d6d7612b5651c8522704dafb2e/trace-3+judge-7.json","sha256":"e846f296723de9939c8c89b818850adf25fe388e3a32af603ad7da67777ab153"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10064,"own":{"files":1,"bytes":10064},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.8 KiB","short":"9.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"without asking the user\": .codex/skills/land/SKILL.md:51"]}],
+"security":{"injection":["without asking the user @ .codex/skills/land/SKILL.md:51"]},
+"companions":{"named":[{"name":"commit","path":".codex/skills/commit"},{"name":"pull","path":".codex/skills/pull"},{"name":"push","path":".codex/skills/push"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

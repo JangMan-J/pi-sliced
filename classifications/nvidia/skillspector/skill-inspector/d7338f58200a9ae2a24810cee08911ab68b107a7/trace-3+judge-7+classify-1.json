@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skillspector/skill-inspector",
+"revision":"d7338f58200a9ae2a24810cee08911ab68b107a7",
+"trace":{"path":"traces/nvidia/skillspector/skill-inspector/d7338f58200a9ae2a24810cee08911ab68b107a7/trace-3+judge-7.json","sha256":"96b1bf3ba2c2fbf5f566912c8bde9e47040643e44eb1a9deb7a44e1399f7f621"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7559,"own":{"files":1,"bytes":7559},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skillspector"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.4 KiB · CLI skillspector","short":"7.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skillspector"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

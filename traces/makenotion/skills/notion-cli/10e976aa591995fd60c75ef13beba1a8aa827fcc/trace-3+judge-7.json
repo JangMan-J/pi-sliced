@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"makenotion/skills/notion-cli",
+"source":"makenotion/skills",
+"revision":"10e976aa591995fd60c75ef13beba1a8aa827fcc",
+"skillPath":"skills/notion-cli",
+"status":"resolved",
+"totals":{"files":1,"bytes":3029},
+"files":[
+{"path":"skills/notion-cli/SKILL.md","size":3029,"blob":"67443398b3b2beb983875fbea1a03028971d906c","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"ntn","at":[[0,36],[0,43],[0,47],[0,50],[0,53],[0,66],[0,69],[0,80],[0,81],[0,82],[0,83],[0,88],[0,92],[0,93],[0,94],[0,95]]},
+{"kind":"network","name":"ntn.dev","at":[[0,29]]}
+],
+"regions":[
+{"kind":"own","path":"skills/notion-cli","files":1,"bytes":3029}
+],
+"signals":[
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,29]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/notion-cli/LICENSE.md","spdx":"MIT","frontmatter":null}
+}

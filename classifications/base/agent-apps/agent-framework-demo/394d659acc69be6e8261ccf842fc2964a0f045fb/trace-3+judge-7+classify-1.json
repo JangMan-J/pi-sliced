@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"base/agent-apps/agent-framework-demo",
+"revision":"394d659acc69be6e8261ccf842fc2964a0f045fb",
+"trace":{"path":"traces/base/agent-apps/agent-framework-demo/394d659acc69be6e8261ccf842fc2964a0f045fb/trace-3+judge-7.json","sha256":"0e4e39d32254e0e2cddd73d565cfa2a5c3cb5e8b8a9382a8eaf0d9050b5eac0c"},
+"status":"unresolvable",
+"reason":"no skill folder named agent-framework-demo at 394d659acc69be6e8261ccf842fc2964a0f045fb"
+}

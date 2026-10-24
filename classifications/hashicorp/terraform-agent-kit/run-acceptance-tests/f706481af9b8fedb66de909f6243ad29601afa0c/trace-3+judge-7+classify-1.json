@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/terraform-agent-kit/run-acceptance-tests",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/terraform-agent-kit/run-acceptance-tests/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"c2520e3e0fca606cc9a3c34c18e0793f6120c93c2f649c6447e37b00de991a6e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3059,"own":{"files":1,"bytes":3059},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go"],"package":[],"mcp-server":[],"credential":["EXAMPLE_API_KEY"],"network":[]},"summary":"1 file, 3.0 KiB · CLI go · 1 key","short":"3.0 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs go"]},{"marker":"credentials","because":["needs EXAMPLE_API_KEY"]},{"marker":"stub","because":["own folder 3.0 KiB (1 file)","content is the go it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"provider-configuration","path":"plugins/terraform/skills/provider-configuration"},{"name":"provider-test-patterns","path":"plugins/terraform/skills/provider-test-patterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

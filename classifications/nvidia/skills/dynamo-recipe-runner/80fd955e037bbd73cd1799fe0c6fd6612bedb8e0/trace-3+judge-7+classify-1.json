@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/dynamo-recipe-runner",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/dynamo-recipe-runner/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"65b95213888f91fea630e3847dd12419a1e924c458a4f767a0c47bfb7a194544"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":31999,"own":{"files":6,"bytes":31999},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["kubectl"],"package":[],"mcp-server":[],"credential":["HF_TOKEN"],"network":[]},"summary":"6 files, 31 KiB · CLI kubectl · 1 key","short":"31 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs kubectl"]},{"marker":"credentials","because":["needs HF_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"dynamo-interconnect-check","path":"skills/dynamo-interconnect-check"},{"name":"dynamo-router-starter","path":"skills/dynamo-router-starter"},{"name":"dynamo-troubleshoot","path":"skills/dynamo-troubleshoot"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

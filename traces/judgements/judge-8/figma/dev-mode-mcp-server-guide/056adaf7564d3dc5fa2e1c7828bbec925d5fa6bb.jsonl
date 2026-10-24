@@ -1,0 +1,1 @@
+{"id":"03a4ebbc6a70819ff50423aba7d29ae335516d02ef5c4356191e99cf38347005","pullsIn":true,"reason":"The rule directs embedding scripts from scripts/ into use_figma calls.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills-figquery/figma-generate-library/SKILL.md","line":138,"ref":"scripts/","target":"skills-figquery/figma-generate-library/scripts"}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/detection-engineering-coverage-evaluation",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/detection-engineering-coverage-evaluation/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"c54c83e8a8b418e267effa893d11d54bb93237f993cb1c620a90711ec9b43181"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":32865,"own":{"files":1,"bytes":13119},"otherSkills":{"count":1,"files":1,"bytes":19746},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vssadmin.exe"],"package":[],"mcp-server":["secops"],"credential":[],"network":[]},"summary":"2 files, 32 KiB · +1 other skill · MCP secops · CLI vssadmin.exe","short":"32 KiB · +1 skill · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs vssadmin.exe"]},{"marker":"mcp-server","because":["uses the secops MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/cloud/secops-detection-engineering"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/cloud/secops-detection-engineering","files":1,"bytes":19746}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

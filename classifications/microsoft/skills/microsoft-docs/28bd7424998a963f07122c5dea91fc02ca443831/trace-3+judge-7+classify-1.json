@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/microsoft-docs",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/microsoft-docs/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"319b0ba90493ff7cf5a4f93be5945a8db6b37f41d77d67fb23a28015c828c835"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2925,"own":{"files":1,"bytes":2925},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@microsoft/learn-cli","mslearn"],"package":["@microsoft/learn-cli"],"mcp-server":["learn"],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB · MCP learn · CLI @microsoft/learn-cli, mslearn · packages @microsoft/learn-cli","short":"2.9 KiB · 2 CLI · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @microsoft/learn-cli","runs mslearn"]},{"marker":"installs-packages","because":["installs @microsoft/learn-cli"]},{"marker":"mcp-server","because":["uses the learn MCP server"]},{"marker":"stub","because":["own folder 2.9 KiB (1 file)","content is the @microsoft/learn-cli, mslearn it wraps"]},{"marker":"unpinned-code","because":["npx @microsoft/learn-cli: .github/skills/microsoft-docs/SKILL.md:5, .github/skills/microsoft-docs/SKILL.md:65"]}],
+"security":{"fetch-run":["npx @microsoft/learn-cli @ .github/skills/microsoft-docs/SKILL.md:5, .github/skills/microsoft-docs/SKILL.md:65"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

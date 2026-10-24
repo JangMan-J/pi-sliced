@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/runtime-api-configs",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/runtime-api-configs/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"e3633591986956d5e6e3c3ee2047290e063b55c7c64b69d93ec25878452273fa"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":20657,"own":{"files":2,"bytes":20657},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["kubectl","node-monorepo","php-web","ruby-app"],"package":[],"mcp-server":[],"credential":["ADMIN_PASSWORD","ADMIN_TOKEN","API_KEY"],"network":[]},"summary":"2 files, 20 KiB · CLI kubectl, node-monorepo +2 · 3 keys","short":"20 KiB · 4 CLI · 3 keys"},
+"heavy":{"heavy":true,"because":["4 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs kubectl","runs node-monorepo","runs php-web","runs ruby-app"]},{"marker":"credentials","because":["needs ADMIN_PASSWORD","needs ADMIN_TOKEN","needs API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"openhands","path":"plugins/openhands"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

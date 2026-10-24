@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/dependabot-review",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/dependabot-review/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"00cf8d95a326c858f2d8a29f3cab62d11925fb46cfeefc7e295a9fcc9361a417"},
+"status":"unresolvable",
+"reason":"no skill folder named dependabot-review at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

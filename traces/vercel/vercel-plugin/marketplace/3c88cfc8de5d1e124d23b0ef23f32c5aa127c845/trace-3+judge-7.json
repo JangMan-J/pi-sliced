@@ -1,0 +1,34 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel/vercel-plugin/marketplace",
+"source":"vercel/vercel-plugin",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"skillPath":"skills/marketplace",
+"status":"resolved",
+"totals":{"files":1,"bytes":9778},
+"files":[
+{"path":"skills/marketplace/SKILL.md","size":9778,"blob":"79b385cf0745a809fd39b9e5e09dbfcccdfc157b","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,112]]},
+{"kind":"cli","name":"vercel","at":[[0,111],[0,112]]},
+{"kind":"package","name":"vercel","at":[[0,112]]}
+],
+"regions":[
+{"kind":"own","path":"skills/marketplace","files":1,"bytes":9778}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,112]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,112]]}
+],
+"namedSkills":[
+{"name":"ai-sdk","path":"skills/ai-sdk","at":[[0,57],[0,106]]},
+{"name":"auth","path":"skills/auth","at":[[0,57],[0,106]]},
+{"name":"vercel-storage","path":"skills/vercel-storage","at":[[0,57],[0,106]]},
+{"name":"workflow","path":"skills/workflow","at":[[0,102]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

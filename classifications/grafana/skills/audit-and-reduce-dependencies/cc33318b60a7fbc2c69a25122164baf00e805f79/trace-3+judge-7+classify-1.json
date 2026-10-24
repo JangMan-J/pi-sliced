@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/audit-and-reduce-dependencies",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/audit-and-reduce-dependencies/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"e73ffe8b30eafc3d3cf6a739527f77fbb3a48266d5bcf99396c6f3d0522c075a"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":25140,"own":{"files":1,"bytes":14279},"otherSkills":{"count":1,"files":4,"bytes":10861},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":["npm","pnpm"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 25 KiB · +1 other skill · CLI jq · packages npm +1","short":"25 KiB · +1 skill · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"installs-packages","because":["installs npm","installs pnpm"]},{"marker":"chain-loads","because":["pulls in 4 files of the skill at skills/grafana-plugins/check-npm"]}],
+"security":{},
+"companions":{"named":[{"name":"check-npm","path":"skills/grafana-plugins/check-npm"}],"pulled":[{"path":"skills/grafana-plugins/check-npm","files":4,"bytes":10861}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

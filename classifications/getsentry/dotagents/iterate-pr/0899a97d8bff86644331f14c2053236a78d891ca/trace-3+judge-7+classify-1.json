@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/iterate-pr",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/iterate-pr/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"c9304a9e4fd6f868680877f4a229ebfe82b341e3814803c38b3567d75b134819"},
+"status":"unresolvable",
+"reason":"no skill folder named iterate-pr at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

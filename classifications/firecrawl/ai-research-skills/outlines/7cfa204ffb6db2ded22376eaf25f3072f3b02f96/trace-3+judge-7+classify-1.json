@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/outlines",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/outlines/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"2a57dab6161b6503bf95ed5e9f10a85a0d1871900495040cb7a7f07f11e0091f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":66516,"own":{"files":4,"bytes":66516},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["llama-cpp-python","outlines","transformers","vllm"],"mcp-server":[],"credential":["OPENAI_API_KEY"],"network":[]},"summary":"4 files, 65 KiB · packages llama-cpp-python +3 · 1 key","short":"65 KiB · 4 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs llama-cpp-python","installs outlines","installs transformers","installs vllm"]},{"marker":"credentials","because":["needs OPENAI_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

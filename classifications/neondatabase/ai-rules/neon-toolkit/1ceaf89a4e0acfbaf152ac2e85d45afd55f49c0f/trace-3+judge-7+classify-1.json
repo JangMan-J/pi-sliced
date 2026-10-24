@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/ai-rules/neon-toolkit",
+"revision":"1ceaf89a4e0acfbaf152ac2e85d45afd55f49c0f",
+"trace":{"path":"traces/neondatabase/ai-rules/neon-toolkit/1ceaf89a4e0acfbaf152ac2e85d45afd55f49c0f/trace-3+judge-7.json","sha256":"3e1a9d7f550acdd09cb3320bd4b10c550adbe7457e71fbfc2c34ee3a042de0ef"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":16211,"own":{"files":4,"bytes":16211},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@neondatabase/toolkit"],"mcp-server":[],"credential":["NEON_API_KEY"],"network":[]},"summary":"4 files, 16 KiB · packages @neondatabase/toolkit · 1 key","short":"16 KiB · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @neondatabase/toolkit"]},{"marker":"credentials","because":["needs NEON_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

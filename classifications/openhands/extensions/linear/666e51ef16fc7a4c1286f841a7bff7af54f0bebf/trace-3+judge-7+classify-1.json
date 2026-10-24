@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/linear",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/linear/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"3de3dbe4e82b2eb6a64d2104bb35647937e4aa2799285865c834078ef3bd47d2"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8410,"own":{"files":2,"bytes":8410},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertTo-Json","Invoke-RestMethod"],"package":[],"mcp-server":["linear"],"credential":["LINEAR_API_KEY"],"network":["api.linear.app"]},"summary":"2 files, 8.2 KiB · MCP linear · CLI ConvertTo-Json, Invoke-RestMethod · 1 key · 1 host","short":"8.2 KiB · 2 CLI · 1 key · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs ConvertTo-Json","runs Invoke-RestMethod"]},{"marker":"network","because":["fetches from api.linear.app"]},{"marker":"credentials","because":["needs LINEAR_API_KEY"]},{"marker":"mcp-server","because":["uses the linear MCP server"]},{"marker":"sends-credentials","because":["LINEAR_API_KEY -> api.linear.app: skills/linear/SKILL.md:45, skills/linear/SKILL.md:56, skills/linear/SKILL.md:69"]}],
+"security":{"secret-egress":["LINEAR_API_KEY -> api.linear.app @ skills/linear/SKILL.md:45, skills/linear/SKILL.md:56, skills/linear/SKILL.md:69 +10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

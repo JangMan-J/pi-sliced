@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"contentful/skills/contentful-api",
+"revision":"6dc5d75db7fc6515658e8f8eb2394d76292cfdf3",
+"trace":{"path":"traces/contentful/skills/contentful-api/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/trace-3+judge-7.json","sha256":"bd3d4ca1281c52eea7fca9eb79f161bb558db92f0982d81d763d66b7ac75eb30"},
+"status":"resolved",
+"footprint":{"files":17,"bytes":88287,"own":{"files":17,"bytes":88287},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["webp"],"package":[],"mcp-server":[],"credential":[],"network":["api.contentful.com","cdn.contentful.com","graphql.contentful.com","preview.contentful.com","upload.contentful.com"]},"summary":"17 files, 86 KiB · CLI webp · 5 hosts","short":"86 KiB · 1 CLI · 5 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs webp"]},{"marker":"network","because":["fetches from api.contentful.com","fetches from cdn.contentful.com","fetches from graphql.contentful.com","fetches from preview.contentful.com","fetches from upload.contentful.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

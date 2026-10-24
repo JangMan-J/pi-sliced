@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"medusajs/medusa-agent-skills/creating-internal-agents",
+"revision":"4b495d5e2b4b0189a72de899e801eb84f168380e",
+"trace":{"path":"traces/medusajs/medusa-agent-skills/creating-internal-agents/4b495d5e2b4b0189a72de899e801eb84f168380e/trace-3+judge-7.json","sha256":"daff6904331af5833245197e5ac4a179d3f921d2f97ea771fa1c495cdbb704f6"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":47811,"own":{"files":8,"bytes":47811},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["medusa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 47 KiB · CLI medusa","short":"47 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs medusa"]},{"marker":"unpinned-code","because":["npx medusa: plugins/medusa-dev/skills/creating-internal-agents/SKILL.md:18, plugins/medusa-dev/skills/creating-internal-agents/SKILL.md:111, plugins/medusa-dev/skills/creating-internal-agents/reference/data-models.md:48"]}],
+"security":{"fetch-run":["npx medusa @ plugins/medusa-dev/skills/creating-internal-agents/SKILL.md:18, plugins/medusa-dev/skills/creating-internal-agents/SKILL.md:111, plugins/medusa-dev/skills/creating-internal-agents/reference/data-models.md:48 +1"]},
+"companions":{"named":[{"name":"building-admin-dashboard-customizations","path":"plugins/medusa-dev/skills/building-admin-dashboard-customizations"},{"name":"building-with-medusa","path":"plugins/medusa-dev/skills/building-with-medusa"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

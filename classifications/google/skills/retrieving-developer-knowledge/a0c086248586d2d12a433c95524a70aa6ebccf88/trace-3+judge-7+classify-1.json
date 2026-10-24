@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/retrieving-developer-knowledge",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/retrieving-developer-knowledge/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"bc0b8e9c9edd224ff051879f6fb78076e099edb4d17c411c7f681017e39ddbc3"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":17406,"own":{"files":4,"bytes":17406},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":["if","knowledge","when"],"credential":["ACCESS_TOKEN","DEVELOPERKNOWLEDGE_API_KEY"],"network":["developerknowledge.googleapis.com"]},"summary":"4 files, 17 KiB · MCP if, knowledge +1 · CLI gcloud · 2 keys · 1 host","short":"17 KiB · 1 CLI · 2 keys · 1 host · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"network","because":["fetches from developerknowledge.googleapis.com"]},{"marker":"credentials","because":["needs ACCESS_TOKEN","needs DEVELOPERKNOWLEDGE_API_KEY"]},{"marker":"mcp-server","because":["uses the if MCP server","uses the knowledge MCP server","uses the when MCP server"]},{"marker":"sends-credentials","because":["DEVELOPERKNOWLEDGE_API_KEY -> developerknowledge.googleapis.com: skills/developers/retrieving-developer-knowledge/SKILL.md:75, skills/developers/retrieving-developer-knowledge/SKILL.md:82, skills/developers/retrieving-developer-knowledge/SKILL.md:86"]}],
+"security":{"secret-egress":["DEVELOPERKNOWLEDGE_API_KEY -> developerknowledge.googleapis.com @ skills/developers/retrieving-developer-knowledge/SKILL.md:75, skills/developers/retrieving-developer-knowledge/SKILL.md:82, skills/developers/retrieving-developer-knowledge/SKILL.md:86 +5"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/xurl",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/xurl/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"e8bc6765c4fb8738a457c1847aa77fc5b6a88f1afbb050c0e3118926633fb9d7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14720,"own":{"files":1,"bytes":14720},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go","xurl"],"package":["@xdevplatform/xurl","github.com/xdevplatform/xurl","xdevplatform/tap/xurl"],"mcp-server":[],"credential":[],"network":["raw.githubusercontent.com"]},"summary":"1 file, 14 KiB · CLI go, xurl · packages @xdevplatform/xurl +2 · 1 host","short":"14 KiB · 2 CLI · 3 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs go","runs xurl"]},{"marker":"installs-packages","because":["installs @xdevplatform/xurl","installs github.com/xdevplatform/xurl","installs xdevplatform/tap/xurl"]},{"marker":"network","because":["fetches from raw.githubusercontent.com"]},{"marker":"unpinned-code","because":["go @latest: skills/xurl/SKILL.md:62","pipe to interpreter: skills/xurl/SKILL.md:54"]}],
+"security":{"fetch-run":["go @latest @ skills/xurl/SKILL.md:62","pipe to interpreter @ skills/xurl/SKILL.md:54"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

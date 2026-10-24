@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/transloadit-media-processing",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/transloadit-media-processing/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"5eb6b07f314dc4f5c665f93534727d8489dfa1904a600ad00bb5c5d6023e8870"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5122,"own":{"files":1,"bytes":5122},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@transloadit/node"],"package":[],"mcp-server":["transloadit"],"credential":[],"network":[]},"summary":"1 file, 5.0 KiB · MCP transloadit · CLI @transloadit/node","short":"5.0 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs @transloadit/node"]},{"marker":"mcp-server","because":["uses the transloadit MCP server"]},{"marker":"unpinned-code","because":["npx @transloadit/node: skills/transloadit-media-processing/SKILL.md:60"]}],
+"security":{"fetch-run":["npx @transloadit/node @ skills/transloadit-media-processing/SKILL.md:60"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

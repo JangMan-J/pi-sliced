@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/tensorrt-llm",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/tensorrt-llm/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"95d798bc8d0276d302d9de81d064000a91ce4c6b955ced2ec4da8a9e5a235a5d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":27149,"own":{"files":4,"bytes":27149},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","nvidia-smi","openssl","ray","trtllm-serve"],"package":["tensorrt_llm"],"mcp-server":[],"credential":["API_KEY"],"network":[]},"summary":"4 files, 27 KiB · CLI docker, nvidia-smi +3 · packages tensorrt_llm · 1 key","short":"27 KiB · 5 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","5 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs nvidia-smi","runs openssl","runs ray","runs trtllm-serve"]},{"marker":"installs-packages","because":["installs tensorrt_llm"]},{"marker":"credentials","because":["needs API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

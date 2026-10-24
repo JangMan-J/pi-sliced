@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/examples",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/examples/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"523350a2fc7f9d52492c05de9776126b597839be24ba6c42218e302fb21398bf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5238,"own":{"files":1,"bytes":5238},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":["deepgram"],"credential":[],"network":[]},"summary":"1 file, 5.1 KiB · MCP deepgram · CLI skills","short":"5.1 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"mcp-server","because":["uses the deepgram MCP server"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/examples/SKILL.md:58, skills/examples/SKILL.md:59, skills/examples/SKILL.md:60"]}],
+"security":{"fetch-run":["npx skills @ skills/examples/SKILL.md:58, skills/examples/SKILL.md:59, skills/examples/SKILL.md:60 +4"],"skill-fetch":["npx skills add @ skills/examples/SKILL.md:58, skills/examples/SKILL.md:59, skills/examples/SKILL.md:60 +4"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"browser-agent","path":"skills/browser-agent"},{"name":"docs","path":"skills/docs"},{"name":"recipes","path":"skills/recipes"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"starters","path":"skills/starters"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

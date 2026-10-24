@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/test-anti-patterns",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/test-anti-patterns/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"352ff17e0ca439a253e0d2dbe46663f2145d78f07100885b470eb005db66ffba"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":27331,"own":{"files":1,"bytes":27331},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 27 KiB","short":"27 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"code-testing","path":"plugins/dotnet-test/skills/code-testing"},{"name":"coverage-analysis","path":"plugins/dotnet-test/skills/coverage-analysis"},{"name":"crap-score","path":"plugins/dotnet-test/skills/crap-score"},{"name":"exp-mock-usage-analysis","path":"plugins/dotnet-experimental/skills/exp-mock-usage-analysis"},{"name":"exp-test-maintainability","path":"plugins/dotnet-experimental/skills/exp-test-maintainability"},{"name":"run-tests","path":"plugins/dotnet-test/skills/run-tests"},{"name":"test-analysis-extensions","path":"plugins/dotnet-test/skills/test-analysis-extensions"},{"name":"test-gap-analysis","path":"plugins/dotnet-test/skills/test-gap-analysis"},{"name":"test-smell-detection","path":"plugins/dotnet-test/skills/test-smell-detection"},{"name":"test-tagging","path":"plugins/dotnet-test/skills/test-tagging"},{"name":"writing-mstest-tests","path":"plugins/dotnet-test/skills/writing-mstest-tests"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/convert-to-cpm",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/convert-to-cpm/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"de847a336905facf2835ef0e323abc31c9f97bb13a1387261c0743abd3a63634"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":41309,"own":{"files":7,"bytes":41309},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Select-String","dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 40 KiB · CLI Select-String, dotnet","short":"40 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs Select-String"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

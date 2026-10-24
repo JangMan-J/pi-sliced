@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"upstash/ratelimit-js/ratelimit-ts",
+"source":"upstash/ratelimit-js",
+"revision":"fccd840d6e0f893f50bc677107fba4d913a414e3",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named ratelimit-ts at fccd840d6e0f893f50bc677107fba4d913a414e3",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

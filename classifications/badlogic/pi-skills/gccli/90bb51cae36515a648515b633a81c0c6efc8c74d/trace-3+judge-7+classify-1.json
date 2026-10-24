@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"badlogic/pi-skills/gccli",
+"revision":"90bb51cae36515a648515b633a81c0c6efc8c74d",
+"trace":{"path":"traces/badlogic/pi-skills/gccli/90bb51cae36515a648515b633a81c0c6efc8c74d/trace-3+judge-7.json","sha256":"c7988ed2da613ba27791acdc8c05cad7c0fc97425201b4dd195b5393789baaae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2118,"own":{"files":1,"bytes":2118},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gccli"],"package":["@mariozechner/gccli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.1 KiB · CLI gccli · packages @mariozechner/gccli","short":"2.1 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gccli"]},{"marker":"installs-packages","because":["installs @mariozechner/gccli"]},{"marker":"stub","because":["own folder 2.1 KiB (1 file)","content is the gccli it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

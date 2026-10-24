@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"expo/skills/expo-app-clip",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"trace":{"path":"traces/expo/skills/expo-app-clip/55ec65cd16499f20f14fb10fe99a2e62901b00a1/trace-3+judge-7.json","sha256":"211098249f37d9c9dc857c2eeb050a30ba42320b1bc8030a475075e575e6955b"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11909,"own":{"files":2,"bytes":11909},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["create-expo-module","eas","expo","setup-safari","submit-expo-feedback","testflight"],"package":[],"mcp-server":[],"credential":[],"network":["developer.apple.com","expo.dev","may20.expo.app"]},"summary":"2 files, 12 KiB · CLI create-expo-module, eas +4 · 3 hosts","short":"12 KiB · 6 CLI · 3 hosts"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs create-expo-module","runs eas","runs expo","runs setup-safari","runs submit-expo-feedback","runs testflight"]},{"marker":"network","because":["fetches from developer.apple.com","fetches from expo.dev","fetches from may20.expo.app"]},{"marker":"unpinned-code","because":["bunx create-expo-module: plugins/expo/skills/expo-app-clip/SKILL.md:276, plugins/expo/skills/expo-app-clip/references/native-module.md:6","bunx expo: plugins/expo/skills/expo-app-clip/SKILL.md:41, plugins/expo/skills/expo-app-clip/SKILL.md:135, plugins/expo/skills/expo-app-clip/SKILL.md:173","bunx setup-safari: plugins/expo/skills/expo-app-clip/SKILL.md:80","bunx testflight: plugins/expo/skills/expo-app-clip/SKILL.md:8, plugins/expo/skills/expo-app-clip/SKILL.md:210","npx expo: plugins/expo/skills/expo-app-clip/SKILL.md:188","npx submit-expo-feedback@latest: plugins/expo/skills/expo-app-clip/SKILL.md:287"]}],
+"security":{"fetch-run":["bunx create-expo-module @ plugins/expo/skills/expo-app-clip/SKILL.md:276, plugins/expo/skills/expo-app-clip/references/native-module.md:6","bunx expo @ plugins/expo/skills/expo-app-clip/SKILL.md:41, plugins/expo/skills/expo-app-clip/SKILL.md:135, plugins/expo/skills/expo-app-clip/SKILL.md:173","bunx setup-safari @ plugins/expo/skills/expo-app-clip/SKILL.md:80","bunx testflight @ plugins/expo/skills/expo-app-clip/SKILL.md:8, plugins/expo/skills/expo-app-clip/SKILL.md:210","npx expo @ plugins/expo/skills/expo-app-clip/SKILL.md:188","npx submit-expo-feedback@latest @ plugins/expo/skills/expo-app-clip/SKILL.md:287"]},
+"companions":{"named":[{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

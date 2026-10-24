@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuopt/lp-milp-formulation",
+"revision":"b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e",
+"trace":{"path":"traces/nvidia/cuopt/lp-milp-formulation/b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e/trace-3+judge-7.json","sha256":"77524ee03ff387689994e4494085ef01beb462f81b4d35d3ce64c86a54f06ffd"},
+"status":"unresolvable",
+"reason":"no skill folder named lp-milp-formulation at b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e"
+}

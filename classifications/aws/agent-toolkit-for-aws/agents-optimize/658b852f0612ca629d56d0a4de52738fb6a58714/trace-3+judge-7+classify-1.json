@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/agents-optimize",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/agents-optimize/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"455ce4038b4a2f33f59be030a4056488fdce34919021e591f5b631c0aec95674"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":66248,"own":{"files":4,"bytes":37909},"otherSkills":{"count":1,"files":1,"bytes":28339},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agentcore","aws","jq"],"package":["langgraph-checkpoint-aws"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 65 KiB · +1 other skill · CLI agentcore, aws +1 · packages langgraph-checkpoint-aws","short":"65 KiB · +1 skill · 3 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agentcore","runs aws","runs jq"]},{"marker":"installs-packages","because":["installs langgraph-checkpoint-aws"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/aws-agents/skills/agents-build"]}],
+"security":{},
+"companions":{"named":[{"name":"agents-build","path":"plugins/aws-agents/skills/agents-build"},{"name":"agents-debug","path":"plugins/aws-agents/skills/agents-debug"},{"name":"agents-get-started","path":"plugins/aws-agents/skills/agents-get-started"},{"name":"agents-harden","path":"plugins/aws-agents/skills/agents-harden"}],"pulled":[{"path":"plugins/aws-agents/skills/agents-build","files":1,"bytes":28339}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

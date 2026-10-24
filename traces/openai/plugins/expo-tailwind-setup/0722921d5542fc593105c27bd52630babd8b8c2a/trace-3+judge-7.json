@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/expo-tailwind-setup",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/expo/skills/expo-tailwind-setup",
+"status":"resolved",
+"totals":{"files":1,"bytes":11914},
+"files":[
+{"path":"plugins/expo/skills/expo-tailwind-setup/SKILL.md","size":11914,"blob":"d37fe3298bd003ee44df6636dc8ebc970a4f1b65","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[0,25]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-tailwind-setup","files":1,"bytes":11914}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx expo","at":[[0,25]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/changelog-automation",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/changelog-automation/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"2b7ab1fd7938a0b9277ed6df492dfb25c66217c7b88c973a0b1b0486d53aa872"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":14093,"own":{"files":2,"bytes":14093},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Closes","Fixes","Migration","The","api","auth","checkout","database","feat","fix","instead","latency","userId","without"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 14 KiB · CLI Closes, Fixes +12","short":"14 KiB · 14 CLI"},
+"heavy":{"heavy":true,"because":["14 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs api","runs auth","runs checkout","runs Closes","runs database","runs feat","runs fix","runs Fixes","runs instead","runs latency","runs Migration","runs The","runs userId","runs without"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apollographql/skills/apollo-server",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"trace":{"path":"traces/apollographql/skills/apollo-server/f9843dce86b1a561e3bfbb024e65c28a6cbbe38c/trace-3+judge-7.json","sha256":"1cd1252c3fc04aa2f3a92141974d88df9810ef9ee5d646b8892bf07b258ffa0b"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":66013,"own":{"files":7,"bytes":66013},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@apollo/datasource-rest","@apollo/server","@as-integrations/express5","cors","dataloader","express","graphql"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 64 KiB · packages @apollo/datasource-rest +6","short":"64 KiB · 7 pkg"},
+"heavy":{"heavy":true,"because":["7 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @apollo/datasource-rest","installs @apollo/server","installs @as-integrations/express5","installs cors","installs dataloader","installs express","installs graphql"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

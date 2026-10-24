@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/py-ai/vercel-ai-sdk",
+"source":"vercel-labs/py-ai",
+"revision":"0f43c91910415616f06df0e1d90e38d792215948",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named vercel-ai-sdk at 0f43c91910415616f06df0e1d90e38d792215948",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/skills/huggingface-local-models",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"trace":{"path":"traces/huggingface/skills/huggingface-local-models/c3ff942be3e07116b475253f0a8fc4f54682c1a8/trace-3+judge-7.json","sha256":"ea37cd5d27b40dd0f50cad2e772b68eb5fc210c271c45fe9342a41e764022839"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":15849,"own":{"files":4,"bytes":15849},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["hf","llama-cli","llama-quantize","llama-server","make","winget"],"package":["llama.cpp"],"mcp-server":[],"credential":[],"network":["github.com","huggingface.co"]},"summary":"4 files, 15 KiB · CLI hf, llama-cli +4 · packages llama.cpp · 2 hosts","short":"15 KiB · 6 CLI · 1 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs hf","runs llama-cli","runs llama-quantize","runs llama-server","runs make","runs winget"]},{"marker":"installs-packages","because":["installs llama.cpp"]},{"marker":"network","because":["fetches from github.com","fetches from huggingface.co"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

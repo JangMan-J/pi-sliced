@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/remotion-best-practices",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/remotion-best-practices/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"a31a4f29b3b91286cc5946584a1b60c8368a9d5b13fa8ae5973a4d392c70a124"},
+"status":"resolved",
+"footprint":{"files":35,"bytes":97781,"own":{"files":35,"bytes":97781},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["remotion"],"package":["@turf/turf","@types/mapbox-gl","mapbox-gl","zod"],"mcp-server":[],"credential":[],"network":["www.remotion.dev"]},"summary":"35 files, 95 KiB · CLI remotion · packages @turf/turf +3 · 1 host","short":"95 KiB · 1 CLI · 4 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs remotion"]},{"marker":"installs-packages","because":["installs @turf/turf","installs @types/mapbox-gl","installs mapbox-gl","installs zod"]},{"marker":"network","because":["fetches from www.remotion.dev"]},{"marker":"unpinned-code","because":["bunx remotion: skills/remotion-best-practices/rules/3d.md:20, skills/remotion-best-practices/rules/fonts.md:21, skills/remotion-best-practices/rules/fonts.md:69","npx remotion: skills/remotion-best-practices/rules/3d.md:19, skills/remotion-best-practices/rules/audio.md:16, skills/remotion-best-practices/rules/display-captions.md:20"]},{"marker":"agent-override-text","because":["invisible U+2060: skills/remotion-best-practices/rules/maps.md:85"]}],
+"security":{"fetch-run":["bunx remotion @ skills/remotion-best-practices/rules/3d.md:20, skills/remotion-best-practices/rules/fonts.md:21, skills/remotion-best-practices/rules/fonts.md:69 +6","npx remotion @ skills/remotion-best-practices/rules/3d.md:19, skills/remotion-best-practices/rules/audio.md:16, skills/remotion-best-practices/rules/display-captions.md:20 +15"],"invisible-unicode":["U+2060 @ skills/remotion-best-practices/rules/maps.md:85"]},
+"companions":{"named":[{"name":"remotion","path":"skills/remotion"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

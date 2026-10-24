@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-skills/react-native-testing",
+"revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+"trace":{"path":"traces/callstackincubator/agent-skills/react-native-testing/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/trace-3+judge-7.json","sha256":"07e438c073dd4426a4b4e70d1fc8664339554a3a7b326ce673989b50df8f2703"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":53452,"own":{"files":4,"bytes":53452},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 52 KiB","short":"52 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

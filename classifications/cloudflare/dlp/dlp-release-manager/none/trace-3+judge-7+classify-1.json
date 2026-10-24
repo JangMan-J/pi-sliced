@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/dlp/dlp-release-manager",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/dlp/dlp-release-manager/none/trace-3+judge-7.json","sha256":"2699155f2cddd12592069a1da911f5db55017b4e58b6717fd9497a1598febd6b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/dlp.git/' not found"
+}

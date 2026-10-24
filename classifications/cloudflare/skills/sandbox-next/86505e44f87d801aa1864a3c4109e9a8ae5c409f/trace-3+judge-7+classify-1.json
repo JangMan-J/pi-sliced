@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/skills/sandbox-next",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"trace":{"path":"traces/cloudflare/skills/sandbox-next/86505e44f87d801aa1864a3c4109e9a8ae5c409f/trace-3+judge-7.json","sha256":"3e2d7e94214b07a41656689b49da6b94de3092bb89e2ac548151688f181b97f5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":9572,"own":{"files":3,"bytes":9572},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["developers.cloudflare.com"]},"summary":"3 files, 9.3 KiB · 1 host","short":"9.3 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from developers.cloudflare.com"]}],
+"security":{},
+"companions":{"named":[{"name":"sandbox-migrate-to-next","path":"skills/sandbox-migrate-to-next"},{"name":"sandbox-stable","path":"skills/sandbox-stable"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

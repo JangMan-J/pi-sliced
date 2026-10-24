@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuequivariance/cuequivariance-torch",
+"revision":"49a741e00432b0b2f03526aa99599fcdf3903148",
+"trace":{"path":"traces/nvidia/cuequivariance/cuequivariance-torch/49a741e00432b0b2f03526aa99599fcdf3903148/trace-3+judge-7.json","sha256":"84690f52669a388840bd39d25ad6ecfae693835b17701bbb8061733ced11a08d"},
+"status":"resolved",
+"footprint":{"files":16,"bytes":186953,"own":{"files":16,"bytes":186953},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["cuequivariance","cuequivariance_ops_torch","cuequivariance_torch","opt_einsum_fx","torch"],"mcp-server":[],"credential":[],"network":[]},"summary":"16 files, 183 KiB · packages cuequivariance +4","short":"183 KiB · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs cuequivariance","installs cuequivariance_ops_torch","installs cuequivariance_torch","installs opt_einsum_fx","installs torch"]}],
+"security":{},
+"companions":{"named":[{"name":"cuequivariance","path":"cuequivariance/cuequivariance"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

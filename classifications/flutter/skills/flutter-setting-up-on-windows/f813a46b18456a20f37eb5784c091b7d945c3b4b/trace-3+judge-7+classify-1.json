@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-setting-up-on-windows",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-setting-up-on-windows/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"b48c635216477266f0b899bf9942c2e155fee5325f443b0f2d1cce7b034ebbd0"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-setting-up-on-windows at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

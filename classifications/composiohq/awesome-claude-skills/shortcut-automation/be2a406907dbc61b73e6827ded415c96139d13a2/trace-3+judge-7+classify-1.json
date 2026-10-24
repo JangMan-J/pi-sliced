@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/shortcut-automation",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/shortcut-automation/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"2bc7390981d31a53663abb4fe4e86332733e9c83af61ae3ea03d64b91f64a5d7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6370,"own":{"files":1,"bytes":6370},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["rube"],"credential":[],"network":[]},"summary":"1 file, 6.2 KiB · MCP rube","short":"6.2 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the rube MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

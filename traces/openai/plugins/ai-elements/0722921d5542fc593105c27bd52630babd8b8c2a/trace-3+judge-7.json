@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/ai-elements",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/ai-elements",
+"status":"resolved",
+"totals":{"files":1,"bytes":21514},
+"files":[
+{"path":"plugins/vercel/skills/ai-elements/SKILL.md","size":21514,"blob":"6acf20d6e67310a3dc4afc6f273931e1ead5f1f8","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"ai-elements","at":[[0,118],[0,119],[0,149],[0,153],[0,154],[0,155],[0,156],[0,306],[0,353],[0,451]]},
+{"kind":"cli","name":"shadcn","at":[[0,93],[0,110],[0,159],[0,160],[0,462],[0,471],[0,475]]},
+{"kind":"network","name":"ai-sdk.dev","at":[[0,93]]},
+{"kind":"network","name":"elements.ai-sdk.dev","at":[[0,93]]},
+{"kind":"package","name":"@base-ui/react","at":[[0,111]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/ai-elements","files":1,"bytes":21514}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx ai-elements","at":[[0,451]]},
+{"kind":"fetch-run","detail":"npx ai-elements@latest","at":[[0,118],[0,119],[0,149],[0,153],[0,154],[0,155],[0,156],[0,306],[0,353]]},
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,93],[0,110],[0,159],[0,160],[0,462],[0,471],[0,475]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

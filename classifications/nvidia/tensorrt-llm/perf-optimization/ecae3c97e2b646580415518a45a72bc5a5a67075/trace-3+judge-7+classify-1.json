@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/tensorrt-llm/perf-optimization",
+"revision":"ecae3c97e2b646580415518a45a72bc5a5a67075",
+"trace":{"path":"traces/nvidia/tensorrt-llm/perf-optimization/ecae3c97e2b646580415518a45a72bc5a5a67075/trace-3+judge-7.json","sha256":"925d75636627c3166819ed3525d5a8fdfcdf7fc96b7fb45bb36754ab751aa692"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12746,"own":{"files":1,"bytes":12746},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB","short":"12 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

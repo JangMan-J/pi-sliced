@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/cuopt-numerical-optimization-api-cli",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/cuopt-numerical-optimization-api-cli/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"1f04b9a258deefd6e703db7acfcf29b2a5b2c022791fbba4d2e80545df5ea75a"},
+"status":"unresolvable",
+"reason":"no skill folder named cuopt-numerical-optimization-api-cli at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

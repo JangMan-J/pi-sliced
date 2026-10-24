@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/redesign-existing-projects",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/redesign-existing-projects/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"bd77c7c6dfbe6444133d1e85f1b719b8af52f71d886919000dc08521dae99f25"},
+"status":"unresolvable",
+"reason":"no skill folder named redesign-existing-projects at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/redesign-skill)"
+}

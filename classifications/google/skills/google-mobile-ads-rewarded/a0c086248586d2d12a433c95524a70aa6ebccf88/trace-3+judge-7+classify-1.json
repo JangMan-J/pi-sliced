@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-mobile-ads-rewarded",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-mobile-ads-rewarded/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"a852db424b0ac25a242f2cfb6f7164e24716406cefa8ed94a71dc44c0c46c31b"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9054,"own":{"files":4,"bytes":9054},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gradle"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 8.8 KiB · CLI gradle","short":"8.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gradle"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

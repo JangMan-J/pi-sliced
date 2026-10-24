@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/blip-2-vision-language",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/blip-2-vision-language/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"8428a01c1130185775ebbfc22e52d709760d00cdcea5f9f108522bd88a956590"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":49486,"own":{"files":3,"bytes":49486},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nvcc"],"package":["Pillow","accelerate","iopath","omegaconf","salesforce-lavis","scipy","timm","torch","torchvision","transformers","webdataset"],"mcp-server":[],"credential":[],"network":["download.pytorch.org","github.com"]},"summary":"3 files, 48 KiB · CLI nvcc · packages Pillow +10 · 2 hosts","short":"48 KiB · 1 CLI · 11 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["11 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nvcc"]},{"marker":"installs-packages","because":["installs accelerate","installs iopath","installs omegaconf","installs Pillow","installs salesforce-lavis","installs scipy","installs timm","installs torch","installs torchvision","installs transformers","installs webdataset"]},{"marker":"network","because":["fetches from download.pytorch.org","fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

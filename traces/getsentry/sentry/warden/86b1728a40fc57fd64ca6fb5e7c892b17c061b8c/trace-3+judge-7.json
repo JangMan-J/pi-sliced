@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/sentry/warden",
+"source":"getsentry/sentry",
+"revision":"86b1728a40fc57fd64ca6fb5e7c892b17c061b8c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named warden at 86b1728a40fc57fd64ca6fb5e7c892b17c061b8c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

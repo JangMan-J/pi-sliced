@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/workerd/find-and-run-tests",
+"revision":"b50b4cce23a0d026033d7ba0f8732d0cff3303c9",
+"trace":{"path":"traces/cloudflare/workerd/find-and-run-tests/b50b4cce23a0d026033d7ba0f8732d0cff3303c9/trace-3+judge-7.json","sha256":"d4ce88992d584b7909bf160ab08ba25b7bec68f462137b301545194abda3d43b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3572,"own":{"files":1,"bytes":3572},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bazel"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.5 KiB · CLI bazel","short":"3.5 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs bazel"]},{"marker":"stub","because":["own folder 3.5 KiB (1 file)","content is the bazel it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"parent-project-skills","path":".opencode/skills/parent-project-skills"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

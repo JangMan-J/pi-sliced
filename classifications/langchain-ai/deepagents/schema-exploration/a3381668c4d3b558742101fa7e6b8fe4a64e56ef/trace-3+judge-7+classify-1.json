@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/deepagents/schema-exploration",
+"revision":"a3381668c4d3b558742101fa7e6b8fe4a64e56ef",
+"trace":{"path":"traces/langchain-ai/deepagents/schema-exploration/a3381668c4d3b558742101fa7e6b8fe4a64e56ef/trace-3+judge-7.json","sha256":"24713ff93eb50f8cda0150c3bf9fb6e860c538bfa9ae7740d06f1cac2686dfb0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3804,"own":{"files":1,"bytes":3804},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.7 KiB","short":"3.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"query-writing","path":"examples/text-to-sql-agent/skills/query-writing"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

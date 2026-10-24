@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"signoz/agent-skills/signoz-explaining-alerts",
+"revision":"cc3724d8c4b305f6c767507fd34b68a6364a2a9d",
+"trace":{"path":"traces/signoz/agent-skills/signoz-explaining-alerts/cc3724d8c4b305f6c767507fd34b68a6364a2a9d/trace-3+judge-7.json","sha256":"4c93af1f3e59bd6c77cad800c5d5a45f4761bb85cd668e830ba484b50477b520"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20953,"own":{"files":1,"bytes":20953},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["signoz"],"credential":[],"network":[]},"summary":"1 file, 20 KiB · MCP signoz","short":"20 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the signoz MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"signoz-creating-alerts","path":"plugins/signoz/skills/signoz-creating-alerts"},{"name":"signoz-investigating-alerts","path":"plugins/signoz/skills/signoz-investigating-alerts"},{"name":"signoz-mcp-setup","path":"plugins/signoz/skills/signoz-mcp-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

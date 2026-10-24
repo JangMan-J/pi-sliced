@@ -1,0 +1,34 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"better-auth/skills/create-auth",
+"source":"better-auth/skills",
+"revision":"20c9e88a5c007461a703f1c213572b073196113e",
+"skillPath":"better-auth/create-auth",
+"status":"resolved",
+"totals":{"files":1,"bytes":14368},
+"files":[
+{"path":"better-auth/create-auth/SKILL.md","size":14368,"blob":"f57bf6b222501511476189b1c9242e6a1358d165","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"auth","at":[[0,237],[0,238],[0,239],[0,240]]},
+{"kind":"cli","name":"drizzle-kit","at":[[0,239],[0,240]]},
+{"kind":"cli","name":"prisma","at":[[0,238]]},
+{"kind":"package","name":"better-auth","at":[[0,153]]}
+],
+"regions":[
+{"kind":"own","path":"better-auth/create-auth","files":1,"bytes":14368}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx auth@latest","at":[[0,237],[0,238],[0,239],[0,240]]},
+{"kind":"fetch-run","detail":"npx drizzle-kit","at":[[0,239],[0,240]]},
+{"kind":"fetch-run","detail":"npx prisma","at":[[0,238]]}
+],
+"namedSkills":[
+{"name":"organization","path":"better-auth/organization","at":[[0,101],[0,332]]},
+{"name":"twoFactor","path":"better-auth/twoFactor","at":[[0,101],[0,331]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

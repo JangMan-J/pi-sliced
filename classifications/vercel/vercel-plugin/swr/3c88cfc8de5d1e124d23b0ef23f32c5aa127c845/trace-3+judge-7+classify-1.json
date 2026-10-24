@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-plugin/swr",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel/vercel-plugin/swr/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"a9ff6b80cc7ca9516598694ed4e2c399f2729a82f534e10c791de0f555532fe7"},
+"status":"unresolvable",
+"reason":"no skill folder named swr at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

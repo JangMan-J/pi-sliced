@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/osmo/osmo-agent",
+"source":"nvidia/osmo",
+"revision":"a48a2414a50d1676a43b084afc4658bf2d406f83",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named osmo-agent at a48a2414a50d1676a43b084afc4658bf2d406f83",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

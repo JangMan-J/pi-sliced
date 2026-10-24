@@ -1,0 +1,24 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/subtitles",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/higgsfield/skills/subtitles",
+"status":"resolved",
+"totals":{"files":1,"bytes":9218},
+"files":[
+{"path":"plugins/higgsfield/skills/subtitles/SKILL.md","size":9218,"blob":"57ca2703d3d03f42b68db9a49111bd282bee06f8","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"plugins/higgsfield/skills/subtitles","files":1,"bytes":9218}
+],
+"signals":[
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,151]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

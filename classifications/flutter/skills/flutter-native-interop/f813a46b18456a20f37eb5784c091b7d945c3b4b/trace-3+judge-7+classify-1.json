@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-native-interop",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-native-interop/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"dc40af70101a4f86515f61b5b3f60405f98f877da284148afab87b26801f014c"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-native-interop at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

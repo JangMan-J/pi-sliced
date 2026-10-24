@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"stripe/link-cli/create-payment-credential",
+"source":"stripe/link-cli",
+"revision":"aa145adbbd4bfa4b9f612b13b92b10ea08859148",
+"skillPath":"skills/create-payment-credential",
+"status":"resolved",
+"totals":{"files":1,"bytes":40020},
+"files":[
+{"path":"skills/create-payment-credential/SKILL.md","size":40020,"blob":"fd2013497c8a122ae9a38720db668427be6dc6a9","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@stripe/link-cli","at":[[0,39],[0,58]]},
+{"kind":"cli","name":"entered","at":[[0,623]]},
+{"kind":"cli","name":"link-cli","at":[[0,65],[0,72],[0,89],[0,97],[0,146],[0,155],[0,166],[0,167],[0,175],[0,185],[0,251],[0,276],[0,281],[0,287],[0,297],[0,333],[0,351],[0,400],[0,406],[0,417],[0,430],[0,461],[0,477],[0,540],[0,610],[0,613],[0,616],[0,619]]},
+{"kind":"cli","name":"spend-request","at":[[0,118],[0,269]]},
+{"kind":"package","name":"@stripe/link-cli","at":[[0,39]]}
+],
+"regions":[
+{"kind":"own","path":"skills/create-payment-credential","files":1,"bytes":40020}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @stripe/link-cli","at":[[0,39]]},
+{"kind":"fetch-run","detail":"npx @stripe/link-cli@latest","at":[[0,58]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"Complete terms in LICENSE"}
+}

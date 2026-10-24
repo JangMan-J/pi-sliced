@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-agent-toolkit/nat-mcp-and-serving",
+"revision":"9ff23211e69d8e548fbe038ce4a6ff63e2154862",
+"trace":{"path":"traces/nvidia/nemo-agent-toolkit/nat-mcp-and-serving/9ff23211e69d8e548fbe038ce4a6ff63e2154862/trace-3+judge-7.json","sha256":"bd4d5be478d36ad0f9eff050ac3ef2a992fa6c8afbcc975eea7471efc8590ccd"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":7105,"own":{"files":3,"bytes":7105},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nat"],"package":[],"mcp-server":["consuming"],"credential":[],"network":[]},"summary":"3 files, 6.9 KiB · MCP consuming · CLI nat","short":"6.9 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nat"]},{"marker":"mcp-server","because":["uses the consuming MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

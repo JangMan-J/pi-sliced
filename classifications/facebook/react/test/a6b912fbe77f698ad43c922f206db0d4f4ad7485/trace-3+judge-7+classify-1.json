@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"facebook/react/test",
+"revision":"a6b912fbe77f698ad43c922f206db0d4f4ad7485",
+"trace":{"path":"traces/facebook/react/test/a6b912fbe77f698ad43c922f206db0d4f4ad7485/trace-3+judge-7.json","sha256":"015e6f47ee741e461f756f33ab86d8d1a82a8c1f58fc95332673722645999db5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2093,"own":{"files":1,"bytes":2093},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.0 KiB","short":"2.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"feature-flags","path":".claude/skills/feature-flags"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

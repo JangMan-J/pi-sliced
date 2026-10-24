@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"parallel-web/parallel-agent-skills/parallel-cli-setup",
+"revision":"88a5201eac1dda998e4f8b66280872ced4be7bb0",
+"trace":{"path":"traces/parallel-web/parallel-agent-skills/parallel-cli-setup/88a5201eac1dda998e4f8b66280872ced4be7bb0/trace-3+judge-7.json","sha256":"d1cfbb61ba45747621a299cb531a54c061f719b3106c5698e5afd58ab59aa5f8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3947,"own":{"files":1,"bytes":3947},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["parallel-cli"],"package":["parallel-web-cli","parallel-web/tap/parallel-cli"],"mcp-server":[],"credential":[],"network":["platform.parallel.ai"]},"summary":"1 file, 3.9 KiB · CLI parallel-cli · packages parallel-web-cli +1 · 1 host","short":"3.9 KiB · 1 CLI · 2 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs parallel-cli"]},{"marker":"installs-packages","because":["installs parallel-web-cli","installs parallel-web/tap/parallel-cli"]},{"marker":"network","because":["fetches from platform.parallel.ai"]},{"marker":"stub","because":["own folder 3.9 KiB (1 file)","content is the parallel-cli it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"parallel-data-enrichment","path":"skills/parallel-data-enrichment"},{"name":"parallel-deep-research","path":"skills/parallel-deep-research"},{"name":"parallel-web-extract","path":"skills/parallel-web-extract"},{"name":"parallel-web-search","path":"skills/parallel-web-search"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

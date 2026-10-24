@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"brave/brave-search-skills/videos-search",
+"revision":"62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d",
+"trace":{"path":"traces/brave/brave-search-skills/videos-search/62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d/trace-3+judge-7.json","sha256":"82ad596b908a37349aec46b2f8e63bdb56d5e2198d5eb976e4af1664294d8f4b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7268,"own":{"files":1,"bytes":7268},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["API_KEY","BRAVE_SEARCH_API_KEY"],"network":["api.search.brave.com"]},"summary":"1 file, 7.1 KiB · 2 keys · 1 host","short":"7.1 KiB · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"network","because":["fetches from api.search.brave.com"]},{"marker":"credentials","because":["needs API_KEY","needs BRAVE_SEARCH_API_KEY"]},{"marker":"sends-credentials","because":["BRAVE_SEARCH_API_KEY -> api.search.brave.com: skills/videos-search/SKILL.md:16, skills/videos-search/SKILL.md:23"]}],
+"security":{"secret-egress":["BRAVE_SEARCH_API_KEY -> api.search.brave.com @ skills/videos-search/SKILL.md:16, skills/videos-search/SKILL.md:23"]},
+"companions":{"named":[{"name":"spellcheck","path":"skills/spellcheck"},{"name":"web-search","path":"skills/web-search"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

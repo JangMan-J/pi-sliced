@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dimillian/skills/ios-debugger-agent",
+"revision":"05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+"trace":{"path":"traces/dimillian/skills/ios-debugger-agent/05ba982bfeb0d77d3c97d4542b0ee15034d05f84/trace-3+judge-7.json","sha256":"4419018c7ebd8608560d2076e546d3219c1340e90d81e829b11a46a98a9dd63a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2765,"own":{"files":1,"bytes":2765},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB","short":"2.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

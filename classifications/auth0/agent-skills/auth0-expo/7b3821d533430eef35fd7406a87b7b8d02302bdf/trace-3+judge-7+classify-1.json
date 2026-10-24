@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-expo",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-expo/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"42d7b9a8437c55314d2a3ac52352df871447f40e1fabd6e1badfe25645438152"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-expo at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-create-component",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-create-component/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"e7c245f6a543fbaf03348a0de89e31f7f7d1835cb396bd33269a9e0d5b8d1a5d"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":27837,"own":{"files":5,"bytes":18336},"otherSkills":{"count":1,"files":1,"bytes":9501},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["convex","create-convex"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 27 KiB · +1 other skill · CLI convex, create-convex","short":"27 KiB · +1 skill · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs convex","runs create-convex"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/convex"]},{"marker":"unpinned-code","because":["npx convex: skills/convex-create-component/SKILL.md:53, skills/convex-create-component/SKILL.md:76, skills/convex-create-component/SKILL.md:290","npx create-convex@latest: skills/convex-create-component/references/packaged-components.md:14"]}],
+"security":{"fetch-run":["npx convex @ skills/convex-create-component/SKILL.md:53, skills/convex-create-component/SKILL.md:76, skills/convex-create-component/SKILL.md:290 +6","npx create-convex@latest @ skills/convex-create-component/references/packaged-components.md:14"]},
+"companions":{"named":[{"name":"convex","path":"skills/convex"},{"name":"convex-add","path":"skills/convex-add"},{"name":"convex-authz","path":"skills/convex-authz"},{"name":"convex-cost","path":"skills/convex-cost"},{"name":"convex-expert","path":"skills/convex-expert"},{"name":"convex-migrate","path":"skills/convex-migrate"},{"name":"convex-migrate-rehearse","path":"skills/convex-migrate-rehearse"},{"name":"convex-monitor","path":"skills/convex-monitor"},{"name":"convex-quickstart","path":"skills/convex-quickstart"},{"name":"convex-reviewer","path":"skills/convex-reviewer"},{"name":"convex-self-heal","path":"skills/convex-self-heal"},{"name":"convex-sentinel","path":"skills/convex-sentinel"},{"name":"convex-test","path":"skills/convex-test"},{"name":"convex-verify","path":"skills/convex-verify"}],"pulled":[{"path":"skills/convex","files":1,"bytes":9501}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

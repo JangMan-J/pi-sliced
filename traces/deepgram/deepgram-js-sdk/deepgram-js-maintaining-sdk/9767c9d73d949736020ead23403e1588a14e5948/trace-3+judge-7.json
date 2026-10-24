@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"deepgram/deepgram-js-sdk/deepgram-js-maintaining-sdk",
+"source":"deepgram/deepgram-js-sdk",
+"revision":"9767c9d73d949736020ead23403e1588a14e5948",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named deepgram-js-maintaining-sdk at 9767c9d73d949736020ead23403e1588a14e5948",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

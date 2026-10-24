@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elastic/agent-skills/cloud-onboarding",
+"revision":"baa511126ba2dc37b52e273b52734f8e4e0d323c",
+"trace":{"path":"traces/elastic/agent-skills/cloud-onboarding/baa511126ba2dc37b52e273b52734f8e4e0d323c/trace-3+judge-7.json","sha256":"061844d4f95d4a436720242b94481ecafaf206fdf82007fbdf5530f64915ea9f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":37212,"own":{"files":2,"bytes":37212},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["elastic"],"package":[],"mcp-server":[],"credential":["EC_API_KEY","ELASTICSEARCH_API_KEY"],"network":["api.elastic-cloud.com"]},"summary":"2 files, 36 KiB · CLI elastic · 2 keys · 1 host","short":"36 KiB · 1 CLI · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs elastic"]},{"marker":"network","because":["fetches from api.elastic-cloud.com"]},{"marker":"credentials","because":["needs EC_API_KEY","needs ELASTICSEARCH_API_KEY"]},{"marker":"sends-credentials","because":["EC_API_KEY -> api.elastic-cloud.com: skills/cloud/onboarding/references/api-reference.md:49, skills/cloud/onboarding/references/api-reference.md:84, skills/cloud/onboarding/references/api-reference.md:115"]}],
+"security":{"secret-egress":["EC_API_KEY -> api.elastic-cloud.com @ skills/cloud/onboarding/references/api-reference.md:49, skills/cloud/onboarding/references/api-reference.md:84, skills/cloud/onboarding/references/api-reference.md:115 +10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

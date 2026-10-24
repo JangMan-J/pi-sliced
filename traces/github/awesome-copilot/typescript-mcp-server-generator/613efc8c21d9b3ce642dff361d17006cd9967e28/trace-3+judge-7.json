@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"github/awesome-copilot/typescript-mcp-server-generator",
+"source":"github/awesome-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"skillPath":"skills/typescript-mcp-server-generator",
+"status":"resolved",
+"totals":{"files":1,"bytes":6731},
+"files":[
+{"path":"skills/typescript-mcp-server-generator/SKILL.md","size":6731,"blob":"d7a98d272b5084874aff21a50f23c46139c5fe85","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@modelcontextprotocol/codemod","at":[[0,94]]},
+{"kind":"cli","name":"@modelcontextprotocol/inspector","at":[[0,101]]},
+{"kind":"cli","name":"tsx","at":[[0,100]]},
+{"kind":"package","name":"@modelcontextprotocol/express","at":[[0,27]]},
+{"kind":"package","name":"express","at":[[0,27]]}
+],
+"regions":[
+{"kind":"own","path":"skills/typescript-mcp-server-generator","files":1,"bytes":6731}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @modelcontextprotocol/codemod@latest","at":[[0,94]]},
+{"kind":"fetch-run","detail":"npx @modelcontextprotocol/inspector","at":[[0,101]]},
+{"kind":"fetch-run","detail":"npx tsx","at":[[0,100]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

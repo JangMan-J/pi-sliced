@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openai-skills/vercel-deploy",
+"revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+"trace":{"path":"traces/firecrawl/openai-skills/vercel-deploy/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc/trace-3+judge-7.json","sha256":"e01df71ba14ed18ef9e7aecda19ea4a98974e17a0dc18667080de8836260cc28"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11077,"own":{"files":2,"bytes":11077},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vercel"],"package":[],"mcp-server":[],"credential":[],"network":["codex-deploy-skills.vercel.sh"]},"summary":"2 files, 11 KiB · CLI vercel · 1 host","short":"11 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs vercel"]},{"marker":"network","because":["fetches from codex-deploy-skills.vercel.sh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

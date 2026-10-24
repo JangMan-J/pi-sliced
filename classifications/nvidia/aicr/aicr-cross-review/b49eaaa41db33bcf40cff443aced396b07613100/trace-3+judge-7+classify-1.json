@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/aicr/aicr-cross-review",
+"revision":"b49eaaa41db33bcf40cff443aced396b07613100",
+"trace":{"path":"traces/nvidia/aicr/aicr-cross-review/b49eaaa41db33bcf40cff443aced396b07613100/trace-3+judge-7.json","sha256":"d02bd1b16826aaa5668c21415ff5b16bfa7f6613d46cc8e34ba8b243b50c605d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":173785,"own":{"files":2,"bytes":173785},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gc","gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 170 KiB · CLI gc, gh","short":"170 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gc","runs gh"]},{"marker":"checkout-scripts","because":["code reaches tests (231 files) in the repository checkout"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":1,"targets":["tests"],"files":231,"bytes":2189378}
+}

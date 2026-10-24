@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/query-examples",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/query-examples/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"c1405d7ceb3184064dd7dc672e6bea2da5723a4965146e8931b9ee6d43c63d5f"},
+"status":"unresolvable",
+"reason":"no skill folder named query-examples at 36806304df6201f23bf221e8c8e149e6441fd3d5"
+}

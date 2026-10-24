@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/md-to-docx",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/md-to-docx/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"78e7c9b0bf01ba1727210c28669880cff3ca2d078b425370572a6618968bd213"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":17666,"own":{"files":3,"bytes":17666},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["docx","marked"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 17 KiB · packages docx +1","short":"17 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs docx","installs marked"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-storage",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-storage/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"2e9a27fc381ab3c031ca42adefc021d89eb0fae5273bc7443c0f3a38eaff4e86"},
+"status":"resolved",
+"footprint":{"files":14,"bytes":28831,"own":{"files":14,"bytes":28831},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":["@azure/identity","@azure/storage-blob","Azure.Identity","Azure.Storage.Blobs","azure-identity","azure-storage-blob","azure_identity","azure_storage_blob","github.com/Azure/azure-sdk-for-go/sdk/azidentity","github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"],"mcp-server":[],"credential":[],"network":[]},"summary":"14 files, 28 KiB · CLI az · packages @azure/identity +9","short":"28 KiB · 1 CLI · 10 pkg"},
+"heavy":{"heavy":true,"because":["10 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"installs-packages","because":["installs @azure/identity","installs @azure/storage-blob","installs azure_identity","installs azure_storage_blob","installs azure-identity","installs azure-storage-blob","installs Azure.Identity","installs Azure.Storage.Blobs","installs github.com/Azure/azure-sdk-for-go/sdk/azidentity","installs github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

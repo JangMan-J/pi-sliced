@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"remotion-dev/remotion/visual-mode",
+"revision":"0eddd9ae31e1633b6ebc2ef53c5fb501cd0b5bf5",
+"trace":{"path":"traces/remotion-dev/remotion/visual-mode/0eddd9ae31e1633b6ebc2ef53c5fb501cd0b5bf5/trace-3+judge-7.json","sha256":"a9347afc530ed8aa250a99e2cdeca4a25ca250501a9d2176e47ed648a85a9cec"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1909,"own":{"files":1,"bytes":1909},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.9 KiB","short":"1.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

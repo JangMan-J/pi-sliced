@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"factory-ai/factory-plugins/security-review",
+"revision":"aa8be50bc07e9f4ec48db9d57929ce8e2214504a",
+"trace":{"path":"traces/factory-ai/factory-plugins/security-review/aa8be50bc07e9f4ec48db9d57929ce8e2214504a/trace-3+judge-7.json","sha256":"769ae3055743d06c85dc4a4465561d76649f3367ca298c65f9ee6b6738945189"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17826,"own":{"files":1,"bytes":17826},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","govulncheck","pip-audit"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB · CLI cargo, govulncheck +1","short":"17 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs govulncheck","runs pip-audit"]}],
+"security":{},
+"companions":{"named":[{"name":"threat-model-generation","path":"plugins/security-engineer/skills/threat-model-generation"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

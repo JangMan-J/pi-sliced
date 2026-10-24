@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/remotion-studio",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/remotion/skills/remotion-studio",
+"status":"resolved",
+"totals":{"files":1,"bytes":958},
+"files":[
+{"path":"plugins/remotion/skills/remotion-studio/SKILL.md","size":958,"blob":"aad17ce3631c1c701fbdbaf8dad1da39b40a2019","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"remotion","at":[[0,10]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/remotion/skills/remotion-studio","files":1,"bytes":958}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx remotion","at":[[0,10]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

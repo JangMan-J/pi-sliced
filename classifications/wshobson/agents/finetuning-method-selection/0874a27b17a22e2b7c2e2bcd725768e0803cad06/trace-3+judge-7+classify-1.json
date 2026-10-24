@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/finetuning-method-selection",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/finetuning-method-selection/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"9e2f545137aa959b12a8576f0377855676cdb20d7692537371d34b8a123eb9dd"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":16055,"own":{"files":3,"bytes":16055},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"eval-harness-first","path":"plugins/llm-finetuning/skills/eval-harness-first"},{"name":"grpo-rlvr-training","path":"plugins/llm-finetuning/skills/grpo-rlvr-training"},{"name":"lora-qlora-recipes","path":"plugins/llm-finetuning/skills/lora-qlora-recipes"},{"name":"preference-optimization","path":"plugins/llm-finetuning/skills/preference-optimization"},{"name":"spark-memory-thermal-ops","path":"plugins/dgx-spark-ops/skills/spark-memory-thermal-ops"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

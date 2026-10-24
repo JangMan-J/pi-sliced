@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/debugpy/numpy",
+"revision":"671f6c7d1b228b8001f659bf61e39b7668587302",
+"trace":{"path":"traces/microsoft/debugpy/numpy/671f6c7d1b228b8001f659bf61e39b7668587302/trace-3+judge-7.json","sha256":"d94f51592c43fdd5245f137d7772e2ada893f6783a7a196f8750ce1bdfea5bfc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1522,"own":{"files":1,"bytes":1522},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.5 KiB","short":"1.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

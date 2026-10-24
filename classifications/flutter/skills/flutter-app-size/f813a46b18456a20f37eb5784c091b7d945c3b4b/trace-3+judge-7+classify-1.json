@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-app-size",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-app-size/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"7af61e1e1777d0b8c8cf8b4d320b892c792c65648eb7abe101a3fc54d1f68af5"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-app-size at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

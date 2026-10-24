@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/circleci-builds",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/circleci-builds/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"967b5f32d61750b6ce3bd5bc79b4efe74676da395b3d7e3de0701da75b8694b0"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":8237,"own":{"files":2,"bytes":5386},"otherSkills":{"count":1,"files":1,"bytes":2851},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["circleci"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 8.0 KiB · +1 other skill · CLI circleci","short":"8.0 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs circleci"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/circleci/skills/config"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"plugins/circleci/skills/config","files":1,"bytes":2851}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

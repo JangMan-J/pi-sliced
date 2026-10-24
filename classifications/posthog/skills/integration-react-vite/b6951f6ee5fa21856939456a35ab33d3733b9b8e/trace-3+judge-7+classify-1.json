@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-react-vite",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-react-vite/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"4c9d50ca285765f389312e05824842e5b60694e2127f130d33034890a0bae65a"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":37470,"own":{"files":7,"bytes":37470},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard"],"package":["@posthog/react","posthog-js"],"mcp-server":[],"credential":["VITE_PUBLIC_POSTHOG_TOKEN"],"network":[]},"summary":"7 files, 37 KiB · CLI @posthog/wizard · packages @posthog/react +1 · 1 key","short":"37 KiB · 1 CLI · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard"]},{"marker":"installs-packages","because":["installs @posthog/react","installs posthog-js"]},{"marker":"credentials","because":["needs VITE_PUBLIC_POSTHOG_TOKEN"]},{"marker":"unpinned-code","because":["npx @posthog/wizard@latest: skills/posthog/integration/skills/react-vite/references/react.md:21"]}],
+"security":{"fetch-run":["npx @posthog/wizard@latest @ skills/posthog/integration/skills/react-vite/references/react.md:21"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

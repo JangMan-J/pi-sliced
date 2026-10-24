@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"runwayml/skills/use-runway-api",
+"revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de",
+"trace":{"path":"traces/runwayml/skills/use-runway-api/3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de/trace-3+judge-7.json","sha256":"f2fe5c4910a2eca1b6211d271bd0f8b27e89984727e754c1568013e825eb3982"},
+"status":"unresolvable",
+"reason":"no skill folder named use-runway-api at 3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de (the archive had legacy/skills/use-runway-api)"
+}

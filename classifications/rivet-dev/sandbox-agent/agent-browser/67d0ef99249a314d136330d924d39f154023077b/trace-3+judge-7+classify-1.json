@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"rivet-dev/sandbox-agent/agent-browser",
+"revision":"67d0ef99249a314d136330d924d39f154023077b",
+"trace":{"path":"traces/rivet-dev/sandbox-agent/agent-browser/67d0ef99249a314d136330d924d39f154023077b/trace-3+judge-7.json","sha256":"232c2208fcd79595c879339363d8006d5bddca7d8ecb3eb4a82d383569e918dd"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":50088,"own":{"files":9,"bytes":50088},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Array.from","JSON.stringify","agent-browser","appium","document.querySelectorAll","img","openssl","page1","page2","page3","run_e2e_test"],"package":["appium"],"mcp-server":[],"credential":["AGENT_BROWSER_ENCRYPTION_KEY","APP_PASSWORD"],"network":["httpbin.org","lightpanda.io"]},"summary":"9 files, 49 KiB · CLI Array.from, JSON.stringify +9 · packages appium · 2 keys · 2 hosts","short":"49 KiB · 11 CLI · 1 pkg · 2 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","11 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser","runs appium","runs Array.from","runs document.querySelectorAll","runs img","runs JSON.stringify","runs openssl","runs page1","runs page2","runs page3","runs run_e2e_test"]},{"marker":"installs-packages","because":["installs appium"]},{"marker":"network","because":["fetches from httpbin.org","fetches from lightpanda.io"]},{"marker":"credentials","because":["needs AGENT_BROWSER_ENCRYPTION_KEY","needs APP_PASSWORD"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

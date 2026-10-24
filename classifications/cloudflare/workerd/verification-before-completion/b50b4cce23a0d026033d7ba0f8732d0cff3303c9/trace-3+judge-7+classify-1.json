@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/workerd/verification-before-completion",
+"revision":"b50b4cce23a0d026033d7ba0f8732d0cff3303c9",
+"trace":{"path":"traces/cloudflare/workerd/verification-before-completion/b50b4cce23a0d026033d7ba0f8732d0cff3303c9/trace-3+judge-7.json","sha256":"5b194ca5fce418cea2f653ad944888e8396092acd684d515fd09d2624ff0bb42"},
+"status":"unresolvable",
+"reason":"no skill folder named verification-before-completion at b50b4cce23a0d026033d7ba0f8732d0cff3303c9"
+}

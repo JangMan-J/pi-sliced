@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"axiomhq/cli/axiom-apl",
+"revision":"94c467e9aa5e8e0a940628c5e77149cc3831cfa8",
+"trace":{"path":"traces/axiomhq/cli/axiom-apl/94c467e9aa5e8e0a940628c5e77149cc3831cfa8/trace-3+judge-7.json","sha256":"297e32379ac5702561c46b94c4a913dea51f4e6265344d7b2e56652d88a8d7d5"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":33746,"own":{"files":7,"bytes":33746},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["axiom","jq","limit","where"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 33 KiB · CLI axiom, jq +2","short":"33 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs axiom","runs jq","runs limit","runs where"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

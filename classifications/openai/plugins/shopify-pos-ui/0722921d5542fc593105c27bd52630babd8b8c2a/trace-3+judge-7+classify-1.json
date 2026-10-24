@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/shopify-pos-ui",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/shopify-pos-ui/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"718eabfe82bc5af98fc5c3366380b99b9819b74b96282f0554bf909ec2808f9c"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":100519,"own":{"files":4,"bytes":100519},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["shopify"],"package":["@shopify/app-bridge-types","@shopify/polaris-types","typescript"],"mcp-server":[],"credential":["MINERVA_TOKEN"],"network":["shopify-dev.shop.dev","shopify.dev"]},"summary":"4 files, 98 KiB · CLI shopify · packages @shopify/app-bridge-types +2 · 1 key · 2 hosts","short":"98 KiB · 1 CLI · 3 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs shopify"]},{"marker":"installs-packages","because":["installs @shopify/app-bridge-types","installs @shopify/polaris-types","installs typescript"]},{"marker":"network","because":["fetches from shopify-dev.shop.dev","fetches from shopify.dev"]},{"marker":"credentials","because":["needs MINERVA_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"shopify-use-shopify-cli","path":"plugins/shopify/skills/shopify-use-shopify-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

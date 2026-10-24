@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/libafl",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/libafl/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"e3227c67d84236440f5b77d752ca4c62b9700bd92270636a21e126747cc8d6c7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17143,"own":{"files":1,"bytes":17143},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","clang++","clang++-15","cmake","gdb","libafl_cxx","make","rustup"],"package":["clang","libafl","libafl_bolts","libafl_cc","libafl_targets","libssl-dev","pkg-config","zlib1g-dev"],"mcp-server":[],"credential":[],"network":["apt.llvm.org","downloads.sourceforge.net","github.com","raw.githubusercontent.com","sh.rustup.rs"]},"summary":"1 file, 17 KiB · CLI cargo, clang++ +6 · packages clang +7 · 5 hosts","short":"17 KiB · 8 CLI · 8 pkg · 5 hosts"},
+"heavy":{"heavy":true,"because":["8 packages to install","8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs clang++","runs clang++-15","runs cmake","runs gdb","runs libafl_cxx","runs make","runs rustup"]},{"marker":"installs-packages","because":["installs clang","installs libafl","installs libafl_bolts","installs libafl_cc","installs libafl_targets","installs libssl-dev","installs pkg-config","installs zlib1g-dev"]},{"marker":"network","because":["fetches from apt.llvm.org","fetches from downloads.sourceforge.net","fetches from github.com","fetches from raw.githubusercontent.com","fetches from sh.rustup.rs"]},{"marker":"unpinned-code","because":["pipe to interpreter: plugins/testing-handbook-skills/skills/libafl/SKILL.md:82"]}],
+"security":{"fetch-run":["pipe to interpreter @ plugins/testing-handbook-skills/skills/libafl/SKILL.md:82"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"streamlit/agent-skills/using-streamlit-custom-components",
+"source":"streamlit/agent-skills",
+"revision":"c69a265613f17cdd69d42e6f67b704214178fae5",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named using-streamlit-custom-components at c69a265613f17cdd69d42e6f67b704214178fae5",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

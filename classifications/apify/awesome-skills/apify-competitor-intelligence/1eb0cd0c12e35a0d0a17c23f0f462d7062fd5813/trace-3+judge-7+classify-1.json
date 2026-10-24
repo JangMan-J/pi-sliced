@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/awesome-skills/apify-competitor-intelligence",
+"revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"trace":{"path":"traces/apify/awesome-skills/apify-competitor-intelligence/1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813/trace-3+judge-7.json","sha256":"0dd87cad362315e3303c7e44323fed613cdab082648d0553e6fc8524b8959228"},
+"status":"unresolvable",
+"reason":"no skill folder named apify-competitor-intelligence at 1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813"
+}

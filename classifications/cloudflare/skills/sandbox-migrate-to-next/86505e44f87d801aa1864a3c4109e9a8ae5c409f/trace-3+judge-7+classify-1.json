@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/skills/sandbox-migrate-to-next",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"trace":{"path":"traces/cloudflare/skills/sandbox-migrate-to-next/86505e44f87d801aa1864a3c4109e9a8ae5c409f/trace-3+judge-7.json","sha256":"5af307a9e69676f2af4dfb7885f4b5092092e4928ce0fa07f95f1dcf1f416da8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7902,"own":{"files":1,"bytes":7902},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["rg","wrangler"],"package":["@cloudflare/sandbox"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.7 KiB · CLI rg, wrangler · packages @cloudflare/sandbox","short":"7.7 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs rg","runs wrangler"]},{"marker":"installs-packages","because":["installs @cloudflare/sandbox"]},{"marker":"unpinned-code","because":["install @latest: skills/sandbox-migrate-to-next/SKILL.md:77","npx wrangler: skills/sandbox-migrate-to-next/SKILL.md:157"]}],
+"security":{"fetch-run":["install @latest @ skills/sandbox-migrate-to-next/SKILL.md:77","npx wrangler @ skills/sandbox-migrate-to-next/SKILL.md:157"]},
+"companions":{"named":[{"name":"sandbox-next","path":"skills/sandbox-next"},{"name":"sandbox-stable","path":"skills/sandbox-stable"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

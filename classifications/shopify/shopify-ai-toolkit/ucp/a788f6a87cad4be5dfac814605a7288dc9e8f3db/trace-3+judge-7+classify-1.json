@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"shopify/shopify-ai-toolkit/ucp",
+"revision":"a788f6a87cad4be5dfac814605a7288dc9e8f3db",
+"trace":{"path":"traces/shopify/shopify-ai-toolkit/ucp/a788f6a87cad4be5dfac814605a7288dc9e8f3db/trace-3+judge-7.json","sha256":"343364f3d0f3121e6ef6db7f6275a7f17a225317a0f976867dc6a1393e826bad"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":75170,"own":{"files":4,"bytes":75170},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["checkout","jq","ucp"],"package":[],"mcp-server":[],"credential":["MINERVA_TOKEN"],"network":["shopify-dev.shop.dev","shopify.dev"]},"summary":"4 files, 73 KiB · CLI checkout, jq +1 · 1 key · 2 hosts","short":"73 KiB · 3 CLI · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs checkout","runs jq","runs ucp"]},{"marker":"network","because":["fetches from shopify-dev.shop.dev","fetches from shopify.dev"]},{"marker":"credentials","because":["needs MINERVA_TOKEN"]},{"marker":"opaque-code","because":["minified script: skills/ucp/scripts/log_feedback.mjs:2, skills/ucp/scripts/log_skill_use.mjs:4"]}],
+"security":{"opaque":["minified script @ skills/ucp/scripts/log_feedback.mjs:2, skills/ucp/scripts/log_skill_use.mjs:4"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

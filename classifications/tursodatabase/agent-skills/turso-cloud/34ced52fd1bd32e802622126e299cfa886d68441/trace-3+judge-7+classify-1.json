@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tursodatabase/agent-skills/turso-cloud",
+"revision":"34ced52fd1bd32e802622126e299cfa886d68441",
+"trace":{"path":"traces/tursodatabase/agent-skills/turso-cloud/34ced52fd1bd32e802622126e299cfa886d68441/trace-3+judge-7.json","sha256":"03b0d9a3ea1e4bb1caabb4d5a944f5282fc097fc330793fdf13dfedb7e2d5f54"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":28398,"own":{"files":7,"bytes":28398},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","turso","vercel"],"package":["@tursodatabase/serverless","@tursodatabase/sync","@tursodatabase/sync-react-native","@tursodatabase/sync-wasm","full","github.com/tursodatabase/libsql-client-go","libsql","pyturso","remote","sync","tokio","turso","turso.tech/database/tursogo"],"mcp-server":[],"credential":[],"network":["docs.turso.tech"]},"summary":"7 files, 28 KiB · CLI cargo, turso +1 · packages @tursodatabase/serverless +12 · 1 host","short":"28 KiB · 3 CLI · 13 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["13 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs turso","runs vercel"]},{"marker":"installs-packages","because":["installs @tursodatabase/serverless","installs @tursodatabase/sync","installs @tursodatabase/sync-react-native","installs @tursodatabase/sync-wasm","installs full","installs github.com/tursodatabase/libsql-client-go","installs libsql","installs pyturso","installs remote","installs sync","installs tokio","installs turso","installs turso.tech/database/tursogo"]},{"marker":"network","because":["fetches from docs.turso.tech"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

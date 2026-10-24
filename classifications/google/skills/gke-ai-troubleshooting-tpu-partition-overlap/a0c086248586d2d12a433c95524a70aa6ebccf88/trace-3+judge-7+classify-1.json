@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-ai-troubleshooting-tpu-partition-overlap",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-ai-troubleshooting-tpu-partition-overlap/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"362a8065fd8e67770b987f7cddd0cacfefa51d00098883721154e9b06fcf15a8"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":21907,"own":{"files":2,"bytes":21907},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 21 KiB · CLI gcloud","short":"21 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-ai-troubleshooting-tpu-dynamic-slices-monitoring","path":"skills/cloud/gke-ai-troubleshooting-tpu-dynamic-slices-monitoring"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

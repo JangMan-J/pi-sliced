@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-reliability",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-reliability/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"3135b996400ad4b7fdd89074996ae7c812df038a41ad889ec89e66652a320280"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":99989,"own":{"files":13,"bytes":99989},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Other","Resources","Select-String","az","azcopy","azd","by","extend","location","name","openssl","or","order","project","properties.endpoints","properties.monitorConfig.path","properties.monitorConfig.port","properties.monitorConfig.protocol","properties.trafficRoutingMethod","properties.zoneRedundant","resources","sku.name","sku.tier","summarize","tags","tostring","where","zoneRedundant"],"package":[],"mcp-server":[],"credential":["RESOURCE_TOKEN"],"network":[]},"summary":"13 files, 98 KiB · CLI Other, Resources +26 · 1 key","short":"98 KiB · 28 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["28 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs azcopy","runs azd","runs by","runs extend","runs location","runs name","runs openssl","runs or","runs order","runs Other","runs project","runs properties.endpoints","runs properties.monitorConfig.path","runs properties.monitorConfig.port","runs properties.monitorConfig.protocol","runs properties.trafficRoutingMethod","runs properties.zoneRedundant","runs resources","runs Resources","runs Select-String","runs sku.name","runs sku.tier","runs summarize","runs tags","runs tostring","runs where","runs zoneRedundant"]},{"marker":"credentials","because":["needs RESOURCE_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-deploy","path":".github/plugins/azure-skills/skills/azure-deploy"},{"name":"azure-prepare","path":".github/plugins/azure-skills/skills/azure-prepare"},{"name":"azure-validate","path":".github/plugins/azure-skills/skills/azure-validate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

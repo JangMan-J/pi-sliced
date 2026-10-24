@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/llamaguard",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/llamaguard/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"288978acc8e3f2b932e9ac470491705456a359dd2a0e4f38787c3659e427911f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9204,"own":{"files":1,"bytes":9204},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["huggingface-cli"],"package":["torch","transformers"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.0 KiB · CLI huggingface-cli · packages torch +1","short":"9.0 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs huggingface-cli"]},{"marker":"installs-packages","because":["installs torch","installs transformers"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

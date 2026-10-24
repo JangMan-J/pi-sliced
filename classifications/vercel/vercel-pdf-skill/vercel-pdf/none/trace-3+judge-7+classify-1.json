@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-pdf-skill/vercel-pdf",
+"revision":"none",
+"trace":{"path":"traces/vercel/vercel-pdf-skill/vercel-pdf/none/trace-3+judge-7.json","sha256":"5cbb8112e3f258709bc9bc76cd9bac242fe481f25e6aee1aeac5febc3c4bd711"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/vercel-pdf-skill.git/' not found"
+}

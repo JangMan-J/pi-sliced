@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/wcag-audit-patterns",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/accessibility-compliance/skills/wcag-audit-patterns",
+"status":"resolved",
+"totals":{"files":2,"bytes":12483},
+"files":[
+{"path":"plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md","size":2511,"blob":"c071acee41a2a2c7d4df04da7281d193215dfca7","how":"root"},
+{"path":"plugins/accessibility-compliance/skills/wcag-audit-patterns/references/details.md","size":9972,"blob":"297f388b62a7006cc6687b4147d34e17bda399d7","how":"path","from":0,"line":62}
+],
+"outside":[
+{"kind":"cli","name":"@axe-core/cli","at":[[1,396]]},
+{"kind":"cli","name":"lighthouse","at":[[1,398]]},
+{"kind":"cli","name":"pa11y","at":[[1,397]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/accessibility-compliance/skills/wcag-audit-patterns","files":2,"bytes":12483}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @axe-core/cli","at":[[1,396]]},
+{"kind":"fetch-run","detail":"npx pa11y","at":[[1,397]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

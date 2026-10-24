@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/winforms-expert",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/winforms-expert/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"596bb872924b6d914cac87e72c5bf1b8accf25df0e0bda678bd2da241ff56171"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":23143,"own":{"files":1,"bytes":23143},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","pwsh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 23 KiB · CLI dotnet, pwsh","short":"23 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs pwsh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

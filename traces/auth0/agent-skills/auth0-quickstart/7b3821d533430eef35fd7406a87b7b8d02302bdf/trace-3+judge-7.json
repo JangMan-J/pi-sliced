@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"auth0/agent-skills/auth0-quickstart",
+"source":"auth0/agent-skills",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named auth0-quickstart at 7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

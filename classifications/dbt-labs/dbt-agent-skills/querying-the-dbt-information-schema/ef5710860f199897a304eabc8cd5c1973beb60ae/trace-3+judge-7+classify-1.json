@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dbt-labs/dbt-agent-skills/querying-the-dbt-information-schema",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"trace":{"path":"traces/dbt-labs/dbt-agent-skills/querying-the-dbt-information-schema/ef5710860f199897a304eabc8cd5c1973beb60ae/trace-3+judge-7.json","sha256":"52f3f0a7259af168b1476bba217bb0979fe93fb75151f1afd80c9a377bd373f8"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":22689,"own":{"files":2,"bytes":22689},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dag_nodes","dbt","duckdb","from","group","n"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 22 KiB · CLI dag_nodes, dbt +4","short":"22 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dag_nodes","runs dbt","runs duckdb","runs from","runs group","runs n"]}],
+"security":{},
+"companions":{"named":[{"name":"maintaining-dbt-documentation","path":"skills/dbt/skills/maintaining-dbt-documentation"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

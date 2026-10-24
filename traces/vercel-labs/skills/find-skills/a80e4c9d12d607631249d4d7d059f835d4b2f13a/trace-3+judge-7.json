@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/skills/find-skills",
+"source":"vercel-labs/skills",
+"revision":"a80e4c9d12d607631249d4d7d059f835d4b2f13a",
+"skillPath":"skills/find-skills",
+"status":"resolved",
+"totals":{"files":1,"bytes":5472},
+"files":[
+{"path":"skills/find-skills/SKILL.md","size":5472,"blob":"a41bdd074bb587afd861332cf2f473f3154de4d7","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,23],[0,27],[0,28],[0,29],[0,56],[0,61],[0,62],[0,63],[0,100],[0,131]]}
+],
+"regions":[
+{"kind":"own","path":"skills/find-skills","files":1,"bytes":5472}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,23],[0,27],[0,28],[0,29],[0,56],[0,61],[0,62],[0,63],[0,100],[0,131]]},
+{"kind":"persist-write","detail":"skill folder","at":[[0,100]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,28],[0,100]]},
+{"kind":"skill-fetch","detail":"npx skills update","at":[[0,29]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

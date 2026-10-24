@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"medusajs/medusa-claude-plugins/learning-medusa",
+"revision":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc",
+"trace":{"path":"traces/medusajs/medusa-claude-plugins/learning-medusa/42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc/trace-3+judge-7.json","sha256":"cdda2f428094792d9f149423f7944c4cb3fa95d782f7f0a1edee400a1ffc1a3a"},
+"status":"resolved",
+"footprint":{"files":17,"bytes":220344,"own":{"files":17,"bytes":220344},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["medusa","psql","systemctl"],"package":["@tanstack/react-query"],"mcp-server":["medusadocs","use"],"credential":[],"network":[]},"summary":"17 files, 215 KiB · MCP medusadocs, use · CLI medusa, psql +1 · packages @tanstack/react-query","short":"215 KiB · 3 CLI · 1 pkg · MCP 2"},
+"heavy":{"heavy":true,"because":["1 package to install","2 MCP servers","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs medusa","runs psql","runs systemctl"]},{"marker":"installs-packages","because":["installs @tanstack/react-query"]},{"marker":"mcp-server","because":["uses the medusadocs MCP server","uses the use MCP server"]},{"marker":"unpinned-code","because":["npx medusa: plugins/learn-medusa/skills/learning-medusa/checkpoints/checkpoint-module-links.md:84, plugins/learn-medusa/skills/learning-medusa/checkpoints/checkpoint-module-links.md:110, plugins/learn-medusa/skills/learning-medusa/checkpoints/checkpoint-module.md:98"]}],
+"security":{"fetch-run":["npx medusa @ plugins/learn-medusa/skills/learning-medusa/checkpoints/checkpoint-module-links.md:84, plugins/learn-medusa/skills/learning-medusa/checkpoints/checkpoint-module-links.md:110, plugins/learn-medusa/skills/learning-medusa/checkpoints/checkpoint-module.md:98 +10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/quarkus-native-and-container",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/quarkus-native-and-container/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"95abf3dfba36dc7ff82bcd9c595f75643d8d43bcb0d836e370870e3a49d254a1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9374,"own":{"files":1,"bytes":9374},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["kubectl","oc","quarkus","verify"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.2 KiB · CLI kubectl, oc +2","short":"9.2 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs kubectl","runs oc","runs quarkus","runs verify"]}],
+"security":{},
+"companions":{"named":[{"name":"java-add-graalvm-native-image-support","path":"skills/java-add-graalvm-native-image-support"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

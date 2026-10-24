@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/act-on-feedback",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/act-on-feedback/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"527a45530bc2a2c323e9a39e4925b966c8f9d8f4375e62cd1f1f17a9b5be4ef6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1066,"own":{"files":1,"bytes":1066},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.0 KiB","short":"1.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

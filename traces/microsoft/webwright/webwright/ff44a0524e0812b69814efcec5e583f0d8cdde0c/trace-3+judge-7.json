@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/webwright/webwright",
+"source":"microsoft/webwright",
+"revision":"ff44a0524e0812b69814efcec5e583f0d8cdde0c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named webwright at ff44a0524e0812b69814efcec5e583f0d8cdde0c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

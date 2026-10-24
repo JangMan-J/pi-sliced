@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-local-multi-rack",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-local-multi-rack/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"286d2275473c9df76b1e756c53e4e563fdcbab878dbe92dfa645fc0363e0a464"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":27770,"own":{"files":9,"bytes":27770},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["azure"],"credential":[],"network":[]},"summary":"9 files, 27 KiB · MCP azure","short":"27 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the azure MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-local","path":".github/plugins/azure-local-skills/skills/azure-local"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

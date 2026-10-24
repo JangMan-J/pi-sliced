@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/exploring-llm-costs",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/exploring-llm-costs/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"cee9138716084bd60400539741c71696a8cb0fbdf3170ae895c5f903cfbf43ec"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":33962,"own":{"files":7,"bytes":33962},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 33 KiB","short":"33 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"analyzing-expensive-users","path":"skills/analyzing-expensive-users"},{"name":"exploring-llm-traces","path":"skills/exploring-llm-traces"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

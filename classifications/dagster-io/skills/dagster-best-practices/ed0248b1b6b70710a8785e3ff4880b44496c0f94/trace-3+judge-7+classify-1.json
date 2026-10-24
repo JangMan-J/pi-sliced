@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/skills/dagster-best-practices",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/skills/dagster-best-practices/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"89c00bcacdef730796b236e6439759ec0acebecaf9fbc0b360de8d3349432eca"},
+"status":"unresolvable",
+"reason":"no skill folder named dagster-best-practices at ed0248b1b6b70710a8785e3ff4880b44496c0f94"
+}

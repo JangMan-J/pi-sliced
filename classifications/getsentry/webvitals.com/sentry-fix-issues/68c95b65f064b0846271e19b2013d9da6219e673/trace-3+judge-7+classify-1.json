@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/webvitals.com/sentry-fix-issues",
+"revision":"68c95b65f064b0846271e19b2013d9da6219e673",
+"trace":{"path":"traces/getsentry/webvitals.com/sentry-fix-issues/68c95b65f064b0846271e19b2013d9da6219e673/trace-3+judge-7.json","sha256":"43b4d4cc96e3ba77e79c1f34197dc65b988fd01e884e34225c6cf5d972a1359f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4810,"own":{"files":1,"bytes":4810},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["sentry"],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB · MCP sentry","short":"4.7 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the sentry MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

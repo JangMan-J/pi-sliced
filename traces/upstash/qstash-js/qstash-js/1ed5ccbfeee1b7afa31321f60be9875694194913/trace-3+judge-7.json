@@ -1,0 +1,54 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"upstash/qstash-js/qstash-js",
+"source":"upstash/qstash-js",
+"revision":"1ed5ccbfeee1b7afa31321f60be9875694194913",
+"skillPath":"skills",
+"status":"resolved",
+"totals":{"files":12,"bytes":62455},
+"files":[
+{"path":"skills/SKILL.md","size":2982,"blob":"a172fa16e46f42a82926c3056dc6a56926bd74ab","how":"root"},
+{"path":"skills/advanced/callbacks.md","size":4672,"blob":"646029822d9cafd9437aed348753830497711144","how":"link","from":0,"line":60},
+{"path":"skills/advanced/deduplication.md","size":2251,"blob":"e550cbae14bab37c10aaa816a29a5bb68c9cce7d","how":"link","from":0,"line":62},
+{"path":"skills/advanced/dlq.md","size":4237,"blob":"ff927babb993c7da79bfde5abb3de12fc96cdf07","how":"link","from":0,"line":61},
+{"path":"skills/advanced/multi-region.md/summary.md","size":10786,"blob":"ce93c2d4d173fb64b3cbe0ee42abaecfcc83b154","how":"directory","from":0,"line":63},
+{"path":"skills/advanced/multi-region.md/verify-multi-region-setup.ts","size":12944,"blob":"7bd76dae64d9f390a3ac2e79e909d7e8d6d5e829","how":"directory","from":0,"line":63},
+{"path":"skills/fundamentals/publishing-messages.md","size":3626,"blob":"ed25f9d5be9c80a678979b51c1d46604cf245ea5","how":"link","from":0,"line":47},
+{"path":"skills/fundamentals/queues-and-flow-control.md","size":3983,"blob":"1c072e3f8dd7d869e3330561119d3ad0e730fdb8","how":"link","from":0,"line":49},
+{"path":"skills/fundamentals/schedules.md","size":4305,"blob":"9c2da5af0b2e001cb11ab93fa92b32dc53634e02","how":"link","from":0,"line":48},
+{"path":"skills/fundamentals/url-groups.md","size":3052,"blob":"26d6f9fd9b0719dd51d9e542f69ad02c54712247","how":"link","from":0,"line":50},
+{"path":"skills/verification/platform-specific/nextjs.md","size":4301,"blob":"cdc2b85638c91add1cd5d0f2301f2c786790dae2","how":"link","from":0,"line":56},
+{"path":"skills/verification/receiver.md","size":5316,"blob":"281d5e99f5e65bc1d2b5b191f58da832425d4437","how":"link","from":0,"line":54}
+],
+"outside":[
+{"kind":"cli","name":"tsx","at":[[4,292],[4,372]]},
+{"kind":"credential","name":"EU_CENTRAL_1_QSTASH_CURRENT_SIGNING_KEY","at":[[4,81],[4,264],[5,198]]},
+{"kind":"credential","name":"EU_CENTRAL_1_QSTASH_NEXT_SIGNING_KEY","at":[[4,82],[4,265],[5,199]]},
+{"kind":"credential","name":"EU_CENTRAL_1_QSTASH_TOKEN","at":[[4,74],[4,263],[4,348]]},
+{"kind":"credential","name":"QSTASH_CURRENT_SIGNING_KEY","at":[[4,47],[4,56],[4,251],[4,307],[5,259],[5,270],[5,366],[11,17]]},
+{"kind":"credential","name":"QSTASH_NEXT_SIGNING_KEY","at":[[4,48],[4,57],[4,252],[4,308],[5,260],[5,271],[5,367],[11,18]]},
+{"kind":"credential","name":"QSTASH_TOKEN","at":[[4,44],[4,55],[4,250],[5,175],[5,181]]},
+{"kind":"credential","name":"US_EAST_1_QSTASH_CURRENT_SIGNING_KEY","at":[[4,77],[4,259],[4,312],[5,196]]},
+{"kind":"credential","name":"US_EAST_1_QSTASH_NEXT_SIGNING_KEY","at":[[4,78],[4,260],[4,313],[5,197]]},
+{"kind":"credential","name":"US_EAST_1_QSTASH_TOKEN","at":[[4,70],[4,258],[4,344]]},
+{"kind":"network","name":"qstash-us-east-1.upstash.io","at":[[4,344]]},
+{"kind":"network","name":"qstash.upstash.io","at":[[4,348],[5,34]]},
+{"kind":"package","name":"@upstash/qstash","at":[[0,25],[4,17],[4,19]]},
+{"kind":"package","name":"@upstash/workflow","at":[[4,19]]},
+{"kind":"package","name":"dotenv","at":[[4,371],[5,19],[5,26]]}
+],
+"regions":[
+{"kind":"own","path":"skills","files":12,"bytes":62455}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[4,17],[4,19]]},
+{"kind":"fetch-run","detail":"npx tsx","at":[[4,292],[4,372]]},
+{"kind":"secret-egress","detail":"EU_CENTRAL_1_QSTASH_TOKEN -> qstash.upstash.io","at":[[4,348]]},
+{"kind":"secret-egress","detail":"US_EAST_1_QSTASH_TOKEN -> qstash-us-east-1.upstash.io","at":[[4,344]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

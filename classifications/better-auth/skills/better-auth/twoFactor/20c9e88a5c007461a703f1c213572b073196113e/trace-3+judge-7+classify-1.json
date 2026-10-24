@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"better-auth/skills/better-auth/twoFactor",
+"revision":"20c9e88a5c007461a703f1c213572b073196113e",
+"trace":{"path":"traces/better-auth/skills/better-auth/twoFactor/20c9e88a5c007461a703f1c213572b073196113e/trace-3+judge-7.json","sha256":"0c2c172fe7bde6c44e62e1bde8219d9c1d3519cda0822f45e58fc0f726d40b5c"},
+"status":"unresolvable",
+"reason":"no skill folder named better-auth/twoFactor at 20c9e88a5c007461a703f1c213572b073196113e"
+}

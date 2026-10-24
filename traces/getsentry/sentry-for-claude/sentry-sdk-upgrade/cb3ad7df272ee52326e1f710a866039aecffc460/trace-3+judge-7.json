@@ -1,0 +1,37 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/sentry-for-claude/sentry-sdk-upgrade",
+"source":"getsentry/sentry-for-claude",
+"revision":"cb3ad7df272ee52326e1f710a866039aecffc460",
+"skillPath":"skills-legacy/sentry-sdk-upgrade",
+"status":"resolved",
+"totals":{"files":5,"bytes":34979},
+"files":[
+{"path":"skills-legacy/sentry-sdk-upgrade/SKILL.md","size":8582,"blob":"d3fdc55d0dd249ff5691faee2cae70ca3cb6ba98","how":"root"},
+{"path":"skills-legacy/sentry-sdk-upgrade/references/upgrade-patterns.md","size":5386,"blob":"0f3c7fe04543b8ea1bce88e0112cd66672b03669","how":"link","from":0,"line":197},
+{"path":"skills-legacy/sentry-sdk-upgrade/references/v7-to-v8.md","size":9151,"blob":"44f6a0762cf4695c7f0fc4775063785c17a2721a","how":"link","from":0,"line":101},
+{"path":"skills-legacy/sentry-sdk-upgrade/references/v8-to-v9.md","size":10691,"blob":"7f2335ae3ff4b8ebd6665ed145c698cf1093648c","how":"link","from":0,"line":102},
+{"path":"skills-legacy/sentry-sdk-upgrade/references/v9-to-v10.md","size":1169,"blob":"ace14779040950d5cb5d42ace0b202095c702d58","how":"link","from":0,"line":103}
+],
+"outside":[
+{"kind":"cli","name":"@sentry/wizard","at":[[0,128]]},
+{"kind":"cli","name":"npm-check-updates","at":[[1,54]]},
+{"kind":"cli","name":"tsc","at":[[0,187],[1,90]]},
+{"kind":"package","name":"@sentry/browser","at":[[1,51],[1,61]]},
+{"kind":"package","name":"@sentry/node","at":[[1,51],[1,61]]}
+],
+"regions":[
+{"kind":"own","path":"skills-legacy/sentry-sdk-upgrade","files":5,"bytes":34979}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[1,51],[1,61]]},
+{"kind":"fetch-run","detail":"npx @sentry/wizard","at":[[0,128]]},
+{"kind":"fetch-run","detail":"npx npm-check-updates","at":[[1,54]]},
+{"kind":"fetch-run","detail":"npx tsc","at":[[0,187],[1,90]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"Apache-2.0"}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/omnibus-instrument-logs",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/omnibus-instrument-logs/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"0592ffc9e56c528fbe6356a6caa4f6ab4933da6093c48ef09c2f9f8b7417c145"},
+"status":"resolved",
+"footprint":{"files":14,"bytes":67636,"own":{"files":14,"bytes":67636},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go"],"package":["@opentelemetry/api-logs","@opentelemetry/exporter-logs-otlp-http","@opentelemetry/resources","@opentelemetry/sdk-logs","@opentelemetry/sdk-node","go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp","go.opentelemetry.io/otel/sdk/log","opentelemetry-api","opentelemetry-exporter-otlp","opentelemetry-sdk"],"mcp-server":["posthog","the"],"credential":[],"network":[]},"summary":"14 files, 66 KiB · MCP posthog, the · CLI go · packages @opentelemetry/api-logs +9","short":"66 KiB · 1 CLI · 10 pkg · MCP 2"},
+"heavy":{"heavy":true,"because":["10 packages to install","2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs go"]},{"marker":"installs-packages","because":["installs @opentelemetry/api-logs","installs @opentelemetry/exporter-logs-otlp-http","installs @opentelemetry/resources","installs @opentelemetry/sdk-logs","installs @opentelemetry/sdk-node","installs go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp","installs go.opentelemetry.io/otel/sdk/log","installs opentelemetry-api","installs opentelemetry-exporter-otlp","installs opentelemetry-sdk"]},{"marker":"mcp-server","because":["uses the posthog MCP server","uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"api","path":"skills/posthog/feature-flags/skills/api"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

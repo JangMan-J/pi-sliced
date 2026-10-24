@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex-plugin-cc/codex-result-handling",
+"revision":"db52e28f4d9ded852ab3942cea316258ae4ef346",
+"trace":{"path":"traces/openai/codex-plugin-cc/codex-result-handling/db52e28f4d9ded852ab3942cea316258ae4ef346/trace-3+judge-7.json","sha256":"034ca0fc8455fe7be8db2f8ef1b4f2ef73aa031ff0e195b9e6b7b04098339eac"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1731,"own":{"files":1,"bytes":1731},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.7 KiB","short":"1.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

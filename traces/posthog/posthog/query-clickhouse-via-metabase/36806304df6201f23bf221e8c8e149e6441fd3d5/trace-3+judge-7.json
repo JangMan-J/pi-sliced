@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"posthog/posthog/query-clickhouse-via-metabase",
+"source":"posthog/posthog",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named query-clickhouse-via-metabase at 36806304df6201f23bf221e8c8e149e6441fd3d5",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

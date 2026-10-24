@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/constant-time-analysis",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/constant-time-analysis/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"6609cd9c85df8bfcb943a14679705b00f8f3ec182224d8cf77dedc8181f50d29"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":64206,"own":{"files":9,"bytes":64206},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["choco","dotnet","ilspycmd","java","javac","javap","kotlinc","make","mcs","monodis","pecl","php","phpize","ruby","rustc","scoop","snap","swiftc","tsc","winget"],"package":["Microsoft.DotNet.SDK.8","Microsoft.OpenJDK.21","dotnet","dotnet-sdk","dotnet-sdk-8.0","kotlin","kotlinc","mono","mono-complete","openjdk","openjdk-21-jdk"],"mcp-server":[],"credential":[],"network":["github.com","pecl.php.net","swift.org"]},"summary":"9 files, 63 KiB · CLI choco, dotnet +18 · packages Microsoft.DotNet.SDK.8 +10 · 3 hosts","short":"63 KiB · 20 CLI · 11 pkg · 3 hosts"},
+"heavy":{"heavy":true,"because":["11 packages to install","20 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs choco","runs dotnet","runs ilspycmd","runs java","runs javac","runs javap","runs kotlinc","runs make","runs mcs","runs monodis","runs pecl","runs php","runs phpize","runs ruby","runs rustc","runs scoop","runs snap","runs swiftc","runs tsc","runs winget"]},{"marker":"installs-packages","because":["installs dotnet","installs dotnet-sdk","installs dotnet-sdk-8.0","installs kotlin","installs kotlinc","installs Microsoft.DotNet.SDK.8","installs Microsoft.OpenJDK.21","installs mono","installs mono-complete","installs openjdk","installs openjdk-21-jdk"]},{"marker":"network","because":["fetches from github.com","fetches from pecl.php.net","fetches from swift.org"]},{"marker":"unpinned-code","because":["npx tsc: plugins/constant-time-analysis/skills/constant-time-analysis/references/javascript.md:109"]}],
+"security":{"fetch-run":["npx tsc @ plugins/constant-time-analysis/skills/constant-time-analysis/references/javascript.md:109"]},
+"companions":{"named":[{"name":"constant-time-testing","path":"plugins/testing-handbook-skills/skills/constant-time-testing"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

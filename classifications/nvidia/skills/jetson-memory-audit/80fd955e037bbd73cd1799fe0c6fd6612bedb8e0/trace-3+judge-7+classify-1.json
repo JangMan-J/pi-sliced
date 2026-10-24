@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/jetson-memory-audit",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/jetson-memory-audit/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"0c2ce0892801a6f3e756bfe6ac3d174d0628cf2478966ed8230b554c5dfee3b1"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":39929,"own":{"files":3,"bytes":15414},"otherSkills":{"count":1,"files":3,"bytes":24515},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aa-ba","ac-bc","af-bf","as","c++","candidate_services","default_systemd_target","efi","except","f","free","gdm3","generation","gsub","i++","i+1","import","jq","json.dumps","l4t_version","line.split","line.startswith","major","mem_total_gb","memory_kb","need_value","next","not","null_","nvidia-smi","nvmap","nvpmodel","nvsmi_useful","os.environ","pid","print","product_line","product_model","read_meminfo_kb","rev","rows.append","rows.sort","s","size","sku","sub","sync","sysctl","systemctl","tegrastats_sample","top_processes","v","variant","with"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 39 KiB · +1 other skill · CLI aa-ba, ac-bc +52","short":"39 KiB · +1 skill · 54 CLI"},
+"heavy":{"heavy":true,"because":["54 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aa-ba","runs ac-bc","runs af-bf","runs as","runs c++","runs candidate_services","runs default_systemd_target","runs efi","runs except","runs f","runs free","runs gdm3","runs generation","runs gsub","runs i++","runs i+1","runs import","runs jq","runs json.dumps","runs l4t_version","runs line.split","runs line.startswith","runs major","runs mem_total_gb","runs memory_kb","runs need_value","runs next","runs not","runs null_","runs nvidia-smi","runs nvmap","runs nvpmodel","runs nvsmi_useful","runs os.environ","runs pid","runs print","runs product_line","runs product_model","runs read_meminfo_kb","runs rev","runs rows.append","runs rows.sort","runs s","runs size","runs sku","runs sub","runs sync","runs sysctl","runs systemctl","runs tegrastats_sample","runs top_processes","runs v","runs variant","runs with"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/jetson-diagnostic"]}],
+"security":{},
+"companions":{"named":[{"name":"jetson-headless-mode","path":"skills/jetson-headless-mode"},{"name":"jetson-inference-mem-tune","path":"skills/jetson-inference-mem-tune"}],"pulled":[{"path":"skills/jetson-diagnostic","files":3,"bytes":24515}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

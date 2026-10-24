@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-setting-up-on-linux",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-setting-up-on-linux/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"c8e4085067869458744d764a654f69b90311677bf7020be16e2a9c95539d9c4b"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-setting-up-on-linux at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

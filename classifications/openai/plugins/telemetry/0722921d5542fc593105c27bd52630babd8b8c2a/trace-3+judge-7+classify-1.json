@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/telemetry",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/telemetry/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"42da34f8b175875b3b872fad2133c5fc11b4ff174ae3e5f35afd6778cc436fb1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3717,"own":{"files":1,"bytes":3717},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["log"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB · CLI log","short":"3.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs log"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","content is the log it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"build-run-debug","path":"plugins/build-macos-apps/skills/build-run-debug"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

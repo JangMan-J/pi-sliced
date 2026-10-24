@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-prepare-anomalygennext-inputs",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-prepare-anomalygennext-inputs/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"59be31790cbfbfe85727574651d49d842ecbf57e6eb377b9e6c6e57d08a16003"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":54124,"own":{"files":6,"bytes":54124},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["numpy","pandas","pillow","pyyaml"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 53 KiB · packages numpy +3","short":"53 KiB · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs numpy","installs pandas","installs pillow","installs pyyaml"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-generate-image-embeddings","path":"skills/tao-generate-image-embeddings"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

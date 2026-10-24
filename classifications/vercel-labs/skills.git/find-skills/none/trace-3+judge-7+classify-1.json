@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/skills.git/find-skills",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/skills.git/find-skills/none/trace-3+judge-7.json","sha256":"6199c62b38ba567b4f56a670a74411a5d31a194fae4a216addbf5a1bbb243983"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/skills.git.git/' not found"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/azure-resource-visualizer",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/azure-resource-visualizer/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"0ba46900be37620cdc7048071aa4f7bbb035255869b7cae2d8e3d8c675119756"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":11820,"own":{"files":3,"bytes":11820},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":[],"mcp-server":["azure"],"credential":[],"network":[]},"summary":"3 files, 12 KiB · MCP azure · CLI az","short":"12 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"mcp-server","because":["uses the azure MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

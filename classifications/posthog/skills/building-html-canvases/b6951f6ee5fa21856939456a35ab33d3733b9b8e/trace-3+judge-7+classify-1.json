@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/building-html-canvases",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/building-html-canvases/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"b297a8cd9e7ca47507bb2f1adbf252fb735af0deca0ae3f98ad5587cfd66bc8b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5118,"own":{"files":1,"bytes":5118},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.0 KiB","short":"5.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"querying-canvas-data","path":"skills/omnibus/querying-canvas-data"},{"name":"validating-and-publishing-canvases","path":"skills/omnibus/validating-and-publishing-canvases"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

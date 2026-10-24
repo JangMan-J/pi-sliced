@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/wp-calypso/help-center-ui-test",
+"revision":"67601b6af489432b541ebad2d4fae154d15ae87e",
+"trace":{"path":"traces/automattic/wp-calypso/help-center-ui-test/67601b6af489432b541ebad2d4fae154d15ae87e/trace-3+judge-7.json","sha256":"8ee9f5467e27240409e7eed4e1157552e2a9c5e878cb6206aecd81bc83194ede"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9957,"own":{"files":1,"bytes":9957},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.7 KiB","short":"9.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

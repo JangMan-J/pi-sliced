@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/cwc-workshops/notify-templates",
+"revision":"4c34ec4863dfdc6b0ba3a473bd3408eb38660c22",
+"trace":{"path":"traces/anthropics/cwc-workshops/notify-templates/4c34ec4863dfdc6b0ba3a473bd3408eb38660c22/trace-3+judge-7.json","sha256":"3057f64be05e6949b9dd99884606c2b72af56defb4919b047622465442e52f81"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3672,"own":{"files":1,"bytes":3672},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["as","f.write","import","json.dumps","with"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB · CLI as, f.write +3","short":"3.6 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs as","runs f.write","runs import","runs json.dumps","runs with"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","content is the as, f.write it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

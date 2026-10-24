@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/azure-skills/cost-estimation",
+"revision":"5be6708de8c5af9dd54b175b98ea00ed2d35deae",
+"trace":{"path":"traces/microsoft/azure-skills/cost-estimation/5be6708de8c5af9dd54b175b98ea00ed2d35deae/trace-3+judge-7.json","sha256":"72e1e9d729df576ecc59d64138b21f106cfb7d6cc69ea9ab4ebf2596d2164d75"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":11032,"own":{"files":8,"bytes":11032},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["the"],"credential":[],"network":[]},"summary":"8 files, 11 KiB · MCP the","short":"11 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"cost-analysis","path":".github/plugins/azure-cost/skills/cost-analysis"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

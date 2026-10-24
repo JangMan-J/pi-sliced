@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"czlonkowski/n8n-skills/n8n-agents",
+"revision":"c640094d949c5a7bfce7d51fc9c049e3dcd3be44",
+"trace":{"path":"traces/czlonkowski/n8n-skills/n8n-agents/c640094d949c5a7bfce7d51fc9c049e3dcd3be44/trace-3+judge-7.json","sha256":"3408aa77a46cc73447d8761782d8a8220b6cd5af91be5b8b5ac884f1deecaa03"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":27308,"own":{"files":1,"bytes":27308},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 27 KiB","short":"27 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

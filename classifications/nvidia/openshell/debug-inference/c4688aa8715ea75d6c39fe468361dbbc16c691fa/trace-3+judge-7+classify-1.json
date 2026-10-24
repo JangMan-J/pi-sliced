@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/openshell/debug-inference",
+"revision":"c4688aa8715ea75d6c39fe468361dbbc16c691fa",
+"trace":{"path":"traces/nvidia/openshell/debug-inference/c4688aa8715ea75d6c39fe468361dbbc16c691fa/trace-3+judge-7.json","sha256":"9a4c5e489331f5a9196b17913eacbbe3632c7fe0004c9aad39532de7c2b9ebfe"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7524,"own":{"files":1,"bytes":7524},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["openshell"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB · CLI openshell","short":"7.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs openshell"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

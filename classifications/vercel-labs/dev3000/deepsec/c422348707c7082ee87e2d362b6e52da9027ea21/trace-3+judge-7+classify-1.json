@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/dev3000/deepsec",
+"revision":"c422348707c7082ee87e2d362b6e52da9027ea21",
+"trace":{"path":"traces/vercel-labs/dev3000/deepsec/c422348707c7082ee87e2d362b6e52da9027ea21/trace-3+judge-7.json","sha256":"b523ca36034c4eb10a85bf2b1f2e3e702ed4fb9629ae721b15a5e1364952fd7e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3940,"own":{"files":1,"bytes":3940},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["corepack","deepsec"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.8 KiB · CLI corepack, deepsec","short":"3.8 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs corepack","runs deepsec"]},{"marker":"stub","because":["own folder 3.8 KiB (1 file)","content is the corepack, deepsec it wraps"]},{"marker":"unpinned-code","because":["npx deepsec@latest: .agents/skills/deepsec/SKILL.md:25"]}],
+"security":{"fetch-run":["npx deepsec@latest @ .agents/skills/deepsec/SKILL.md:25"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

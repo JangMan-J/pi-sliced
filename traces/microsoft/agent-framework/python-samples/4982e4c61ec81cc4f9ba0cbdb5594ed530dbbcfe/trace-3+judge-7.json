@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/agent-framework/python-samples",
+"source":"microsoft/agent-framework",
+"revision":"4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named python-samples at 4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

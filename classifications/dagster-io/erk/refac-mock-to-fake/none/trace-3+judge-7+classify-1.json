@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/refac-mock-to-fake",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/refac-mock-to-fake/none/trace-3+judge-7.json","sha256":"7bc047b496320afdd1fcb26ffb4ed1979d6b865e8df31cd01aa2e21e88a067d2"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

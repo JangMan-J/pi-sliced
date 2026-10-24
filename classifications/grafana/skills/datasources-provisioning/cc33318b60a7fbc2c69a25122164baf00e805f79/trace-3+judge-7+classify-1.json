@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/datasources-provisioning",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/datasources-provisioning/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"a73bca32ea5a8f3e83bb817f1428f519f09fb65fc23e4d34509a139acd943898"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":67135,"own":{"files":1,"bytes":11126},"otherSkills":{"count":2,"files":10,"bytes":56009},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["journalctl","jq"],"package":[],"mcp-server":["grafana"],"credential":[],"network":["github.com","grafana.com","plugins-cdn.grafana.net"]},"summary":"11 files, 66 KiB · +2 other skills · MCP grafana · CLI journalctl, jq · 3 hosts","short":"66 KiB · +2 skills · 2 CLI · 3 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs journalctl","runs jq"]},{"marker":"network","because":["fetches from github.com","fetches from grafana.com","fetches from plugins-cdn.grafana.net"]},{"marker":"mcp-server","because":["uses the grafana MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/grafana-cloud/admin","pulls in 9 files of the skill at skills/grafana-core/grafana-oss"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/grafana-cloud/admin","files":1,"bytes":3065},{"path":"skills/grafana-core/grafana-oss","files":9,"bytes":52944}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

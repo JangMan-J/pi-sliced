@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/marine-carbonate-chemistry",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/marine-carbonate-chemistry/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"eea7bf6aa9871d1cc908643f473386b6b2889ec83e788fd17b8572d51be60ba1"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":33085,"own":{"files":4,"bytes":33085},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["PyCO2SYS","numpy"],"mcp-server":[],"credential":[],"network":["pyco2sys.readthedocs.io"]},"summary":"4 files, 32 KiB · packages PyCO2SYS +1 · 1 host","short":"32 KiB · 2 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs numpy","installs PyCO2SYS"]},{"marker":"network","because":["fetches from pyco2sys.readthedocs.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

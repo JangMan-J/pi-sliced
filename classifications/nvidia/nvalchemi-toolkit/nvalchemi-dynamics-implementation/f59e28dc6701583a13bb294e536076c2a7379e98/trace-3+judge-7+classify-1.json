@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nvalchemi-toolkit/nvalchemi-dynamics-implementation",
+"revision":"f59e28dc6701583a13bb294e536076c2a7379e98",
+"trace":{"path":"traces/nvidia/nvalchemi-toolkit/nvalchemi-dynamics-implementation/f59e28dc6701583a13bb294e536076c2a7379e98/trace-3+judge-7.json","sha256":"a27eebc9565d70802fd86c214487aac75c32df2151026d8d48421c5c824257bb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10280,"own":{"files":1,"bytes":10280},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB","short":"10 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

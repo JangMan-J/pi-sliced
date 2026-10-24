@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/com/cloudflare",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/com/cloudflare/none/trace-3+judge-7.json","sha256":"728f8688a4405113a17ea628106b3426e7641c701100f65850fd9528e887c8b1"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/com.git/' not found"
+}

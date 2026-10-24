@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/protect-mcp-setup",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/protect-mcp-setup/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"31c5d66b69a13e1bc94d875f1e3ae3ea262aa23c69804d9fed810305eb627dcf"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10106,"own":{"files":2,"bytes":10106},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@veritasacta/verify","claude","protect-mcp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.9 KiB · CLI @veritasacta/verify, claude +1","short":"9.9 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @veritasacta/verify","runs claude","runs protect-mcp"]},{"marker":"unpinned-code","because":["npx @veritasacta/verify: plugins/protect-mcp/skills/protect-mcp-setup/SKILL.md:22"]}],
+"security":{"fetch-run":["npx @veritasacta/verify @ plugins/protect-mcp/skills/protect-mcp-setup/SKILL.md:22"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

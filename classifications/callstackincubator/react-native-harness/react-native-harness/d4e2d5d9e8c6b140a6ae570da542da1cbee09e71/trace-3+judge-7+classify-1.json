@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/react-native-harness/react-native-harness",
+"revision":"d4e2d5d9e8c6b140a6ae570da542da1cbee09e71",
+"trace":{"path":"traces/callstackincubator/react-native-harness/react-native-harness/d4e2d5d9e8c6b140a6ae570da542da1cbee09e71/trace-3+judge-7.json","sha256":"555d2ab342d01cddd9bd81d11e27415f2178c8485e1c062f9f6612003c96b4ab"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1182,"own":{"files":1,"bytes":1182},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["harness"],"package":["react-native-harness"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.2 KiB · CLI harness · packages react-native-harness","short":"1.2 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs harness"]},{"marker":"installs-packages","because":["installs react-native-harness"]},{"marker":"stub","because":["own folder 1.2 KiB (1 file)","content is the harness it wraps"]},{"marker":"unpinned-code","because":["install @latest: skills/react-native-harness/SKILL.md:12"]}],
+"security":{"fetch-run":["install @latest @ skills/react-native-harness/SKILL.md:12"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/arize-instrumentation",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/arize-instrumentation/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"20d1cd919912c7b663df6fba61490ec99ab7cb9abb4e95ba9949cf1debad8ef7"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":29557,"own":{"files":2,"bytes":29557},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ax"],"package":["arize-otel","go.opentelemetry.io/otel","go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp","go.opentelemetry.io/otel/sdk"],"mcp-server":[],"credential":["ARIZE_API_KEY"],"network":["arize.com"]},"summary":"2 files, 29 KiB · CLI ax · packages arize-otel +3 · 1 key · 1 host","short":"29 KiB · 1 CLI · 4 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs ax"]},{"marker":"installs-packages","because":["installs arize-otel","installs go.opentelemetry.io/otel","installs go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp","installs go.opentelemetry.io/otel/sdk"]},{"marker":"network","because":["fetches from arize.com"]},{"marker":"credentials","because":["needs ARIZE_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"arize-trace","path":"skills/arize-trace"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/from-the-other-side-vega",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/from-the-other-side-vega/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"52f0f37e66ae813ac0a6a23e023fe7f5e064d19f51c09d0735dce6ca80c25c8d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3592,"own":{"files":1,"bytes":3592},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.5 KiB","short":"3.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

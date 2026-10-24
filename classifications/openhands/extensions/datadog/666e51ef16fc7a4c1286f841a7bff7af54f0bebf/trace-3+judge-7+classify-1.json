@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/datadog",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/datadog/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"a65cd5d791fa69a3df939db2217a16da3b3dd75423cd485078ae9bbc1e1d3333"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":4396,"own":{"files":2,"bytes":4396},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertFrom-Json","curl.exe","foreach","jq"],"package":[],"mcp-server":[],"credential":["DD_API_KEY","DD_APP_KEY"],"network":[]},"summary":"2 files, 4.3 KiB · CLI ConvertFrom-Json, curl.exe +2 · 2 keys","short":"4.3 KiB · 4 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["4 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ConvertFrom-Json","runs curl.exe","runs foreach","runs jq"]},{"marker":"credentials","because":["needs DD_API_KEY","needs DD_APP_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

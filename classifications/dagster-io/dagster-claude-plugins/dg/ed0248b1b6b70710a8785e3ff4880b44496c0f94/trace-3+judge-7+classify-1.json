@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/dagster-claude-plugins/dg",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/dagster-claude-plugins/dg/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"a09b8fdbbcd61ed54716cfe5f44bc5e997661b8afe1ccfde052b86182d8018a4"},
+"status":"unresolvable",
+"reason":"no skill folder named dg at ed0248b1b6b70710a8785e3ff4880b44496c0f94"
+}

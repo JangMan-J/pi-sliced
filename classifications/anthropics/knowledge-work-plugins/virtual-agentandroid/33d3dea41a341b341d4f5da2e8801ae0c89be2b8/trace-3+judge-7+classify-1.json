@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/virtual-agentandroid",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/virtual-agentandroid/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"cd04d4859f3769bbe84a20ef581ea85364c433c518e3d0088b284307fb445b53"},
+"status":"unresolvable",
+"reason":"no skill folder named virtual-agentandroid at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

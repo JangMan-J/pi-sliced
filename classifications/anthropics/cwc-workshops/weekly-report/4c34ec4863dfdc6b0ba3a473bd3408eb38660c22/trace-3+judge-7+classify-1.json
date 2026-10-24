@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/cwc-workshops/weekly-report",
+"revision":"4c34ec4863dfdc6b0ba3a473bd3408eb38660c22",
+"trace":{"path":"traces/anthropics/cwc-workshops/weekly-report/4c34ec4863dfdc6b0ba3a473bd3408eb38660c22/trace-3+judge-7.json","sha256":"f8611d0efab4118fdad0e941f1f8f4b8996c774ffb95627d85a80f42d8a7fdca"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2631,"own":{"files":1,"bytes":2631},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.6 KiB","short":"2.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

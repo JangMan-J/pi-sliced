@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/warp/release-notes",
+"source":"nvidia/warp",
+"revision":"363a00d4f779418073e18f1ce399122e991cd7d0",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named release-notes at 363a00d4f779418073e18f1ce399122e991cd7d0",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/codex-expo-run-actions",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/expo/skills/codex-expo-run-actions",
+"status":"resolved",
+"totals":{"files":2,"bytes":8349},
+"files":[
+{"path":"plugins/expo/skills/codex-expo-run-actions/SKILL.md","size":3377,"blob":"582d972a9f9286025e88f7f749993a52b2b94c0c","how":"root"},
+{"path":"plugins/expo/skills/codex-expo-run-actions/references/expo-run-button-bootstrap.md","size":4972,"blob":"f67f2d4317b7039c886dc5a18d311b1a0abf7c5a","how":"path","from":0,"line":53}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[0,26],[1,10],[1,63],[1,65]]},
+{"kind":"cli","name":"expo-doctor","at":[[1,75],[1,77]]},
+{"kind":"cli","name":"Export","at":[[1,44]]},
+{"kind":"cli","name":"Start","at":[[1,38],[1,41]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/codex-expo-run-actions","files":2,"bytes":8349}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx expo","at":[[1,63]]},
+{"kind":"fetch-run","detail":"bunx expo-doctor","at":[[1,75]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,26],[1,65]]},
+{"kind":"fetch-run","detail":"npx expo-doctor","at":[[1,77]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/skills-for-copilot-studio/project-context",
+"source":"microsoft/skills-for-copilot-studio",
+"revision":"fd9653d0ec743b39443596d7132f907d0d993f1f",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named project-context at fd9653d0ec743b39443596d7132f907d0d993f1f",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

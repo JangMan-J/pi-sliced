@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/launchdarkly-flag-qualitative-feedback-setup",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/launchdarkly-flag-qualitative-feedback-setup/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"879d7d64781820f5dbee0360dfe4ca5bb9a475854518f975399742930002e5c8"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":45453,"own":{"files":6,"bytes":45453},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@launchdarkly/session-replay","launchdarkly-js-client-sdk"],"mcp-server":["launchdarkly","optional","required"],"credential":[],"network":[]},"summary":"6 files, 44 KiB · MCP launchdarkly, optional +1 · packages @launchdarkly/session-replay +1","short":"44 KiB · 2 pkg · MCP 3"},
+"heavy":{"heavy":true,"because":["2 packages to install","3 MCP servers"]},
+"markers":[{"marker":"installs-packages","because":["installs @launchdarkly/session-replay","installs launchdarkly-js-client-sdk"]},{"marker":"mcp-server","because":["uses the launchdarkly MCP server","uses the optional MCP server","uses the required MCP server"]},{"marker":"opaque-code","because":["minified script: skills/feature-flags/launchdarkly-flag-qualitative-feedback-setup/references/InlineFeedback.tsx:7, skills/feature-flags/launchdarkly-flag-qualitative-feedback-setup/references/PopoverFeedback.tsx:7"]}],
+"security":{"opaque":["minified script @ skills/feature-flags/launchdarkly-flag-qualitative-feedback-setup/references/InlineFeedback.tsx:7, skills/feature-flags/launchdarkly-flag-qualitative-feedback-setup/references/PopoverFeedback.tsx:7"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

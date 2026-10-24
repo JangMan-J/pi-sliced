@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/launching-ec2-instance-with-best-practices",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/launching-ec2-instance-with-best-practices/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"7b7b2c473e301c18c0693ada7569a2aeb83f4ea83953752edfecb424693aa2d1"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":66024,"own":{"files":2,"bytes":66024},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","ssh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 64 KiB · CLI aws, ssh","short":"64 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs ssh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

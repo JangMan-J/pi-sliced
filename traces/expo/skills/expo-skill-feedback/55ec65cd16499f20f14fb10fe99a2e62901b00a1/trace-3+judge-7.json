@@ -1,0 +1,35 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/expo-skill-feedback",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/expo-skill-feedback",
+"status":"resolved",
+"totals":{"files":3,"bytes":15397},
+"files":[
+{"path":"plugins/expo/skills/expo-skill-feedback/SKILL.md","size":5193,"blob":"20760963a68037bf4dcc31bb106012008b344c57","how":"root"},
+{"path":"plugins/expo/skills/expo-skill-feedback/scripts/telemetry.cjs","size":3063,"blob":"718e4fe61b6c342a90f3479ad2a732de2f7780ff","how":"variable-path","from":0,"line":75},
+{"path":"plugins/expo/skills/expo-skill-feedback/scripts/telemetry_common.cjs","size":7141,"blob":"41fc52ebb91aafd49a9ee0d5c740b46b93f4620b","how":"script-read","from":1,"line":22}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[0,31]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[0,14],[0,20],[0,84]]},
+{"kind":"credential","name":"EXPO_SKILLS_POSTHOG_KEY","at":[[2,21]]},
+{"kind":"mcp-server","name":"exact","at":[[0,30]]},
+{"kind":"network","name":"us.i.posthog.com","at":[[2,14]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-skill-feedback","files":3,"bytes":15397}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx expo","at":[[0,31]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[0,14],[0,20],[0,84]]}
+],
+"namedSkills":[
+{"name":"expo-router","path":"plugins/expo/skills/expo-router","at":[[0,28],[0,33]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":null}
+}

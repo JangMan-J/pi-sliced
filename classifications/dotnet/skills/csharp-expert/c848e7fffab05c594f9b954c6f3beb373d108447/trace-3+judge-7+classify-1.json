@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/csharp-expert",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/csharp-expert/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"f6a1bcd5eb32e161a75671509ecebfe1df6f2453274f21d482a15ee56a6a3ad6"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":28025,"own":{"files":2,"bytes":28025},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 27 KiB","short":"27 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"author-component","path":"plugins/dotnet-blazor/skills/author-component"},{"name":"collect-user-input","path":"plugins/dotnet-blazor/skills/collect-user-input"},{"name":"create-blazor-project","path":"plugins/dotnet-blazor/skills/create-blazor-project"},{"name":"csharp-refactoring","path":"plugins/dotnet/skills/csharp-refactoring"},{"name":"csharp-scripts","path":"plugins/dotnet-advanced/skills/csharp-scripts"},{"name":"dotnet-trace-collect","path":"plugins/dotnet-diag/skills/dotnet-trace-collect"},{"name":"dotnet-webapi","path":"plugins/dotnet-aspnetcore/skills/dotnet-webapi"},{"name":"maui-data-binding","path":"plugins/dotnet-maui/skills/maui-data-binding"},{"name":"migrate-dotnet8-to-dotnet9","path":"plugins/dotnet-upgrade/skills/migrate-dotnet8-to-dotnet9"},{"name":"migrate-nunit-to-mstest","path":"plugins/dotnet-test-migration/skills/migrate-nunit-to-mstest"},{"name":"msbuild","path":"plugins/dotnet/skills/msbuild"},{"name":"optimizing-ef-core-queries","path":"plugins/dotnet-data/skills/optimizing-ef-core-queries"},{"name":"setup-local-sdk","path":"plugins/dotnet/skills/setup-local-sdk"},{"name":"template-discovery","path":"plugins/dotnet-template-engine/skills/template-discovery"},{"name":"template-instantiation","path":"plugins/dotnet-template-engine/skills/template-instantiation"},{"name":"winforms-expert","path":"plugins/dotnet-winforms/skills/winforms-expert"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

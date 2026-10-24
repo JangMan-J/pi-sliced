@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/warden-skill",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/warden-skill/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"72fe4d72855fc9a2fb20e140c983d0d7183dc5c2ac495c51928e63ae8a613396"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9061,"own":{"files":2,"bytes":9061},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["warden"],"package":[],"mcp-server":[],"credential":["WARDEN_ANTHROPIC_API_KEY"],"network":[]},"summary":"2 files, 8.8 KiB · CLI warden · 1 key","short":"8.8 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs warden"]},{"marker":"credentials","because":["needs WARDEN_ANTHROPIC_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/life-sciences/single-cell-rna-qc",
+"revision":"6aab04111074ac932ef9f72e36216ab6ff153f11",
+"trace":{"path":"traces/anthropics/life-sciences/single-cell-rna-qc/6aab04111074ac932ef9f72e36216ab6ff153f11/trace-3+judge-7.json","sha256":"0f444954f5f694de7052d34b125c3e2f12c10bbbdea1f631a01540c9fca91131"},
+"status":"unresolvable",
+"reason":"no skill folder named single-cell-rna-qc at 6aab04111074ac932ef9f72e36216ab6ff153f11"
+}

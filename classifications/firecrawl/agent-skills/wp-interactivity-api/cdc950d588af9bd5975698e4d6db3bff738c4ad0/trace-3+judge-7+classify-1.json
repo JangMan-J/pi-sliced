@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/agent-skills/wp-interactivity-api",
+"revision":"cdc950d588af9bd5975698e4d6db3bff738c4ad0",
+"trace":{"path":"traces/firecrawl/agent-skills/wp-interactivity-api/cdc950d588af9bd5975698e4d6db3bff738c4ad0/trace-3+judge-7.json","sha256":"081c91b4d6ec5cff79a57b07b34dfbefb8ae934b7a794f27b74601e9dff76497"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":16455,"own":{"files":4,"bytes":16455},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"wp-project-triage","path":"skills/wp-project-triage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

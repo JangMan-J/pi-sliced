@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"google/skills/dpop-adoption",
+"source":"google/skills",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"skillPath":"skills/identity/dpop-adoption",
+"status":"resolved",
+"totals":{"files":1,"bytes":11264},
+"files":[
+{"path":"skills/identity/dpop-adoption/SKILL.md","size":11264,"blob":"270bddea8bcf38705cc8fb747b970c4d9a975514","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@google/mcp-developer-knowledge-server","at":[[0,206]]}
+],
+"regions":[
+{"kind":"own","path":"skills/identity/dpop-adoption","files":1,"bytes":11264}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @google/mcp-developer-knowledge-server","at":[[0,206]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

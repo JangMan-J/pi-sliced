@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"rivet-dev/rivet/rivetkit-actors",
+"source":"rivet-dev/rivet",
+"revision":"e8d777d4d81177c9e0d0e87661f79e0fecb6d4fa",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named rivetkit-actors at e8d777d4d81177c9e0d0e87661f79e0fecb6d4fa",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

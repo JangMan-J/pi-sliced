@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"sanity-io/agent-context/optimize-agent-prompt",
+"source":"sanity-io/agent-context",
+"revision":"2160346f6d6bc1ead100f633f8042311f25eeb82",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named optimize-agent-prompt at 2160346f6d6bc1ead100f633f8042311f25eeb82",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/dev3000/deepsec",
+"source":"vercel-labs/dev3000",
+"revision":"c422348707c7082ee87e2d362b6e52da9027ea21",
+"skillPath":".agents/skills/deepsec",
+"status":"resolved",
+"totals":{"files":1,"bytes":3940},
+"files":[
+{"path":".agents/skills/deepsec/SKILL.md","size":3940,"blob":"550564cd31766637dfdcb7cab52e425a008ccb57","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"corepack","at":[[0,28],[0,41],[0,46]]},
+{"kind":"cli","name":"deepsec","at":[[0,25]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/deepsec","files":1,"bytes":3940}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx deepsec@latest","at":[[0,25]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

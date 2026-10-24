@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/cli/sentry-cli",
+"revision":"3567c3c937b5cc06667d5b023bda0b2d3f472c54",
+"trace":{"path":"traces/getsentry/cli/sentry-cli/3567c3c937b5cc06667d5b023bda0b2d3f472c54/trace-3+judge-7.json","sha256":"c94df56fb3a2600ce0c15c87fe91ed9918213c488f34bea4a92397df3554c711"},
+"status":"resolved",
+"footprint":{"files":38,"bytes":142602,"own":{"files":38,"bytes":142602},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","project","sentry","set-commits"],"package":["sentry"],"mcp-server":[],"credential":[],"network":["cli.sentry.dev"]},"summary":"38 files, 139 KiB · CLI jq, project +2 · packages sentry · 1 host","short":"139 KiB · 4 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs project","runs sentry","runs set-commits"]},{"marker":"installs-packages","because":["installs sentry"]},{"marker":"network","because":["fetches from cli.sentry.dev"]},{"marker":"unpinned-code","because":["pipe to interpreter: packages/cli/plugins/sentry-cli/skills/sentry-cli/SKILL.md:356, packages/cli/plugins/sentry-cli/skills/sentry-cli/SKILL.md:357"]}],
+"security":{"fetch-run":["pipe to interpreter @ packages/cli/plugins/sentry-cli/skills/sentry-cli/SKILL.md:356, packages/cli/plugins/sentry-cli/skills/sentry-cli/SKILL.md:357"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

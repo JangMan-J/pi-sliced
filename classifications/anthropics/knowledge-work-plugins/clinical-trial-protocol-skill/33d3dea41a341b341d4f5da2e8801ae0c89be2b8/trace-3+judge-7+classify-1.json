@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/clinical-trial-protocol-skill",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/clinical-trial-protocol-skill/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"22cd886274b7cd59a5dbe4bbf4094f05f7e81104176dc46b00e7f00295ffc72d"},
+"status":"unresolvable",
+"reason":"no skill folder named clinical-trial-protocol-skill at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

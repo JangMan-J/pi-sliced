@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-labs-code/design.md/agent-dx-cli-scale",
+"revision":"6e5da5382f41edbba9d73b2c62f33f32e9971f15",
+"trace":{"path":"traces/google-labs-code/design.md/agent-dx-cli-scale/6e5da5382f41edbba9d73b2c62f33f32e9971f15/trace-3+judge-7.json","sha256":"05f993d0df2c97aeaf496076f749cd6b4ce901985e1fc2b0351eba6543d6d4f2"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9726,"own":{"files":1,"bytes":9726},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.5 KiB","short":"9.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

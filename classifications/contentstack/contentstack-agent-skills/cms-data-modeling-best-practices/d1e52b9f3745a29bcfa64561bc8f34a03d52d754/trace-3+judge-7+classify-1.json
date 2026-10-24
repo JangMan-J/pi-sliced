@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"contentstack/contentstack-agent-skills/cms-data-modeling-best-practices",
+"revision":"d1e52b9f3745a29bcfa64561bc8f34a03d52d754",
+"trace":{"path":"traces/contentstack/contentstack-agent-skills/cms-data-modeling-best-practices/d1e52b9f3745a29bcfa64561bc8f34a03d52d754/trace-3+judge-7.json","sha256":"ebf91acda0a3ffcd39cedaa33c9c9ac8c72c0d726c1dfb98679467da2e3a4b32"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6824,"own":{"files":1,"bytes":6824},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.7 KiB","short":"6.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

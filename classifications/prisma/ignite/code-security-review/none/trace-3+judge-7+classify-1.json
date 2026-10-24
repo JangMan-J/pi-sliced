@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/ignite/code-security-review",
+"revision":"none",
+"trace":{"path":"traces/prisma/ignite/code-security-review/none/trace-3+judge-7.json","sha256":"c356c1f569d942983bf59cc5bf52f23f31db10dda94cf21c78275c9f58439b39"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/prisma/ignite.git/' not found"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/biorxiv-skill",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/biorxiv-skill/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"a600083449882f8655dd145bd6de03e1a799b8d9f4ff4d20f812fd26fadacd75"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13243,"own":{"files":2,"bytes":13243},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["requests"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 13 KiB · packages requests","short":"13 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs requests"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

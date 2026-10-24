@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/redline",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/redline/none/trace-3+judge-7.json","sha256":"c3955047d3b64564e471054b2358ea05eb20a58f28350eb5adb6eab200ad8433"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

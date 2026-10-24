@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/macos-golden-gate-design",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/macos-golden-gate-design/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"21cd231112c4e340266d207f36328f52f6c1fe83521178e133033e4d13cfc306"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":39244,"own":{"files":4,"bytes":39244},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["continuous","full-height","optional"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 38 KiB · CLI continuous, full-height +1","short":"38 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs continuous","runs full-height","runs optional"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

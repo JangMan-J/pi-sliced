@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apollographql/skills/apollo-client",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"trace":{"path":"traces/apollographql/skills/apollo-client/f9843dce86b1a561e3bfbb024e65c28a6cbbe38c/trace-3+judge-7.json","sha256":"bfa763b7160de7f2eda7334e9f55f176cf5aba2c8efe9fa8a85671b80cbe18e1"},
+"status":"resolved",
+"footprint":{"files":14,"bytes":158062,"own":{"files":14,"bytes":158062},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["create-tsrouter-app","react-router"],"package":["@apollo/client","@apollo/client-integration-nextjs","@apollo/client-integration-react-router","@apollo/client-integration-tanstack-start","@graphql-codegen/cli","@graphql-codegen/typed-document-node","@graphql-codegen/typescript","@graphql-codegen/typescript-operations","graphql","rxjs"],"mcp-server":[],"credential":[],"network":[]},"summary":"14 files, 154 KiB · CLI create-tsrouter-app, react-router · packages @apollo/client +9","short":"154 KiB · 2 CLI · 10 pkg"},
+"heavy":{"heavy":true,"because":["10 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs create-tsrouter-app","runs react-router"]},{"marker":"installs-packages","because":["installs @apollo/client","installs @apollo/client-integration-nextjs","installs @apollo/client-integration-react-router","installs @apollo/client-integration-tanstack-start","installs @graphql-codegen/cli","installs @graphql-codegen/typed-document-node","installs @graphql-codegen/typescript","installs @graphql-codegen/typescript-operations","installs graphql","installs rxjs"]},{"marker":"unpinned-code","because":["install @latest: skills/apollo-client/references/integration-nextjs.md:20","npx create-tsrouter-app: skills/apollo-client/references/integration-tanstack-start.md:5","npx react-router: skills/apollo-client/references/integration-react-router.md:46"]}],
+"security":{"fetch-run":["install @latest @ skills/apollo-client/references/integration-nextjs.md:20","npx create-tsrouter-app @ skills/apollo-client/references/integration-tanstack-start.md:5","npx react-router @ skills/apollo-client/references/integration-react-router.md:46"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

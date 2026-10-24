@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/camsnap",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/camsnap/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"835c60347ff385559ea818f40f8878e3a7ebe0c6585f5164d923e89ac029b202"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1089,"own":{"files":1,"bytes":1089},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["camsnap"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.1 KiB · CLI camsnap","short":"1.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs camsnap"]},{"marker":"stub","because":["own folder 1.1 KiB (1 file)","content is the camsnap it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

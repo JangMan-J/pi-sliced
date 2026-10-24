@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/dlp/migrate-teamcity-to-gitlab-ci-typescript-worker",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/dlp/migrate-teamcity-to-gitlab-ci-typescript-worker/none/trace-3+judge-7.json","sha256":"c681da677ed4a20f0a8d5d82665683445aacd39626e01b5692f6aa8d50f7cc73"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/dlp.git/' not found"
+}

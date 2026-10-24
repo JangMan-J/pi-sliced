@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-skill/gemini-live-api-dev",
+"revision":"ee9da52195752ca83c2fca701d96bcb5a9c08d2d",
+"trace":{"path":"traces/google-gemini/gemini-skill/gemini-live-api-dev/ee9da52195752ca83c2fca701d96bcb5a9c08d2d/trace-3+judge-7.json","sha256":"b83f238816199973d78a8f7ca84795364aff28063fe4a418fe121122efb5f3f3"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":27645,"own":{"files":2,"bytes":27645},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@google/genai","google-genai"],"mcp-server":["google","when"],"credential":[],"network":["ai.google.dev"]},"summary":"2 files, 27 KiB · MCP google, when · packages @google/genai +1 · 1 host","short":"27 KiB · 2 pkg · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 MCP servers"]},
+"markers":[{"marker":"installs-packages","because":["installs @google/genai","installs google-genai"]},{"marker":"network","because":["fetches from ai.google.dev"]},{"marker":"mcp-server","because":["uses the google MCP server","uses the when MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

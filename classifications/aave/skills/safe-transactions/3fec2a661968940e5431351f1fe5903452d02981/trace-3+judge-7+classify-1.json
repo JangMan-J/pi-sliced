@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aave/skills/safe-transactions",
+"revision":"3fec2a661968940e5431351f1fe5903452d02981",
+"trace":{"path":"traces/aave/skills/safe-transactions/3fec2a661968940e5431351f1fe5903452d02981/trace-3+judge-7.json","sha256":"013d036fa12aa48cd6c758aff6230c4903685a8b0b4b517c558ac30e61fef5e9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3395,"own":{"files":1,"bytes":3395},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.3 KiB","short":"3.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

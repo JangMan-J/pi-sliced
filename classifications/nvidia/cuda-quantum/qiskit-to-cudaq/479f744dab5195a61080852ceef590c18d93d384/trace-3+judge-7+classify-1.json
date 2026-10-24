@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuda-quantum/qiskit-to-cudaq",
+"revision":"479f744dab5195a61080852ceef590c18d93d384",
+"trace":{"path":"traces/nvidia/cuda-quantum/qiskit-to-cudaq/479f744dab5195a61080852ceef590c18d93d384/trace-3+judge-7.json","sha256":"9858d6fc1adaff09d14cd7bb82728b80f7ba21c6a9968099058d261e8b50a1a6"},
+"status":"unresolvable",
+"reason":"no skill folder named qiskit-to-cudaq at 479f744dab5195a61080852ceef590c18d93d384"
+}

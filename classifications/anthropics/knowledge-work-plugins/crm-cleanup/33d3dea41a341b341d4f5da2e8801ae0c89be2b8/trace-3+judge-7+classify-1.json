@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/crm-cleanup",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/crm-cleanup/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"ecdded02969130347c9aa53c6203052b4efe7eb0c5e80d715b48119246b55384"},
+"status":"unresolvable",
+"reason":"no skill folder named crm-cleanup at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

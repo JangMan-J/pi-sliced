@@ -1,0 +1,42 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"deepgram/skills/text-intelligence",
+"source":"deepgram/skills",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"skillPath":"skills/text-intelligence",
+"status":"resolved",
+"totals":{"files":1,"bytes":12107},
+"files":[
+{"path":"skills/text-intelligence/SKILL.md","size":12107,"blob":"6b3a1e170a849df62de16603788b23b065cca43f","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,162]]},
+{"kind":"credential","name":"DEEPGRAM_API_KEY","at":[[0,37]]},
+{"kind":"network","name":"api.deepgram.com","at":[[0,37]]},
+{"kind":"network","name":"deepgram.com","at":[[0,146]]}
+],
+"regions":[
+{"kind":"own","path":"skills/text-intelligence","files":1,"bytes":12107}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,162]]},
+{"kind":"secret-egress","detail":"DEEPGRAM_API_KEY -> api.deepgram.com","at":[[0,37]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,162]]}
+],
+"namedSkills":[
+{"name":"api","path":"skills/api","at":[[0,151]]},
+{"name":"audio-intelligence","path":"skills/audio-intelligence","at":[[0,26],[0,139],[0,150]]},
+{"name":"cli","path":"skills/cli","at":[[0,154]]},
+{"name":"docs","path":"skills/docs","at":[[0,165]]},
+{"name":"recipes","path":"skills/recipes","at":[[0,158]]},
+{"name":"setup-mcp","path":"skills/setup-mcp","at":[[0,165]]},
+{"name":"speech-to-text","path":"skills/speech-to-text","at":[[0,163]]},
+{"name":"starters","path":"skills/starters","at":[[0,156]]},
+{"name":"text-to-speech","path":"skills/text-to-speech","at":[[0,163]]},
+{"name":"voice-agent","path":"skills/voice-agent","at":[[0,164]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

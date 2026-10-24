@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/internal-agent-skills/rfc",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/internal-agent-skills/rfc/none/trace-3+judge-7.json","sha256":"0dc905efc2775e152d66454dc0a59c81c1287237f2309fbd5b23775b43e2f180"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"
+}

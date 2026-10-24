@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/copilot-usage-metrics",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/copilot-usage-metrics/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"77dc71f1f47df8e9cf57d79a7dd96f8fa411b5a723acc67c783802ba9c6bb28d"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":5051,"own":{"files":5,"bytes":5051},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 4.9 KiB · CLI gh","short":"4.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

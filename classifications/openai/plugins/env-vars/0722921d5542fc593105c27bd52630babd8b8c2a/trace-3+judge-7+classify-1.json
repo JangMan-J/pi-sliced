@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/env-vars",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/env-vars/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"e7437cf18279daae6eac460afdea011df8bae58d4688b7a65acafa234bd9d463"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9161,"own":{"files":1,"bytes":9161},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotenv","vercel"],"package":["dotenv-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.9 KiB · CLI dotenv, vercel · packages dotenv-cli","short":"8.9 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotenv","runs vercel"]},{"marker":"installs-packages","because":["installs dotenv-cli"]},{"marker":"unpinned-code","because":["npx dotenv: plugins/vercel/skills/env-vars/SKILL.md:237, plugins/vercel/skills/env-vars/SKILL.md:238"]}],
+"security":{"fetch-run":["npx dotenv @ plugins/vercel/skills/env-vars/SKILL.md:237, plugins/vercel/skills/env-vars/SKILL.md:238"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

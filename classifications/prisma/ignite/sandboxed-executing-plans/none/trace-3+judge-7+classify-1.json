@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/ignite/sandboxed-executing-plans",
+"revision":"none",
+"trace":{"path":"traces/prisma/ignite/sandboxed-executing-plans/none/trace-3+judge-7.json","sha256":"dbd803752d3735fc599a385115f48cb9702d4ec273c33e3009541a3d91ce5288"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/prisma/ignite.git/' not found"
+}

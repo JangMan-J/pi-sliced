@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-skills/typing-exclusion-worker",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"trace":{"path":"traces/getsentry/sentry-skills/typing-exclusion-worker/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e/trace-3+judge-7.json","sha256":"4cb47bfcf69fb5297537bfaed186c7979c1781e03a75695611e899b2b9d0fb36"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3321,"own":{"files":1,"bytes":3321},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pre-commit"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.2 KiB · CLI pre-commit","short":"3.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pre-commit"]},{"marker":"stub","because":["own folder 3.2 KiB (1 file)","content is the pre-commit it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

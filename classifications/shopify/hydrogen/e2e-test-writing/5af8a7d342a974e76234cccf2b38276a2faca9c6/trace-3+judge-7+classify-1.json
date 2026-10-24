@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"shopify/hydrogen/e2e-test-writing",
+"revision":"5af8a7d342a974e76234cccf2b38276a2faca9c6",
+"trace":{"path":"traces/shopify/hydrogen/e2e-test-writing/5af8a7d342a974e76234cccf2b38276a2faca9c6/trace-3+judge-7.json","sha256":"fb31c1f8a2b5a09caf2ff527597282a897c989f111bd3debd68dafbdb6f21948"},
+"status":"unresolvable",
+"reason":"no skill folder named e2e-test-writing at 5af8a7d342a974e76234cccf2b38276a2faca9c6"
+}

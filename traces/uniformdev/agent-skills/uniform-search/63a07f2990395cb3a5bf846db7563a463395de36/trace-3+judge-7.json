@@ -1,0 +1,60 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"uniformdev/agent-skills/uniform-search",
+"source":"uniformdev/agent-skills",
+"revision":"63a07f2990395cb3a5bf846db7563a463395de36",
+"skillPath":"skills/uniform-search",
+"status":"resolved",
+"totals":{"files":6,"bytes":55963},
+"files":[
+{"path":"skills/uniform-search/SKILL.md","size":13698,"blob":"4c555a9069d599ceaffb842e6b41cabb6e2a3547","how":"root"},
+{"path":"skills/uniform-search/references/components.md","size":9134,"blob":"69e19281ae90b12403536361620a6634c66da35c","how":"link","from":0,"line":130},
+{"path":"skills/uniform-search/references/definitions.md","size":8262,"blob":"52213499cc7fc29136f25bcd4947567fd7f75fd6","how":"link","from":0,"line":47},
+{"path":"skills/uniform-search/references/discovery.md","size":3781,"blob":"1b375b4e42acdc62d462d87cde0f1645a3338dae","how":"link","from":0,"line":58},
+{"path":"skills/uniform-search/references/install.md","size":14197,"blob":"7949ca75f980dec8ec99c8d9fcd7b378e0401f83","how":"link","from":0,"line":44},
+{"path":"skills/uniform-search/references/ranking.md","size":6891,"blob":"2b5daacb223e8f435102961507a399b6ddf049a0","how":"link","from":0,"line":146}
+],
+"outside":[
+{"kind":"cli","name":"@uniformdev/cli","at":[[2,120]]},
+{"kind":"cli","name":"a","at":[[4,150]]},
+{"kind":"cli","name":"anchor_not_found","at":[[4,150]]},
+{"kind":"cli","name":"c","at":[[4,150]]},
+{"kind":"cli","name":"c.id+","at":[[2,107]]},
+{"kind":"cli","name":"console.log","at":[[2,107]]},
+{"kind":"cli","name":"const","at":[[2,104],[2,105],[4,145],[4,146],[4,147],[4,148],[4,149]]},
+{"kind":"cli","name":"create-uniform-search","at":[[0,50],[4,34]]},
+{"kind":"cli","name":"dex.has","at":[[2,106]]},
+{"kind":"cli","name":"dex.size","at":[[2,107]]},
+{"kind":"cli","name":"fs","at":[[2,104],[4,145]]},
+{"kind":"cli","name":"fs.readFileSync","at":[[2,104]]},
+{"kind":"cli","name":"fs.writeFileSync","at":[[2,108],[4,150]]},
+{"kind":"cli","name":"k","at":[[2,106]]},
+{"kind":"cli","name":"p.id","at":[[2,106]]},
+{"kind":"cli","name":"p.type","at":[[2,105]]},
+{"kind":"cli","name":"ps.filter","at":[[2,105]]},
+{"kind":"cli","name":"throw","at":[[4,150]]},
+{"kind":"cli","name":"tsc","at":[[0,67],[0,86],[4,108],[4,235]]},
+{"kind":"cli","name":"uniform","at":[[4,117]]},
+{"kind":"credential","name":"UNIFORM_API_KEY","at":[[2,84]]},
+{"kind":"network","name":"uniform.app","at":[[2,84]]}
+],
+"regions":[
+{"kind":"own","path":"skills/uniform-search","files":6,"bytes":55963}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @uniformdev/cli","at":[[2,120]]},
+{"kind":"fetch-run","detail":"npx create-uniform-search@latest","at":[[0,50],[4,34]]},
+{"kind":"fetch-run","detail":"npx tsc","at":[[0,67],[0,86],[4,108],[4,235]]},
+{"kind":"fetch-run","detail":"npx uniform","at":[[4,117]]},
+{"kind":"secret-egress","detail":"UNIFORM_API_KEY -> uniform.app","at":[[2,84]]}
+],
+"namedSkills":[
+{"name":"uniform-enrichment-recommendations","path":"skills/uniform-enrichment-recommendations","at":[[0,116],[1,129],[5,41]]},
+{"name":"uniform-nextjs-app-router","path":"skills/uniform-nextjs-app-router","at":[[4,14]]},
+{"name":"uniform-sdk","path":"skills/uniform-sdk","at":[[0,100]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"MIT","frontmatter":"MIT"}
+}

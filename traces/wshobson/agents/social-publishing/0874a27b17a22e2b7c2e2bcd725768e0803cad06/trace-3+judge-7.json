@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/social-publishing",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/social-publishing/skills/social-publishing",
+"status":"resolved",
+"totals":{"files":1,"bytes":3669},
+"files":[
+{"path":"plugins/social-publishing/skills/social-publishing/SKILL.md","size":3669,"blob":"54415fff959fd66c8ab780f647c9fd732ee3849d","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,48]]},
+{"kind":"credential","name":"SOCIALCLAW_API_KEY","at":[[0,54]]},
+{"kind":"package","name":"socialclaw","at":[[0,51]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/social-publishing/skills/social-publishing","files":1,"bytes":3669}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,48]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,48]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

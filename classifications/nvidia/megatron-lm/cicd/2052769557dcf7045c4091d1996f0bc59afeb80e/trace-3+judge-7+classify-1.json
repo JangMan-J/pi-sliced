@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/cicd",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/cicd/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"79adb7e33da7dd152ec219d49d0a3ee2a89a37d4f0e2f13e3f5847d5fbf1d7ef"},
+"status":"unresolvable",
+"reason":"no skill folder named cicd at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

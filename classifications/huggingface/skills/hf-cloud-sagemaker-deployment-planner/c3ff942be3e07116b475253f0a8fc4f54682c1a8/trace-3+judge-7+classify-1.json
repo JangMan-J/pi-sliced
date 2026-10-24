@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/skills/hf-cloud-sagemaker-deployment-planner",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"trace":{"path":"traces/huggingface/skills/hf-cloud-sagemaker-deployment-planner/c3ff942be3e07116b475253f0a8fc4f54682c1a8/trace-3+judge-7.json","sha256":"ceb12964108c6151877d0196f7457684e7db4378336bb2ae9e21ba61c329359f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8620,"own":{"files":1,"bytes":8620},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.4 KiB · CLI aws","short":"8.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]}],
+"security":{},
+"companions":{"named":[{"name":"hf-cloud-aws-context-discovery","path":"skills/hf-cloud-aws-context-discovery"},{"name":"hf-cloud-python-env-setup","path":"skills/hf-cloud-python-env-setup"},{"name":"hf-cloud-sagemaker-iam-preflight","path":"skills/hf-cloud-sagemaker-iam-preflight"},{"name":"hf-cloud-sagemaker-production-defaults","path":"skills/hf-cloud-sagemaker-production-defaults"},{"name":"hf-cloud-serving-image-selection","path":"skills/hf-cloud-serving-image-selection"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

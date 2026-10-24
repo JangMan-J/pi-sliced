@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/verify-dependabot-pr",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/verify-dependabot-pr/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"1b5d0141f50eb6f96425508dba9a8e0edf7a8b99d5ddbdbe7de2d279fc06a35f"},
+"status":"unresolvable",
+"reason":"no skill folder named verify-dependabot-pr at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

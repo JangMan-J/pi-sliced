@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/canvas-apps-edit",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/canvas-apps-edit/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"1e7d4e1804fef6328ca8719ade66c5ea78c159be878f6764b1b51b1a6d25c733"},
+"status":"unresolvable",
+"reason":"no skill folder named canvas-apps-edit at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

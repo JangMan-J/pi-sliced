@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-plugin/workflow",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel/vercel-plugin/workflow/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"305b31a95f7685b78282fbdef797ba8329649b0143879c273d3fe0050ef35585"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":47109,"own":{"files":1,"bytes":47109},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vercel","workflow"],"package":["@workflow/vitest"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 46 KiB · CLI vercel, workflow · packages @workflow/vitest","short":"46 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs vercel","runs workflow"]},{"marker":"installs-packages","because":["installs @workflow/vitest"]},{"marker":"unpinned-code","because":["npx workflow: skills/workflow/SKILL.md:954, skills/workflow/SKILL.md:955, skills/workflow/SKILL.md:958"]}],
+"security":{"fetch-run":["npx workflow @ skills/workflow/SKILL.md:954, skills/workflow/SKILL.md:955, skills/workflow/SKILL.md:958 +15"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

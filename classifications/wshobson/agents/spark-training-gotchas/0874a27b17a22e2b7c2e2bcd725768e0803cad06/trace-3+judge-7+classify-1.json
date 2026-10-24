@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/spark-training-gotchas",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/spark-training-gotchas/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"9f65bb96e1e43bcc59314e0f0d6ed4f57b71c5524f5ff12ff36a2975a670e8c6"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":20065,"own":{"files":3,"bytes":20065},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["f","free","gh","import","ldconfig","null_","nvidia-smi","print","rg","sync","tensor_parallel","x.numel"],"package":["flash-attn"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 20 KiB · CLI f, free +10 · packages flash-attn","short":"20 KiB · 12 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","12 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs f","runs free","runs gh","runs import","runs ldconfig","runs null_","runs nvidia-smi","runs print","runs rg","runs sync","runs tensor_parallel","runs x.numel"]},{"marker":"installs-packages","because":["installs flash-attn"]}],
+"security":{},
+"companions":{"named":[{"name":"finetuning-method-selection","path":"plugins/llm-finetuning/skills/finetuning-method-selection"},{"name":"lora-qlora-recipes","path":"plugins/llm-finetuning/skills/lora-qlora-recipes"},{"name":"spark-environment-setup","path":"plugins/dgx-spark-ops/skills/spark-environment-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"remotion-dev/skills/remotion-upgrade",
+"source":"remotion-dev/skills",
+"revision":"039e8a2fc78b67efc228d5645367838b85818a1c",
+"skillPath":"skills/remotion-upgrade",
+"status":"resolved",
+"totals":{"files":1,"bytes":1930},
+"files":[
+{"path":"skills/remotion-upgrade/SKILL.md","size":1930,"blob":"483f69450eea5c675320d66efcc26a50564b8016","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"remotion","at":[[0,13],[0,29]]},
+{"kind":"cli","name":"skills","at":[[0,26]]}
+],
+"regions":[
+{"kind":"own","path":"skills/remotion-upgrade","files":1,"bytes":1930}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx remotion","at":[[0,13],[0,29]]},
+{"kind":"fetch-run","detail":"npx skills","at":[[0,26]]},
+{"kind":"skill-fetch","detail":"npx skills update","at":[[0,26]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

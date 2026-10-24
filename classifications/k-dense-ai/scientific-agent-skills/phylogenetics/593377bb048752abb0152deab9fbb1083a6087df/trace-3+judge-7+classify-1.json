@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/phylogenetics",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/phylogenetics/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"ea5de611140a1579ee1ea7b7767f4722e3822706a43ba5062d1740d6c0cea505"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":29694,"own":{"files":3,"bytes":29694},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["conda","iqtree3","mafft","trimal"],"package":["PyQt5","ete3","numpy","six"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 29 KiB · CLI conda, iqtree3 +2 · packages PyQt5 +3","short":"29 KiB · 4 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs conda","runs iqtree3","runs mafft","runs trimal"]},{"marker":"installs-packages","because":["installs ete3","installs numpy","installs PyQt5","installs six"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

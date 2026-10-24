@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/brand-voice",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/brand-voice/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"20f540bdb54d3db3e0970a299266ec850e9f8ee4e06f3ae0d3ed32d913e40407"},
+"status":"unresolvable",
+"reason":"no skill folder named brand-voice at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

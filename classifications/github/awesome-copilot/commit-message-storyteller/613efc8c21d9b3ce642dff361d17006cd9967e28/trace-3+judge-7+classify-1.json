@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/commit-message-storyteller",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/commit-message-storyteller/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"f74648bffb4724751a828c4e10dd8c69569889b0bf2079d9f03b4cccb06f84a5"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9236,"own":{"files":2,"bytes":9236},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["www.conventionalcommits.org"]},"summary":"2 files, 9.0 KiB · 1 host","short":"9.0 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from www.conventionalcommits.org"]}],
+"security":{},
+"companions":{"named":[{"name":"refactor","path":"skills/refactor"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

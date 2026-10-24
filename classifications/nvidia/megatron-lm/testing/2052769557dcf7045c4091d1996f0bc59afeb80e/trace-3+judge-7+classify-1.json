@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/testing",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/testing/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"df2051ce9021a96a1be572e8de37b38f035d7812d76b102ea49981c20cdfba00"},
+"status":"unresolvable",
+"reason":"no skill folder named testing at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

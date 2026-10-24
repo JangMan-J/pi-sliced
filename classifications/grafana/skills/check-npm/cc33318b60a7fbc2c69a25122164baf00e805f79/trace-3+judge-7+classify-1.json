@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/check-npm",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/check-npm/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"e327d5336f5a3a7b2c3ae263be1ea66ef9b4d173b04884ec6442900a08cfade6"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":10861,"own":{"files":4,"bytes":10861},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":["npm","pnpm"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 11 KiB · CLI jq · packages npm +1","short":"11 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"installs-packages","because":["installs npm","installs pnpm"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

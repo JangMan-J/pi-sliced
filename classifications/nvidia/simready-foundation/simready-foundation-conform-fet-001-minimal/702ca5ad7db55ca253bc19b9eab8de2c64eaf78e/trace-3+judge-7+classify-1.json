@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/simready-foundation/simready-foundation-conform-fet-001-minimal",
+"revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e",
+"trace":{"path":"traces/nvidia/simready-foundation/simready-foundation-conform-fet-001-minimal/702ca5ad7db55ca253bc19b9eab8de2c64eaf78e/trace-3+judge-7.json","sha256":"3d5b678e98abf9d1c1ee3a1487cdf101c9b6df6716085daa9bffc06735e240be"},
+"status":"unresolvable",
+"reason":"no skill folder named simready-foundation-conform-fet-001-minimal at 702ca5ad7db55ca253bc19b9eab8de2c64eaf78e"
+}

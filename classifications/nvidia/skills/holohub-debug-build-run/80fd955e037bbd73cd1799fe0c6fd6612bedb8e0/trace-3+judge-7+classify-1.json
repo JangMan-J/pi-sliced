@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/holohub-debug-build-run",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/holohub-debug-build-run/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"1fbb9965a216128d50c20029a0e04447fedbdd84106cc52c8839a86b9faa4d90"},
+"status":"unresolvable",
+"reason":"no skill folder named holohub-debug-build-run at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf (the archive had skills/holohub-debug-build-run)"
+}

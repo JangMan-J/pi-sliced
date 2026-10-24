@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/claude-woocommerce-toolkit/woocommerce-upgrade-safety",
+"revision":"d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+"trace":{"path":"traces/automattic/claude-woocommerce-toolkit/woocommerce-upgrade-safety/d70538707247a4d3e6a940c554a9dd4e7010b3d1/trace-3+judge-7.json","sha256":"a1da3f1e39fc6def5b435c95e6b97a227c98eb353628327069b2ff710613ef9d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14163,"own":{"files":1,"bytes":14163},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

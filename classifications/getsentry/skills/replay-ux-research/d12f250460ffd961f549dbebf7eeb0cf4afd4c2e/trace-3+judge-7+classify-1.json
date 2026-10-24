@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/skills/replay-ux-research",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"trace":{"path":"traces/getsentry/skills/replay-ux-research/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e/trace-3+judge-7.json","sha256":"0cb6675fd353eefaac5622e34ae39d9b8892b442c806f03a138fc54078cedce4"},
+"status":"unresolvable",
+"reason":"no skill folder named replay-ux-research at d12f250460ffd961f549dbebf7eeb0cf4afd4c2e"
+}

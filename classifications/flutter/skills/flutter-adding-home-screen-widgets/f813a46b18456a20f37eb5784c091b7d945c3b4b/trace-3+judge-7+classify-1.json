@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-adding-home-screen-widgets",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-adding-home-screen-widgets/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"369d41abb60c04cc5b56e551bb2e7a904c6c91c4735e13d0e67c7b79e19e8968"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-adding-home-screen-widgets at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

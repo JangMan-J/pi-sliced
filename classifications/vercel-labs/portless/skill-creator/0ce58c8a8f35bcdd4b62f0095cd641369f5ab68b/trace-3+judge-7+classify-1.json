@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/portless/skill-creator",
+"revision":"0ce58c8a8f35bcdd4b62f0095cd641369f5ab68b",
+"trace":{"path":"traces/vercel-labs/portless/skill-creator/0ce58c8a8f35bcdd4b62f0095cd641369f5ab68b/trace-3+judge-7.json","sha256":"3934e6fc51c88439b63f9b5fd9daa52a732c40e4477d137f5448ee3434a13283"},
+"status":"unresolvable",
+"reason":"no skill folder named skill-creator at 0ce58c8a8f35bcdd4b62f0095cd641369f5ab68b"
+}

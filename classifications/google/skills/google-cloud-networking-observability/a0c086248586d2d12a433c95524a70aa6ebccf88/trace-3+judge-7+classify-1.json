@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-cloud-networking-observability",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-cloud-networking-observability/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"ce4b7482c5ac7b619aba9e0638b5ead4722fccb736b1e39e1c077a0e4e41740d"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":47590,"own":{"files":10,"bytes":47590},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bq","except","f","gcloud","generation_cost","import","jq","json.dumps","json_payload.action","json_payload.allocation_status","json_payload.bytes_sent","json_payload.connection.clientIp","json_payload.connection.dest_ip","json_payload.connection.serverIp","json_payload.connection.serverPort","json_payload.connection.src_ip","json_payload.gateway_details.internal_ip","json_payload.rule_details.action","json_payload.rule_details.reference","json_payload.threatDetails.category","json_payload.threatDetails.description","json_payload.threatDetails.severity","json_payload.threatDetails.threat","location","log_id","log_name","logs","open","print","remaining_gb","routers","subnetwork_id","subnetwork_name","threat"],"package":[],"mcp-server":["gcpmon","if","logging","management"],"credential":[],"network":[]},"summary":"10 files, 46 KiB · MCP gcpmon, if +2 · CLI bq, except +32","short":"46 KiB · 34 CLI · MCP 4"},
+"heavy":{"heavy":true,"because":["4 MCP servers","34 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bq","runs except","runs f","runs gcloud","runs generation_cost","runs import","runs jq","runs json_payload.action","runs json_payload.allocation_status","runs json_payload.bytes_sent","runs json_payload.connection.clientIp","runs json_payload.connection.dest_ip","runs json_payload.connection.serverIp","runs json_payload.connection.serverPort","runs json_payload.connection.src_ip","runs json_payload.gateway_details.internal_ip","runs json_payload.rule_details.action","runs json_payload.rule_details.reference","runs json_payload.threatDetails.category","runs json_payload.threatDetails.description","runs json_payload.threatDetails.severity","runs json_payload.threatDetails.threat","runs json.dumps","runs location","runs log_id","runs log_name","runs logs","runs open","runs print","runs remaining_gb","runs routers","runs subnetwork_id","runs subnetwork_name","runs threat"]},{"marker":"mcp-server","because":["uses the gcpmon MCP server","uses the if MCP server","uses the logging MCP server","uses the management MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

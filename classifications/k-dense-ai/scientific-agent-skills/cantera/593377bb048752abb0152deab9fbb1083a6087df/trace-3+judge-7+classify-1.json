@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/cantera",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/cantera/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"5b572349966de1f120cfa36cfe79deb7b6a738cea24253e72ef55dd3f1b3b03e"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":23034,"own":{"files":4,"bytes":23034},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["cantera","numpy"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 22 KiB · packages cantera +1","short":"22 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs cantera","installs numpy"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

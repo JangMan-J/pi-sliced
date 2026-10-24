@@ -1,0 +1,38 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"prisma/skills/prisma-postgres-setup",
+"source":"prisma/skills",
+"revision":"ba3f9d73200bbb62e49733ab93a961fd138a2c18",
+"skillPath":"prisma-postgres-setup",
+"status":"resolved",
+"totals":{"files":4,"bytes":21094},
+"files":[
+{"path":"prisma-postgres-setup/SKILL.md","size":4426,"blob":"8446f6e496741c40d4a3b5654de405b2aa36cd41","how":"root"},
+{"path":"prisma-postgres-setup/references/operations.md","size":1759,"blob":"7f8ac31b96ed6c40e4427b3244431746ada9cb3b","how":"link","from":0,"line":47},
+{"path":"prisma-postgres-setup/references/provisioning.md","size":4820,"blob":"7a2ef0c54758bbe281cbf3856711fbb24b992c46","how":"link","from":0,"line":27},
+{"path":"prisma-postgres-setup/references/vercel-marketplace.md","size":10089,"blob":"b22cd93e28cafe72c215f442bf29f8ac3c47e1d8","how":"link","from":0,"line":26}
+],
+"outside":[
+{"kind":"cli","name":"@prisma/cli","at":[[2,10]]},
+{"kind":"cli","name":"create-db","at":[[0,3],[0,27],[2,37],[2,38]]},
+{"kind":"cli","name":"vercel","at":[[3,10],[3,18],[3,19],[3,41],[3,45],[3,70]]},
+{"kind":"mcp-server","name":"marketplace","at":[[3,78]]},
+{"kind":"mcp-server","name":"prisma","at":[[2,7],[3,3]]},
+{"kind":"network","name":"github.com","at":[[0,41]]}
+],
+"regions":[
+{"kind":"own","path":"prisma-postgres-setup","files":4,"bytes":21094}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @prisma/cli@latest","at":[[2,10]]},
+{"kind":"fetch-run","detail":"npx create-db","at":[[0,3]]},
+{"kind":"fetch-run","detail":"npx create-db@latest","at":[[0,27],[2,37],[2,38]]}
+],
+"namedSkills":[
+{"name":"prisma-orm-setup","path":"prisma-orm-setup","at":[[0,41],[3,46]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

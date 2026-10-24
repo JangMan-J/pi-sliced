@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills/pulumi-best-practices",
+"revision":"2517e28e4bc029424e9c9ee48016394296be0f6a",
+"trace":{"path":"traces/pulumi/agent-skills/pulumi-best-practices/2517e28e4bc029424e9c9ee48016394296be0f6a/trace-3+judge-7.json","sha256":"a0168a1bd6706de9c4cc30495c4103c65a1eb8bc8cde48745b56f3e0ca295940"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15734,"own":{"files":1,"bytes":15734},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["esc","pulumi"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI esc, pulumi","short":"15 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs esc","runs pulumi"]}],
+"security":{},
+"companions":{"named":[{"name":"pulumi-automation-api","path":"pulumi/skills/pulumi-automation-api"},{"name":"pulumi-component","path":"pulumi/skills/pulumi-component"},{"name":"pulumi-esc","path":"pulumi/skills/pulumi-esc"},{"name":"pulumi-overview","path":"pulumi/skills/pulumi-overview"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

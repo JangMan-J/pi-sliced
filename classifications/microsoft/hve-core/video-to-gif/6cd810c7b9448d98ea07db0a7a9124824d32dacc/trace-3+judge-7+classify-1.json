@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/hve-core/video-to-gif",
+"revision":"6cd810c7b9448d98ea07db0a7a9124824d32dacc",
+"trace":{"path":"traces/microsoft/hve-core/video-to-gif/6cd810c7b9448d98ea07db0a7a9124824d32dacc/trace-3+judge-7.json","sha256":"eac168ee9791df1438aa92168286811f9ab1c26482badabef0c43a1133f4fc86"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":46117,"own":{"files":3,"bytes":46117},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Movies","Videos","bc","bytes","choco","ffmpeg","fps","gtimeout","or","where.exe","width","winget"],"package":["FFmpeg.FFmpeg","ffmpeg","libzimg-dev","zimg"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 45 KiB · CLI Movies, Videos +10 · packages FFmpeg.FFmpeg +3","short":"45 KiB · 12 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","12 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bc","runs bytes","runs choco","runs ffmpeg","runs fps","runs gtimeout","runs Movies","runs or","runs Videos","runs where.exe","runs width","runs winget"]},{"marker":"installs-packages","because":["installs ffmpeg","installs FFmpeg.FFmpeg","installs libzimg-dev","installs zimg"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

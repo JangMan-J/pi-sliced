@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"medusajs/medusa-claude-plugins/building-storefronts",
+"revision":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc",
+"trace":{"path":"traces/medusajs/medusa-claude-plugins/building-storefronts/42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc/trace-3+judge-7.json","sha256":"e12ca400ee9308b3eb1293ca2989a50ded663cc58840834ec662b92e7ff75d29"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":14169,"own":{"files":2,"bytes":14169},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["medusadocs"],"credential":[],"network":[]},"summary":"2 files, 14 KiB · MCP medusadocs","short":"14 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the medusadocs MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"building-with-medusa","path":"plugins/medusa-dev/skills/building-with-medusa"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

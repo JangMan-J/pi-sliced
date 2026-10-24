@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"launchdarkly/experimental-agent-skills/onboardingv2",
+"source":"launchdarkly/experimental-agent-skills",
+"revision":"39ec72185f7c00673bea63d6c71795d934e59137",
+"skillPath":"skills/onboardingV2",
+"status":"resolved",
+"totals":{"files":1,"bytes":17230},
+"files":[
+{"path":"skills/onboardingV2/SKILL.md","size":17230,"blob":"e3c847dce5df3adcafbdda2f9eca170307f917c7","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,176],[0,188]]},
+{"kind":"package","name":"@launchdarkly/node-server-sdk","at":[[0,198]]},
+{"kind":"package","name":"launchdarkly-react-client-sdk","at":[[0,197]]},
+{"kind":"package","name":"launchdarkly-server-sdk","at":[[0,199]]}
+],
+"regions":[
+{"kind":"own","path":"skills/onboardingV2","files":1,"bytes":17230}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,176],[0,188]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,176],[0,188]]}
+],
+"namedSkills":[
+{"name":"mcp-configure","path":"skills/onboardingV2/mcp-configure","at":[[0,173],[0,179],[0,303]]},
+{"name":"sdk-install","path":"skills/onboardingV2/sdk-install","at":[[0,191],[0,303]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":"Apache-2.0"}
+}

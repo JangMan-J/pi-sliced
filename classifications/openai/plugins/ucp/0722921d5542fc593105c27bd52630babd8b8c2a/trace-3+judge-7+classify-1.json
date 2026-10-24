@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/ucp",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/ucp/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"79e20597110ed756b07f4c5965af7ba735178497b68e1efca5a1e9f67071e3b1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19408,"own":{"files":1,"bytes":19408},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["checkout","ucp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 19 KiB · CLI checkout, ucp","short":"19 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs checkout","runs ucp"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

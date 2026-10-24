@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/creating-replay-vision-scanners",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/creating-replay-vision-scanners/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"1fa4c08c42332889c7cc8a7bb85c1f753a3dd27c7aa8e44efe3ffbfcffdd4094"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15726,"own":{"files":1,"bytes":15726},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"exploring-replay-vision-observations","path":"skills/omnibus/exploring-replay-vision-observations"},{"name":"investigating-replay","path":"skills/omnibus/investigating-replay"},{"name":"scanning-experiments-with-replay-vision","path":"skills/omnibus/scanning-experiments-with-replay-vision"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

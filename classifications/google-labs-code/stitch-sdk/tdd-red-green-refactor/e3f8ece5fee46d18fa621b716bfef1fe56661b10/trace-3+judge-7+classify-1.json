@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-labs-code/stitch-sdk/tdd-red-green-refactor",
+"revision":"e3f8ece5fee46d18fa621b716bfef1fe56661b10",
+"trace":{"path":"traces/google-labs-code/stitch-sdk/tdd-red-green-refactor/e3f8ece5fee46d18fa621b716bfef1fe56661b10/trace-3+judge-7.json","sha256":"faec033c0ea6867503bccbe1b455027e2157ad41f65917208833c29fd99dc703"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3019,"own":{"files":1,"bytes":3019},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB","short":"2.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

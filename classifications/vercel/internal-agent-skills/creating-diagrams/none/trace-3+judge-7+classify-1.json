@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/internal-agent-skills/creating-diagrams",
+"revision":"none",
+"trace":{"path":"traces/vercel/internal-agent-skills/creating-diagrams/none/trace-3+judge-7.json","sha256":"db39f823d62a8ca66598897ecabbfd73d1776f62064e937a8df9244a03bbabe2"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/internal-agent-skills.git/' not found"
+}

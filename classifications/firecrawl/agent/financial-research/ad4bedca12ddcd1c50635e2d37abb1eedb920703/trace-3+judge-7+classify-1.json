@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/agent/financial-research",
+"revision":"ad4bedca12ddcd1c50635e2d37abb1eedb920703",
+"trace":{"path":"traces/firecrawl/agent/financial-research/ad4bedca12ddcd1c50635e2d37abb1eedb920703/trace-3+judge-7.json","sha256":"1514856cee0469171a219fb67cf01e4ff963667a5ca442299eb377ec2e65ef0e"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":21910,"own":{"files":3,"bytes":8600},"otherSkills":{"count":4,"files":4,"bytes":13310},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 21 KiB · +4 other skills","short":"21 KiB · +4 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at agent-core/src/skills/definitions/competitor-analysis","pulls in 1 file of the skill at agent-core/src/skills/definitions/deep-research","pulls in 1 file of the skill at agent-core/src/skills/definitions/pricing-tracker","pulls in 1 file of the skill at agent-core/src/skills/definitions/structured-extraction"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"agent-core/src/skills/definitions/competitor-analysis","files":1,"bytes":4508},{"path":"agent-core/src/skills/definitions/deep-research","files":1,"bytes":1109},{"path":"agent-core/src/skills/definitions/pricing-tracker","files":1,"bytes":4643},{"path":"agent-core/src/skills/definitions/structured-extraction","files":1,"bytes":3050}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

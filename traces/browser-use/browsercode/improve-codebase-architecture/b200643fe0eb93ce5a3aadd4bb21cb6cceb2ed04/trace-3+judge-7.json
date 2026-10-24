@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"browser-use/browsercode/improve-codebase-architecture",
+"source":"browser-use/browsercode",
+"revision":"b200643fe0eb93ce5a3aadd4bb21cb6cceb2ed04",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named improve-codebase-architecture at b200643fe0eb93ce5a3aadd4bb21cb6cceb2ed04",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

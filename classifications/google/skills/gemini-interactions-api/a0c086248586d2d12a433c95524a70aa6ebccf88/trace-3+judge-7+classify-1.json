@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gemini-interactions-api",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gemini-interactions-api/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"e7d437c8463f24d47a66406e30965b14413e93fb65f8272a862e69cb22f2d8a1"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":26522,"own":{"files":3,"bytes":26522},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":["ACCESS_TOKEN"],"network":["aiplatform.googleapis.com"]},"summary":"3 files, 26 KiB · CLI gcloud · 1 key · 1 host","short":"26 KiB · 1 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"network","because":["fetches from aiplatform.googleapis.com"]},{"marker":"credentials","because":["needs ACCESS_TOKEN"]},{"marker":"sends-credentials","because":["ACCESS_TOKEN -> aiplatform.googleapis.com: skills/cloud/gemini-interactions-api/references/rest_api.md:42, skills/cloud/gemini-interactions-api/references/rest_api.md:93, skills/cloud/gemini-interactions-api/references/rest_api.md:115"]}],
+"security":{"secret-egress":["ACCESS_TOKEN -> aiplatform.googleapis.com @ skills/cloud/gemini-interactions-api/references/rest_api.md:42, skills/cloud/gemini-interactions-api/references/rest_api.md:93, skills/cloud/gemini-interactions-api/references/rest_api.md:115 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

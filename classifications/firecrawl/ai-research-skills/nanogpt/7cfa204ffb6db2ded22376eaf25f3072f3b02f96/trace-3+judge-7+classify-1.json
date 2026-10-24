@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/nanogpt",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/nanogpt/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"4d7af31ef477d2a9a922b7c4a1ba45abca0c1ce1e3bfedf7d8477a01788f26ca"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":43231,"own":{"files":4,"bytes":43231},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["torchrun"],"package":["datasets","numpy","tiktoken","torch","tqdm","transformers","wandb"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 42 KiB · CLI torchrun · packages datasets +6","short":"42 KiB · 1 CLI · 7 pkg"},
+"heavy":{"heavy":true,"because":["7 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs torchrun"]},{"marker":"installs-packages","because":["installs datasets","installs numpy","installs tiktoken","installs torch","installs tqdm","installs transformers","installs wandb"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

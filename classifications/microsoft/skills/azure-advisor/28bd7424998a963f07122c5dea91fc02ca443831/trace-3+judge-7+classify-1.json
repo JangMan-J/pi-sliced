@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-advisor",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-advisor/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"9452e8b0ecd1c632c2b00aa2870f7a61681fe190be23743dca9880835f823155"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1531,"own":{"files":1,"bytes":1531},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["advisor"],"credential":[],"network":[]},"summary":"1 file, 1.5 KiB · MCP advisor","short":"1.5 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the advisor MCP server"]},{"marker":"stub","because":["own folder 1.5 KiB (1 file)","content is the advisor it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-advisor-actionability","path":".github/plugins/azure-advisor/skills/azure-advisor-actionability"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

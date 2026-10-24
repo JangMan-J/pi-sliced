@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/m365-agents-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/m365-agents-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"c6f7ad5fcb58c59b6c7309c5bfe9fff6dc4b254fcf56be43ea6f2b035439412d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10045,"own":{"files":1,"bytes":10045},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Microsoft.Agents.Authentication.Msal","Microsoft.Agents.CopilotStudio.Client","Microsoft.Agents.Hosting.AspNetCore","Microsoft.Agents.Storage","Microsoft.Identity.Client.Extensions.Msal"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.8 KiB · CLI dotnet · packages Microsoft.Agents.Authentication.Msal +4","short":"9.8 KiB · 1 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Microsoft.Agents.Authentication.Msal","installs Microsoft.Agents.CopilotStudio.Client","installs Microsoft.Agents.Hosting.AspNetCore","installs Microsoft.Agents.Storage","installs Microsoft.Identity.Client.Extensions.Msal"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

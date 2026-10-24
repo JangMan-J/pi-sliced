@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"exploreomni/omni-cursor-plugin/omni-query",
+"revision":"842e457f62e607b36d0530de125c609a308ad529",
+"trace":{"path":"traces/exploreomni/omni-cursor-plugin/omni-query/842e457f62e607b36d0530de125c609a308ad529/trace-3+judge-7.json","sha256":"b8ccad40c0c131c551a37477d2801bfdb8f2403a53205ffa23f13fe195da886b"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10566,"own":{"files":2,"bytes":10566},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["order_items.total_revenue"],"package":[],"mcp-server":[],"credential":["OMNI_API_KEY"],"network":[]},"summary":"2 files, 10 KiB · CLI order_items.total_revenue · 1 key","short":"10 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs order_items.total_revenue"]},{"marker":"credentials","because":["needs OMNI_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"omni-content-builder","path":"skills/omni-content-builder"},{"name":"omni-model-explorer","path":"skills/omni-model-explorer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

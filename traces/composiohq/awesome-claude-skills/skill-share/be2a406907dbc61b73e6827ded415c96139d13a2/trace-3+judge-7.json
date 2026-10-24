@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"composiohq/awesome-claude-skills/skill-share",
+"source":"composiohq/awesome-claude-skills",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"skillPath":"skill-share",
+"status":"resolved",
+"totals":{"files":1,"bytes":2913},
+"files":[
+{"path":"skill-share/SKILL.md","size":2913,"blob":"7d50a28ba5b8bb65fd6bd13675969258db64f739","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skill-share","files":1,"bytes":2913}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"Complete terms in LICENSE.txt"}
+}

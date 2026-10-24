@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/skills/bad-code",
+"revision":"none",
+"trace":{"path":"traces/vercel/skills/bad-code/none/trace-3+judge-7.json","sha256":"15773ca7dd75261585e446bf6486ae0b0ea2a93c63538fdd621b6ec998815a4e"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/skills.git/' not found"
+}

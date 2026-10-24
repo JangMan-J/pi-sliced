@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"czlonkowski/n8n-skills/n8n-binary-and-data",
+"revision":"c640094d949c5a7bfce7d51fc9c049e3dcd3be44",
+"trace":{"path":"traces/czlonkowski/n8n-skills/n8n-binary-and-data/c640094d949c5a7bfce7d51fc9c049e3dcd3be44/trace-3+judge-7.json","sha256":"bf7891c7ad4a7b3dc00aeb88eb43389b7215e854acfd512828339403e74e7188"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":53074,"own":{"files":5,"bytes":53074},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 52 KiB","short":"52 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

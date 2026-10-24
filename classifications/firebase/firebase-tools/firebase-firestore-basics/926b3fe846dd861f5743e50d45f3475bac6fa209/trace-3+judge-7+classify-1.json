@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/firebase-tools/firebase-firestore-basics",
+"revision":"926b3fe846dd861f5743e50d45f3475bac6fa209",
+"trace":{"path":"traces/firebase/firebase-tools/firebase-firestore-basics/926b3fe846dd861f5743e50d45f3475bac6fa209/trace-3+judge-7.json","sha256":"1e94d5cfca780d1cee44d5db16dd47f0496d2a77f337fd131126473880af7897"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase-firestore-basics at 926b3fe846dd861f5743e50d45f3475bac6fa209"
+}

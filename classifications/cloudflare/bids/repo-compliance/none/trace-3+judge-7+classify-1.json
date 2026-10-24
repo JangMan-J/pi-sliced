@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/bids/repo-compliance",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/bids/repo-compliance/none/trace-3+judge-7.json","sha256":"d93b12202d5295ba48d1697f61f2245039801396a1ed1979c9a277c772e192bb"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/bids.git/' not found"
+}

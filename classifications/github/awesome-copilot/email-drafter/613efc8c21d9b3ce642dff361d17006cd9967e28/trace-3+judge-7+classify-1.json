@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/email-drafter",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/email-drafter/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"2c614553114cbe61cfb6533cae0f66336476d1a224f84ca8d355694ad4e485a6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4603,"own":{"files":1,"bytes":4603},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["workiq"],"credential":[],"network":[]},"summary":"1 file, 4.5 KiB · MCP workiq","short":"4.5 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the workiq MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

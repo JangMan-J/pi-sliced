@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/hve-core/tts-voiceover",
+"revision":"6cd810c7b9448d98ea07db0a7a9124824d32dacc",
+"trace":{"path":"traces/microsoft/hve-core/tts-voiceover/6cd810c7b9448d98ea07db0a7a9124824d32dacc/trace-3+judge-7.json","sha256":"a5ae0d1ab5a125b418c9e0254b09de6108760acbc8f5c378b2571d6826d0eddd"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":41057,"own":{"files":3,"bytes":41057},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["azure","lxml","pptx","pyyaml"],"mcp-server":[],"credential":["SPEECH_KEY"],"network":["cognitiveservices.azure.com","schemas.openxmlformats.org","www.w3.org"]},"summary":"3 files, 40 KiB · packages azure +3 · 1 key · 3 hosts","short":"40 KiB · 4 pkg · 1 key · 3 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs azure","installs lxml","installs pptx","installs pyyaml"]},{"marker":"network","because":["fetches from cognitiveservices.azure.com","fetches from schemas.openxmlformats.org","fetches from www.w3.org"]},{"marker":"credentials","because":["needs SPEECH_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

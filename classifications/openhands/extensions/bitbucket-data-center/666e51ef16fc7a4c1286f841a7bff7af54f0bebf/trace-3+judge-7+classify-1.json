@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/bitbucket-data-center",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/bitbucket-data-center/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"de5beef0e2455d876a11b14286d0f0ee1fc9532d92f6d17547c11a5751b3ca82"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4921,"own":{"files":1,"bytes":4921},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["center"],"credential":["BITBUCKET_DATA_CENTER_TOKEN","NEW_TOKEN"],"network":[]},"summary":"1 file, 4.8 KiB · MCP center · 2 keys","short":"4.8 KiB · 2 keys · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 credentials"]},
+"markers":[{"marker":"credentials","because":["needs BITBUCKET_DATA_CENTER_TOKEN","needs NEW_TOKEN"]},{"marker":"mcp-server","because":["uses the center MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"bitbucket","path":"skills/bitbucket"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-kusto-irql",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-kusto-irql/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"1f627d1e0fe188c4e59582d84a2a75e57cf39ce04f4d3a06d50914f407dfbe7f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":15432,"own":{"files":3,"bytes":15432},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Add-Content","New-Guid","Select-Object","Set-Content","Sort-Object","Start-Process","Write-Warning"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 15 KiB · CLI Add-Content, New-Guid +5","short":"15 KiB · 7 CLI"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Add-Content","runs New-Guid","runs Select-Object","runs Set-Content","runs Sort-Object","runs Start-Process","runs Write-Warning"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-kusto","path":".github/plugins/azure-skills/skills/azure-kusto"},{"name":"azure-kusto-graph","path":".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-graph"},{"name":"azure-kusto-irql-graph","path":".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql-graph"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mastra-ai/mastra/pr-splitter",
+"revision":"01e060c971237b72d75e05a42edc4a67816028f3",
+"trace":{"path":"traces/mastra-ai/mastra/pr-splitter/01e060c971237b72d75e05a42edc4a67816028f3/trace-3+judge-7.json","sha256":"c77e386528b60e37467a7375fe692813a4fadee07d72adc7131ebc17cb4cfd31"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5837,"own":{"files":1,"bytes":5837},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pkg-name"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.7 KiB · CLI pkg-name","short":"5.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pkg-name"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

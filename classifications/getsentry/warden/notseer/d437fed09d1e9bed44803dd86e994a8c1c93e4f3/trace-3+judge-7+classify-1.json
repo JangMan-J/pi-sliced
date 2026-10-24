@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/warden/notseer",
+"revision":"d437fed09d1e9bed44803dd86e994a8c1c93e4f3",
+"trace":{"path":"traces/getsentry/warden/notseer/d437fed09d1e9bed44803dd86e994a8c1c93e4f3/trace-3+judge-7.json","sha256":"e8df6acdc5e0e030ea5f58815ecdce39f2f1f040f4018345c0242beffa9ad466"},
+"status":"unresolvable",
+"reason":"no skill folder named notseer at d437fed09d1e9bed44803dd86e994a8c1c93e4f3"
+}

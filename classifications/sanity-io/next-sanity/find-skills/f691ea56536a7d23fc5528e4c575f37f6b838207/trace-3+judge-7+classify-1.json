@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/next-sanity/find-skills",
+"revision":"f691ea56536a7d23fc5528e4c575f37f6b838207",
+"trace":{"path":"traces/sanity-io/next-sanity/find-skills/f691ea56536a7d23fc5528e4c575f37f6b838207/trace-3+judge-7.json","sha256":"6db6e1d7db58b2951bff2311094a61d63c1dbf655a0a758b0359bb5dff2701f6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5447,"own":{"files":1,"bytes":5447},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.3 KiB · CLI skills","short":"5.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add","fetches skills at run time: npx skills update"]},{"marker":"persistent-writes","because":["writes to a skill folder: .agents/skills/find-skills/SKILL.md:102"]},{"marker":"unpinned-code","because":["npx skills: .agents/skills/find-skills/SKILL.md:23, .agents/skills/find-skills/SKILL.md:27, .agents/skills/find-skills/SKILL.md:28"]}],
+"security":{"fetch-run":["npx skills @ .agents/skills/find-skills/SKILL.md:23, .agents/skills/find-skills/SKILL.md:27, .agents/skills/find-skills/SKILL.md:28 +8"],"persist-write":["skill folder @ .agents/skills/find-skills/SKILL.md:102"],"skill-fetch":["npx skills add @ .agents/skills/find-skills/SKILL.md:28, .agents/skills/find-skills/SKILL.md:102","npx skills update @ .agents/skills/find-skills/SKILL.md:30"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

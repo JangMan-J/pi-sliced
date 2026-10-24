@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-fabric/create-beta-tag",
+"revision":"fd3963de708eb49e19d00f0272c9d14a92fd61f1",
+"trace":{"path":"traces/nvidia/nemo-fabric/create-beta-tag/fd3963de708eb49e19d00f0272c9d14a92fd61f1/trace-3+judge-7.json","sha256":"fe29f8b0179b183fa49d3f4b44d7978faecc367bb7b92db78e06f0c41df08941"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4945,"own":{"files":1,"bytes":4945},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["index","just","max","open","prefix","print","suffix","tomllib","tomllib.load"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.8 KiB · CLI index, just +7","short":"4.8 KiB · 9 CLI"},
+"heavy":{"heavy":true,"because":["9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs index","runs just","runs max","runs open","runs prefix","runs print","runs suffix","runs tomllib","runs tomllib.load"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

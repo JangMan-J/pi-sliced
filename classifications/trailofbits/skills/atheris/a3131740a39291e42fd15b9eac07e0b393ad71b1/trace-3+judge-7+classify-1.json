@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/atheris",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/atheris/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"c0582281ecbcb5ee65c80f6b4014610f7f2e7f698fea66d1dc693d7bd7c95393"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":19380,"own":{"files":3,"bytes":19380},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":["atheris","cbor2"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 19 KiB · CLI docker · packages atheris +1","short":"19 KiB · 1 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]},{"marker":"installs-packages","because":["installs atheris","installs cbor2"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

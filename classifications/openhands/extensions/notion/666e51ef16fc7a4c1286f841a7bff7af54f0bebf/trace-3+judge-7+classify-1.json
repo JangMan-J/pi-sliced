@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/notion",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/notion/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"efe31211bed174600f5ec40361f7c5038b70b81260d4bee6089f76fd06990fc1"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":4854,"own":{"files":2,"bytes":4854},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertTo-Json","Invoke-RestMethod","jq"],"package":[],"mcp-server":["notion"],"credential":["NOTION_INTEGRATION_KEY"],"network":["api.notion.com"]},"summary":"2 files, 4.7 KiB · MCP notion · CLI ConvertTo-Json, Invoke-RestMethod +1 · 1 key · 1 host","short":"4.7 KiB · 3 CLI · 1 key · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs ConvertTo-Json","runs Invoke-RestMethod","runs jq"]},{"marker":"network","because":["fetches from api.notion.com"]},{"marker":"credentials","because":["needs NOTION_INTEGRATION_KEY"]},{"marker":"mcp-server","because":["uses the notion MCP server"]},{"marker":"sends-credentials","because":["NOTION_INTEGRATION_KEY -> api.notion.com: skills/notion/SKILL.md:40, skills/notion/SKILL.md:55, skills/notion/SKILL.md:85"]}],
+"security":{"secret-egress":["NOTION_INTEGRATION_KEY -> api.notion.com @ skills/notion/SKILL.md:40, skills/notion/SKILL.md:55, skills/notion/SKILL.md:85"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

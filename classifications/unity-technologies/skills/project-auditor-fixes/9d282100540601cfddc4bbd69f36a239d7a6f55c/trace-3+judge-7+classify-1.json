@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"unity-technologies/skills/project-auditor-fixes",
+"revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c",
+"trace":{"path":"traces/unity-technologies/skills/project-auditor-fixes/9d282100540601cfddc4bbd69f36a239d7a6f55c/trace-3+judge-7.json","sha256":"5f51972ecdb288737bb74b2fee767c88c83d7167315482408864a41b30d02307"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4454,"own":{"files":1,"bytes":4454},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["unity"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.3 KiB · CLI unity","short":"4.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs unity"]}],
+"security":{},
+"companions":{"named":[{"name":"unity-cli","path":"skills/unity-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

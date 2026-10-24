@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/waza/waza-runner",
+"revision":"1b763c094145f2dd7e5148898bee957737c6922b",
+"trace":{"path":"traces/microsoft/waza/waza-runner/1b763c094145f2dd7e5148898bee957737c6922b/trace-3+judge-7.json","sha256":"871976abb2962736a75f0da211e96206b4fcb25738a5de3eae3f84d4229f7e29"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":5628,"own":{"files":2,"bytes":5628},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["waza"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 5.5 KiB · CLI waza","short":"5.5 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs waza"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

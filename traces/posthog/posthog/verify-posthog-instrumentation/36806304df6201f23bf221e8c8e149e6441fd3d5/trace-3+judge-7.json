@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"posthog/posthog/verify-posthog-instrumentation",
+"source":"posthog/posthog",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"skillPath":"tools/traffic-sim/skills/verify-posthog-instrumentation",
+"status":"resolved",
+"totals":{"files":1,"bytes":3331},
+"files":[
+{"path":"tools/traffic-sim/skills/verify-posthog-instrumentation/SKILL.md","size":3331,"blob":"704232ab095c1e6294be8ad37c8b0ce158712754","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@posthog/wizard","at":[[0,19]]}
+],
+"regions":[
+{"kind":"own","path":"tools/traffic-sim/skills/verify-posthog-instrumentation","files":1,"bytes":3331}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @posthog/wizard","at":[[0,19]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

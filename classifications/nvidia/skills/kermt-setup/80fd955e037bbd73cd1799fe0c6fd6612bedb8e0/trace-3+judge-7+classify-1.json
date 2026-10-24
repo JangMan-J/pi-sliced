@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/kermt-setup",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/kermt-setup/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"59ce351d00b74ef42c7c66d2bd02a513b26e61d6ef0a9ddc85769a880bbd85a4"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":26071,"own":{"files":2,"bytes":26071},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Additional","Environment","Exits","Mount","Run","below","check_docker","check_gpu","check_system","created","def","docker","docker_not_on_PATH","docker_run_--gpus_all","driver","ensure_image","except","f","free_gb","import","json.dumps","len","msg","not","nvidia-container-toolkit","nvidia-smi","nvidia-smi_found_but_failed","nvidia-smi_not_on_PATH","nvidia-smi_succeeded_but_reported_no_GPUs","otherwise","parts","print","prints","r.returncode","read-only","read-write","released-model","repo","result","run","run_detached"],"package":[],"mcp-server":[],"credential":["HF_TOKEN"],"network":[]},"summary":"2 files, 25 KiB · CLI Additional, Environment +39 · 1 key","short":"25 KiB · 41 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["41 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs Additional","runs below","runs check_docker","runs check_gpu","runs check_system","runs created","runs def","runs docker","runs docker_not_on_PATH","runs docker_run_--gpus_all","runs driver","runs ensure_image","runs Environment","runs except","runs Exits","runs f","runs free_gb","runs import","runs json.dumps","runs len","runs Mount","runs msg","runs not","runs nvidia-container-toolkit","runs nvidia-smi","runs nvidia-smi_found_but_failed","runs nvidia-smi_not_on_PATH","runs nvidia-smi_succeeded_but_reported_no_GPUs","runs otherwise","runs parts","runs print","runs prints","runs r.returncode","runs read-only","runs read-write","runs released-model","runs repo","runs result","runs run","runs Run","runs run_detached"]},{"marker":"credentials","because":["needs HF_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

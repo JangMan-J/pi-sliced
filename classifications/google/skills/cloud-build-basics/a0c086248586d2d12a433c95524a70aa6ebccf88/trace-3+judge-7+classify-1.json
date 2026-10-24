@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/cloud-build-basics",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/cloud-build-basics/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"d73d9c06a63358eb9500d94c11e975168b831c441e04cbdaea84bcd69e97974e"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":35816,"own":{"files":5,"bytes":35816},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":["console.cloud.google.com","github.com"]},"summary":"5 files, 35 KiB · CLI gcloud · 2 hosts","short":"35 KiB · 1 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"network","because":["fetches from console.cloud.google.com","fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

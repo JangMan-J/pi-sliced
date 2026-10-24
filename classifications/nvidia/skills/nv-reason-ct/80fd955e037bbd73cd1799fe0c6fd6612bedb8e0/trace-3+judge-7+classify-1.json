@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nv-reason-ct",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nv-reason-ct/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"c7881911d89e9aaab3ac1dc442a0e3f0418f32f338c9f66376599e549523e803"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":126903,"own":{"files":10,"bytes":126903},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["hf"],"package":["huggingface_hub","jsonschema","nibabel","numpy","pytest","pyyaml","torch","transformers"],"mcp-server":[],"credential":["HF_TOKEN"],"network":["github.com","huggingface.co"]},"summary":"10 files, 124 KiB · CLI hf · packages huggingface_hub +7 · 1 key · 2 hosts","short":"124 KiB · 1 CLI · 8 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["8 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs hf"]},{"marker":"installs-packages","because":["installs huggingface_hub","installs jsonschema","installs nibabel","installs numpy","installs pytest","installs pyyaml","installs torch","installs transformers"]},{"marker":"network","because":["fetches from github.com","fetches from huggingface.co"]},{"marker":"credentials","because":["needs HF_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

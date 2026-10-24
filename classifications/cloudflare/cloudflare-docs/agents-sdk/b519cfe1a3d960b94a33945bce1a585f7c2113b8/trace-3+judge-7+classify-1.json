@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/agents-sdk",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/agents-sdk/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"c76833f886f19e857189e6bfbf0ab75817f707ac562beb9186fc9ecb0c51fb29"},
+"status":"unresolvable",
+"reason":"no skill folder named agents-sdk at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

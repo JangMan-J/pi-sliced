@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pytorch/pytorch/skill-writer",
+"revision":"18d8d0974472b71069c8a6d50f1262915e63cd20",
+"trace":{"path":"traces/pytorch/pytorch/skill-writer/18d8d0974472b71069c8a6d50f1262915e63cd20/trace-3+judge-7.json","sha256":"b8d4e2e42797a71424172548efbd155b818f91515218b7dcd9466e717abe72dd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9647,"own":{"files":1,"bytes":9647},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.4 KiB · CLI claude","short":"9.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs claude"]},{"marker":"persistent-writes","because":["writes to a skill folder: .agents/skills/skill-writer/SKILL.md:55, .agents/skills/skill-writer/SKILL.md:58"]}],
+"security":{"persist-write":["skill folder @ .agents/skills/skill-writer/SKILL.md:55, .agents/skills/skill-writer/SKILL.md:58"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

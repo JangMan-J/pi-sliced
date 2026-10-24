@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-governance-toolkit/agentmesh-governance",
+"revision":"70a4ab8e8a0434f481ba85a52ccf988a0572ceeb",
+"trace":{"path":"traces/microsoft/agent-governance-toolkit/agentmesh-governance/70a4ab8e8a0434f481ba85a52ccf988a0572ceeb/trace-3+judge-7.json","sha256":"810b50901bf2f5c393ed500b7f6faddf1d4d597d45998e203be63591f4d4ff87"},
+"status":"unresolvable",
+"reason":"no skill folder named agentmesh-governance at 70a4ab8e8a0434f481ba85a52ccf988a0572ceeb"
+}

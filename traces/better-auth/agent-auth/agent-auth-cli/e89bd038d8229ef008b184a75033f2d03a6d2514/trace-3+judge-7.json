@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"better-auth/agent-auth/agent-auth-cli",
+"source":"better-auth/agent-auth",
+"revision":"e89bd038d8229ef008b184a75033f2d03a6d2514",
+"skillPath":"skills/agent-auth-cli",
+"status":"resolved",
+"totals":{"files":1,"bytes":6147},
+"files":[
+{"path":"skills/agent-auth-cli/SKILL.md","size":6147,"blob":"9f51ed4ca99f3daf3835be0af66c755b0138869a","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@auth/agent-cli","at":[[0,12]]},
+{"kind":"cli","name":"auth-agent","at":[[0,22],[0,25],[0,28],[0,39],[0,42],[0,45],[0,55],[0,60],[0,66],[0,71],[0,84],[0,93],[0,103],[0,113],[0,116],[0,119],[0,122],[0,129],[0,132],[0,138],[0,145],[0,148]]}
+],
+"regions":[
+{"kind":"own","path":"skills/agent-auth-cli","files":1,"bytes":6147}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @auth/agent-cli","at":[[0,12]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

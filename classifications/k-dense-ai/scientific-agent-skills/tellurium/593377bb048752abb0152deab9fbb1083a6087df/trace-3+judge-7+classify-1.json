@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/tellurium",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/tellurium/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"d55dda6c6bfe5901bfc9bfd8d3adceca2f61fd32e807b2a67c69bbfffa4cfeef"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":28719,"own":{"files":5,"bytes":28719},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["antimony","kinetic-env/bin/python","libroadrunner","libsbml","libsedml","numpy","python-libcombine","python-libsbml","python-libsedml","tellurium"],"mcp-server":[],"credential":[],"network":["identifiers.org"]},"summary":"5 files, 28 KiB · packages antimony +9 · 1 host","short":"28 KiB · 10 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["10 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs antimony","installs kinetic-env/bin/python","installs libroadrunner","installs libsbml","installs libsedml","installs numpy","installs python-libcombine","installs python-libsbml","installs python-libsedml","installs tellurium"]},{"marker":"network","because":["fetches from identifiers.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/warden/vercel-react-best-practices",
+"revision":"d437fed09d1e9bed44803dd86e994a8c1c93e4f3",
+"trace":{"path":"traces/getsentry/warden/vercel-react-best-practices/d437fed09d1e9bed44803dd86e994a8c1c93e4f3/trace-3+judge-7.json","sha256":"2a37308eab92963a8940c6263f199ea2eb64d9313ba1ad85086f766d6e5551ee"},
+"status":"unresolvable",
+"reason":"no skill folder named vercel-react-best-practices at d437fed09d1e9bed44803dd86e994a8c1c93e4f3"
+}

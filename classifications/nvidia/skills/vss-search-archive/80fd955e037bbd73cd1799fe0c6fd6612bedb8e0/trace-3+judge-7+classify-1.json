@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/vss-search-archive",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/vss-search-archive/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"65b75e00c3336d48bea8d1ee028f5cd8726cbaf89f98d557162d2963e82006a3"},
+"status":"unresolvable",
+"reason":"no skill folder named vss-search-archive at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf (the archive had skills/vss-search-archive)"
+}

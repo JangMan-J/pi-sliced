@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/ai-elements",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/ai-elements/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"3f7accb11656967d9df5af4b8f2f3ce5f64730813951c7d7c0efca74bc1e81ac"},
+"status":"unresolvable",
+"reason":"no skill folder named ai-elements at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

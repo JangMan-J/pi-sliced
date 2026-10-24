@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-secret",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-secret/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"d5227243ee64cd932834df999d323c067effc197bb570be319cd11e837659d67"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2861,"own":{"files":1,"bytes":2861},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["encore"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.8 KiB · CLI encore","short":"2.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs encore"]},{"marker":"stub","because":["own folder 2.8 KiB (1 file)","content is the encore it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills/pulumi-neo-handoff",
+"revision":"2517e28e4bc029424e9c9ee48016394296be0f6a",
+"trace":{"path":"traces/pulumi/agent-skills/pulumi-neo-handoff/2517e28e4bc029424e9c9ee48016394296be0f6a/trace-3+judge-7.json","sha256":"9c4e946083c02ddaf99e034c4a9e1419271456a4b24b90417224d923820f7e44"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6528,"own":{"files":1,"bytes":6528},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pulumi"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.4 KiB · CLI pulumi","short":"6.4 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pulumi"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

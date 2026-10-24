@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/awesome-skills/apify-lead-generation",
+"revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"trace":{"path":"traces/apify/awesome-skills/apify-lead-generation/1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813/trace-3+judge-7.json","sha256":"7752018e94d5ca7cd728929ae0efd61aa0f63c87d152e0c359ee43d6f9442dd8"},
+"status":"unresolvable",
+"reason":"no skill folder named apify-lead-generation at 1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813"
+}

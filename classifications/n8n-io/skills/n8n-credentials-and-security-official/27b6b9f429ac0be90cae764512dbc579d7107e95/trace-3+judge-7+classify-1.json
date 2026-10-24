@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/skills/n8n-credentials-and-security-official",
+"revision":"27b6b9f429ac0be90cae764512dbc579d7107e95",
+"trace":{"path":"traces/n8n-io/skills/n8n-credentials-and-security-official/27b6b9f429ac0be90cae764512dbc579d7107e95/trace-3+judge-7.json","sha256":"3704a457d609662c85bc4ed0be393320aa7ecdadbdba338e85ec106941d073d9"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":23208,"own":{"files":5,"bytes":23208},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 23 KiB","short":"23 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"n8n-code-nodes-official","path":"skills/n8n-code-nodes-official"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

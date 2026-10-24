@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"duckdb/duckdb-skills/read-file",
+"revision":"7feda8e01e22bc0886c86123f3884947e36d8c69",
+"trace":{"path":"traces/duckdb/duckdb-skills/read-file/7feda8e01e22bc0886c86123f3884947e36d8c69/trace-3+judge-7.json","sha256":"8f40f697798e2b72969f481f30b0a187e83a4e5a05b40ce2cea26b7f215193c2"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3675,"own":{"files":1,"bytes":3675},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["array_to_string","cell.execution_count","cells","duckdb","file_name"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB · CLI array_to_string, cell.execution_count +3","short":"3.6 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs array_to_string","runs cell.execution_count","runs cells","runs duckdb","runs file_name"]},{"marker":"stub","because":["own folder 3.6 KiB (1 file)","content is the array_to_string, cell.execution_count it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

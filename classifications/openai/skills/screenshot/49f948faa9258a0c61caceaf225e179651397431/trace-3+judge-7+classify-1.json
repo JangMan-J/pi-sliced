@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/screenshot",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/screenshot/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"3bb4bbdff5f826388724a430f632b7bd9cd2c8fc857744d332e5f150d4814973"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":39068,"own":{"files":7,"bytes":39068},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Open","Recording","Screen","This","and","defaults","gnome-screenshot","import","macOS","osascript","powershell","screencapture","scrot","swift","xdotool","your"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 38 KiB · CLI Open, Recording +14","short":"38 KiB · 16 CLI"},
+"heavy":{"heavy":true,"because":["16 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs and","runs defaults","runs gnome-screenshot","runs import","runs macOS","runs Open","runs osascript","runs powershell","runs Recording","runs Screen","runs screencapture","runs scrot","runs swift","runs This","runs xdotool","runs your"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

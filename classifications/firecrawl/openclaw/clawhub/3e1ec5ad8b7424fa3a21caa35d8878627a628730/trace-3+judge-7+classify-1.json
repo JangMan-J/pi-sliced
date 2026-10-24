@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/clawhub",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/clawhub/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"25f1574868d79f3206cf72ee2dab215287d5db85a8c5a0c1105fe86fd5c57018"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1613,"own":{"files":1,"bytes":1613},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["clawhub"],"package":["clawhub"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.6 KiB · CLI clawhub · packages clawhub","short":"1.6 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs clawhub"]},{"marker":"installs-packages","because":["installs clawhub"]},{"marker":"stub","because":["own folder 1.6 KiB (1 file)","content is the clawhub it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

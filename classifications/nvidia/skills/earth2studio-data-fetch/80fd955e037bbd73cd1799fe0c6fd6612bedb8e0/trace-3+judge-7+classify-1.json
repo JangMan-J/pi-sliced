@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/earth2studio-data-fetch",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/earth2studio-data-fetch/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"06be950f5ed6a23eb3e53a9533384ceacb83e753a3823b5d732ed2adf41474cc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8697,"own":{"files":1,"bytes":8697},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["earth2studio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 8.5 KiB · packages earth2studio","short":"8.5 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs earth2studio"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

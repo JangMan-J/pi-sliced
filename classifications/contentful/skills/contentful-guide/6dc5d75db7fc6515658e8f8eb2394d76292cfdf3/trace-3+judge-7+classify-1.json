@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"contentful/skills/contentful-guide",
+"revision":"6dc5d75db7fc6515658e8f8eb2394d76292cfdf3",
+"trace":{"path":"traces/contentful/skills/contentful-guide/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/trace-3+judge-7.json","sha256":"6bffb9185eaf23afff58a247056056d6967727846d16da462a96deac1c9d2f40"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":8895,"own":{"files":4,"bytes":8895},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["contentful"],"credential":[],"network":[]},"summary":"4 files, 8.7 KiB · MCP contentful","short":"8.7 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the contentful MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"contentful-api","path":"skills/contentful-api"},{"name":"contentful-migration","path":"skills/contentful-migration"},{"name":"contentful-nextjs","path":"skills/contentful-nextjs"},{"name":"contentful-personalization","path":"skills/contentful-personalization"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

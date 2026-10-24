@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-agent-skills/sentry-react-setup",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/sentry-agent-skills/sentry-react-setup/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"af65295a3dd9d288ba0c06414b9fb16f90af997c58345beddad52d927a02a27e"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-react-setup at 9f54eb021916a7cff2c04a9f4e4c1f9439f3202c"
+}

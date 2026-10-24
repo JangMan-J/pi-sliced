@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/plugin-bundle-size",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/plugin-bundle-size/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"f4a5c9ee262e6e93062caf4061e291659aa6ca01174c91e87ba7bf049b3a1268"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":19708,"own":{"files":3,"bytes":19708},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@grafana/create-plugin","jq","webpack-bundle-analyzer"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 19 KiB · CLI @grafana/create-plugin, jq +1","short":"19 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @grafana/create-plugin","runs jq","runs webpack-bundle-analyzer"]},{"marker":"unpinned-code","because":["npx @grafana/create-plugin@latest: skills/grafana-plugins/plugin-bundle-size/SKILL.md:137","npx webpack-bundle-analyzer: skills/grafana-plugins/plugin-bundle-size/SKILL.md:343"]}],
+"security":{"fetch-run":["npx @grafana/create-plugin@latest @ skills/grafana-plugins/plugin-bundle-size/SKILL.md:137","npx webpack-bundle-analyzer @ skills/grafana-plugins/plugin-bundle-size/SKILL.md:343"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

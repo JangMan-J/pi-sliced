@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/paidf-orchestration-write-dag",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/paidf-orchestration-write-dag/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"813d86c0ba2ab9ee4dc29ceae395bd8a3f8b18190f1c7470e65658192ddc51c9"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":39599,"own":{"files":2,"bytes":39599},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["kubectl","make"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 39 KiB · CLI kubectl, make","short":"39 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs kubectl","runs make"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

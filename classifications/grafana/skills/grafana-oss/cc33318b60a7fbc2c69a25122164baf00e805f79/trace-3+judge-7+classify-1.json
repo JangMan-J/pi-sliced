@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/grafana-oss",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/grafana-oss/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"b8389e2a13ce44b7581569e469e7b575e76984447ebafa3649697bdae8cd0aa0"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":56009,"own":{"files":9,"bytes":52944},"otherSkills":{"count":1,"files":1,"bytes":3065},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["journalctl","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 55 KiB · +1 other skill · CLI journalctl, jq","short":"55 KiB · +1 skill · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs journalctl","runs jq"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/grafana-cloud/admin"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/grafana-cloud/admin","files":1,"bytes":3065}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

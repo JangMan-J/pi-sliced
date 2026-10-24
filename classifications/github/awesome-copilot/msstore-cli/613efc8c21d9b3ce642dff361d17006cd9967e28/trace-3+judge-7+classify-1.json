@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/msstore-cli",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/msstore-cli/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"bb7d16bb426a446fef6edb28740d0dfbed882cb16fd844c58830bac4b4381d36"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16293,"own":{"files":1,"bytes":16293},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","msstore","winapp","winget"],"package":[],"mcp-server":[],"credential":["CLIENT_SECRET","MSSTORE_CLIENT_SECRET"],"network":["aka.ms","partner.microsoft.com","www.microsoft.com"]},"summary":"1 file, 16 KiB · CLI dotnet, msstore +2 · 2 keys · 3 hosts","short":"16 KiB · 4 CLI · 2 keys · 3 hosts"},
+"heavy":{"heavy":true,"because":["4 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs msstore","runs winapp","runs winget"]},{"marker":"network","because":["fetches from aka.ms","fetches from partner.microsoft.com","fetches from www.microsoft.com"]},{"marker":"credentials","because":["needs CLIENT_SECRET","needs MSSTORE_CLIENT_SECRET"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

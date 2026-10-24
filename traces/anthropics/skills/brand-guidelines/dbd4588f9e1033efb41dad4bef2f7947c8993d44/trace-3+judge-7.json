@@ -1,0 +1,23 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"anthropics/skills/brand-guidelines",
+"source":"anthropics/skills",
+"revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+"skillPath":"skills/brand-guidelines",
+"status":"resolved",
+"totals":{"files":2,"bytes":13580},
+"files":[
+{"path":"skills/brand-guidelines/LICENSE.txt","size":11345,"blob":"4f881c52d1f72f4cfb720e339e2d35c3058d01a9","how":"path","from":1,"line":4},
+{"path":"skills/brand-guidelines/SKILL.md","size":2235,"blob":"47c72c607bdb5dd81bdea5de2b5e4f3992a5fd59","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/brand-guidelines","files":2,"bytes":13580}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/brand-guidelines/LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

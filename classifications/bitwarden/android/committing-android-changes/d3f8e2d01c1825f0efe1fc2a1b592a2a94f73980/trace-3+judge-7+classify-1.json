@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/android/committing-android-changes",
+"revision":"d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980",
+"trace":{"path":"traces/bitwarden/android/committing-android-changes/d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980/trace-3+judge-7.json","sha256":"c89ef1dc8690d31f4c8dd650a5fa144bc89a15383031e54bf1bce840f15a2553"},
+"status":"unresolvable",
+"reason":"no skill folder named committing-android-changes at d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980"
+}

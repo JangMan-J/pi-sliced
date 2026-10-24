@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"larksuite/cli/bad-skill-no-frontmatter",
+"revision":"017b19a793ad71794a02887ede04757f3d82e10d",
+"trace":{"path":"traces/larksuite/cli/bad-skill-no-frontmatter/017b19a793ad71794a02887ede04757f3d82e10d/trace-3+judge-7.json","sha256":"e5807396be1ec43118b4dae05732e5d5067be024f63aa61e0ef05deacc1bb253"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":72,"own":{"files":1,"bytes":72},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 72 B","short":"72 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

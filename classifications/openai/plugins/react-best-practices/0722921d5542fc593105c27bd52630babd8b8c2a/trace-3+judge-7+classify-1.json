@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/react-best-practices",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/react-best-practices/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"70faaf58209fe44732698cb84466ef325e49b1ca414541e08a8fb7d864f44a3e"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":104322,"own":{"files":4,"bytes":104322},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["svgo"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 102 KiB · CLI svgo","short":"102 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs svgo"]},{"marker":"unpinned-code","because":["npx svgo: plugins/vercel/skills/react-best-practices/AGENTS.md:2197"]}],
+"security":{"fetch-run":["npx svgo @ plugins/vercel/skills/react-best-practices/AGENTS.md:2197"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

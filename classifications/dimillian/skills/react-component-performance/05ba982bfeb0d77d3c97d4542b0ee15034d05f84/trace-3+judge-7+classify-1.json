@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dimillian/skills/react-component-performance",
+"revision":"05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+"trace":{"path":"traces/dimillian/skills/react-component-performance/05ba982bfeb0d77d3c97d4542b0ee15034d05f84/trace-3+judge-7.json","sha256":"bd5d033bca0f1fc3283875c13042be76bdd21748f2daddb9e1db483f7d63044a"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7074,"own":{"files":2,"bytes":7074},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.9 KiB","short":"6.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

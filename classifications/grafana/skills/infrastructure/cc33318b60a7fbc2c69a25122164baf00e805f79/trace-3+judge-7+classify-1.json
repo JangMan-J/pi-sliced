@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/infrastructure",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/infrastructure/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"47480cf310e72e2976e9fee4ed4dd4b549b7d49717502e69284e98d3d7ae5929"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":9973,"own":{"files":3,"bytes":9973},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["helm","jq","kubectl","systemctl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 9.7 KiB · CLI helm, jq +2","short":"9.7 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs helm","runs jq","runs kubectl","runs systemctl"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

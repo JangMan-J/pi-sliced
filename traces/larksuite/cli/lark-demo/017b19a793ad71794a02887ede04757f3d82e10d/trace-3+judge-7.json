@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"larksuite/cli/lark-demo",
+"source":"larksuite/cli",
+"revision":"017b19a793ad71794a02887ede04757f3d82e10d",
+"skillPath":"internal/qualitygate/skillscan/testdata/skills/lark-demo",
+"status":"resolved",
+"totals":{"files":1,"bytes":210},
+"files":[
+{"path":"internal/qualitygate/skillscan/testdata/skills/lark-demo/SKILL.md","size":210,"blob":"c066ad7dc404e78427e659f7976d5a7a9faff130","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"lark-cli","at":[[0,8],[0,9]]},
+{"kind":"cli","name":"other-tool","at":[[0,12]]}
+],
+"regions":[
+{"kind":"own","path":"internal/qualitygate/skillscan/testdata/skills/lark-demo","files":1,"bytes":210}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx other-tool","at":[[0,12]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

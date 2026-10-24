@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openshift/agentic-skills/cluster-update-advisor",
+"revision":"da1431b482a4f438723f95e5512a482e9d01e5cc",
+"trace":{"path":"traces/openshift/agentic-skills/cluster-update-advisor/da1431b482a4f438723f95e5512a482e9d01e5cc/trace-3+judge-7.json","sha256":"70d7d9faa6fbcda2ad3ff8f854514fd359d84718bd6db8a778c9a301540b9171"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6434,"own":{"files":1,"bytes":6434},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.3 KiB","short":"6.3 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"openshift-docs","path":"documentation/openshift-docs"},{"name":"product-lifecycle","path":"cluster-update/product-lifecycle"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

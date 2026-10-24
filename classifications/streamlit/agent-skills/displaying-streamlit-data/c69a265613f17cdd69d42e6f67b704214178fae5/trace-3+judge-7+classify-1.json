@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/agent-skills/displaying-streamlit-data",
+"revision":"c69a265613f17cdd69d42e6f67b704214178fae5",
+"trace":{"path":"traces/streamlit/agent-skills/displaying-streamlit-data/c69a265613f17cdd69d42e6f67b704214178fae5/trace-3+judge-7.json","sha256":"d3cae44fd2f8cfdf7a1f7a864375805d5f4bace13b4b815469dcbc348e02597a"},
+"status":"unresolvable",
+"reason":"no skill folder named displaying-streamlit-data at c69a265613f17cdd69d42e6f67b704214178fae5"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"antfu/skills/vite",
+"revision":"feb0f3aba6566426f12230e7fc7a10d97c1293bb",
+"trace":{"path":"traces/antfu/skills/vite/feb0f3aba6566426f12230e7fc7a10d97c1293bb/trace-3+judge-7.json","sha256":"609736c102277f26a78bbc1965b9113eff8469f6a289768160ea957bbe65083c"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":31847,"own":{"files":7,"bytes":31847},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vite"],"package":["vite"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 31 KiB · CLI vite · packages vite","short":"31 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs vite"]},{"marker":"installs-packages","because":["installs vite"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

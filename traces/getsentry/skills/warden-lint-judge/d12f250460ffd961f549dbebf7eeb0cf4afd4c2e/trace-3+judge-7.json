@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/skills/warden-lint-judge",
+"source":"getsentry/skills",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named warden-lint-judge at d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

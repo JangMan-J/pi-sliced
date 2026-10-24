@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/ai/metronome",
+"revision":"1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e",
+"trace":{"path":"traces/stripe/ai/metronome/1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e/trace-3+judge-7.json","sha256":"99c3dd83e81d72d79ef364d55ca2dd62a3900494bbb454d6249f31b5570f04d2"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12986,"own":{"files":1,"bytes":12986},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["api.metronome.com","docs.metronome.com"]},"summary":"1 file, 13 KiB · 2 hosts","short":"13 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from api.metronome.com","fetches from docs.metronome.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

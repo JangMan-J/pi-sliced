@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"qdrant/skills/qdrant-scaling-qps",
+"revision":"d2127f6e1b9c6611fff10fe939c6fb17761aaec2",
+"trace":{"path":"traces/qdrant/skills/qdrant-scaling-qps/d2127f6e1b9c6611fff10fe939c6fb17761aaec2/trace-3+judge-7.json","sha256":"d3082b98b066a3065138f8ec6d7fdf95dff03c28bf33c22fe7d43bd24f60ddb5"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7500,"own":{"files":1,"bytes":4223},"otherSkills":{"count":1,"files":1,"bytes":3277},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["skills.qdrant.tech"]},"summary":"2 files, 7.3 KiB · +1 other skill · 1 host","short":"7.3 KiB · +1 skill · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from skills.qdrant.tech"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/qdrant-scaling/scaling-data-volume/horizontal-scaling"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/qdrant-scaling/scaling-data-volume/horizontal-scaling","files":1,"bytes":3277}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

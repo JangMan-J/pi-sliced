@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/wycheproof",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/wycheproof/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"26fad5d4f0c3b535f0cab2a8837640661000086f173721f05585e33e576dac74"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20675,"own":{"files":1,"bytes":20675},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aes_gcm_test.json"],"package":[],"mcp-server":[],"credential":[],"network":["github.com","raw.githubusercontent.com"]},"summary":"1 file, 20 KiB · CLI aes_gcm_test.json · 2 hosts","short":"20 KiB · 1 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aes_gcm_test.json"]},{"marker":"network","because":["fetches from github.com","fetches from raw.githubusercontent.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

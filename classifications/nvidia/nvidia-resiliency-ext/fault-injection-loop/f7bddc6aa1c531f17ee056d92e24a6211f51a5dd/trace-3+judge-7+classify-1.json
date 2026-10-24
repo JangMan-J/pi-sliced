@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nvidia-resiliency-ext/fault-injection-loop",
+"revision":"f7bddc6aa1c531f17ee056d92e24a6211f51a5dd",
+"trace":{"path":"traces/nvidia/nvidia-resiliency-ext/fault-injection-loop/f7bddc6aa1c531f17ee056d92e24a6211f51a5dd/trace-3+judge-7.json","sha256":"6a12e9b4668faa9f572202aa31c60695ff292ea09f01ca35d98e58d45b546e5e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20145,"own":{"files":1,"bytes":20145},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sbatch"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 20 KiB · CLI sbatch","short":"20 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs sbatch"]}],
+"security":{},
+"companions":{"named":[{"name":"fr-analysis","path":"src/nvidia_resiliency_ext/skills/nvrx-attr/fr-analysis"},{"name":"log-analysis","path":"src/nvidia_resiliency_ext/skills/nvrx-attr/log-analysis"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

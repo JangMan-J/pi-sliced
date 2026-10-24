@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-cookbooks/creating-financial-models",
+"revision":"a162e0184e71b60290808a43961a6cbc8060123c",
+"trace":{"path":"traces/anthropics/claude-cookbooks/creating-financial-models/a162e0184e71b60290808a43961a6cbc8060123c/trace-3+judge-7.json","sha256":"1e6ae3f7053d01e96c111f94c798951b4e0bb4b031d1332525ee0ba8c2763666"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":33863,"own":{"files":3,"bytes":33863},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["numpy","pandas"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 33 KiB · packages numpy +1","short":"33 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs numpy","installs pandas"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

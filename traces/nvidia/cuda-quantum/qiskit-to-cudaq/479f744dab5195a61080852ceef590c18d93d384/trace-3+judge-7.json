@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/cuda-quantum/qiskit-to-cudaq",
+"source":"nvidia/cuda-quantum",
+"revision":"479f744dab5195a61080852ceef590c18d93d384",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named qiskit-to-cudaq at 479f744dab5195a61080852ceef590c18d93d384",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

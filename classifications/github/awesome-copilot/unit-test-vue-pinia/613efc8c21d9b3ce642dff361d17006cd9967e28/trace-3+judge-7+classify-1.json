@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/unit-test-vue-pinia",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/unit-test-vue-pinia/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"e7eeb72740c64803d5983dac9cf57d88888d4d9a421697e2cc9f6a53e8ba194f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8925,"own":{"files":2,"bytes":8925},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["test-utils.vuejs.org"]},"summary":"2 files, 8.7 KiB · 1 host","short":"8.7 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from test-utils.vuejs.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

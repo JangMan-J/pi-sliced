@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/ai/connect-required-verification-information",
+"revision":"1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e",
+"trace":{"path":"traces/stripe/ai/connect-required-verification-information/1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e/trace-3+judge-7.json","sha256":"06b5e7bb0279ca1ac6f4fa6ba60bd7d02000fe755459bc73c591558fe99fdc90"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":28226,"own":{"files":1,"bytes":28226},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["docs.stripe.com"]},"summary":"1 file, 28 KiB · 1 host","short":"28 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from docs.stripe.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

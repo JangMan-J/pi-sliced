@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/react-19-plugin-migration",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/react-19-plugin-migration/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"151767b9646c9801f120d3668f168dd8ca641f0b2ef861a64dc363c73a2500c5"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":16881,"own":{"files":2,"bytes":16881},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@grafana/create-plugin","@grafana/react-detect","create-plugin","eslint","jq"],"package":["2","@grafana/i18n","@openfeature/core","@openfeature/web-sdk","string-replace-loader"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 16 KiB · CLI @grafana/create-plugin, @grafana/react-detect +3 · packages 2 +4","short":"16 KiB · 5 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @grafana/create-plugin","runs @grafana/react-detect","runs create-plugin","runs eslint","runs jq"]},{"marker":"installs-packages","because":["installs @grafana/i18n","installs @openfeature/core","installs @openfeature/web-sdk","installs 2","installs string-replace-loader"]},{"marker":"unpinned-code","because":["npx @grafana/create-plugin@latest: skills/grafana-plugins/react-19-plugin-migration/SKILL.md:72, skills/grafana-plugins/react-19-plugin-migration/SKILL.md:87, skills/grafana-plugins/react-19-plugin-migration/SKILL.md:193","npx @grafana/react-detect@latest: skills/grafana-plugins/react-19-plugin-migration/SKILL.md:45","npx eslint: skills/grafana-plugins/react-19-plugin-migration/SKILL.md:128"]}],
+"security":{"fetch-run":["npx @grafana/create-plugin@latest @ skills/grafana-plugins/react-19-plugin-migration/SKILL.md:72, skills/grafana-plugins/react-19-plugin-migration/SKILL.md:87, skills/grafana-plugins/react-19-plugin-migration/SKILL.md:193","npx @grafana/react-detect@latest @ skills/grafana-plugins/react-19-plugin-migration/SKILL.md:45","npx eslint @ skills/grafana-plugins/react-19-plugin-migration/SKILL.md:128"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/dart-skills-lint-integration",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/dart-skills-lint-integration/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"db5e702ec1abebec280a37447950fdb1afc6eac088ff0eba09b54fb3bc997241"},
+"status":"unresolvable",
+"reason":"no skill folder named dart-skills-lint-integration at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

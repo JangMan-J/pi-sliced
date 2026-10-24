@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/agent-toolkit/sanity-best-practices",
+"revision":"feb9d38412426b0dfca7e6f21aeecdad8507c170",
+"trace":{"path":"traces/sanity-io/agent-toolkit/sanity-best-practices/feb9d38412426b0dfca7e6f21aeecdad8507c170/trace-3+judge-7.json","sha256":"bf774a1b791e873d65cb141cd2b0ee4a9a759c01fbb1628c468660933bbb479c"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":89399,"own":{"files":10,"bytes":89399},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sanity"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"10 files, 87 KiB · CLI sanity","short":"87 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs sanity"]},{"marker":"unpinned-code","because":["npx sanity: skills/sanity-best-practices/references/nextjs.md:44, skills/sanity-best-practices/references/project-structure.md:58, skills/sanity-best-practices/references/typegen.md:32"]}],
+"security":{"fetch-run":["npx sanity @ skills/sanity-best-practices/references/nextjs.md:44, skills/sanity-best-practices/references/project-structure.md:58, skills/sanity-best-practices/references/typegen.md:32 +3"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

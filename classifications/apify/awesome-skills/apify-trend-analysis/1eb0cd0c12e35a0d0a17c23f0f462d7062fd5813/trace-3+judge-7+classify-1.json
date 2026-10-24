@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/awesome-skills/apify-trend-analysis",
+"revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"trace":{"path":"traces/apify/awesome-skills/apify-trend-analysis/1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813/trace-3+judge-7.json","sha256":"fd9bc86e0cdce834b8ca1829abaa82c62eba234edd390884b3602ed4ea1dc513"},
+"status":"unresolvable",
+"reason":"no skill folder named apify-trend-analysis at 1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813"
+}

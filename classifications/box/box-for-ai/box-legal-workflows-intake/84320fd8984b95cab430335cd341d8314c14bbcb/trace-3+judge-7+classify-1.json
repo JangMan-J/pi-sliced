@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"box/box-for-ai/box-legal-workflows-intake",
+"revision":"84320fd8984b95cab430335cd341d8314c14bbcb",
+"trace":{"path":"traces/box/box-for-ai/box-legal-workflows-intake/84320fd8984b95cab430335cd341d8314c14bbcb/trace-3+judge-7.json","sha256":"799d20ee47e14e4f7acbc137148984b933f8e692164f7e60ce48c9d9402d3bff"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5375,"own":{"files":1,"bytes":5375},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.2 KiB · CLI skills","short":"5.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/box-legal-workflows-intake/SKILL.md:9, skills/box-legal-workflows-intake/SKILL.md:10"]}],
+"security":{"fetch-run":["npx skills @ skills/box-legal-workflows-intake/SKILL.md:9, skills/box-legal-workflows-intake/SKILL.md:10"],"skill-fetch":["npx skills add @ skills/box-legal-workflows-intake/SKILL.md:9, skills/box-legal-workflows-intake/SKILL.md:10"]},
+"companions":{"named":[{"name":"box","path":"skills/box"},{"name":"box-legal-workflows","path":"skills/box-legal-workflows"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

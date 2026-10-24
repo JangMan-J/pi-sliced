@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/setting-up-cloudtrail-multi-region",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/setting-up-cloudtrail-multi-region/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"e51a54f10921178ba8fe1c5ad8617c96a5f31a587f561fa8ee1f13490d4666c3"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":19776,"own":{"files":2,"bytes":19776},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 19 KiB · CLI aws","short":"19 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

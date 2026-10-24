@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"addyosmani/agent-skills/source-driven-development",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"trace":{"path":"traces/addyosmani/agent-skills/source-driven-development/aeac41d4d005999432bb7312f7ff06383a91d59d/trace-3+judge-7.json","sha256":"b8feb64971c0b45bebde6c218edbb8901bcf9c53e5244a250ba9d70418c24035"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10038,"own":{"files":1,"bytes":10038},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.8 KiB","short":"9.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/source-driven-development/SKILL.md:110"]}],
+"security":{"injection":["ignore previous instructions @ skills/source-driven-development/SKILL.md:110"]},
+"companions":{"named":[{"name":"security-and-hardening","path":"skills/security-and-hardening"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

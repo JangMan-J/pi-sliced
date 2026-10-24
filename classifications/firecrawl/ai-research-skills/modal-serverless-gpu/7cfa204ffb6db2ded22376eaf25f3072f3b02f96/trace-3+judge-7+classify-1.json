@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/modal-serverless-gpu",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/modal-serverless-gpu/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"8c5687c574f4cef64bd974bfc7a9fcc329b7828a9453a0cc1493b96789700be5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":29974,"own":{"files":3,"bytes":29974},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["modal","python3.11"],"package":["modal","pip"],"mcp-server":[],"credential":["HF_TOKEN","MODAL_TOKEN_SECRET"],"network":[]},"summary":"3 files, 29 KiB · CLI modal, python3.11 · packages modal +1 · 2 keys","short":"29 KiB · 2 CLI · 2 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs modal","runs python3.11"]},{"marker":"installs-packages","because":["installs modal","installs pip"]},{"marker":"credentials","because":["needs HF_TOKEN","needs MODAL_TOKEN_SECRET"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

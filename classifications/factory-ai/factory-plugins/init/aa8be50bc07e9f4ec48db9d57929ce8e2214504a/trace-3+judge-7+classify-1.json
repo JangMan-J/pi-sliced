@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"factory-ai/factory-plugins/init",
+"revision":"aa8be50bc07e9f4ec48db9d57929ce8e2214504a",
+"trace":{"path":"traces/factory-ai/factory-plugins/init/aa8be50bc07e9f4ec48db9d57929ce8e2214504a/trace-3+judge-7.json","sha256":"c0f25f2d4291820a552a02e9f4663ad89e4ec777170cc90ddcbb9e37304958ec"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1679,"own":{"files":1,"bytes":1679},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.6 KiB","short":"1.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

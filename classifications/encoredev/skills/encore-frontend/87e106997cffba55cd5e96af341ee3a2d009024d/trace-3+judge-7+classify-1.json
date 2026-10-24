@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-frontend",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-frontend/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"f3c12cd3a3d82b5c77112631225df160154ad0ae98bb61b73951dc1434ea9829"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6873,"own":{"files":1,"bytes":6873},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["encore"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.7 KiB · CLI encore","short":"6.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs encore"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

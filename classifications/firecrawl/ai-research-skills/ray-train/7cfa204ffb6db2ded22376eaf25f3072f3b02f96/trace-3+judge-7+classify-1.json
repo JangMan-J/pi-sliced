@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/ray-train",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/ray-train/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"e84ce019828c930b7150ab9c720e3a1111cec7e4dc344182c134ea3001923cfb"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":24222,"own":{"files":2,"bytes":24222},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","helm","ip","kubectl","module","ray","sbatch","ssh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 24 KiB · CLI aws, helm +6","short":"24 KiB · 8 CLI"},
+"heavy":{"heavy":true,"because":["8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs helm","runs ip","runs kubectl","runs module","runs ray","runs sbatch","runs ssh"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

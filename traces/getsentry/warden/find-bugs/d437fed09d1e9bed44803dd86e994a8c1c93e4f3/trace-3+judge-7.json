@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/warden/find-bugs",
+"source":"getsentry/warden",
+"revision":"d437fed09d1e9bed44803dd86e994a8c1c93e4f3",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named find-bugs at d437fed09d1e9bed44803dd86e994a8c1c93e4f3",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

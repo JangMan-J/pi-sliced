@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/azure-devops",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/azure-devops/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"2e736d038270a0e50156cdfb11a044ce707bcafc66cc1734740326b850be4d9f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3914,"own":{"files":1,"bytes":3914},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Invoke-RestMethod"],"package":[],"mcp-server":["devops"],"credential":["AZURE_DEVOPS_TOKEN"],"network":["dev.azure.com"]},"summary":"1 file, 3.8 KiB · MCP devops · CLI Invoke-RestMethod · 1 key · 1 host","short":"3.8 KiB · 1 CLI · 1 key · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs Invoke-RestMethod"]},{"marker":"network","because":["fetches from dev.azure.com"]},{"marker":"credentials","because":["needs AZURE_DEVOPS_TOKEN"]},{"marker":"mcp-server","because":["uses the devops MCP server"]},{"marker":"stub","because":["own folder 3.8 KiB (1 file)","content is the Invoke-RestMethod, devops it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

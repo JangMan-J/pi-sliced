@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dbt-labs/dbt-agent-skills/using-dbt-for-analytics-engineering",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"trace":{"path":"traces/dbt-labs/dbt-agent-skills/using-dbt-for-analytics-engineering/ef5710860f199897a304eabc8cd5c1973beb60ae/trace-3+judge-7.json","sha256":"75802538170c73d05d11d8b53d5954eef94234b2e3ffc3f9a40e3222eafd3aea"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":40735,"own":{"files":9,"bytes":40735},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Encountered","Error","Parsing","Syntax","actual","customers.yml","dbt","stg_locations.yml"],"package":[],"mcp-server":["the","with"],"credential":[],"network":[]},"summary":"9 files, 40 KiB · MCP the, with · CLI Encountered, Error +6","short":"40 KiB · 8 CLI · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs actual","runs customers.yml","runs dbt","runs Encountered","runs Error","runs Parsing","runs stg_locations.yml","runs Syntax"]},{"marker":"mcp-server","because":["uses the the MCP server","uses the with MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"answering-natural-language-questions-with-dbt","path":"skills/dbt/skills/answering-natural-language-questions-with-dbt"},{"name":"working-with-dbt-mesh","path":"skills/dbt/skills/working-with-dbt-mesh"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

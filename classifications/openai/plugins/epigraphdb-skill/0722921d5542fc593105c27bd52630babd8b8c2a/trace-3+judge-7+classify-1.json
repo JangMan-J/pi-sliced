@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/epigraphdb-skill",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/epigraphdb-skill/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"f8b348442d3421daf76a10a60dd3c54b913f4e2a5b41737ae26bea007bed7d8a"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":13037,"own":{"files":2,"bytes":13037},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["requests"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 13 KiB · packages requests","short":"13 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs requests"]}],
+"security":{},
+"companions":{"named":[{"name":"builds","path":"plugins/circleci/skills/builds"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

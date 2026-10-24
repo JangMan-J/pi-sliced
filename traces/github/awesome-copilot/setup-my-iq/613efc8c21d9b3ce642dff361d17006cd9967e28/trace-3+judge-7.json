@@ -1,0 +1,35 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"github/awesome-copilot/setup-my-iq",
+"source":"github/awesome-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"skillPath":"skills/setup-my-iq",
+"status":"resolved",
+"totals":{"files":8,"bytes":49071},
+"files":[
+{"path":"skills/setup-my-iq/SKILL.md","size":34097,"blob":"df6427627ff1a4a349640c36e3f3e50c6831747c","how":"root"},
+{"path":"skills/setup-my-iq/assets/templates/AGENTS.md","size":4210,"blob":"c602bd024b56a1221b1796f233e123bcc7caca2d","how":"path","from":0,"line":503},
+{"path":"skills/setup-my-iq/assets/templates/communication-style.md","size":2309,"blob":"0c72b7186400f3c9a6504441092441eb7fa95527","how":"path","from":0,"line":313},
+{"path":"skills/setup-my-iq/assets/templates/identity.md","size":518,"blob":"c7fb1f9041f7edce2689053939085fe7f419f97a","how":"path","from":0,"line":194},
+{"path":"skills/setup-my-iq/assets/templates/preferences-and-constraints.md","size":2923,"blob":"eafe51405f509432e2181c5c4811d7d678ef15d2","how":"path","from":0,"line":368},
+{"path":"skills/setup-my-iq/assets/templates/role-and-responsibilities.md","size":974,"blob":"3dd8ea9e7433192fdaa95507514617d483e1fd17","how":"path","from":0,"line":222},
+{"path":"skills/setup-my-iq/assets/templates/team.md","size":942,"blob":"d82fd0ddf0d7ed0afe1f8d4c92cd7d3d72cb475f","how":"path","from":0,"line":247},
+{"path":"skills/setup-my-iq/assets/templates/tools-systems-and-config.md","size":3098,"blob":"491146e5f83ba5db838cf21dc32b0e877e697214","how":"path","from":0,"line":273}
+],
+"outside":[
+{"kind":"cli","name":"Get-ItemPropertyValue","at":[[0,463]]},
+{"kind":"cli","name":"New-ItemProperty","at":[[0,474]]}
+],
+"regions":[
+{"kind":"own","path":"skills/setup-my-iq","files":8,"bytes":49071}
+],
+"signals":[
+{"kind":"injection","detail":"ignore previous instructions","at":[[1,68]]},
+{"kind":"persist-write","detail":"skill folder","at":[[0,483],[0,494]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

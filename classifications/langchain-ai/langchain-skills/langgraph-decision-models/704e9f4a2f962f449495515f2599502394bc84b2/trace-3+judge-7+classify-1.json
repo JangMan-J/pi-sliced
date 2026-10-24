@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langchain-skills/langgraph-decision-models",
+"revision":"704e9f4a2f962f449495515f2599502394bc84b2",
+"trace":{"path":"traces/langchain-ai/langchain-skills/langgraph-decision-models/704e9f4a2f962f449495515f2599502394bc84b2/trace-3+judge-7.json","sha256":"bc14bd122d7784423dd29816bf53694e9e87a36d1a32cc427fcda90e584d8d1f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15642,"own":{"files":2,"bytes":15642},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["langchain-typesafe"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB · packages langchain-typesafe","short":"15 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs langchain-typesafe"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

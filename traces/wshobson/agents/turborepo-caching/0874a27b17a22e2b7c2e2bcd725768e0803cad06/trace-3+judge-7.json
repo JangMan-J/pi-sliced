@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/turborepo-caching",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/developer-essentials/skills/turborepo-caching",
+"status":"resolved",
+"totals":{"files":1,"bytes":8201},
+"files":[
+{"path":"plugins/developer-essentials/skills/turborepo-caching/SKILL.md","size":8201,"blob":"d9d7899cf1faeb226727ceff0676e896028acd51","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"turbo","at":[[0,112],[0,115],[0,118],[0,233],[0,240],[0,243],[0,246],[0,249],[0,252],[0,255],[0,258],[0,261],[0,338],[0,341],[0,344],[0,347],[0,350],[0,353]]},
+{"kind":"credential","name":"TURBO_TOKEN","at":[[0,121]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/developer-essentials/skills/turborepo-caching","files":1,"bytes":8201}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx turbo","at":[[0,112],[0,115]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

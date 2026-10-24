@@ -2,6 +2,10 @@
 // resolved, or unresolvable with its reason. A Trace still waiting on judgements is not stored; its
 // questions are written out for a judge round instead.
 //
+// Traces are written to a staging tree outside tracked paths (.pad/catalogue/staging/traces/…), so the
+// working tree stays consistent while shards run; `tools/catalogue/publish.ts` moves them into traces/ and
+// writes their Classifications in one step.
+//
 //   node tools/catalogue/trace-all.ts [--shard k/n] [--only <id substring>] [--ids <file>] [--questions <out.jsonl>]
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -20,6 +24,7 @@ const only = opt("--only");
 const idsFile = opt("--ids");
 const qOut = opt("--questions") ?? join(ROOT, ".pad/catalogue/questions", `${TRACER}+${JUDGE}`, `shard-${k}-of-${n}.jsonl`);
 const ids = idsFile ? new Set(readFileSync(idsFile, "utf8").split("\n").filter(Boolean)) : null;
+const STAGE = join(ROOT, ".pad/catalogue/staging");
 
 interface Resolved {
   id: string;
@@ -72,7 +77,11 @@ for (const c of todo) {
       continue;
     }
     if (t.status === "unresolvable") stats.unresolvable++;
-    if (writeTrace(ROOT, t) === "written") stats.stored++;
+    if (existsSync(tracePath(ROOT, t))) {
+      stats.unchanged++; // already published
+      continue;
+    }
+    if (writeTrace(STAGE, t) === "written") stats.stored++;
     else stats.unchanged++;
   } catch (e) {
     stats.failed++;
@@ -84,5 +93,3 @@ console.log(
   `shard ${k}/${n}: ${todo.length} Candidates in ${((Date.now() - t0) / 1000).toFixed(0)} s: ${stats.stored} stored, ${stats.unchanged} unchanged, ` +
     `${stats.unresolvable} unresolvable, ${stats.pending} pending (${questions.size} questions), ${stats.failed} failed`,
 );
-void existsSync;
-void tracePath;

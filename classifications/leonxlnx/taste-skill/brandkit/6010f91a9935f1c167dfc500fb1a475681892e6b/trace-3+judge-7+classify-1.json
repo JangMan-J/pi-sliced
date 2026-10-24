@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/brandkit",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/brandkit/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"d5922afd8503e08a9a89fd2ca5fa12bc5e8f8d773d36fc254aec46b223420124"},
+"status":"unresolvable",
+"reason":"no skill folder named brandkit at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/brandkit)"
+}

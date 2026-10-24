@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nvshmem-collect-performance-data",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nvshmem-collect-performance-data/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"2fdb20c53c9386acb049660b4ab478f03b6e91bb78b61d9ce491078c7cc244da"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":43356,"own":{"files":4,"bytes":43356},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["last_status","lscpu","prefix_arg_set","shmem_put_latency"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 42 KiB · CLI last_status, lscpu +2","short":"42 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs last_status","runs lscpu","runs prefix_arg_set","runs shmem_put_latency"]}],
+"security":{},
+"companions":{"named":[{"name":"nvshmem-select-remote-transport","path":"skills/nvshmem-select-remote-transport"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-browser/next",
+"revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"trace":{"path":"traces/vercel-labs/agent-browser/next/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/trace-3+judge-7.json","sha256":"0e7269ff9d4d5dd9305ecc2196ee8b69bef1322d6dfd766272378eb3f15d5f16"},
+"status":"unresolvable",
+"reason":"no skill folder named next at 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb"
+}

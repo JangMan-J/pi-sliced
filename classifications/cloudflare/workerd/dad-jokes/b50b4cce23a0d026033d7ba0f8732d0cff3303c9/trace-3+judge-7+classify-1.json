@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/workerd/dad-jokes",
+"revision":"b50b4cce23a0d026033d7ba0f8732d0cff3303c9",
+"trace":{"path":"traces/cloudflare/workerd/dad-jokes/b50b4cce23a0d026033d7ba0f8732d0cff3303c9/trace-3+judge-7.json","sha256":"a7d717efebe2bed44fdd821fcc8ecb7cac4436bc950e640d4419f79d953926ef"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2821,"own":{"files":1,"bytes":2821},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.8 KiB","short":"2.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

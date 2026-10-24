@@ -1,0 +1,51 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"deepgram/skills/cli",
+"source":"deepgram/skills",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"skillPath":"skills/cli",
+"status":"resolved",
+"totals":{"files":1,"bytes":20172},
+"files":[
+{"path":"skills/cli/SKILL.md","size":20172,"blob":"aed6f6aaefdaebfc1fc034629f6840d1581d33dc","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"deepctl","at":[[0,32]]},
+{"kind":"cli","name":"dg","at":[[0,22],[0,50],[0,66],[0,92],[0,93],[0,94],[0,97],[0,101],[0,102],[0,103],[0,106],[0,109],[0,110],[0,111],[0,112],[0,113],[0,114],[0,117],[0,118],[0,119],[0,122],[0,143],[0,144],[0,145],[0,152],[0,162],[0,167],[0,173]]},
+{"kind":"cli","name":"ffmpeg","at":[[0,97]]},
+{"kind":"cli","name":"iex","at":[[0,35]]},
+{"kind":"cli","name":"iwr","at":[[0,35]]},
+{"kind":"cli","name":"jq","at":[[0,94],[0,122]]},
+{"kind":"cli","name":"skills","at":[[0,130],[0,136],[0,181]]},
+{"kind":"credential","name":"DEEPGRAM_API_KEY","at":[[0,49],[0,150]]},
+{"kind":"network","name":"deepgram.com","at":[[0,30],[0,35]]},
+{"kind":"package","name":"deepctl","at":[[0,31],[0,37]]},
+{"kind":"package","name":"deepgram","at":[[0,39]]},
+{"kind":"package","name":"deepgram/tap/deepgram","at":[[0,29],[0,39]]}
+],
+"regions":[
+{"kind":"own","path":"skills/cli","files":1,"bytes":20172}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,130],[0,136],[0,181]]},
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,30],[0,35]]},
+{"kind":"fetch-run","detail":"uvx deepctl","at":[[0,32]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,130],[0,136],[0,181]]}
+],
+"namedSkills":[
+{"name":"api","path":"skills/api","at":[[0,20],[0,76],[0,132],[0,179]]},
+{"name":"docs","path":"skills/docs","at":[[0,132]]},
+{"name":"examples","path":"skills/examples","at":[[0,182]]},
+{"name":"recipes","path":"skills/recipes","at":[[0,182]]},
+{"name":"setup-mcp","path":"skills/setup-mcp","at":[[0,132],[0,156],[0,177]]},
+{"name":"speech-to-text","path":"skills/speech-to-text","at":[[0,170],[0,180]]},
+{"name":"starters","path":"skills/starters","at":[[0,132],[0,178]]},
+{"name":"text-intelligence","path":"skills/text-intelligence","at":[[0,140]]},
+{"name":"text-to-speech","path":"skills/text-to-speech","at":[[0,140],[0,170],[0,180]]},
+{"name":"voice-agent","path":"skills/voice-agent","at":[[0,140],[0,180]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

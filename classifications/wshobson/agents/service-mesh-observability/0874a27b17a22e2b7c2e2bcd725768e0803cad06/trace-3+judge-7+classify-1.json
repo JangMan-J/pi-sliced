@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/service-mesh-observability",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/service-mesh-observability/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"41a1722335a2fe44fb586235ed921f52cdb63cc3cc9daec11b5673e82b87fee9"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10548,"own":{"files":2,"bytes":10548},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["kubectl","linkerd"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 10 KiB · CLI kubectl, linkerd","short":"10 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs kubectl","runs linkerd"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

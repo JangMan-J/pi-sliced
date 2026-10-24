@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/litert-runtime",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"device-ai/litert/litert-runtime",
+"status":"resolved",
+"totals":{"files":3,"bytes":59103},
+"files":[
+{"path":"device-ai/litert/litert-runtime/SKILL.md","size":18951,"blob":"3148fc134939fa13b2eff8c4ee4dfa0597192448","how":"root"},
+{"path":"device-ai/litert/litert-runtime/references/android/google/play/on-device-ai.md","size":37695,"blob":"f781d3ba414b4dcff5ba435e0597a3a000b4d01c","how":"link","from":0,"line":66},
+{"path":"device-ai/litert/litert-runtime/references/verify.md","size":2457,"blob":"b9272f37f462b9b12142f01758de642531bb2515","how":"link","from":0,"line":330}
+],
+"outside":[
+{"kind":"network","name":"developer.android.com","at":[[1,56],[1,133],[1,261],[1,293],[1,485]]},
+{"kind":"network","name":"github.com","at":[[1,64]]}
+],
+"regions":[
+{"kind":"own","path":"device-ai/litert/litert-runtime","files":3,"bytes":59103}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-skills/azd-deployment",
+"revision":"2130750147dee0311215099ddf36647ba1e0f006",
+"trace":{"path":"traces/microsoft/agent-skills/azd-deployment/2130750147dee0311215099ddf36647ba1e0f006/trace-3+judge-7.json","sha256":"4887d6c4be222263f289a6299bdafe9611c84c49821d6ffaf573bd8743d1e6a1"},
+"status":"unresolvable",
+"reason":"no skill folder named azd-deployment at 2130750147dee0311215099ddf36647ba1e0f006"
+}

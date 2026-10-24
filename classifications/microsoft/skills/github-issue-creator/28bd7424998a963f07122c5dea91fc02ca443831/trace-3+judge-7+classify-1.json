@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/github-issue-creator",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/github-issue-creator/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"bd8d065be98565fca7ef75c0e70223d86532e23bb7585603f0f75b1bb870da47"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3640,"own":{"files":1,"bytes":3640},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB","short":"3.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

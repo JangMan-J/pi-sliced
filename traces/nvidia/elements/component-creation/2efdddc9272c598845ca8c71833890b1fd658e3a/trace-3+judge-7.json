@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/elements/component-creation",
+"source":"nvidia/elements",
+"revision":"2efdddc9272c598845ca8c71833890b1fd658e3a",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named component-creation at 2efdddc9272c598845ca8c71833890b1fd658e3a",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

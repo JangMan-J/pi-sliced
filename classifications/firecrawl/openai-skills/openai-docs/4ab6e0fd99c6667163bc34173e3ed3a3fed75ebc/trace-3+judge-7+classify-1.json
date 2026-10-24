@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openai-skills/openai-docs",
+"revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+"trace":{"path":"traces/firecrawl/openai-skills/openai-docs/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc/trace-3+judge-7.json","sha256":"c618ebc4b134da4fd24c007b84a69937ebc0fee6e925723a1c2f4147495ef2bf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3446,"own":{"files":1,"bytes":3446},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["codex"],"package":[],"mcp-server":["if"],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB · MCP if · CLI codex","short":"3.4 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs codex"]},{"marker":"mcp-server","because":["uses the if MCP server"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the codex, if it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

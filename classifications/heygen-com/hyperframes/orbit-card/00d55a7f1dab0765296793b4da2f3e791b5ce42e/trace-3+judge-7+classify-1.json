@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"heygen-com/hyperframes/orbit-card",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"trace":{"path":"traces/heygen-com/hyperframes/orbit-card/00d55a7f1dab0765296793b4da2f3e791b5ce42e/trace-3+judge-7.json","sha256":"cc6261801a063da56a0bb091a760a1e1fc7b8ef679c1445468a05628abdb5a8a"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":1483049,"own":{"files":12,"bytes":1483049},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":2,"images":0,"media":0,"other":0,"bytes":222580},"outside":{"cli":["hyperframes"],"package":[],"mcp-server":[],"credential":[],"network":["www.w3.org"]},"summary":"12 files, 1.4 MiB · 2 fonts · CLI hyperframes · 1 host","short":"1.4 MiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["files total 1.4 MiB (> 1 MiB)","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs hyperframes"]},{"marker":"network","because":["fetches from www.w3.org"]},{"marker":"unpinned-code","because":["npx hyperframes: registry/blocks/orbit-card/SKILL.md:28"]},{"marker":"opaque-code","because":["minified script: registry/blocks/orbit-card/assets/three.module.min.js:669"]}],
+"security":{"fetch-run":["npx hyperframes @ registry/blocks/orbit-card/SKILL.md:28"],"opaque":["minified script @ registry/blocks/orbit-card/assets/three.module.min.js:669"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

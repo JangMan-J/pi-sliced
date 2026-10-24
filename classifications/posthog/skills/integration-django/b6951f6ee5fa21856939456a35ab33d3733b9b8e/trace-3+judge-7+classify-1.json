@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-django",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-django/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"cb5d8208b63e822993f6b39918bb471481dcc6dc37ef3485f4146365ded210ea"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":56884,"own":{"files":8,"bytes":56884},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard"],"package":["posthog"],"mcp-server":[],"credential":["POSTHOG_PROJECT_TOKEN"],"network":[]},"summary":"8 files, 56 KiB · CLI @posthog/wizard · packages posthog · 1 key","short":"56 KiB · 1 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard"]},{"marker":"installs-packages","because":["installs posthog"]},{"marker":"credentials","because":["needs POSTHOG_PROJECT_TOKEN"]},{"marker":"unpinned-code","because":["npx @posthog/wizard@latest: skills/posthog/integration/skills/django/references/django.md:11"]}],
+"security":{"fetch-run":["npx @posthog/wizard@latest @ skills/posthog/integration/skills/django/references/django.md:11"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

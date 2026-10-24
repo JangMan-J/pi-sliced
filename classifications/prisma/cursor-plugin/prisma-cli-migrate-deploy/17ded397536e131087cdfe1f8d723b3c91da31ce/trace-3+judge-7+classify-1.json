@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-cli-migrate-deploy",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-cli-migrate-deploy/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"9093685b1840b8ceef4b40b694067919bf0f51ca40b4643dc1a5c0d9338d75e2"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-cli-migrate-deploy at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

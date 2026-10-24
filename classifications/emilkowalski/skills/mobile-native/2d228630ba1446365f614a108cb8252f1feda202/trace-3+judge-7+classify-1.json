@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/mobile-native",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/mobile-native/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"3afa50cb164e7042fde9fc770c4f5fd70a44c5ceb7d02d84399649ed312ec6ff"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16838,"own":{"files":1,"bytes":16838},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"animate","path":"skills/animate"},{"name":"animate-expo","path":"skills/animate-expo"},{"name":"review-animations","path":"skills/review-animations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

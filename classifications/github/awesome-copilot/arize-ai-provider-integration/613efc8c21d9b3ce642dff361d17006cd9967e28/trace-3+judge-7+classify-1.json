@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/arize-ai-provider-integration",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/arize-ai-provider-integration/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"27f0855d3631dec254b1cb898d74965ade3a7c49a47e554a4effcbf396bcaf0f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":16568,"own":{"files":3,"bytes":16568},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ax"],"package":["arize-ax-cli"],"mcp-server":[],"credential":["ANTHROPIC_API_KEY","ARIZE_API_KEY","AZURE_OPENAI_API_KEY","CUSTOM_LLM_API_KEY","GEMINI_API_KEY","NVIDIA_API_KEY","OPENAI_API_KEY"],"network":["app.arize.com"]},"summary":"3 files, 16 KiB · CLI ax · packages arize-ax-cli · 7 keys · 1 host","short":"16 KiB · 1 CLI · 1 pkg · 7 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","7 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ax"]},{"marker":"installs-packages","because":["installs arize-ax-cli"]},{"marker":"network","because":["fetches from app.arize.com"]},{"marker":"credentials","because":["needs ANTHROPIC_API_KEY","needs ARIZE_API_KEY","needs AZURE_OPENAI_API_KEY","needs CUSTOM_LLM_API_KEY","needs GEMINI_API_KEY","needs NVIDIA_API_KEY","needs OPENAI_API_KEY"]},{"marker":"sends-credentials","because":["AZURE_OPENAI_API_KEY -> my-resource.openai.azure.com: skills/arize-ai-provider-integration/SKILL.md:128","NVIDIA_API_KEY -> integrate.api.nvidia.com: skills/arize-ai-provider-integration/SKILL.md:169"]}],
+"security":{"secret-egress":["AZURE_OPENAI_API_KEY -> my-resource.openai.azure.com @ skills/arize-ai-provider-integration/SKILL.md:128","NVIDIA_API_KEY -> integrate.api.nvidia.com @ skills/arize-ai-provider-integration/SKILL.md:169"]},
+"companions":{"named":[{"name":"arize-evaluator","path":"skills/arize-evaluator"},{"name":"arize-experiment","path":"skills/arize-experiment"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

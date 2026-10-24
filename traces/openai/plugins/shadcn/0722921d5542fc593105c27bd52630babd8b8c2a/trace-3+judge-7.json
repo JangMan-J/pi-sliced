@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/shadcn",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/shadcn",
+"status":"resolved",
+"totals":{"files":1,"bytes":19533},
+"files":[
+{"path":"plugins/vercel/skills/shadcn/SKILL.md","size":19533,"blob":"68edd737d48c3519876405056a24caf32e2d8385","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"shadcn","at":[[0,42],[0,45],[0,48],[0,49],[0,57],[0,58],[0,85],[0,88],[0,91],[0,92],[0,95],[0,109],[0,110],[0,116],[0,117],[0,124],[0,127],[0,130],[0,131],[0,139],[0,140],[0,141],[0,144],[0,165],[0,171],[0,232],[0,419],[0,426],[0,449],[0,547],[0,550],[0,560]]},
+{"kind":"cli","name":"skills","at":[[0,151]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/shadcn","files":1,"bytes":19533}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,42],[0,45],[0,48],[0,49],[0,57],[0,58],[0,85],[0,88],[0,91],[0,92],[0,95],[0,109],[0,110],[0,116],[0,117],[0,124],[0,127],[0,130],[0,131],[0,139],[0,140],[0,141],[0,144],[0,165],[0,171],[0,232],[0,419],[0,426],[0,547],[0,550],[0,560]]},
+{"kind":"fetch-run","detail":"pnpm dlx skills","at":[[0,151]]},
+{"kind":"skill-fetch","detail":"pnpm dlx skills add","at":[[0,151]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

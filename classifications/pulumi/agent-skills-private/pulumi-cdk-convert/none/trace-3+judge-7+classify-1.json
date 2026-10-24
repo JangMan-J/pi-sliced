@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills-private/pulumi-cdk-convert",
+"revision":"none",
+"trace":{"path":"traces/pulumi/agent-skills-private/pulumi-cdk-convert/none/trace-3+judge-7.json","sha256":"bceeee031d6fed819970761bd85c7d596ad481eb0eb1b8cb45c18483c47e5db0"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/pulumi/agent-skills-private.git/' not found"
+}

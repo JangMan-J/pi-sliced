@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/github",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/github/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"1d34a86d43dc98b177eed89ab19f30be840802853964f483b3a2daf70cd49dc9"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7666,"own":{"files":2,"bytes":7666},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["addPullRequestReviewThreadReply","body","comment","comments","gh","isResolved","mutation","nodes","pullRequest","repository","resolveReviewThread","reviewThreads","thread"],"package":[],"mcp-server":["github"],"credential":["GITHUB_TOKEN"],"network":[]},"summary":"2 files, 7.5 KiB · MCP github · CLI addPullRequestReviewThreadReply, body +11 · 1 key","short":"7.5 KiB · 13 CLI · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","13 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs addPullRequestReviewThreadReply","runs body","runs comment","runs comments","runs gh","runs isResolved","runs mutation","runs nodes","runs pullRequest","runs repository","runs resolveReviewThread","runs reviewThreads","runs thread"]},{"marker":"credentials","because":["needs GITHUB_TOKEN"]},{"marker":"mcp-server","because":["uses the github MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

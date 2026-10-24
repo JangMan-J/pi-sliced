@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-sharepoint",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-sharepoint/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"457d74d3c4a872c0285a05fae526ddf7bdafe14c2ff895c9c97cdd7a443e9173"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":30866,"own":{"files":4,"bytes":30866},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertTo-Json","ForEach-Object","Invoke-RestMethod","Select-Object","Where-Object","az","boolean","catch","choice","dateOnly","dateTime","elseif","foreach","lookup","multilineText","number","pa","param","switch","text","throw","try"],"package":[],"mcp-server":[],"credential":[],"network":["graph.microsoft.com"]},"summary":"4 files, 30 KiB · CLI ConvertTo-Json, ForEach-Object +20 · 1 host","short":"30 KiB · 22 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["22 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs boolean","runs catch","runs choice","runs ConvertTo-Json","runs dateOnly","runs dateTime","runs elseif","runs foreach","runs ForEach-Object","runs Invoke-RestMethod","runs lookup","runs multilineText","runs number","runs pa","runs param","runs Select-Object","runs switch","runs text","runs throw","runs try","runs Where-Object"]},{"marker":"network","because":["fetches from graph.microsoft.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

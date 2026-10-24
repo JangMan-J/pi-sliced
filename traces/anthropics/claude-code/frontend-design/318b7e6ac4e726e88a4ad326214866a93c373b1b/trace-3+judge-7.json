@@ -1,0 +1,22 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"anthropics/claude-code/frontend-design",
+"source":"anthropics/claude-code",
+"revision":"318b7e6ac4e726e88a4ad326214866a93c373b1b",
+"skillPath":"plugins/frontend-design/skills/frontend-design",
+"status":"resolved",
+"totals":{"files":1,"bytes":9390},
+"files":[
+{"path":"plugins/frontend-design/skills/frontend-design/SKILL.md","size":9390,"blob":"a5333457c414d20d625f307df945842c0952ecc3","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"plugins/frontend-design/skills/frontend-design","files":1,"bytes":9390}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":null,"frontmatter":"Complete terms in LICENSE.txt"}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/resemble-detect",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/resemble-detect/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"eb79c8071ceadd86ce72aeb0033063f3218c7f020e07d37eb43185eb4ad97db1"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":26599,"own":{"files":2,"bytes":26599},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["resemble"],"credential":["RESEMBLE_API_KEY"],"network":[]},"summary":"2 files, 26 KiB · MCP resemble · 1 key","short":"26 KiB · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 credential"]},
+"markers":[{"marker":"credentials","because":["needs RESEMBLE_API_KEY"]},{"marker":"mcp-server","because":["uses the resemble MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"redis/redisinsight/commits",
+"revision":"43bd288ed30dc6d2355723158dad5d7ecf4a280e",
+"trace":{"path":"traces/redis/redisinsight/commits/43bd288ed30dc6d2355723158dad5d7ecf4a280e/trace-3+judge-7.json","sha256":"b9ee01688e17d0a3ab45f224f64828cb967ffb28448ae487e82a4a07411a8543"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1806,"own":{"files":1,"bytes":1806},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Allows","Fixes","Implements","Properly","add","api","feat","fix","refactor","ui","update"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.8 KiB · CLI Allows, Fixes +9","short":"1.8 KiB · 11 CLI"},
+"heavy":{"heavy":true,"because":["11 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs add","runs Allows","runs api","runs feat","runs fix","runs Fixes","runs Implements","runs Properly","runs refactor","runs ui","runs update"]},{"marker":"stub","because":["own folder 1.8 KiB (1 file)","content is the add, Allows it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

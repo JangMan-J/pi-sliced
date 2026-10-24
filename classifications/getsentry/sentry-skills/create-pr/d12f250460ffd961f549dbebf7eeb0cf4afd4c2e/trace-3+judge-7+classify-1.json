@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-skills/create-pr",
+"revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+"trace":{"path":"traces/getsentry/sentry-skills/create-pr/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e/trace-3+judge-7.json","sha256":"903bedc4dd63843c250e4789e88bd55c7145368340366448ff61276d2b031a30"},
+"status":"unresolvable",
+"reason":"no skill folder named create-pr at d12f250460ffd961f549dbebf7eeb0cf4afd4c2e"
+}

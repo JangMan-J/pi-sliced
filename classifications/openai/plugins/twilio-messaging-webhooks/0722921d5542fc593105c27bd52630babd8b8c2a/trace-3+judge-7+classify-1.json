@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-messaging-webhooks",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-messaging-webhooks/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"83f1b9c34ef39aee2f160749b60e19cd8cb8dc714b15833441a1f287bb236a74"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8093,"own":{"files":1,"bytes":8093},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["express","flask","twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.9 KiB · packages express +2","short":"7.9 KiB · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs express","installs flask","installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-debugging-observability","path":"plugins/twilio-developer-kit/skills/twilio-debugging-observability"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-messaging-services","path":"plugins/twilio-developer-kit/skills/twilio-messaging-services"},{"name":"twilio-rcs-messaging","path":"plugins/twilio-developer-kit/skills/twilio-rcs-messaging"},{"name":"twilio-send-message","path":"plugins/twilio-developer-kit/skills/twilio-send-message"},{"name":"twilio-whatsapp-manage-senders","path":"plugins/twilio-developer-kit/skills/twilio-whatsapp-manage-senders"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

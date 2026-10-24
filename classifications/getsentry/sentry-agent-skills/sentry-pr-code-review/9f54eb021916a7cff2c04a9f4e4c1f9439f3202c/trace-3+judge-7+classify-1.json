@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-agent-skills/sentry-pr-code-review",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/sentry-agent-skills/sentry-pr-code-review/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"f048b6d158c1b5f5fc46dc8fbc62de1db4796793d9760fbfce41e759a5ddb690"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3874,"own":{"files":1,"bytes":3874},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.8 KiB · CLI gh, jq","short":"3.8 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs jq"]},{"marker":"stub","because":["own folder 3.8 KiB (1 file)","content is the gh, jq it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

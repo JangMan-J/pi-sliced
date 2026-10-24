@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/feature-flags-go",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/feature-flags-go/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"6082c225091f5765c5b93c8c3b4c3db24303de8ee9e309269af2499bcf1fcae7"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":126167,"own":{"files":4,"bytes":126167},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["go","groups"],"package":[],"mcp-server":["posthog"],"credential":[],"network":[]},"summary":"4 files, 123 KiB · MCP posthog · CLI go, groups","short":"123 KiB · 2 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs go","runs groups"]},{"marker":"mcp-server","because":["uses the posthog MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

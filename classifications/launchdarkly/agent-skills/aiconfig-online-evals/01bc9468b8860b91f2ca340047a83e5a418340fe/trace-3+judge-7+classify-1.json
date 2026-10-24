@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/aiconfig-online-evals",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/aiconfig-online-evals/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"fea1bfd32d204ff0c182ffd62a02bff6c821a4668b0512baf42fae92ec2bdb81"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":707,"own":{"files":1,"bytes":707},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 707 B","short":"707 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"online-evals","path":"skills/agentcontrol/online-evals"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

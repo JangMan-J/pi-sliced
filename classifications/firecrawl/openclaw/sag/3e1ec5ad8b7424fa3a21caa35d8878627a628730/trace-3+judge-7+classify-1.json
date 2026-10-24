@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/sag",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/sag/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"1709cfbdb65839f7aa681bc21a18dd59017d3194e5dd7aa5300652dc5478698a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2300,"own":{"files":1,"bytes":2300},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sag"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.2 KiB · CLI sag","short":"2.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs sag"]},{"marker":"stub","because":["own folder 2.2 KiB (1 file)","content is the sag it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

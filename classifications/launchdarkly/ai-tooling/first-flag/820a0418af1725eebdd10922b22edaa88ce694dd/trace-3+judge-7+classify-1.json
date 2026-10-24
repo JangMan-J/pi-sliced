@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/ai-tooling/first-flag",
+"revision":"820a0418af1725eebdd10922b22edaa88ce694dd",
+"trace":{"path":"traces/launchdarkly/ai-tooling/first-flag/820a0418af1725eebdd10922b22edaa88ce694dd/trace-3+judge-7.json","sha256":"4fefb525b5869a4f24bb7b24aeacfd6a967799a3e12d0c503b4cb7dffb30d5a4"},
+"status":"unresolvable",
+"reason":"no skill folder named first-flag at 820a0418af1725eebdd10922b22edaa88ce694dd"
+}

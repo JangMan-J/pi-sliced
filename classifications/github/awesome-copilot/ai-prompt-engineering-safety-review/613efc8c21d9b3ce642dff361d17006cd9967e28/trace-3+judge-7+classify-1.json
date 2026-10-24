@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/ai-prompt-engineering-safety-review",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/ai-prompt-engineering-safety-review/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"46339cc90aecd564f78c6dacbf11d97b51fe3a450b57e6bea4ce29a6c456ea13"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10167,"own":{"files":1,"bytes":10167},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.9 KiB","short":"9.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,1 @@
+{"id":"67d5fd3f22120b26813956fa86b5e11a9215d1fb915bff5fc62b7a5b5fa3c11a","pullsIn":false,"reason":"src/ is the user's own project source directory in a config comment.","judge":"judge-8","model":"claude-sonnet-5-5","file":"docs/agent-skills/apollo-client/references/typescript-codegen.md","line":22,"ref":"src/","target":"src"}

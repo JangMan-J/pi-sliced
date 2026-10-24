@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-cli-validate",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-cli-validate/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"cc2b2abc2ebb56c901b325de709fadf5b8e2eeb7acc777bb7a5a1ea5b8a44cd5"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-cli-validate at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

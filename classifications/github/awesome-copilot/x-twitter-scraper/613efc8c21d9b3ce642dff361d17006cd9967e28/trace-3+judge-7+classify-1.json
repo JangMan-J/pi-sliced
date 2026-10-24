@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/x-twitter-scraper",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/x-twitter-scraper/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"57d9220812ebac388bab5d6bef3de26bc5e7b916a9035d0acdbf559b27f07165"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8736,"own":{"files":1,"bytes":8736},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["xquik"],"credential":["APIFY_API_TOKEN"],"network":["api.apify.com"]},"summary":"1 file, 8.5 KiB · MCP xquik · 1 key · 1 host","short":"8.5 KiB · 1 key · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 credential"]},
+"markers":[{"marker":"network","because":["fetches from api.apify.com"]},{"marker":"credentials","because":["needs APIFY_API_TOKEN"]},{"marker":"mcp-server","because":["uses the xquik MCP server"]},{"marker":"sends-credentials","because":["APIFY_API_TOKEN -> api.apify.com: skills/x-twitter-scraper/SKILL.md:85, skills/x-twitter-scraper/SKILL.md:95"]}],
+"security":{"secret-egress":["APIFY_API_TOKEN -> api.apify.com @ skills/x-twitter-scraper/SKILL.md:85, skills/x-twitter-scraper/SKILL.md:95"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

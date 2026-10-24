@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/parallel-feature-development",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/parallel-feature-development/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"4623d8ebe7c5923f67e569644885d954bc83e5da2656630b887c75c6d5dbbce4"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":22195,"own":{"files":1,"bytes":6667},"otherSkills":{"count":2,"files":2,"bytes":15528},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 22 KiB · +2 other skills","short":"22 KiB · +2 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/agent-teams/skills/team-communication-protocols","pulls in 1 file of the skill at plugins/agent-teams/skills/team-composition-patterns"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"plugins/agent-teams/skills/team-communication-protocols","files":1,"bytes":7360},{"path":"plugins/agent-teams/skills/team-composition-patterns","files":1,"bytes":8168}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

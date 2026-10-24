@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-ruby-on-rails",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-ruby-on-rails/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"230c3bc43ee8aef72144dc1e59c994c417cf25dfedd9f1e3c47a47b074d52852"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":88843,"own":{"files":9,"bytes":88843},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard","bundle","gem","rails"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 87 KiB · CLI @posthog/wizard, bundle +2","short":"87 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard","runs bundle","runs gem","runs rails"]},{"marker":"unpinned-code","because":["npx @posthog/wizard@latest: skills/posthog/integration/skills/ruby-on-rails/references/ruby-on-rails.md:11"]}],
+"security":{"fetch-run":["npx @posthog/wizard@latest @ skills/posthog/integration/skills/ruby-on-rails/references/ruby-on-rails.md:11"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

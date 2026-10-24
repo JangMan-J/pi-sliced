@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/crm-maintenance",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/crm-maintenance/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"8fb78c871610e2439c7dacdd2503eab66a2b9c56d73a4611f51e2aa040b37fab"},
+"status":"unresolvable",
+"reason":"no skill folder named crm-maintenance at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

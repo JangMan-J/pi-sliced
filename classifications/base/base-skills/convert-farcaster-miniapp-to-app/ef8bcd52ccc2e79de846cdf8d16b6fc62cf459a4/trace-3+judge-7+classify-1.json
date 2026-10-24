@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"base/base-skills/convert-farcaster-miniapp-to-app",
+"revision":"ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4",
+"trace":{"path":"traces/base/base-skills/convert-farcaster-miniapp-to-app/ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4/trace-3+judge-7.json","sha256":"4e9c7abe8ffda2b4d972bfcebe6eb6e60a99801a39788cfb71457d2d96c3170a"},
+"status":"unresolvable",
+"reason":"no skill folder named convert-farcaster-miniapp-to-app at ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4"
+}

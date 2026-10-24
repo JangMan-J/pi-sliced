@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"browser-use/browser-harness/browser",
+"source":"browser-use/browser-harness",
+"revision":"6d1c39adbcba5599a35182a19bcfbb0859e50abb",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named browser at 6d1c39adbcba5599a35182a19bcfbb0859e50abb",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

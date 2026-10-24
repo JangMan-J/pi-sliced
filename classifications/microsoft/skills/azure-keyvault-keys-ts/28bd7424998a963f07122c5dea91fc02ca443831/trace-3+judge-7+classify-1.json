@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-keyvault-keys-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-keyvault-keys-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"f3b0fde733c6072e58f230178f0cd47bf7f2f0ef897b0578ce701c4e379d6e3c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6806,"own":{"files":1,"bytes":6806},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/identity","@azure/keyvault-keys"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 6.6 KiB · packages @azure/identity +1 · 1 key","short":"6.6 KiB · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/identity","installs @azure/keyvault-keys"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

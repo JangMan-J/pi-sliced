@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mongodb/agent-skills/mongodb-atlas-stream-processing",
+"revision":"155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+"trace":{"path":"traces/mongodb/agent-skills/mongodb-atlas-stream-processing/155bb9c4b42a9a3e019f47be0669de0e4547d1ea/trace-3+judge-7.json","sha256":"d0a65aedf9a3a22c3611608ec3f8827e1ae741b2a6ed11334176f7b334677d01"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":79673,"own":{"files":7,"bytes":79673},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["atlas"],"package":[],"mcp-server":["if"],"credential":[],"network":["github.com"]},"summary":"7 files, 78 KiB · MCP if · CLI atlas · 1 host","short":"78 KiB · 1 CLI · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs atlas"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"mcp-server","because":["uses the if MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

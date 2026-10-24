@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/native-data-fetching",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/expo/skills/native-data-fetching",
+"status":"resolved",
+"totals":{"files":2,"bytes":21483},
+"files":[
+{"path":"plugins/expo/skills/native-data-fetching/SKILL.md","size":11645,"blob":"d59cb38e6add6b3bb2fbd1562fbd27d1d2d2304f","how":"root"},
+{"path":"plugins/expo/skills/native-data-fetching/references/expo-router-loaders.md","size":9838,"blob":"ca3942c4e1291f1cf9c65dc1a1762fef71280056","how":"path","from":0,"line":422}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[1,14],[1,318]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/native-data-fetching","files":2,"bytes":21483}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx expo","at":[[1,14],[1,318]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

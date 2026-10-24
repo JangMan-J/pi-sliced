@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-maintainer-normalize-title-tags",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-maintainer-normalize-title-tags/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"0dfe074443a626f082050251e873ebe175196f26b7c0a5259ac1ed2a378911da"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2782,"own":{"files":1,"bytes":2782},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.7 KiB · CLI gh","short":"2.7 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"stub","because":["own folder 2.7 KiB (1 file)","content is the gh it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

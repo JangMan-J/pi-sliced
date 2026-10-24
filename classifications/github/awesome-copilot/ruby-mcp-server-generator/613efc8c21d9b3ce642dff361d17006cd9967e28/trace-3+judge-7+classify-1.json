@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/ruby-mcp-server-generator",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/ruby-mcp-server-generator/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"96d07364ef8a2490d7e2a44f4613fa62034cb6ae1288567ef679178c35ebc1e0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14824,"own":{"files":1,"bytes":14824},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["ruby"],"credential":[],"network":[]},"summary":"1 file, 14 KiB · MCP ruby","short":"14 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the ruby MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

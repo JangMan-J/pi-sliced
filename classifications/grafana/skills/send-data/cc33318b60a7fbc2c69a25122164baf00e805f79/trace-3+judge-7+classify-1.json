@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/send-data",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/send-data/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"18d01345f42a26faec182092a6e4857d6a09f763aecc2c100cc49e7c095e2cb9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5593,"own":{"files":1,"bytes":5593},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["helm"],"package":[],"mcp-server":[],"credential":[],"network":["integrations-api-prod.grafana.net","logs-prod-xx.grafana.net"]},"summary":"1 file, 5.5 KiB · CLI helm · 2 hosts","short":"5.5 KiB · 1 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs helm"]},{"marker":"network","because":["fetches from integrations-api-prod.grafana.net","fetches from logs-prod-xx.grafana.net"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

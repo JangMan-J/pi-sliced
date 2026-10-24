@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/cli-creator",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/cli-creator/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"39ab9be783b12924e26d40735f4760e1df3a87a0ef66428c71ce202ab5e2f83f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15746,"own":{"files":2,"bytes":15746},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cargo","tool-name"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB · CLI cargo, tool-name","short":"15 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cargo","runs tool-name"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

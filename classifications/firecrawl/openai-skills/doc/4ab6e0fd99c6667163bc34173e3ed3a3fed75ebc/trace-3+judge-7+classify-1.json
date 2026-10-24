@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openai-skills/doc",
+"revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+"trace":{"path":"traces/firecrawl/openai-skills/doc/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc/trace-3+judge-7.json","sha256":"2bc7375ce63dd30e58fc292f079500ad30522a6bdcee6eb82cb44c7ba3d53fd5"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12688,"own":{"files":2,"bytes":12688},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["pdf2image"],"mcp-server":[],"credential":[],"network":["schemas.openxmlformats.org"]},"summary":"2 files, 12 KiB · packages pdf2image · 1 host","short":"12 KiB · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs pdf2image"]},{"marker":"network","because":["fetches from schemas.openxmlformats.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

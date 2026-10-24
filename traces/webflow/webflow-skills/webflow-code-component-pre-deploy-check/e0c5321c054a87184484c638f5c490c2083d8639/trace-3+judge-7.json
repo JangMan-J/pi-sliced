@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"webflow/webflow-skills/webflow-code-component-pre-deploy-check",
+"source":"webflow/webflow-skills",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"skillPath":"plugins/webflow-skills/skills/pre-deploy-check",
+"status":"resolved",
+"totals":{"files":1,"bytes":19695},
+"files":[
+{"path":"plugins/webflow-skills/skills/pre-deploy-check/SKILL.md","size":19695,"blob":"bf2582f9f6ae1b5a8b6856f03899afde35154f43","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"webflow","at":[[0,110]]},
+{"kind":"package","name":"@webflow/react","at":[[0,551]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/webflow-skills/skills/pre-deploy-check","files":1,"bytes":19695}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx webflow","at":[[0,110]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

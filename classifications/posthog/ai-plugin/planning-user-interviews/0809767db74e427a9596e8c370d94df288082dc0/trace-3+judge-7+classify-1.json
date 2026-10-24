@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/planning-user-interviews",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/planning-user-interviews/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"ad3b0a69344cac412ab840743b0d5be08d3b9ca32d5de53bf7798e39d9b44e54"},
+"status":"unresolvable",
+"reason":"no skill folder named planning-user-interviews at 0809767db74e427a9596e8c370d94df288082dc0"
+}

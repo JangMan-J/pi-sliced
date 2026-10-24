@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"upstash/skills/upstash-box-remote-work",
+"revision":"3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db",
+"trace":{"path":"traces/upstash/skills/upstash-box-remote-work/3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db/trace-3+judge-7.json","sha256":"f0f030a38b2d613b01acd38c06a4c4483abc41eccff42e8d78b7ea0072f8cc77"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15966,"own":{"files":1,"bytes":15966},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["claude","pnpm","tmux"],"package":["pnpm"],"mcp-server":["upstash"],"credential":[],"network":[]},"summary":"1 file, 16 KiB · MCP upstash · CLI claude, pnpm +1 · packages pnpm","short":"16 KiB · 3 CLI · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs claude","runs pnpm","runs tmux"]},{"marker":"installs-packages","because":["installs pnpm"]},{"marker":"mcp-server","because":["uses the upstash MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

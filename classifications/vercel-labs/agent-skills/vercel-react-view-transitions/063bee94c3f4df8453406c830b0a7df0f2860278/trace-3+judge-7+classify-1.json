@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-skills/vercel-react-view-transitions",
+"revision":"063bee94c3f4df8453406c830b0a7df0f2860278",
+"trace":{"path":"traces/vercel-labs/agent-skills/vercel-react-view-transitions/063bee94c3f4df8453406c830b0a7df0f2860278/trace-3+judge-7.json","sha256":"d77a179bc599f441ddaf98263d0d8684a82b6339af2507a768aa76acafca7b50"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":118598,"own":{"files":7,"bytes":118598},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["nextjs.org"]},"summary":"7 files, 116 KiB · 1 host","short":"116 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from nextjs.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

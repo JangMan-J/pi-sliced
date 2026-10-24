@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/dd-browser-sdk",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/dd-browser-sdk/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"cf717d3188853ba0aec722ca273c5db156be18f82549abcbf092fe3ac53ec198"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":69121,"own":{"files":1,"bytes":2248},"otherSkills":{"count":4,"files":4,"bytes":66873},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["datadog-ci"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 68 KiB · +4 other skills · CLI datadog-ci","short":"68 KiB · +4 skills · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs datadog-ci"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at dd-browser-sdk/setup-sourcemaps","pulls in 1 file of the skill at dd-browser-sdk/upgrade-v5","pulls in 1 file of the skill at dd-browser-sdk/upgrade-v6","pulls in 1 file of the skill at dd-browser-sdk/upgrade-v7"]},{"marker":"stub","because":["own folder 2.2 KiB (1 file)","65 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"dd-browser-sdk/setup-sourcemaps","files":1,"bytes":17837},{"path":"dd-browser-sdk/upgrade-v5","files":1,"bytes":15003},{"path":"dd-browser-sdk/upgrade-v6","files":1,"bytes":10690},{"path":"dd-browser-sdk/upgrade-v7","files":1,"bytes":23343}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

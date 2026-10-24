@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nvshmem-configure-nic-pe-mapping",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nvshmem-configure-nic-pe-mapping/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"6ce07bb74bb628ac52e1bb8c57f3321aec8a3cfcaee1318595fc35845ffce34d"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":75607,"own":{"files":4,"bytes":46055},"otherSkills":{"count":1,"files":2,"bytes":29552},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gpu_status","ibv_devinfo","ibv_status","nvidia-smi","nvshmem-info","nvshmem_status","prefix_arg_set","topo_status","version_ok"],"package":[],"mcp-server":[],"credential":[],"network":["docs.nvidia.com"]},"summary":"6 files, 74 KiB · +1 other skill · CLI gpu_status, ibv_devinfo +7 · 1 host","short":"74 KiB · +1 skill · 9 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gpu_status","runs ibv_devinfo","runs ibv_status","runs nvidia-smi","runs nvshmem_status","runs nvshmem-info","runs prefix_arg_set","runs topo_status","runs version_ok"]},{"marker":"network","because":["fetches from docs.nvidia.com"]},{"marker":"chain-loads","because":["pulls in 2 files of the skill at skills/nvshmem-docs"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/nvshmem-docs","files":2,"bytes":29552}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills/pulumi-overview",
+"revision":"2517e28e4bc029424e9c9ee48016394296be0f6a",
+"trace":{"path":"traces/pulumi/agent-skills/pulumi-overview/2517e28e4bc029424e9c9ee48016394296be0f6a/trace-3+judge-7.json","sha256":"4f3336659bff1ea05a70fe855f5586a34b924da78fd75c330f422a1c777adeb7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":21478,"own":{"files":1,"bytes":21478},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pulumi"],"package":[],"mcp-server":[],"credential":[],"network":["www.pulumi.com"]},"summary":"1 file, 21 KiB · CLI pulumi · 1 host","short":"21 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pulumi"]},{"marker":"network","because":["fetches from www.pulumi.com"]},{"marker":"unpinned-code","because":["npx pulumi: pulumi/skills/pulumi-overview/SKILL.md:38, pulumi/skills/pulumi-overview/SKILL.md:55, pulumi/skills/pulumi-overview/SKILL.md:56"]}],
+"security":{"fetch-run":["npx pulumi @ pulumi/skills/pulumi-overview/SKILL.md:38, pulumi/skills/pulumi-overview/SKILL.md:55, pulumi/skills/pulumi-overview/SKILL.md:56 +29"]},
+"companions":{"named":[{"name":"cloudformation-to-pulumi","path":"migration/skills/cloudformation-to-pulumi"},{"name":"package-usage","path":"pulumi/skills/package-usage"},{"name":"provider-upgrade","path":"pulumi/skills/provider-upgrade"},{"name":"pulumi-arm-to-pulumi","path":"migration/skills/pulumi-arm-to-pulumi"},{"name":"pulumi-automation-api","path":"pulumi/skills/pulumi-automation-api"},{"name":"pulumi-best-practices","path":"pulumi/skills/pulumi-best-practices"},{"name":"pulumi-cdk-to-pulumi","path":"migration/skills/pulumi-cdk-to-pulumi"},{"name":"pulumi-component","path":"pulumi/skills/pulumi-component"},{"name":"pulumi-context-api","path":"pulumi/skills/pulumi-context-api"},{"name":"pulumi-esc","path":"pulumi/skills/pulumi-esc"},{"name":"pulumi-terraform-to-pulumi","path":"migration/skills/pulumi-terraform-to-pulumi"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

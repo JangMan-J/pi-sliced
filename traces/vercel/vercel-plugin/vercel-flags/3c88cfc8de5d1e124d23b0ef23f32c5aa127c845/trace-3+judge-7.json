@@ -1,0 +1,33 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel/vercel-plugin/vercel-flags",
+"source":"vercel/vercel-plugin",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"skillPath":"skills/vercel-flags",
+"status":"resolved",
+"totals":{"files":2,"bytes":22539},
+"files":[
+{"path":"skills/vercel-flags/SKILL.md","size":13534,"blob":"3b0d77b41c563b082784ce8e3fb14f5313656824","how":"root"},
+{"path":"skills/vercel-flags/references/cli.md","size":9005,"blob":"cd71dcb6b2bbddc5d1e9ce03836598388e0c9abd","how":"link","from":0,"line":129}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,113],[0,135]]},
+{"kind":"network","name":"vercel.com","at":[[1,18]]},
+{"kind":"package","name":"vercel","at":[[0,135],[0,141]]}
+],
+"regions":[
+{"kind":"own","path":"skills/vercel-flags","files":2,"bytes":22539}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,113],[0,135]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,113],[0,135]]}
+],
+"namedSkills":[
+{"name":"flags-sdk","path":"skills/flags-sdk","at":[[0,3],[0,104],[0,111],[0,113],[0,161],[0,165],[1,14]]},
+{"name":"vercel-cli","path":"skills/vercel-cli","at":[[0,135],[1,5]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

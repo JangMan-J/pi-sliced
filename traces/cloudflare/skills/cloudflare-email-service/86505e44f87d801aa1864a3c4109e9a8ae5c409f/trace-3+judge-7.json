@@ -1,0 +1,37 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"cloudflare/skills/cloudflare-email-service",
+"source":"cloudflare/skills",
+"revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+"skillPath":"skills/cloudflare-email-service",
+"status":"resolved",
+"totals":{"files":6,"bytes":31685},
+"files":[
+{"path":"skills/cloudflare-email-service/SKILL.md","size":6619,"blob":"5db5219305ebd27646adccc08dc192c66a5b6ada","how":"root"},
+{"path":"skills/cloudflare-email-service/references/cli-and-mcp.md","size":4047,"blob":"d7d0ec9eacce283b4aa80d90e076e24594502eae","how":"link","from":0,"line":27},
+{"path":"skills/cloudflare-email-service/references/deliverability.md","size":9060,"blob":"95cd80c39e799f139559e1ca953121dbe0c3b040","how":"link","from":0,"line":43},
+{"path":"skills/cloudflare-email-service/references/rest-api.md","size":1868,"blob":"ea40053675f287119e1fc40d56609dc3e3b9ec72","how":"link","from":0,"line":39},
+{"path":"skills/cloudflare-email-service/references/routing.md","size":7470,"blob":"274e51de49e092a452ff250ceae1ad0cbea0d20f","how":"link","from":0,"line":41},
+{"path":"skills/cloudflare-email-service/references/sending.md","size":2621,"blob":"c21ad7edfd642f18de70bf9465e8e2d3211d6b70","how":"link","from":0,"line":37}
+],
+"outside":[
+{"kind":"cli","name":"wrangler","at":[[0,27],[0,58],[1,5],[1,35],[1,36],[1,48],[1,106],[4,20],[4,24]]},
+{"kind":"credential","name":"API_TOKEN","at":[[2,79],[2,100],[2,128],[2,139],[2,264]]},
+{"kind":"credential","name":"CLOUDFLARE_API_TOKEN","at":[[1,116]]},
+{"kind":"mcp-server","name":"cloudflare","at":[[1,55],[2,3]]},
+{"kind":"network","name":"api.cloudflare.com","at":[[1,116],[2,79],[2,100],[2,128],[2,139],[2,264]]},
+{"kind":"network","name":"developers.cloudflare.com","at":[[5,5]]}
+],
+"regions":[
+{"kind":"own","path":"skills/cloudflare-email-service","files":6,"bytes":31685}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx wrangler","at":[[0,27],[1,5],[1,35],[1,36],[1,48],[1,106],[4,24]]},
+{"kind":"secret-egress","detail":"CLOUDFLARE_API_TOKEN -> api.cloudflare.com","at":[[1,116]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

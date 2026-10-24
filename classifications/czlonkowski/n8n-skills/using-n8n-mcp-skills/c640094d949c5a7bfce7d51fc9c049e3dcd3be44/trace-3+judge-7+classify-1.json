@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"czlonkowski/n8n-skills/using-n8n-mcp-skills",
+"revision":"c640094d949c5a7bfce7d51fc9c049e3dcd3be44",
+"trace":{"path":"traces/czlonkowski/n8n-skills/using-n8n-mcp-skills/c640094d949c5a7bfce7d51fc9c049e3dcd3be44/trace-3+judge-7.json","sha256":"fa929b9a04d1a9ac92814b9b4f3b14b4607568f5cc0a688475f7ac5ff32be8e9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17592,"own":{"files":1,"bytes":17592},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["n8n-mcp"],"package":[],"mcp-server":["instance-level"],"credential":[],"network":[]},"summary":"1 file, 17 KiB · MCP instance-level · CLI n8n-mcp","short":"17 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs n8n-mcp"]},{"marker":"mcp-server","because":["uses the instance-level MCP server"]},{"marker":"unpinned-code","because":["npx n8n-mcp: skills/using-n8n-mcp-skills/SKILL.md:121"]}],
+"security":{"fetch-run":["npx n8n-mcp @ skills/using-n8n-mcp-skills/SKILL.md:121"]},
+"companions":{"named":[{"name":"n8n-agents","path":"skills/n8n-agents"},{"name":"n8n-binary-and-data","path":"skills/n8n-binary-and-data"},{"name":"n8n-code-javascript","path":"skills/n8n-code-javascript"},{"name":"n8n-code-python","path":"skills/n8n-code-python"},{"name":"n8n-code-tool","path":"skills/n8n-code-tool"},{"name":"n8n-error-handling","path":"skills/n8n-error-handling"},{"name":"n8n-expression-syntax","path":"skills/n8n-expression-syntax"},{"name":"n8n-mcp-tools-expert","path":"skills/n8n-mcp-tools-expert"},{"name":"n8n-multi-instance","path":"skills/n8n-multi-instance"},{"name":"n8n-node-configuration","path":"skills/n8n-node-configuration"},{"name":"n8n-self-hosting","path":"skills/n8n-self-hosting"},{"name":"n8n-subworkflows","path":"skills/n8n-subworkflows"},{"name":"n8n-validation-expert","path":"skills/n8n-validation-expert"},{"name":"n8n-workflow-patterns","path":"skills/n8n-workflow-patterns"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

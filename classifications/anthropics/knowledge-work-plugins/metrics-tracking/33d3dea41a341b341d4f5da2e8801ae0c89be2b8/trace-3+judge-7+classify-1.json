@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/metrics-tracking",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/metrics-tracking/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"410cb246d9904a5b32c1c1b0eda1f32cffcad061dc232d9d709a288ce05d1a66"},
+"status":"unresolvable",
+"reason":"no skill folder named metrics-tracking at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

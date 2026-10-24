@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/launchdarkly-guarded-rollout",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/launchdarkly-guarded-rollout/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"43b98c4f073e3fa065be550a130ae76fc5b0adc46c07afb7c5d2191633c205e3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6173,"own":{"files":1,"bytes":6173},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["launchdarkly","optional","required"],"credential":[],"network":[]},"summary":"1 file, 6.0 KiB · MCP launchdarkly, optional +1","short":"6.0 KiB · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the launchdarkly MCP server","uses the optional MCP server","uses the required MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/sqldw-consumption-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/sqldw-consumption-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"73a529d0d39c9f39ce129722451c63622b34dc6ed19dc792f9a162f791c3135f"},
+"status":"unresolvable",
+"reason":"no skill folder named sqldw-consumption-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

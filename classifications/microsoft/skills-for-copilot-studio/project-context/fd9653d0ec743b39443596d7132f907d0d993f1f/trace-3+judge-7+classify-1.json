@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-copilot-studio/project-context",
+"revision":"fd9653d0ec743b39443596d7132f907d0d993f1f",
+"trace":{"path":"traces/microsoft/skills-for-copilot-studio/project-context/fd9653d0ec743b39443596d7132f907d0d993f1f/trace-3+judge-7.json","sha256":"6ad4ffb9a4bc4db473a6737de50ce496390a9b4ebe4ef34420fdb2473a513878"},
+"status":"unresolvable",
+"reason":"no skill folder named project-context at fd9653d0ec743b39443596d7132f907d0d993f1f"
+}

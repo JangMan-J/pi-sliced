@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/engineering-agent-skills/sentinel",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/engineering-agent-skills/sentinel/none/trace-3+judge-7.json","sha256":"7a4ba915480204b10a001c2d91ff537d0f58c9ad8af0b136a696bda4917b126a"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"
+}

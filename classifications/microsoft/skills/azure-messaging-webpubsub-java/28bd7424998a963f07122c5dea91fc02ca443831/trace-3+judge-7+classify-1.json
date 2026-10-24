@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-messaging-webpubsub-java",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-messaging-webpubsub-java/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"9f6d37afa9548761ed322c24b7d9872690d44e0698874f729867261a7d9e0c85"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9509,"own":{"files":1,"bytes":9509},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","WEB_PUBSUB_ACCESS_KEY"],"network":[]},"summary":"1 file, 9.3 KiB · 2 keys","short":"9.3 KiB · 2 keys"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs WEB_PUBSUB_ACCESS_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-agent-sdk-demos/docx",
+"revision":"826b268506a5f3707623c9e6140b200befcbebae",
+"trace":{"path":"traces/anthropics/claude-agent-sdk-demos/docx/826b268506a5f3707623c9e6140b200befcbebae/trace-3+judge-7.json","sha256":"9173cbb6817db79ea4b2b5f9dc07c26966d661d84825104a1822c9ce6fb9eaad"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":26659,"own":{"files":2,"bytes":26659},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pandoc","pdftoppm","soffice"],"package":["defusedxml","docx","libreoffice","pandoc","poppler-utils"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 26 KiB · CLI pandoc, pdftoppm +1 · packages defusedxml +4","short":"26 KiB · 3 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs pandoc","runs pdftoppm","runs soffice"]},{"marker":"installs-packages","because":["installs defusedxml","installs docx","installs libreoffice","installs pandoc","installs poppler-utils"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/codex-wrapped",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/codex-wrapped/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"e1498f28f86cb0381f798699ec61697c8f92add67973d5854a051a80accebda4"},
+"status":"unresolvable",
+"reason":"no skill folder named codex-wrapped at 49f948faa9258a0c61caceaf225e179651397431"
+}

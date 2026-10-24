@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-claude/sentry-workflow",
+"revision":"cb3ad7df272ee52326e1f710a866039aecffc460",
+"trace":{"path":"traces/getsentry/sentry-for-claude/sentry-workflow/cb3ad7df272ee52326e1f710a866039aecffc460/trace-3+judge-7.json","sha256":"d84c12eec31d337d0e09f3315c16b957bd145d1703b592e609bc48cddc0e8f5d"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-workflow at cb3ad7df272ee52326e1f710a866039aecffc460"
+}

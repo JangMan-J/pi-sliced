@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-labs-code/stitch-skills/extract-static-html",
+"revision":"0337446dadde6f8c94210444e2aa9d546126480f",
+"trace":{"path":"traces/google-labs-code/stitch-skills/extract-static-html/0337446dadde6f8c94210444e2aa9d546126480f/trace-3+judge-7.json","sha256":"ce04b5124325fa05f800c1432b528b18c42710440ecc0b895af58dbbf43f8de8"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":114262,"own":{"files":4,"bytes":114262},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ng","tsx"],"package":["@babel/generator","@babel/parser","@babel/traverse","@babel/types","puppeteer"],"mcp-server":[],"credential":[],"network":["cdn.tailwindcss.com","www.w3.org"]},"summary":"4 files, 112 KiB · CLI ng, tsx · packages @babel/generator +4 · 2 hosts","short":"112 KiB · 2 CLI · 5 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["5 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ng","runs tsx"]},{"marker":"installs-packages","because":["installs @babel/generator","installs @babel/parser","installs @babel/traverse","installs @babel/types","installs puppeteer"]},{"marker":"network","because":["fetches from cdn.tailwindcss.com","fetches from www.w3.org"]},{"marker":"unpinned-code","because":["npx tsx: plugins/stitch-design/skills/extract-static-html/SKILL.md:61, plugins/stitch-design/skills/extract-static-html/SKILL.md:69, plugins/stitch-design/skills/extract-static-html/SKILL.md:71"]}],
+"security":{"fetch-run":["npx tsx @ plugins/stitch-design/skills/extract-static-html/SKILL.md:61, plugins/stitch-design/skills/extract-static-html/SKILL.md:69, plugins/stitch-design/skills/extract-static-html/SKILL.md:71 +4"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

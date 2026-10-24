@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex/remote-tests",
+"revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"trace":{"path":"traces/openai/codex/remote-tests/970111f6cb62cc02fe36a82ea7d71b37a2889c97/trace-3+judge-7.json","sha256":"d8d2c186753d3f2f967b9020bf677239f7e66b24e72c65416aa3a14180cbef82"},
+"status":"unresolvable",
+"reason":"no skill folder named remote-tests at 970111f6cb62cc02fe36a82ea7d71b37a2889c97"
+}

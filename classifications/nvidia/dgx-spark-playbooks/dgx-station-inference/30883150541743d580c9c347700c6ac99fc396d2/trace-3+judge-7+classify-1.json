@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/dgx-spark-playbooks/dgx-station-inference",
+"revision":"30883150541743d580c9c347700c6ac99fc396d2",
+"trace":{"path":"traces/nvidia/dgx-spark-playbooks/dgx-station-inference/30883150541743d580c9c347700c6ac99fc396d2/trace-3+judge-7.json","sha256":"3db6d0132b1e25c77094d78a86319b0e8b2c5fb77d957906291a8619b8d9296d"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":13978,"own":{"files":5,"bytes":13978},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["recipe"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 14 KiB · CLI recipe","short":"14 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs recipe"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

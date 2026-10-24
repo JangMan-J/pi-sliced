@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/agent-skills/react-flow-node-ts",
+"revision":"2130750147dee0311215099ddf36647ba1e0f006",
+"trace":{"path":"traces/microsoft/agent-skills/react-flow-node-ts/2130750147dee0311215099ddf36647ba1e0f006/trace-3+judge-7.json","sha256":"463bb95d38a7d68da28f8f406bae71433d5805d8144cc598a78a911865320d76"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":6117,"own":{"files":3,"bytes":6117},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@xyflow/react"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 6.0 KiB · packages @xyflow/react","short":"6.0 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @xyflow/react"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

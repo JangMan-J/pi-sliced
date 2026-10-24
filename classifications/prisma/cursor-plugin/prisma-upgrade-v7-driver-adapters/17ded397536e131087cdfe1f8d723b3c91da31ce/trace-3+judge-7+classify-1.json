@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-upgrade-v7-driver-adapters",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-upgrade-v7-driver-adapters/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"0424d2969f350a4c128cf8239be22c56b4f5a97b6321cc5878a00b6bc766af85"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-upgrade-v7-driver-adapters at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

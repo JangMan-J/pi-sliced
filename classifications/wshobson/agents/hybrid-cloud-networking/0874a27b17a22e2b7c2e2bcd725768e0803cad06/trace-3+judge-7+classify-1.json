@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/hybrid-cloud-networking",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/hybrid-cloud-networking/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"e9a860845e5cb04e97155d537b2558fb960ec226e0c4f67e55c73b322eb72ad1"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6921,"own":{"files":2,"bytes":6921},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","az","oci"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.8 KiB · CLI aws, az +1","short":"6.8 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs az","runs oci"]}],
+"security":{},
+"companions":{"named":[{"name":"multi-cloud-architecture","path":"plugins/cloud-infrastructure/skills/multi-cloud-architecture"},{"name":"terraform-module-library","path":"plugins/cloud-infrastructure/skills/terraform-module-library"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

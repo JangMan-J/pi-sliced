@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/terraform-module-library",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/terraform-module-library/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"c084e70fb8fb4990394d687434a4247236c63bff580918d3c6c9384425af27e3"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":8377,"own":{"files":3,"bytes":8377},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 8.2 KiB","short":"8.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"cost-optimization","path":"plugins/cloud-infrastructure/skills/cost-optimization"},{"name":"multi-cloud-architecture","path":"plugins/cloud-infrastructure/skills/multi-cloud-architecture"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

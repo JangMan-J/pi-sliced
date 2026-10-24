@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/com/stripe-best-practices",
+"revision":"none",
+"trace":{"path":"traces/stripe/com/stripe-best-practices/none/trace-3+judge-7.json","sha256":"de02d1129efa8501cf511a039142c2f9da6d62382751442c087e71fc75ddc0de"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/stripe/com.git/' not found"
+}

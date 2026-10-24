@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/terraform-agent-kit/azure-image-builder",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/terraform-agent-kit/azure-image-builder/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"4520d83f6dc3619e1bd1d30518079f4d221c38910011ab11150954ca8d352039"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4240,"own":{"files":1,"bytes":4240},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","packer"],"package":[],"mcp-server":[],"credential":["ARM_CLIENT_SECRET"],"network":[]},"summary":"1 file, 4.1 KiB · CLI az, packer · 1 key","short":"4.1 KiB · 2 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs packer"]},{"marker":"credentials","because":["needs ARM_CLIENT_SECRET"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

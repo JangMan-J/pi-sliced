@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/model-merging",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/model-merging/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"4d4ebcda34a001a5fe59f84236815cf48131aaa243bcbc2e6777f01184f840ce"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":42519,"own":{"files":4,"bytes":42519},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["from","mergekit-yaml","model.push_to_hub","my-merged-model","tokenizer.push_to_hub"],"package":["mergekit","torch","transformers"],"mcp-server":[],"credential":[],"network":["github.com","huggingface.co"]},"summary":"4 files, 42 KiB · CLI from, mergekit-yaml +3 · packages mergekit +2 · 2 hosts","short":"42 KiB · 5 CLI · 3 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["3 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs from","runs mergekit-yaml","runs model.push_to_hub","runs my-merged-model","runs tokenizer.push_to_hub"]},{"marker":"installs-packages","because":["installs mergekit","installs torch","installs transformers"]},{"marker":"network","because":["fetches from github.com","fetches from huggingface.co"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

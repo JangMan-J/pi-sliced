@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/audit-context-building",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/audit-context-building/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"2dccac66eb83d870e79340b543130c802824e41a9924783e8579a3d5845baf3a"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":20700,"own":{"files":4,"bytes":20700},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 20 KiB","short":"20 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["invisible U+200B: plugins/audit-context-building/skills/audit-context-building/resources/ANALYSIS_FORMAT.md:25, plugins/audit-context-building/skills/audit-context-building/resources/ANALYSIS_FORMAT.md:28"]}],
+"security":{"invisible-unicode":["U+200B @ plugins/audit-context-building/skills/audit-context-building/resources/ANALYSIS_FORMAT.md:25, plugins/audit-context-building/skills/audit-context-building/resources/ANALYSIS_FORMAT.md:28"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

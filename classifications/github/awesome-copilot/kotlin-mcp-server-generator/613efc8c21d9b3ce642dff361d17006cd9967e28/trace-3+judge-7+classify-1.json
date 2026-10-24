@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/kotlin-mcp-server-generator",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/kotlin-mcp-server-generator/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"31d8ecec8ca277e02ad61c0258af3646b4c47fc6b566d65f88a3b5f66948e116"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10848,"own":{"files":1,"bytes":10848},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["configured","kotlin"],"credential":[],"network":[]},"summary":"1 file, 11 KiB · MCP configured, kotlin","short":"11 KiB · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the configured MCP server","uses the kotlin MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

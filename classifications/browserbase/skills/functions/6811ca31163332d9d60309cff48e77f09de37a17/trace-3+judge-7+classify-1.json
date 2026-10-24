@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/skills/functions",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"trace":{"path":"traces/browserbase/skills/functions/6811ca31163332d9d60309cff48e77f09de37a17/trace-3+judge-7.json","sha256":"3886d647dc6c7693e93231c44ecf76c3a9c34fe3b11611e1f3c230dca7a1b15f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6800,"own":{"files":2,"bytes":6800},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@browserbasehq/sdk-functions","browse"],"package":["@browserbasehq/sdk-functions","browse"],"mcp-server":[],"credential":["BROWSERBASE_API_KEY"],"network":["api.browserbase.com","news.ycombinator.com"]},"summary":"2 files, 6.6 KiB · CLI @browserbasehq/sdk-functions, browse · packages @browserbasehq/sdk-functions +1 · 1 key · 2 hosts","short":"6.6 KiB · 2 CLI · 2 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @browserbasehq/sdk-functions","runs browse"]},{"marker":"installs-packages","because":["installs @browserbasehq/sdk-functions","installs browse"]},{"marker":"network","because":["fetches from api.browserbase.com","fetches from news.ycombinator.com"]},{"marker":"credentials","because":["needs BROWSERBASE_API_KEY"]},{"marker":"unpinned-code","because":["npx @browserbasehq/sdk-functions: skills/functions/REFERENCE.md:140"]},{"marker":"sends-credentials","because":["BROWSERBASE_API_KEY -> api.browserbase.com: skills/functions/REFERENCE.md:15, skills/functions/REFERENCE.md:23"]}],
+"security":{"fetch-run":["npx @browserbasehq/sdk-functions @ skills/functions/REFERENCE.md:140"],"secret-egress":["BROWSERBASE_API_KEY -> api.browserbase.com @ skills/functions/REFERENCE.md:15, skills/functions/REFERENCE.md:23"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

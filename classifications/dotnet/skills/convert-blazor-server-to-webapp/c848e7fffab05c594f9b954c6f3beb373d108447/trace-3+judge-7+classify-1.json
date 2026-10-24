@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/convert-blazor-server-to-webapp",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/convert-blazor-server-to-webapp/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"5357a5ebb27d358705c8c966328d8d7b3fa18189baae3229a3d035c95a7a5681"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15487,"own":{"files":1,"bytes":15487},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

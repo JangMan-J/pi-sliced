@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nuxt/scripts/nuxt-test-utils-skilld",
+"source":"nuxt/scripts",
+"revision":"321e7574938db0fb9ff49b76a6c9d8ebdb634387",
+"skillPath":".claude/skills/nuxt-test-utils-skilld",
+"status":"resolved",
+"totals":{"files":1,"bytes":8221},
+"files":[
+{"path":".claude/skills/nuxt-test-utils-skilld/SKILL.md","size":8221,"blob":"78a005af4d333d695954542a14544a7c8b36ec71","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skilld","at":[[0,20],[0,23],[0,24],[0,25]]}
+],
+"regions":[
+{"kind":"own","path":".claude/skills/nuxt-test-utils-skilld","files":1,"bytes":8221}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skilld","at":[[0,20]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":null}
+}

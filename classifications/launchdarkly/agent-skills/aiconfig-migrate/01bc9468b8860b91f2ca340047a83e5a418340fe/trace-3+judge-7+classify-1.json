@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/aiconfig-migrate",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/aiconfig-migrate/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"e6b48c9010111551771df557b8587a0997afbc5029c76ec5a0c0a7078f878d39"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":667,"own":{"files":1,"bytes":667},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 667 B","short":"667 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"migrate","path":"skills/agentcontrol/migrate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nuxt/ui/contributing",
+"revision":"bda0b3fb8333a03a4144b4701c889c89d72fdfbc",
+"trace":{"path":"traces/nuxt/ui/contributing/bda0b3fb8333a03a4144b4701c889c89d72fdfbc/trace-3+judge-7.json","sha256":"d3f1374f442c2b5d3aea982c61a569fea3f9c41b4a9b52e37471d73c0c2b5afd"},
+"status":"unresolvable",
+"reason":"no skill folder named contributing at bda0b3fb8333a03a4144b4701c889c89d72fdfbc or at the remote HEAD 92e28dcb2537755b914aee359edb8064d474de5c"
+}

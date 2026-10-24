@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"resend/resend-skills/react-email",
+"revision":"b2ae7b1798b70134faf679f35fc05b4331462988",
+"trace":{"path":"traces/resend/resend-skills/react-email/b2ae7b1798b70134faf679f35fc05b4331462988/trace-3+judge-7.json","sha256":"a8a2bf423250c139911dcfe43b486c197be5e47445e6bec7fe293d97d344ce56"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":86976,"own":{"files":7,"bytes":86976},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["create-email","email","react-email"],"package":["@react-email/editor","i18next","i18next-resources-to-backend","next-intl","react-email","react-i18next","react-intl"],"mcp-server":["resend"],"credential":[],"network":[]},"summary":"7 files, 85 KiB · MCP resend · CLI create-email, email +1 · packages @react-email/editor +6","short":"85 KiB · 3 CLI · 7 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["7 packages to install","1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs create-email","runs email","runs react-email"]},{"marker":"installs-packages","because":["installs @react-email/editor","installs i18next","installs i18next-resources-to-backend","installs next-intl","installs react-email","installs react-i18next","installs react-intl"]},{"marker":"mcp-server","because":["uses the resend MCP server"]},{"marker":"unpinned-code","because":["install @latest: skills/react-email/SKILL.md:376","npx create-email@latest: skills/react-email/SKILL.md:33","npx react-email@latest: skills/react-email/references/SENDING.md:57"]}],
+"security":{"fetch-run":["install @latest @ skills/react-email/SKILL.md:376","npx create-email@latest @ skills/react-email/SKILL.md:33","npx react-email@latest @ skills/react-email/references/SENDING.md:57"]},
+"companions":{"named":[{"name":"email-best-practices","path":"skills/email-best-practices"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

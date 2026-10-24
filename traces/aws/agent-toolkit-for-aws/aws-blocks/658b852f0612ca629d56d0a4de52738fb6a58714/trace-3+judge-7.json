@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"aws/agent-toolkit-for-aws/aws-blocks",
+"source":"aws/agent-toolkit-for-aws",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"skillPath":"skills/core-skills/aws-blocks",
+"status":"resolved",
+"totals":{"files":1,"bytes":4855},
+"files":[
+{"path":"skills/core-skills/aws-blocks/SKILL.md","size":4855,"blob":"7e780d6f0608003fc994f122cc1c3c0391eac287","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@aws-blocks/create-blocks-app","at":[[0,24],[0,31],[0,39],[0,47]]}
+],
+"regions":[
+{"kind":"own","path":"skills/core-skills/aws-blocks","files":1,"bytes":4855}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @aws-blocks/create-blocks-app","at":[[0,24],[0,31],[0,39],[0,47]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

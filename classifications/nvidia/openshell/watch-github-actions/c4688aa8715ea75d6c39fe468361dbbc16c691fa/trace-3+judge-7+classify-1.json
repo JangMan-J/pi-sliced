@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/openshell/watch-github-actions",
+"revision":"c4688aa8715ea75d6c39fe468361dbbc16c691fa",
+"trace":{"path":"traces/nvidia/openshell/watch-github-actions/c4688aa8715ea75d6c39fe468361dbbc16c691fa/trace-3+judge-7.json","sha256":"14fef8c2ef229c1b956d41cccd7a96059ae24ba7a861ff68c1a8ae9140d3dd21"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12042,"own":{"files":1,"bytes":12042},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","nix"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB · CLI gh, nix","short":"12 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs nix"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

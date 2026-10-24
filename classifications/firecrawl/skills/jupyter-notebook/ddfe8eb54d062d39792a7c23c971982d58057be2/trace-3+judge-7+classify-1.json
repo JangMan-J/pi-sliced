@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/jupyter-notebook",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/jupyter-notebook/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"e19e40c915398fd12a07e7f22e96114a437d4d2732f343cdf9bce6f6c237e5a5"},
+"status":"unresolvable",
+"reason":"no skill folder named jupyter-notebook at ddfe8eb54d062d39792a7c23c971982d58057be2 or at the remote HEAD 2bf714d9f45e85085036a533ceb943c8577aef2b"
+}

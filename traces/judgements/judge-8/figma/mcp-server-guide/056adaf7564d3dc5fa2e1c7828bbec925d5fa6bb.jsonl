@@ -1,0 +1,1 @@
+{"id":"7f942c53ff183febe627d0956f6e19a56d9260f95ef739b291c446bc1109cc32","pullsIn":true,"reason":"The sentence directs running the bundled files in scripts/ as workflow helpers.","judge":"judge-8","model":"claude-sonnet-5-5","file":"workflow-skills/video-interaction-mapper/SKILL.md","line":33,"ref":"scripts/","target":"workflow-skills/video-interaction-mapper/scripts"}

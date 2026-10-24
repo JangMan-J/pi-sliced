@@ -1,0 +1,45 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/vercel-storage",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/vercel-storage",
+"status":"resolved",
+"totals":{"files":1,"bytes":15334},
+"files":[
+{"path":"plugins/vercel/skills/vercel-storage/SKILL.md","size":15334,"blob":"69ffaf510aa9a4a0e1fb03fc35179ceea24da9a0","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"convex","at":[[0,344]]},
+{"kind":"cli","name":"dotenv","at":[[0,239],[0,240]]},
+{"kind":"cli","name":"drizzle-kit","at":[[0,235]]},
+{"kind":"cli","name":"prisma","at":[[0,308]]},
+{"kind":"cli","name":"vercel","at":[[0,96],[0,300],[0,318],[0,336],[0,378],[0,425],[0,426],[0,429]]},
+{"kind":"package","name":"@libsql/client","at":[[0,364]]},
+{"kind":"package","name":"@neondatabase/serverless","at":[[0,190]]},
+{"kind":"package","name":"@prisma/client","at":[[0,307]]},
+{"kind":"package","name":"@supabase/ssr","at":[[0,286]]},
+{"kind":"package","name":"@supabase/supabase-js","at":[[0,286]]},
+{"kind":"package","name":"@upstash/redis","at":[[0,258]]},
+{"kind":"package","name":"@vercel/blob","at":[[0,105]]},
+{"kind":"package","name":"@vercel/edge-config","at":[[0,157]]},
+{"kind":"package","name":"convex","at":[[0,343]]},
+{"kind":"package","name":"dotenv-cli","at":[[0,238]]},
+{"kind":"package","name":"mongodb","at":[[0,325]]},
+{"kind":"package","name":"prisma","at":[[0,307]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/vercel-storage","files":1,"bytes":15334}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx convex","at":[[0,344]]},
+{"kind":"fetch-run","detail":"npx dotenv","at":[[0,239],[0,240]]},
+{"kind":"fetch-run","detail":"npx drizzle-kit","at":[[0,235]]},
+{"kind":"fetch-run","detail":"npx prisma","at":[[0,308]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firebase-firestore-basics",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firebase-firestore-basics/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"a850b60e4efa8541cf1d43a92c53b83dc1e97ab417e1097a4ffeb8bbedc3080f"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase-firestore-basics at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

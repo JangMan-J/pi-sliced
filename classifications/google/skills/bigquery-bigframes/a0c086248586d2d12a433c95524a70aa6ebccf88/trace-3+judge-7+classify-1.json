@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/bigquery-bigframes",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/bigquery-bigframes/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"ba047cdba8c25a5a198e5d72df7892528141fb3bc1af40c22513000db4b036d6"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9859,"own":{"files":4,"bytes":9859},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 9.6 KiB · CLI gcloud","short":"9.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

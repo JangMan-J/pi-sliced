@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/awesome-skills/apify-content-analytics",
+"revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"trace":{"path":"traces/apify/awesome-skills/apify-content-analytics/1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813/trace-3+judge-7.json","sha256":"3b5306ee43605b495be431e19d59352a089a1f1ef44035b6f46c4a7ed0f3b5b9"},
+"status":"unresolvable",
+"reason":"no skill folder named apify-content-analytics at 1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813"
+}

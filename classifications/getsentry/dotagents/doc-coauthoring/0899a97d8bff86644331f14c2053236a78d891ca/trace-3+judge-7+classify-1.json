@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/doc-coauthoring",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/doc-coauthoring/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"897ba0448ab8b938afc6ac852a89c8dccb43ed67fba7e3ef12b8ac070109c748"},
+"status":"unresolvable",
+"reason":"no skill folder named doc-coauthoring at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

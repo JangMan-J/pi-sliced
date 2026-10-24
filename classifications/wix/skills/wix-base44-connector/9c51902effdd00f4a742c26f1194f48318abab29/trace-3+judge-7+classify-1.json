@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wix/skills/wix-base44-connector",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"trace":{"path":"traces/wix/skills/wix-base44-connector/9c51902effdd00f4a742c26f1194f48318abab29/trace-3+judge-7.json","sha256":"764302acc567554c541b8ed5a4fd7cc4512a6982858073aff8dd388d0fd729a9"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":35231,"own":{"files":2,"bytes":35231},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 34 KiB · CLI skills","short":"34 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/wix-base44-connector/SKILL.md:433"]}],
+"security":{"fetch-run":["npx skills @ skills/wix-base44-connector/SKILL.md:433"],"skill-fetch":["npx skills add @ skills/wix-base44-connector/SKILL.md:433"]},
+"companions":{"named":[{"name":"wix-manage","path":"skills/wix-manage"},{"name":"wix-vibe-headless","path":"skills/wix-vibe-headless"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

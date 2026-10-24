@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/next.js/next-ppr-optimizer",
+"revision":"a04ebd7d22071e581f01409336e9d24be5d57974",
+"trace":{"path":"traces/vercel/next.js/next-ppr-optimizer/a04ebd7d22071e581f01409336e9d24be5d57974/trace-3+judge-7.json","sha256":"b05f912618f8cab98a958efdf8ab7ab473bee9473eba435839cd2217f7f6498e"},
+"status":"unresolvable",
+"reason":"no skill folder named next-ppr-optimizer at a04ebd7d22071e581f01409336e9d24be5d57974"
+}

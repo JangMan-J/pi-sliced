@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/exploring-scouts",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/exploring-scouts/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"ef3ea8f4e7395cbe29bf49fbdbee5574c53f3b48d198faf0b076e3eb71a5d294"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":142286,"own":{"files":6,"bytes":142286},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["us.posthog.com"]},"summary":"6 files, 139 KiB · 1 host","short":"139 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from us.posthog.com"]}],
+"security":{},
+"companions":{"named":[{"name":"authoring-scouts","path":"skills/omnibus/authoring-scouts"},{"name":"inbox-exploration","path":"skills/omnibus/inbox-exploration"},{"name":"signals-scout-error-tracking","path":"skills/omnibus/signals-scout-error-tracking"},{"name":"signals-scout-general","path":"skills/omnibus/signals-scout-general"},{"name":"signals-scout-mcp-tool-calls","path":"skills/omnibus/signals-scout-mcp-tool-calls"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

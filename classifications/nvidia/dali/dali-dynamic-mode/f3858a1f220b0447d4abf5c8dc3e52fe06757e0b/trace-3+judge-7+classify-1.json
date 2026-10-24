@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/dali/dali-dynamic-mode",
+"revision":"f3858a1f220b0447d4abf5c8dc3e52fe06757e0b",
+"trace":{"path":"traces/nvidia/dali/dali-dynamic-mode/f3858a1f220b0447d4abf5c8dc3e52fe06757e0b/trace-3+judge-7.json","sha256":"ab5854ec2eca07513dea8c5eac504ba974a3100c582f19642d6eb83b1a2bf0df"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14921,"own":{"files":1,"bytes":14921},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

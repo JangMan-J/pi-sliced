@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"convex-dev/convex/build-convex",
+"revision":"f424d249a83bf8ed0112f4affa16501f1a737022",
+"trace":{"path":"traces/convex-dev/convex/build-convex/f424d249a83bf8ed0112f4affa16501f1a737022/trace-3+judge-7.json","sha256":"099845960cb03f7f6ce9391ef09f1cae313a75252e2b8bce5e690b25a2e47162"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":1840,"own":{"files":1,"bytes":556},"otherSkills":{"count":1,"files":1,"bytes":1284},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 1.8 KiB · +1 other skill","short":"1.8 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at .claude/skills/build-convex"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".claude/skills/build-convex","files":1,"bytes":1284}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

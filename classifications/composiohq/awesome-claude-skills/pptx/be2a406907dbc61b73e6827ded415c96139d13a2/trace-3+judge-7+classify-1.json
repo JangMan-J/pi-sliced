@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"composiohq/awesome-claude-skills/pptx",
+"revision":"be2a406907dbc61b73e6827ded415c96139d13a2",
+"trace":{"path":"traces/composiohq/awesome-claude-skills/pptx/be2a406907dbc61b73e6827ded415c96139d13a2/trace-3+judge-7.json","sha256":"67f6af6c8b9ae7730e2cb8b350b21b13b6bb829690a2ac2a85085d8f7733800f"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":179370,"own":{"files":12,"bytes":179370},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pdftoppm","soffice"],"package":["defusedxml","inventory","libreoffice","pillow","playwright","poppler-utils","pptx","pptxgenjs","react","react-dom","react-icons","sharp","six","validation"],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 175 KiB · CLI pdftoppm, soffice · packages defusedxml +13","short":"175 KiB · 2 CLI · 14 pkg"},
+"heavy":{"heavy":true,"because":["14 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs pdftoppm","runs soffice"]},{"marker":"installs-packages","because":["installs defusedxml","installs inventory","installs libreoffice","installs pillow","installs playwright","installs poppler-utils","installs pptx","installs pptxgenjs","installs react","installs react-dom","installs react-icons","installs sharp","installs six","installs validation"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

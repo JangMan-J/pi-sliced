@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/workflow-fix",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/workflow-fix/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"ba4823c80422622f3aa7c7a5d0ce7e7dc60776524da3a30969fed41f198ba1dd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4237,"own":{"files":1,"bytes":4237},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bwwl","gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.1 KiB · CLI bwwl, gh","short":"4.1 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bwwl","runs gh"]}],
+"security":{},
+"companions":{"named":[{"name":"bitwarden-workflow-linter-rules","path":"plugins/bitwarden-devops-engineer/skills/bitwarden-workflow-linter-rules"},{"name":"workflow-audit","path":"plugins/bitwarden-devops-engineer/skills/workflow-audit"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

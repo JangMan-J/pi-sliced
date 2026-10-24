@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/launchdarkly-flag-targeting",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/launchdarkly-flag-targeting/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"ab253afc004110361d97351c2f860771ce5854907c95562ba2a403adb6431538"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":65149,"own":{"files":5,"bytes":31502},"otherSkills":{"count":2,"files":6,"bytes":33647},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["launchdarkly","optional","required"],"credential":[],"network":[]},"summary":"11 files, 64 KiB · +2 other skills · MCP launchdarkly, optional +1","short":"64 KiB · +2 skills · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the launchdarkly MCP server","uses the optional MCP server","uses the required MCP server"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/feature-flags/launchdarkly-flag-cleanup","pulls in 3 files of the skill at skills/feature-flags/launchdarkly-flag-discovery"]},{"marker":"agent-override-text","because":["\"override all rules\": skills/feature-flags/launchdarkly-flag-targeting/SKILL.md:128, skills/feature-flags/launchdarkly-flag-targeting/references/targeting-patterns.md:220","\"override rules\": skills/feature-flags/launchdarkly-flag-targeting/references/safety-checklist.md:60"]}],
+"security":{"injection":["override all rules @ skills/feature-flags/launchdarkly-flag-targeting/SKILL.md:128, skills/feature-flags/launchdarkly-flag-targeting/references/targeting-patterns.md:220","override rules @ skills/feature-flags/launchdarkly-flag-targeting/references/safety-checklist.md:60"]},
+"companions":{"named":[],"pulled":[{"path":"skills/feature-flags/launchdarkly-flag-cleanup","files":3,"bytes":18631},{"path":"skills/feature-flags/launchdarkly-flag-discovery","files":3,"bytes":15016}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

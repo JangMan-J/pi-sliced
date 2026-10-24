@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/cloud-logging-cross-project-configuration",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/cloud-logging-cross-project-configuration/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"b6fbe13ae6d4fab1db7d3bd722480906ebffb4999fdb1fd06bcb52d660c69f9e"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":21519,"own":{"files":2,"bytes":21519},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 21 KiB · CLI gcloud","short":"21 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

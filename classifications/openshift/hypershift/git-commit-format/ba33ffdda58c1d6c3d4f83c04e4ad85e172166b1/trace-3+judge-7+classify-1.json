@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openshift/hypershift/git-commit-format",
+"revision":"ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1",
+"trace":{"path":"traces/openshift/hypershift/git-commit-format/ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1/trace-3+judge-7.json","sha256":"91eaf256fe051ec0b4b5683af8d21761e2c624cf83b877e2a58b6049be4e015f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4835,"own":{"files":1,"bytes":4835},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Introduce","Remove","api","extends","feat","incoming","key","lang","make","obsolete"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB · CLI Introduce, Remove +8","short":"4.7 KiB · 10 CLI"},
+"heavy":{"heavy":true,"because":["10 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs api","runs extends","runs feat","runs incoming","runs Introduce","runs key","runs lang","runs make","runs obsolete","runs Remove"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

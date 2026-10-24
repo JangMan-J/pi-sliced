@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/dotnet-webapi",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/dotnet-webapi/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"eb527397517d5dd68cc8167466377cf9ff501aae593710d473b0d30d10032466"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":21923,"own":{"files":1,"bytes":21923},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 21 KiB · CLI dotnet","short":"21 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]}],
+"security":{},
+"companions":{"named":[{"name":"optimizing-ef-core-queries","path":"plugins/dotnet-data/skills/optimizing-ef-core-queries"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

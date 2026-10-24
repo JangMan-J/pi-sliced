@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/workerd/test-driven-investigation",
+"revision":"b50b4cce23a0d026033d7ba0f8732d0cff3303c9",
+"trace":{"path":"traces/cloudflare/workerd/test-driven-investigation/b50b4cce23a0d026033d7ba0f8732d0cff3303c9/trace-3+judge-7.json","sha256":"066c21aa869d7d0a383c9d96288631449cb85afa5a76d710b1abf971bf6c6c25"},
+"status":"unresolvable",
+"reason":"no skill folder named test-driven-investigation at b50b4cce23a0d026033d7ba0f8732d0cff3303c9"
+}

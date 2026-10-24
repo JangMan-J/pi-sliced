@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/fabric-apps-analytic-templates/data-fetching",
+"source":"microsoft/fabric-apps-analytic-templates",
+"revision":"35948c76d93552aa7e2dcd98afe026fcd3d1ed9c",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named data-fetching at 35948c76d93552aa7e2dcd98afe026fcd3d1ed9c",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

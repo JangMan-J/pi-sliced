@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/webreel/webreel",
+"revision":"6d77a6ad0b66170b033488b56f42675a59b3846d",
+"trace":{"path":"traces/vercel-labs/webreel/webreel/6d77a6ad0b66170b033488b56f42675a59b3846d/trace-3+judge-7.json","sha256":"ae7395dd3fa89406a7132c807ee6ee475f2ff82aa27d9bdf63071b45a0e0b35e"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":27955,"own":{"files":3,"bytes":27955},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["webreel"],"package":["webreel"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 27 KiB · CLI webreel · packages webreel","short":"27 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs webreel"]},{"marker":"installs-packages","because":["installs webreel"]},{"marker":"unpinned-code","because":["npx webreel: skills/webreel/SKILL.md:27, skills/webreel/SKILL.md:28, skills/webreel/SKILL.md:51"]}],
+"security":{"fetch-run":["npx webreel @ skills/webreel/SKILL.md:27, skills/webreel/SKILL.md:28, skills/webreel/SKILL.md:51 +2"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

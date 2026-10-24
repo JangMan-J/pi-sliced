@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/composing-grid-canvases",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/composing-grid-canvases/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"a03704282525476c15c881becc834c9db359b8b2c94be4a23802c3e8bf7b0280"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":27983,"own":{"files":2,"bytes":15203},"otherSkills":{"count":1,"files":1,"bytes":12780},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 27 KiB · +1 other skill","short":"27 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/omnibus/validating-and-publishing-canvases"]}],
+"security":{},
+"companions":{"named":[{"name":"building-canvases","path":"skills/omnibus/building-canvases"},{"name":"building-html-canvases","path":"skills/omnibus/building-html-canvases"},{"name":"building-react-quill-canvases","path":"skills/omnibus/building-react-quill-canvases"},{"name":"querying-canvas-data","path":"skills/omnibus/querying-canvas-data"},{"name":"validating-and-publishing-canvases","path":"skills/omnibus/validating-and-publishing-canvases"}],"pulled":[{"path":"skills/omnibus/validating-and-publishing-canvases","files":1,"bytes":12780}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

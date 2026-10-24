@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/winappcli/winapp-package",
+"revision":"6564e7adba6d339f2b06868baca050e54687a2b3",
+"trace":{"path":"traces/microsoft/winappcli/winapp-package/6564e7adba6d339f2b06868baca050e54687a2b3/trace-3+judge-7.json","sha256":"9767dcdfc925e2b36f6ba40f80bb237a92899c24f6e6264d22f490ebbb7a6f44"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11738,"own":{"files":1,"bytes":11738},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Add-AppxPackage","Get-AppxPackage","Remove-AppxPackage","winapp"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · CLI Add-AppxPackage, Get-AppxPackage +2","short":"11 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Add-AppxPackage","runs Get-AppxPackage","runs Remove-AppxPackage","runs winapp"]}],
+"security":{},
+"companions":{"named":[{"name":"winapp-frameworks","path":"plugins/winapp/skills/winapp-frameworks"},{"name":"winapp-manifest","path":"plugins/winapp/skills/winapp-manifest"},{"name":"winapp-signing","path":"plugins/winapp/skills/winapp-signing"},{"name":"winapp-troubleshoot","path":"plugins/winapp/skills/winapp-troubleshoot"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

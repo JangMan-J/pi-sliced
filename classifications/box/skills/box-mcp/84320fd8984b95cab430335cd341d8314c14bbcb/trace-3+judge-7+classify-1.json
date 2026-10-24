@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"box/skills/box-mcp",
+"revision":"84320fd8984b95cab430335cd341d8314c14bbcb",
+"trace":{"path":"traces/box/skills/box-mcp/84320fd8984b95cab430335cd341d8314c14bbcb/trace-3+judge-7.json","sha256":"cb026e782bc4e77480e0759a202c894a9b77c2b01b5be28aac0e50ddd5619216"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6073,"own":{"files":1,"bytes":6073},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["developer.box.com","docs.box.com"]},"summary":"1 file, 5.9 KiB · 2 hosts","short":"5.9 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from developer.box.com","fetches from docs.box.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

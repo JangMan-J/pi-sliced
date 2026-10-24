@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/setup-solution",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/setup-solution/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"02ce4506d5a83622a43f5c6f6f09b46dc5ff3df05dddf0e38dda67b773ceec1a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":71259,"own":{"files":1,"bytes":71259},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["learn.microsoft.com"]},"summary":"1 file, 70 KiB · 1 host","short":"70 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from learn.microsoft.com"]}],
+"security":{},
+"companions":{"named":[{"name":"add-cloud-flow","path":"plugins/power-pages/skills/add-cloud-flow"},{"name":"add-server-logic","path":"plugins/power-pages/skills/add-server-logic"},{"name":"configure-env-variables","path":"plugins/power-pages/skills/configure-env-variables"},{"name":"deploy-pipeline","path":"plugins/power-pages/skills/deploy-pipeline"},{"name":"export-solution","path":"plugins/power-pages/skills/export-solution"},{"name":"import-solution","path":"plugins/power-pages/skills/import-solution"},{"name":"plan-alm","path":"plugins/power-pages/skills/plan-alm"},{"name":"setup-auth","path":"plugins/power-pages/skills/setup-auth"},{"name":"setup-pipeline","path":"plugins/power-pages/skills/setup-pipeline"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/android-performance",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/android-performance/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"676795a7c4798f1232e932dc83badc19ddbf3d2118c970f4e8e8e7bccb7ed7a6"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":33143,"own":{"files":3,"bytes":24698},"otherSkills":{"count":1,"files":3,"bytes":8445},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Generates","adb","as","buffers","columns","config","count","data_sources","desc","frame.name","from","group","having","heapprofd_config","join","like","limit","mapping.name","name","or","order","pidof","print","rg","shared_object","shark-cli","size","sub","union","where","with"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 32 KiB · +1 other skill · CLI Generates, adb +29","short":"32 KiB · +1 skill · 31 CLI"},
+"heavy":{"heavy":true,"because":["31 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs as","runs buffers","runs columns","runs config","runs count","runs data_sources","runs desc","runs frame.name","runs from","runs Generates","runs group","runs having","runs heapprofd_config","runs join","runs like","runs limit","runs mapping.name","runs name","runs or","runs order","runs pidof","runs print","runs rg","runs shared_object","runs shark-cli","runs size","runs sub","runs union","runs where","runs with"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at plugins/test-android-apps/skills/android-emulator-qa"]}],
+"security":{},
+"companions":{"named":[{"name":"android-emulator-qa","path":"plugins/test-android-apps/skills/android-emulator-qa"}],"pulled":[{"path":"plugins/test-android-apps/skills/android-emulator-qa","files":3,"bytes":8445}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

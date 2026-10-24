@@ -2,7 +2,7 @@
 
 A Classification describes what a skill pulls in. Deterministic code computes it from its stored Trace (`pi-sliced.trace/2`) alone, with no model, network or file contents. `scripts/rederive` rebuilds every Classification byte for byte.
 
-- **Path:** `classifications/<owner>/<repo>/<name>/<revision>/<tracer>+<judge>+classify-1.json`.
+- **Path:** `classifications/<owner>/<repo>/<name>/<revision>/<tracer>+<judge>+classify-1.json`. One JSON object, one top-level key per line.
 - **Coverage:** every stored `/2` Trace has one.
 - **Companion index:** reverse edges are kept in a separate file, `classifications/companions.json` (format `pi-sliced.companions/1`), rebuilt from every current Trace. For each skill folder it lists the Candidates that name it (`namedBy`) or pull in its files (`pulledBy`).
 

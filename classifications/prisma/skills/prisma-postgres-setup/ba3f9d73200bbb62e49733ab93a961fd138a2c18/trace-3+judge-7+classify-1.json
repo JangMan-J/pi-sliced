@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/skills/prisma-postgres-setup",
+"revision":"ba3f9d73200bbb62e49733ab93a961fd138a2c18",
+"trace":{"path":"traces/prisma/skills/prisma-postgres-setup/ba3f9d73200bbb62e49733ab93a961fd138a2c18/trace-3+judge-7.json","sha256":"69867c968c71b09b06ea306efe87f8790b38a19da6e5a47214e29dc058181e56"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":21094,"own":{"files":4,"bytes":21094},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@prisma/cli","create-db","vercel"],"package":[],"mcp-server":["marketplace","prisma"],"credential":[],"network":["github.com"]},"summary":"4 files, 21 KiB · MCP marketplace, prisma · CLI @prisma/cli, create-db +1 · 1 host","short":"21 KiB · 3 CLI · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @prisma/cli","runs create-db","runs vercel"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"mcp-server","because":["uses the marketplace MCP server","uses the prisma MCP server"]},{"marker":"unpinned-code","because":["npx @prisma/cli@latest: prisma-postgres-setup/references/provisioning.md:10","npx create-db: prisma-postgres-setup/SKILL.md:3","npx create-db@latest: prisma-postgres-setup/SKILL.md:27, prisma-postgres-setup/references/provisioning.md:37, prisma-postgres-setup/references/provisioning.md:38"]}],
+"security":{"fetch-run":["npx @prisma/cli@latest @ prisma-postgres-setup/references/provisioning.md:10","npx create-db @ prisma-postgres-setup/SKILL.md:3","npx create-db@latest @ prisma-postgres-setup/SKILL.md:27, prisma-postgres-setup/references/provisioning.md:37, prisma-postgres-setup/references/provisioning.md:38"]},
+"companions":{"named":[{"name":"prisma-orm-setup","path":"prisma-orm-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

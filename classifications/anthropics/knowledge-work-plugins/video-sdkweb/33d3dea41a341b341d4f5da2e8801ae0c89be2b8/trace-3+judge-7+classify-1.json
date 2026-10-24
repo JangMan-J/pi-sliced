@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/video-sdkweb",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/video-sdkweb/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"452087d988c7eb3ed1062547d9c10470f055ff2fbf16888e303086e804699562"},
+"status":"unresolvable",
+"reason":"no skill folder named video-sdkweb at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

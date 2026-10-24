@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/libfuzzer",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/libfuzzer/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"810854275f6fbd3581ed9b9913c92ac1e4623e005bf63713d1d9f532a3405184"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":24234,"own":{"files":1,"bytes":24234},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["clang++","cmake","llvm-cov","llvm-profdata","make","man","nix-env","strings"],"package":["clang","clang-18","llvm","llvm-18","zlib1g-dev"],"mcp-server":[],"credential":[],"network":["downloads.sourceforge.net","github.com","raw.githubusercontent.com"]},"summary":"1 file, 24 KiB · CLI clang++, cmake +6 · packages clang +4 · 3 hosts","short":"24 KiB · 8 CLI · 5 pkg · 3 hosts"},
+"heavy":{"heavy":true,"because":["5 packages to install","8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs clang++","runs cmake","runs llvm-cov","runs llvm-profdata","runs make","runs man","runs nix-env","runs strings"]},{"marker":"installs-packages","because":["installs clang","installs clang-18","installs llvm","installs llvm-18","installs zlib1g-dev"]},{"marker":"network","because":["fetches from downloads.sourceforge.net","fetches from github.com","fetches from raw.githubusercontent.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

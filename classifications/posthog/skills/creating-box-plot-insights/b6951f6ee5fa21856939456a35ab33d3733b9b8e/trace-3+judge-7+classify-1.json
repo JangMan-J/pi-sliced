@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/creating-box-plot-insights",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/creating-box-plot-insights/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"29430fc94fb448bab06b47c05282a059a70bb8822a3c27e7a2c7684d6f13d104"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":7336,"own":{"files":2,"bytes":7336},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 7.2 KiB","short":"7.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"building-a-dashboard","path":"skills/omnibus/building-a-dashboard"},{"name":"formatting-insight-axes","path":"skills/omnibus/formatting-insight-axes"},{"name":"querying-posthog-data","path":"skills/omnibus/querying-posthog-data"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

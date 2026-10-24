@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/protocolsio-integration",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/protocolsio-integration/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"7f67924013a48d39f6191d84a6337e3437403c2ba1ddea06f699800bbe6fb8cc"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":134319,"own":{"files":13,"bytes":134319},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["pagination_helper"],"mcp-server":["official"],"credential":[],"network":["arxiv.org","protocols.io","www.protocols.io"]},"summary":"13 files, 131 KiB · MCP official · packages pagination_helper · 3 hosts","short":"131 KiB · 1 pkg · 3 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server"]},
+"markers":[{"marker":"installs-packages","because":["installs pagination_helper"]},{"marker":"network","because":["fetches from arxiv.org","fetches from protocols.io","fetches from www.protocols.io"]},{"marker":"mcp-server","because":["uses the official MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

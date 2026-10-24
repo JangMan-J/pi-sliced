@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/eventhouse-consumption-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/eventhouse-consumption-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"dab65d748d136c8875e94d7f67ccb7e199cf93ac9c16e7019591d6dd16857480"},
+"status":"unresolvable",
+"reason":"no skill folder named eventhouse-consumption-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

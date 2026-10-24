@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mongodb/agent-skills/mongodb-schema-design",
+"revision":"155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+"trace":{"path":"traces/mongodb/agent-skills/mongodb-schema-design/155bb9c4b42a9a3e019f47be0669de0e4547d1ea/trace-3+judge-7.json","sha256":"70847fd5c0bebc3c6d96db1a7396c7f71d65e6e2b6d3f82c5a05c02885aa721b"},
+"status":"resolved",
+"footprint":{"files":21,"bytes":121162,"own":{"files":21,"bytes":121162},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["mongodb"],"credential":[],"network":[]},"summary":"21 files, 118 KiB · MCP mongodb","short":"118 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the mongodb MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

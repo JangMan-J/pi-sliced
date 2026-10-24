@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"neondatabase/neon-for-agent-platforms/neon-postgres-agent-platforms",
+"source":"neondatabase/neon-for-agent-platforms",
+"revision":"028b69be7180122a2701131f5286104b9e79b10b",
+"skillPath":"skills/neon-postgres-agent-platforms",
+"status":"resolved",
+"totals":{"files":1,"bytes":20827},
+"files":[
+{"path":"skills/neon-postgres-agent-platforms/SKILL.md","size":20827,"blob":"75491dc1c6ed8c9619178aa7aef12842cdf33d9d","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,47]]},
+{"kind":"mcp-server","name":"neon","at":[[0,70]]}
+],
+"regions":[
+{"kind":"own","path":"skills/neon-postgres-agent-platforms","files":1,"bytes":20827}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,47]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,47]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":"Apache-2.0"}
+}

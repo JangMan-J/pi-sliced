@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"signoz/agent-skills/signoz-creating-alerts",
+"revision":"cc3724d8c4b305f6c767507fd34b68a6364a2a9d",
+"trace":{"path":"traces/signoz/agent-skills/signoz-creating-alerts/cc3724d8c4b305f6c767507fd34b68a6364a2a9d/trace-3+judge-7.json","sha256":"c004642e131602d2122bf1b8730ff2ea575b05e704715d58bda58019af4e40cf"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":32298,"own":{"files":2,"bytes":32298},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["missing"],"package":[],"mcp-server":["signoz","the"],"credential":[],"network":[]},"summary":"2 files, 32 KiB · MCP signoz, the · CLI missing","short":"32 KiB · 1 CLI · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs missing"]},{"marker":"mcp-server","because":["uses the signoz MCP server","uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"signoz-explaining-alerts","path":"plugins/signoz/skills/signoz-explaining-alerts"},{"name":"signoz-generating-queries","path":"plugins/signoz/skills/signoz-generating-queries"},{"name":"signoz-investigating-alerts","path":"plugins/signoz/skills/signoz-investigating-alerts"},{"name":"signoz-mcp-setup","path":"plugins/signoz/skills/signoz-mcp-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

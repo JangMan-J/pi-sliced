@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/remotion-studio",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/remotion-studio/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"d4e4ed52f86b45bf83535fb4adff01020ec8b3b58b03c628e7e33c07a3f2394f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":958,"own":{"files":1,"bytes":958},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["remotion"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 958 B · CLI remotion","short":"958 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs remotion"]},{"marker":"stub","because":["own folder 958 B (1 file)","content is the remotion it wraps"]},{"marker":"unpinned-code","because":["npx remotion: plugins/remotion/skills/remotion-studio/SKILL.md:10"]}],
+"security":{"fetch-run":["npx remotion @ plugins/remotion/skills/remotion-studio/SKILL.md:10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

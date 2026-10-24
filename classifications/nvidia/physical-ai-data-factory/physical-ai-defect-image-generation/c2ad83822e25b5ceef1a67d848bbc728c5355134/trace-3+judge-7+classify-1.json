@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/physical-ai-data-factory/physical-ai-defect-image-generation",
+"revision":"c2ad83822e25b5ceef1a67d848bbc728c5355134",
+"trace":{"path":"traces/nvidia/physical-ai-data-factory/physical-ai-defect-image-generation/c2ad83822e25b5ceef1a67d848bbc728c5355134/trace-3+judge-7.json","sha256":"93a0f56fea34364519336748df0ee87af61f5bbfd90075919112a45a4cf7c0ac"},
+"status":"unresolvable",
+"reason":"no skill folder named physical-ai-defect-image-generation at c2ad83822e25b5ceef1a67d848bbc728c5355134"
+}

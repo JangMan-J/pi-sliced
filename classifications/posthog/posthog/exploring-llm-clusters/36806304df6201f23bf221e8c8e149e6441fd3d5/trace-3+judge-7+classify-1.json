@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/exploring-llm-clusters",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/exploring-llm-clusters/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"16349ceeb88b86945aebddc020cd639f95e6393c431db3b3998a748e25b39d82"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":16277,"own":{"files":2,"bytes":16277},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 16 KiB","short":"16 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"exploring-llm-traces","path":"products/ai_observability/skills/exploring-llm-traces"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/next.js/next-compile",
+"revision":"a04ebd7d22071e581f01409336e9d24be5d57974",
+"trace":{"path":"traces/vercel/next.js/next-compile/a04ebd7d22071e581f01409336e9d24be5d57974/trace-3+judge-7.json","sha256":"adfe28c1c2b2804e176f49b38f165a27214b360a51764ce8187febfe4b8e18a4"},
+"status":"unresolvable",
+"reason":"no skill folder named next-compile at a04ebd7d22071e581f01409336e9d24be5d57974"
+}

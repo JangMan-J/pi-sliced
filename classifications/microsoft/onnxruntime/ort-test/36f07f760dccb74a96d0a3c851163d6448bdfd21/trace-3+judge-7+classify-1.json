@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/onnxruntime/ort-test",
+"revision":"36f07f760dccb74a96d0a3c851163d6448bdfd21",
+"trace":{"path":"traces/microsoft/onnxruntime/ort-test/36f07f760dccb74a96d0a3c851163d6448bdfd21/trace-3+judge-7.json","sha256":"900d3ba8d3bb8860ccd95cbcb8fb91e51349597db38848200227f03c7d5b03f9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7343,"own":{"files":1,"bytes":7343},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Select-Object","pytest"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.2 KiB · CLI Select-Object, pytest","short":"7.2 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs pytest","runs Select-Object"]}],
+"security":{},
+"companions":{"named":[{"name":"cuda-attention-kernel-patterns","path":".github/skills/cuda-attention-kernel-patterns"},{"name":"cuda-cutlass-fmha-incremental-rebuild","path":".github/skills/cuda-cutlass-fmha-incremental-rebuild"},{"name":"webgpu-local-testing","path":".github/skills/webgpu-local-testing"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

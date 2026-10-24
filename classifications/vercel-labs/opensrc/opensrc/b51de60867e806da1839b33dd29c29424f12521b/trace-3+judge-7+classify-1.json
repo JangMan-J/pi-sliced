@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/opensrc/opensrc",
+"revision":"b51de60867e806da1839b33dd29c29424f12521b",
+"trace":{"path":"traces/vercel-labs/opensrc/opensrc/b51de60867e806da1839b33dd29c29424f12521b/trace-3+judge-7.json","sha256":"97610e661546e86a5832b48f5ec1ef5372a474e35cb0b74913a754636a75a34a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2877,"own":{"files":1,"bytes":2877},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["opensrc","rg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.8 KiB · CLI opensrc, rg","short":"2.8 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs opensrc","runs rg"]},{"marker":"stub","because":["own folder 2.8 KiB (1 file)","content is the opensrc, rg it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sandbox-sdk/session-execution",
+"revision":"643233e5159d5d9d184f50196c8294f451745004",
+"trace":{"path":"traces/cloudflare/sandbox-sdk/session-execution/643233e5159d5d9d184f50196c8294f451745004/trace-3+judge-7.json","sha256":"fd46f4aa2f9dc5c362bdb1f7f8ec5ae86412d919fa910f2b581a29c640debf2e"},
+"status":"unresolvable",
+"reason":"no skill folder named session-execution at 643233e5159d5d9d184f50196c8294f451745004"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/phoenix-tracing",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/phoenix-tracing/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"f89923b7543935af3a1cd51f0322b7eaa5853cc28f704a2c9c5ef1bd417f5a97"},
+"status":"resolved",
+"footprint":{"files":31,"bytes":86370,"own":{"files":31,"bytes":86370},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@arizeai/phoenix-cli","jq"],"package":["@arizeai/openinference-core","@arizeai/openinference-instrumentation-__v__","@arizeai/phoenix-otel","arize-phoenix-otel","openinference-instrumentation-__v__","openinference-instrumentation-langchain","openinference-instrumentation-llama-index","openinference-instrumentation-openai"],"mcp-server":[],"credential":["PHOENIX_API_KEY"],"network":[]},"summary":"31 files, 84 KiB · CLI @arizeai/phoenix-cli, jq · packages @arizeai/openinference-core +7 · 1 key","short":"84 KiB · 2 CLI · 8 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["8 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @arizeai/phoenix-cli","runs jq"]},{"marker":"installs-packages","because":["installs @arizeai/openinference-core","installs @arizeai/openinference-instrumentation-__v__","installs @arizeai/phoenix-otel","installs arize-phoenix-otel","installs openinference-instrumentation-__v__","installs openinference-instrumentation-langchain","installs openinference-instrumentation-llama-index","installs openinference-instrumentation-openai"]},{"marker":"credentials","because":["needs PHOENIX_API_KEY"]},{"marker":"unpinned-code","because":["npx @arizeai/phoenix-cli: skills/phoenix-tracing/references/sessions-typescript.md:96"]}],
+"security":{"fetch-run":["npx @arizeai/phoenix-cli @ skills/phoenix-tracing/references/sessions-typescript.md:96"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

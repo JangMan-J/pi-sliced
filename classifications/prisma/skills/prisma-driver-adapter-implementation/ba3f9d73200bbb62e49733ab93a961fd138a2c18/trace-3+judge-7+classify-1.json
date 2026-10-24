@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/skills/prisma-driver-adapter-implementation",
+"revision":"ba3f9d73200bbb62e49733ab93a961fd138a2c18",
+"trace":{"path":"traces/prisma/skills/prisma-driver-adapter-implementation/ba3f9d73200bbb62e49733ab93a961fd138a2c18/trace-3+judge-7.json","sha256":"8b80e2ea378970f5049c729dcab4bc86ba0380fb665c7a4f4c5bdbc0c7cce559"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11399,"own":{"files":1,"bytes":11399},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"posthog/posthog/react-doctor",
+"source":"posthog/posthog",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"skillPath":".agents/skills/react-doctor",
+"status":"resolved",
+"totals":{"files":1,"bytes":1481},
+"files":[
+{"path":".agents/skills/react-doctor/SKILL.md","size":1481,"blob":"afcf11d73f2c16be644fe4c8ed1798dbdfbc9212","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"react-doctor","at":[[0,14]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/react-doctor","files":1,"bytes":1481}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx react-doctor@latest","at":[[0,14]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

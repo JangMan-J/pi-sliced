@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/changelog",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/changelog/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"a4cd082142896bf2346dc6bec7afd38d5d097563af56f5e1023efb7741ee6870"},
+"status":"unresolvable",
+"reason":"no skill folder named changelog at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

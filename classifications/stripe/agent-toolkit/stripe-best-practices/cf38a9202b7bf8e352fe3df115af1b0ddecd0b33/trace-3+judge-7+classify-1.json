@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/agent-toolkit/stripe-best-practices",
+"revision":"cf38a9202b7bf8e352fe3df115af1b0ddecd0b33",
+"trace":{"path":"traces/stripe/agent-toolkit/stripe-best-practices/cf38a9202b7bf8e352fe3df115af1b0ddecd0b33/trace-3+judge-7.json","sha256":"cec3caa93d21f0e2b1c1b92a79fd3ebbca12169881bf2057cfe43034f62285a8"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":30283,"own":{"files":2,"bytes":30283},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["stripe"],"package":["@stripe/cli"],"mcp-server":[],"credential":[],"network":["docs.stripe.com"]},"summary":"2 files, 30 KiB · CLI stripe · packages @stripe/cli · 1 host","short":"30 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs stripe"]},{"marker":"installs-packages","because":["installs @stripe/cli"]},{"marker":"network","because":["fetches from docs.stripe.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

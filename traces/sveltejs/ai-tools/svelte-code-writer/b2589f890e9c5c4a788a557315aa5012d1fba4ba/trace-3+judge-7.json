@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"sveltejs/ai-tools/svelte-code-writer",
+"source":"sveltejs/ai-tools",
+"revision":"b2589f890e9c5c4a788a557315aa5012d1fba4ba",
+"skillPath":"tools/skills/svelte-code-writer",
+"status":"resolved",
+"totals":{"files":1,"bytes":2093},
+"files":[
+{"path":"tools/skills/svelte-code-writer/SKILL.md","size":2093,"blob":"491c425652184a6f37e7154ac73d0d5217dbb0ff","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@sveltejs/mcp","at":[[0,13],[0,21],[0,29],[0,35],[0,49],[0,52],[0,55]]}
+],
+"regions":[
+{"kind":"own","path":"tools/skills/svelte-code-writer","files":1,"bytes":2093}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @sveltejs/mcp","at":[[0,13],[0,21],[0,29],[0,35],[0,49],[0,52],[0,55]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

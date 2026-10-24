@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coderabbitai/codex-plugin/code-review",
+"revision":"35779b453cca18aa7cd3176f0bb73a8c75d11da8",
+"trace":{"path":"traces/coderabbitai/codex-plugin/code-review/35779b453cca18aa7cd3176f0bb73a8c75d11da8/trace-3+judge-7.json","sha256":"ead40ee15595cf099bbf816f3b01a7104c3873b64250500c47852638f7d2b224"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":12418,"own":{"files":3,"bytes":12418},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["coderabbit","review"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 12 KiB · CLI coderabbit, review","short":"12 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs coderabbit","runs review"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/engineering-agent-skills/code-explainer",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/engineering-agent-skills/code-explainer/none/trace-3+judge-7.json","sha256":"36e31f831d3d0966de04df342a2e435e6f20599896d12751bf05735d57c324a9"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"
+}

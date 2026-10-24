@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"webflow/webflow-skills/webflow-code-component-troubleshoot-deploy",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"trace":{"path":"traces/webflow/webflow-skills/webflow-code-component-troubleshoot-deploy/e0c5321c054a87184484c638f5c490c2083d8639/trace-3+judge-7.json","sha256":"98232f44661ace6c3e1b0ff400951b7eed2b6f13b9f9478ce0f036205736f668"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":20093,"own":{"files":2,"bytes":20093},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tsc","webflow"],"package":["@webflow/data-types","@webflow/react","@webflow/webflow-cli"],"mcp-server":[],"credential":["WEBFLOW_WORKSPACE_API_TOKEN"],"network":[]},"summary":"2 files, 20 KiB · CLI tsc, webflow · packages @webflow/data-types +2 · 1 key","short":"20 KiB · 2 CLI · 3 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs tsc","runs webflow"]},{"marker":"installs-packages","because":["installs @webflow/data-types","installs @webflow/react","installs @webflow/webflow-cli"]},{"marker":"credentials","because":["needs WEBFLOW_WORKSPACE_API_TOKEN"]},{"marker":"unpinned-code","because":["npx tsc: plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:77, plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:126","npx webflow: plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:33, plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:34, plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:96"]}],
+"security":{"fetch-run":["npx tsc @ plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:77, plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:126","npx webflow @ plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:33, plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:34, plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md:96 +8"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

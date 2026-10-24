@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/pup/dd-apm",
+"revision":"6c3a4707f5ab87688566020d868a50810db08166",
+"trace":{"path":"traces/datadog-labs/pup/dd-apm/6c3a4707f5ab87688566020d868a50810db08166/trace-3+judge-7.json","sha256":"f39a5771cb2f02ed37c3a14a36a9bb0265ecdf5a6653c2930d309a972bfd2bd8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6027,"own":{"files":1,"bytes":6027},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pup"],"package":["pup"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.9 KiB · CLI pup · packages pup","short":"5.9 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pup"]},{"marker":"installs-packages","because":["installs pup"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

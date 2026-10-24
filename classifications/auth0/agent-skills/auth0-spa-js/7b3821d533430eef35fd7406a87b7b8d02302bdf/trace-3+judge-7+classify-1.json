@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"auth0/agent-skills/auth0-spa-js",
+"revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf",
+"trace":{"path":"traces/auth0/agent-skills/auth0-spa-js/7b3821d533430eef35fd7406a87b7b8d02302bdf/trace-3+judge-7.json","sha256":"782f85777cdafd6fe456d416b9aa9d5e0d1696a45e4b4dfaccd5011653006b90"},
+"status":"unresolvable",
+"reason":"no skill folder named auth0-spa-js at 7b3821d533430eef35fd7406a87b7b8d02302bdf"
+}

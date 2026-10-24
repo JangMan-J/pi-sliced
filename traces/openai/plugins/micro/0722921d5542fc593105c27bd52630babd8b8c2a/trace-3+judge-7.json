@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/micro",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/micro",
+"status":"resolved",
+"totals":{"files":1,"bytes":4001},
+"files":[
+{"path":"plugins/vercel/skills/micro/SKILL.md","size":4001,"blob":"78039a98d92cf1de2ca56a1c8fea27b2b09273f2","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"micro","at":[[0,59]]},
+{"kind":"cli","name":"micro-dev","at":[[0,128]]},
+{"kind":"package","name":"micro","at":[[0,28]]},
+{"kind":"package","name":"micro-dev","at":[[0,125]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/micro","files":1,"bytes":4001}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx micro","at":[[0,59]]},
+{"kind":"fetch-run","detail":"npx micro-dev","at":[[0,128]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

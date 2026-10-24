@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/ai-tooling/launchdarkly-metric-choose",
+"revision":"820a0418af1725eebdd10922b22edaa88ce694dd",
+"trace":{"path":"traces/launchdarkly/ai-tooling/launchdarkly-metric-choose/820a0418af1725eebdd10922b22edaa88ce694dd/trace-3+judge-7.json","sha256":"dc8b0b3a6d6f4469ef220c604cc9f5ad8e07b8ee83fa77c90a6dbbdabc7a7c86"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":44894,"own":{"files":1,"bytes":10281},"otherSkills":{"count":2,"files":3,"bytes":34613},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","gem","go"],"package":["@launchdarkly/node-server-sdk","LaunchDarkly.ServerSdk","github.com/launchdarkly/go-server-sdk/v7","launchdarkly-js-client-sdk","launchdarkly-react-client-sdk","launchdarkly-server-sdk"],"mcp-server":["launchdarkly","optional","required"],"credential":[],"network":[]},"summary":"4 files, 44 KiB · +2 other skills · MCP launchdarkly, optional +1 · CLI dotnet, gem +1 · packages @launchdarkly/node-server-sdk +5","short":"44 KiB · +2 skills · 3 CLI · 6 pkg · MCP 3"},
+"heavy":{"heavy":true,"because":["6 packages to install","3 MCP servers","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs gem","runs go"]},{"marker":"installs-packages","because":["installs @launchdarkly/node-server-sdk","installs github.com/launchdarkly/go-server-sdk/v7","installs launchdarkly-js-client-sdk","installs launchdarkly-react-client-sdk","installs launchdarkly-server-sdk","installs LaunchDarkly.ServerSdk"]},{"marker":"mcp-server","because":["uses the launchdarkly MCP server","uses the optional MCP server","uses the required MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/metrics/launchdarkly-metric-create","pulls in 2 files of the skill at skills/metrics/launchdarkly-metric-instrument"]}],
+"security":{},
+"companions":{"named":[{"name":"launchdarkly-metric-create","path":"skills/metrics/launchdarkly-metric-create"},{"name":"launchdarkly-metric-instrument","path":"skills/metrics/launchdarkly-metric-instrument"}],"pulled":[{"path":"skills/metrics/launchdarkly-metric-create","files":1,"bytes":18326},{"path":"skills/metrics/launchdarkly-metric-instrument","files":2,"bytes":16287}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

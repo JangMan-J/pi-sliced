@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tavily-ai/skills/tavily-dynamic-search",
+"revision":"778122e5f9c680f541eeceda5a5b36405eb7980c",
+"trace":{"path":"traces/tavily-ai/skills/tavily-dynamic-search/778122e5f9c680f541eeceda5a5b36405eb7980c/trace-3+judge-7.json","sha256":"ed7a9526661c53945fe7e34fd1429c63265cf80f152bf8d5632c8094160bf2d2"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":10863,"own":{"files":1,"bytes":5963},"otherSkills":{"count":1,"files":1,"bytes":4900},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Path","content","f","from","import","jq","or","raw_content","result.get","score","sys.stdin","tavily-search-results.json","tvly","url"],"package":["tavily-cli"],"mcp-server":[],"credential":[],"network":["cli.tavily.com"]},"summary":"2 files, 11 KiB · +1 other skill · CLI Path, content +12 · packages tavily-cli · 1 host","short":"11 KiB · +1 skill · 14 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","14 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs content","runs f","runs from","runs import","runs jq","runs or","runs Path","runs raw_content","runs result.get","runs score","runs sys.stdin","runs tavily-search-results.json","runs tvly","runs url"]},{"marker":"installs-packages","because":["installs tavily-cli"]},{"marker":"network","because":["fetches from cli.tavily.com"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/tavily-cli"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/tavily-cli/SKILL.md:22"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/tavily-cli/SKILL.md:22"]},
+"companions":{"named":[{"name":"tavily-cli","path":"skills/tavily-cli"},{"name":"tavily-crawl","path":"skills/tavily-crawl"},{"name":"tavily-search","path":"skills/tavily-search"}],"pulled":[{"path":"skills/tavily-cli","files":1,"bytes":4900}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

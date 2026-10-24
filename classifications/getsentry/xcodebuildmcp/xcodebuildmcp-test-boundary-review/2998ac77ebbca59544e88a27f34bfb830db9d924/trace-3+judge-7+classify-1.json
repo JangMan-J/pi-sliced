@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/xcodebuildmcp/xcodebuildmcp-test-boundary-review",
+"revision":"2998ac77ebbca59544e88a27f34bfb830db9d924",
+"trace":{"path":"traces/getsentry/xcodebuildmcp/xcodebuildmcp-test-boundary-review/2998ac77ebbca59544e88a27f34bfb830db9d924/trace-3+judge-7.json","sha256":"b04ffd81a155285765f4d06fa529768426514bab81a5100887aeb6a558eab645"},
+"status":"unresolvable",
+"reason":"no skill folder named xcodebuildmcp-test-boundary-review at 2998ac77ebbca59544e88a27f34bfb830db9d924"
+}

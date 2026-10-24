@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/nextjs",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/nextjs/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"6f0344239437c175059fe943c5a1e67b935d0d90a099abed98f807c4595bb04e"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":81906,"own":{"files":20,"bytes":81906},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@next/codemod","@opennextjs/aws","create-sst","next","pm2"],"package":[],"mcp-server":[],"credential":[],"network":["nextjs.org"]},"summary":"20 files, 80 KiB · CLI @next/codemod, @opennextjs/aws +3 · 1 host","short":"80 KiB · 5 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @next/codemod","runs @opennextjs/aws","runs create-sst","runs next","runs pm2"]},{"marker":"network","because":["fetches from nextjs.org"]},{"marker":"unpinned-code","because":["npx @next/codemod@latest: plugins/vercel/skills/nextjs/references/async-patterns.md:86, plugins/vercel/skills/nextjs/references/file-conventions.md:136","npx @opennextjs/aws: plugins/vercel/skills/nextjs/references/self-hosting.md:316","npx create-sst@latest: plugins/vercel/skills/nextjs/references/self-hosting.md:314"]}],
+"security":{"fetch-run":["npx @next/codemod@latest @ plugins/vercel/skills/nextjs/references/async-patterns.md:86, plugins/vercel/skills/nextjs/references/file-conventions.md:136","npx @opennextjs/aws @ plugins/vercel/skills/nextjs/references/self-hosting.md:316","npx create-sst@latest @ plugins/vercel/skills/nextjs/references/self-hosting.md:314"]},
+"companions":{"named":[{"name":"config","path":"plugins/circleci/skills/config"},{"name":"next-cache-components","path":"plugins/vercel/skills/next-cache-components"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

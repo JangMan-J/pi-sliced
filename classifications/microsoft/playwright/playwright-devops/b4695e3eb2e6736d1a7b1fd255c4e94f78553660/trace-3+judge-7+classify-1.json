@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/playwright/playwright-devops",
+"revision":"b4695e3eb2e6736d1a7b1fd255c4e94f78553660",
+"trace":{"path":"traces/microsoft/playwright/playwright-devops/b4695e3eb2e6736d1a7b1fd255c4e94f78553660/trace-3+judge-7.json","sha256":"ac451d5e2a3f06bb345aef88d7081b3cb91cd5c1e889651783997e7226032011"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":6503,"own":{"files":3,"bytes":6503},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 6.4 KiB · CLI gh, jq","short":"6.4 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs jq"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

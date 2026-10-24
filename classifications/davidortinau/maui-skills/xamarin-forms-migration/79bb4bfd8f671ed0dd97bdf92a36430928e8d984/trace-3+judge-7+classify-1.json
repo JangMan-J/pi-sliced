@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"davidortinau/maui-skills/xamarin-forms-migration",
+"revision":"79bb4bfd8f671ed0dd97bdf92a36430928e8d984",
+"trace":{"path":"traces/davidortinau/maui-skills/xamarin-forms-migration/79bb4bfd8f671ed0dd97bdf92a36430928e8d984/trace-3+judge-7.json","sha256":"70a22338d93baa739c4be58f465407f72929fe32f29313c5bcb207fb37ba3e37"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":15337,"own":{"files":2,"bytes":15337},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

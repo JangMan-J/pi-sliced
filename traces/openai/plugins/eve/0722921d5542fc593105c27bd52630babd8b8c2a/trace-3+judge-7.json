@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/eve",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/eve",
+"status":"resolved",
+"totals":{"files":1,"bytes":4654},
+"files":[
+{"path":"plugins/vercel/skills/eve/SKILL.md","size":4654,"blob":"813f1d95552904e81defd00f4c72d7b76723ae2f","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"eve","at":[[0,138]]},
+{"kind":"cli","name":"vercel","at":[[0,109],[0,110],[0,120]]},
+{"kind":"mcp-server","name":"vercel","at":[[0,97],[0,102]]},
+{"kind":"package","name":"eve","at":[[0,137]]},
+{"kind":"package","name":"vercel","at":[[0,119]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/eve","files":1,"bytes":4654}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,119]]},
+{"kind":"fetch-run","detail":"npx eve","at":[[0,138]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

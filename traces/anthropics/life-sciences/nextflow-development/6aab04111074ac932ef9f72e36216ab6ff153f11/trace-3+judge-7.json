@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"anthropics/life-sciences/nextflow-development",
+"source":"anthropics/life-sciences",
+"revision":"6aab04111074ac932ef9f72e36216ab6ff153f11",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named nextflow-development at 6aab04111074ac932ef9f72e36216ab6ff153f11",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

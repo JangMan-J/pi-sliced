@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/ai-agents-for-beginners/microsoft-docs",
+"revision":"735e18437e07f1812af3d088baa00cb93108532a",
+"trace":{"path":"traces/microsoft/ai-agents-for-beginners/microsoft-docs/735e18437e07f1812af3d088baa00cb93108532a/trace-3+judge-7.json","sha256":"570de00bf2955de7c90fb762cfe61fa9070e92f999d4c7395c43bc75530d5a50"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4851,"own":{"files":1,"bytes":4851},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aspire"],"package":[],"mcp-server":["aspire","the"],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB · MCP aspire, the · CLI aspire","short":"4.7 KiB · 1 CLI · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aspire"]},{"marker":"mcp-server","because":["uses the aspire MCP server","uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

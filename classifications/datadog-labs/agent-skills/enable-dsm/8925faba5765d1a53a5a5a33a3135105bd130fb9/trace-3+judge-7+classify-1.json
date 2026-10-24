@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/enable-dsm",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/enable-dsm/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"316f53b243af128617498a256fd59cf23faea20b3a14b6140a64a45b6a8176a4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":22843,"own":{"files":1,"bytes":22843},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["helm","kubectl","pup","ssh","supervisorctl","systemctl"],"package":[],"mcp-server":[],"credential":["DSM_LABEL_KEY","SSH_KEY"],"network":[]},"summary":"1 file, 22 KiB · CLI helm, kubectl +4 · 2 keys","short":"22 KiB · 6 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["6 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs helm","runs kubectl","runs pup","runs ssh","runs supervisorctl","runs systemctl"]},{"marker":"credentials","because":["needs DSM_LABEL_KEY","needs SSH_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"dd-apm","path":"dd-apm"},{"name":"service-remapping","path":"dd-apm/service-remapping"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/friday-brief",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/friday-brief/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"d07c2b516594f612a50c389be1ab94b2f0dcba3f7efd346a32824034ed61894d"},
+"status":"unresolvable",
+"reason":"no skill folder named friday-brief at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

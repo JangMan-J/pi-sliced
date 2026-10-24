@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/openfold2-nim",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/openfold2-nim/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"960ca0a41cb382ad62a4a733a3ad6b9a73449222581867d2e7066cccc754ca47"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":19951,"own":{"files":6,"bytes":19951},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":[],"mcp-server":[],"credential":["NGC_API_KEY","NVIDIA_API_KEY"],"network":[]},"summary":"6 files, 19 KiB · CLI docker · 2 keys","short":"19 KiB · 1 CLI · 2 keys"},
+"heavy":{"heavy":true,"because":["1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]},{"marker":"credentials","because":["needs NGC_API_KEY","needs NVIDIA_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

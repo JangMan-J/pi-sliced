@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-analyze-gaps-visual-changenet",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-analyze-gaps-visual-changenet/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"8528ba861fb38687e3d56073caa740895485722080c8dee336e46767297ecd8f"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":29403,"own":{"files":5,"bytes":29403},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["actual_no_pass","as","docker","f","f.read","gap_analysis","import","nvidia-smi","os.path.isfile","os.path.join","path","precision","print","sys.exit","threshold","tp","unreachable","with"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 29 KiB · CLI actual_no_pass, as +16","short":"29 KiB · 18 CLI"},
+"heavy":{"heavy":true,"because":["18 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs actual_no_pass","runs as","runs docker","runs f","runs f.read","runs gap_analysis","runs import","runs nvidia-smi","runs os.path.isfile","runs os.path.join","runs path","runs precision","runs print","runs sys.exit","runs threshold","runs tp","runs unreachable","runs with"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-route-visual-changenet-samples","path":"skills/tao-route-visual-changenet-samples"},{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/lsp-setup",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/lsp-setup/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"a38e0f345c7d8c25a622532ca4176b98b0e207f02d1fd3894d9e3f9340c99572"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12662,"own":{"files":2,"bytes":12662},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["bash-language-server","clang-tools-extra","clangd","golang.org/x/tools/gopls","gopls","intelephense","jdtls","kotlin-language-server","llvm","lua-language-server","pyright","rust-analyzer","solargraph","typescript","typescript-language-server","yaml-language-server"],"mcp-server":[],"credential":[],"network":["download.eclipse.org","releases.llvm.org","swift.org"]},"summary":"2 files, 12 KiB · packages bash-language-server +15 · 3 hosts","short":"12 KiB · 16 pkg · 3 hosts"},
+"heavy":{"heavy":true,"because":["16 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs bash-language-server","installs clang-tools-extra","installs clangd","installs golang.org/x/tools/gopls","installs gopls","installs intelephense","installs jdtls","installs kotlin-language-server","installs llvm","installs lua-language-server","installs pyright","installs rust-analyzer","installs solargraph","installs typescript","installs typescript-language-server","installs yaml-language-server"]},{"marker":"network","because":["fetches from download.eclipse.org","fetches from releases.llvm.org","fetches from swift.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

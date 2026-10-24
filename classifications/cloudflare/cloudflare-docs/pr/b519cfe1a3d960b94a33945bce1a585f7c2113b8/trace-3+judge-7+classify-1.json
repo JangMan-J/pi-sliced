@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/pr",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/pr/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"7f73b2c3bc4121220a089d1ebbaf9242028714d9e6049f611b4104b2e10c849a"},
+"status":"unresolvable",
+"reason":"no skill folder named pr at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

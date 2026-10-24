@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/power-pages-backend",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/power-pages-backend/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"6c757473381a3c863a12b6ad6117a3b860b3b512e865ef6e5c3b83681c1e42f3"},
+"status":"unresolvable",
+"reason":"no skill folder named power-pages-backend at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

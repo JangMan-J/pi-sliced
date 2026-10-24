@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/speech-to-text",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/speech-to-text/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"b2f21acb1ef6145140f6e01a4f5a00ee2ddb10bfc28e020b6e8f6a166528dfde"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17590,"own":{"files":1,"bytes":17590},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":[],"credential":["DEEPGRAM_API_KEY"],"network":["api.deepgram.com","deepgram.com","dpgr.am"]},"summary":"1 file, 17 KiB · CLI skills · 1 key · 3 hosts","short":"17 KiB · 1 CLI · 1 key · 3 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"network","because":["fetches from api.deepgram.com","fetches from deepgram.com","fetches from dpgr.am"]},{"marker":"credentials","because":["needs DEEPGRAM_API_KEY"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: skills/speech-to-text/SKILL.md:122"]},{"marker":"sends-credentials","because":["DEEPGRAM_API_KEY -> api.deepgram.com: skills/speech-to-text/SKILL.md:38","DEEPGRAM_API_KEY -> dpgr.am: skills/speech-to-text/SKILL.md:38"]}],
+"security":{"fetch-run":["npx skills @ skills/speech-to-text/SKILL.md:122"],"secret-egress":["DEEPGRAM_API_KEY -> api.deepgram.com @ skills/speech-to-text/SKILL.md:38","DEEPGRAM_API_KEY -> dpgr.am @ skills/speech-to-text/SKILL.md:38"],"skill-fetch":["npx skills add @ skills/speech-to-text/SKILL.md:122"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"audio-intelligence","path":"skills/audio-intelligence"},{"name":"cli","path":"skills/cli"},{"name":"docs","path":"skills/docs"},{"name":"examples","path":"skills/examples"},{"name":"recipes","path":"skills/recipes"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"starters","path":"skills/starters"},{"name":"text-intelligence","path":"skills/text-intelligence"},{"name":"text-to-speech","path":"skills/text-to-speech"},{"name":"voice-agent","path":"skills/voice-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/ai-plugin/diagnosing-failed-warehouse-syncs",
+"revision":"0809767db74e427a9596e8c370d94df288082dc0",
+"trace":{"path":"traces/posthog/ai-plugin/diagnosing-failed-warehouse-syncs/0809767db74e427a9596e8c370d94df288082dc0/trace-3+judge-7.json","sha256":"fde66196fa5baf40d8a1214b335d1634e2c8057f0401c47e0533ea027dca05e8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17424,"own":{"files":1,"bytes":17424},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB","short":"17 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"auditing-warehouse-source-health","path":"skills/auditing-warehouse-source-health"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

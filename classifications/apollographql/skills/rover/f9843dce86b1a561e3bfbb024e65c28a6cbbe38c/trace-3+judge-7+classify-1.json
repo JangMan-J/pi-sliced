@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apollographql/skills/rover",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"trace":{"path":"traces/apollographql/skills/rover/f9843dce86b1a561e3bfbb024e65c28a6cbbe38c/trace-3+judge-7.json","sha256":"abe25ff7228b771d0595496615c59ebbddf59177fb99aae61977f87ac84171a7"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":57091,"own":{"files":7,"bytes":49175},"otherSkills":{"count":1,"files":1,"bytes":7916},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker-compose","iex","iwr","jq","lsof","nslookup","router","rover"],"package":["@apollo/rover"],"mcp-server":["enable"],"credential":["APOLLO_KEY","AUTH_TOKEN","PRODUCTS_TOKEN"],"network":["api.apollographql.com","rover.apollo.dev"]},"summary":"8 files, 56 KiB · +1 other skill · MCP enable · CLI docker-compose, iex +6 · packages @apollo/rover · 3 keys · 2 hosts","short":"56 KiB · +1 skill · 8 CLI · 1 pkg · 3 keys · 2 hosts · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","8 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker-compose","runs iex","runs iwr","runs jq","runs lsof","runs nslookup","runs router","runs rover"]},{"marker":"installs-packages","because":["installs @apollo/rover"]},{"marker":"network","because":["fetches from api.apollographql.com","fetches from rover.apollo.dev"]},{"marker":"credentials","because":["needs APOLLO_KEY","needs AUTH_TOKEN","needs PRODUCTS_TOKEN"]},{"marker":"mcp-server","because":["uses the enable MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/apollo-federation"]},{"marker":"unpinned-code","because":["npx rover: skills/rover/references/configuration.md:28","pipe to interpreter: skills/rover/SKILL.md:29, skills/rover/SKILL.md:35, skills/rover/references/configuration.md:11"]}],
+"security":{"fetch-run":["npx rover @ skills/rover/references/configuration.md:28","pipe to interpreter @ skills/rover/SKILL.md:29, skills/rover/SKILL.md:35, skills/rover/references/configuration.md:11 +4"]},
+"companions":{"named":[{"name":"apollo-mcp-server","path":"skills/apollo-mcp-server"}],"pulled":[{"path":"skills/apollo-federation","files":1,"bytes":7916}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

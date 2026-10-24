@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/junior/slack-msw-tests",
+"source":"getsentry/junior",
+"revision":"85b89543fea2ef77dff126a4a0f2e9898204cf4a",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named slack-msw-tests at 85b89543fea2ef77dff126a4a0f2e9898204cf4a",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"remotion-dev/skills/remotion-upgrade",
+"revision":"039e8a2fc78b67efc228d5645367838b85818a1c",
+"trace":{"path":"traces/remotion-dev/skills/remotion-upgrade/039e8a2fc78b67efc228d5645367838b85818a1c/trace-3+judge-7.json","sha256":"374c7a52373a40450c3775cefc50e58ba52644cb3408f9028264a1ff82ff1d14"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1930,"own":{"files":1,"bytes":1930},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["remotion","skills"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.9 KiB · CLI remotion, skills","short":"1.9 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs remotion","runs skills"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills update"]},{"marker":"stub","because":["own folder 1.9 KiB (1 file)","content is the remotion, skills it wraps"]},{"marker":"unpinned-code","because":["npx remotion: skills/remotion-upgrade/SKILL.md:13, skills/remotion-upgrade/SKILL.md:29","npx skills: skills/remotion-upgrade/SKILL.md:26"]}],
+"security":{"fetch-run":["npx remotion @ skills/remotion-upgrade/SKILL.md:13, skills/remotion-upgrade/SKILL.md:29","npx skills @ skills/remotion-upgrade/SKILL.md:26"],"skill-fetch":["npx skills update @ skills/remotion-upgrade/SKILL.md:26"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

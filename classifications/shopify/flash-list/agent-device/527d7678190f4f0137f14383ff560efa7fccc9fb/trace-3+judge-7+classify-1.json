@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"shopify/flash-list/agent-device",
+"revision":"527d7678190f4f0137f14383ff560efa7fccc9fb",
+"trace":{"path":"traces/shopify/flash-list/agent-device/527d7678190f4f0137f14383ff560efa7fccc9fb/trace-3+judge-7.json","sha256":"861f9bb9a85fe3235eff4877f436cf5ff1e247dbe86dabf378ea856425699c35"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20183,"own":{"files":1,"bytes":20183},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adb","agent-device","app-switcher","apps","appstate","back","clipboard","close","devices","ffmpeg","home","keyboard","longpress","md5","open","press","record","screenshot","scroll","settings","sips","snapshot","swipe"],"package":[],"mcp-server":["mobile"],"credential":[],"network":[]},"summary":"1 file, 20 KiB · MCP mobile · CLI adb, agent-device +21","short":"20 KiB · 23 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","23 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs agent-device","runs app-switcher","runs apps","runs appstate","runs back","runs clipboard","runs close","runs devices","runs ffmpeg","runs home","runs keyboard","runs longpress","runs md5","runs open","runs press","runs record","runs screenshot","runs scroll","runs settings","runs sips","runs snapshot","runs swipe"]},{"marker":"mcp-server","because":["uses the mobile MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

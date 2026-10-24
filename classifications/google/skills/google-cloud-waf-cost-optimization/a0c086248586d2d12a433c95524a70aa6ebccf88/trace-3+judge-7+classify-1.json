@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-cloud-waf-cost-optimization",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-cloud-waf-cost-optimization/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"c11fe11195699be697fa6c9c731f2180af334e3393f0eae015f7d2300dd01cca"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10585,"own":{"files":1,"bytes":10585},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10 KiB","short":"10 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

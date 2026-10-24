@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-env",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-env/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"cf37d1cdc9466b2fde8cff946db3ed5e9fce8b7410f98544e1e31a152e9c3e37"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":973,"own":{"files":1,"bytes":973},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["convex"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 973 B · CLI convex","short":"973 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs convex"]},{"marker":"stub","because":["own folder 973 B (1 file)","content is the convex it wraps"]},{"marker":"unpinned-code","because":["npx convex: skills/convex-env/SKILL.md:14, skills/convex-env/SKILL.md:17, skills/convex-env/SKILL.md:24"]}],
+"security":{"fetch-run":["npx convex @ skills/convex-env/SKILL.md:14, skills/convex-env/SKILL.md:17, skills/convex-env/SKILL.md:24"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

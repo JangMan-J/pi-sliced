@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-localization",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-localization/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"da3765fd5102c38d8465745ecc6e33e855f587107d70a76c1a72459580c821f9"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-localization at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

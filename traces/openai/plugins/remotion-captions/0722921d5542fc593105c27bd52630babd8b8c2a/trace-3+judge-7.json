@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/remotion-captions",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/remotion/skills/remotion-captions",
+"status":"resolved",
+"totals":{"files":4,"bytes":10609},
+"files":[
+{"path":"plugins/remotion/skills/remotion-captions/SKILL.md","size":954,"blob":"df7ea375d7dc1397a1ed800b5689ec373d1a2f71","how":"root"},
+{"path":"plugins/remotion/skills/remotion-captions/display-captions.md","size":5489,"blob":"4407b8547d9b3af28af208f5c8eb7481670f4700","how":"link","from":0,"line":31},
+{"path":"plugins/remotion/skills/remotion-captions/import-srt-captions.md","size":2269,"blob":"5fdf83a4a53e9181df256576aa90dd2eaf648479","how":"link","from":0,"line":35},
+{"path":"plugins/remotion/skills/remotion-captions/transcribe-captions.md","size":1897,"blob":"ba649d57495b12587abdb9d173aa9ef1e61a074e","how":"link","from":0,"line":27}
+],
+"outside":[
+{"kind":"cli","name":"remotion","at":[[1,20],[2,20],[2,21],[3,18]]},
+{"kind":"network","name":"www.remotion.dev","at":[[1,25]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/remotion/skills/remotion-captions","files":4,"bytes":10609}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx remotion","at":[[2,21]]},
+{"kind":"fetch-run","detail":"npx remotion","at":[[1,20],[2,20],[3,18]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

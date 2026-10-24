@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mattpocock/skills/triage",
+"revision":"5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+"trace":{"path":"traces/mattpocock/skills/triage/5beb35b040e3de97e54fa9e386d7e42d15c295c2/trace-3+judge-7.json","sha256":"4d20bfc71e54141838ae382e7c71992ac0f527a6dac69cbec28349fc2cf686c5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":19167,"own":{"files":3,"bytes":19167},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 19 KiB · CLI gh","short":"19 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]}],
+"security":{},
+"companions":{"named":[{"name":"setup-matt-pocock-skills","path":"skills/engineering/setup-matt-pocock-skills"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

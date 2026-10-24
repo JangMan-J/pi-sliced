@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"shopify/liquid-skills/shopify-liquid-themes",
+"revision":"ae3e4cc3f454923e388bbd841fd931f0c7bf5be4",
+"trace":{"path":"traces/shopify/liquid-skills/shopify-liquid-themes/ae3e4cc3f454923e388bbd841fd931f0c7bf5be4/trace-3+judge-7.json","sha256":"4ec482901c2f84776327b41bfc381e9a7d995e602fa1b5f871018d3fae616dcf"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":147330,"own":{"files":11,"bytes":147330},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"11 files, 144 KiB","short":"144 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

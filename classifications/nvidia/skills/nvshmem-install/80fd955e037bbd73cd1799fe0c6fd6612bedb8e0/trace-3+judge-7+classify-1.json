@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nvshmem-install",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nvshmem-install/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"610d8e89695b62d1dc94343b83120e17ea0198a8e471733ca7b506fd08efb97a"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":77053,"own":{"files":6,"bytes":47501},"otherSkills":{"count":1,"files":2,"bytes":29552},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["cmake","fi_info","ibv_devices","ibv_devinfo","lscpu","nvidia-smi","ofed_info","rdma","ucx_info"],"package":[],"mcp-server":[],"credential":[],"network":["docs.nvidia.com"]},"summary":"8 files, 75 KiB · +1 other skill · CLI cmake, fi_info +7 · 1 host","short":"75 KiB · +1 skill · 9 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs cmake","runs fi_info","runs ibv_devices","runs ibv_devinfo","runs lscpu","runs nvidia-smi","runs ofed_info","runs rdma","runs ucx_info"]},{"marker":"network","because":["fetches from docs.nvidia.com"]},{"marker":"chain-loads","because":["pulls in 2 files of the skill at skills/nvshmem-docs"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/nvshmem-docs","files":2,"bytes":29552}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

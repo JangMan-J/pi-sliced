@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/azure-static-web-apps",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/azure-static-web-apps/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"c2d6db6b108b67e92e511fbb7c09dcb128cae3957cac5e0e1b35b36c3113f6b2"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9499,"own":{"files":1,"bytes":9499},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["func","swa"],"package":["@azure/static-web-apps-cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.3 KiB · CLI func, swa · packages @azure/static-web-apps-cli","short":"9.3 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs func","runs swa"]},{"marker":"installs-packages","because":["installs @azure/static-web-apps-cli"]},{"marker":"unpinned-code","because":["npx swa: skills/azure-static-web-apps/SKILL.md:28, skills/azure-static-web-apps/SKILL.md:184, skills/azure-static-web-apps/SKILL.md:186"]}],
+"security":{"fetch-run":["npx swa @ skills/azure-static-web-apps/SKILL.md:28, skills/azure-static-web-apps/SKILL.md:184, skills/azure-static-web-apps/SKILL.md:186 +4"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

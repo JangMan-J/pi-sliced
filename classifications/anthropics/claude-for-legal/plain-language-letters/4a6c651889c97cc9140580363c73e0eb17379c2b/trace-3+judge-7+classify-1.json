@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/plain-language-letters",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/plain-language-letters/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"a968d7c21d82db237c39a0e13bbd5ce17daf97a2f75875dce45ea2e5dc0aa42c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":834,"own":{"files":1,"bytes":834},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 834 B","short":"834 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"client-letter","path":"legal-clinic/skills/client-letter"},{"name":"status","path":"legal-clinic/skills/status"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"temporalio/skill-temporal-cloud/temporal-cloud",
+"revision":"2d867d1f96ae388ed27f1c48aec817f210b6cd3d",
+"trace":{"path":"traces/temporalio/skill-temporal-cloud/temporal-cloud/2d867d1f96ae388ed27f1c48aec817f210b6cd3d/trace-3+judge-7.json","sha256":"4fadb9947a97f7858945d64c4677597fed7c50c3ea2b8fd8a51322e159652857"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":45439,"own":{"files":3,"bytes":45439},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["md5","nc","nslookup","openssl","tcld","temporal"],"package":["netcat-openbsd"],"mcp-server":[],"credential":["API_KEY","TEMPORAL_API_KEY"],"network":[]},"summary":"3 files, 44 KiB · CLI md5, nc +4 · packages netcat-openbsd · 2 keys","short":"44 KiB · 6 CLI · 1 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","6 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs md5","runs nc","runs nslookup","runs openssl","runs tcld","runs temporal"]},{"marker":"installs-packages","because":["installs netcat-openbsd"]},{"marker":"credentials","because":["needs API_KEY","needs TEMPORAL_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

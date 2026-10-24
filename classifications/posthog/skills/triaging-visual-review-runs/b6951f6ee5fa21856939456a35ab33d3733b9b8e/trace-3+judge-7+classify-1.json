@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/triaging-visual-review-runs",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/triaging-visual-review-runs/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"08166551eac926e1eb9ca23848a1a7021ac7f45ad144f283301c81c67d1a016c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":36613,"own":{"files":1,"bytes":36613},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":["vr"],"credential":[],"network":[]},"summary":"1 file, 36 KiB · MCP vr · CLI gh","short":"36 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"mcp-server","because":["uses the vr MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

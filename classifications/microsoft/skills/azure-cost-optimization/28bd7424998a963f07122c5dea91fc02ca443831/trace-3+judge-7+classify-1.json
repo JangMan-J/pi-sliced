@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-cost-optimization",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-cost-optimization/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"8e6f83b88a7637908fcccd79da18ef57aa3e94d394b49e56f04b95a54faee45d"},
+"status":"unresolvable",
+"reason":"no skill folder named azure-cost-optimization at 28bd7424998a963f07122c5dea91fc02ca443831 or at the remote HEAD 2130750147dee0311215099ddf36647ba1e0f006"
+}

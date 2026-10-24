@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elevenlabs/skills/voice-changer",
+"revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c",
+"trace":{"path":"traces/elevenlabs/skills/voice-changer/269e5f0e5a4cf296a8a38beb166245b89d5e2c1c/trace-3+judge-7.json","sha256":"45d3c4358c424d387689b47d4df7994b437892c6b8ca3510efe3062864dc2570"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":14463,"own":{"files":2,"bytes":14463},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@elevenlabs/cli","elevenlabs","scoop"],"package":["@elevenlabs/cli","@elevenlabs/elevenlabs-js","elevenlabs","elevenlabs/tap/elevenlabs"],"mcp-server":[],"credential":["ELEVENLABS_API_KEY"],"network":["elevenlabs.io","github.com"]},"summary":"2 files, 14 KiB · CLI @elevenlabs/cli, elevenlabs +1 · packages @elevenlabs/cli +3 · 1 key · 2 hosts","short":"14 KiB · 3 CLI · 4 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @elevenlabs/cli","runs elevenlabs","runs scoop"]},{"marker":"installs-packages","because":["installs @elevenlabs/cli","installs @elevenlabs/elevenlabs-js","installs elevenlabs","installs elevenlabs/tap/elevenlabs"]},{"marker":"network","because":["fetches from elevenlabs.io","fetches from github.com"]},{"marker":"credentials","because":["needs ELEVENLABS_API_KEY"]},{"marker":"unpinned-code","because":["npx @elevenlabs/cli@latest: voice-changer/SKILL.md:13, voice-changer/references/installation.md:91","pipe to interpreter: voice-changer/references/installation.md:27"]}],
+"security":{"fetch-run":["npx @elevenlabs/cli@latest @ voice-changer/SKILL.md:13, voice-changer/references/installation.md:91","pipe to interpreter @ voice-changer/references/installation.md:27"]},
+"companions":{"named":[{"name":"setup-api-key","path":"setup-api-key"},{"name":"voice-isolator","path":"voice-isolator"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

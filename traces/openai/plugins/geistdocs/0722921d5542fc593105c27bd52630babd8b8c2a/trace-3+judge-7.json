@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/geistdocs",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/geistdocs",
+"status":"resolved",
+"totals":{"files":1,"bytes":8264},
+"files":[
+{"path":"plugins/vercel/skills/geistdocs/SKILL.md","size":8264,"blob":"8dfb7744d2b4d8f59405175921135bfe3c7b1a44","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@vercel/geistdocs","at":[[0,75],[0,264]]},
+{"kind":"credential","name":"AI_GATEWAY_API_KEY","at":[[0,89]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/geistdocs","files":1,"bytes":8264}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @vercel/geistdocs","at":[[0,75],[0,264]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/design-taste-frontend-v2-experimental",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/design-taste-frontend-v2-experimental/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"82c749b1044b1024d0e2bb86572ade13ba1c389d821b377f45794fc129517b8a"},
+"status":"unresolvable",
+"reason":"no skill folder named design-taste-frontend-v2-experimental at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/taste-skill-v2-experimental)"
+}

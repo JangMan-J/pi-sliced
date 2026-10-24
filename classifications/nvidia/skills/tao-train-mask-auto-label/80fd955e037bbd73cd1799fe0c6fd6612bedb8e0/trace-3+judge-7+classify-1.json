@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-train-mask-auto-label",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-train-mask-auto-label/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"4375817ec1c5498d551bbf86866d3b6fd06f283a1ad4003b1db874b742558a21"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":82778,"own":{"files":9,"bytes":82778},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 81 KiB · CLI docker","short":"81 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

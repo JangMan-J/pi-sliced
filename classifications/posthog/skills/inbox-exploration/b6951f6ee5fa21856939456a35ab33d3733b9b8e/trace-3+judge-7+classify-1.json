@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/inbox-exploration",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/inbox-exploration/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"e415cd74ff559570ebb9d413cb65fed37303c81dde67020c5c32c075faabd1e8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":38162,"own":{"files":1,"bytes":38162},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 37 KiB","short":"37 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"do not tell the user\": skills/omnibus/inbox-exploration/SKILL.md:129"]}],
+"security":{"injection":["do not tell the user @ skills/omnibus/inbox-exploration/SKILL.md:129"]},
+"companions":{"named":[{"name":"other","path":"skills/posthog/logs/skills/other"},{"name":"signals","path":"skills/omnibus/signals"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

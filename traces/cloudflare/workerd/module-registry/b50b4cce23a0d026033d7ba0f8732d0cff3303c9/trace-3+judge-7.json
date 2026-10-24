@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"cloudflare/workerd/module-registry",
+"source":"cloudflare/workerd",
+"revision":"b50b4cce23a0d026033d7ba0f8732d0cff3303c9",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named module-registry at b50b4cce23a0d026033d7ba0f8732d0cff3303c9",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/agent-install",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/agent-install/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"deeb6f80765ef85c19a9ad0f04aae46d46c98239d1a51b8dbb618695a959ca71"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10694,"own":{"files":1,"bytes":10694},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ssh","systemctl"],"package":["2","curl"],"mcp-server":[],"credential":["DD_API_KEY","NEW_API_KEY","SSH_KEY"],"network":["install.datadoghq.com"]},"summary":"1 file, 10 KiB · CLI ssh, systemctl · packages 2 +1 · 3 keys · 1 host","short":"10 KiB · 2 CLI · 2 pkg · 3 keys · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ssh","runs systemctl"]},{"marker":"installs-packages","because":["installs 2","installs curl"]},{"marker":"network","because":["fetches from install.datadoghq.com"]},{"marker":"credentials","because":["needs DD_API_KEY","needs NEW_API_KEY","needs SSH_KEY"]},{"marker":"persistent-writes","because":["writes to a autostart: dd-apm/linux-ssi/agent-install/SKILL.md:168"]},{"marker":"sends-credentials","because":["DD_API_KEY -> install.datadoghq.com: dd-apm/linux-ssi/agent-install/SKILL.md:124, dd-apm/linux-ssi/agent-install/SKILL.md:182"]}],
+"security":{"persist-write":["autostart @ dd-apm/linux-ssi/agent-install/SKILL.md:168"],"secret-egress":["DD_API_KEY -> install.datadoghq.com @ dd-apm/linux-ssi/agent-install/SKILL.md:124, dd-apm/linux-ssi/agent-install/SKILL.md:182"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

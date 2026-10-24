@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/ssh",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/ssh/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"68a9139aa714b0725f80ab66cd84284dcc425007f0d707bd35f631145a7c866c"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":4669,"own":{"files":2,"bytes":4669},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Get-Content","Host","HostName","IdentityFile","Out-Null","Port","ServerAliveInterval","Set-Content","Set-Service","Start-Service","User","icacls","scp","ssh","ssh-add","ssh-agent","ssh-copy-id","ssh-keygen"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 4.6 KiB · CLI Get-Content, Host +16","short":"4.6 KiB · 18 CLI"},
+"heavy":{"heavy":true,"because":["18 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Get-Content","runs Host","runs HostName","runs icacls","runs IdentityFile","runs Out-Null","runs Port","runs scp","runs ServerAliveInterval","runs Set-Content","runs Set-Service","runs ssh","runs ssh-add","runs ssh-agent","runs ssh-copy-id","runs ssh-keygen","runs Start-Service","runs User"]},{"marker":"persistent-writes","because":["writes to a ssh: skills/ssh/SKILL.md:59, skills/ssh/SKILL.md:60, skills/ssh/references/windows.md:58"]}],
+"security":{"persist-write":["ssh @ skills/ssh/SKILL.md:59, skills/ssh/SKILL.md:60, skills/ssh/references/windows.md:58"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

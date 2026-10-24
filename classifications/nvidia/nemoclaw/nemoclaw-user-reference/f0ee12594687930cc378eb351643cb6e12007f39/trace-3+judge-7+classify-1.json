@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-user-reference",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-user-reference/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"fe5dac817dae96c0b75d08a76243bdb5fc4d80212ff39316979a25712222f8fd"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-user-reference at f0ee12594687930cc378eb351643cb6e12007f39"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"runwayml/skills/rw-generate-audio",
+"revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de",
+"trace":{"path":"traces/runwayml/skills/rw-generate-audio/3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de/trace-3+judge-7.json","sha256":"6e3d87e3c7c8416a84310f9b0ade8f6a0fe974b7902cdd3ac3146b8dab64a65e"},
+"status":"unresolvable",
+"reason":"no skill folder named rw-generate-audio at 3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de (the archive had legacy/skills/rw-generate-audio)"
+}

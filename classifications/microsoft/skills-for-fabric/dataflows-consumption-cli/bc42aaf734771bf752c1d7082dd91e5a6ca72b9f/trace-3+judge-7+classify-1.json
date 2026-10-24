@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/dataflows-consumption-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/dataflows-consumption-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"3144a01d98db31920a6d738542c3b801469e633d1b90d4f7597d25868e5a2cd3"},
+"status":"unresolvable",
+"reason":"no skill folder named dataflows-consumption-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

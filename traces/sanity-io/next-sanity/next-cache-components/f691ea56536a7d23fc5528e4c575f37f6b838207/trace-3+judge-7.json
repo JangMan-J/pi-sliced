@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"sanity-io/next-sanity/next-cache-components",
+"source":"sanity-io/next-sanity",
+"revision":"f691ea56536a7d23fc5528e4c575f37f6b838207",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named next-cache-components at f691ea56536a7d23fc5528e4c575f37f6b838207",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

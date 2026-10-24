@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/search-for-service",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/search-for-service/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"7510f9a3c3b552bb7f01edc7e7d2d914ee5333e803849e06803a20398b6db157"},
+"status":"unresolvable",
+"reason":"no skill folder named search-for-service at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

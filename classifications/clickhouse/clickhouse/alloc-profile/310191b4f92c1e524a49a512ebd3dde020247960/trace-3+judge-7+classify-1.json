@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/clickhouse/alloc-profile",
+"revision":"310191b4f92c1e524a49a512ebd3dde020247960",
+"trace":{"path":"traces/clickhouse/clickhouse/alloc-profile/310191b4f92c1e524a49a512ebd3dde020247960/trace-3+judge-7.json","sha256":"a6fc1c0760ff47463b479d3567d99fd65a5588a836a61cecd88bc042a4ff5c6a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":17355,"own":{"files":1,"bytes":17355},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["flamegraph.pl","jeprof"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 17 KiB · CLI flamegraph.pl, jeprof","short":"17 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs flamegraph.pl","runs jeprof"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

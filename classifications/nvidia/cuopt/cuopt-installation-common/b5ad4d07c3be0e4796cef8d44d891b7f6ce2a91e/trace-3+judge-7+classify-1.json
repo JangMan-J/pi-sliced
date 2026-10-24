@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuopt/cuopt-installation-common",
+"revision":"b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e",
+"trace":{"path":"traces/nvidia/cuopt/cuopt-installation-common/b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e/trace-3+judge-7.json","sha256":"d7463c38aaa71820c5a954517e78d45e63d5a0f214e81b03c7be27a5d6fdc13c"},
+"status":"unresolvable",
+"reason":"no skill folder named cuopt-installation-common at b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"factory-ai/factory-plugins/create-pr",
+"revision":"aa8be50bc07e9f4ec48db9d57929ce8e2214504a",
+"trace":{"path":"traces/factory-ai/factory-plugins/create-pr/aa8be50bc07e9f4ec48db9d57929ce8e2214504a/trace-3+judge-7.json","sha256":"81845c66fa06844e8d6886d7b262b132899ed703ae2dba1e04851b5707cf99f6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9167,"own":{"files":1,"bytes":9167},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","gofmt"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.0 KiB · CLI gh, gofmt","short":"9.0 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs gofmt"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

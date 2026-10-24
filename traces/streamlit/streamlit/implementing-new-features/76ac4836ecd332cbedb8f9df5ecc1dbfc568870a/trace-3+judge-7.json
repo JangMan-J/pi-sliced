@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"streamlit/streamlit/implementing-new-features",
+"source":"streamlit/streamlit",
+"revision":"76ac4836ecd332cbedb8f9df5ecc1dbfc568870a",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named implementing-new-features at 76ac4836ecd332cbedb8f9df5ecc1dbfc568870a",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/uv",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/uv/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"f3b686a954912d806dfefa6e4c20d0385bd0eec1323225811b2fd0ae30c5c17f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2639,"own":{"files":1,"bytes":2639},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["powershell"],"package":["requests"],"mcp-server":[],"credential":[],"network":["astral.sh"]},"summary":"1 file, 2.6 KiB · CLI powershell · packages requests · 1 host","short":"2.6 KiB · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs powershell"]},{"marker":"installs-packages","because":["installs requests"]},{"marker":"network","because":["fetches from astral.sh"]},{"marker":"stub","because":["own folder 2.6 KiB (1 file)","content is the powershell it wraps"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/uv/SKILL.md:25, skills/uv/SKILL.md:28"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/uv/SKILL.md:25, skills/uv/SKILL.md:28"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

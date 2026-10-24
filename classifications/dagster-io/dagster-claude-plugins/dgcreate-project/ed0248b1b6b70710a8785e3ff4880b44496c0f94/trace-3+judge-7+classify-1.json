@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/dagster-claude-plugins/dgcreate-project",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/dagster-claude-plugins/dgcreate-project/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"231b3e633772829470105ec256da980d495af0c65220d32231739e7a73022d9c"},
+"status":"unresolvable",
+"reason":"no skill folder named dgcreate-project at ed0248b1b6b70710a8785e3ff4880b44496c0f94"
+}

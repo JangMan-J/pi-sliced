@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/create-github-issues-feature-from-implementation-plan",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/create-github-issues-feature-from-implementation-plan/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"60a1bad6e01c1a5d537af7197e205ed1496a04ad8f8da972aa9c38ab52d3eb68"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":945,"own":{"files":1,"bytes":945},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 945 B","short":"945 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

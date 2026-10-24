@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dbt-labs/dbt-agent-skills/migrating-dbt-core-to-v2",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"trace":{"path":"traces/dbt-labs/dbt-agent-skills/migrating-dbt-core-to-v2/ef5710860f199897a304eabc8cd5c1973beb60ae/trace-3+judge-7.json","sha256":"e1eb4fe3768cdbc0ccdf2b5283b2edeb2013cb10b2426689c8b3a5a07d5c485a"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":42489,"own":{"files":4,"bytes":42489},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dbt","dbt-autofix"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 41 KiB · CLI dbt, dbt-autofix","short":"41 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dbt","runs dbt-autofix"]},{"marker":"unpinned-code","because":["uvx git+https://github.com/dbt-labs/dbt-autofix.git: skills/dbt-migration/skills/migrating-dbt-core-to-v2/SKILL.md:89"]},{"marker":"agent-override-text","because":["\"don't tell the user\": skills/dbt-migration/skills/migrating-dbt-core-to-v2/SKILL.md:174"]}],
+"security":{"fetch-run":["uvx git+https://github.com/dbt-labs/dbt-autofix.git @ skills/dbt-migration/skills/migrating-dbt-core-to-v2/SKILL.md:89"],"injection":["don't tell the user @ skills/dbt-migration/skills/migrating-dbt-core-to-v2/SKILL.md:174"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

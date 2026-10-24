@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"semgrep/cursor-plugin/setup-semgrep-plugin",
+"revision":"df5e095a19f5fd029d68b6ffaf2dd44f27e1708d",
+"trace":{"path":"traces/semgrep/cursor-plugin/setup-semgrep-plugin/df5e095a19f5fd029d68b6ffaf2dd44f27e1708d/trace-3+judge-7.json","sha256":"9152ce2c7cdf6a6d4fb0e7ee847088d79672feceb0789ad0ecf41adb8bce8ca7"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":902,"own":{"files":1,"bytes":902},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["semgrep"],"package":["semgrep"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 902 B · CLI semgrep · packages semgrep","short":"902 B · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs semgrep"]},{"marker":"installs-packages","because":["installs semgrep"]},{"marker":"stub","because":["own folder 902 B (1 file)","content is the semgrep it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

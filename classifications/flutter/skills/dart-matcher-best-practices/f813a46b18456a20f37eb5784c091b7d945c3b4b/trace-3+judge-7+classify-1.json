@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/dart-matcher-best-practices",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/dart-matcher-best-practices/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"54feee2404b4b1a42e1427fc7384574630c37ebf7f0644ca4c2b2903abab79d8"},
+"status":"unresolvable",
+"reason":"no skill folder named dart-matcher-best-practices at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/aspire/connection-properties",
+"revision":"7a8a24ea649df02e1edeead53ab78e305202acf3",
+"trace":{"path":"traces/microsoft/aspire/connection-properties/7a8a24ea649df02e1edeead53ab78e305202acf3/trace-3+judge-7.json","sha256":"08ea2c51bd06e8c5dabf19d53d8ea42f2695b4acc6be42539ea29a69c607ffbd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4147,"own":{"files":1,"bytes":4147},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.0 KiB","short":"4.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/implementing-agent-modes",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/implementing-agent-modes/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"6dd18110174f5aa88a28bb3f7e9dc9b6408e5c3bca1255fc92316e79e984dabb"},
+"status":"unresolvable",
+"reason":"no skill folder named implementing-agent-modes at 36806304df6201f23bf221e8c8e149e6441fd3d5"
+}

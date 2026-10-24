@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/skills/install-atk",
+"source":"microsoft/skills",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"skillPath":".github/plugins/microsoft-365-agents-toolkit/skills/install-atk",
+"status":"resolved",
+"totals":{"files":1,"bytes":2678},
+"files":[
+{"path":".github/plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md","size":2678,"blob":"44afbcbbd76801317776563a96d034574716e949","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@microsoft/m365agentstoolkit-cli","at":[[0,32],[0,48],[0,62],[0,65]]},
+{"kind":"cli","name":"code","at":[[0,57]]}
+],
+"regions":[
+{"kind":"own","path":".github/plugins/microsoft-365-agents-toolkit/skills/install-atk","files":1,"bytes":2678}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @microsoft/m365agentstoolkit-cli","at":[[0,32],[0,48],[0,62],[0,65]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

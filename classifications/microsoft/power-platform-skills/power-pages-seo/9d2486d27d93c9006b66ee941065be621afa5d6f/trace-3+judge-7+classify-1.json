@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/power-pages-seo",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/power-pages-seo/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"3d325a5997cacacb03d87d16c14ead48e1dd57cba7ed414b17122bbe4f98dfe2"},
+"status":"unresolvable",
+"reason":"no skill folder named power-pages-seo at 9d2486d27d93c9006b66ee941065be621afa5d6f"
+}

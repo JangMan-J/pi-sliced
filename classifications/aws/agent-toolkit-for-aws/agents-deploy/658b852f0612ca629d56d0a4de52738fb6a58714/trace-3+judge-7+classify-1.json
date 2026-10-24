@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/agents-deploy",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/agents-deploy/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"4536abf124a39832d7740a5a72de1f97c7bed14f2209b5f77cc9fa399e7aeeff"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":33172,"own":{"files":2,"bytes":12056},"otherSkills":{"count":1,"files":1,"bytes":21116},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agentcore","cdk","docker","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 32 KiB · +1 other skill · CLI agentcore, cdk +2","short":"32 KiB · +1 skill · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agentcore","runs cdk","runs docker","runs jq"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at plugins/aws-agents/skills/agents-optimize"]},{"marker":"unpinned-code","because":["npx cdk: plugins/aws-agents/skills/agents-deploy/SKILL.md:176"]}],
+"security":{"fetch-run":["npx cdk @ plugins/aws-agents/skills/agents-deploy/SKILL.md:176"]},
+"companions":{"named":[{"name":"agents-debug","path":"plugins/aws-agents/skills/agents-debug"},{"name":"agents-harden","path":"plugins/aws-agents/skills/agents-harden"},{"name":"agents-optimize","path":"plugins/aws-agents/skills/agents-optimize"}],"pulled":[{"path":"plugins/aws-agents/skills/agents-optimize","files":1,"bytes":21116}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

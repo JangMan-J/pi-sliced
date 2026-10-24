@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/cuopt/cuopt-installation-api-c",
+"revision":"b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e",
+"trace":{"path":"traces/nvidia/cuopt/cuopt-installation-api-c/b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e/trace-3+judge-7.json","sha256":"7b5320e26068f618cbc15418c79379becc527d2bf9af4a03263d99a8735510b6"},
+"status":"unresolvable",
+"reason":"no skill folder named cuopt-installation-api-c at b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e"
+}

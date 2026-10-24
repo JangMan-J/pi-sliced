@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"deepgram/skills/voice-agent",
+"revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f",
+"trace":{"path":"traces/deepgram/skills/voice-agent/0fc13fad726fb78e17fb1f05ba5942f0d022990f/trace-3+judge-7.json","sha256":"825632a9aa31eaa22dbedb69171d50f2a2acb128d1fe7d3edbacdc966abedc02"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":28892,"own":{"files":1,"bytes":28892},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["DEEPGRAM_API_KEY"],"network":["agent.deepgram.com","api.deepgram.com","deepgram.com"]},"summary":"1 file, 28 KiB · 1 key · 3 hosts","short":"28 KiB · 1 key · 3 hosts"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"network","because":["fetches from agent.deepgram.com","fetches from api.deepgram.com","fetches from deepgram.com"]},{"marker":"credentials","because":["needs DEEPGRAM_API_KEY"]},{"marker":"sends-credentials","because":["DEEPGRAM_API_KEY -> agent.deepgram.com: skills/voice-agent/SKILL.md:37"]}],
+"security":{"secret-egress":["DEEPGRAM_API_KEY -> agent.deepgram.com @ skills/voice-agent/SKILL.md:37"]},
+"companions":{"named":[{"name":"api","path":"skills/api"},{"name":"browser-agent","path":"skills/browser-agent"},{"name":"docs","path":"skills/docs"},{"name":"examples","path":"skills/examples"},{"name":"recipes","path":"skills/recipes"},{"name":"setup-mcp","path":"skills/setup-mcp"},{"name":"speech-to-text","path":"skills/speech-to-text"},{"name":"starters","path":"skills/starters"},{"name":"text-to-speech","path":"skills/text-to-speech"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

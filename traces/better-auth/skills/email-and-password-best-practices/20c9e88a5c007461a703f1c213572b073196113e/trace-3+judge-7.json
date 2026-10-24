@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"better-auth/skills/email-and-password-best-practices",
+"source":"better-auth/skills",
+"revision":"20c9e88a5c007461a703f1c213572b073196113e",
+"skillPath":"better-auth/emailAndPassword",
+"status":"resolved",
+"totals":{"files":1,"bytes":6027},
+"files":[
+{"path":"better-auth/emailAndPassword/SKILL.md","size":6027,"blob":"3b7b7f166b5fde6c38decd6ef663258eb30465b0","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"auth","at":[[0,11]]}
+],
+"regions":[
+{"kind":"own","path":"better-auth/emailAndPassword","files":1,"bytes":6027}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx auth@latest","at":[[0,11]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/firebase-tools/firebase-crashlytics-basics",
+"revision":"926b3fe846dd861f5743e50d45f3475bac6fa209",
+"trace":{"path":"traces/firebase/firebase-tools/firebase-crashlytics-basics/926b3fe846dd861f5743e50d45f3475bac6fa209/trace-3+judge-7.json","sha256":"5afdfdc0638aef6c32e70a621a8da9dc1b322ab602297612ba1bb93abb7ed059"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase-crashlytics-basics at 926b3fe846dd861f5743e50d45f3475bac6fa209"
+}

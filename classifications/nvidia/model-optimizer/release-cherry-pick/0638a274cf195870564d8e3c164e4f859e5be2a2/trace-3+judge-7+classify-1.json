@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/model-optimizer/release-cherry-pick",
+"revision":"0638a274cf195870564d8e3c164e4f859e5be2a2",
+"trace":{"path":"traces/nvidia/model-optimizer/release-cherry-pick/0638a274cf195870564d8e3c164e4f859e5be2a2/trace-3+judge-7.json","sha256":"f1eaec70104a0eb059d9f9e39e4a956174154afca1223099946c696fadf156dd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7084,"own":{"files":1,"bytes":7084},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.9 KiB · CLI gh, jq","short":"6.9 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs jq"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

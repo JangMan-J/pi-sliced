@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/resource-planning",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/resource-planning/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"8a645b41a59390a1f073e90eef96f496468251d6d3153fd0d5eafb716e9b1420"},
+"status":"unresolvable",
+"reason":"no skill folder named resource-planning at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

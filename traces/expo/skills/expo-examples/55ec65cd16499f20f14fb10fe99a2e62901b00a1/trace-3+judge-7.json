@@ -1,0 +1,43 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/expo-examples",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/expo-examples",
+"status":"resolved",
+"totals":{"files":2,"bytes":11080},
+"files":[
+{"path":"plugins/expo/skills/expo-examples/SKILL.md","size":6727,"blob":"630eefc3ea2d8469677d5178413083d54370ab24","how":"root"},
+{"path":"plugins/expo/skills/expo-examples/references/catalog.md","size":4353,"blob":"1d03b6a9ecebcf0dd1a2fb879cc75b890b3dc946","how":"path","from":0,"line":13}
+],
+"outside":[
+{"kind":"cli","name":"create-expo","at":[[0,3],[0,68],[1,5]]},
+{"kind":"cli","name":"degit","at":[[0,57]]},
+{"kind":"cli","name":"expo","at":[[0,76]]},
+{"kind":"cli","name":"gh","at":[[0,28],[0,30],[0,42],[0,49]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[0,103]]},
+{"kind":"network","name":"github.com","at":[[0,59]]},
+{"kind":"network","name":"raw.githubusercontent.com","at":[[0,51]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-examples","files":2,"bytes":11080}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx create-expo","at":[[0,3],[0,68],[1,5]]},
+{"kind":"fetch-run","detail":"npx degit","at":[[0,57]]},
+{"kind":"fetch-run","detail":"npx expo","at":[[0,76]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[0,103]]}
+],
+"namedSkills":[
+{"name":"expo-module","path":"plugins/expo/skills/expo-module","at":[[0,93]]},
+{"name":"expo-native-ui","path":"plugins/expo/skills/expo-native-ui","at":[[0,91]]},
+{"name":"expo-router","path":"plugins/expo/skills/expo-router","at":[[0,92]]},
+{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback","at":[[0,106]]},
+{"name":"expo-ui","path":"plugins/expo/skills/expo-ui","at":[[0,90]]},
+{"name":"expo-upgrade","path":"plugins/expo/skills/expo-upgrade","at":[[0,94]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

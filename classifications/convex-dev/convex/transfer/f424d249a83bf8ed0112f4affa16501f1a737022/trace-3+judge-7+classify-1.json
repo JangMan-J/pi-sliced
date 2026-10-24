@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"convex-dev/convex/transfer",
+"revision":"f424d249a83bf8ed0112f4affa16501f1a737022",
+"trace":{"path":"traces/convex-dev/convex/transfer/f424d249a83bf8ed0112f4affa16501f1a737022/trace-3+judge-7.json","sha256":"a6e685a5a1c98278ce860527ee001f7b4fbdddbe93c80c2c42a213502e5d34cc"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":2010,"own":{"files":1,"bytes":571},"otherSkills":{"count":1,"files":1,"bytes":1439},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["convex"],"credential":[],"network":[]},"summary":"2 files, 2.0 KiB · +1 other skill · MCP convex","short":"2.0 KiB · +1 skill · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the convex MCP server"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at .claude/skills/transfer"]},{"marker":"stub","because":["own folder 571 B (1 file)","1.4 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".claude/skills/transfer","files":1,"bytes":1439}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

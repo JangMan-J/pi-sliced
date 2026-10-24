@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/april-log-summarizer/log-summarizer",
+"revision":"b780f8f97bfa617d86d1cc56a9674ca624543873",
+"trace":{"path":"traces/getsentry/april-log-summarizer/log-summarizer/b780f8f97bfa617d86d1cc56a9674ca624543873/trace-3+judge-7.json","sha256":"4d7b61d6bbae845bac26f6c66734c4c6110346d7ff91b39043f5c40ef290b3b5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4711,"own":{"files":1,"bytes":4711},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.6 KiB","short":"4.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

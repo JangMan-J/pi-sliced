@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/tmux",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/tmux/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"788c22430e195bf531fdfdd715bb6e3b92b10bd56f4a87a3d4aaec6b257468ae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3485,"own":{"files":1,"bytes":3485},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["capture-pane","tmux"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB · CLI capture-pane, tmux","short":"3.4 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs capture-pane","runs tmux"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the capture-pane, tmux it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

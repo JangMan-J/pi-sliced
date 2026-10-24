@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-building-forms",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-building-forms/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"0aed1daac07d65341a0d0bf507e42fdd06eb693eea11bd7f7845c06af0897b6d"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-building-forms at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

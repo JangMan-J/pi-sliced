@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"runwayml/skills/runway-dev",
+"revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de",
+"trace":{"path":"traces/runwayml/skills/runway-dev/3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de/trace-3+judge-7.json","sha256":"ff4c1098a4e002a27cce0040853195996fee3ef7ece37ae627cf881a6b30a30b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6441,"own":{"files":1,"bytes":6441},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["missing"],"credential":[],"network":["docs.dev.runwayml.com"]},"summary":"1 file, 6.3 KiB · MCP missing · 1 host","short":"6.3 KiB · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"network","because":["fetches from docs.dev.runwayml.com"]},{"marker":"mcp-server","because":["uses the missing MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"runway-dev-characters","path":"skills/runway-dev-characters"},{"name":"runway-dev-model-routers","path":"skills/runway-dev-model-routers"},{"name":"runway-dev-models","path":"skills/runway-dev-models"},{"name":"runway-dev-recipes","path":"skills/runway-dev-recipes"},{"name":"runway-dev-workflows","path":"skills/runway-dev-workflows"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

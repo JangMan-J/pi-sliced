@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-send-message",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-send-message/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"a6de42cadaf70f7ca89a4f820ccd0a067cf28fa4e05556975efd63f25f1ca46a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7725,"own":{"files":1,"bytes":7725},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["twilio"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.5 KiB · packages twilio","short":"7.5 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs twilio"]}],
+"security":{},
+"companions":{"named":[{"name":"twilio-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-account-setup"},{"name":"twilio-compliance-onboarding","path":"plugins/twilio-developer-kit/skills/twilio-compliance-onboarding"},{"name":"twilio-content-template-builder","path":"plugins/twilio-developer-kit/skills/twilio-content-template-builder"},{"name":"twilio-iam-auth-setup","path":"plugins/twilio-developer-kit/skills/twilio-iam-auth-setup"},{"name":"twilio-messaging-channel-advisor","path":"plugins/twilio-developer-kit/skills/twilio-messaging-channel-advisor"},{"name":"twilio-messaging-overview","path":"plugins/twilio-developer-kit/skills/twilio-messaging-overview"},{"name":"twilio-messaging-services","path":"plugins/twilio-developer-kit/skills/twilio-messaging-services"},{"name":"twilio-messaging-webhooks","path":"plugins/twilio-developer-kit/skills/twilio-messaging-webhooks"},{"name":"twilio-rcs-messaging","path":"plugins/twilio-developer-kit/skills/twilio-rcs-messaging"},{"name":"twilio-sms-send-message","path":"plugins/twilio-developer-kit/skills/twilio-sms-send-message"},{"name":"twilio-verify-send-otp","path":"plugins/twilio-developer-kit/skills/twilio-verify-send-otp"},{"name":"twilio-whatsapp-manage-senders","path":"plugins/twilio-developer-kit/skills/twilio-whatsapp-manage-senders"},{"name":"twilio-whatsapp-send-message","path":"plugins/twilio-developer-kit/skills/twilio-whatsapp-send-message"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

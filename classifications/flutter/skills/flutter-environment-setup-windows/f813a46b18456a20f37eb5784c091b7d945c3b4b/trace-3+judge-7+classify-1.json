@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-environment-setup-windows",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-environment-setup-windows/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"fdd05f027326a194709237bbd6bfee1dba8e3f99eabfcafcd5351202d949e4d3"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-environment-setup-windows at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/deploy",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/deploy/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"079e8de648a713218326bdeba94f6339e298a2ebd71b95dfde8f09236e3376b0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2009,"own":{"files":1,"bytes":2009},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pa"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.0 KiB · CLI pa","short":"2.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pa"]},{"marker":"stub","because":["own folder 2.0 KiB (1 file)","content is the pa it wraps"]},{"marker":"unpinned-code","because":["npx pa: plugins/code-apps/skills/deploy/SKILL.md:42"]}],
+"security":{"fetch-run":["npx pa @ plugins/code-apps/skills/deploy/SKILL.md:42"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

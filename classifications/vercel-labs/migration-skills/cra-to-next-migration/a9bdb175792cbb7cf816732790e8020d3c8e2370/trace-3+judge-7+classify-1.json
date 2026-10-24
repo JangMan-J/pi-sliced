@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/migration-skills/cra-to-next-migration",
+"revision":"a9bdb175792cbb7cf816732790e8020d3c8e2370",
+"trace":{"path":"traces/vercel-labs/migration-skills/cra-to-next-migration/a9bdb175792cbb7cf816732790e8020d3c8e2370/trace-3+judge-7.json","sha256":"4b438e5ee3e8ce8a6d1adb5a7ac2567137f632dc56f675d3f3501ed0458f89ed"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":21518,"own":{"files":4,"bytes":21518},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 21 KiB","short":"21 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

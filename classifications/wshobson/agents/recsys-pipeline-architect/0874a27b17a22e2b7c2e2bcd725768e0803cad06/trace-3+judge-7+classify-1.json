@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/recsys-pipeline-architect",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/recsys-pipeline-architect/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"a37e56153493c60f326caaefdb012910a75b1ed0dea2730ca7220ca21d37a91c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8173,"own":{"files":1,"bytes":8173},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["skills"],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"1 file, 8.0 KiB · CLI skills · 1 host","short":"8.0 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs skills"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"chain-loads","because":["fetches skills at run time: npx skills add"]},{"marker":"unpinned-code","because":["npx skills: plugins/machine-learning-ops/skills/recsys-pipeline-architect/SKILL.md:125"]}],
+"security":{"fetch-run":["npx skills @ plugins/machine-learning-ops/skills/recsys-pipeline-architect/SKILL.md:125"],"skill-fetch":["npx skills add @ plugins/machine-learning-ops/skills/recsys-pipeline-architect/SKILL.md:125"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

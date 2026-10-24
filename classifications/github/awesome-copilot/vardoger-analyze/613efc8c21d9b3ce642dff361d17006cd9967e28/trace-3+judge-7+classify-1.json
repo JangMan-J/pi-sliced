@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/vardoger-analyze",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/vardoger-analyze/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"7f9fbe3e12b4c5193fc19ec4377ab5bbe392cb61c6bc1654fd15f0b5590d658a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5630,"own":{"files":1,"bytes":5630},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["After","If","Install","Project","This","vardoger","write"],"package":["vardoger"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.5 KiB · CLI After, If +5 · packages vardoger","short":"5.5 KiB · 7 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs After","runs If","runs Install","runs Project","runs This","runs vardoger","runs write"]},{"marker":"installs-packages","because":["installs vardoger"]},{"marker":"unpinned-code","because":["uvx vardoger: skills/vardoger-analyze/SKILL.md:54"]}],
+"security":{"fetch-run":["uvx vardoger @ skills/vardoger-analyze/SKILL.md:54"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

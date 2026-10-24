@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-basics",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-basics/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"0e678bbf9dd7729a187e785841f4fdbb727be9b67f5a31baeec2378cbb51aecd"},
+"status":"resolved",
+"footprint":{"files":22,"bytes":135760,"own":{"files":7,"bytes":35642},"otherSkills":{"count":4,"files":15,"bytes":100118},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["apply_k8s_manifest","gVisor","gcloud","go","hardening-your-cluster","helm","jq","kubectl","rbac","sandbox-pods","secret-manager-managed-csi-component","setting-up","shielded-gke-nodes"],"package":["@kubernetes/client-node","k8s.io/client-go","kubernetes"],"mcp-server":["all","gke","knowledge"],"credential":[],"network":[]},"summary":"22 files, 133 KiB · +4 other skills · MCP all, gke +1 · CLI apply_k8s_manifest, gVisor +11 · packages @kubernetes/client-node +2","short":"133 KiB · +4 skills · 13 CLI · 3 pkg · MCP 3"},
+"heavy":{"heavy":true,"because":["3 packages to install","3 MCP servers","13 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs apply_k8s_manifest","runs gcloud","runs go","runs gVisor","runs hardening-your-cluster","runs helm","runs jq","runs kubectl","runs rbac","runs sandbox-pods","runs secret-manager-managed-csi-component","runs setting-up","runs shielded-gke-nodes"]},{"marker":"installs-packages","because":["installs @kubernetes/client-node","installs k8s.io/client-go","installs kubernetes"]},{"marker":"mcp-server","because":["uses the all MCP server","uses the gke MCP server","uses the knowledge MCP server"]},{"marker":"chain-loads","because":["pulls in 6 files of the skill at skills/cloud/gke-manifest-generation","pulls in 2 files of the skill at skills/cloud/gke-platform-security","pulls in 5 files of the skill at skills/cloud/gke-upgrades","pulls in 2 files of the skill at skills/cloud/gke-workload-identity"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-cluster-creation","path":"skills/cloud/gke-cluster-creation"},{"name":"gke-multitenancy","path":"skills/cloud/gke-multitenancy"},{"name":"gke-networking","path":"skills/cloud/gke-networking"},{"name":"gke-workload-security","path":"skills/cloud/gke-workload-security"}],"pulled":[{"path":"skills/cloud/gke-manifest-generation","files":6,"bytes":23133},{"path":"skills/cloud/gke-platform-security","files":2,"bytes":12327},{"path":"skills/cloud/gke-upgrades","files":5,"bytes":44546},{"path":"skills/cloud/gke-workload-identity","files":2,"bytes":20112}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

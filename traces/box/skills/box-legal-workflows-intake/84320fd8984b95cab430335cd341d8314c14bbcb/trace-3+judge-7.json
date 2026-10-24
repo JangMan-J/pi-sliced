@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"box/skills/box-legal-workflows-intake",
+"source":"box/skills",
+"revision":"84320fd8984b95cab430335cd341d8314c14bbcb",
+"skillPath":"skills/box-legal-workflows-intake",
+"status":"resolved",
+"totals":{"files":1,"bytes":5375},
+"files":[
+{"path":"skills/box-legal-workflows-intake/SKILL.md","size":5375,"blob":"517e8cf97073241a99cd162a262cafc2fa043501","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,9],[0,10]]}
+],
+"regions":[
+{"kind":"own","path":"skills/box-legal-workflows-intake","files":1,"bytes":5375}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,9],[0,10]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,9],[0,10]]}
+],
+"namedSkills":[
+{"name":"box","path":"skills/box","at":[[0,9],[0,18],[0,19],[0,20],[0,21],[0,22],[0,26]]},
+{"name":"box-legal-workflows","path":"skills/box-legal-workflows","at":[[0,10],[0,56]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

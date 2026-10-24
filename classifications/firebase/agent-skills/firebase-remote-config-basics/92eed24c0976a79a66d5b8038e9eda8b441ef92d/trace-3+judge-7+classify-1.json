@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firebase-remote-config-basics",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firebase-remote-config-basics/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"4a24caeff00e46fa738641fe23cf7c60d99a74fd2675bb2fc79e170d9eaa1d39"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":11605,"own":{"files":3,"bytes":11605},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firebase-tools"],"package":["firebase-tools"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 11 KiB · CLI firebase-tools · packages firebase-tools","short":"11 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs firebase-tools"]},{"marker":"installs-packages","because":["installs firebase-tools"]},{"marker":"unpinned-code","because":["npx firebase-tools@latest: skills/firebase-remote-config-basics/SKILL.md:5, skills/firebase-remote-config-basics/SKILL.md:29, skills/firebase-remote-config-basics/SKILL.md:40"]}],
+"security":{"fetch-run":["npx firebase-tools@latest @ skills/firebase-remote-config-basics/SKILL.md:5, skills/firebase-remote-config-basics/SKILL.md:29, skills/firebase-remote-config-basics/SKILL.md:40 +5"]},
+"companions":{"named":[{"name":"firebase-basics","path":"skills/firebase-basics"},{"name":"xcode-project-setup","path":"skills/xcode-project-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

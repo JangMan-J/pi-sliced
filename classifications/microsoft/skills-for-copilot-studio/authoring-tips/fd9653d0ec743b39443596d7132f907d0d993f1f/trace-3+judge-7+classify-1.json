@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-copilot-studio/authoring-tips",
+"revision":"fd9653d0ec743b39443596d7132f907d0d993f1f",
+"trace":{"path":"traces/microsoft/skills-for-copilot-studio/authoring-tips/fd9653d0ec743b39443596d7132f907d0d993f1f/trace-3+judge-7.json","sha256":"9b1c2c2138fbe963fbcdbc3f6146e63454a914a41c88111c3bb8462e8d1df94c"},
+"status":"unresolvable",
+"reason":"no skill folder named authoring-tips at fd9653d0ec743b39443596d7132f907d0d993f1f"
+}

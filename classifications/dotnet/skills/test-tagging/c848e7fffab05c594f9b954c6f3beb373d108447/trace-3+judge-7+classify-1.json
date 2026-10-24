@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/test-tagging",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/test-tagging/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"fd29700db1c1fe122f025147864d600300b91f4409ee81fc5c661d64e61ecb80"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":22207,"own":{"files":1,"bytes":22207},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["It","dotnet"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 22 KiB · CLI It, dotnet","short":"22 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs It"]}],
+"security":{},
+"companions":{"named":[{"name":"code-testing","path":"plugins/dotnet-test/skills/code-testing"},{"name":"coverage-analysis","path":"plugins/dotnet-test/skills/coverage-analysis"},{"name":"crap-score","path":"plugins/dotnet-test/skills/crap-score"},{"name":"run-tests","path":"plugins/dotnet-test/skills/run-tests"},{"name":"test-analysis-extensions","path":"plugins/dotnet-test/skills/test-analysis-extensions"},{"name":"test-anti-patterns","path":"plugins/dotnet-test/skills/test-anti-patterns"},{"name":"test-gap-analysis","path":"plugins/dotnet-test/skills/test-gap-analysis"},{"name":"writing-mstest-tests","path":"plugins/dotnet-test/skills/writing-mstest-tests"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

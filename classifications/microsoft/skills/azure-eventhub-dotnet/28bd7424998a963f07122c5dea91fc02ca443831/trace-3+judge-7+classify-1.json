@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-eventhub-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-eventhub-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"bf13ddbe341a2de3be9c99f15e812c39b5bba33d1d5208baa2e3b53eb66533ad"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10936,"own":{"files":1,"bytes":10936},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.Messaging.EventHubs","Azure.Messaging.EventHubs.Processor","Azure.ResourceManager.EventHubs","Azure.Storage.Blobs","Microsoft.Azure.WebJobs.Extensions.EventHubs"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 11 KiB · CLI dotnet · packages Azure.Identity +5 · 1 key","short":"11 KiB · 1 CLI · 6 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.Messaging.EventHubs","installs Azure.Messaging.EventHubs.Processor","installs Azure.ResourceManager.EventHubs","installs Azure.Storage.Blobs","installs Microsoft.Azure.WebJobs.Extensions.EventHubs"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

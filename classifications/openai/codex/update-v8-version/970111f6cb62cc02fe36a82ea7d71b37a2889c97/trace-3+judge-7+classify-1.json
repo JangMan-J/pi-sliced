@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex/update-v8-version",
+"revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"trace":{"path":"traces/openai/codex/update-v8-version/970111f6cb62cc02fe36a82ea7d71b37a2889c97/trace-3+judge-7.json","sha256":"11042f1759c59812d100a5ebf0ad0a1e0db8cf9a9481028e78c912c84e7c244a"},
+"status":"unresolvable",
+"reason":"no skill folder named update-v8-version at 970111f6cb62cc02fe36a82ea7d71b37a2889c97"
+}

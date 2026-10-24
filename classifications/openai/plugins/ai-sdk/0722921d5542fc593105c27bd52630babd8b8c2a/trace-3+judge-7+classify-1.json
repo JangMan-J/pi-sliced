@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/ai-sdk",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/ai-sdk/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"30997ff4db54f41b89c1e04a80d74820cd3e381e3ed049492b1a2a6a3d472e73"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":26113,"own":{"files":5,"bytes":26113},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@ai-sdk/devtools","jq"],"package":["ai"],"mcp-server":[],"credential":[],"network":["ai-gateway.vercel.sh","ai-sdk.dev"]},"summary":"5 files, 26 KiB · CLI @ai-sdk/devtools, jq · packages ai · 2 hosts","short":"26 KiB · 2 CLI · 1 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @ai-sdk/devtools","runs jq"]},{"marker":"installs-packages","because":["installs ai"]},{"marker":"network","because":["fetches from ai-gateway.vercel.sh","fetches from ai-sdk.dev"]},{"marker":"unpinned-code","because":["npx @ai-sdk/devtools: plugins/vercel/skills/ai-sdk/references/devtools.md:45"]}],
+"security":{"fetch-run":["npx @ai-sdk/devtools @ plugins/vercel/skills/ai-sdk/references/devtools.md:45"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

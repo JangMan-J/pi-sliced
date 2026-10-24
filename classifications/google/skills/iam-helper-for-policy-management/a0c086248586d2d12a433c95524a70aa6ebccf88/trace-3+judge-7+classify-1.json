@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/iam-helper-for-policy-management",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/iam-helper-for-policy-management/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"6e6ff9369aee23d630139480f9251f43a0de06ddfc1e5aa8e75463a23e5debea"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":19492,"own":{"files":3,"bytes":19492},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 19 KiB · CLI gcloud","short":"19 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

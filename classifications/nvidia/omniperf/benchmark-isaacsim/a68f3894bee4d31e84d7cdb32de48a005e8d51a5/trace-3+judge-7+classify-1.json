@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/omniperf/benchmark-isaacsim",
+"revision":"a68f3894bee4d31e84d7cdb32de48a005e8d51a5",
+"trace":{"path":"traces/nvidia/omniperf/benchmark-isaacsim/a68f3894bee4d31e84d7cdb32de48a005e8d51a5/trace-3+judge-7.json","sha256":"c11049a6b2394c5b0c3e0df9d732cf2a3e56a46506a8b0dce21b42d1314ab0a4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5134,"own":{"files":1,"bytes":5134},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.0 KiB","short":"5.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"install-isaacsim","path":".agents/skills/install-isaacsim"},{"name":"perf-tuning","path":".agents/skills/perf-tuning"},{"name":"profiling","path":".agents/skills/profiling"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

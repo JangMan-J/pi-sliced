@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/dart-collect-coverage",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/dart-collect-coverage/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"6b606c0348ac6833ef27b0cac671459b3233880069dff151dabd90bcdd87c173"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4893,"own":{"files":1,"bytes":4893},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dart","flutter"],"package":["dev:coverage"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.8 KiB · CLI dart, flutter · packages dev:coverage","short":"4.8 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dart","runs flutter"]},{"marker":"installs-packages","because":["installs dev:coverage"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

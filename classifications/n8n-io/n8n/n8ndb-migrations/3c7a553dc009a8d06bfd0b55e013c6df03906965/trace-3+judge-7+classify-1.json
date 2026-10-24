@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8ndb-migrations",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8ndb-migrations/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"d9b7f4889f349207dcacac8d9d601685983c9eb36d1d921638e51b9968ba6a72"},
+"status":"unresolvable",
+"reason":"no skill folder named n8ndb-migrations at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

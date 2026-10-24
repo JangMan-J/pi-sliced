@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/engineering-agent-skills/waypoint",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/engineering-agent-skills/waypoint/none/trace-3+judge-7.json","sha256":"11e350b3e7ad9174e9e242e89844fbd81b01cc003811b0b8ad55ed88f152c8d6"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"
+}

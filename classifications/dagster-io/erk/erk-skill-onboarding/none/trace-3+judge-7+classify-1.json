@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/erk-skill-onboarding",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/erk-skill-onboarding/none/trace-3+judge-7.json","sha256":"3caa4512a2e5af3b01e1a791276b1f5bdb70c01ab1fa91cec8ce6d25f5efec40"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

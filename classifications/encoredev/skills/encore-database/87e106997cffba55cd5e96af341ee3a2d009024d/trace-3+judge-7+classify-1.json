@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"encoredev/skills/encore-database",
+"revision":"87e106997cffba55cd5e96af341ee3a2d009024d",
+"trace":{"path":"traces/encoredev/skills/encore-database/87e106997cffba55cd5e96af341ee3a2d009024d/trace-3+judge-7.json","sha256":"0321d0a93579093efb648a054ced49fd39c38aa6a706d8889b202a17da5b0d46"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":24038,"own":{"files":1,"bytes":5943},"otherSkills":{"count":3,"files":3,"bytes":18095},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 23 KiB · +3 other skills","short":"23 KiB · +3 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at encore/api","pulls in 1 file of the skill at encore/auth","pulls in 1 file of the skill at encore/service"]}],
+"security":{},
+"companions":{"named":[{"name":"api","path":"encore/api"},{"name":"auth","path":"encore/auth"}],"pulled":[{"path":"encore/api","files":1,"bytes":7839},{"path":"encore/auth","files":1,"bytes":7060},{"path":"encore/service","files":1,"bytes":3196}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/csm-email-drafting",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/csm-email-drafting/none/trace-3+judge-7.json","sha256":"9f9f159cd0b53ee42ad4489af9c5d2b50b536d320205454d0fae306f76e12637"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

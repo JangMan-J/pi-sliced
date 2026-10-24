@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemoclaw-maintainer-find-review-pr",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemoclaw-maintainer-find-review-pr/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"a3aa62bd3ff8142c8bbb40f8d046c9b45f723adfb85d1701c74fdc1d4434b5a4"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-maintainer-find-review-pr at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf"
+}

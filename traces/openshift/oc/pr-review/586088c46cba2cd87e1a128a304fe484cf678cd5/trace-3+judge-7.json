@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openshift/oc/pr-review",
+"source":"openshift/oc",
+"revision":"586088c46cba2cd87e1a128a304fe484cf678cd5",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named pr-review at 586088c46cba2cd87e1a128a304fe484cf678cd5",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

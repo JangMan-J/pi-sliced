@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/configure-env-variables",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/configure-env-variables/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"061006c308201704c30b0da051c5b538c8684e5b473be6479601e7500a8aad62"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":139655,"own":{"files":1,"bytes":34040},"otherSkills":{"count":1,"files":5,"bytes":105615},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pac"],"package":[],"mcp-server":["playwright"],"credential":[],"network":[]},"summary":"6 files, 136 KiB · +1 other skill · MCP playwright · CLI pac","short":"136 KiB · +1 skill · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs pac"]},{"marker":"mcp-server","because":["uses the playwright MCP server"]},{"marker":"chain-loads","because":["pulls in 5 files of the skill at plugins/power-pages/skills/add-server-logic"]}],
+"security":{},
+"companions":{"named":[{"name":"activate-site","path":"plugins/power-pages/skills/activate-site"},{"name":"add-server-logic","path":"plugins/power-pages/skills/add-server-logic"},{"name":"create-site","path":"plugins/power-pages/skills/create-site"},{"name":"deploy-pipeline","path":"plugins/power-pages/skills/deploy-pipeline"},{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"},{"name":"plan-alm","path":"plugins/power-pages/skills/plan-alm"},{"name":"setup-pipeline","path":"plugins/power-pages/skills/setup-pipeline"},{"name":"setup-solution","path":"plugins/power-pages/skills/setup-solution"},{"name":"test-site","path":"plugins/power-pages/skills/test-site"}],"pulled":[{"path":"plugins/power-pages/skills/add-server-logic","files":5,"bytes":105615}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

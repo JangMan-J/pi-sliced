@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/agent-browser",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/agent-browser/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"cb0f3a00e4b0d1cae6aa734458a00421815e50d5668b9db4c4b444df63ff318f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6616,"own":{"files":1,"bytes":6616},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Array.from","JSON.stringify","agent-browser","document.querySelectorAll","img"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.5 KiB · CLI Array.from, JSON.stringify +3","short":"6.5 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser","runs Array.from","runs document.querySelectorAll","runs img","runs JSON.stringify"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

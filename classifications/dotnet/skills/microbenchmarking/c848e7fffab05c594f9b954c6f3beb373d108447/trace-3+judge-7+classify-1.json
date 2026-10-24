@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/microbenchmarking",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/microbenchmarking/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"f4d53aa44df048de62987c0531a28c2055e9758885692f74c1bc20db7e827804"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":59886,"own":{"files":6,"bytes":59886},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["BenchmarkDotNet"],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 58 KiB · CLI dotnet · packages BenchmarkDotNet","short":"58 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs BenchmarkDotNet"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

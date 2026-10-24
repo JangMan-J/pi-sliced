@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vercel-labs/agent-browser/agent-browser-vercel-sandbox",
+"source":"vercel-labs/agent-browser",
+"revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named agent-browser-vercel-sandbox at 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

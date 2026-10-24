@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"figma/dev-mode-mcp-server-guide/figma-create-design-system-rules",
+"revision":"056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+"trace":{"path":"traces/figma/dev-mode-mcp-server-guide/figma-create-design-system-rules/056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb/trace-3+judge-7.json","sha256":"68ca07a3c682456d18134838b2e58881b7a9cfa0d339a58b4392cad27002add0"},
+"status":"unresolvable",
+"reason":"no skill folder named figma-create-design-system-rules at 056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb"
+}

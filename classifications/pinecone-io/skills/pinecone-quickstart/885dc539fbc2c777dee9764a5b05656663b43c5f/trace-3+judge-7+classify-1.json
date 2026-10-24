@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pinecone-io/skills/pinecone-quickstart",
+"revision":"885dc539fbc2c777dee9764a5b05656663b43c5f",
+"trace":{"path":"traces/pinecone-io/skills/pinecone-quickstart/885dc539fbc2c777dee9764a5b05656663b43c5f/trace-3+judge-7.json","sha256":"7220540e5d42aa3292f2a7f5526848a6faa87a948eef74f74dd107ad028c9eb3"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":30482,"own":{"files":3,"bytes":14094},"otherSkills":{"count":1,"files":3,"bytes":16388},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pc"],"package":["pinecone","rich","typer"],"mcp-server":["pinecone"],"credential":["PINECONE_API_KEY"],"network":[]},"summary":"6 files, 30 KiB · +1 other skill · MCP pinecone · CLI pc · packages pinecone +2 · 1 key","short":"30 KiB · +1 skill · 1 CLI · 3 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["3 packages to install","1 MCP server","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs pc"]},{"marker":"installs-packages","because":["installs pinecone","installs rich","installs typer"]},{"marker":"credentials","because":["needs PINECONE_API_KEY"]},{"marker":"mcp-server","because":["uses the pinecone MCP server"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/pinecone-assistant"]}],
+"security":{},
+"companions":{"named":[{"name":"pinecone-assistant","path":"skills/pinecone-assistant"}],"pulled":[{"path":"skills/pinecone-assistant","files":3,"bytes":16388}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

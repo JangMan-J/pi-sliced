@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/php-mcp-server-generator",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/php-mcp-server-generator/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"93bff6414e557d4290a6ba91a109fc7e843dae188197777d0eadfa047a50a97e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10897,"own":{"files":1,"bytes":10897},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@modelcontextprotocol/inspector","composer","phpunit"],"package":[],"mcp-server":["php"],"credential":[],"network":[]},"summary":"1 file, 11 KiB · MCP php · CLI @modelcontextprotocol/inspector, composer +1","short":"11 KiB · 3 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @modelcontextprotocol/inspector","runs composer","runs phpunit"]},{"marker":"mcp-server","because":["uses the php MCP server"]},{"marker":"unpinned-code","because":["npx @modelcontextprotocol/inspector: skills/php-mcp-server-generator/SKILL.md:506"]}],
+"security":{"fetch-run":["npx @modelcontextprotocol/inspector @ skills/php-mcp-server-generator/SKILL.md:506"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

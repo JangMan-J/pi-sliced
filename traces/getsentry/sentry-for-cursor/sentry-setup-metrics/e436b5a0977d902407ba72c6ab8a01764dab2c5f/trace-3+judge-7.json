@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/sentry-for-cursor/sentry-setup-metrics",
+"source":"getsentry/sentry-for-cursor",
+"revision":"e436b5a0977d902407ba72c6ab8a01764dab2c5f",
+"skillPath":"skills/sentry-setup-metrics",
+"status":"resolved",
+"totals":{"files":1,"bytes":17790},
+"files":[
+{"path":"skills/sentry-setup-metrics/SKILL.md","size":17790,"blob":"3135158aadf433dffc242df1838ffcf9548fbd7e","how":"root"}
+],
+"outside":[
+{"kind":"package","name":"@sentry/nextjs","at":[[0,85]]},
+{"kind":"package","name":"sentry-sdk","at":[[0,281]]}
+],
+"regions":[
+{"kind":"own","path":"skills/sentry-setup-metrics","files":1,"bytes":17790}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,85]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

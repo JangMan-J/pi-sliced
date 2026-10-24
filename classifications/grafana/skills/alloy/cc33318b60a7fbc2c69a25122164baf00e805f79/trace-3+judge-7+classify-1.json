@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/alloy",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/alloy/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"7744695aca4b88944da5b98a21fb2c54d9116a24228d4061a728764f3eb1665a"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":42204,"own":{"files":4,"bytes":42204},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["alloy","jq"],"package":["alloy","grafana/grafana/alloy"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 41 KiB · CLI alloy, jq · packages alloy +1","short":"41 KiB · 2 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs alloy","runs jq"]},{"marker":"installs-packages","because":["installs alloy","installs grafana/grafana/alloy"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

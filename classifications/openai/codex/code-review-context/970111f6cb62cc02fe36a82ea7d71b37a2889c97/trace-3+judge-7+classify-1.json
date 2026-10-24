@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex/code-review-context",
+"revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"trace":{"path":"traces/openai/codex/code-review-context/970111f6cb62cc02fe36a82ea7d71b37a2889c97/trace-3+judge-7.json","sha256":"b14883e04489053a8d684ca10fb39f007c6cdf9f34f184dc7f0984cf3a3d5357"},
+"status":"unresolvable",
+"reason":"no skill folder named code-review-context at 970111f6cb62cc02fe36a82ea7d71b37a2889c97"
+}

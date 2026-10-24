@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/agent-skills/improving-streamlit-design",
+"revision":"c69a265613f17cdd69d42e6f67b704214178fae5",
+"trace":{"path":"traces/streamlit/agent-skills/improving-streamlit-design/c69a265613f17cdd69d42e6f67b704214178fae5/trace-3+judge-7.json","sha256":"f0f7c18568194c561831af7cfbe01da2aebb0b2f84c85eaed7f745eac13334c7"},
+"status":"unresolvable",
+"reason":"no skill folder named improving-streamlit-design at c69a265613f17cdd69d42e6f67b704214178fae5"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-browser/agentcore",
+"revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"trace":{"path":"traces/vercel-labs/agent-browser/agentcore/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/trace-3+judge-7.json","sha256":"7eabb2d3838099658577df6eacc55c77bdaad5e01c6e27e31344081da9027122"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4006,"own":{"files":1,"bytes":4006},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-browser","aws"],"package":[],"mcp-server":[],"credential":["AWS_SECRET_ACCESS_KEY"],"network":[]},"summary":"1 file, 3.9 KiB · CLI agent-browser, aws · 1 key","short":"3.9 KiB · 2 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser","runs aws"]},{"marker":"credentials","because":["needs AWS_SECRET_ACCESS_KEY"]},{"marker":"stub","because":["own folder 3.9 KiB (1 file)","content is the agent-browser, aws it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

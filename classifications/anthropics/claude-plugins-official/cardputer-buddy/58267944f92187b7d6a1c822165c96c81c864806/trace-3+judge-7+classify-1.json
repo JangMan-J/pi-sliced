@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-plugins-official/cardputer-buddy",
+"revision":"58267944f92187b7d6a1c822165c96c81c864806",
+"trace":{"path":"traces/anthropics/claude-plugins-official/cardputer-buddy/58267944f92187b7d6a1c822165c96c81c864806/trace-3+judge-7.json","sha256":"f6c0830357f891f9e6edf7041b122ebd1da40df957d0743dc138f91fb0f9f1a5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1887,"own":{"files":1,"bytes":1887},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.8 KiB","short":"1.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"m5-onboard","path":"plugins/cwc-makers/skills/m5-onboard"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

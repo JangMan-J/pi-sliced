@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/agent-browser/agent-browser-vercel-sandbox",
+"revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+"trace":{"path":"traces/vercel-labs/agent-browser/agent-browser-vercel-sandbox/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/trace-3+judge-7.json","sha256":"6ea929fbb6491a1e03adddeaec3c37b7ea6c1c4b63d685ce105f9363dec90823"},
+"status":"unresolvable",
+"reason":"no skill folder named agent-browser-vercel-sandbox at 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb"
+}

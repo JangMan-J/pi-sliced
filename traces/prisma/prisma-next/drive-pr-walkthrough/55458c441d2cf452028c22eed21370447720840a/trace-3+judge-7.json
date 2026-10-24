@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"prisma/prisma-next/drive-pr-walkthrough",
+"source":"prisma/prisma-next",
+"revision":"55458c441d2cf452028c22eed21370447720840a",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named drive-pr-walkthrough at 55458c441d2cf452028c22eed21370447720840a",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

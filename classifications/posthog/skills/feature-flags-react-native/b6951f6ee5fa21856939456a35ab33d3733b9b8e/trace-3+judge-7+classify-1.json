@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/feature-flags-react-native",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/feature-flags-react-native/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"ded7dde8e050d7ed73efe7c7024f2d6f04d48d4a4faccb7feeb3c34d18e23ccd"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":126453,"own":{"files":4,"bytes":126453},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo","groups","pod"],"package":["@react-native-async-storage/async-storage","posthog-react-native","react-native-device-info","react-native-localize"],"mcp-server":["posthog"],"credential":[],"network":[]},"summary":"4 files, 123 KiB · MCP posthog · CLI expo, groups +1 · packages @react-native-async-storage/async-storage +3","short":"123 KiB · 3 CLI · 4 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs expo","runs groups","runs pod"]},{"marker":"installs-packages","because":["installs @react-native-async-storage/async-storage","installs posthog-react-native","installs react-native-device-info","installs react-native-localize"]},{"marker":"mcp-server","because":["uses the posthog MCP server"]},{"marker":"unpinned-code","because":["npx expo: skills/posthog/feature-flags/skills/react-native/references/react-native.md:16"]}],
+"security":{"fetch-run":["npx expo @ skills/posthog/feature-flags/skills/react-native/references/react-native.md:16"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

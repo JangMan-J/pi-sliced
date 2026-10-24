@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pinecone-io/skills/pinecone-help",
+"revision":"885dc539fbc2c777dee9764a5b05656663b43c5f",
+"trace":{"path":"traces/pinecone-io/skills/pinecone-help/885dc539fbc2c777dee9764a5b05656663b43c5f/trace-3+judge-7.json","sha256":"a035b91411d9b2a152a4148cbe114775e353997c0c356dd80b96e3eb2936ec77"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3478,"own":{"files":1,"bytes":3478},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["pinecone-io/tap/pinecone"],"mcp-server":["pinecone"],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB · MCP pinecone · packages pinecone-io/tap/pinecone","short":"3.4 KiB · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server"]},
+"markers":[{"marker":"installs-packages","because":["installs pinecone-io/tap/pinecone"]},{"marker":"mcp-server","because":["uses the pinecone MCP server"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the pinecone it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"pinecone-assistant","path":"skills/pinecone-assistant"},{"name":"pinecone-cli","path":"skills/pinecone-cli"},{"name":"pinecone-docs","path":"skills/pinecone-docs"},{"name":"pinecone-full-text-search","path":"skills/pinecone-full-text-search"},{"name":"pinecone-mcp","path":"skills/pinecone-mcp"},{"name":"pinecone-n8n","path":"skills/pinecone-n8n"},{"name":"pinecone-query","path":"skills/pinecone-query"},{"name":"pinecone-quickstart","path":"skills/pinecone-quickstart"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

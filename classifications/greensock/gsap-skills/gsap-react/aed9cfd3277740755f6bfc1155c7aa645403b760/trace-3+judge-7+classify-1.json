@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"greensock/gsap-skills/gsap-react",
+"revision":"aed9cfd3277740755f6bfc1155c7aa645403b760",
+"trace":{"path":"traces/greensock/gsap-skills/gsap-react/aed9cfd3277740755f6bfc1155c7aa645403b760/trace-3+judge-7.json","sha256":"dd7485fb814f9237a59a472b4cf67486d4d60704a7a16000f4e8d4c2882f265c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6565,"own":{"files":1,"bytes":6565},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@gsap/react","gsap"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.4 KiB · packages @gsap/react +1","short":"6.4 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @gsap/react","installs gsap"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

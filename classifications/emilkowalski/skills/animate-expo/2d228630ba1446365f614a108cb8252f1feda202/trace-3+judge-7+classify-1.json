@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"emilkowalski/skills/animate-expo",
+"revision":"2d228630ba1446365f614a108cb8252f1feda202",
+"trace":{"path":"traces/emilkowalski/skills/animate-expo/2d228630ba1446365f614a108cb8252f1feda202/trace-3+judge-7.json","sha256":"b9c16d7e86b4b6ccb05af9012639464636dc05f65e6011dace3d8039ab257d47"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":34699,"own":{"files":2,"bytes":34699},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["expo"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 34 KiB · CLI expo","short":"34 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs expo"]},{"marker":"unpinned-code","because":["npx expo: skills/animate-expo/RECIPES.md:10, skills/animate-expo/RECIPES.md:258, skills/animate-expo/SKILL.md:84"]}],
+"security":{"fetch-run":["npx expo @ skills/animate-expo/RECIPES.md:10, skills/animate-expo/RECIPES.md:258, skills/animate-expo/SKILL.md:84 +1"]},
+"companions":{"named":[{"name":"animate","path":"skills/animate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

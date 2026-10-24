@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-custom-golden-image-discovery",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-custom-golden-image-discovery/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"02ed10e108575e2274ea7d6f45990c0f115671a960a6b27d1857484d4d4aa96d"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6391,"own":{"files":2,"bytes":6391},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":["www.gstatic.com"]},"summary":"2 files, 6.2 KiB · CLI gcloud · 1 host","short":"6.2 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"network","because":["fetches from www.gstatic.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

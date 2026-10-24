@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/cost-analysis",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/cost-analysis/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"f9d04a53af6327bbde3094675d93188e5b60c653c778810e91a00604789fd4e8"},
+"status":"resolved",
+"footprint":{"files":13,"bytes":24096,"own":{"files":13,"bytes":24096},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"13 files, 24 KiB","short":"24 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"azure-kubernetes","path":".github/plugins/azure-skills/skills/azure-kubernetes"},{"name":"cost-estimation","path":".github/plugins/azure-cost/skills/cost-estimation"},{"name":"cost-optimization","path":".github/plugins/azure-cost/skills/cost-optimization"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"figma/mcp-server-guide/figma-code-connect",
+"revision":"056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+"trace":{"path":"traces/figma/mcp-server-guide/figma-code-connect/056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb/trace-3+judge-7.json","sha256":"aacf68c6e60ae7020c80a6085685c657ba66f911d665b5e4c10372d15b695065"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":60134,"own":{"files":3,"bytes":60134},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["figma"],"package":["@figma/code-connect"],"mcp-server":["figma"],"credential":["FIGMA_ACCESS_TOKEN"],"network":[]},"summary":"3 files, 59 KiB · MCP figma · CLI figma · packages @figma/code-connect · 1 key","short":"59 KiB · 1 CLI · 1 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs figma"]},{"marker":"installs-packages","because":["installs @figma/code-connect"]},{"marker":"credentials","because":["needs FIGMA_ACCESS_TOKEN"]},{"marker":"mcp-server","because":["uses the figma MCP server"]},{"marker":"unpinned-code","because":["install @latest: skills-figquery/figma-code-connect/references/api.md:543","npx figma: skills-figquery/figma-code-connect/references/api.md:551, skills-figquery/figma-code-connect/references/api.md:557, skills-figquery/figma-code-connect/references/api.md:562"]}],
+"security":{"fetch-run":["install @latest @ skills-figquery/figma-code-connect/references/api.md:543","npx figma @ skills-figquery/figma-code-connect/references/api.md:551, skills-figquery/figma-code-connect/references/api.md:557, skills-figquery/figma-code-connect/references/api.md:562 +9"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

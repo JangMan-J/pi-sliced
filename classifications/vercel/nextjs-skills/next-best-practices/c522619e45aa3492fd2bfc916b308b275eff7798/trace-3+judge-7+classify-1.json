@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/nextjs-skills/next-best-practices",
+"revision":"c522619e45aa3492fd2bfc916b308b275eff7798",
+"trace":{"path":"traces/vercel/nextjs-skills/next-best-practices/c522619e45aa3492fd2bfc916b308b275eff7798/trace-3+judge-7.json","sha256":"b765e7557f1e4c59a1e5717657c353eadd8a6922941bdd56c6eead0b75373177"},
+"status":"unresolvable",
+"reason":"no skill folder named next-best-practices at c522619e45aa3492fd2bfc916b308b275eff7798"
+}

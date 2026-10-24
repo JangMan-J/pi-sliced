@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/skills/dick-sucking",
+"revision":"none",
+"trace":{"path":"traces/vercel/skills/dick-sucking/none/trace-3+judge-7.json","sha256":"07633701f8a953747df0840eb134ce410c8b019f1679e39c345c963dc65f90db"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/skills.git/' not found"
+}

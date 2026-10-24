@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"addyosmani/agent-skills/source-driven-development",
+"source":"addyosmani/agent-skills",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"skillPath":"skills/source-driven-development",
+"status":"resolved",
+"totals":{"files":1,"bytes":10038},
+"files":[
+{"path":"skills/source-driven-development/SKILL.md","size":10038,"blob":"2704f0e130bc4659951aa552373914b2d63d18c9","how":"root"}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/source-driven-development","files":1,"bytes":10038}
+],
+"signals":[
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,110]]}
+],
+"namedSkills":[
+{"name":"security-and-hardening","path":"skills/security-and-hardening","at":[[0,101]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

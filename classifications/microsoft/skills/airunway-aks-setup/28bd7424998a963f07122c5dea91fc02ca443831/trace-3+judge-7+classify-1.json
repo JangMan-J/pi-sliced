@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/airunway-aks-setup",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/airunway-aks-setup/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"79669d6389d91285dde089067f9569f05d69d369616db77c0f9ce6a1c0dad4f4"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":26147,"own":{"files":12,"bytes":26147},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertTo-Json","ForEach-Object","Get-Command","Get-Content","Invoke-RestMethod","Select-String","Set-Content","finally","kubectl","make","try"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"12 files, 26 KiB · CLI ConvertTo-Json, ForEach-Object +9","short":"26 KiB · 11 CLI"},
+"heavy":{"heavy":true,"because":["11 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ConvertTo-Json","runs finally","runs ForEach-Object","runs Get-Command","runs Get-Content","runs Invoke-RestMethod","runs kubectl","runs make","runs Select-String","runs Set-Content","runs try"]}],
+"security":{},
+"companions":{"named":[{"name":"aks-gpu-inference","path":".github/plugins/aks-skills/skills/aks-gpu-inference"},{"name":"azure-diagnostics","path":".github/plugins/azure-skills/skills/azure-diagnostics"},{"name":"azure-kubernetes","path":".github/plugins/azure-skills/skills/azure-kubernetes"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

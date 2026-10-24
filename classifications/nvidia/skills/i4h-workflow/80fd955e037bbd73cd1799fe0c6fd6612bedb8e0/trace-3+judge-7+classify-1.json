@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/i4h-workflow",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/i4h-workflow/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"44e0115b6c6519683e9a7f66d803367b03d4903fc76bc6e9d6d5b7faa44e6ad2"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8814,"own":{"files":2,"bytes":8814},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"2 files, 8.6 KiB · 1 host","short":"8.6 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[{"name":"i4h-lerobot-viz","path":"skills/i4h-lerobot-viz"},{"name":"i4h-workflow-create","path":"skills/i4h-workflow-create"},{"name":"i4h-workflow-dataset-annotate","path":"skills/i4h-workflow-dataset-annotate"},{"name":"i4h-workflow-dataset-convert","path":"skills/i4h-workflow-dataset-convert"},{"name":"i4h-workflow-dataset-mimic","path":"skills/i4h-workflow-dataset-mimic"},{"name":"i4h-workflow-dataset-replay","path":"skills/i4h-workflow-dataset-replay"},{"name":"i4h-workflow-dataset-teleop","path":"skills/i4h-workflow-dataset-teleop"},{"name":"i4h-workflow-e2e","path":"skills/i4h-workflow-e2e"},{"name":"i4h-workflow-finetune","path":"skills/i4h-workflow-finetune"},{"name":"i4h-workflow-scene-edit","path":"skills/i4h-workflow-scene-edit"},{"name":"i4h-workflow-setup","path":"skills/i4h-workflow-setup"},{"name":"i4h-workflow-train-rl","path":"skills/i4h-workflow-train-rl"},{"name":"i4h-workflow-validate","path":"skills/i4h-workflow-validate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

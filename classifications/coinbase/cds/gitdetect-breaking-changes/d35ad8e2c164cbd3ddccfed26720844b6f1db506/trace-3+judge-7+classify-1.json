@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/cds/gitdetect-breaking-changes",
+"revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506",
+"trace":{"path":"traces/coinbase/cds/gitdetect-breaking-changes/d35ad8e2c164cbd3ddccfed26720844b6f1db506/trace-3+judge-7.json","sha256":"9f1326462e1ea61b56363015f00aa8129564097c78868fc255db39318be71b87"},
+"status":"unresolvable",
+"reason":"no skill folder named gitdetect-breaking-changes at d35ad8e2c164cbd3ddccfed26720844b6f1db506"
+}

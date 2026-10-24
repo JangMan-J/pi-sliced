@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/shopify-storefront-graphql",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/shopify-storefront-graphql/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"7bc446ae4870eacf29cbc87ebaebb5b47c2e0241a7fa146b524b7de604e8cf0d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":787835,"own":{"files":4,"bytes":787835},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":1,"bytes":112142},"outside":{"cli":[],"package":["@shopify/app-bridge-types","@shopify/polaris-types"],"mcp-server":[],"credential":["MINERVA_TOKEN"],"network":["shopify-dev.shop.dev","shopify.dev"]},"summary":"4 files, 769 KiB · 1 other binaries · packages @shopify/app-bridge-types +1 · 1 key · 2 hosts","short":"769 KiB · 2 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs @shopify/app-bridge-types","installs @shopify/polaris-types"]},{"marker":"network","because":["fetches from shopify-dev.shop.dev","fetches from shopify.dev"]},{"marker":"credentials","because":["needs MINERVA_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

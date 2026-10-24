@@ -223,6 +223,7 @@ export function classify(traceBytes: string, tracePath: string): Classification 
   };
 }
 
+/** JSON with one top-level key per line: compact, and a change shows as a line diff. */
 export function serializeClassification(c: Classification): string {
-  return JSON.stringify(c, null, 1) + "\n";
+  return `{\n${Object.entries(c).map(([k, v]) => `${JSON.stringify(k)}:${JSON.stringify(v)}`).join(",\n")}\n}\n`;
 }

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/ignite/drive-orchestrate-plan",
+"revision":"none",
+"trace":{"path":"traces/prisma/ignite/drive-orchestrate-plan/none/trace-3+judge-7.json","sha256":"ab3d05c975373467878785fa31b70183b6e90253c3dc6ad3d14cd533779e2b8c"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/prisma/ignite.git/' not found"
+}

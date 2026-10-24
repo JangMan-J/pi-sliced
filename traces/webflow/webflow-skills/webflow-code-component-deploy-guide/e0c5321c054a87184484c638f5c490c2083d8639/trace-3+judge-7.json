@@ -1,0 +1,35 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"webflow/webflow-skills/webflow-code-component-deploy-guide",
+"source":"webflow/webflow-skills",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"skillPath":"plugins/webflow-skills/skills/deploy-guide",
+"status":"resolved",
+"totals":{"files":3,"bytes":31383},
+"files":[
+{"path":"plugins/webflow-skills/skills/deploy-guide/SKILL.md","size":11290,"blob":"16d4aecfc5579b8fcc9e56d317da29073b4c0f38","how":"root"},
+{"path":"plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md","size":5168,"blob":"2ef49c03a26c5f6df553211937f6eb774d7c7328","how":"link","from":0,"line":72},
+{"path":"plugins/webflow-skills/skills/troubleshoot-deploy/references/ERROR_CATALOG.md","size":14925,"blob":"79bf3842716209802fba2822da922235541c159e","how":"link","from":1,"line":68}
+],
+"outside":[
+{"kind":"cli","name":"tsc","at":[[1,77],[1,126]]},
+{"kind":"cli","name":"webflow","at":[[0,57],[0,109],[0,402],[0,404],[0,418],[0,444],[0,464],[0,467],[0,470],[0,480],[1,33],[1,34],[1,96],[1,120],[1,123],[1,135],[1,137],[1,153],[1,154],[2,745],[2,748]]},
+{"kind":"credential","name":"WEBFLOW_WORKSPACE_API_TOKEN","at":[[0,106],[1,95]]},
+{"kind":"package","name":"@webflow/data-types","at":[[1,101]]},
+{"kind":"package","name":"@webflow/react","at":[[1,76],[1,101]]},
+{"kind":"package","name":"@webflow/webflow-cli","at":[[1,101]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/webflow-skills/skills/deploy-guide","files":1,"bytes":11290},
+{"kind":"skill","path":"plugins/webflow-skills/skills/troubleshoot-deploy","files":2,"bytes":20093}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx tsc","at":[[1,77],[1,126]]},
+{"kind":"fetch-run","detail":"npx webflow","at":[[0,57],[0,109],[0,402],[0,404],[0,418],[0,444],[0,464],[0,467],[0,470],[0,480],[1,33],[1,34],[1,96],[1,120],[1,123],[1,135],[1,137],[1,153],[1,154],[2,745],[2,748]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

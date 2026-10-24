@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"android/skills/android-cli",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"trace":{"path":"traces/android/skills/android-cli/a3f56b8fc83039c407e20a7b4789c2b6ea192d57/trace-3+judge-7.json","sha256":"89ae5b2e231b24f2e32818807eb38e23e51ffbaa7de931fdced5f740a7c03520"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":32692,"own":{"files":3,"bytes":32692},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adb","android","layout"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 32 KiB · CLI adb, android +1","short":"32 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs android","runs layout"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

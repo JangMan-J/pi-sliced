@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/lca-skills/langsmith-code-eval",
+"revision":"93cefb7bb3d3f99bd9a8aeef3c3636c7126cfca9",
+"trace":{"path":"traces/langchain-ai/lca-skills/langsmith-code-eval/93cefb7bb3d3f99bd9a8aeef3c3636c7126cfca9/trace-3+judge-7.json","sha256":"f763ab690221b5b52bbfdc6e9825ca0d4c6caea85aa33bf6f1d7e047a6b1b73c"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":6181,"own":{"files":2,"bytes":6181},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["poetry"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 6.0 KiB · CLI poetry","short":"6.0 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs poetry"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

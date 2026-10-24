@@ -1,0 +1,36 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/skills/evo2-nim",
+"source":"nvidia/skills",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"skillPath":"skills/bionemo-evo2-nim",
+"status":"resolved",
+"totals":{"files":7,"bytes":32841},
+"files":[
+{"path":"skills/bionemo-evo2-nim/SKILL.md","size":9695,"blob":"3a6912cc31b595bf328aafe26d2ac5761318ac5d","how":"root"},
+{"path":"skills/bionemo-evo2-nim/references/api.md","size":9326,"blob":"091ef22d6f614c8a6b2bbfc24ed0f575963e6ffa","how":"path","from":0,"line":15},
+{"path":"skills/bionemo-evo2-nim/references/examples.md","size":1317,"blob":"fb44fb0c194da4f8890ddcd0dc86c714acac5662","how":"path","from":0,"line":19},
+{"path":"skills/bionemo-evo2-nim/references/parameters.md","size":1392,"blob":"4df20c2233cb8648cdf11347edb270d8e004d219","how":"path","from":0,"line":17},
+{"path":"skills/bionemo-evo2-nim/references/science.md","size":1387,"blob":"89df05db2dce516c674e20d395365435b970d1ab","how":"path","from":0,"line":16},
+{"path":"skills/bionemo-evo2-nim/references/validation.md","size":1308,"blob":"55dbd0bc3e79a2e3f1adb5a789bf564c2f8d6ddf","how":"path","from":0,"line":18},
+{"path":"skills/bionemo-evo2-nim/scripts/generate.py","size":8416,"blob":"7fba5690dd1b540e65e12310394b1f9f64cc9034","how":"path","from":0,"line":23}
+],
+"outside":[
+{"kind":"cli","name":"docker","at":[[0,134],[0,142],[1,174],[1,182]]},
+{"kind":"credential","name":"NGC_API_KEY","at":[[0,61],[0,128],[0,129],[0,131],[0,134],[1,22],[1,58],[1,168],[1,169],[1,171],[1,174],[6,85]]},
+{"kind":"credential","name":"NVIDIA_API_KEY","at":[[0,128],[0,129],[1,168],[1,169]]},
+{"kind":"network","name":"health.api.nvidia.com","at":[[1,58],[6,19]]},
+{"kind":"package","name":"requests","at":[[6,16]]}
+],
+"regions":[
+{"kind":"own","path":"skills/bionemo-evo2-nim","files":7,"bytes":32841}
+],
+"signals":[
+{"kind":"secret-egress","detail":"NGC_API_KEY -> health.api.nvidia.com","at":[[1,58]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE-APACHE","spdx":"Apache-2.0","frontmatter":"Apache-2.0 AND CC-BY-4.0"}
+}

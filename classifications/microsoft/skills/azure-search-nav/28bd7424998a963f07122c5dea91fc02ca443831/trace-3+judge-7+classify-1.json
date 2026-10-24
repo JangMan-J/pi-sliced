@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-search-nav",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-search-nav/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"21b3e59e5fef3183890d4db670b43dab71d8482437938256a146fc14d8305b85"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":20494,"own":{"files":4,"bytes":20494},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Install-Module"],"package":[],"mcp-server":[],"credential":[],"network":["management.azure.com","pcnx-ai-etc5bra3fscchrew.b02.azurefd.net","portal.azure.com"]},"summary":"4 files, 20 KiB · CLI Install-Module · 3 hosts","short":"20 KiB · 1 CLI · 3 hosts"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs Install-Module"]},{"marker":"network","because":["fetches from management.azure.com","fetches from pcnx-ai-etc5bra3fscchrew.b02.azurefd.net","fetches from portal.azure.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

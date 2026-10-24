@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/skills/hf-cli",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"trace":{"path":"traces/huggingface/skills/hf-cli/c3ff942be3e07116b475253f0a8fc4f54682c1a8/trace-3+judge-7.json","sha256":"c75649b494c5d04aefad84669954783439bb914fcd31c4198e290c556085a5dd"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":33983,"own":{"files":1,"bytes":33983},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["hf"],"package":["hf-mount"],"mcp-server":[],"credential":["HF_TOKEN"],"network":["github.com","hf.co"]},"summary":"1 file, 33 KiB · CLI hf · packages hf-mount · 1 key · 2 hosts","short":"33 KiB · 1 CLI · 1 pkg · 1 key · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs hf"]},{"marker":"installs-packages","because":["installs hf-mount"]},{"marker":"network","because":["fetches from github.com","fetches from hf.co"]},{"marker":"credentials","because":["needs HF_TOKEN"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/hf-cli/SKILL.md:6"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/hf-cli/SKILL.md:6"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

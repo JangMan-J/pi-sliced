@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"cloudflare/sandbox-sdk/session-execution",
+"source":"cloudflare/sandbox-sdk",
+"revision":"643233e5159d5d9d184f50196c8294f451745004",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named session-execution at 643233e5159d5d9d184f50196c8294f451745004",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

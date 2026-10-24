@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"addyosmani/agent-skills/deprecation-and-migration",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"trace":{"path":"traces/addyosmani/agent-skills/deprecation-and-migration/aeac41d4d005999432bb7312f7ff06383a91d59d/trace-3+judge-7.json","sha256":"813a387032c88a476437ffc907411b729b993682e5745ee58761df0dbacd76b6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12642,"own":{"files":1,"bytes":12642},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 12 KiB","short":"12 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"incremental-implementation","path":"skills/incremental-implementation"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

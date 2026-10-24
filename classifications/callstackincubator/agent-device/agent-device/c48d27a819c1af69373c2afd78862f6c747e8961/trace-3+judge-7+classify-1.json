@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-device/agent-device",
+"revision":"c48d27a819c1af69373c2afd78862f6c747e8961",
+"trace":{"path":"traces/callstackincubator/agent-device/agent-device/c48d27a819c1af69373c2afd78862f6c747e8961/trace-3+judge-7.json","sha256":"771bea58c8c7e866af823a10af220d721d19cf8aadb4a36863282df699c54b62"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1961,"own":{"files":1,"bytes":1961},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-device","snapshot"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.9 KiB · CLI agent-device, snapshot","short":"1.9 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-device","runs snapshot"]},{"marker":"stub","because":["own folder 1.9 KiB (1 file)","content is the agent-device, snapshot it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

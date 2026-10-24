@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/playwright-test",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/playwright-test/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"a2599b990b5a67c2ec0409ef812207678be65c322f404fbd2603f3e7bfbe153c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1790,"own":{"files":1,"bytes":1790},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["playwright"],"credential":[],"network":[]},"summary":"1 file, 1.7 KiB · MCP playwright","short":"1.7 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the playwright MCP server"]},{"marker":"stub","because":["own folder 1.7 KiB (1 file)","content is the playwright it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

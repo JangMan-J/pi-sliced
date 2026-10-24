@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/elements/authoring-examples",
+"revision":"2efdddc9272c598845ca8c71833890b1fd658e3a",
+"trace":{"path":"traces/nvidia/elements/authoring-examples/2efdddc9272c598845ca8c71833890b1fd658e3a/trace-3+judge-7.json","sha256":"1da6ac3ef972fd5af3fa219bb0b372fc8d1d4a4de3645e6bf983d4f0cb4a6a7f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1796,"own":{"files":1,"bytes":1796},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.8 KiB","short":"1.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

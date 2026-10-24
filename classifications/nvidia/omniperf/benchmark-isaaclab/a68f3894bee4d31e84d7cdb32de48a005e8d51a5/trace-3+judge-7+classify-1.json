@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/omniperf/benchmark-isaaclab",
+"revision":"a68f3894bee4d31e84d7cdb32de48a005e8d51a5",
+"trace":{"path":"traces/nvidia/omniperf/benchmark-isaaclab/a68f3894bee4d31e84d7cdb32de48a005e8d51a5/trace-3+judge-7.json","sha256":"2ce6256366e862483f54e4c3f0cdb89fcfe47eee8049e8c5acc497cd486c5fd8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4793,"own":{"files":1,"bytes":4793},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.7 KiB","short":"4.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"install-isaaclab","path":".agents/skills/install-isaaclab"},{"name":"perf-tuning","path":".agents/skills/perf-tuning"},{"name":"profiling","path":".agents/skills/profiling"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

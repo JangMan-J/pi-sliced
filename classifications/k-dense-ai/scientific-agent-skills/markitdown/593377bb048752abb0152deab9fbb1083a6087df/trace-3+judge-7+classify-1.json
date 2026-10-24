@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/markitdown",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/markitdown/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"5de8847134c94521bb1578283fc66ee8327c3c0635be7a3ff19a72be4219b012"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":112681,"own":{"files":11,"bytes":112681},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","markitdown","markitdown-mcp"],"package":["markitdown"],"mcp-server":["official"],"credential":[],"network":["arxiv.org"]},"summary":"11 files, 110 KiB · MCP official · CLI docker, markitdown +1 · packages markitdown · 1 host","short":"110 KiB · 3 CLI · 1 pkg · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs markitdown","runs markitdown-mcp"]},{"marker":"installs-packages","because":["installs markitdown"]},{"marker":"network","because":["fetches from arxiv.org"]},{"marker":"mcp-server","because":["uses the official MCP server"]},{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/markitdown/references/security.md:198"]}],
+"security":{"injection":["ignore previous instructions @ skills/markitdown/references/security.md:198"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/nemoclaw-deploy-remote",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/nemoclaw-deploy-remote/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"d703e05b9cd7756d2d224ab298ab114da19e5c3d3cf8d30d1c5bebc3d4588671"},
+"status":"unresolvable",
+"reason":"no skill folder named nemoclaw-deploy-remote at f0ee12594687930cc378eb351643cb6e12007f39"
+}

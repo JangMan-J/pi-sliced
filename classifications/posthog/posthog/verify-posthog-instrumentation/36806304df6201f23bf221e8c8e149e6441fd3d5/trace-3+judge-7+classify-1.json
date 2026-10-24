@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/verify-posthog-instrumentation",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/verify-posthog-instrumentation/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"b8b67646436632555302bc69d9da3056a88096cdfb33274369e699a02785f0d8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3331,"own":{"files":1,"bytes":3331},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.3 KiB · CLI @posthog/wizard","short":"3.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard"]},{"marker":"stub","because":["own folder 3.3 KiB (1 file)","content is the @posthog/wizard it wraps"]},{"marker":"unpinned-code","because":["npx @posthog/wizard: tools/traffic-sim/skills/verify-posthog-instrumentation/SKILL.md:19"]}],
+"security":{"fetch-run":["npx @posthog/wizard @ tools/traffic-sim/skills/verify-posthog-instrumentation/SKILL.md:19"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

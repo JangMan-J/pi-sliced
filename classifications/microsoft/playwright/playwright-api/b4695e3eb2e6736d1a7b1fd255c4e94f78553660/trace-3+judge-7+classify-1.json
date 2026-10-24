@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/playwright/playwright-api",
+"revision":"b4695e3eb2e6736d1a7b1fd255c4e94f78553660",
+"trace":{"path":"traces/microsoft/playwright/playwright-api/b4695e3eb2e6736d1a7b1fd255c4e94f78553660/trace-3+judge-7.json","sha256":"30ee1bfbd0993a1bd561b865ce3642b5265e8cf0283c09277355e185c7b26bed"},
+"status":"unresolvable",
+"reason":"no skill folder named playwright-api at b4695e3eb2e6736d1a7b1fd255c4e94f78553660"
+}

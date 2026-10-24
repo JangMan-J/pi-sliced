@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"clerk/cli/clerk",
+"source":"clerk/cli",
+"revision":"6dbca61ba3350fa4825b7013ce4b4c23a95a7f33",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named clerk at 6dbca61ba3350fa4825b7013ce4b4c23a95a7f33",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

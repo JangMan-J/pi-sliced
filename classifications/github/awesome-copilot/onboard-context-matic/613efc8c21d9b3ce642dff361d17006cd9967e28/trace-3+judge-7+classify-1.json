@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/onboard-context-matic",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/onboard-context-matic/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"74ca5e126db0c588f083579424d07b17d2ad4c1fe296c22b49f23de3428d5b1b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13517,"own":{"files":1,"bytes":13517},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB","short":"13 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"integrate-context-matic","path":"skills/integrate-context-matic"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

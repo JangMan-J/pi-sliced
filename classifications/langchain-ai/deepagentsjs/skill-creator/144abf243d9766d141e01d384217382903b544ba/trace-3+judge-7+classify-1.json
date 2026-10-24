@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/deepagentsjs/skill-creator",
+"revision":"144abf243d9766d141e01d384217382903b544ba",
+"trace":{"path":"traces/langchain-ai/deepagentsjs/skill-creator/144abf243d9766d141e01d384217382903b544ba/trace-3+judge-7.json","sha256":"255131fcc224ba3416ace43f077ce45c834cd71a7c3489e28eba587cc88f7546"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":12737,"own":{"files":3,"bytes":12737},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tsx"],"package":["yaml"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 12 KiB · CLI tsx · packages yaml","short":"12 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tsx"]},{"marker":"installs-packages","because":["installs yaml"]},{"marker":"unpinned-code","because":["npx tsx: examples/skills/skill-creator/SKILL.md:78, examples/skills/skill-creator/SKILL.md:84, examples/skills/skill-creator/SKILL.md:92"]}],
+"security":{"fetch-run":["npx tsx @ examples/skills/skill-creator/SKILL.md:78, examples/skills/skill-creator/SKILL.md:84, examples/skills/skill-creator/SKILL.md:92"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

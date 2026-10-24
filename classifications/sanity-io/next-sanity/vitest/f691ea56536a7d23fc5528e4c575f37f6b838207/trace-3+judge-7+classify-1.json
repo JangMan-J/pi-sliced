@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/next-sanity/vitest",
+"revision":"f691ea56536a7d23fc5528e4c575f37f6b838207",
+"trace":{"path":"traces/sanity-io/next-sanity/vitest/f691ea56536a7d23fc5528e4c575f37f6b838207/trace-3+judge-7.json","sha256":"f84d0f28d229443573d7af6aae078348661a8a9efd1ec15288381d02565edccf"},
+"status":"resolved",
+"footprint":{"files":17,"bytes":69597,"own":{"files":17,"bytes":69597},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["vitest"],"package":["@vitest/coverage-istanbul","@vitest/coverage-v8","happy-dom","jsdom"],"mcp-server":[],"credential":[],"network":[]},"summary":"17 files, 68 KiB · CLI vitest · packages @vitest/coverage-istanbul +3","short":"68 KiB · 1 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs vitest"]},{"marker":"installs-packages","because":["installs @vitest/coverage-istanbul","installs @vitest/coverage-v8","installs happy-dom","installs jsdom"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

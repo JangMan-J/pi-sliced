@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"factory-ai/factory/prompt-refiner-gpt",
+"revision":"892925c655a97e7a0bc7d558236015ebb22cb214",
+"trace":{"path":"traces/factory-ai/factory/prompt-refiner-gpt/892925c655a97e7a0bc7d558236015ebb22cb214/trace-3+judge-7.json","sha256":"3c3e3e0e61661113f82ac7db7cd572e6e6993f351587e924cc795b3ef4dfc2ea"},
+"status":"unresolvable",
+"reason":"no skill folder named prompt-refiner-gpt at 892925c655a97e7a0bc7d558236015ebb22cb214"
+}

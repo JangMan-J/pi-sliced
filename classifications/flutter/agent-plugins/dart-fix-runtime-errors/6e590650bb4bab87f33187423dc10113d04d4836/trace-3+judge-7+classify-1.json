@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/dart-fix-runtime-errors",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/dart-fix-runtime-errors/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"97a879604faee68993d04b63db2d72184f3103a820307d109ab4fb2f45b65b2f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6257,"own":{"files":1,"bytes":6257},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dart"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.1 KiB · CLI dart","short":"6.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dart"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

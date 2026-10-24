@@ -1,0 +1,62 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"heygen-com/hyperframes/hyperframes-registry",
+"source":"heygen-com/hyperframes",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"skillPath":"skills/hyperframes-registry",
+"status":"resolved",
+"totals":{"files":19,"bytes":228437},
+"files":[
+{"path":"registry/blocks/vfx-liquid-background/vfx-liquid-background.html","size":43833,"blob":"c0f1b7a026495647bf3dfc10611721bec6141945","how":"path","from":4,"line":294,"judged":"outside-skill-folders"},
+{"path":"registry/blocks/vfx-magnetic/vfx-magnetic.html","size":15291,"blob":"521020e0a759f40d1f4e2ca729e3073e24c62369","how":"path","from":4,"line":203,"judged":"outside-skill-folders"},
+{"path":"registry/blocks/vfx-portal/vfx-portal.html","size":27022,"blob":"aec7eb4b2cd2711d3842ccb603207ed81cead8f6","how":"path","from":4,"line":333,"judged":"outside-skill-folders"},
+{"path":"registry/blocks/vfx-shatter/vfx-shatter.html","size":38037,"blob":"ab5a7dd21143a74b4d55879ee78ca649df455e80","how":"path","from":4,"line":237,"judged":"outside-skill-folders"},
+{"path":"skills/hyperframes-animation/adapters/html-in-canvas-patterns.md","size":17554,"blob":"dce466190205bdb36e9e61d771101b07ed0991d3","how":"path","from":10,"line":116},
+{"path":"skills/hyperframes-animation/adapters/three.md","size":10064,"blob":"b943a5e19c157b8bf31c076d7442984f5bc36294","how":"path","from":10,"line":116},
+{"path":"skills/hyperframes-animation/adapters/typegpu.md","size":8896,"blob":"f633aae5aa5e5a01c23fa1f2a90ab4acbee3e925","how":"path","from":10,"line":104},
+{"path":"skills/hyperframes-registry/SKILL.md","size":9933,"blob":"fd6d552902a67a5f18f258728bd304fe50cfea24","how":"root"},
+{"path":"skills/hyperframes-registry/examples/add-component.md","size":1473,"blob":"1371289ddfa21b27ec461947686c840f02e3d956","how":"path","from":15,"line":32,"judged":"skill-folder-only"},
+{"path":"skills/hyperframes-registry/references/contributing.md","size":7258,"blob":"28eb4957049bbe345c483e488a1b6630db321b9b","how":"link","from":7,"line":147},
+{"path":"skills/hyperframes-registry/references/discovery.md","size":16643,"blob":"3ee9c1795c2883c17d93b2639f70dcc242d2a97e","how":"link","from":7,"line":143},
+{"path":"skills/hyperframes-registry/references/install-locations.md","size":1519,"blob":"65e3d34e57f1e509f82476992c8d72c05a7106ee","how":"link","from":7,"line":47},
+{"path":"skills/hyperframes-registry/references/placeholder-material.md","size":9006,"blob":"d6648aafc463a378dd851c36d6cabd8804b476e4","how":"link","from":9,"line":99},
+{"path":"skills/hyperframes-registry/references/templates.md","size":11451,"blob":"8834c959e2d1d02d30e44e0c72d5960619a31c3a","how":"link","from":7,"line":147},
+{"path":"skills/hyperframes-registry/references/wiring-blocks.md","size":2641,"blob":"d3f4474cfa7af80e157c44c51dd6cb0ce6d1d076","how":"link","from":7,"line":74},
+{"path":"skills/hyperframes-registry/references/wiring-components.md","size":1723,"blob":"9521a2174a37734efb3de8370224e21647a5655c","how":"link","from":7,"line":86},
+{"path":"skills/hyperframes/references/plugin-installation.md","size":2715,"blob":"bb601b98cc12542626490d98ecbfa39759a3658e","how":"link","from":7,"line":6},
+{"path":"skills/hyperframes/scripts/lib/main-module.mjs","size":479,"blob":"5fd2fa9d04a8dd840842d18bd3e889736add9e2d","how":"script-read","from":18,"line":7},
+{"path":"skills/hyperframes/scripts/plugin-cli.mjs","size":2899,"blob":"4eeb01b8bd91803a729a00b1d85bb4be6038ca12","how":"variable-path","from":16,"line":21}
+],
+"outside":[
+{"kind":"cli","name":"gh","at":[[9,166],[9,169]]},
+{"kind":"cli","name":"hyperframes","at":[[5,32],[5,157],[5,194],[5,195],[6,25],[7,10],[7,18],[7,19],[7,20],[7,21],[7,22],[7,23],[7,28],[7,94],[7,95],[7,107],[7,108],[7,109],[7,110],[7,111],[7,112],[7,115],[7,122],[8,12],[8,64],[8,65],[9,110],[9,111],[9,118],[9,121],[9,124],[9,156],[9,178],[10,8],[10,9],[10,10],[10,11],[10,12],[10,13],[10,18],[10,59],[10,188],[15,7],[16,12],[16,18]]},
+{"kind":"cli","name":"oxfmt","at":[[9,143],[9,175]]},
+{"kind":"cli","name":"skills","at":[[16,12]]},
+{"kind":"cli","name":"tsx","at":[[9,150],[9,153]]},
+{"kind":"network","name":"cdn.jsdelivr.net","at":[[0,521],[0,522],[1,7],[2,11],[2,12],[3,11],[3,12]]},
+{"kind":"network","name":"fonts.googleapis.com","at":[[0,511],[2,8],[3,8]]},
+{"kind":"network","name":"raw.githubusercontent.com","at":[[7,134],[10,26]]}
+],
+"regions":[
+{"kind":"own","path":"skills/hyperframes-registry","files":9,"bytes":61647},
+{"kind":"skill","path":"skills/hyperframes","files":3,"bytes":6093},
+{"kind":"skill","path":"skills/hyperframes-animation","files":3,"bytes":36514},
+{"kind":"package","path":"","files":4,"bytes":124183}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx hyperframes","at":[[5,32],[5,157],[5,194],[5,195],[6,25],[7,94],[7,95],[7,107],[7,108],[7,109],[7,110],[7,111],[7,112],[7,122],[9,124],[9,156],[9,178],[10,8],[10,9],[10,10],[10,11],[10,12],[10,13],[10,18],[10,59],[10,188],[16,18]]},
+{"kind":"fetch-run","detail":"npx oxfmt","at":[[9,143],[9,175]]},
+{"kind":"fetch-run","detail":"npx skills","at":[[16,12]]},
+{"kind":"fetch-run","detail":"npx tsx","at":[[9,150],[9,153]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[16,12]]}
+],
+"namedSkills":[
+{"name":"hyperframes","path":"skills/hyperframes","at":[[16,5],[16,17],[16,18]]},
+{"name":"hyperframes-animation","path":"skills/hyperframes-animation","at":[[10,104],[10,116]]},
+{"name":"hyperframes-cli","path":"skills/hyperframes-cli","at":[[7,102]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

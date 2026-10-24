@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/next-intl-add-language",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/next-intl-add-language/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"228b30d866ff404aa180c245c0c24b7b082a396f3c57601817c9b81a3ca0a088"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":750,"own":{"files":1,"bytes":750},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 750 B","short":"750 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

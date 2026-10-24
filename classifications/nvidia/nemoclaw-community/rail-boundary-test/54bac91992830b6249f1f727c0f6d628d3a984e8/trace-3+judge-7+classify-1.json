@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw-community/rail-boundary-test",
+"revision":"54bac91992830b6249f1f727c0f6d628d3a984e8",
+"trace":{"path":"traces/nvidia/nemoclaw-community/rail-boundary-test/54bac91992830b6249f1f727c0f6d628d3a984e8/trace-3+judge-7.json","sha256":"e54589adb393864ca91fdea4b660436380c09d487dbd5c79cc4db9cd590fcbcc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":914,"own":{"files":1,"bytes":914},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["payments-rail.internal"]},"summary":"1 file, 914 B · 1 host","short":"914 B · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from payments-rail.internal"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

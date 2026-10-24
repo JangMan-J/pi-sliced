@@ -1,0 +1,30 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"mcp-use/skills/mcp-builder",
+"source":"mcp-use/skills",
+"revision":"3bf0eaa4b007fe3215fc81ef1bc4f9ba4ceb1c1e",
+"skillPath":"skills/mcp-builder",
+"status":"resolved",
+"totals":{"files":1,"bytes":14927},
+"files":[
+{"path":"skills/mcp-builder/SKILL.md","size":14927,"blob":"83ea9408d00f6bb11fe442012ce34c5d2fa31c74","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@mcp-use/tunnel","at":[[0,248]]},
+{"kind":"cli","name":"create-mcp-use-app","at":[[0,12],[0,15],[0,26],[0,558]]},
+{"kind":"cli","name":"mcp-use","at":[[0,242],[0,266],[0,274],[0,312],[0,563]]}
+],
+"regions":[
+{"kind":"own","path":"skills/mcp-builder","files":1,"bytes":14927}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @mcp-use/tunnel","at":[[0,248]]},
+{"kind":"fetch-run","detail":"npx create-mcp-use-app","at":[[0,12],[0,15],[0,26],[0,558]]},
+{"kind":"fetch-run","detail":"npx mcp-use","at":[[0,266],[0,274],[0,312],[0,563]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/mcp-builder/LICENSE.txt","spdx":"Apache-2.0","frontmatter":null}
+}

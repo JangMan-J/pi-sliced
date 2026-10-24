@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/com/building-mcp-server-on-cloudflare",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/com/building-mcp-server-on-cloudflare/none/trace-3+judge-7.json","sha256":"df5b0cacb147d3cca2343a5b8a26ab603bd9995e1ae9eb35e0757ea8dbe91e52"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/com.git/' not found"
+}

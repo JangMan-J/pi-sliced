@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/cuopt-install",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/cuopt-install/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"ab97bc85b9d0d077eaf71a675e84f2f14553940dff3f630697a1784cbb357ddd"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":8486,"own":{"files":2,"bytes":8486},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["GPU_access_OK","conda","docker","f","from","gcc","import","int","jq","n","nvcc","nvidia-smi","print"],"package":["cuopt","cuopt-cu13","cuopt-server","cuopt-server-cu12","cuopt-sh-client","libcuopt","libcuopt-cu13"],"mcp-server":[],"credential":[],"network":["pypi.nvidia.com"]},"summary":"2 files, 8.3 KiB · CLI GPU_access_OK, conda +11 · packages cuopt +6 · 1 host","short":"8.3 KiB · 13 CLI · 7 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["7 packages to install","13 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs conda","runs docker","runs f","runs from","runs gcc","runs GPU_access_OK","runs import","runs int","runs jq","runs n","runs nvcc","runs nvidia-smi","runs print"]},{"marker":"installs-packages","because":["installs cuopt","installs cuopt-cu13","installs cuopt-server","installs cuopt-server-cu12","installs cuopt-sh-client","installs libcuopt","installs libcuopt-cu13"]},{"marker":"network","because":["fetches from pypi.nvidia.com"]}],
+"security":{},
+"companions":{"named":[{"name":"cuopt-developer","path":"skills/cuopt-developer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

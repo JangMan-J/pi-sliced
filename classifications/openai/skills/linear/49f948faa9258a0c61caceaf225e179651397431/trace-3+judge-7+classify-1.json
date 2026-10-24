@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/linear",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/linear/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"b38fd1f43de63a2b42e9efcb26fda1e155277af9b2fe7d24b988618c52dde8da"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4952,"own":{"files":1,"bytes":4952},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["codex"],"package":[],"mcp-server":["linear"],"credential":[],"network":[]},"summary":"1 file, 4.8 KiB · MCP linear · CLI codex","short":"4.8 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs codex"]},{"marker":"mcp-server","because":["uses the linear MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

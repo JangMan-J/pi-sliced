@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pinecone-io/skills/pinecone-mcp",
+"revision":"885dc539fbc2c777dee9764a5b05656663b43c5f",
+"trace":{"path":"traces/pinecone-io/skills/pinecone-mcp/885dc539fbc2c777dee9764a5b05656663b43c5f/trace-3+judge-7.json","sha256":"1a590c646a167aac36a31e65f3cdd78f9d9224b33639f07da1a62d855184b713"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4408,"own":{"files":1,"bytes":4408},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["pinecone"],"credential":[],"network":[]},"summary":"1 file, 4.3 KiB · MCP pinecone","short":"4.3 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the pinecone MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

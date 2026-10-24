@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-platform-views",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-platform-views/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"9b5b5b5cb310ff432454812249a1a87a67e2c7640e3d21e25fd5894c4533eee1"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-platform-views at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

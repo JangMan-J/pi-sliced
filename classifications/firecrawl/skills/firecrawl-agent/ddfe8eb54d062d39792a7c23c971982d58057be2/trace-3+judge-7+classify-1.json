@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/firecrawl-agent",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/firecrawl-agent/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"42c0034fd0ef3573f60e246be572266dc220ef169e170b10cb858655c5cf42a5"},
+"status":"resolved",
+"footprint":{"files":12,"bytes":67012,"own":{"files":1,"bytes":4836},"otherSkills":{"count":9,"files":11,"bytes":62176},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bad","batch-scrape","firecrawl","jq","map","partial"],"package":[],"mcp-server":[],"credential":["FIRECRAWL_API_KEY"],"network":["www.firecrawl.dev"]},"summary":"12 files, 65 KiB · +9 other skills · CLI bad, batch-scrape +4 · 1 key · 1 host","short":"65 KiB · +9 skills · 6 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["6 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs bad","runs batch-scrape","runs firecrawl","runs jq","runs map","runs partial"]},{"marker":"network","because":["fetches from www.firecrawl.dev"]},{"marker":"credentials","because":["needs FIRECRAWL_API_KEY"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/core/firecrawl-alexandria","pulls in 1 file of the skill at skills/core/firecrawl-crawl","pulls in 2 files of the skill at skills/core/firecrawl-developer-index","pulls in 1 file of the skill at skills/core/firecrawl-download","pulls in 1 file of the skill at skills/core/firecrawl-interact","pulls in 1 file of the skill at skills/core/firecrawl-map","pulls in 1 file of the skill at skills/core/firecrawl-research-index","pulls in 2 files of the skill at skills/core/firecrawl-scrape","pulls in 1 file of the skill at skills/core/firecrawl-search"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/core/firecrawl-alexandria","files":1,"bytes":6239},{"path":"skills/core/firecrawl-crawl","files":1,"bytes":1876},{"path":"skills/core/firecrawl-developer-index","files":2,"bytes":11305},{"path":"skills/core/firecrawl-download","files":1,"bytes":2038},{"path":"skills/core/firecrawl-interact","files":1,"bytes":2961},{"path":"skills/core/firecrawl-map","files":1,"bytes":1661},{"path":"skills/core/firecrawl-research-index","files":1,"bytes":9821},{"path":"skills/core/firecrawl-scrape","files":2,"bytes":12694},{"path":"skills/core/firecrawl-search","files":1,"bytes":13581}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/deepchem",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/deepchem/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"ce87798e27a5ba24363f81481cbfac34abfc8231222e4aadee0e10973c39f7a7"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":64494,"own":{"files":9,"bytes":64494},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["_common","deepchem","graph_neural_network","numpy","torch","transformers"],"mcp-server":[],"credential":[],"network":["arxiv.org"]},"summary":"9 files, 63 KiB · packages _common +5 · 1 host","short":"63 KiB · 6 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["6 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs _common","installs deepchem","installs graph_neural_network","installs numpy","installs torch","installs transformers"]},{"marker":"network","because":["fetches from arxiv.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

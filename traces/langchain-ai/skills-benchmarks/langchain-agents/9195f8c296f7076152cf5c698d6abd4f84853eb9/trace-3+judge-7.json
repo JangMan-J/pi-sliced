@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"langchain-ai/skills-benchmarks/langchain-agents",
+"source":"langchain-ai/skills-benchmarks",
+"revision":"9195f8c296f7076152cf5c698d6abd4f84853eb9",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named langchain-agents at 9195f8c296f7076152cf5c698d6abd4f84853eb9",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

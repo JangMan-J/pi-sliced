@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/next-skills/metadata",
+"revision":"c522619e45aa3492fd2bfc916b308b275eff7798",
+"trace":{"path":"traces/vercel-labs/next-skills/metadata/c522619e45aa3492fd2bfc916b308b275eff7798/trace-3+judge-7.json","sha256":"4e4daaa630ed4fad548ae780849abc3c5146a340ed5f7b1548ec73c6eee456b6"},
+"status":"unresolvable",
+"reason":"no skill folder named metadata at c522619e45aa3492fd2bfc916b308b275eff7798"
+}

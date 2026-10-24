@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/flowstudio-power-automate-governance",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/flowstudio-power-automate-governance/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"757ddd997484e37059470d1ccc30a3a3f7c6a89a824c687a03e24a0230f2e40d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14372,"own":{"files":1,"bytes":14372},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"flowstudio-power-automate-build","path":"skills/flowstudio-power-automate-build"},{"name":"flowstudio-power-automate-debug","path":"skills/flowstudio-power-automate-debug"},{"name":"flowstudio-power-automate-mcp","path":"skills/flowstudio-power-automate-mcp"},{"name":"flowstudio-power-automate-monitoring","path":"skills/flowstudio-power-automate-monitoring"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

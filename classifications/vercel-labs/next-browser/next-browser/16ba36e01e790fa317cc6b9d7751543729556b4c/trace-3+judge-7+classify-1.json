@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/next-browser/next-browser",
+"revision":"16ba36e01e790fa317cc6b9d7751543729556b4c",
+"trace":{"path":"traces/vercel-labs/next-browser/next-browser/16ba36e01e790fa317cc6b9d7751543729556b4c/trace-3+judge-7.json","sha256":"691e55afd32caafe0c53a84eacbb863658532c4fb44111fbcf1d2e9332930e66"},
+"status":"unresolvable",
+"reason":"no skill folder named next-browser at 16ba36e01e790fa317cc6b9d7751543729556b4c"
+}

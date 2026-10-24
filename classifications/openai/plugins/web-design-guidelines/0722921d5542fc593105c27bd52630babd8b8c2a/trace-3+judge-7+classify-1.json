@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/web-design-guidelines",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/web-design-guidelines/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"af6e1ae86ff0df009c73c40a7f787476757eadc0c9fca9bd198493ca36e167bc"},
+"status":"unresolvable",
+"reason":"no skill folder named web-design-guidelines at 0722921d5542fc593105c27bd52630babd8b8c2a"
+}

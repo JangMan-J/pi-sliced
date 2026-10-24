@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/github-delivery-watchdog",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/github-delivery-watchdog/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"1e27f6d74e8079cc27c1ecec9e21888189b5fa5f30f6ed5e0f09c724c6e6efd3"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":20973,"own":{"files":3,"bytes":5882},"otherSkills":{"count":1,"files":1,"bytes":15091},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["github_client","openhands"],"mcp-server":[],"credential":["SESSION_API_KEY"],"network":[]},"summary":"4 files, 20 KiB · +1 other skill · packages github_client +1 · 1 key","short":"20 KiB · +1 skill · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs github_client","installs openhands"]},{"marker":"credentials","because":["needs SESSION_API_KEY"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/github"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/github","files":1,"bytes":15091}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

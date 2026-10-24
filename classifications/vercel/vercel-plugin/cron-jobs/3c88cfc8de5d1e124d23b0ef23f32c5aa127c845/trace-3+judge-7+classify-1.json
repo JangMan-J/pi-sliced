@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/vercel-plugin/cron-jobs",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel/vercel-plugin/cron-jobs/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"3784b3903bb7471d88fb1c9abd8901dbd5564476bd2192b894ff0dfa47e3bc8c"},
+"status":"unresolvable",
+"reason":"no skill folder named cron-jobs at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

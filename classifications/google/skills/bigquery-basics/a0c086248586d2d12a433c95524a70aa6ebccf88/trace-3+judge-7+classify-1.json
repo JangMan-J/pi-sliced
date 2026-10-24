@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/bigquery-basics",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/bigquery-basics/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"3cd56eb9ed04df70e12cd2ae9c5886ae28b1547d98817679897f87c5d8bb3864"},
+"status":"resolved",
+"footprint":{"files":33,"bytes":119511,"own":{"files":10,"bytes":25432},"otherSkills":{"count":1,"files":23,"bytes":94079},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bq","gcloud","go"],"package":["@google-cloud/bigquery","bigframes","cloud.google.com/go/bigquery","google-cloud-bigquery"],"mcp-server":["bigquery","knowledge"],"credential":[],"network":[]},"summary":"33 files, 117 KiB · +1 other skill · MCP bigquery, knowledge · CLI bq, gcloud +1 · packages @google-cloud/bigquery +3","short":"117 KiB · +1 skill · 3 CLI · 4 pkg · MCP 2"},
+"heavy":{"heavy":true,"because":["4 packages to install","2 MCP servers","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bq","runs gcloud","runs go"]},{"marker":"installs-packages","because":["installs @google-cloud/bigquery","installs bigframes","installs cloud.google.com/go/bigquery","installs google-cloud-bigquery"]},{"marker":"mcp-server","because":["uses the bigquery MCP server","uses the knowledge MCP server"]},{"marker":"chain-loads","because":["pulls in 23 files of the skill at skills/cloud/bigquery-ai-ml"]}],
+"security":{},
+"companions":{"named":[{"name":"bigquery-ai-ml","path":"skills/cloud/bigquery-ai-ml"}],"pulled":[{"path":"skills/cloud/bigquery-ai-ml","files":23,"bytes":94079}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

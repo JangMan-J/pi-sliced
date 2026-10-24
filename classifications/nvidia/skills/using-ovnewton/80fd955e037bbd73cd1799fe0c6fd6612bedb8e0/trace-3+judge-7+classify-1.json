@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/using-ovnewton",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/using-ovnewton/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"c0c8ab3ff466ca08ce14ecfe0065f0a5036f426eec4890294b4fdfc735f9e7b0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5311,"own":{"files":1,"bytes":5311},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["ovnewton"],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"1 file, 5.2 KiB · packages ovnewton · 1 host","short":"5.2 KiB · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs ovnewton"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

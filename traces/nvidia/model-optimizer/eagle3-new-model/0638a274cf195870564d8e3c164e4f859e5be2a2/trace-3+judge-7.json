@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nvidia/model-optimizer/eagle3-new-model",
+"source":"nvidia/model-optimizer",
+"revision":"0638a274cf195870564d8e3c164e4f859e5be2a2",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named eagle3-new-model at 0638a274cf195870564d8e3c164e4f859e5be2a2",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

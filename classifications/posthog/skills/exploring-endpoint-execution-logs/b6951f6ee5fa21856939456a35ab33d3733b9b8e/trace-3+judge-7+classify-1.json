@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/exploring-endpoint-execution-logs",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/exploring-endpoint-execution-logs/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"7b76d31d382faef6373b67acbe8a539e30e93b080f11dd929f235a3cd97043cc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6999,"own":{"files":1,"bytes":6999},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.8 KiB","short":"6.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"auditing-endpoints","path":"skills/omnibus/auditing-endpoints"},{"name":"diagnosing-endpoint-performance","path":"skills/omnibus/diagnosing-endpoint-performance"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

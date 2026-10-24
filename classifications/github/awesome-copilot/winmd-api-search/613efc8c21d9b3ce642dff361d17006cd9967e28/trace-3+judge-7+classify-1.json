@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/winmd-api-search",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/winmd-api-search/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"7fb0c46f842551863ba42feaa491717914b9067cb3dc67a16bea029639544f12"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9846,"own":{"files":2,"bytes":9846},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.6 KiB","short":"9.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

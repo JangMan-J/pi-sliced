@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/vercel-react-native-skills",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/vercel-react-native-skills/none/trace-3+judge-7.json","sha256":"2b25701759237d0bdf45af7c477cd451c4ba9cd6907c67894d3b8a39d7e31788"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

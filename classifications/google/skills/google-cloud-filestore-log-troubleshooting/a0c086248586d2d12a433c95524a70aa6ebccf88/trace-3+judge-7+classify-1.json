@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-cloud-filestore-log-troubleshooting",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-cloud-filestore-log-troubleshooting/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"6e78f6cb7ec5167798db007a6d0c8de975880963c0d330fabc342f91da653744"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":70562,"own":{"files":7,"bytes":70562},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":["diagnose_lib"],"mcp-server":["filestore","if"],"credential":[],"network":[]},"summary":"7 files, 69 KiB · MCP filestore, if · CLI gcloud · packages diagnose_lib","short":"69 KiB · 1 CLI · 1 pkg · MCP 2"},
+"heavy":{"heavy":true,"because":["1 package to install","2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"installs-packages","because":["installs diagnose_lib"]},{"marker":"mcp-server","because":["uses the filestore MCP server","uses the if MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"google-cloud-filestore-autoscale","path":"skills/cloud/google-cloud-filestore-autoscale"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-agent-skills/sentry-cocoa-sdk",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/sentry-agent-skills/sentry-cocoa-sdk/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"1fb90c49727f6484a64c0878b28d9c3e58e0e2a0e74f7e843ad8d4f2e02bdb17"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":75099,"own":{"files":7,"bytes":75099},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["sentry-cli","sentry-wizard"],"package":["getsentry/tools/sentry-wizard"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 73 KiB · CLI sentry-cli, sentry-wizard · packages getsentry/tools/sentry-wizard","short":"73 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs sentry-cli","runs sentry-wizard"]},{"marker":"installs-packages","because":["installs getsentry/tools/sentry-wizard"]}],
+"security":{},
+"companions":{"named":[{"name":"sentry-go-sdk","path":"skills/sentry-go-sdk"},{"name":"sentry-python-sdk","path":"skills/sentry-python-sdk"},{"name":"sentry-ruby-sdk","path":"skills/sentry-ruby-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

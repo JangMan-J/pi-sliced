@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/tao-validate-dataset-format",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/tao-validate-dataset-format/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"0f72b323f152a357d37393b8db2271655942a31d7f2df69f2995818f6501df39"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5007,"own":{"files":1,"bytes":5007},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["tao-daft"],"package":["nvidia-tao-daft"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.9 KiB · CLI tao-daft · packages nvidia-tao-daft","short":"4.9 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs tao-daft"]},{"marker":"installs-packages","because":["installs nvidia-tao-daft"]}],
+"security":{},
+"companions":{"named":[{"name":"tao-setup","path":"skills/tao-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

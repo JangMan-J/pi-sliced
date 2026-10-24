@@ -1,0 +1,23 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"k-dense-ai/scientific-agent-skills/dhdna-profiler",
+"source":"k-dense-ai/scientific-agent-skills",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"skillPath":"skills/dhdna-profiler",
+"status":"resolved",
+"totals":{"files":2,"bytes":15786},
+"files":[
+{"path":"skills/dhdna-profiler/SKILL.md","size":11374,"blob":"ef30a1b1527abb6f14512019db491e4aa166a06f","how":"root"},
+{"path":"skills/dhdna-profiler/references/advanced-profiling.md","size":4412,"blob":"e7a26160f34bd78bcb53aded4f5504c33eaef678","how":"link","from":0,"line":125}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"skills/dhdna-profiler","files":2,"bytes":15786}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":"MIT license"}
+}

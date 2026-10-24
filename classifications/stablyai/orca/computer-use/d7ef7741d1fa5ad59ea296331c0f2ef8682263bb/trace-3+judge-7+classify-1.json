@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stablyai/orca/computer-use",
+"revision":"d7ef7741d1fa5ad59ea296331c0f2ef8682263bb",
+"trace":{"path":"traces/stablyai/orca/computer-use/d7ef7741d1fa5ad59ea296331c0f2ef8682263bb/trace-3+judge-7.json","sha256":"dafbea5fef015a06aa0fa94c4dcae99936fbd08be233e22cd7f4fdad3592e439"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2211,"own":{"files":1,"bytes":2211},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.2 KiB","short":"2.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"orca-cli","path":"skills/orca-cli"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

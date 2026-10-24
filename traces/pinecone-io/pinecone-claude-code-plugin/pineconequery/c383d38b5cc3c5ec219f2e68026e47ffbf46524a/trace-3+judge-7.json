@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"pinecone-io/pinecone-claude-code-plugin/pineconequery",
+"source":"pinecone-io/pinecone-claude-code-plugin",
+"revision":"c383d38b5cc3c5ec219f2e68026e47ffbf46524a",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named pineconequery at c383d38b5cc3c5ec219f2e68026e47ffbf46524a",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

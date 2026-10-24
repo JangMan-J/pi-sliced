@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemo-mbridge-perf-activation-recompute",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemo-mbridge-perf-activation-recompute/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"c14b5a514342ebd191455f5d905cc3379dbe29f6a7d00db3a83df0261859132f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":56765,"own":{"files":1,"bytes":18915},"otherSkills":{"count":3,"files":3,"bytes":37850},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 55 KiB · +3 other skills","short":"55 KiB · +3 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/nemo-mbridge-perf-cpu-offloading","pulls in 1 file of the skill at skills/nemo-mbridge-perf-cuda-graphs","pulls in 1 file of the skill at skills/nemo-mbridge-perf-memory-tuning"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/nemo-mbridge-perf-cpu-offloading","files":1,"bytes":9328},{"path":"skills/nemo-mbridge-perf-cuda-graphs","files":1,"bytes":14089},{"path":"skills/nemo-mbridge-perf-memory-tuning","files":1,"bytes":14433}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

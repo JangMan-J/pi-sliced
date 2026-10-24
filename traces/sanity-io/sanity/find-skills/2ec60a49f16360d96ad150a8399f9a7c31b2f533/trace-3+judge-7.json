@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"sanity-io/sanity/find-skills",
+"source":"sanity-io/sanity",
+"revision":"2ec60a49f16360d96ad150a8399f9a7c31b2f533",
+"skillPath":".agents/skills/find-skills",
+"status":"resolved",
+"totals":{"files":1,"bytes":4635},
+"files":[
+{"path":".agents/skills/find-skills/SKILL.md","size":4635,"blob":"c797184ee66bbfd8b60c58b5efdb91880ae8e991","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,23],[0,27],[0,28],[0,29],[0,30],[0,49],[0,54],[0,55],[0,56],[0,92],[0,123]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/find-skills","files":1,"bytes":4635}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,23],[0,27],[0,28],[0,29],[0,30],[0,49],[0,54],[0,55],[0,56],[0,92],[0,123]]},
+{"kind":"persist-write","detail":"skill folder","at":[[0,92]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,28],[0,92]]},
+{"kind":"skill-fetch","detail":"npx skills update","at":[[0,30]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

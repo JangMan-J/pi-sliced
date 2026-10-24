@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/playwright",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/playwright/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"65ed630c0fb04b7ce9051e9928b00e5f13e613f175d024823a4121829e81e1f5"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":7498,"own":{"files":3,"bytes":7498},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@playwright/cli","pwcli"],"package":["@playwright/cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 7.3 KiB · CLI @playwright/cli, pwcli · packages @playwright/cli","short":"7.3 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @playwright/cli","runs pwcli"]},{"marker":"installs-packages","because":["installs @playwright/cli"]},{"marker":"unpinned-code","because":["install @latest: skills/.curated/playwright/SKILL.md:28, skills/.curated/playwright/SKILL.md:59","npx @playwright/cli: skills/.curated/playwright/SKILL.md:124"]}],
+"security":{"fetch-run":["install @latest @ skills/.curated/playwright/SKILL.md:28, skills/.curated/playwright/SKILL.md:59","npx @playwright/cli @ skills/.curated/playwright/SKILL.md:124"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

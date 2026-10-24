@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dbt-labs/dbt-agent-skills/answering-natural-language-questions-with-dbt",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"trace":{"path":"traces/dbt-labs/dbt-agent-skills/answering-natural-language-questions-with-dbt/ef5710860f199897a304eabc8cd5c1973beb60ae/trace-3+judge-7.json","sha256":"926be5de3063d2f3f1d96e0851ac9a1e428f1c86d07f9d015104e9d39edcb546"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7768,"own":{"files":1,"bytes":7768},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":[],"mcp-server":["no"],"credential":[],"network":[]},"summary":"1 file, 7.6 KiB · MCP no · CLI jq","short":"7.6 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"mcp-server","because":["uses the no MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

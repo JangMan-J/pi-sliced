@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"temporalio/skill-temporal-developer/temporal-development",
+"source":"temporalio/skill-temporal-developer",
+"revision":"3041178b597dddb1b54f49e5e73fbae644fba283",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named temporal-development at 3041178b597dddb1b54f49e5e73fbae644fba283 or at the remote HEAD 5f5a94d448d53e0d535a7369bf9cb7248620a0bf",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

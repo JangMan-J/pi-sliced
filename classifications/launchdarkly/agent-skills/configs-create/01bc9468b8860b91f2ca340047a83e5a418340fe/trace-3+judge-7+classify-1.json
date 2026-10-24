@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/agent-skills/configs-create",
+"revision":"01bc9468b8860b91f2ca340047a83e5a418340fe",
+"trace":{"path":"traces/launchdarkly/agent-skills/configs-create/01bc9468b8860b91f2ca340047a83e5a418340fe/trace-3+judge-7.json","sha256":"fba2167d7567868b5229e8bd51db8bb39a016d48bd29fed869bad81f8cdf1a0d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13190,"own":{"files":1,"bytes":13190},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","ldcli"],"package":[],"mcp-server":["alternative","launchdarkly","optional","primary","the"],"credential":["CONFIG_KEY"],"network":["app.launchdarkly.com","launchdarkly.com"]},"summary":"1 file, 13 KiB · MCP alternative, launchdarkly +3 · CLI jq, ldcli · 1 key · 2 hosts","short":"13 KiB · 2 CLI · 1 key · 2 hosts · MCP 5"},
+"heavy":{"heavy":true,"because":["5 MCP servers","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs ldcli"]},{"marker":"network","because":["fetches from app.launchdarkly.com","fetches from launchdarkly.com"]},{"marker":"credentials","because":["needs CONFIG_KEY"]},{"marker":"mcp-server","because":["uses the alternative MCP server","uses the launchdarkly MCP server","uses the optional MCP server","uses the primary MCP server","uses the the MCP server"]},{"marker":"sends-credentials","because":["CONFIG_KEY -> app.launchdarkly.com: skills/agentcontrol/configs-create/SKILL.md:166, skills/agentcontrol/configs-create/SKILL.md:173"]}],
+"security":{"secret-egress":["CONFIG_KEY -> app.launchdarkly.com @ skills/agentcontrol/configs-create/SKILL.md:166, skills/agentcontrol/configs-create/SKILL.md:173"]},
+"companions":{"named":[{"name":"configs-targeting","path":"skills/agentcontrol/configs-targeting"},{"name":"configs-update","path":"skills/agentcontrol/configs-update"},{"name":"configs-variations","path":"skills/agentcontrol/configs-variations"},{"name":"tools","path":"skills/agentcontrol/tools"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

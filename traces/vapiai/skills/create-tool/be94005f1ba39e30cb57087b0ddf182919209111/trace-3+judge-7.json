@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"vapiai/skills/create-tool",
+"source":"vapiai/skills",
+"revision":"be94005f1ba39e30cb57087b0ddf182919209111",
+"skillPath":"plugins/vapi-voice-ai/skills/create-tool",
+"status":"resolved",
+"totals":{"files":5,"bytes":20737},
+"files":[
+{"path":"plugins/vapi-voice-ai/skills/create-tool/SKILL.md","size":7474,"blob":"8f9db3bcf837407a1bcf368f25d1f2f7171e9fdb","how":"root"},
+{"path":"plugins/vapi-voice-ai/skills/create-tool/references/api-examples.md","size":2033,"blob":"a2b9a534ea6627d13b0d0d3473bbffff7910b77e","how":"link","from":0,"line":84},
+{"path":"plugins/vapi-voice-ai/skills/create-tool/references/assistant-attachments.md","size":3101,"blob":"3e12eb9895b5832e5f8c104b60738bdcca7d68b7","how":"link","from":0,"line":67},
+{"path":"plugins/vapi-voice-ai/skills/create-tool/references/function-tool-server.md","size":2808,"blob":"5bd96e49c0d03c19b573f7e126884a5b8c312559","how":"link","from":0,"line":75},
+{"path":"plugins/vapi-voice-ai/skills/create-tool/references/tool-types.md","size":5321,"blob":"a5f2b74671c6610fbe31227c7117393971eac5f5","how":"link","from":0,"line":33}
+],
+"outside":[
+{"kind":"credential","name":"VAPI_API_KEY","at":[[1,58],[1,67],[1,70]]},
+{"kind":"network","name":"api.vapi.ai","at":[[1,58],[1,67],[1,70]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vapi-voice-ai/skills/create-tool","files":5,"bytes":20737}
+],
+"signals":[
+{"kind":"injection","detail":"without asking the user","at":[[0,40]]},
+{"kind":"secret-egress","detail":"VAPI_API_KEY -> api.vapi.ai","at":[[1,58],[1,67],[1,70]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"MIT"}
+}

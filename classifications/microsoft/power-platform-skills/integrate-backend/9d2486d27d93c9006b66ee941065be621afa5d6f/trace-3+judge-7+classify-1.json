@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/integrate-backend",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/integrate-backend/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"200bd32847686bdc3387efb2c0c129c791020e3d220232b13c0c3c314a1297bc"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":54932,"own":{"files":2,"bytes":54932},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["open"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 54 KiB · CLI open","short":"54 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs open"]}],
+"security":{},
+"companions":{"named":[{"name":"add-ai-webapi","path":"plugins/power-pages/skills/add-ai-webapi"},{"name":"add-cloud-flow","path":"plugins/power-pages/skills/add-cloud-flow"},{"name":"add-server-logic","path":"plugins/power-pages/skills/add-server-logic"},{"name":"create-site","path":"plugins/power-pages/skills/create-site"},{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"},{"name":"integrate-webapi","path":"plugins/power-pages/skills/integrate-webapi"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

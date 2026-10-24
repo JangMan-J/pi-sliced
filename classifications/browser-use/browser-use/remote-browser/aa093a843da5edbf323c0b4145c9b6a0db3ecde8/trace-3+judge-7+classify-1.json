@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browser-use/browser-use/remote-browser",
+"revision":"aa093a843da5edbf323c0b4145c9b6a0db3ecde8",
+"trace":{"path":"traces/browser-use/browser-use/remote-browser/aa093a843da5edbf323c0b4145c9b6a0db3ecde8/trace-3+judge-7.json","sha256":"c48ad1092cafd3e645ad5adb815e6955e9c2a3dac0f429a4f68d4b3f7a98fb7e"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":17043,"own":{"files":1,"bytes":2322},"otherSkills":{"count":1,"files":1,"bytes":14721},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Enter","browser-use","document.title","example.com","fill_input","js","new_tab","page_info","press_key","print","r7k2","recordings","start_remote_daemon","stop_remote_daemon"],"package":[],"mcp-server":[],"credential":["BROWSER_USE_API_KEY"],"network":["github.com"]},"summary":"2 files, 17 KiB · +1 other skill · CLI Enter, browser-use +12 · 1 key · 1 host","short":"17 KiB · +1 skill · 14 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["14 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs browser-use","runs document.title","runs Enter","runs example.com","runs fill_input","runs js","runs new_tab","runs page_info","runs press_key","runs print","runs r7k2","runs recordings","runs start_remote_daemon","runs stop_remote_daemon"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs BROWSER_USE_API_KEY"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/browser-use"]},{"marker":"stub","because":["own folder 2.3 KiB (1 file)","14 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/browser-use","files":1,"bytes":14721}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

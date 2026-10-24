@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/wiki-llms-txt",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/wiki-llms-txt/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"15a030837f23940d0e500bed7e399ec2ca0f84bac5191381e27db7af5a625acf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5167,"own":{"files":1,"bytes":5167},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.0 KiB","short":"5.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

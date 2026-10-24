@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"leonxlnx/taste-skill/image-to-code",
+"revision":"6010f91a9935f1c167dfc500fb1a475681892e6b",
+"trace":{"path":"traces/leonxlnx/taste-skill/image-to-code/6010f91a9935f1c167dfc500fb1a475681892e6b/trace-3+judge-7.json","sha256":"c87ff954e8fec765544c4435290b0734663ddfc554e6bd1b0316311d778da8b0"},
+"status":"unresolvable",
+"reason":"no skill folder named image-to-code at 6010f91a9935f1c167dfc500fb1a475681892e6b (the archive had skills/image-to-code-skill)"
+}

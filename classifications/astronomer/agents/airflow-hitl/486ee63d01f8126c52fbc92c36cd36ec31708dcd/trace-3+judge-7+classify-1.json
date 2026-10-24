@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/airflow-hitl",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/airflow-hitl/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"f09d5fc43f2445e4bf49cef91b2a737f23d8d33f9218b3ab26912901a3f5661b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7434,"own":{"files":1,"bytes":7434},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["af","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB · CLI af, jq","short":"7.3 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs af","runs jq"]}],
+"security":{},
+"companions":{"named":[{"name":"airflow","path":"skills/airflow"},{"name":"migrating-ai-sdk-to-common-ai","path":"skills/migrating-ai-sdk-to-common-ai"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

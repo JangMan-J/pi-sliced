@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/skills-store",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/skills-store/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"ac05af8addf795f4157730d11f70a0c87a3b3b7abc98c64d17402debb1f8008d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12326,"own":{"files":1,"bytes":12326},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["agentskills.io"]},"summary":"1 file, 12 KiB · 1 host","short":"12 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from agentskills.io"]}],
+"security":{},
+"companions":{"named":[{"name":"authoring-scouts","path":"products/signals/skills/authoring-scouts"},{"name":"working-with-skills","path":"products/skills/skills/working-with-skills"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

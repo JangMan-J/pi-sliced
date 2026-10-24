@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"anthropics/claude-plugins-official/stripe-best-practices",
+"source":"anthropics/claude-plugins-official",
+"revision":"58267944f92187b7d6a1c822165c96c81c864806",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named stripe-best-practices at 58267944f92187b7d6a1c822165c96c81c864806",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

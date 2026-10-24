@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-deployment",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-deployment/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"ca76702a880fc30f35f331f79525cb08c0453b18eb2baf0a4ef9f148f9d04d8d"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":57343,"own":{"files":7,"bytes":57343},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","codeartifact"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"7 files, 56 KiB · MCP aws · CLI aws, codeartifact","short":"56 KiB · 2 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs codeartifact"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

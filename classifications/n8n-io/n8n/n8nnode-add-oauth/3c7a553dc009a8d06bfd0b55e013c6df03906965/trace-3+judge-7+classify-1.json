@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8nnode-add-oauth",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8nnode-add-oauth/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"c3606642bffe68f13ad0255326776982278d20aba2811afdb44427e3f28733c3"},
+"status":"unresolvable",
+"reason":"no skill folder named n8nnode-add-oauth at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

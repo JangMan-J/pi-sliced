@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/json-render",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/json-render/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"2ada568edcf56ba6584c5dd9e2184c8894df5203fbd442f56bf1b95f89d54466"},
+"status":"unresolvable",
+"reason":"no skill folder named json-render at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

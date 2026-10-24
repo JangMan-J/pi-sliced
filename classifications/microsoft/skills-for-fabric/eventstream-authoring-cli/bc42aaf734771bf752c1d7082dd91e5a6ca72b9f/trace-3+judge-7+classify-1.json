@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/eventstream-authoring-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/eventstream-authoring-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"d766b4085d13462bf65859a7b653b5afdf5c79e0a9289be43b3ed8e7611aa31b"},
+"status":"unresolvable",
+"reason":"no skill folder named eventstream-authoring-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

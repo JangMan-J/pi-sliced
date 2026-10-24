@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-notifications-alerts-advisor",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-notifications-alerts-advisor/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"d481799a68667fe148c05627fa4d15f75872b897ee1cab3a83c07ff2b28e9159"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9806,"own":{"files":1,"bytes":9806},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.6 KiB","short":"9.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"twilio-email-send","path":"plugins/twilio-developer-kit/skills/twilio-email-send"},{"name":"twilio-marketing-promotions-advisor","path":"plugins/twilio-developer-kit/skills/twilio-marketing-promotions-advisor"},{"name":"twilio-messaging-services","path":"plugins/twilio-developer-kit/skills/twilio-messaging-services"},{"name":"twilio-sendgrid-email-send","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-email-send"},{"name":"twilio-sms-send-message","path":"plugins/twilio-developer-kit/skills/twilio-sms-send-message"},{"name":"twilio-voice-outbound-calls","path":"plugins/twilio-developer-kit/skills/twilio-voice-outbound-calls"},{"name":"twilio-whatsapp-send-message","path":"plugins/twilio-developer-kit/skills/twilio-whatsapp-send-message"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/qdrant-search-quality",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/qdrant-search-quality/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"d658aeae058f4015f778d68d02aab3e4b4aefa09172708fb5359ba0a14241eaf"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":12015,"own":{"files":1,"bytes":1342},"otherSkills":{"count":2,"files":2,"bytes":10673},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 12 KiB · +2 other skills","short":"12 KiB · +2 skills"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/qdrant-search-quality/diagnosis","pulls in 1 file of the skill at skills/qdrant-search-quality/search-strategies"]},{"marker":"stub","because":["own folder 1.3 KiB (1 file)","10 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/qdrant-search-quality/diagnosis","files":1,"bytes":3710},{"path":"skills/qdrant-search-quality/search-strategies","files":1,"bytes":6963}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

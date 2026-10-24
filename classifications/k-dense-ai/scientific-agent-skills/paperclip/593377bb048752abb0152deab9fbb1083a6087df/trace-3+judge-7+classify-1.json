@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"k-dense-ai/scientific-agent-skills/paperclip",
+"revision":"593377bb048752abb0152deab9fbb1083a6087df",
+"trace":{"path":"traces/k-dense-ai/scientific-agent-skills/paperclip/593377bb048752abb0152deab9fbb1083a6087df/trace-3+judge-7.json","sha256":"eebf73ab714ea2420880227c7b36a6558d2d16822d5443307a613e5d6a9c4ec0"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":71225,"own":{"files":7,"bytes":71225},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ask-image","paperclip","reduce","repo"],"package":["paperclip"],"mcp-server":[],"credential":[],"network":["arxiv.org","paperclip.gxl.ai"]},"summary":"7 files, 70 KiB · CLI ask-image, paperclip +2 · packages paperclip · 2 hosts","short":"70 KiB · 4 CLI · 1 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ask-image","runs paperclip","runs reduce","runs repo"]},{"marker":"installs-packages","because":["installs paperclip"]},{"marker":"network","because":["fetches from arxiv.org","fetches from paperclip.gxl.ai"]},{"marker":"unpinned-code","because":["pip install from URL: skills/paperclip/references/python-sdk.md:15","pipe to interpreter: skills/paperclip/references/installation.md:13"]}],
+"security":{"fetch-run":["pip install from URL @ skills/paperclip/references/python-sdk.md:15","pipe to interpreter @ skills/paperclip/references/installation.md:13"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

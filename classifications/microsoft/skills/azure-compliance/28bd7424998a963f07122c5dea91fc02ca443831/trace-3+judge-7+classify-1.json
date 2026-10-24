@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-compliance",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-compliance/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"6472a4a7b40b9d014435c6685f9520a0f5d961b47ae769fcb0a629d632d9d5e1"},
+"status":"resolved",
+"footprint":{"files":16,"bytes":47734,"own":{"files":16,"bytes":47734},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertFrom-Json","az","foreach"],"package":[],"mcp-server":["azure"],"credential":[],"network":[]},"summary":"16 files, 47 KiB · MCP azure · CLI ConvertFrom-Json, az +1","short":"47 KiB · 3 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs ConvertFrom-Json","runs foreach"]},{"marker":"mcp-server","because":["uses the azure MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

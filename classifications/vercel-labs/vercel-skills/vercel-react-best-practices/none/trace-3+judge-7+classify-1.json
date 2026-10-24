@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-skills/vercel-react-best-practices",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/vercel-skills/vercel-react-best-practices/none/trace-3+judge-7.json","sha256":"d930827d9b07a62676e398d31be7eea3a1186630aa28ab894fb12ffde0b0406d"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"
+}

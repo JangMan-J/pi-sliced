@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-agent-skills/sentry-svelte-sdk",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/sentry-agent-skills/sentry-svelte-sdk/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"7bf33fa705bd648fe8e16291fefc1bedfc1b3f2f752032893a7ee6580761e8d8"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":61557,"own":{"files":5,"bytes":61557},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@sentry/wizard"],"package":["@sentry/svelte","@sentry/sveltekit"],"mcp-server":[],"credential":["SENTRY_AUTH_TOKEN"],"network":[]},"summary":"5 files, 60 KiB · CLI @sentry/wizard · packages @sentry/svelte +1 · 1 key","short":"60 KiB · 1 CLI · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs @sentry/wizard"]},{"marker":"installs-packages","because":["installs @sentry/svelte","installs @sentry/sveltekit"]},{"marker":"credentials","because":["needs SENTRY_AUTH_TOKEN"]},{"marker":"unpinned-code","because":["npx @sentry/wizard@latest: skills/sentry-svelte-sdk/SKILL.md:105"]}],
+"security":{"fetch-run":["npx @sentry/wizard@latest @ skills/sentry-svelte-sdk/SKILL.md:105"]},
+"companions":{"named":[{"name":"sentry-go-sdk","path":"skills/sentry-go-sdk"},{"name":"sentry-python-sdk","path":"skills/sentry-python-sdk"},{"name":"sentry-ruby-sdk","path":"skills/sentry-ruby-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

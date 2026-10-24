@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/agent-plugins/flutter-add-widget-test",
+"revision":"6e590650bb4bab87f33187423dc10113d04d4836",
+"trace":{"path":"traces/flutter/agent-plugins/flutter-add-widget-test/6e590650bb4bab87f33187423dc10113d04d4836/trace-3+judge-7.json","sha256":"acfb14bf4c2828351003047e81927265213fb73e4161a4eb3f4fb42089b5fa65"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6381,"own":{"files":1,"bytes":6381},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.2 KiB","short":"6.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

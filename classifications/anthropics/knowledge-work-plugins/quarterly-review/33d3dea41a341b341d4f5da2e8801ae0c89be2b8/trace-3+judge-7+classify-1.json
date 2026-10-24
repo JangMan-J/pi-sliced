@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/quarterly-review",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/quarterly-review/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"fa92563035a20242dde41bec7f6d5fd7c6e4fba947feb7026ff6512031590b4b"},
+"status":"unresolvable",
+"reason":"no skill folder named quarterly-review at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

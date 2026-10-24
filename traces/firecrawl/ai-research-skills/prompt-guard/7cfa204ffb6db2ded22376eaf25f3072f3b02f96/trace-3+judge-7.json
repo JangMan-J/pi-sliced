@@ -1,0 +1,28 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"firecrawl/ai-research-skills/prompt-guard",
+"source":"firecrawl/ai-research-skills",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"skillPath":"07-safety-alignment/prompt-guard",
+"status":"resolved",
+"totals":{"files":1,"bytes":9455},
+"files":[
+{"path":"07-safety-alignment/prompt-guard/SKILL.md","size":9455,"blob":"909499b249b7b9b3c02dc1521b49980a61d2b559","how":"root"}
+],
+"outside":[
+{"kind":"package","name":"torch","at":[[0,19]]},
+{"kind":"package","name":"transformers","at":[[0,19]]}
+],
+"regions":[
+{"kind":"own","path":"07-safety-alignment/prompt-guard","files":1,"bytes":9455}
+],
+"signals":[
+{"kind":"injection","detail":"ignore all previous instructions","at":[[0,85]]},
+{"kind":"injection","detail":"ignore previous instructions","at":[[0,42]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

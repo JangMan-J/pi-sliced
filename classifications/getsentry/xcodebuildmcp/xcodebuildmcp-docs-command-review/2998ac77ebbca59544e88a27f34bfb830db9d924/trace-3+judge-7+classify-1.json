@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/xcodebuildmcp/xcodebuildmcp-docs-command-review",
+"revision":"2998ac77ebbca59544e88a27f34bfb830db9d924",
+"trace":{"path":"traces/getsentry/xcodebuildmcp/xcodebuildmcp-docs-command-review/2998ac77ebbca59544e88a27f34bfb830db9d924/trace-3+judge-7.json","sha256":"f8d53a4546de5af03ae18ab8fea7f52f357f971c6db0a226ab9a7d9fb964a995"},
+"status":"unresolvable",
+"reason":"no skill folder named xcodebuildmcp-docs-command-review at 2998ac77ebbca59544e88a27f34bfb830db9d924"
+}

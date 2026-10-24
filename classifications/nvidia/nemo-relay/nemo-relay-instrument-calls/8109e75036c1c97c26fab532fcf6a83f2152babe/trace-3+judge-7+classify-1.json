@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-relay/nemo-relay-instrument-calls",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"trace":{"path":"traces/nvidia/nemo-relay/nemo-relay-instrument-calls/8109e75036c1c97c26fab532fcf6a83f2152babe/trace-3+judge-7.json","sha256":"995a4d1ffa775920c3b4362dfe00d5c14513c20631a38459967a6a047ec5575b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4147,"own":{"files":1,"bytes":4147},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.0 KiB","short":"4.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"nemo-relay-debug-runtime-integration","path":"skills/nemo-relay-debug-runtime-integration"},{"name":"nemo-relay-get-started","path":"skills/nemo-relay-get-started"},{"name":"nemo-relay-instrument-context-isolation","path":"skills/nemo-relay-instrument-context-isolation"},{"name":"nemo-relay-instrument-typed-wrappers","path":"skills/nemo-relay-instrument-typed-wrappers"},{"name":"nemo-relay-plugin-build","path":"skills/nemo-relay-plugin-build"},{"name":"nemo-relay-plugin-observability","path":"skills/nemo-relay-plugin-observability"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

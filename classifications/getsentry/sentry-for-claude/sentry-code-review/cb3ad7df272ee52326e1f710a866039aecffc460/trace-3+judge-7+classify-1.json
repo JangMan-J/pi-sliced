@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-claude/sentry-code-review",
+"revision":"cb3ad7df272ee52326e1f710a866039aecffc460",
+"trace":{"path":"traces/getsentry/sentry-for-claude/sentry-code-review/cb3ad7df272ee52326e1f710a866039aecffc460/trace-3+judge-7.json","sha256":"f6e65d2a8c756e35189130345441617cc2bbaf500c806f9ca0245282914e9032"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-code-review at cb3ad7df272ee52326e1f710a866039aecffc460"
+}

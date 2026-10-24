@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"get-convex/agent-skills/convex-auth",
+"source":"get-convex/agent-skills",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"skillPath":"skills/convex-auth",
+"status":"resolved",
+"totals":{"files":1,"bytes":2995},
+"files":[
+{"path":"skills/convex-auth/SKILL.md","size":2995,"blob":"9e7a95a252335d1cc11c49c715735e8529d90bcb","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@convex-dev/auth","at":[[0,16],[0,25]]},
+{"kind":"cli","name":"convex","at":[[0,18]]},
+{"kind":"cli","name":"shadcn","at":[[0,20],[0,28]]},
+{"kind":"package","name":"jose","at":[[0,14]]}
+],
+"regions":[
+{"kind":"own","path":"skills/convex-auth","files":1,"bytes":2995}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @convex-dev/auth","at":[[0,16],[0,25]]},
+{"kind":"fetch-run","detail":"npx convex","at":[[0,18]]},
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,20],[0,28]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

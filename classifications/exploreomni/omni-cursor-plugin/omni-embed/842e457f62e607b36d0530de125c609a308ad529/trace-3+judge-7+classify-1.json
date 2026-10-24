@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"exploreomni/omni-cursor-plugin/omni-embed",
+"revision":"842e457f62e607b36d0530de125c609a308ad529",
+"trace":{"path":"traces/exploreomni/omni-cursor-plugin/omni-embed/842e457f62e607b36d0530de125c609a308ad529/trace-3+judge-7.json","sha256":"7187237bc2b84673f4e73150098a9a8dda3177123c0a2c68d133bfad76cfa154"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15995,"own":{"files":1,"bytes":15995},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@omni-co/embed"],"mcp-server":[],"credential":["OMNI_API_KEY","OMNI_EMBED_SECRET"],"network":[]},"summary":"1 file, 16 KiB · packages @omni-co/embed · 2 keys","short":"16 KiB · 1 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["1 package to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @omni-co/embed"]},{"marker":"credentials","because":["needs OMNI_API_KEY","needs OMNI_EMBED_SECRET"]}],
+"security":{},
+"companions":{"named":[{"name":"omni-admin","path":"skills/omni-admin"},{"name":"omni-content-explorer","path":"skills/omni-content-explorer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

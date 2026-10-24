@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/geist",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/geist/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"4489228f154b3781747bdafa1424c107a41b8561a9c51454fafa7fd59e3e8d0f"},
+"status":"unresolvable",
+"reason":"no skill folder named geist at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

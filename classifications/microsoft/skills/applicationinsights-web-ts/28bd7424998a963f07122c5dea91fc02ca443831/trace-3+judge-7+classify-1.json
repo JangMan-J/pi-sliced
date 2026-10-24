@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/applicationinsights-web-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/applicationinsights-web-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"af6a5a9853f905990e7fca89d9ad264602d12f6720dde08a9087ee0c0708377f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":43198,"own":{"files":4,"bytes":43198},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@microsoft/applicationinsights-angularplugin-js","@microsoft/applicationinsights-clickanalytics-js","@microsoft/applicationinsights-debugplugin-js","@microsoft/applicationinsights-react-js","@microsoft/applicationinsights-react-native","@microsoft/applicationinsights-web","history"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 42 KiB · packages @microsoft/applicationinsights-angularplugin-js +6","short":"42 KiB · 7 pkg"},
+"heavy":{"heavy":true,"because":["7 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @microsoft/applicationinsights-angularplugin-js","installs @microsoft/applicationinsights-clickanalytics-js","installs @microsoft/applicationinsights-debugplugin-js","installs @microsoft/applicationinsights-react-js","installs @microsoft/applicationinsights-react-native","installs @microsoft/applicationinsights-web","installs history"]}],
+"security":{},
+"companions":{"named":[{"name":"azure-monitor-opentelemetry-ts","path":".github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts"},{"name":"microsoft-docs","path":".github/skills/microsoft-docs"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

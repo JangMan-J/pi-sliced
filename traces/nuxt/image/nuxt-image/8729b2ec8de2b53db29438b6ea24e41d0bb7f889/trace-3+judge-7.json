@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"nuxt/image/nuxt-image",
+"source":"nuxt/image",
+"revision":"8729b2ec8de2b53db29438b6ea24e41d0bb7f889",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named nuxt-image at 8729b2ec8de2b53db29438b6ea24e41d0bb7f889",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

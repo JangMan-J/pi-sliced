@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/cursor-notion-plugin/create-database-row",
+"revision":"cf1324609edba6d617164f1dec138aeb43f26735",
+"trace":{"path":"traces/makenotion/cursor-notion-plugin/create-database-row/cf1324609edba6d617164f1dec138aeb43f26735/trace-3+judge-7.json","sha256":"ee864703ec41a8a3397065b7e0bff40590850d1706e0b23c2aa514e1180c6e35"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1023,"own":{"files":1,"bytes":1023},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["notion"],"credential":[],"network":[]},"summary":"1 file, 1023 B · MCP notion","short":"1023 B · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the notion MCP server"]},{"marker":"stub","because":["own folder 1023 B (1 file)","content is the notion it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

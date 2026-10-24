@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/agentic-eval",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/agentic-eval/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"226b8b01b9d10150d00334f0747bbd0b0829d5e858b30c1800a0ed446fc10bf0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5940,"own":{"files":1,"bytes":5940},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.8 KiB","short":"5.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

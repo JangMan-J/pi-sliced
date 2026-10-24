@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nvalchemi-toolkit/nvalchemi-data-storage",
+"revision":"f59e28dc6701583a13bb294e536076c2a7379e98",
+"trace":{"path":"traces/nvidia/nvalchemi-toolkit/nvalchemi-data-storage/f59e28dc6701583a13bb294e536076c2a7379e98/trace-3+judge-7.json","sha256":"e0996010078cf166ce87b199c970bae3db5c6ffd53e6b901bac9419457b2608a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10804,"own":{"files":1,"bytes":10804},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB","short":"11 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"nvalchemi-zarr-perf","path":".claude/skills/nvalchemi-zarr-perf"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

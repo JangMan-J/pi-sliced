@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/aks-gpu-inference",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/aks-gpu-inference/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"d37f53f75ce63ed6b67634ac4b3e499f399bf94bede326c79c0f417d2f191e19"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":12486,"own":{"files":5,"bytes":12486},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az","kubectl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 12 KiB · CLI az, kubectl","short":"12 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs az","runs kubectl"]}],
+"security":{},
+"companions":{"named":[{"name":"airunway-aks-setup","path":".github/plugins/azure-skills/skills/airunway-aks-setup"},{"name":"cost-analysis","path":".github/plugins/azure-cost/skills/cost-analysis"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

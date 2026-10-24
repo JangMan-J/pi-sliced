@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/ai/stripe-pay",
+"revision":"1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e",
+"trace":{"path":"traces/stripe/ai/stripe-pay/1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e/trace-3+judge-7.json","sha256":"682a84ed129b6a8599f3df1c84911c1b37fe2334c8a246a0deeadec1eeb83a3e"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4452,"own":{"files":1,"bytes":4452},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["dashboard.stripe.com","docs.stripe.com"]},"summary":"1 file, 4.3 KiB · 2 hosts","short":"4.3 KiB · 2 hosts"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from dashboard.stripe.com","fetches from docs.stripe.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

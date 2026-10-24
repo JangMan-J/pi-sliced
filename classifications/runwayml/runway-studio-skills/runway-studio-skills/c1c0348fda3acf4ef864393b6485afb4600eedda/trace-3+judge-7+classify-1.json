@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"runwayml/runway-studio-skills/runway-studio-skills",
+"revision":"c1c0348fda3acf4ef864393b6485afb4600eedda",
+"trace":{"path":"traces/runwayml/runway-studio-skills/runway-studio-skills/c1c0348fda3acf4ef864393b6485afb4600eedda/trace-3+judge-7.json","sha256":"e47774a5598d03fb450bb1e8fca6a2de332912df3067e24b52b0d5ff65a83e3c"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":36840,"own":{"files":6,"bytes":36840},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["requests","runwayml"],"mcp-server":[],"credential":["RUNWAYML_API_SECRET"],"network":[]},"summary":"6 files, 36 KiB · packages requests +1 · 1 key","short":"36 KiB · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs requests","installs runwayml"]},{"marker":"credentials","because":["needs RUNWAYML_API_SECRET"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

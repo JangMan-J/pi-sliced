@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"datadog-labs/agent-skills/troubleshoot-ssi",
+"revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9",
+"trace":{"path":"traces/datadog-labs/agent-skills/troubleshoot-ssi/8925faba5765d1a53a5a5a33a3135105bd130fb9/trace-3+judge-7.json","sha256":"5013077741bc695fb93ac344f60c52322d5c40ccd2893b8b63e0074078ee70a8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19727,"own":{"files":1,"bytes":19727},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ausearch","d","dmesg","getenforce","pm2","print","pup","ssh","supervisorctl","sys.stdin.buffer.read","systemctl"],"package":["datadog-labs/pack/pup"],"mcp-server":[],"credential":["DD_API_KEY","DD_APP_KEY","SSH_KEY"],"network":["api.github.com","github.com","install.datadoghq.com"]},"summary":"1 file, 19 KiB · CLI ausearch, d +9 · packages datadog-labs/pack/pup · 3 keys · 3 hosts","short":"19 KiB · 11 CLI · 1 pkg · 3 keys · 3 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","11 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ausearch","runs d","runs dmesg","runs getenforce","runs pm2","runs print","runs pup","runs ssh","runs supervisorctl","runs sys.stdin.buffer.read","runs systemctl"]},{"marker":"installs-packages","because":["installs datadog-labs/pack/pup"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com","fetches from install.datadoghq.com"]},{"marker":"credentials","because":["needs DD_API_KEY","needs DD_APP_KEY","needs SSH_KEY"]},{"marker":"sends-credentials","because":["DD_API_KEY -> install.datadoghq.com: dd-apm/linux-ssi/troubleshoot-ssi/SKILL.md:371"]}],
+"security":{"secret-egress":["DD_API_KEY -> install.datadoghq.com @ dd-apm/linux-ssi/troubleshoot-ssi/SKILL.md:371"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

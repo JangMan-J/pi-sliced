@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/tensorrt/trt-onnx-quickstart",
+"revision":"16ed0636df41e4a27d46f82d9028fc50fadc7200",
+"trace":{"path":"traces/nvidia/tensorrt/trt-onnx-quickstart/16ed0636df41e4a27d46f82d9028fc50fadc7200/trace-3+judge-7.json","sha256":"022ffb61b5d2b07812c6f299401971f868caa61ddc85681245a5eaa0e0d04c58"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":19628,"own":{"files":1,"bytes":19628},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["huggingface-cli","nvidia-smi","optimum-cli","polygraphy","trtexec"],"package":["nvidia-modelopt","onnx","onnx_graphsurgeon","onnxruntime","onnxsim","polygraphy","sentence-transformers","tensorrt-cu13"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 19 KiB · CLI huggingface-cli, nvidia-smi +3 · packages nvidia-modelopt +7","short":"19 KiB · 5 CLI · 8 pkg"},
+"heavy":{"heavy":true,"because":["8 packages to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs huggingface-cli","runs nvidia-smi","runs optimum-cli","runs polygraphy","runs trtexec"]},{"marker":"installs-packages","because":["installs nvidia-modelopt","installs onnx","installs onnx_graphsurgeon","installs onnxruntime","installs onnxsim","installs polygraphy","installs sentence-transformers","installs tensorrt-cu13"]}],
+"security":{},
+"companions":{"named":[{"name":"trt-cpp-runtime-quickstart","path":".agents/skills/trt-cpp-runtime-quickstart"},{"name":"trt-strong-typing-migration","path":".agents/skills/trt-strong-typing-migration"},{"name":"trt-torch-quickstart","path":".agents/skills/trt-torch-quickstart"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

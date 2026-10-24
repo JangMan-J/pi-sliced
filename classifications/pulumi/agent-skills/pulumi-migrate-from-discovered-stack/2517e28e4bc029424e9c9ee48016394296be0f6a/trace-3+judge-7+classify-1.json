@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills/pulumi-migrate-from-discovered-stack",
+"revision":"2517e28e4bc029424e9c9ee48016394296be0f6a",
+"trace":{"path":"traces/pulumi/agent-skills/pulumi-migrate-from-discovered-stack/2517e28e4bc029424e9c9ee48016394296be0f6a/trace-3+judge-7.json","sha256":"b8fafd1ffeae046c240904a032b102f4fb4b76c61dcca7662c4f45b413962572"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":63287,"own":{"files":6,"bytes":63287},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","az","jq","pulumi"],"package":["@pulumi/aws","@pulumi/azure","@pulumi/azure-native"],"mcp-server":[],"credential":["ARM_OIDC_TOKEN"],"network":[]},"summary":"6 files, 62 KiB · CLI aws, az +2 · packages @pulumi/aws +2 · 1 key","short":"62 KiB · 4 CLI · 3 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["3 packages to install","4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs az","runs jq","runs pulumi"]},{"marker":"installs-packages","because":["installs @pulumi/aws","installs @pulumi/azure","installs @pulumi/azure-native"]},{"marker":"credentials","because":["needs ARM_OIDC_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"cloudformation-to-pulumi","path":"migration/skills/cloudformation-to-pulumi"},{"name":"pulumi-arm-to-pulumi","path":"migration/skills/pulumi-arm-to-pulumi"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

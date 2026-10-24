@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemo-automodel-model-onboarding",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemo-automodel-model-onboarding/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"789dc28dec5882737af2566bc04fc90ce6ae87b8306741220e1aa3eb6565fd30"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":88780,"own":{"files":5,"bytes":76849},"otherSkills":{"count":1,"files":1,"bytes":11931},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["automodel"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 87 KiB · +1 other skill · CLI automodel","short":"87 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs automodel"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/nemo-automodel-recipe-development"]}],
+"security":{},
+"companions":{"named":[{"name":"nemo-automodel-recipe-development","path":"skills/nemo-automodel-recipe-development"}],"pulled":[{"path":"skills/nemo-automodel-recipe-development","files":1,"bytes":11931}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

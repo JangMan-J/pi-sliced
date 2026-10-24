@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tavily-ai/skills/tavily-best-practices",
+"revision":"778122e5f9c680f541eeceda5a5b36405eb7980c",
+"trace":{"path":"traces/tavily-ai/skills/tavily-best-practices/778122e5f9c680f541eeceda5a5b36405eb7980c/trace-3+judge-7.json","sha256":"9259754310b7867e1bdc4780e05fe31879d6c69e1f00cbc561857f7a2c899109"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":70473,"own":{"files":7,"bytes":70473},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adk"],"package":["@ai-sdk/openai","@tavily/ai-sdk","@tavily/core","agno","ai","anthropic","google-adk","langchain-tavily","mcp","tavily-python"],"mcp-server":["tavily"],"credential":["ANTHROPIC_API_KEY","GOOGLE_API_KEY","OPENAI_API_KEY","TAVILY_API_KEY"],"network":["docs.tavily.com"]},"summary":"7 files, 69 KiB · MCP tavily · CLI adk · packages @ai-sdk/openai +9 · 4 keys · 1 host","short":"69 KiB · 1 CLI · 10 pkg · 4 keys · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["10 packages to install","1 MCP server","1 CLI","4 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs adk"]},{"marker":"installs-packages","because":["installs @ai-sdk/openai","installs @tavily/ai-sdk","installs @tavily/core","installs agno","installs ai","installs anthropic","installs google-adk","installs langchain-tavily","installs mcp","installs tavily-python"]},{"marker":"network","because":["fetches from docs.tavily.com"]},{"marker":"credentials","because":["needs ANTHROPIC_API_KEY","needs GOOGLE_API_KEY","needs OPENAI_API_KEY","needs TAVILY_API_KEY"]},{"marker":"mcp-server","because":["uses the tavily MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"tavily-crawl","path":"skills/tavily-crawl"},{"name":"tavily-extract","path":"skills/tavily-extract"},{"name":"tavily-map","path":"skills/tavily-map"},{"name":"tavily-search","path":"skills/tavily-search"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

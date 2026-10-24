@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/warden-lint-judge",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/warden-lint-judge/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"763f9028543c26f8f5a94d03d625530de8f656f284014f2f82ea8aa1e4c8cffb"},
+"status":"unresolvable",
+"reason":"no skill folder named warden-lint-judge at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

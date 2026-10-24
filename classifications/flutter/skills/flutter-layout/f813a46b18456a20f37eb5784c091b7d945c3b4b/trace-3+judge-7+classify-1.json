@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-layout",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-layout/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"e4bec90d585862b5f96a3936a3e5c7d8c8a1002ec3c1dfbdbf3e842bb3f26878"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-layout at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

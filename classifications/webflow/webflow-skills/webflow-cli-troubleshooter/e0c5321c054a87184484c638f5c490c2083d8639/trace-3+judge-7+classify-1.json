@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"webflow/webflow-skills/webflow-cli-troubleshooter",
+"revision":"e0c5321c054a87184484c638f5c490c2083d8639",
+"trace":{"path":"traces/webflow/webflow-skills/webflow-cli-troubleshooter/e0c5321c054a87184484c638f5c490c2083d8639/trace-3+judge-7.json","sha256":"fb49718b148258861fc4fa678df1e67bb62a456bdc7ea9f2a74fdfc2f965ae6f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8383,"own":{"files":1,"bytes":8383},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["webflow"],"package":["@webflow/cli"],"mcp-server":["webflow"],"credential":[],"network":[]},"summary":"1 file, 8.2 KiB · MCP webflow · CLI webflow · packages @webflow/cli","short":"8.2 KiB · 1 CLI · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs webflow"]},{"marker":"installs-packages","because":["installs @webflow/cli"]},{"marker":"mcp-server","because":["uses the webflow MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

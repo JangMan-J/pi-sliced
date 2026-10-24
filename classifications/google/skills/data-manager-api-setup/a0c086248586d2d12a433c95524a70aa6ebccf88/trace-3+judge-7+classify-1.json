@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/data-manager-api-setup",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/data-manager-api-setup/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"8adb3e1b9c63164effb8e0be909ecc515c9e487bcf2f846188a0c05392106e3d"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":10617,"own":{"files":7,"bytes":10617},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["composer","dotnet","gcloud"],"package":["@google-ads/datamanager","@google-ads/datamanager-util","Google.Ads.DataManager.Util","Google.Ads.DataManager.V1","google-ads-datamanager","google-ads-datamanager-util","googleads/data-manager","googleads/data-manager-util"],"mcp-server":[],"credential":[],"network":["repo1.maven.org"]},"summary":"7 files, 10 KiB · CLI composer, dotnet +1 · packages @google-ads/datamanager +7 · 1 host","short":"10 KiB · 3 CLI · 8 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["8 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs composer","runs dotnet","runs gcloud"]},{"marker":"installs-packages","because":["installs @google-ads/datamanager","installs @google-ads/datamanager-util","installs google-ads-datamanager","installs google-ads-datamanager-util","installs Google.Ads.DataManager.Util","installs Google.Ads.DataManager.V1","installs googleads/data-manager","installs googleads/data-manager-util"]},{"marker":"network","because":["fetches from repo1.maven.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

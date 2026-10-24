@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/react18-dep-compatibility",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/react18-dep-compatibility/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"a730495b93a037b266856c5bd91ef19828d865e5b26cb7a8c4a75df3ad8479a7"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":10441,"own":{"files":3,"bytes":10441},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@apollo/client","graphql","react-router-dom"],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 10 KiB · packages @apollo/client +2","short":"10 KiB · 3 pkg"},
+"heavy":{"heavy":true,"because":["3 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @apollo/client","installs graphql","installs react-router-dom"]},{"marker":"unpinned-code","because":["install @latest: skills/react18-dep-compatibility/references/apollo-details.md:45"]}],
+"security":{"fetch-run":["install @latest @ skills/react18-dep-compatibility/references/apollo-details.md:45"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

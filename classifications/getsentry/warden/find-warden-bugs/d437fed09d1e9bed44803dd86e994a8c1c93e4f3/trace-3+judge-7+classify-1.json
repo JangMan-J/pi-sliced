@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/warden/find-warden-bugs",
+"revision":"d437fed09d1e9bed44803dd86e994a8c1c93e4f3",
+"trace":{"path":"traces/getsentry/warden/find-warden-bugs/d437fed09d1e9bed44803dd86e994a8c1c93e4f3/trace-3+judge-7.json","sha256":"6d0993d9c46fc29a786d8c32327ff98fdab64729c77c82a75a0f453abbbf789d"},
+"status":"unresolvable",
+"reason":"no skill folder named find-warden-bugs at d437fed09d1e9bed44803dd86e994a8c1c93e4f3"
+}

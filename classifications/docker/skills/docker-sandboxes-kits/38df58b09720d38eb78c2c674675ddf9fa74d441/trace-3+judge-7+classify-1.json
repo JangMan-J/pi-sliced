@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"docker/skills/docker-sandboxes-kits",
+"revision":"38df58b09720d38eb78c2c674675ddf9fa74d441",
+"trace":{"path":"traces/docker/skills/docker-sandboxes-kits/38df58b09720d38eb78c2c674675ddf9fa74d441/trace-3+judge-7.json","sha256":"cb8f9ada4d1db21b2a62853144a83f12b44bfa1adc318cbbc4f084d284bc4633"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":50260,"own":{"files":7,"bytes":50260},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["import","p.read_text","p.write_text","sbx"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 49 KiB · CLI import, p.read_text +2","short":"49 KiB · 4 CLI"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs import","runs p.read_text","runs p.write_text","runs sbx"]}],
+"security":{},
+"companions":{"named":[{"name":"docker-sandboxes-env","path":"skills/docker-sandboxes-env"},{"name":"docker-sandboxes-lifecycle","path":"skills/docker-sandboxes-lifecycle"},{"name":"docker-sandboxes-network-credentials","path":"skills/docker-sandboxes-network-credentials"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

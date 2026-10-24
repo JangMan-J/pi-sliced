@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/scoutqa-test",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/scoutqa-test/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"61c18bb9d93d7805443b1e887af515c8d56793cc84c7e738765aa963c51f5891"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13914,"own":{"files":1,"bytes":13914},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Audit","Check","Conduct","Explore","Focus","Smoke","Test","Use","Verify","and","cart","duplicate","edge","email","format","payment","scoutqa","screen","verify"],"package":["@scoutqa/cli"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB · CLI Audit, Check +17 · packages @scoutqa/cli","short":"14 KiB · 19 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","19 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs and","runs Audit","runs cart","runs Check","runs Conduct","runs duplicate","runs edge","runs email","runs Explore","runs Focus","runs format","runs payment","runs scoutqa","runs screen","runs Smoke","runs Test","runs Use","runs verify","runs Verify"]},{"marker":"installs-packages","because":["installs @scoutqa/cli"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

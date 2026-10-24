@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firebase-crashlytics",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firebase-crashlytics/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"63a892291162f50e9c04e7d7b298cac9d54edf20ea031bc51b723343e8f0da24"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":13114,"own":{"files":3,"bytes":13114},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firebase-tools","run"],"package":[],"mcp-server":["firebase"],"credential":[],"network":[]},"summary":"3 files, 13 KiB · MCP firebase · CLI firebase-tools, run","short":"13 KiB · 2 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs firebase-tools","runs run"]},{"marker":"mcp-server","because":["uses the firebase MCP server"]},{"marker":"unpinned-code","because":["npx firebase-tools@latest: skills/firebase-crashlytics/SKILL.md:4, skills/firebase-crashlytics/references/ios_setup.md:17, skills/firebase-crashlytics/references/ios_setup.md:19"]}],
+"security":{"fetch-run":["npx firebase-tools@latest @ skills/firebase-crashlytics/SKILL.md:4, skills/firebase-crashlytics/references/ios_setup.md:17, skills/firebase-crashlytics/references/ios_setup.md:19"]},
+"companions":{"named":[{"name":"firebase-basics","path":"skills/firebase-basics"},{"name":"xcode-project-setup","path":"skills/xcode-project-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

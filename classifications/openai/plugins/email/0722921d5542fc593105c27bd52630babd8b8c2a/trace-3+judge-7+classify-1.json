@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/email",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/email/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"a1d8253d01e99be2352584d51badc8d965b45a8bf6ea9de04ec5453d614de19b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10376,"own":{"files":1,"bytes":10376},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["react-email","vercel"],"package":["@react-email/components","react-email","resend"],"mcp-server":[],"credential":["RESEND_API_KEY"],"network":["resend.com"]},"summary":"1 file, 10 KiB · CLI react-email, vercel · packages @react-email/components +2 · 1 key · 1 host","short":"10 KiB · 2 CLI · 3 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs react-email","runs vercel"]},{"marker":"installs-packages","because":["installs @react-email/components","installs react-email","installs resend"]},{"marker":"network","because":["fetches from resend.com"]},{"marker":"credentials","because":["needs RESEND_API_KEY"]},{"marker":"unpinned-code","because":["npx react-email: plugins/vercel/skills/email/SKILL.md:190","npx react-email@latest: plugins/vercel/skills/email/SKILL.md:199"]}],
+"security":{"fetch-run":["npx react-email @ plugins/vercel/skills/email/SKILL.md:190","npx react-email@latest @ plugins/vercel/skills/email/SKILL.md:199"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

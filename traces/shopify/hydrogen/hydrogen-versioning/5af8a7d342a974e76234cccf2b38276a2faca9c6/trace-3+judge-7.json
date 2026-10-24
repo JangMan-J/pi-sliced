@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"shopify/hydrogen/hydrogen-versioning",
+"source":"shopify/hydrogen",
+"revision":"5af8a7d342a974e76234cccf2b38276a2faca9c6",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named hydrogen-versioning at 5af8a7d342a974e76234cccf2b38276a2faca9c6",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

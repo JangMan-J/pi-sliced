@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/py-ai/vercel-python-services",
+"revision":"0f43c91910415616f06df0e1d90e38d792215948",
+"trace":{"path":"traces/vercel-labs/py-ai/vercel-python-services/0f43c91910415616f06df0e1d90e38d792215948/trace-3+judge-7.json","sha256":"d26a1e8c7166f852e3e301b60c75a7d25c1931c792633015b1128d836dd1ec7b"},
+"status":"unresolvable",
+"reason":"no skill folder named vercel-python-services at 0f43c91910415616f06df0e1d90e38d792215948"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wix/skills/rp-setup-discovery",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"trace":{"path":"traces/wix/skills/rp-setup-discovery/9c51902effdd00f4a742c26f1194f48318abab29/trace-3+judge-7.json","sha256":"4ae11202459cb1998a36144ccf720694d6c0b3c7c3c54d8028510193345da912"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":135357,"own":{"files":1,"bytes":9225},"otherSkills":{"count":1,"files":3,"bytes":126132},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ngrok"],"package":["ngrok"],"mcp-server":[],"credential":[],"network":["www.wixapis.com"]},"summary":"4 files, 132 KiB · +1 other skill · CLI ngrok · packages ngrok · 1 host","short":"132 KiB · +1 skill · 1 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs ngrok"]},{"marker":"installs-packages","because":["installs ngrok"]},{"marker":"network","because":["fetches from www.wixapis.com"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/wix-replatform/resources/rp-target-wix"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/wix-replatform/resources/rp-target-wix","files":3,"bytes":126132}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

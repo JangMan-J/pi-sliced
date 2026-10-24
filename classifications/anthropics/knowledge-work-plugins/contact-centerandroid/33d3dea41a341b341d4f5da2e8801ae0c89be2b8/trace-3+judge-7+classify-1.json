@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/contact-centerandroid",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/contact-centerandroid/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"97e725ee7b0059cc550aadf5fff03190799de9c458382826a54dd5f9c6b36fbd"},
+"status":"unresolvable",
+"reason":"no skill folder named contact-centerandroid at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

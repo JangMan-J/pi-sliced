@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/rozenite/rozenite-agent",
+"revision":"af5b0d7c71ace824261f5453461ea6de8648fd70",
+"trace":{"path":"traces/callstackincubator/rozenite/rozenite-agent/af5b0d7c71ace824261f5453461ea6de8648fd70/trace-3+judge-7.json","sha256":"eb1da3aea3f6fe8c77e1df6c26877b60e85dc7e17ced4fab4664ed992a989d46"},
+"status":"unresolvable",
+"reason":"no skill folder named rozenite-agent at af5b0d7c71ace824261f5453461ea6de8648fd70"
+}

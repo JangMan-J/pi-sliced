@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/on-call-handoff-patterns",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/on-call-handoff-patterns/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"14739a0d9da39a0782be6172ecf159332053486d449357535a384f6b21c44da4"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":36855,"own":{"files":2,"bytes":9977},"otherSkills":{"count":2,"files":4,"bytes":26878},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","kubectl","pg_total_relation_size","psql","relid"],"package":[],"mcp-server":[],"credential":[],"network":["api.company.com","api.stripe.com"]},"summary":"6 files, 36 KiB · +2 other skills · CLI jq, kubectl +3 · 2 hosts","short":"36 KiB · +2 skills · 5 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs kubectl","runs pg_total_relation_size","runs psql","runs relid"]},{"marker":"network","because":["fetches from api.company.com","fetches from api.stripe.com"]},{"marker":"chain-loads","because":["pulls in 2 files of the skill at plugins/incident-response/skills/incident-runbook-templates","pulls in 2 files of the skill at plugins/incident-response/skills/postmortem-writing"]}],
+"security":{},
+"companions":{"named":[{"name":"postmortem-writing","path":"plugins/incident-response/skills/postmortem-writing"}],"pulled":[{"path":"plugins/incident-response/skills/incident-runbook-templates","files":2,"bytes":14232},{"path":"plugins/incident-response/skills/postmortem-writing","files":2,"bytes":12646}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/evo2-nim",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/evo2-nim/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"5b0b31938a783eccf51c2f8b5880af423d174594c5a11b81dc0144fbc1142769"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":32841,"own":{"files":7,"bytes":32841},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":["requests"],"mcp-server":[],"credential":["NGC_API_KEY","NVIDIA_API_KEY"],"network":["health.api.nvidia.com"]},"summary":"7 files, 32 KiB · CLI docker · packages requests · 2 keys · 1 host","short":"32 KiB · 1 CLI · 1 pkg · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]},{"marker":"installs-packages","because":["installs requests"]},{"marker":"network","because":["fetches from health.api.nvidia.com"]},{"marker":"credentials","because":["needs NGC_API_KEY","needs NVIDIA_API_KEY"]},{"marker":"sends-credentials","because":["NGC_API_KEY -> health.api.nvidia.com: skills/bionemo-evo2-nim/references/api.md:58"]}],
+"security":{"secret-egress":["NGC_API_KEY -> health.api.nvidia.com @ skills/bionemo-evo2-nim/references/api.md:58"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

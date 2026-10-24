@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/model-optimizer/compare-results",
+"revision":"0638a274cf195870564d8e3c164e4f859e5be2a2",
+"trace":{"path":"traces/nvidia/model-optimizer/compare-results/0638a274cf195870564d8e3c164e4f859e5be2a2/trace-3+judge-7.json","sha256":"54e764595436b0763de0eb8b2e82a06e46e244e24f68c0acb355cb6782bd8fc8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6579,"own":{"files":1,"bytes":6579},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.4 KiB","short":"6.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"evaluation","path":"plugins/modelopt/skills/evaluation"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

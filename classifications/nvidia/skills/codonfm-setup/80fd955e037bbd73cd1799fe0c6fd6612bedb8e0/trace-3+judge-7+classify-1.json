@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/codonfm-setup",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/codonfm-setup/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"be7b5ac06c3fd5f7cf599850b4bec199311d3912bd8049f4fab18b4a74e0dcd0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13108,"own":{"files":1,"bytes":13108},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","hf","python3.11"],"package":["huggingface_hub","pip"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB · CLI docker, hf +1 · packages huggingface_hub +1","short":"13 KiB · 3 CLI · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs hf","runs python3.11"]},{"marker":"installs-packages","because":["installs huggingface_hub","installs pip"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

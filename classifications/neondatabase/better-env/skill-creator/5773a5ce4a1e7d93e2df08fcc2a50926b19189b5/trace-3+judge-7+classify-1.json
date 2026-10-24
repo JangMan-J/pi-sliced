@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"neondatabase/better-env/skill-creator",
+"revision":"5773a5ce4a1e7d93e2df08fcc2a50926b19189b5",
+"trace":{"path":"traces/neondatabase/better-env/skill-creator/5773a5ce4a1e7d93e2df08fcc2a50926b19189b5/trace-3+judge-7.json","sha256":"8b20f8218f55bbcf8dc01c50cdb0185e1208a53ceb6e880675cd1395e719a753"},
+"status":"unresolvable",
+"reason":"no skill folder named skill-creator at 5773a5ce4a1e7d93e2df08fcc2a50926b19189b5"
+}

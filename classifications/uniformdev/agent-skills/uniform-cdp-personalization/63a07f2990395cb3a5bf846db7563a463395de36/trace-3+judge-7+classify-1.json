@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"uniformdev/agent-skills/uniform-cdp-personalization",
+"revision":"63a07f2990395cb3a5bf846db7563a463395de36",
+"trace":{"path":"traces/uniformdev/agent-skills/uniform-cdp-personalization/63a07f2990395cb3a5bf846db7563a463395de36/trace-3+judge-7.json","sha256":"806d111071f02c4d04070e38d3057695860aefaaa49f82cd93d796174da783d8"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":30127,"own":{"files":6,"bytes":30127},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["uniform"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 29 KiB · CLI uniform","short":"29 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs uniform"]},{"marker":"unpinned-code","because":["npx uniform: skills/uniform-cdp-personalization/references/audit.md:41, skills/uniform-cdp-personalization/references/audit.md:43"]}],
+"security":{"fetch-run":["npx uniform @ skills/uniform-cdp-personalization/references/audit.md:41, skills/uniform-cdp-personalization/references/audit.md:43"]},
+"companions":{"named":[{"name":"uniform-nextjs-app-router","path":"skills/uniform-nextjs-app-router"},{"name":"uniform-nextjs-page-router","path":"skills/uniform-nextjs-page-router"},{"name":"uniform-sdk","path":"skills/uniform-sdk"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

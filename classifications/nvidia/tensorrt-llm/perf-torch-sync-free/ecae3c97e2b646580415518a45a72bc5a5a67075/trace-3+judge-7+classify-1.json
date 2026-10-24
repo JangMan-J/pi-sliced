@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/tensorrt-llm/perf-torch-sync-free",
+"revision":"ecae3c97e2b646580415518a45a72bc5a5a67075",
+"trace":{"path":"traces/nvidia/tensorrt-llm/perf-torch-sync-free/ecae3c97e2b646580415518a45a72bc5a5a67075/trace-3+judge-7.json","sha256":"1dd7cffff3f5111f507189515d9fde8105bd0c40d8147b9e6a2952dd8d683f3f"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":26023,"own":{"files":2,"bytes":26023},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["nsys"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 25 KiB · CLI nsys","short":"25 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs nsys"]}],
+"security":{},
+"companions":{"named":[{"name":"kernel-triton-writing","path":".claude/skills/kernel-triton-writing"},{"name":"perf-nsight-compute-analysis","path":".claude/skills/perf-nsight-compute-analysis"},{"name":"perf-nsight-systems","path":".claude/skills/perf-nsight-systems"},{"name":"perf-torch-cuda-graphs","path":".claude/skills/perf-torch-cuda-graphs"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

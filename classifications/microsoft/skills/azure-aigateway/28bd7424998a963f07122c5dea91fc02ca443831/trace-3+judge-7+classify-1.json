@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-aigateway",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-aigateway/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"9a721adf4092fdb5c6f8c854e897d6e41aa92d9a241dcbd96f833fc685d7c0c0"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":40390,"own":{"files":9,"bytes":40390},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":["@azure-rest/ai-content-safety","@azure/core-auth","@azure/identity","azure-ai-contentsafety"],"mcp-server":["protect"],"credential":[],"network":[]},"summary":"9 files, 39 KiB · MCP protect · CLI az · packages @azure-rest/ai-content-safety +3","short":"39 KiB · 1 CLI · 4 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"installs-packages","because":["installs @azure-rest/ai-content-safety","installs @azure/core-auth","installs @azure/identity","installs azure-ai-contentsafety"]},{"marker":"mcp-server","because":["uses the protect MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

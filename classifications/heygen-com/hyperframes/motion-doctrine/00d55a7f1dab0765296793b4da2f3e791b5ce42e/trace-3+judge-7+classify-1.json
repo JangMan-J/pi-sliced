@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"heygen-com/hyperframes/motion-doctrine",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"trace":{"path":"traces/heygen-com/hyperframes/motion-doctrine/00d55a7f1dab0765296793b4da2f3e791b5ce42e/trace-3+judge-7.json","sha256":"71c4ae5b47fc25d25c2cb8b44b095a4188235ee8b21eaccf7eaf2db783a8055f"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":44869,"own":{"files":4,"bytes":44869},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 44 KiB","short":"44 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"checkout-scripts","because":["code reaches packages/cli/bin/hyperframes.mjs (892 files) in the repository checkout"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":1,"targets":["packages/cli"],"files":892,"bytes":7796919}
+}

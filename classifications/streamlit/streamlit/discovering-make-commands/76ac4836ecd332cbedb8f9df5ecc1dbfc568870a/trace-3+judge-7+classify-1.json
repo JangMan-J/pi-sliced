@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"streamlit/streamlit/discovering-make-commands",
+"revision":"76ac4836ecd332cbedb8f9df5ecc1dbfc568870a",
+"trace":{"path":"traces/streamlit/streamlit/discovering-make-commands/76ac4836ecd332cbedb8f9df5ecc1dbfc568870a/trace-3+judge-7.json","sha256":"811e2542afabef3f52fe511da95637f25da0173b55cb6d1e540a5c5f0131a035"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3685,"own":{"files":1,"bytes":3685},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.6 KiB","short":"3.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vuejs-ai/skills/vue-router-best-practices",
+"revision":"f5d4b3b869bb8a86ddfea148196f7db64aeefeab",
+"trace":{"path":"traces/vuejs-ai/skills/vue-router-best-practices/f5d4b3b869bb8a86ddfea148196f7db64aeefeab/trace-3+judge-7.json","sha256":"c2322595d43307066f364203daf1961b67956f293d2e35c025a6d2b46704592c"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":42830,"own":{"files":9,"bytes":42830},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"9 files, 42 KiB","short":"42 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/engineering-agent-skills/acli",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/engineering-agent-skills/acli/none/trace-3+judge-7.json","sha256":"bd7277ed089a25aaeaf8eb79f85aa67d132bb013f350954ee2b94c042fde9a86"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"
+}

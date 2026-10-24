@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-cosmos-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-cosmos-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"268e8b6151b73e844f83666f89fd3d42d35ef8ea9b04e06752a41841250359d5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":11916,"own":{"files":1,"bytes":11916},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/arm-cosmosdb","@azure/cosmos","@azure/identity"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","COSMOS_KEY"],"network":[]},"summary":"1 file, 12 KiB · packages @azure/arm-cosmosdb +2 · 2 keys","short":"12 KiB · 3 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["3 packages to install","2 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/arm-cosmosdb","installs @azure/cosmos","installs @azure/identity"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs COSMOS_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

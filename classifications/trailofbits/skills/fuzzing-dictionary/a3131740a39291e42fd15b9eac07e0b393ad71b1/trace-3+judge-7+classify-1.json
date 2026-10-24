@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/fuzzing-dictionary",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/fuzzing-dictionary/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"7a3bea731bbe96112a4077dba86b4e574da70db89a18ff45455abc9a82d430c6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9954,"own":{"files":1,"bytes":9954},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["afl-clang-lto++","afl-fuzz","cargo","clang++","go-fuzz","man","strings"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.7 KiB · CLI afl-clang-lto++, afl-fuzz +5","short":"9.7 KiB · 7 CLI"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs afl-clang-lto++","runs afl-fuzz","runs cargo","runs clang++","runs go-fuzz","runs man","runs strings"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

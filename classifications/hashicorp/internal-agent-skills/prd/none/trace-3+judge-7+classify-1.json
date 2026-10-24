@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/internal-agent-skills/prd",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/internal-agent-skills/prd/none/trace-3+judge-7.json","sha256":"b87ee1348a2c6ac2585f71b87114e063e4eb7e195d61950bbb5565aad58c0076"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"
+}

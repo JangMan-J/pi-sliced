@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/boltz-small-molecule-design",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/boltz-small-molecule-design/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"d242f0a58a261cad5ee32243653ebaba67137eee8d831ba93804a7199dc7f741"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":18300,"own":{"files":3,"bytes":18300},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["boltz-api"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 18 KiB · CLI boltz-api","short":"18 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs boltz-api"]}],
+"security":{},
+"companions":{"named":[{"name":"boltz-cli-setup","path":"plugins/boltz-api-cli/skills/boltz-cli-setup"},{"name":"start","path":"plugins/zoom/skills/start"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

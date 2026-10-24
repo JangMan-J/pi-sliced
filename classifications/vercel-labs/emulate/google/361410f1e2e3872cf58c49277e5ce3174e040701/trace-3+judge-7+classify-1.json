@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/emulate/google",
+"revision":"361410f1e2e3872cf58c49277e5ce3174e040701",
+"trace":{"path":"traces/vercel-labs/emulate/google/361410f1e2e3872cf58c49277e5ce3174e040701/trace-3+judge-7.json","sha256":"6ad5e4dc9ef91bf60abef5d2a4554bdfc7bc7cdc0fbf19d70006b3f6683ba2b6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":21684,"own":{"files":1,"bytes":21684},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["emulate"],"package":[],"mcp-server":[],"credential":["CLIENT_SECRET"],"network":[]},"summary":"1 file, 21 KiB · CLI emulate · 1 key","short":"21 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs emulate"]},{"marker":"credentials","because":["needs CLIENT_SECRET"]},{"marker":"unpinned-code","because":["npx emulate: skills/google/SKILL.md:17, skills/google/SKILL.md:616"]}],
+"security":{"fetch-run":["npx emulate @ skills/google/SKILL.md:17, skills/google/SKILL.md:616"]},
+"companions":{"named":[{"name":"emulate","path":"skills/emulate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

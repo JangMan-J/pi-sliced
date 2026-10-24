@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"factory-ai/factory/prompt-refiner-claude",
+"revision":"892925c655a97e7a0bc7d558236015ebb22cb214",
+"trace":{"path":"traces/factory-ai/factory/prompt-refiner-claude/892925c655a97e7a0bc7d558236015ebb22cb214/trace-3+judge-7.json","sha256":"269ff74161d0f535bbcb1ee80188ddb145fa608c7404ce06ac37b882c195b621"},
+"status":"unresolvable",
+"reason":"no skill folder named prompt-refiner-claude at 892925c655a97e7a0bc7d558236015ebb22cb214"
+}

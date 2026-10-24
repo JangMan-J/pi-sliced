@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"makenotion/notion-cookbook/notion-knowledge-capture",
+"revision":"8a038e30575514da33329d8d215a9357c01c08ca",
+"trace":{"path":"traces/makenotion/notion-cookbook/notion-knowledge-capture/8a038e30575514da33329d8d215a9357c01c08ca/trace-3+judge-7.json","sha256":"7c7af2620ee8e33f24fc44f4b6aed5a8f5f3462f11c095833e4ca051f17587e5"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":44538,"own":{"files":11,"bytes":44538},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["kubectl","lsof"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"11 files, 43 KiB · CLI kubectl, lsof","short":"43 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs kubectl","runs lsof"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

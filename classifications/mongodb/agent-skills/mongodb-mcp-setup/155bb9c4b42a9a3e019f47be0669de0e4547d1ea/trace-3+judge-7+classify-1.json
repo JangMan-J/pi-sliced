@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mongodb/agent-skills/mongodb-mcp-setup",
+"revision":"155bb9c4b42a9a3e019f47be0669de0e4547d1ea",
+"trace":{"path":"traces/mongodb/agent-skills/mongodb-mcp-setup/155bb9c4b42a9a3e019f47be0669de0e4547d1ea/trace-3+judge-7.json","sha256":"c59ec49bd7933c957ec2051ea6d6b6941355b7777754164954e20cec24d399bf"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13319,"own":{"files":1,"bytes":13319},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker"],"package":[],"mcp-server":["mongodb"],"credential":["MDB_MCP_API_CLIENT_SECRET"],"network":["cloud.mongodb.com"]},"summary":"1 file, 13 KiB · MCP mongodb · CLI docker · 1 key · 1 host","short":"13 KiB · 1 CLI · 1 key · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker"]},{"marker":"network","because":["fetches from cloud.mongodb.com"]},{"marker":"credentials","because":["needs MDB_MCP_API_CLIENT_SECRET"]},{"marker":"mcp-server","because":["uses the mongodb MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

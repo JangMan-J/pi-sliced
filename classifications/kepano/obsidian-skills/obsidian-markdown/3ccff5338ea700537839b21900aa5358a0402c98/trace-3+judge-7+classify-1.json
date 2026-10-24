@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"kepano/obsidian-skills/obsidian-markdown",
+"revision":"3ccff5338ea700537839b21900aa5358a0402c98",
+"trace":{"path":"traces/kepano/obsidian-skills/obsidian-markdown/3ccff5338ea700537839b21900aa5358a0402c98/trace-3+judge-7.json","sha256":"19596743d8c5eaf5e4412a59fddbb2eb3f66be0f5542427360b33f53b5b83b66"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":8615,"own":{"files":4,"bytes":8615},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 8.4 KiB","short":"8.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

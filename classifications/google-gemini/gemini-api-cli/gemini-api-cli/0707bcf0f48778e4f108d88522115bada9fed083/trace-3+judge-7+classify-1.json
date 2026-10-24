@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-api-cli/gemini-api-cli",
+"revision":"0707bcf0f48778e4f108d88522115bada9fed083",
+"trace":{"path":"traces/google-gemini/gemini-api-cli/gemini-api-cli/0707bcf0f48778e4f108d88522115bada9fed083/trace-3+judge-7.json","sha256":"dd4faec204d33a2421b7b06fdf5966ba5bdc5f6797916c6e03620273c2269cf5"},
+"status":"unresolvable",
+"reason":"no skill folder named gemini-api-cli at 0707bcf0f48778e4f108d88522115bada9fed083"
+}

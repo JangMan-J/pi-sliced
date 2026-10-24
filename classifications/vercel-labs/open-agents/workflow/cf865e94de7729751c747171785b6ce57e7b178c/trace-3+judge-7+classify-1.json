@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/open-agents/workflow",
+"revision":"cf865e94de7729751c747171785b6ce57e7b178c",
+"trace":{"path":"traces/vercel-labs/open-agents/workflow/cf865e94de7729751c747171785b6ce57e7b178c/trace-3+judge-7.json","sha256":"259dd4bca491c3e02d0f453099dfc9cf8056d61c92c5ce9a2f50d9f97ab6cb60"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6030,"own":{"files":1,"bytes":6030},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["workflow"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 5.9 KiB · CLI workflow","short":"5.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs workflow"]},{"marker":"unpinned-code","because":["npx workflow: .agents/skills/workflow/SKILL.md:169, .agents/skills/workflow/SKILL.md:170, .agents/skills/workflow/SKILL.md:173"]}],
+"security":{"fetch-run":["npx workflow @ .agents/skills/workflow/SKILL.md:169, .agents/skills/workflow/SKILL.md:170, .agents/skills/workflow/SKILL.md:173 +3"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

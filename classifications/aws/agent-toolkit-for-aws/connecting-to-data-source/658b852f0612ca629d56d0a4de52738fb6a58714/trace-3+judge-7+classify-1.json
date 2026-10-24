@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/connecting-to-data-source",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/connecting-to-data-source/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"8d2be20e2bfb240e1d6a91a274b51cfde077cfcca6f784748e5717aa6e33ce96"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":37725,"own":{"files":8,"bytes":37725},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","jq","mysql","nc","psql","sqlplus","telnet"],"package":[],"mcp-server":["aws"],"credential":["PGPASSWORD"],"network":[]},"summary":"8 files, 37 KiB · MCP aws · CLI aws, jq +5 · 1 key","short":"37 KiB · 7 CLI · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","7 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs jq","runs mysql","runs nc","runs psql","runs sqlplus","runs telnet"]},{"marker":"credentials","because":["needs PGPASSWORD"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

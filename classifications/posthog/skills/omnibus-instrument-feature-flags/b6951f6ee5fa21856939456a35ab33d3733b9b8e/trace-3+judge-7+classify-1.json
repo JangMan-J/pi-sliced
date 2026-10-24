@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/omnibus-instrument-feature-flags",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/omnibus-instrument-feature-flags/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"8b4bce4597846ff99da5ad47213eed4ac6887c1df825751c2efc6c5c8faba31e"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":216304,"own":{"files":20,"bytes":216304},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@posthog/wizard","composer","dotnet","expo","go","groups","pod"],"package":["@posthog/react","@react-native-async-storage/async-storage","PostHog","PostHog.AspNetCore","posthog","posthog-js","posthog-node","posthog-react-native","posthog/posthog-php","react-native-device-info","react-native-localize"],"mcp-server":["posthog"],"credential":["NEXT_PUBLIC_POSTHOG_TOKEN","VITE_PUBLIC_POSTHOG_PROJECT_TOKEN"],"network":[]},"summary":"20 files, 211 KiB · MCP posthog · CLI @posthog/wizard, composer +5 · packages @posthog/react +10 · 2 keys","short":"211 KiB · 7 CLI · 11 pkg · 2 keys · MCP 1"},
+"heavy":{"heavy":true,"because":["11 packages to install","1 MCP server","7 CLIs","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs @posthog/wizard","runs composer","runs dotnet","runs expo","runs go","runs groups","runs pod"]},{"marker":"installs-packages","because":["installs @posthog/react","installs @react-native-async-storage/async-storage","installs posthog","installs PostHog","installs posthog-js","installs posthog-node","installs posthog-react-native","installs PostHog.AspNetCore","installs posthog/posthog-php","installs react-native-device-info","installs react-native-localize"]},{"marker":"credentials","because":["needs NEXT_PUBLIC_POSTHOG_TOKEN","needs VITE_PUBLIC_POSTHOG_PROJECT_TOKEN"]},{"marker":"mcp-server","because":["uses the posthog MCP server"]},{"marker":"unpinned-code","because":["npx @posthog/wizard@latest: skills/posthog/feature-flags/skills/all/references/next-js.md:24","npx expo: skills/posthog/feature-flags/skills/all/references/react-native.md:16"]}],
+"security":{"fetch-run":["npx @posthog/wizard@latest @ skills/posthog/feature-flags/skills/all/references/next-js.md:24","npx expo @ skills/posthog/feature-flags/skills/all/references/react-native.md:16"]},
+"companions":{"named":[{"name":"dotnet","path":"skills/posthog/feature-flags/skills/dotnet"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

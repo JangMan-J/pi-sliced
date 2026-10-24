@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/engineering-agent-skills/hcl-style",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/engineering-agent-skills/hcl-style/none/trace-3+judge-7.json","sha256":"d17666d972d7dbde24e2e4f9193adfb22f3e419734b4861c156e55c54f75ab94"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"
+}

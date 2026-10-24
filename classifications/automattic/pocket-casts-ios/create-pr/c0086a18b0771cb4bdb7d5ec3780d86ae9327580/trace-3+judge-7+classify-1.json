@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/pocket-casts-ios/create-pr",
+"revision":"c0086a18b0771cb4bdb7d5ec3780d86ae9327580",
+"trace":{"path":"traces/automattic/pocket-casts-ios/create-pr/c0086a18b0771cb4bdb7d5ec3780d86ae9327580/trace-3+judge-7.json","sha256":"3981162724d2dfaee0c7c8050a64a49ee81c725138da25de71cdda3fc68bd676"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":950,"own":{"files":1,"bytes":950},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 950 B · CLI gh","short":"950 B · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"stub","because":["own folder 950 B (1 file)","content is the gh it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

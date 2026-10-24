@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-state-management",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-state-management/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"4e05c8fd780572453aef981d915250c54442924e37ffedf8568aa855f91a88c0"},
+"status":"unresolvable",
+"reason":"no skill folder named flutter-state-management at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/roi-calculator",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/roi-calculator/none/trace-3+judge-7.json","sha256":"87871a4a0495e206b8788cbc451b959878b3b9fd1cbfc82b70650cf7f6241255"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

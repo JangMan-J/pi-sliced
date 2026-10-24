@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dbt-labs/dbt-agent-skills/migrating-dbt-project-across-platforms",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"trace":{"path":"traces/dbt-labs/dbt-agent-skills/migrating-dbt-project-across-platforms/ef5710860f199897a304eabc8cd5c1973beb60ae/trace-3+judge-7.json","sha256":"74fe5d9be22353846dcc0720c8a163564542fbdb60ebcba06fcb94d3ea34206b"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":28993,"own":{"files":4,"bytes":28993},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["comm","dbt","dbtf","jq"],"package":[],"mcp-server":[],"credential":[],"network":["docs.getdbt.com"]},"summary":"4 files, 28 KiB · CLI comm, dbt +2 · 1 host","short":"28 KiB · 4 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs comm","runs dbt","runs dbtf","runs jq"]},{"marker":"network","because":["fetches from docs.getdbt.com"]}],
+"security":{},
+"companions":{"named":[{"name":"adding-dbt-unit-test","path":"skills/dbt/skills/adding-dbt-unit-test"},{"name":"migrating-dbt-core-to-v2","path":"skills/dbt-migration/skills/migrating-dbt-core-to-v2"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/prisma-next/prisma-next-migration-review",
+"revision":"55458c441d2cf452028c22eed21370447720840a",
+"trace":{"path":"traces/prisma/prisma-next/prisma-next-migration-review/55458c441d2cf452028c22eed21370447720840a/trace-3+judge-7.json","sha256":"e994b12a7b111d50576109d5cc02b6dc7b6ac771b7e73ad3d1a9c3eb1f272228"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":20709,"own":{"files":1,"bytes":20709},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["migration","prisma-next"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 20 KiB · CLI migration, prisma-next","short":"20 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs migration","runs prisma-next"]}],
+"security":{},
+"companions":{"named":[{"name":"prisma-next-contract","path":"skills/prisma-next-contract"},{"name":"prisma-next-debug","path":"skills/prisma-next-debug"},{"name":"prisma-next-feedback","path":"skills/prisma-next-feedback"},{"name":"prisma-next-migrations","path":"skills/prisma-next-migrations"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

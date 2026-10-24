@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/internal-agent-skills/vercel-presentation-style",
+"revision":"none",
+"trace":{"path":"traces/vercel/internal-agent-skills/vercel-presentation-style/none/trace-3+judge-7.json","sha256":"f7c348de72b1b73e42e26a8c4260720d4359d7d503b1c742630ae7cd91416f72"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel/internal-agent-skills.git/' not found"
+}

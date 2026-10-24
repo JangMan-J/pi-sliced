@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"triggerdotdev/skills/trigger-realtime",
+"revision":"8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+"trace":{"path":"traces/triggerdotdev/skills/trigger-realtime/8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd/trace-3+judge-7.json","sha256":"a432c4ca9a0bac416b8fc7ce896c70699dce76a16bbbc4262cb09fb369b61a89"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10973,"own":{"files":1,"bytes":10973},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@trigger.dev/react-hooks"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 11 KiB · packages @trigger.dev/react-hooks","short":"11 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @trigger.dev/react-hooks"]}],
+"security":{},
+"companions":{"named":[{"name":"trigger-authoring-chat-agent","path":"trigger-authoring-chat-agent"},{"name":"trigger-chat-agent-advanced","path":"trigger-chat-agent-advanced"},{"name":"trigger-tasks","path":"trigger-tasks"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

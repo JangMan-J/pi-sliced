@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wix/skills/wix-cli-backend-event",
+"source":"wix/skills",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named wix-cli-backend-event at 9c51902effdd00f4a742c26f1194f48318abab29 or at the remote HEAD 687e2faf013aeee2afcaa7ca0456a43754306302",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

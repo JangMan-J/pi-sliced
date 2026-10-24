@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"rivet-dev/skills/rivet-sandbox-agent",
+"revision":"45a76b94aecd77619bcc82bff5486bd0cbc03aee",
+"trace":{"path":"traces/rivet-dev/skills/rivet-sandbox-agent/45a76b94aecd77619bcc82bff5486bd0cbc03aee/trace-3+judge-7.json","sha256":"c9aa966a16f4ff0e376c462bde13239e74794539020510ea4e2255d75f7a06c5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":21777,"own":{"files":1,"bytes":21777},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["rivet.dev"]},"summary":"1 file, 21 KiB · 1 host","short":"21 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from rivet.dev"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

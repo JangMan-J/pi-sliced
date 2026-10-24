@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/linkerd-patterns",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/linkerd-patterns/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"18c10360028a628abb87d1e9c476aa485b06b867414fec744a20f00701ffb786"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8084,"own":{"files":1,"bytes":8084},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["kubectl","linkerd"],"package":["linkerd"],"mcp-server":[],"credential":[],"network":["linkerd.io"]},"summary":"1 file, 7.9 KiB · CLI kubectl, linkerd · packages linkerd · 1 host","short":"7.9 KiB · 2 CLI · 1 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs kubectl","runs linkerd"]},{"marker":"installs-packages","because":["installs linkerd"]},{"marker":"network","because":["fetches from linkerd.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pulumi/agent-skills-private/pulumi-best-practices",
+"revision":"none",
+"trace":{"path":"traces/pulumi/agent-skills-private/pulumi-best-practices/none/trace-3+judge-7.json","sha256":"7e32bc2cd90d55d84ea2fce8e63b40e89e0f5635c1b05e426863ce99027f4e24"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/pulumi/agent-skills-private.git/' not found"
+}

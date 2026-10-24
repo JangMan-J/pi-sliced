@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/dlp/skill-creator",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/dlp/skill-creator/none/trace-3+judge-7.json","sha256":"2877cd3f32907d51e5b55b098fc8c177ed04116dda2d46bc6935142020b0b636"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/dlp.git/' not found"
+}

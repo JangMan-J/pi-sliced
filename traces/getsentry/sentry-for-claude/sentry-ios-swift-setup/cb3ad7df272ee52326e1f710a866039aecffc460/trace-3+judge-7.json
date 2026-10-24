@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"getsentry/sentry-for-claude/sentry-ios-swift-setup",
+"source":"getsentry/sentry-for-claude",
+"revision":"cb3ad7df272ee52326e1f710a866039aecffc460",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named sentry-ios-swift-setup at cb3ad7df272ee52326e1f710a866039aecffc460",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

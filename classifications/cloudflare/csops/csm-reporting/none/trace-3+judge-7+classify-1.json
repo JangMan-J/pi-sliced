@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/csm-reporting",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/csm-reporting/none/trace-3+judge-7.json","sha256":"8350fc9742d82b918c72c7cbeccb8c59fb415b544c7a3e6d6e91360963dc1b55"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

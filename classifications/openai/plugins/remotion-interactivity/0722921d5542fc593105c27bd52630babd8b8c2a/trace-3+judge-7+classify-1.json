@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/remotion-interactivity",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/remotion-interactivity/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"7c13581af9c7fda2318149e57a8365cd977003e6de7f4e1822747cdc33854718"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":17728,"own":{"files":1,"bytes":7442},"otherSkills":{"count":1,"files":2,"bytes":10286},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["remotion"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 17 KiB · +1 other skill · CLI remotion","short":"17 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs remotion"]},{"marker":"chain-loads","because":["pulls in 2 files of the skill at plugins/remotion/skills/remotion-markup"]},{"marker":"unpinned-code","because":["npx remotion: plugins/remotion/skills/remotion-markup/transitions.md:20, plugins/remotion/skills/remotion-markup/video-editing.md:90"]}],
+"security":{"fetch-run":["npx remotion @ plugins/remotion/skills/remotion-markup/transitions.md:20, plugins/remotion/skills/remotion-markup/video-editing.md:90"]},
+"companions":{"named":[],"pulled":[{"path":"plugins/remotion/skills/remotion-markup","files":2,"bytes":10286}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

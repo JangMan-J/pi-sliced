@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-client-api-model-queries",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-client-api-model-queries/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"172e91c3369cb3caa2e401ca5447490e71b84738ea7799cbb16c31055f886e90"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-client-api-model-queries at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

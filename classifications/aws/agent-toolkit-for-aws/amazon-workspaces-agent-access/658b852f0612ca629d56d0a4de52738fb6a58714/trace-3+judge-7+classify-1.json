@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/amazon-workspaces-agent-access",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/amazon-workspaces-agent-access/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"5cd9cbb92cd9e2d0dfeb03880cd9ce266453bf6de201aa93bdc6d5f1c33a8904"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":40290,"own":{"files":9,"bytes":40290},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","mcp-proxy-for-aws"],"package":[],"mcp-server":["access","aws","forwards","the"],"credential":[],"network":[]},"summary":"9 files, 39 KiB · MCP access, aws +2 · CLI aws, mcp-proxy-for-aws","short":"39 KiB · 2 CLI · MCP 4"},
+"heavy":{"heavy":true,"because":["4 MCP servers","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs mcp-proxy-for-aws"]},{"marker":"mcp-server","because":["uses the access MCP server","uses the aws MCP server","uses the forwards MCP server","uses the the MCP server"]},{"marker":"unpinned-code","because":["uvx mcp-proxy-for-aws: skills/specialized-skills/end-user-computing-skills/amazon-workspaces-agent-access/references/connection-setup.md:68"]}],
+"security":{"fetch-run":["uvx mcp-proxy-for-aws @ skills/specialized-skills/end-user-computing-skills/amazon-workspaces-agent-access/references/connection-setup.md:68"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

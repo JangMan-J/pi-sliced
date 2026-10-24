@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"dbt-labs/dbt-agent-skills/dbt-migration",
+"source":"dbt-labs/dbt-agent-skills",
+"revision":"ef5710860f199897a304eabc8cd5c1973beb60ae",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named dbt-migration at ef5710860f199897a304eabc8cd5c1973beb60ae or at the remote HEAD b8facde20b7a92c40ce3e6b86b71c4b92aa44040",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

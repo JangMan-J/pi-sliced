@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mapbox/mcp-devkit-server/mapbox-style-patterns",
+"revision":"0d707c987da4c72e65fbca0962c91732a862c648",
+"trace":{"path":"traces/mapbox/mcp-devkit-server/mapbox-style-patterns/0d707c987da4c72e65fbca0962c91732a862c648/trace-3+judge-7.json","sha256":"1814498e1d4bd17f22906c052cc4986d8be7afa010160b667c3aba14cdf92f38"},
+"status":"unresolvable",
+"reason":"no skill folder named mapbox-style-patterns at 0d707c987da4c72e65fbca0962c91732a862c648"
+}

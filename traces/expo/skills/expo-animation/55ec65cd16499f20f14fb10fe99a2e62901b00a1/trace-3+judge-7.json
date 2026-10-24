@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"expo/skills/expo-animation",
+"source":"expo/skills",
+"revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1",
+"skillPath":"plugins/expo/skills/expo-animation",
+"status":"resolved",
+"totals":{"files":2,"bytes":35789},
+"files":[
+{"path":"plugins/expo/skills/expo-animation/RECIPES.md","size":16822,"blob":"92c64f12cd118df764499466eb0315b233a52c76","how":"link","from":1,"line":229},
+{"path":"plugins/expo/skills/expo-animation/SKILL.md","size":18967,"blob":"aa7a5d395f8326040adcbe69211307c6700fe28f","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"expo","at":[[0,10],[0,258],[1,80],[1,212]]},
+{"kind":"cli","name":"submit-expo-feedback","at":[[1,271]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/expo/skills/expo-animation","files":2,"bytes":35789}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx expo","at":[[0,10],[0,258],[1,80],[1,212]]},
+{"kind":"fetch-run","detail":"npx submit-expo-feedback@latest","at":[[1,271]]}
+],
+"namedSkills":[
+{"name":"expo-router","path":"plugins/expo/skills/expo-router","at":[[1,86]]},
+{"name":"expo-skill-feedback","path":"plugins/expo/skills/expo-skill-feedback","at":[[1,274]]}
+],
+"checkoutReach":[],
+"licence":{"path":"plugins/expo/skills/expo-animation/LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

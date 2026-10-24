@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"runwayml/skills/rw-generate-video",
+"source":"runwayml/skills",
+"revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named rw-generate-video at 3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de (the archive had legacy/skills/rw-generate-video)",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

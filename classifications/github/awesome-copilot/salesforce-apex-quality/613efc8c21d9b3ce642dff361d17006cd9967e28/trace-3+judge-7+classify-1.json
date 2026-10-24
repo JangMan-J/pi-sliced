@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/salesforce-apex-quality",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/salesforce-apex-quality/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"1dde7bcaeb0f45cf32de0c8c2313c69f47f399c53400bf8e9d0c0239a5a9696f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7338,"own":{"files":1,"bytes":7338},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.2 KiB","short":"7.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

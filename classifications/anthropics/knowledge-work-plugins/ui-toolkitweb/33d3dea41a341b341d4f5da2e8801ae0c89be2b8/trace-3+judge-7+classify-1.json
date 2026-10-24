@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/ui-toolkitweb",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/ui-toolkitweb/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"0fe7a5dee87c1033fe2095998447bb132086ecc31c9218a35c17d409c6d4e672"},
+"status":"unresolvable",
+"reason":"no skill folder named ui-toolkitweb at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

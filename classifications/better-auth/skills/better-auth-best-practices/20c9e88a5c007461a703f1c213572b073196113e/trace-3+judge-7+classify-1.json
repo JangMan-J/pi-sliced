@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"better-auth/skills/better-auth-best-practices",
+"revision":"20c9e88a5c007461a703f1c213572b073196113e",
+"trace":{"path":"traces/better-auth/skills/better-auth-best-practices/20c9e88a5c007461a703f1c213572b073196113e/trace-3+judge-7.json","sha256":"2ad6dad0c22a47e846fbdcffa1c2b03a857c84a764553cd8cec90d94a9679db1"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8231,"own":{"files":1,"bytes":8231},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["auth","drizzle-kit","prisma"],"package":["better-auth"],"mcp-server":[],"credential":["BETTER_AUTH_SECRET"],"network":[]},"summary":"1 file, 8.0 KiB · CLI auth, drizzle-kit +1 · packages better-auth · 1 key","short":"8.0 KiB · 3 CLI · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs auth","runs drizzle-kit","runs prisma"]},{"marker":"installs-packages","because":["installs better-auth"]},{"marker":"credentials","because":["needs BETTER_AUTH_SECRET"]},{"marker":"unpinned-code","because":["npx auth@latest: better-auth/best-practices/SKILL.md:29, better-auth/best-practices/SKILL.md:30, better-auth/best-practices/SKILL.md:31","npx drizzle-kit: better-auth/best-practices/SKILL.md:30","npx prisma: better-auth/best-practices/SKILL.md:31"]}],
+"security":{"fetch-run":["npx auth@latest @ better-auth/best-practices/SKILL.md:29, better-auth/best-practices/SKILL.md:30, better-auth/best-practices/SKILL.md:31 +3","npx drizzle-kit @ better-auth/best-practices/SKILL.md:30","npx prisma @ better-auth/best-practices/SKILL.md:31"]},
+"companions":{"named":[{"name":"create-auth","path":"better-auth/create-auth"},{"name":"emailAndPassword","path":"better-auth/emailAndPassword"},{"name":"organization","path":"better-auth/organization"},{"name":"twoFactor","path":"better-auth/twoFactor"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

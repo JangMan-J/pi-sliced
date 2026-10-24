@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/duckgres/multitenant-up",
+"revision":"da4aafdc9e6aec9a27363af257acda574d323e32",
+"trace":{"path":"traces/posthog/duckgres/multitenant-up/da4aafdc9e6aec9a27363af257acda574d323e32/trace-3+judge-7.json","sha256":"dc239aa664a356bb8e38a66bad882ee23d8a6a5d9273e1927bbd884c6ac19dd4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":960,"own":{"files":1,"bytes":960},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["just","kubectl","pkill"],"package":[],"mcp-server":[],"credential":["PGPASSWORD"],"network":[]},"summary":"1 file, 960 B · CLI just, kubectl +1 · 1 key","short":"960 B · 3 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs just","runs kubectl","runs pkill"]},{"marker":"credentials","because":["needs PGPASSWORD"]},{"marker":"stub","because":["own folder 960 B (1 file)","content is the just, kubectl it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

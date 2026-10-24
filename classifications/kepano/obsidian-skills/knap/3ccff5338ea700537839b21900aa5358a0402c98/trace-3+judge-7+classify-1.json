@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"kepano/obsidian-skills/knap",
+"revision":"3ccff5338ea700537839b21900aa5358a0402c98",
+"trace":{"path":"traces/kepano/obsidian-skills/knap/3ccff5338ea700537839b21900aa5358a0402c98/trace-3+judge-7.json","sha256":"539c5cef100399f4ff07fa8f8a3864f487c736d024085d6e5c1d33792fc1cf10"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3942,"own":{"files":1,"bytes":3942},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["defuddle","knap"],"package":["knap"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.8 KiB · CLI defuddle, knap · packages knap","short":"3.8 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs defuddle","runs knap"]},{"marker":"installs-packages","because":["installs knap"]},{"marker":"stub","because":["own folder 3.8 KiB (1 file)","content is the defuddle, knap it wraps"]},{"marker":"unpinned-code","because":["npx knap: skills/knap/SKILL.md:10"]}],
+"security":{"fetch-run":["npx knap @ skills/knap/SKILL.md:10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

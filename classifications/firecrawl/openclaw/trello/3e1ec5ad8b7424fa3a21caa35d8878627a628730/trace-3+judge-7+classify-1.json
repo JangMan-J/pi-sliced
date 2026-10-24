@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/trello",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/trello/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"22ab93194281c05dc29864aba18ba953bdaedbba0627401e2a2ddf91d1730813"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2687,"own":{"files":1,"bytes":2687},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq"],"package":[],"mcp-server":[],"credential":["TRELLO_API_KEY","TRELLO_TOKEN"],"network":["api.trello.com"]},"summary":"1 file, 2.6 KiB · CLI jq · 2 keys · 1 host","short":"2.6 KiB · 1 CLI · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs jq"]},{"marker":"network","because":["fetches from api.trello.com"]},{"marker":"credentials","because":["needs TRELLO_API_KEY","needs TRELLO_TOKEN"]},{"marker":"stub","because":["own folder 2.6 KiB (1 file)","content is the jq it wraps"]},{"marker":"sends-credentials","because":["TRELLO_API_KEY -> api.trello.com: skills/trello/SKILL.md:33, skills/trello/SKILL.md:39, skills/trello/SKILL.md:45","TRELLO_TOKEN -> api.trello.com: skills/trello/SKILL.md:33, skills/trello/SKILL.md:39, skills/trello/SKILL.md:45"]}],
+"security":{"secret-egress":["TRELLO_API_KEY -> api.trello.com @ skills/trello/SKILL.md:33, skills/trello/SKILL.md:39, skills/trello/SKILL.md:45 +7","TRELLO_TOKEN -> api.trello.com @ skills/trello/SKILL.md:33, skills/trello/SKILL.md:39, skills/trello/SKILL.md:45 +7"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

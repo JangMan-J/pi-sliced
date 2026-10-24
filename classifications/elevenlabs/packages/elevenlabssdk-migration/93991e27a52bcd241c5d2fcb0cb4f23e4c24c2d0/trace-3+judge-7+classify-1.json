@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elevenlabs/packages/elevenlabssdk-migration",
+"revision":"93991e27a52bcd241c5d2fcb0cb4f23e4c24c2d0",
+"trace":{"path":"traces/elevenlabs/packages/elevenlabssdk-migration/93991e27a52bcd241c5d2fcb0cb4f23e4c24c2d0/trace-3+judge-7.json","sha256":"bf91bc9acab83278e98e1c0fde916d5be110fbdfcbe3a737582bdc67d6b49315"},
+"status":"unresolvable",
+"reason":"no skill folder named elevenlabssdk-migration at 93991e27a52bcd241c5d2fcb0cb4f23e4c24c2d0"
+}

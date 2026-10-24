@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/apm/apm-review-panel",
+"revision":"2920043258932f0f67e6f01df7b9047eb42f358c",
+"trace":{"path":"traces/microsoft/apm/apm-review-panel/2920043258932f0f67e6f01df7b9047eb42f358c/trace-3+judge-7.json","sha256":"28629f876f1190c85dd21f8178d0d3e8ae01b5552e42138ec5ac6fa2f7e370bd"},
+"status":"unresolvable",
+"reason":"no skill folder named apm-review-panel at 2920043258932f0f67e6f01df7b9047eb42f358c"
+}

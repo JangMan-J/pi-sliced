@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-seo",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-seo/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"130197eed54013ffef73675a7cc1b3f0271cfedc3bf7ef3fb453934d223de0f8"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14222,"own":{"files":1,"bytes":14222},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"create-site","path":"plugins/power-pages/skills/create-site"},{"name":"deploy-site","path":"plugins/power-pages/skills/deploy-site"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

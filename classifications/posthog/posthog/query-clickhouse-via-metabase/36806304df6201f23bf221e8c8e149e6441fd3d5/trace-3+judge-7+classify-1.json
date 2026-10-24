@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/query-clickhouse-via-metabase",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/query-clickhouse-via-metabase/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"c41deb263448263671fbefaae202869fefb3f2a277ea14a96b9e9caa91a18f2a"},
+"status":"unresolvable",
+"reason":"no skill folder named query-clickhouse-via-metabase at 36806304df6201f23bf221e8c8e149e6441fd3d5"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/add-datasource",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/add-datasource/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"fb69fc4f95adab11cc9ad95d1158045d57bd5c9da191e1f190d0015c92f555e3"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3248,"own":{"files":1,"bytes":3248},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.2 KiB","short":"3.2 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"add-azuredevops","path":"plugins/code-apps/skills/add-azuredevops"},{"name":"add-excel","path":"plugins/code-apps/skills/add-excel"},{"name":"add-mcscopilot","path":"plugins/code-apps/skills/add-mcscopilot"},{"name":"add-office365","path":"plugins/code-apps/skills/add-office365"},{"name":"add-onedrive","path":"plugins/code-apps/skills/add-onedrive"},{"name":"add-teams","path":"plugins/code-apps/skills/add-teams"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

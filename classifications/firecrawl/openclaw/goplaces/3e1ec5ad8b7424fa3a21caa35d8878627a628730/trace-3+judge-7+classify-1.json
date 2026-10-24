@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/goplaces",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/goplaces/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"a662ce9f10cd35e5bdbd4ebc918e731ae3da9923eef9a08c6e33b16b82186515"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1538,"own":{"files":1,"bytes":1538},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["goplaces"],"package":["steipete/tap/goplaces"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.5 KiB · CLI goplaces · packages steipete/tap/goplaces","short":"1.5 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs goplaces"]},{"marker":"installs-packages","because":["installs steipete/tap/goplaces"]},{"marker":"stub","because":["own folder 1.5 KiB (1 file)","content is the goplaces it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

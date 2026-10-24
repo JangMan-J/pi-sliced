@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/genkit/developing-genkit-tooling",
+"revision":"3d67720dcc3c36e82d0056ec8d4d6b390fa3c61b",
+"trace":{"path":"traces/firebase/genkit/developing-genkit-tooling/3d67720dcc3c36e82d0056ec8d4d6b390fa3c61b/trace-3+judge-7.json","sha256":"4df6c8e042b4b4fe6ee4ca609b4a8878831cfa2543150d7c76e6895efd1bb0af"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3494,"own":{"files":1,"bytes":3494},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.4 KiB","short":"3.4 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

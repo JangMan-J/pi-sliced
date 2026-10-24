@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/security-ownership-map",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/security-ownership-map/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"bac1ac6423e1e5e08ac9ffa5bf95a77338b937e80f9a91dbefc1450cde48e5e0"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":69375,"own":{"files":5,"bytes":69375},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["networkx"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 68 KiB · packages networkx","short":"68 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs networkx"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

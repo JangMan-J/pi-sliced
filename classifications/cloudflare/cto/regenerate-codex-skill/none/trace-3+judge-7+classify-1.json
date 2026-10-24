@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cto/regenerate-codex-skill",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/cto/regenerate-codex-skill/none/trace-3+judge-7.json","sha256":"cd84c89d220862699e0ec90009f60f5823e9371c8a56b8a227506c4bc017844b"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/cto.git/' not found"
+}

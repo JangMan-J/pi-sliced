@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"kepano/obsidian-skills/defuddle",
+"revision":"3ccff5338ea700537839b21900aa5358a0402c98",
+"trace":{"path":"traces/kepano/obsidian-skills/defuddle/3ccff5338ea700537839b21900aa5358a0402c98/trace-3+judge-7.json","sha256":"6708914ed9eb5e062f0b2a6d5e1312e43b3b56fdf86a85e5ef7049f005aa99c0"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":831,"own":{"files":1,"bytes":831},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["defuddle"],"package":["defuddle"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 831 B · CLI defuddle · packages defuddle","short":"831 B · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs defuddle"]},{"marker":"installs-packages","because":["installs defuddle"]},{"marker":"stub","because":["own folder 831 B (1 file)","content is the defuddle it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

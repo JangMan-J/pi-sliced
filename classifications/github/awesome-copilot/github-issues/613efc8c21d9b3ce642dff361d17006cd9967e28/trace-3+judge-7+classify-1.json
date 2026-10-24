@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/github-issues",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/github-issues/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"0afcf86774919a164e6ced4423d6230e8e7d97825fc3da6e801f7c54f975cdb7"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":54153,"own":{"files":11,"bytes":54153},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Add","Implement","Page","The","addProjectV2ItemById","assignees","deleteProjectV2Item","deletedItemId","field","fieldValues","fields","gh","issue","issueFieldValues","issues","item","iterations","login","mutation","name","nodes","number","options","organization","project","projectItems","projectV2","projectV2Item","projectsV2","repository","updateProjectV2ItemFieldValue","updatedAt"],"package":[],"mcp-server":["github","no","the","use","using"],"credential":[],"network":[]},"summary":"11 files, 53 KiB · MCP github, no +3 · CLI Add, Implement +30","short":"53 KiB · 32 CLI · MCP 5"},
+"heavy":{"heavy":true,"because":["5 MCP servers","32 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Add","runs addProjectV2ItemById","runs assignees","runs deletedItemId","runs deleteProjectV2Item","runs field","runs fields","runs fieldValues","runs gh","runs Implement","runs issue","runs issueFieldValues","runs issues","runs item","runs iterations","runs login","runs mutation","runs name","runs nodes","runs number","runs options","runs organization","runs Page","runs project","runs projectItems","runs projectsV2","runs projectV2","runs projectV2Item","runs repository","runs The","runs updatedAt","runs updateProjectV2ItemFieldValue"]},{"marker":"mcp-server","because":["uses the github MCP server","uses the no MCP server","uses the the MCP server","uses the use MCP server","uses the using MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

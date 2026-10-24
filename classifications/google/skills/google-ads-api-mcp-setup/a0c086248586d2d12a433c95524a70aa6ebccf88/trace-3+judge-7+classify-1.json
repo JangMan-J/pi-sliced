@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-ads-api-mcp-setup",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-ads-api-mcp-setup/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"60e8abf3916907992086b103944b9ee4713b5c11a585bc8792eb9309f5727eb4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":24316,"own":{"files":1,"bytes":24316},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agy","gcloud","google-ads-mcp","scoop"],"package":["google-ads-mcp","pipx"],"mcp-server":["ads","the"],"credential":["GOOGLE_ADS_CLIENT_SECRET","GOOGLE_ADS_DEVELOPER_TOKEN","GOOGLE_ADS_MCP_OAUTH_CLIENT_SECRET","GOOGLE_ADS_REFRESH_TOKEN"],"network":["github.com"]},"summary":"1 file, 24 KiB · MCP ads, the · CLI agy, gcloud +2 · packages google-ads-mcp +1 · 4 keys · 1 host","short":"24 KiB · 4 CLI · 2 pkg · 4 keys · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 MCP servers","4 CLIs","4 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs agy","runs gcloud","runs google-ads-mcp","runs scoop"]},{"marker":"installs-packages","because":["installs google-ads-mcp","installs pipx"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GOOGLE_ADS_CLIENT_SECRET","needs GOOGLE_ADS_DEVELOPER_TOKEN","needs GOOGLE_ADS_MCP_OAUTH_CLIENT_SECRET","needs GOOGLE_ADS_REFRESH_TOKEN"]},{"marker":"mcp-server","because":["uses the ads MCP server","uses the the MCP server"]},{"marker":"unpinned-code","because":["pipx run google-ads-mcp: skills/ads/google-ads-api-mcp-setup/SKILL.md:267, skills/ads/google-ads-api-mcp-setup/SKILL.md:283"]}],
+"security":{"fetch-run":["pipx run google-ads-mcp @ skills/ads/google-ads-api-mcp-setup/SKILL.md:267, skills/ads/google-ads-api-mcp-setup/SKILL.md:283"]},
+"companions":{"named":[{"name":"google-ads-api-quickstart","path":"skills/ads/google-ads-api-quickstart"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

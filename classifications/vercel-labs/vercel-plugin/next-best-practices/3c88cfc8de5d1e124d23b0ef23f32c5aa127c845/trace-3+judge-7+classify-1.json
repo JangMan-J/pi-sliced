@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/next-best-practices",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/next-best-practices/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"287dfc794e1f5b3aed1b4cb7485b6018ce3dc3fae2d33075f236dada0d466962"},
+"status":"unresolvable",
+"reason":"no skill folder named next-best-practices at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

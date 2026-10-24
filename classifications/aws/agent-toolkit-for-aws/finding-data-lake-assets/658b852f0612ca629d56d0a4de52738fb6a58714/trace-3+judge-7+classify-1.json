@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/finding-data-lake-assets",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/finding-data-lake-assets/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"ce55f4a185007e53186ca7f2ad1732ed2f9786e32eb3670fc651cbb2dd6c3f34"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":21484,"own":{"files":2,"bytes":21484},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"2 files, 21 KiB · MCP aws","short":"21 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the aws MCP server"]},{"marker":"agent-override-text","because":["\"ignore previous instructions\": skills/specialized-skills/analytics-skills/finding-data-lake-assets/SKILL.md:138"]}],
+"security":{"injection":["ignore previous instructions @ skills/specialized-skills/analytics-skills/finding-data-lake-assets/SKILL.md:138"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

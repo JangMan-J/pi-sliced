@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openshift/hypershift/code-formatting",
+"source":"openshift/hypershift",
+"revision":"ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named code-formatting at ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

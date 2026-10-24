@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"addyosmani/agent-skills/idea-refine",
+"revision":"aeac41d4d005999432bb7312f7ff06383a91d59d",
+"trace":{"path":"traces/addyosmani/agent-skills/idea-refine/aeac41d4d005999432bb7312f7ff06383a91d59d/trace-3+judge-7.json","sha256":"68f45f9b20b6a370f1d5ce11013f8dd699f881b81a12b6087badb17ac74ce6bc"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":41021,"own":{"files":5,"bytes":41021},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 40 KiB","short":"40 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"interview-me","path":"skills/interview-me"},{"name":"spec-driven-development","path":"skills/spec-driven-development"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

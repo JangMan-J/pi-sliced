@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/sal/sfdc-forecasting",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/sal/sfdc-forecasting/none/trace-3+judge-7.json","sha256":"5a43802e793f34ed79176b92a4ba448bca2914f89431adab970949f4184258af"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/sal.git/' not found"
+}

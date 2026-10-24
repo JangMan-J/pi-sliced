@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/deploy-to-vercel",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/deploy-to-vercel/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"555e99fc074a02c4f50bb5a9aab3811d1afba82ec97ba6376c6392b8fde1b07b"},
+"status":"unresolvable",
+"reason":"no skill folder named deploy-to-vercel at 0722921d5542fc593105c27bd52630babd8b8c2a"
+}

@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"github/awesome-copilot/transloadit-media-processing",
+"source":"github/awesome-copilot",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"skillPath":"skills/transloadit-media-processing",
+"status":"resolved",
+"totals":{"files":1,"bytes":5122},
+"files":[
+{"path":"skills/transloadit-media-processing/SKILL.md","size":5122,"blob":"4fd69dde62efe2778492d7af61b84c81c89f1ff8","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@transloadit/node","at":[[0,60]]},
+{"kind":"mcp-server","name":"transloadit","at":[[0,33]]}
+],
+"regions":[
+{"kind":"own","path":"skills/transloadit-media-processing","files":1,"bytes":5122}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @transloadit/node","at":[[0,60]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

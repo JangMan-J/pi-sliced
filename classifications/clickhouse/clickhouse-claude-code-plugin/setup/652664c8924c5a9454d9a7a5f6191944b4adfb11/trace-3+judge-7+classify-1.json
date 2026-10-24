@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clickhouse/clickhouse-claude-code-plugin/setup",
+"revision":"652664c8924c5a9454d9a7a5f6191944b4adfb11",
+"trace":{"path":"traces/clickhouse/clickhouse-claude-code-plugin/setup/652664c8924c5a9454d9a7a5f6191944b4adfb11/trace-3+judge-7.json","sha256":"f81d66847385aeef9f9bdf988badd3660f2c0abf59b55f98ace18f7485755efe"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3498,"own":{"files":1,"bytes":3498},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["clickhouse","remote","the"],"credential":[],"network":["clickhouse.com"]},"summary":"1 file, 3.4 KiB · MCP clickhouse, remote +1 · 1 host","short":"3.4 KiB · 1 host · MCP 3"},
+"heavy":{"heavy":true,"because":["3 MCP servers"]},
+"markers":[{"marker":"network","because":["fetches from clickhouse.com"]},{"marker":"mcp-server","because":["uses the clickhouse MCP server","uses the remote MCP server","uses the the MCP server"]},{"marker":"stub","because":["own folder 3.4 KiB (1 file)","content is the clickhouse, remote it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"clickhouse-best-practices","path":"skills/clickhouse-best-practices"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

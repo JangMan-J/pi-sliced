@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/win-dev-skills/winui-code-review",
+"revision":"5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e",
+"trace":{"path":"traces/microsoft/win-dev-skills/winui-code-review/5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e/trace-3+judge-7.json","sha256":"6481563c17396acd7d843f92b93a3e3f1fd63e8dd1e91ca2a3d1743770371eb5"},
+"status":"unresolvable",
+"reason":"no skill folder named winui-code-review at 5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e"
+}

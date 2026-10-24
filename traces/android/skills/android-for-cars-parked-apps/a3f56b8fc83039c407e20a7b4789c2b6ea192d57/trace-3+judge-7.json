@@ -1,0 +1,25 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/android-for-cars-parked-apps",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"cars/android-for-cars-parked-apps",
+"status":"resolved",
+"totals":{"files":2,"bytes":73283},
+"files":[
+{"path":"cars/android-for-cars-parked-apps/SKILL.md","size":17862,"blob":"51e39e5784b1baad0d1f0256546a093bf7f9210a","how":"root"},
+{"path":"cars/android-for-cars-parked-apps/references/android/docs/quality-guidelines/car-app-quality/index.md","size":55421,"blob":"bda3fedc4526fbbd6a03d66d4cf0d87725e7ce63","how":"link","from":0,"line":48}
+],
+"outside":[
+{"kind":"network","name":"developer.android.com","at":[[1,129],[1,169]]}
+],
+"regions":[
+{"kind":"own","path":"cars/android-for-cars-parked-apps","files":2,"bytes":73283}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

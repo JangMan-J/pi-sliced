@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/warden/wrdn-skill-writer",
+"revision":"d437fed09d1e9bed44803dd86e994a8c1c93e4f3",
+"trace":{"path":"traces/getsentry/warden/wrdn-skill-writer/d437fed09d1e9bed44803dd86e994a8c1c93e4f3/trace-3+judge-7.json","sha256":"3be8e04a3d20129bacda5fbc4a76307be79a067c8214e185163c86800f902a12"},
+"status":"unresolvable",
+"reason":"no skill folder named wrdn-skill-writer at d437fed09d1e9bed44803dd86e994a8c1c93e4f3"
+}

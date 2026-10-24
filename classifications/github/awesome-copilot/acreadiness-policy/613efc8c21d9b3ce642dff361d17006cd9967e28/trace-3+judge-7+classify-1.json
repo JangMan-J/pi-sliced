@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/acreadiness-policy",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/acreadiness-policy/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"7ddb409cc7fc9fd60c4e1be9618117845fab1fa03a25737b5156a4259eacfeb5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3788,"own":{"files":1,"bytes":3788},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agentrc","github:microsoft/agentrc"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.7 KiB · CLI agentrc, github:microsoft/agentrc","short":"3.7 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agentrc","runs github:microsoft/agentrc"]},{"marker":"stub","because":["own folder 3.7 KiB (1 file)","content is the agentrc, github:microsoft/agentrc it wraps"]},{"marker":"unpinned-code","because":["npx github:microsoft/agentrc: skills/acreadiness-policy/SKILL.md:76"]}],
+"security":{"fetch-run":["npx github:microsoft/agentrc @ skills/acreadiness-policy/SKILL.md:76"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

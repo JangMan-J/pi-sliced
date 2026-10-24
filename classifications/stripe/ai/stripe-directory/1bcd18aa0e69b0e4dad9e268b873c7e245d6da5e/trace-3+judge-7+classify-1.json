@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"stripe/ai/stripe-directory",
+"revision":"1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e",
+"trace":{"path":"traces/stripe/ai/stripe-directory/1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e/trace-3+judge-7.json","sha256":"b440e8517df4171e352f9e86a351c55f622920371653611de8f7c34972903962"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7856,"own":{"files":1,"bytes":7856},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["stripe"],"package":["stripe/stripe-cli/stripe"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.7 KiB · CLI stripe · packages stripe/stripe-cli/stripe","short":"7.7 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs stripe"]},{"marker":"installs-packages","because":["installs stripe/stripe-cli/stripe"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

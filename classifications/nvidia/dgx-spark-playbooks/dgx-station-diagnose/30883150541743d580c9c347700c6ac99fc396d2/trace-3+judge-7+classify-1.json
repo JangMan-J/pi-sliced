@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/dgx-spark-playbooks/dgx-station-diagnose",
+"revision":"30883150541743d580c9c347700c6ac99fc396d2",
+"trace":{"path":"traces/nvidia/dgx-spark-playbooks/dgx-station-diagnose/30883150541743d580c9c347700c6ac99fc396d2/trace-3+judge-7.json","sha256":"8a4bbf00507d0d2b2f572e44dfae58b2de68af1ddcca3f4f766f37d5454f0925"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":5448,"own":{"files":4,"bytes":5448},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["diagnose"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 5.3 KiB · CLI diagnose","short":"5.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs diagnose"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

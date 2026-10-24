@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-lambda-microvms",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-lambda-microvms/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"90cbee7112a5c41f833ea2131454f8789a32b94d08530e989fec1770742d2ce4"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":64384,"own":{"files":7,"bytes":64384},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","docker","websocat"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"7 files, 63 KiB · MCP aws · CLI aws, docker +1","short":"63 KiB · 3 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs docker","runs websocat"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

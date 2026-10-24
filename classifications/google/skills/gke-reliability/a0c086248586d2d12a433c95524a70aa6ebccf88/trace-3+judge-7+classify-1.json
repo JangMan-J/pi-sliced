@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/gke-reliability",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/gke-reliability/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"7620544a09857945d3f67a2e9c539831274236bb1826952aa7ca393d31aecba7"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":32649,"own":{"files":2,"bytes":9516},"otherSkills":{"count":1,"files":6,"bytes":23133},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 32 KiB · +1 other skill · CLI gcloud","short":"32 KiB · +1 skill · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"chain-loads","because":["pulls in 6 files of the skill at skills/cloud/gke-manifest-generation"]}],
+"security":{},
+"companions":{"named":[{"name":"gke-upgrades","path":"skills/cloud/gke-upgrades"}],"pulled":[{"path":"skills/cloud/gke-manifest-generation","files":6,"bytes":23133}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

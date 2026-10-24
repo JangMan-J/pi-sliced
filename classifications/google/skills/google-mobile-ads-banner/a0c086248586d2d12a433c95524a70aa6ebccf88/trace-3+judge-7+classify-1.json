@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/google-mobile-ads-banner",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/google-mobile-ads-banner/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"27853c4533f80e677a08e4f86b044dfba8aab69dece9e6e3807528eaa38ca0d4"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9835,"own":{"files":4,"bytes":9835},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet","gradle"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 9.6 KiB · CLI dotnet, gradle","short":"9.6 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet","runs gradle"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

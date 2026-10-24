@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/dagster-claude-plugins/integrations-index",
+"revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94",
+"trace":{"path":"traces/dagster-io/dagster-claude-plugins/integrations-index/ed0248b1b6b70710a8785e3ff4880b44496c0f94/trace-3+judge-7.json","sha256":"3a6c110588d46d2c291e6156f8a5e1a3011b4f06ef9fdc838e75ccf0ab204cad"},
+"status":"unresolvable",
+"reason":"no skill folder named integrations-index at ed0248b1b6b70710a8785e3ff4880b44496c0f94"
+}

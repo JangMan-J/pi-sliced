@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"prisma/cursor-plugin/prisma-upgrade-v7-accelerate-users",
+"revision":"17ded397536e131087cdfe1f8d723b3c91da31ce",
+"trace":{"path":"traces/prisma/cursor-plugin/prisma-upgrade-v7-accelerate-users/17ded397536e131087cdfe1f8d723b3c91da31ce/trace-3+judge-7.json","sha256":"10168495c27a9947103046dafacc9f2548d922dcbb02023b12520acd2d8da15b"},
+"status":"unresolvable",
+"reason":"no skill folder named prisma-upgrade-v7-accelerate-users at 17ded397536e131087cdfe1f8d723b3c91da31ce"
+}

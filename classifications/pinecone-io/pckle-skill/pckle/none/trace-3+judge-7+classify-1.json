@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"pinecone-io/pckle-skill/pckle",
+"revision":"none",
+"trace":{"path":"traces/pinecone-io/pckle-skill/pckle/none/trace-3+judge-7.json","sha256":"e4e75a4dbecb2e7cfa830b9eb11f32c924d23ba366760edb173daee029bdf2dd"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/pinecone-io/pckle-skill.git/' not found"
+}

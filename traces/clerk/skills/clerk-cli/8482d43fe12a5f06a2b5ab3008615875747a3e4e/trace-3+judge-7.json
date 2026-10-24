@@ -1,0 +1,44 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"clerk/skills/clerk-cli",
+"source":"clerk/skills",
+"revision":"8482d43fe12a5f06a2b5ab3008615875747a3e4e",
+"skillPath":"skills/clerk-cli",
+"status":"resolved",
+"totals":{"files":5,"bytes":103855},
+"files":[
+{"path":"skills/clerk-cli/SKILL.md","size":37109,"blob":"ee0fde616b76d20cf996db287beb034e03c2a731","how":"root"},
+{"path":"skills/clerk-cli/references/agent-mode.md","size":31079,"blob":"f8221e12d06736b3846856d065293853eb6a1f1d","how":"link","from":0,"line":267},
+{"path":"skills/clerk-cli/references/auth.md","size":11291,"blob":"fe917c93fba04ed221d985bbe0b15accbc25cd6f","how":"link","from":0,"line":112},
+{"path":"skills/clerk-cli/references/recipes.md","size":11854,"blob":"f0a0fa388ef1194f0fe074ba2c3fdf79959359e8","how":"link","from":0,"line":185},
+{"path":"skills/clerk-setup/SKILL.md","size":12522,"blob":"a3fdb4234778dc2e0a1720c4f268bc16006fa7a9","how":"link","from":0,"line":20}
+],
+"outside":[
+{"kind":"cli","name":"clerk","at":[[0,22],[0,73],[0,82],[0,83],[0,84],[0,85],[0,96],[0,97],[0,100],[0,102],[0,122],[0,131],[0,132],[0,133],[0,144],[0,145],[0,146],[0,149],[0,150],[0,151],[0,154],[0,155],[0,158],[0,159],[0,162],[0,165],[0,168],[0,172],[0,193],[0,194],[0,195],[0,238],[0,248],[0,267],[0,268],[1,84],[1,85],[1,86],[1,87],[1,88],[1,91],[1,164],[1,178],[1,180],[1,187],[1,198],[1,202],[1,205],[1,208],[1,213],[1,215],[1,248],[1,249],[1,250],[1,259],[1,260],[1,278],[1,286],[2,29],[2,33],[2,35],[2,39],[2,89],[2,111],[2,114],[2,117],[2,138],[3,8],[3,9],[3,10],[3,20],[3,21],[3,24],[3,27],[3,30],[3,33],[3,34],[3,37],[3,45],[3,53],[3,56],[3,57],[3,60],[3,61],[3,64],[3,65],[3,77],[3,88],[3,103],[3,104],[3,107],[3,110],[3,113],[3,116],[3,117],[3,118],[3,119],[3,122],[3,129],[3,132],[3,133],[3,142],[3,145],[3,154],[3,157],[3,160],[3,163],[3,169],[3,175],[3,176],[3,177],[3,183],[3,184],[3,185],[3,199],[3,207],[3,210],[3,221],[3,222],[3,225],[3,228],[3,231],[3,232],[3,235],[3,236],[3,243],[3,246],[3,249],[3,258],[3,259],[3,262],[3,273],[3,296],[3,299],[3,306],[3,316],[3,317],[3,325],[3,326],[3,335],[3,336],[3,342],[3,343],[3,344],[4,14],[4,60],[4,66],[4,72],[4,78],[4,81],[4,88],[4,98],[4,107],[4,165],[4,170],[4,203],[4,205],[4,211]]},
+{"kind":"cli","name":"jq","at":[[0,198],[0,199],[0,200],[0,201],[0,202],[3,275],[3,276],[3,277],[3,278],[3,296],[3,299],[3,307],[3,308],[3,317],[3,325]]},
+{"kind":"credential","name":"CLERK_PLATFORM_API_KEY","at":[[2,160]]},
+{"kind":"credential","name":"CLERK_SECRET_KEY","at":[[2,159]]},
+{"kind":"network","name":"clerk.com","at":[[4,16]]},
+{"kind":"package","name":"clerk","at":[[0,89]]}
+],
+"regions":[
+{"kind":"own","path":"skills/clerk-cli","files":4,"bytes":91333},
+{"kind":"skill","path":"skills/clerk-setup","files":1,"bytes":12522}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx clerk@latest","at":[[0,22],[0,82]]},
+{"kind":"fetch-run","detail":"npx clerk@latest","at":[[0,83],[4,14],[4,60],[4,66],[4,72],[4,78],[4,81],[4,88],[4,98],[4,107],[4,165],[4,170],[4,203],[4,205],[4,211]]},
+{"kind":"fetch-run","detail":"pnpm dlx clerk@latest","at":[[0,84]]},
+{"kind":"fetch-run","detail":"yarn dlx clerk@latest","at":[[0,85]]}
+],
+"namedSkills":[
+{"name":"clerk","path":"skills/clerk","at":[[0,4],[0,18],[0,69],[0,76],[0,89]]},
+{"name":"clerk-billing","path":"skills/clerk-billing","at":[[0,241]]},
+{"name":"clerk-orgs","path":"skills/clerk-orgs","at":[[0,240],[3,136]]},
+{"name":"clerk-setup","path":"skills/clerk-setup","at":[[0,20],[0,93],[0,258],[4,91]]}
+],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":"MIT"}
+}

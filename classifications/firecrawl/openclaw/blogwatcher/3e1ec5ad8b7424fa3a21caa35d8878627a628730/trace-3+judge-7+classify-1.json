@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/blogwatcher",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/blogwatcher/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"87ab49c54264d3a44a2dd8a12c546042e8a9c4ed4ee2ebb49a3daa7a5c5141c9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1415,"own":{"files":1,"bytes":1415},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["blogwatcher"],"package":["github.com/Hyaxia/blogwatcher/cmd/blogwatcher"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.4 KiB · CLI blogwatcher · packages github.com/Hyaxia/blogwatcher/cmd/blogwatcher","short":"1.4 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs blogwatcher"]},{"marker":"installs-packages","because":["installs github.com/Hyaxia/blogwatcher/cmd/blogwatcher"]},{"marker":"stub","because":["own folder 1.4 KiB (1 file)","content is the blogwatcher it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

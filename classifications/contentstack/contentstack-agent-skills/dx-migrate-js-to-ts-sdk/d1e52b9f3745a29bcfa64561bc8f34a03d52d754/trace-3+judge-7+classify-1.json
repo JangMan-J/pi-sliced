@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"contentstack/contentstack-agent-skills/dx-migrate-js-to-ts-sdk",
+"revision":"d1e52b9f3745a29bcfa64561bc8f34a03d52d754",
+"trace":{"path":"traces/contentstack/contentstack-agent-skills/dx-migrate-js-to-ts-sdk/d1e52b9f3745a29bcfa64561bc8f34a03d52d754/trace-3+judge-7.json","sha256":"3412b0583b73bdafbdf53c859985141ca333401f0a2c2f6f1ff0766e3a82dbae"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10199,"own":{"files":1,"bytes":10199},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 10.0 KiB","short":"10.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

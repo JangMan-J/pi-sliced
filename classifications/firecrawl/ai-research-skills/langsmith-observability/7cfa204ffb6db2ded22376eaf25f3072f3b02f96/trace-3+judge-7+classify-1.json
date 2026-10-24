@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/langsmith-observability",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/langsmith-observability/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"ec16ac2bd8b64ca7cb98913c308613165f4026c7f61cd2556d8092b7648ee124"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":32682,"own":{"files":3,"bytes":32682},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["langsmith"],"mcp-server":[],"credential":["LANGSMITH_API_KEY"],"network":[]},"summary":"3 files, 32 KiB · packages langsmith · 1 key","short":"32 KiB · 1 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["1 package to install","1 credential"]},
+"markers":[{"marker":"installs-packages","because":["installs langsmith"]},{"marker":"credentials","because":["needs LANGSMITH_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

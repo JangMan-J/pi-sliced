@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/agent-skills/azure-verified-modules",
+"revision":"f706481af9b8fedb66de909f6243ad29601afa0c",
+"trace":{"path":"traces/hashicorp/agent-skills/azure-verified-modules/f706481af9b8fedb66de909f6243ad29601afa0c/trace-3+judge-7.json","sha256":"3a3d4cf843ae9d7984616dfd2be4277dc24ff8a1a80db1dc71770f85b58e0e4b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16300,"own":{"files":1,"bytes":16300},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":["www.terraform.io"]},"summary":"1 file, 16 KiB · 1 host","short":"16 KiB · 1 host"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"network","because":["fetches from www.terraform.io"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

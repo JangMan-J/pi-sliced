@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/vscode/get-search-view-results",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"trace":{"path":"traces/microsoft/vscode/get-search-view-results/1184ad4d45794110deb6b897ea83b15aac44ed89/trace-3+judge-7.json","sha256":"ffae40838703b6dd097a856cce0cec3654c1170aba12d5499727343cb3006a93"},
+"status":"unresolvable",
+"reason":"no skill folder named get-search-view-results at 1184ad4d45794110deb6b897ea83b15aac44ed89"
+}

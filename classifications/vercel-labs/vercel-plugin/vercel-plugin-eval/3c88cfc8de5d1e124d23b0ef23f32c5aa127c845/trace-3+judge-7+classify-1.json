@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/vercel-plugin-eval",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/vercel-plugin-eval/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"3df45b412221581b43b981d4ea6eeb94292e8ae8aa2e773d34f4822a1aa4a767"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4977,"own":{"files":1,"bytes":4977},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["add-plugin","claude","wezterm"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.9 KiB · CLI add-plugin, claude +1","short":"4.9 KiB · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs add-plugin","runs claude","runs wezterm"]},{"marker":"unpinned-code","because":["npx add-plugin: .claude/skills/vercel-plugin-eval/SKILL.md:15, .claude/skills/vercel-plugin-eval/SKILL.md:33"]}],
+"security":{"fetch-run":["npx add-plugin @ .claude/skills/vercel-plugin-eval/SKILL.md:15, .claude/skills/vercel-plugin-eval/SKILL.md:33"]},
+"companions":{"named":[{"name":"marketplace","path":"skills/marketplace"},{"name":"vercel-firewall","path":"skills/vercel-firewall"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

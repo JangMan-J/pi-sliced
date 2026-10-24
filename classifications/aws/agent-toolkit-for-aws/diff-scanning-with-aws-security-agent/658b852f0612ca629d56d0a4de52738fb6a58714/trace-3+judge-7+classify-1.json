@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/diff-scanning-with-aws-security-agent",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/diff-scanning-with-aws-security-agent/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"0b59644708680ab0b3992eff17f91b7fe5616607f8ef9199c1abc4c1efb49113"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4101,"own":{"files":1,"bytes":4101},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","openssl"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.0 KiB · CLI aws, openssl","short":"4.0 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs openssl"]}],
+"security":{},
+"companions":{"named":[{"name":"setup-security-agent","path":"plugins/aws-agents-for-devsecops/skills/setup-security-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

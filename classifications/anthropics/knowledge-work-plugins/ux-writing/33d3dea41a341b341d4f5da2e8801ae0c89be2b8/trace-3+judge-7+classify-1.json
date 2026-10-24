@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/ux-writing",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/ux-writing/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"cb91db2e74c7953531322f41d565369fa10d60c106c2ef651a619c334c73233d"},
+"status":"unresolvable",
+"reason":"no skill folder named ux-writing at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

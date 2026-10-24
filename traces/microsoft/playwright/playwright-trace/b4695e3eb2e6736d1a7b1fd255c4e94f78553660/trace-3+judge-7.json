@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/playwright/playwright-trace",
+"source":"microsoft/playwright",
+"revision":"b4695e3eb2e6736d1a7b1fd255c4e94f78553660",
+"skillPath":"packages/playwright-core/src/tools/skills/playwright-trace",
+"status":"resolved",
+"totals":{"files":1,"bytes":4862},
+"files":[
+{"path":"packages/playwright-core/src/tools/skills/playwright-trace/SKILL.md","size":4862,"blob":"95d6d47d1efad81e5936b4e04bfb77131f3c1573","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"playwright","at":[[0,28],[0,35],[0,42],[0,45],[0,48],[0,55],[0,64],[0,67],[0,70],[0,73],[0,80],[0,87],[0,90],[0,93],[0,96],[0,99],[0,106],[0,115],[0,118],[0,121],[0,122],[0,125],[0,128],[0,131],[0,132],[0,141],[0,144],[0,145],[0,152],[0,155],[0,158],[0,161],[0,164],[0,167],[0,170],[0,173]]}
+],
+"regions":[
+{"kind":"own","path":"packages/playwright-core/src/tools/skills/playwright-trace","files":1,"bytes":4862}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx playwright","at":[[0,28],[0,35],[0,42],[0,45],[0,48],[0,55],[0,64],[0,67],[0,70],[0,73],[0,80],[0,87],[0,90],[0,93],[0,96],[0,99],[0,106],[0,115],[0,118],[0,121],[0,122],[0,125],[0,128],[0,131],[0,132],[0,141],[0,144],[0,145],[0,152],[0,155],[0,158],[0,161],[0,164],[0,167],[0,170],[0,173]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"Apache-2.0","frontmatter":null}
+}

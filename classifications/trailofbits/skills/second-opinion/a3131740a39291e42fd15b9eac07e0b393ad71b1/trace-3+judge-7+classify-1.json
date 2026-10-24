@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/second-opinion",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/second-opinion/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"e10640ef6d05b4ee3227db536af7892dfaca229610def9ae8ed0002b3b62f7ca"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":19161,"own":{"files":6,"bytes":19161},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agy","codex","gemini"],"package":["@google/gemini-cli","@openai/codex"],"mcp-server":["no"],"credential":[],"network":[]},"summary":"6 files, 19 KiB · MCP no · CLI agy, codex +1 · packages @google/gemini-cli +1","short":"19 KiB · 3 CLI · 2 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agy","runs codex","runs gemini"]},{"marker":"installs-packages","because":["installs @google/gemini-cli","installs @openai/codex"]},{"marker":"mcp-server","because":["uses the no MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

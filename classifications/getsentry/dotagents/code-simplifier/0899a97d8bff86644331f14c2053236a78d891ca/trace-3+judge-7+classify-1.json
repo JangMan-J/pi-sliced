@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/dotagents/code-simplifier",
+"revision":"0899a97d8bff86644331f14c2053236a78d891ca",
+"trace":{"path":"traces/getsentry/dotagents/code-simplifier/0899a97d8bff86644331f14c2053236a78d891ca/trace-3+judge-7.json","sha256":"0c5d1b574e13c6a2cce52edbe67112bd4f9477f41b2b259e3f8b0c5b66e1b5f6"},
+"status":"unresolvable",
+"reason":"no skill folder named code-simplifier at 0899a97d8bff86644331f14c2053236a78d891ca"
+}

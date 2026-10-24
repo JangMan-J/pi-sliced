@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/speak-summary",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/speak-summary/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"fd083a149364299790efe60b5c3b7f2cfa26ad409db75d24cec708444a0b5bde"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":12351,"own":{"files":2,"bytes":12351},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Install","No","No_speakable_text_found_in_input.","afconvert","as","c","chunks","chunks.append","cur","e.g.","ffmpeg","ffplay","generate","import","len","not","o.setparams","o.writeframes","or","p","params","pocket-tts","r","raise","sent","str","w.getnframes","w.readframes","with","work","work.glob"],"package":["ffmpeg","pip","pocket-tts","python","python3.12-venv"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 12 KiB · CLI Install, No +29 · packages ffmpeg +4","short":"12 KiB · 31 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","31 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs afconvert","runs as","runs c","runs chunks","runs chunks.append","runs cur","runs e.g.","runs ffmpeg","runs ffplay","runs generate","runs import","runs Install","runs len","runs No","runs No_speakable_text_found_in_input.","runs not","runs o.setparams","runs o.writeframes","runs or","runs p","runs params","runs pocket-tts","runs r","runs raise","runs sent","runs str","runs w.getnframes","runs w.readframes","runs with","runs work","runs work.glob"]},{"marker":"installs-packages","because":["installs ffmpeg","installs pip","installs pocket-tts","installs python","installs python3.12-venv"]}],
+"security":{},
+"companions":{"named":[{"name":"daily-prep","path":"skills/daily-prep"},{"name":"meeting-minutes","path":"skills/meeting-minutes"},{"name":"roundup","path":"skills/roundup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

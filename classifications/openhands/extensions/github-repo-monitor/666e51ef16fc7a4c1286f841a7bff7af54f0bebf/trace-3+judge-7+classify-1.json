@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openhands/extensions/github-repo-monitor",
+"revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf",
+"trace":{"path":"traces/openhands/extensions/github-repo-monitor/666e51ef16fc7a4c1286f841a7bff7af54f0bebf/trace-3+judge-7.json","sha256":"3eb3f5f125e3ecfdd883dc9e57033f21ee16759a6eed47926207677258111639"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":78186,"own":{"files":6,"bytes":63095},"otherSkills":{"count":1,"files":1,"bytes":15091},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ConvertFrom-Json","Invoke-RestMethod","Join-Path","Out-Null","curl.exe","import","print","sys.stdin","tar.exe"],"package":["github_client","openhands"],"mcp-server":[],"credential":["AUTOMATION_CALLBACK_API_KEY","AUTOMATION_KV_TOKEN","GITHUB_PERSONAL_ACCESS_TOKEN","OPENHANDS_AUTOMATION_API_KEY","SESSION_API_KEY"],"network":["api.github.com","github.com"]},"summary":"7 files, 76 KiB · +1 other skill · CLI ConvertFrom-Json, Invoke-RestMethod +7 · packages github_client +1 · 5 keys · 2 hosts","short":"76 KiB · +1 skill · 9 CLI · 2 pkg · 5 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","9 CLIs","5 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ConvertFrom-Json","runs curl.exe","runs import","runs Invoke-RestMethod","runs Join-Path","runs Out-Null","runs print","runs sys.stdin","runs tar.exe"]},{"marker":"installs-packages","because":["installs github_client","installs openhands"]},{"marker":"network","because":["fetches from api.github.com","fetches from github.com"]},{"marker":"credentials","because":["needs AUTOMATION_CALLBACK_API_KEY","needs AUTOMATION_KV_TOKEN","needs GITHUB_PERSONAL_ACCESS_TOKEN","needs OPENHANDS_AUTOMATION_API_KEY","needs SESSION_API_KEY"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/github"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/github-repo-monitor/SKILL.md:58, skills/github-repo-monitor/SKILL.md:99, skills/github-repo-monitor/SKILL.md:219"]},{"marker":"sends-credentials","because":["GITHUB_PERSONAL_ACCESS_TOKEN -> api.github.com: skills/github-repo-monitor/SKILL.md:58, skills/github-repo-monitor/SKILL.md:99, skills/github-repo-monitor/references/github-api.md:39"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/github-repo-monitor/SKILL.md:58, skills/github-repo-monitor/SKILL.md:99, skills/github-repo-monitor/SKILL.md:219 +1"],"secret-egress":["GITHUB_PERSONAL_ACCESS_TOKEN -> api.github.com @ skills/github-repo-monitor/SKILL.md:58, skills/github-repo-monitor/SKILL.md:99, skills/github-repo-monitor/references/github-api.md:39 +1"]},
+"companions":{"named":[],"pulled":[{"path":"skills/github","files":1,"bytes":15091}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

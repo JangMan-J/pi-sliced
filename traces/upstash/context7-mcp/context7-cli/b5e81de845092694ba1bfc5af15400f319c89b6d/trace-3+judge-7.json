@@ -1,0 +1,35 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"upstash/context7-mcp/context7-cli",
+"source":"upstash/context7-mcp",
+"revision":"b5e81de845092694ba1bfc5af15400f319c89b6d",
+"skillPath":"skills/context7-cli",
+"status":"resolved",
+"totals":{"files":3,"bytes":10002},
+"files":[
+{"path":"skills/context7-cli/SKILL.md","size":2008,"blob":"d8209ad40ca98a71ba06e306babed1c6a159375f","how":"root"},
+{"path":"skills/context7-cli/references/docs.md","size":5896,"blob":"62a4251ee8b4c60c7cd91ff7438ceeaa751a8e9b","how":"link","from":0,"line":24},
+{"path":"skills/context7-cli/references/setup.md","size":2098,"blob":"25d3b487c3a807e402bdc0b34c5a2eedbe6822cc","how":"link","from":0,"line":25}
+],
+"outside":[
+{"kind":"cli","name":"ctx7","at":[[0,19],[0,31],[0,32],[0,35],[0,36],[0,37],[0,43],[0,44],[0,45],[0,46],[1,12],[1,13],[1,14],[1,52],[1,55],[1,62],[1,72],[1,73],[1,74],[1,97],[1,100],[1,103],[1,104],[1,116],[2,10],[2,11],[2,12],[2,15],[2,16],[2,17],[2,20],[2,21],[2,22],[2,24],[2,25],[2,30],[2,31]]},
+{"kind":"cli","name":"jq","at":[[1,62]]},
+{"kind":"credential","name":"CONTEXT7_API_KEY","at":[[0,54],[1,113]]},
+{"kind":"mcp-server","name":"context7","at":[[2,6]]},
+{"kind":"package","name":"ctx7","at":[[0,13]]}
+],
+"regions":[
+{"kind":"own","path":"skills/context7-cli","files":3,"bytes":10002}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,13]]},
+{"kind":"fetch-run","detail":"npx ctx7@latest","at":[[0,19]]}
+],
+"namedSkills":[
+{"name":"find-docs","path":"skills/find-docs","at":[[2,7],[2,42]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

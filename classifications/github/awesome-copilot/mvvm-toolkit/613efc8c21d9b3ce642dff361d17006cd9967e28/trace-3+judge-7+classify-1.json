@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/mvvm-toolkit",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/mvvm-toolkit/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"19eb48543a32367d724c1079823e0d7a796a749e673700eff6a1d88237453f28"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":51619,"own":{"files":6,"bytes":51619},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 50 KiB","short":"50 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"mvvm-toolkit-di","path":"skills/mvvm-toolkit-di"},{"name":"mvvm-toolkit-messenger","path":"skills/mvvm-toolkit-messenger"},{"name":"winui3-migration-guide","path":"skills/winui3-migration-guide"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

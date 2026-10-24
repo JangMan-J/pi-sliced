@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/hashicorp-agent-skills/doormat",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/hashicorp-agent-skills/doormat/none/trace-3+judge-7.json","sha256":"b7f03bcd02ac75c087d0f8e8eeb2e346aae02017dc417bece1bf601a3f331262"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/hashicorp-agent-skills.git/' not found"
+}

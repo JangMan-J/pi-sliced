@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"convex-dev/convex/account",
+"revision":"f424d249a83bf8ed0112f4affa16501f1a737022",
+"trace":{"path":"traces/convex-dev/convex/account/f424d249a83bf8ed0112f4affa16501f1a737022/trace-3+judge-7.json","sha256":"cae3e123d2fa09f2832e6a22a57f92335c35722e987f851bbe4ada340513b932"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":2772,"own":{"files":1,"bytes":560},"otherSkills":{"count":1,"files":1,"bytes":2212},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["delete","java","sign"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 2.7 KiB · +1 other skill · CLI delete, java +1","short":"2.7 KiB · +1 skill · 3 CLI"},
+"heavy":{"heavy":true,"because":["3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs delete","runs java","runs sign"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at .claude/skills/account"]},{"marker":"stub","because":["own folder 560 B (1 file)","2.2 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":".claude/skills/account","files":1,"bytes":2212}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-skills/skill-creator",
+"revision":"none",
+"trace":{"path":"traces/anthropics/claude-skills/skill-creator/none/trace-3+judge-7.json","sha256":"f8f046c8dcd28bb95cb0de675564b0ac0ffc434b96baa03837bafb52ff495b2c"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/anthropics/claude-skills.git/' not found"
+}

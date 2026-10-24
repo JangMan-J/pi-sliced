@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"exploreomni/omni-cursor-plugin/omni-model-builder",
+"revision":"842e457f62e607b36d0530de125c609a308ad529",
+"trace":{"path":"traces/exploreomni/omni-cursor-plugin/omni-model-builder/842e457f62e607b36d0530de125c609a308ad529/trace-3+judge-7.json","sha256":"663b08f0a05a1b024de1b06936db848f8851c5c47c76e8383ba79b8e87e91742"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":18589,"own":{"files":2,"bytes":18589},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["OMNI_API_KEY"],"network":[]},"summary":"2 files, 18 KiB · 1 key","short":"18 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs OMNI_API_KEY"]}],
+"security":{},
+"companions":{"named":[{"name":"omni-model-explorer","path":"skills/omni-model-explorer"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

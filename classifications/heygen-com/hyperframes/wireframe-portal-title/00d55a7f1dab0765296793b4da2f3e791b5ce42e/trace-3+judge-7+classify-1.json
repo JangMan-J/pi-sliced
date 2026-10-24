@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"heygen-com/hyperframes/wireframe-portal-title",
+"revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+"trace":{"path":"traces/heygen-com/hyperframes/wireframe-portal-title/00d55a7f1dab0765296793b4da2f3e791b5ce42e/trace-3+judge-7.json","sha256":"4ea3fbdd5e7f0390d46b4b4b0732ce97b91a0dace71ec821332e81d453f8ab10"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":273086,"own":{"files":6,"bytes":273086},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":3,"images":0,"media":0,"other":0,"bytes":199792},"outside":{"cli":["hyperframes"],"package":[],"mcp-server":[],"credential":[],"network":["cdn.jsdelivr.net"]},"summary":"6 files, 267 KiB · 3 fonts · CLI hyperframes · 1 host","short":"267 KiB · 1 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs hyperframes"]},{"marker":"network","because":["fetches from cdn.jsdelivr.net"]},{"marker":"unpinned-code","because":["npx hyperframes: registry/blocks/wireframe-portal-title/SKILL.md:22"]}],
+"security":{"fetch-run":["npx hyperframes @ registry/blocks/wireframe-portal-title/SKILL.md:22"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

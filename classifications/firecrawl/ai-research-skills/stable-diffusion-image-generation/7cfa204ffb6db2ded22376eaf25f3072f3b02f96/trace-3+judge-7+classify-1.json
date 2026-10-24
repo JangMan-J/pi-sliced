@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/stable-diffusion-image-generation",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/stable-diffusion-image-generation/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"40da97fe2ba4b4ca8e0c00daf5b697d040e7f62ac5c515b0aac960836c8145f7"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":43080,"own":{"files":3,"bytes":43080},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["huggingface-cli","nvcc"],"package":["accelerate","diffusers","huggingface_hub","torch","torchvision","transformers","xformers"],"mcp-server":[],"credential":[],"network":["download.pytorch.org","github.com"]},"summary":"3 files, 42 KiB · CLI huggingface-cli, nvcc · packages accelerate +6 · 2 hosts","short":"42 KiB · 2 CLI · 7 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["7 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs huggingface-cli","runs nvcc"]},{"marker":"installs-packages","because":["installs accelerate","installs diffusers","installs huggingface_hub","installs torch","installs torchvision","installs transformers","installs xformers"]},{"marker":"network","because":["fetches from download.pytorch.org","fetches from github.com"]},{"marker":"unpinned-code","because":["pip install from URL: 18-multimodal/stable-diffusion/references/troubleshooting.md:31"]}],
+"security":{"fetch-run":["pip install from URL @ 18-multimodal/stable-diffusion/references/troubleshooting.md:31"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

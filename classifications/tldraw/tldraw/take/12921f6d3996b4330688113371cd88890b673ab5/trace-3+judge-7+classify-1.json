@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"tldraw/tldraw/take",
+"revision":"12921f6d3996b4330688113371cd88890b673ab5",
+"trace":{"path":"traces/tldraw/tldraw/take/12921f6d3996b4330688113371cd88890b673ab5/trace-3+judge-7.json","sha256":"9dbf3c1414009b700ede57c5b54f8bff0e5e2afabea06acf652dd1f7aa0b6135"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3403,"own":{"files":1,"bytes":3403},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.3 KiB · CLI gh","short":"3.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"stub","because":["own folder 3.3 KiB (1 file)","content is the gh it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"issue","path":"skills/issue"},{"name":"pr","path":"skills/pr"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

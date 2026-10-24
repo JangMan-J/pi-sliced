@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"mattpocock/skills/teach",
+"revision":"5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+"trace":{"path":"traces/mattpocock/skills/teach/5beb35b040e3de97e54fa9e386d7e42d15c295c2/trace-3+judge-7.json","sha256":"b80718f9d36d10047d7ef4940b055d49727eb528f6bc52e5d8267a27f0caaefc"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":15944,"own":{"files":4,"bytes":15944},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["active","superseded"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 16 KiB · CLI active, superseded","short":"16 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs active","runs superseded"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"get-convex/agent-skills/convex-improve-convex-plugin",
+"revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8",
+"trace":{"path":"traces/get-convex/agent-skills/convex-improve-convex-plugin/191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8/trace-3+judge-7.json","sha256":"4221868acabe3e084e4fd0d8bcad7a2513ff2af278e8231d3af420a54c33c9a5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1841,"own":{"files":1,"bytes":1841},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.8 KiB","short":"1.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"unpinned-code","because":["pipe to interpreter: skills/convex-improve-convex-plugin/SKILL.md:14"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/convex-improve-convex-plugin/SKILL.md:14"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"hashicorp/engineering-agent-skills/doormat",
+"revision":"none",
+"trace":{"path":"traces/hashicorp/engineering-agent-skills/doormat/none/trace-3+judge-7.json","sha256":"d744ae9774146b546a194009abc6c5352daac1b8044736da3223e063d2df4168"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"
+}

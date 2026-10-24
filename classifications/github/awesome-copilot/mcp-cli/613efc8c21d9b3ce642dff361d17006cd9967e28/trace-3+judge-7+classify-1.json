@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/mcp-cli",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/mcp-cli/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"6d8a9e5479a27c3e3a4103d0abcc6c7182addc3892761f72a09a7e470a3c6ba5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2539,"own":{"files":1,"bytes":2539},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["jq","mcp-cli"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.5 KiB · CLI jq, mcp-cli","short":"2.5 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs jq","runs mcp-cli"]},{"marker":"stub","because":["own folder 2.5 KiB (1 file)","content is the jq, mcp-cli it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

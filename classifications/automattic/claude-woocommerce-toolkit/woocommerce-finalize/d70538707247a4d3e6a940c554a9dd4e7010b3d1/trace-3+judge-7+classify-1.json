@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/claude-woocommerce-toolkit/woocommerce-finalize",
+"revision":"d70538707247a4d3e6a940c554a9dd4e7010b3d1",
+"trace":{"path":"traces/automattic/claude-woocommerce-toolkit/woocommerce-finalize/d70538707247a4d3e6a940c554a9dd4e7010b3d1/trace-3+judge-7.json","sha256":"3a9f85d51374a34ce54d1d5c2c4936dd26b9e6d6127b7706c4b0291819cf7cb5"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6634,"own":{"files":1,"bytes":6634},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.5 KiB","short":"6.5 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

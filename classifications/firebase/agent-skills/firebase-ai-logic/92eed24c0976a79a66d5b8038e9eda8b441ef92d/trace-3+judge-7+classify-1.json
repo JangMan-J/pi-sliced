@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/agent-skills/firebase-ai-logic",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/agent-skills/firebase-ai-logic/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"7e716796301fa5df777947bd29d0e805060867fbc9f06feba93f5a6945e7c1a6"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase-ai-logic at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

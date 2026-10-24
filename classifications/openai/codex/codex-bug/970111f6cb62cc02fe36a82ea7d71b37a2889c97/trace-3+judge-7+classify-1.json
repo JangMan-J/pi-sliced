@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex/codex-bug",
+"revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"trace":{"path":"traces/openai/codex/codex-bug/970111f6cb62cc02fe36a82ea7d71b37a2889c97/trace-3+judge-7.json","sha256":"4f55bb2e3d2bdb96869554fe6ed0657ef495662618d26098dd27483e015764ab"},
+"status":"unresolvable",
+"reason":"no skill folder named codex-bug at 970111f6cb62cc02fe36a82ea7d71b37a2889c97"
+}

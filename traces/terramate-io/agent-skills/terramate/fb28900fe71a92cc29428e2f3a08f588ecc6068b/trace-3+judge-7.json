@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"terramate-io/agent-skills/terramate",
+"source":"terramate-io/agent-skills",
+"revision":"fb28900fe71a92cc29428e2f3a08f588ecc6068b",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named terramate at fb28900fe71a92cc29428e2f3a08f588ecc6068b",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

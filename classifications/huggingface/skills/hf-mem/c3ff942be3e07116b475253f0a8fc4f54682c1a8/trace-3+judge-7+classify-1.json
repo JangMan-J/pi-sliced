@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/skills/hf-mem",
+"revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8",
+"trace":{"path":"traces/huggingface/skills/hf-mem/c3ff942be3e07116b475253f0a8fc4f54682c1a8/trace-3+judge-7.json","sha256":"e8f2eced37cf83f3215f876e1005e38ca668b47a66d9baca854dc49da7631856"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3325,"own":{"files":1,"bytes":3325},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["bfloat16","fp8","fp8_ds_mla","fp8_e4m3","fp8_e5m2","hf-mem"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.2 KiB · CLI bfloat16, fp8 +4","short":"3.2 KiB · 6 CLI"},
+"heavy":{"heavy":true,"because":["6 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs bfloat16","runs fp8","runs fp8_ds_mla","runs fp8_e4m3","runs fp8_e5m2","runs hf-mem"]},{"marker":"stub","because":["own folder 3.2 KiB (1 file)","content is the bfloat16, fp8 it wraps"]},{"marker":"unpinned-code","because":["uvx hf-mem: skills/hf-mem/SKILL.md:24, skills/hf-mem/SKILL.md:30, skills/hf-mem/SKILL.md:40"]}],
+"security":{"fetch-run":["uvx hf-mem @ skills/hf-mem/SKILL.md:24, skills/hf-mem/SKILL.md:30, skills/hf-mem/SKILL.md:40 +6"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

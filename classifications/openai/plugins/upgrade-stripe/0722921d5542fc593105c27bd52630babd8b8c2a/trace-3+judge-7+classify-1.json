@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/upgrade-stripe",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/upgrade-stripe/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"3331546cd60a0560426045620f14f4275f3eaf1faee40c22efecb936b3dff121"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":5620,"own":{"files":1,"bytes":5620},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@stripe/stripe-js","stripe"],"mcp-server":[],"credential":[],"network":["api.stripe.com"]},"summary":"1 file, 5.5 KiB · packages @stripe/stripe-js +1 · 1 host","short":"5.5 KiB · 2 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @stripe/stripe-js","installs stripe"]},{"marker":"network","because":["fetches from api.stripe.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

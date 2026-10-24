@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/digital-health-clinical-asr-build",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/digital-health-clinical-asr-build/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"a3bb30704410e9739aa2e09802e44f9a2c4015eafe2dabfb0350a7a8a401ca7f"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":40889,"own":{"files":3,"bytes":40889},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["as","assert","clinical_extension_OK","f","import","line","manifest_schema_OK","missing.append","not","p","print","with"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 40 KiB · CLI as, assert +10","short":"40 KiB · 12 CLI"},
+"heavy":{"heavy":true,"because":["12 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs as","runs assert","runs clinical_extension_OK","runs f","runs import","runs line","runs manifest_schema_OK","runs missing.append","runs not","runs p","runs print","runs with"]}],
+"security":{},
+"companions":{"named":[{"name":"data-designer","path":"skills/data-designer"},{"name":"digital-health-clinical-asr-eval","path":"skills/digital-health-clinical-asr-eval"},{"name":"digital-health-clinical-asr-finetune","path":"skills/digital-health-clinical-asr-finetune"},{"name":"digital-health-clinical-asr-setup","path":"skills/digital-health-clinical-asr-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

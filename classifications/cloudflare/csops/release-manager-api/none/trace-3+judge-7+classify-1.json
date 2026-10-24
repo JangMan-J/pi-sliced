@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/csops/release-manager-api",
+"revision":"none",
+"trace":{"path":"traces/cloudflare/csops/release-manager-api/none/trace-3+judge-7.json","sha256":"a8c0c501e91aebe02a229cccbcc43526c9354f9b4b57231faa2215855ef52a9a"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/cloudflare/csops.git/' not found"
+}

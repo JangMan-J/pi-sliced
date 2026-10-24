@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/vscode/agent-sessions-layout",
+"source":"microsoft/vscode",
+"revision":"1184ad4d45794110deb6b897ea83b15aac44ed89",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named agent-sessions-layout at 1184ad4d45794110deb6b897ea83b15aac44ed89",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

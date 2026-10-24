@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/sandbox-npm-install",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/sandbox-npm-install/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"8fb772e42b3f663acb91fe2fb3cd80cb320a4b78873908b4eb7b832cbc1c5829"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9405,"own":{"files":2,"bytes":9405},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["const","package.json","pkg.dependencies","pkg.devDependencies","pkg.optionalDependencies","playwright","process.exit","readonly"],"package":["complete","esbuild","lightningcss","rollup","vite"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.2 KiB · CLI const, package.json +6 · packages complete +4","short":"9.2 KiB · 8 CLI · 5 pkg"},
+"heavy":{"heavy":true,"because":["5 packages to install","8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs const","runs package.json","runs pkg.dependencies","runs pkg.devDependencies","runs pkg.optionalDependencies","runs playwright","runs process.exit","runs readonly"]},{"marker":"installs-packages","because":["installs complete","installs esbuild","installs lightningcss","installs rollup","installs vite"]},{"marker":"unpinned-code","because":["npx playwright: skills/sandbox-npm-install/scripts/install.sh:179, skills/sandbox-npm-install/scripts/install.sh:182, skills/sandbox-npm-install/scripts/install.sh:183"]}],
+"security":{"fetch-run":["npx playwright @ skills/sandbox-npm-install/scripts/install.sh:179, skills/sandbox-npm-install/scripts/install.sh:182, skills/sandbox-npm-install/scripts/install.sh:183 +1"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

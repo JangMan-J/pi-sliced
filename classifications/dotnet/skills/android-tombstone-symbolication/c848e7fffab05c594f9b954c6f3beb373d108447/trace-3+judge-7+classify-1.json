@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/android-tombstone-symbolication",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/android-tombstone-symbolication/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"3ca34642325c1ca62f13b5bc80cd95d00b7d960700abd32f69a09137c7ad13ba"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":38385,"own":{"files":2,"bytes":38385},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adb","llvm-symbolizer","pwsh"],"package":["llvm"],"mcp-server":[],"credential":[],"network":["api.nuget.org","msdl.microsoft.com"]},"summary":"2 files, 37 KiB · CLI adb, llvm-symbolizer +1 · packages llvm · 2 hosts","short":"37 KiB · 3 CLI · 1 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["1 package to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs llvm-symbolizer","runs pwsh"]},{"marker":"installs-packages","because":["installs llvm"]},{"marker":"network","because":["fetches from api.nuget.org","fetches from msdl.microsoft.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"callstackincubator/agent-react-devtools/react-devtools",
+"revision":"d25f34b568467e0b1fcde39410410bb514829a69",
+"trace":{"path":"traces/callstackincubator/agent-react-devtools/react-devtools/d25f34b568467e0b1fcde39410410bb514829a69/trace-3+judge-7.json","sha256":"b5815b67923c12dad62295c8eb91f04e10771f2611b7b1b696e06f3a19ba15d2"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":25471,"own":{"files":4,"bytes":25471},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["adb","agent-browser","agent-react-devtools","react-native"],"package":["agent-react-devtools"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 25 KiB · CLI adb, agent-browser +2 · packages agent-react-devtools","short":"25 KiB · 4 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs adb","runs agent-browser","runs agent-react-devtools","runs react-native"]},{"marker":"installs-packages","because":["installs agent-react-devtools"]},{"marker":"unpinned-code","because":["npx agent-react-devtools: packages/agent-react-devtools/skills/react-devtools/SKILL.md:170, packages/agent-react-devtools/skills/react-devtools/references/setup.md:11, packages/agent-react-devtools/skills/react-devtools/references/setup.md:19","npx react-native: packages/agent-react-devtools/skills/react-devtools/references/setup.md:122"]}],
+"security":{"fetch-run":["npx agent-react-devtools @ packages/agent-react-devtools/skills/react-devtools/SKILL.md:170, packages/agent-react-devtools/skills/react-devtools/references/setup.md:11, packages/agent-react-devtools/skills/react-devtools/references/setup.md:19","npx react-native @ packages/agent-react-devtools/skills/react-devtools/references/setup.md:122"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

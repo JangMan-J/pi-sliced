@@ -1,63 +1,14 @@
 {
- "format": "pi-sliced.classification/1",
- "classifier": "classify-1",
- "candidate": "anthropics/skills/canvas-design",
- "revision": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
- "trace": {
-  "path": "traces/anthropics/skills/canvas-design/dbd4588f9e1033efb41dad4bef2f7947c8993d44/trace-3+judge-4.json",
-  "sha256": "d3c1b98ffa9a19442783e6525a406edc1add048cdac08238022e4da800e27efb"
- },
- "status": "resolved",
- "footprint": {
-  "files": 83,
-  "bytes": 5554003,
-  "own": {
-   "files": 83,
-   "bytes": 5554003
-  },
-  "otherSkills": {
-   "count": 0,
-   "files": 0,
-   "bytes": 0
-  },
-  "packages": [],
-  "repoFiles": {
-   "files": 0,
-   "bytes": 0
-  },
-  "assets": {
-   "fonts": 54,
-   "images": 0,
-   "media": 0,
-   "other": 0,
-   "bytes": 5412104
-  },
-  "outside": {
-   "cli": [],
-   "package": [],
-   "mcp-server": [],
-   "credential": [],
-   "network": []
-  },
-  "summary": "83 files, 5.3 MiB · 54 fonts",
-  "short": "5.3 MiB"
- },
- "heavy": {
-  "heavy": true,
-  "because": [
-   "files total 5.3 MiB (> 1 MiB)"
-  ]
- },
- "markers": [],
- "security": {},
- "companions": {
-  "named": [],
-  "pulled": []
- },
- "checkoutReach": {
-  "edges": 0,
-  "targets": [],
-  "files": 0,
-  "bytes": 0
- }
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/skills/canvas-design",
+"revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+"trace":{"path":"traces/anthropics/skills/canvas-design/dbd4588f9e1033efb41dad4bef2f7947c8993d44/trace-3+judge-4.json","sha256":"d3c1b98ffa9a19442783e6525a406edc1add048cdac08238022e4da800e27efb"},
+"status":"resolved",
+"footprint":{"files":83,"bytes":5554003,"own":{"files":83,"bytes":5554003},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":54,"images":0,"media":0,"other":0,"bytes":5412104},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"83 files, 5.3 MiB · 54 fonts","short":"5.3 MiB"},
+"heavy":{"heavy":true,"because":["files total 5.3 MiB (> 1 MiB)"]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
 }

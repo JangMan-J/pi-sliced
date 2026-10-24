@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/power-platform-skills/configure-canvas-mcp",
+"revision":"9d2486d27d93c9006b66ee941065be621afa5d6f",
+"trace":{"path":"traces/microsoft/power-platform-skills/configure-canvas-mcp/9d2486d27d93c9006b66ee941065be621afa5d6f/trace-3+judge-7.json","sha256":"acaac74954568771cdc46b9245d65179f0a12d00a70336ee3d931701c6e52cca"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7651,"own":{"files":1,"bytes":7651},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":[],"mcp-server":["authoring","the"],"credential":[],"network":["dotnet.microsoft.com","make.powerapps.com"]},"summary":"1 file, 7.5 KiB · MCP authoring, the · CLI dotnet · 2 hosts","short":"7.5 KiB · 1 CLI · 2 hosts · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"network","because":["fetches from dotnet.microsoft.com","fetches from make.powerapps.com"]},{"marker":"mcp-server","because":["uses the authoring MCP server","uses the the MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"canvas-app","path":"plugins/canvas-apps/skills/canvas-app"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

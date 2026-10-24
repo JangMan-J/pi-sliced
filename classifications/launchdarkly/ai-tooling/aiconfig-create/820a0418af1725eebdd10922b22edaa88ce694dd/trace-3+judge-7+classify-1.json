@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"launchdarkly/ai-tooling/aiconfig-create",
+"revision":"820a0418af1725eebdd10922b22edaa88ce694dd",
+"trace":{"path":"traces/launchdarkly/ai-tooling/aiconfig-create/820a0418af1725eebdd10922b22edaa88ce694dd/trace-3+judge-7.json","sha256":"bfa67f66a36807dc3bac19f1ff70710249f774d1d6a4e4558cc98089ea24aa17"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":699,"own":{"files":1,"bytes":699},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 699 B","short":"699 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"configs-create","path":"skills/agentcontrol/configs-create"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

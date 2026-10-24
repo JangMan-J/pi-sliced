@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/codex/babysit-pr",
+"revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97",
+"trace":{"path":"traces/openai/codex/babysit-pr/970111f6cb62cc02fe36a82ea7d71b37a2889c97/trace-3+judge-7.json","sha256":"c43b69fdb9d78b3f0981c0eaac1acdb7ddd60f536492d7bf73acd21fbafafb55"},
+"status":"unresolvable",
+"reason":"no skill folder named babysit-pr at 970111f6cb62cc02fe36a82ea7d71b37a2889c97"
+}

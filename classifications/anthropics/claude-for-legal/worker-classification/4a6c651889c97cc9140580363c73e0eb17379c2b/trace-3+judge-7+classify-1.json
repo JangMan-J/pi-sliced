@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-for-legal/worker-classification",
+"revision":"4a6c651889c97cc9140580363c73e0eb17379c2b",
+"trace":{"path":"traces/anthropics/claude-for-legal/worker-classification/4a6c651889c97cc9140580363c73e0eb17379c2b/trace-3+judge-7.json","sha256":"74f698d81dafce99634687b8bd8405f62cc6f1ff36e871397c6f2f14ed721e2d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":22235,"own":{"files":1,"bytes":22235},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 22 KiB","short":"22 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"hiring-review","path":"employment-legal/skills/hiring-review"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

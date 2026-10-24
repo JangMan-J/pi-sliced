@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nvidia-ontology-query",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nvidia-ontology-query/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"40ff96e9e152ce06def0b15655175360a4c4b379367cfe5e8474ea501b165c4d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":15230,"own":{"files":4,"bytes":15230},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["AUTO_ONTOLOGY_API_TOKEN"],"network":[]},"summary":"4 files, 15 KiB · 1 key","short":"15 KiB · 1 key"},
+"heavy":{"heavy":true,"because":["1 credential"]},
+"markers":[{"marker":"credentials","because":["needs AUTO_ONTOLOGY_API_TOKEN"]}],
+"security":{},
+"companions":{"named":[{"name":"nvidia-ontology-management","path":"skills/nvidia-ontology-management"},{"name":"nvidia-ontology-setup","path":"skills/nvidia-ontology-setup"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

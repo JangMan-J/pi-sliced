@@ -1,0 +1,55 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"sanity-io/agent-toolkit/sanity-migration",
+"source":"sanity-io/agent-toolkit",
+"revision":"feb9d38412426b0dfca7e6f21aeecdad8507c170",
+"skillPath":"skills/sanity-migration",
+"status":"resolved",
+"totals":{"files":10,"bytes":77508},
+"files":[
+{"path":"skills/sanity-migration/SKILL.md","size":5473,"blob":"0a48116b569c1f39ba589155e9685efbf4f9f498","how":"root"},
+{"path":"skills/sanity-migration/references/aem.md","size":6967,"blob":"6aeb588e5326e42313689b84dffda70f6bee7d78","how":"path","from":0,"line":14},
+{"path":"skills/sanity-migration/references/contentful.md","size":9717,"blob":"f8ae18be2b1eddc43bfd535b26d10dc3cf3d3136","how":"path","from":0,"line":15},
+{"path":"skills/sanity-migration/references/drupal.md","size":4485,"blob":"154da212fb04da9135913fa17189cf5cf16d15c7","how":"path","from":0,"line":20},
+{"path":"skills/sanity-migration/references/general.md","size":12856,"blob":"6da3cb90a4488593d06e1792eeac24d99b4fa0e9","how":"path","from":0,"line":12},
+{"path":"skills/sanity-migration/references/markdown.md","size":5207,"blob":"085982402e5e096e7f705af63d693e3f4e58f029","how":"path","from":0,"line":21},
+{"path":"skills/sanity-migration/references/payload.md","size":7726,"blob":"413e15dd5ceedf85e3c840efbcff2a5bbc6b0882","how":"path","from":0,"line":19},
+{"path":"skills/sanity-migration/references/strapi.md","size":6412,"blob":"f4d7b6032123e020b4d22479d856455c6164499e","how":"path","from":0,"line":16},
+{"path":"skills/sanity-migration/references/webflow.md","size":5817,"blob":"bdd34d7d756f7dce1084238dc38bbd4d830ac294","how":"path","from":0,"line":17},
+{"path":"skills/sanity-migration/references/wordpress.md","size":12848,"blob":"6a7d32980f2b286a10ef33ddfcd70f9a93ef5fe7","how":"path","from":0,"line":18}
+],
+"outside":[
+{"kind":"cli","name":"composer","at":[[3,18]]},
+{"kind":"cli","name":"contentful-cli","at":[[2,29],[2,30]]},
+{"kind":"cli","name":"contentful-to-sanity","at":[[2,50]]},
+{"kind":"cli","name":"drush","at":[[3,19],[3,20],[3,21],[3,22],[3,23]]},
+{"kind":"cli","name":"sanity","at":[[2,52],[4,173],[5,115]]},
+{"kind":"cli","name":"skills","at":[[0,59]]},
+{"kind":"cli","name":"strapi","at":[[7,43]]},
+{"kind":"cli","name":"wp","at":[[9,46],[9,47],[9,48]]},
+{"kind":"credential","name":"WP_APP_PASSWORD","at":[[9,35]]},
+{"kind":"package","name":"@portabletext/markdown","at":[[5,20],[5,36]]},
+{"kind":"package","name":"@portabletext/sanity-bridge","at":[[5,36]]},
+{"kind":"package","name":"drush/drush","at":[[3,18]]},
+{"kind":"package","name":"gray-matter","at":[[5,70]]}
+],
+"regions":[
+{"kind":"own","path":"skills/sanity-migration","files":10,"bytes":77508}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx contentful-cli","at":[[2,29],[2,30]]},
+{"kind":"fetch-run","detail":"npx contentful-to-sanity@latest","at":[[2,50]]},
+{"kind":"fetch-run","detail":"npx sanity","at":[[2,52],[5,115]]},
+{"kind":"fetch-run","detail":"npx sanity@latest","at":[[4,173]]},
+{"kind":"fetch-run","detail":"npx skills","at":[[0,59]]},
+{"kind":"fetch-run","detail":"npx strapi","at":[[7,43]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,59]]}
+],
+"namedSkills":[
+{"name":"sanity-best-practices","path":"skills/sanity-best-practices","at":[[0,56]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

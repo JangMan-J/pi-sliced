@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/month-heads-up",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/month-heads-up/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"bd1b7b45977d479cab77aac321cfce310c5f6e354302c7524021d70f649ef279"},
+"status":"unresolvable",
+"reason":"no skill folder named month-heads-up at 33d3dea41a341b341d4f5da2e8801ae0c89be2b8"
+}

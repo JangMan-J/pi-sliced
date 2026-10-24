@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-ai/sentry-setup-releases",
+"revision":"16a86de9eb0e33948c32ccd722958203c21098af",
+"trace":{"path":"traces/getsentry/sentry-for-ai/sentry-setup-releases/16a86de9eb0e33948c32ccd722958203c21098af/trace-3+judge-7.json","sha256":"793994cf95bde8baebc92b3ce200b016ebf3c89090e791e9a0564c40272acf2d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7133,"own":{"files":1,"bytes":7133},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.0 KiB","short":"7.0 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"sentry-debug-issue","path":"src/skills/sentry-debug-issue"},{"name":"sentry-fix-stack-traces","path":"src/skills/sentry-fix-stack-traces"},{"name":"sentry-get-started","path":"src/skills/sentry-get-started"},{"name":"sentry-instrument","path":"src/skills/sentry-instrument"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

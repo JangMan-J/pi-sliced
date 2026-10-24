@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/vercel-plugin/agent-browser-verify",
+"revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+"trace":{"path":"traces/vercel-labs/vercel-plugin/agent-browser-verify/3c88cfc8de5d1e124d23b0ef23f32c5aa127c845/trace-3+judge-7.json","sha256":"f4799a2b6cb07b41f2dec7a3bab6e6c17db4195820754a081a9790e1853f76d1"},
+"status":"unresolvable",
+"reason":"no skill folder named agent-browser-verify at 3c88cfc8de5d1e124d23b0ef23f32c5aa127c845"
+}

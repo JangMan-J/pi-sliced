@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/dart-long-lines",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/dart-long-lines/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"405487ebe53704fc1b98b94af6e5418b9f49e3e6284b26dd6dd1fb2f6a882a6a"},
+"status":"unresolvable",
+"reason":"no skill folder named dart-long-lines at f813a46b18456a20f37eb5784c091b7d945c3b4b"
+}

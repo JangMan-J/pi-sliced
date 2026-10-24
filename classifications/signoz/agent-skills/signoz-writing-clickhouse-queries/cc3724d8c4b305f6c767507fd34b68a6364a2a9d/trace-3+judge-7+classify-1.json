@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"signoz/agent-skills/signoz-writing-clickhouse-queries",
+"revision":"cc3724d8c4b305f6c767507fd34b68a6364a2a9d",
+"trace":{"path":"traces/signoz/agent-skills/signoz-writing-clickhouse-queries/cc3724d8c4b305f6c767507fd34b68a6364a2a9d/trace-3+judge-7.json","sha256":"f8976610744afdf543e01ffcb278605189209897d2b601934487a9397c0fcffd"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":31844,"own":{"files":3,"bytes":31844},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 31 KiB","short":"31 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"signoz-generating-queries","path":"plugins/signoz/skills/signoz-generating-queries"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

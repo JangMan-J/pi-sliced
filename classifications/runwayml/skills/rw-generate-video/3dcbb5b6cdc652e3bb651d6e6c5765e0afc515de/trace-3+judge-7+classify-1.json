@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"runwayml/skills/rw-generate-video",
+"revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de",
+"trace":{"path":"traces/runwayml/skills/rw-generate-video/3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de/trace-3+judge-7.json","sha256":"d8d38acf8c6b8261010d40b1b4209ae30ffbf28cb40e825839ea59bfb9fb0939"},
+"status":"unresolvable",
+"reason":"no skill folder named rw-generate-video at 3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de (the archive had legacy/skills/rw-generate-video)"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/image-manipulation-image-magick",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/image-manipulation-image-magick/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"f493733417ee962811445d05600b17735ae815f0c4453b87b6bbe8cf237d225f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6963,"own":{"files":1,"bytes":6963},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ForEach-Object","Get-Command","Select-Object","magick","throw"],"package":["imagemagick"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.8 KiB · CLI ForEach-Object, Get-Command +3 · packages imagemagick","short":"6.8 KiB · 5 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs ForEach-Object","runs Get-Command","runs magick","runs Select-Object","runs throw"]},{"marker":"installs-packages","because":["installs imagemagick"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

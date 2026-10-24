@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/cordierite/cordierite",
+"source":"callstackincubator/cordierite",
+"revision":"be5e37afb5457bac106ade3de71bbbc2309db224",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named cordierite at be5e37afb5457bac106ade3de71bbbc2309db224",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

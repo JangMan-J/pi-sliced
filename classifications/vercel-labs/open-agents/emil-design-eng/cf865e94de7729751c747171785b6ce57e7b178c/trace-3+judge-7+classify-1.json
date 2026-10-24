@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/open-agents/emil-design-eng",
+"revision":"cf865e94de7729751c747171785b6ce57e7b178c",
+"trace":{"path":"traces/vercel-labs/open-agents/emil-design-eng/cf865e94de7729751c747171785b6ce57e7b178c/trace-3+judge-7.json","sha256":"6488163e7fa88ecfbf10103e316ebb96fae285f5f8bf0421fc75c2f5201ee3fe"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":27872,"own":{"files":1,"bytes":27872},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 27 KiB","short":"27 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

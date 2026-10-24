@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/firecrawl-cli/firecrawl-instruct",
+"revision":"f979ae91766a2d80c356c5b8bad61d4e2cc8bcc1",
+"trace":{"path":"traces/firecrawl/firecrawl-cli/firecrawl-instruct/f979ae91766a2d80c356c5b8bad61d4e2cc8bcc1/trace-3+judge-7.json","sha256":"a0af8a0031e7c95aee0a61b3d019985d4c615c72ae66305fc7a25bf1e125a2d9"},
+"status":"unresolvable",
+"reason":"no skill folder named firecrawl-instruct at f979ae91766a2d80c356c5b8bad61d4e2cc8bcc1"
+}

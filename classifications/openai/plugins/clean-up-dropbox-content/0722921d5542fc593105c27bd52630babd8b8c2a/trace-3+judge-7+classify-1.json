@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/clean-up-dropbox-content",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/clean-up-dropbox-content/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"9282ab91ccf791510bcbbb7daa851ffe06f2cce7a791b32b9f7e654d5842c4ca"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2855,"own":{"files":1,"bytes":2855},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["dropbox"],"credential":[],"network":[]},"summary":"1 file, 2.8 KiB · MCP dropbox","short":"2.8 KiB · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server"]},
+"markers":[{"marker":"mcp-server","because":["uses the dropbox MCP server"]},{"marker":"stub","because":["own folder 2.8 KiB (1 file)","content is the dropbox it wraps"]}],
+"security":{},
+"companions":{"named":[{"name":"find-dropbox-content","path":"plugins/dropbox/skills/find-dropbox-content"},{"name":"inspect-dropbox-file","path":"plugins/dropbox/skills/inspect-dropbox-file"},{"name":"organize-dropbox-folder","path":"plugins/dropbox/skills/organize-dropbox-folder"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

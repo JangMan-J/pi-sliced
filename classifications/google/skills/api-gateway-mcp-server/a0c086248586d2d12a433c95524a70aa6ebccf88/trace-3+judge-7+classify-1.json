@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/api-gateway-mcp-server",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/api-gateway-mcp-server/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"882f858c0184524406d110db3f7d0b751c1e2839050e83c0d16ad2c1e51b737d"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":82145,"own":{"files":7,"bytes":82145},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["api-configs","apiConfig.basename","gcloud"],"package":["pyyaml"],"mcp-server":["how"],"credential":[],"network":[]},"summary":"7 files, 80 KiB · MCP how · CLI api-configs, apiConfig.basename +1 · packages pyyaml","short":"80 KiB · 3 CLI · 1 pkg · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs api-configs","runs apiConfig.basename","runs gcloud"]},{"marker":"installs-packages","because":["installs pyyaml"]},{"marker":"mcp-server","because":["uses the how MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

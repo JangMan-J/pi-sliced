@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coinbase/agentic-wallet-skills/send-usdc",
+"revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f",
+"trace":{"path":"traces/coinbase/agentic-wallet-skills/send-usdc/70cb79c85f397fab3636ef07c8c99dc52a7c555f/trace-3+judge-7.json","sha256":"707da47d6f6f3b5d343cb8061acc445aa448ece52d0b6037f5dab8b99a478ab9"},
+"status":"unresolvable",
+"reason":"no skill folder named send-usdc at 70cb79c85f397fab3636ef07c8c99dc52a7c555f"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google/skills/ima-sdk-client-side",
+"revision":"a0c086248586d2d12a433c95524a70aa6ebccf88",
+"trace":{"path":"traces/google/skills/ima-sdk-client-side/a0c086248586d2d12a433c95524a70aa6ebccf88/trace-3+judge-7.json","sha256":"e9da92a9026e5cb90af7ce464b9a143448cf6a5225eec984eefaffcab57d3d72"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":34554,"own":{"files":7,"bytes":34554},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@types/google_interactive_media_ads_types"],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 34 KiB · packages @types/google_interactive_media_ads_types","short":"34 KiB · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @types/google_interactive_media_ads_types"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

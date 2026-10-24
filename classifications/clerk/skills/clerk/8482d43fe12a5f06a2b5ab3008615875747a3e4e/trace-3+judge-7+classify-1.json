@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"clerk/skills/clerk",
+"revision":"8482d43fe12a5f06a2b5ab3008615875747a3e4e",
+"trace":{"path":"traces/clerk/skills/clerk/8482d43fe12a5f06a2b5ab3008615875747a3e4e/trace-3+judge-7.json","sha256":"240186354a9713fa6eaeb6f298058b5bd17408274fe58ec584a3294c16ae3d63"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6322,"own":{"files":1,"bytes":6322},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["clerk"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.2 KiB · CLI clerk","short":"6.2 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs clerk"]}],
+"security":{},
+"companions":{"named":[{"name":"clerk-android","path":"skills/clerk-android"},{"name":"clerk-astro-patterns","path":"skills/clerk-astro-patterns"},{"name":"clerk-backend-api","path":"skills/clerk-backend-api"},{"name":"clerk-billing","path":"skills/clerk-billing"},{"name":"clerk-chrome-extension-patterns","path":"skills/clerk-chrome-extension-patterns"},{"name":"clerk-cli","path":"skills/clerk-cli"},{"name":"clerk-custom-ui","path":"skills/clerk-custom-ui"},{"name":"clerk-expo","path":"skills/clerk-expo"},{"name":"clerk-nextjs-patterns","path":"skills/clerk-nextjs-patterns"},{"name":"clerk-nuxt-patterns","path":"skills/clerk-nuxt-patterns"},{"name":"clerk-orgs","path":"skills/clerk-orgs"},{"name":"clerk-react-patterns","path":"skills/clerk-react-patterns"},{"name":"clerk-react-router-patterns","path":"skills/clerk-react-router-patterns"},{"name":"clerk-setup","path":"skills/clerk-setup"},{"name":"clerk-swift","path":"skills/clerk-swift"},{"name":"clerk-tanstack-patterns","path":"skills/clerk-tanstack-patterns"},{"name":"clerk-testing","path":"skills/clerk-testing"},{"name":"clerk-vue-patterns","path":"skills/clerk-vue-patterns"},{"name":"clerk-webhooks","path":"skills/clerk-webhooks"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

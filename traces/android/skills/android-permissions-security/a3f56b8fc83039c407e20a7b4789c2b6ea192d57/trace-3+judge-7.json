@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/android-permissions-security",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"security/android-permissions-security",
+"status":"resolved",
+"totals":{"files":4,"bytes":84305},
+"files":[
+{"path":"security/android-permissions-security/SKILL.md","size":27953,"blob":"4a84a3c17391ae8b0dc1c1acdaf48726802cbd12","how":"root"},
+{"path":"security/android-permissions-security/references/android/guide/topics/manifest/permission-element.md","size":6904,"blob":"061f023997da42f068505a89111444d5ae431222","how":"link","from":0,"line":80},
+{"path":"security/android-permissions-security/references/android/guide/topics/permissions/overview.md","size":10610,"blob":"1f875cdbc4ca59d7116654ea968093087ca3a7d3","how":"link","from":0,"line":362},
+{"path":"security/android-permissions-security/references/android/training/permissions/requesting.md","size":38838,"blob":"9e7b927c543d14712c6fd9f7515bc8af1667e34f","how":"path","from":0,"line":362}
+],
+"outside":[],
+"regions":[
+{"kind":"own","path":"security/android-permissions-security","files":4,"bytes":84305}
+],
+"signals":[
+{"kind":"injection","detail":"without notifying the user","at":[[1,99],[1,100]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

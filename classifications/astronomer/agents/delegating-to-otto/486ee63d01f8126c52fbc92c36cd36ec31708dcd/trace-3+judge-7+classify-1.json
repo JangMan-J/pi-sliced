@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"astronomer/agents/delegating-to-otto",
+"revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd",
+"trace":{"path":"traces/astronomer/agents/delegating-to-otto/486ee63d01f8126c52fbc92c36cd36ec31708dcd/trace-3+judge-7.json","sha256":"66e59bebee1cd8ea532ae3dfb6e70f5cbbb6fd122da58392089c8ce4ccf16e03"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15583,"own":{"files":1,"bytes":15583},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["astro","jq"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB · CLI astro, jq","short":"15 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs astro","runs jq"]}],
+"security":{},
+"companions":{"named":[{"name":"airflow","path":"skills/airflow"},{"name":"analyzing-data","path":"skills/analyzing-data"},{"name":"authoring-dags","path":"skills/authoring-dags"},{"name":"checking-freshness","path":"skills/checking-freshness"},{"name":"debugging-dags","path":"skills/debugging-dags"},{"name":"migrating-airflow-2-to-3","path":"skills/migrating-airflow-2-to-3"},{"name":"tracing-upstream-lineage","path":"skills/tracing-upstream-lineage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

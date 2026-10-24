@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/ingesting-into-data-lake",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/ingesting-into-data-lake/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"37bd35cab8bc6ae1c900818119ae6b494d8939cc4477b6c673fa09db039a611a"},
+"status":"resolved",
+"footprint":{"files":29,"bytes":216575,"own":{"files":26,"bytes":200355},"otherSkills":{"count":1,"files":3,"bytes":16220},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","docker","jq","mysql","nc","psql","sqlplus","telnet"],"package":["boto3","pyspark"],"mcp-server":["aws","use"],"credential":["PGPASSWORD"],"network":[]},"summary":"29 files, 211 KiB · +1 other skill · MCP aws, use · CLI aws, docker +6 · packages boto3 +1 · 1 key","short":"211 KiB · +1 skill · 8 CLI · 2 pkg · 1 key · MCP 2"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 MCP servers","8 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs docker","runs jq","runs mysql","runs nc","runs psql","runs sqlplus","runs telnet"]},{"marker":"installs-packages","because":["installs boto3","installs pyspark"]},{"marker":"credentials","because":["needs PGPASSWORD"]},{"marker":"mcp-server","because":["uses the aws MCP server","uses the use MCP server"]},{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/specialized-skills/analytics-skills/connecting-to-data-source"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/specialized-skills/analytics-skills/connecting-to-data-source","files":3,"bytes":16220}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

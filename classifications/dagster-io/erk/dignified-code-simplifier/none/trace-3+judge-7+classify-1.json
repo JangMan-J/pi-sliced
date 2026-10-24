@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/dignified-code-simplifier",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/dignified-code-simplifier/none/trace-3+judge-7.json","sha256":"a0f26e0cc5fa40d7ca0a3aacb0b5a08bf0322e5f28976cb85d075ba833163ac7"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

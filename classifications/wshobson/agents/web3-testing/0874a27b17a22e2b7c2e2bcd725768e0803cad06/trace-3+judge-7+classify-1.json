@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/web3-testing",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/web3-testing/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"ed1a15fbe22b1767cea6f242d7645882d8b2391957c79683d22705e5544bc949"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":9876,"own":{"files":2,"bytes":9876},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["hardhat"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 9.6 KiB · CLI hardhat","short":"9.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs hardhat"]},{"marker":"unpinned-code","because":["npx hardhat: plugins/blockchain-web3/skills/web3-testing/references/details.md:37, plugins/blockchain-web3/skills/web3-testing/references/details.md:57"]}],
+"security":{"fetch-run":["npx hardhat @ plugins/blockchain-web3/skills/web3-testing/references/details.md:37, plugins/blockchain-web3/skills/web3-testing/references/details.md:57"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

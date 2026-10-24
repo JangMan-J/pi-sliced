@@ -1,0 +1,41 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/plugins/observability",
+"source":"openai/plugins",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"skillPath":"plugins/vercel/skills/observability",
+"status":"resolved",
+"totals":{"files":1,"bytes":26510},
+"files":[
+{"path":"plugins/vercel/skills/observability/SKILL.md","size":26510,"blob":"39653194f418bab7fb0016f404b2720020d8f706","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"@sentry/wizard","at":[[0,685]]},
+{"kind":"cli","name":"checkly","at":[[0,724]]},
+{"kind":"cli","name":"jq","at":[[0,395]]},
+{"kind":"cli","name":"vercel","at":[[0,517],[0,536],[0,559],[0,579],[0,582],[0,692],[0,716],[0,729],[0,739]]},
+{"kind":"credential","name":"VERCEL_TOKEN","at":[[0,201],[0,395],[0,399],[0,410],[0,414],[0,423]]},
+{"kind":"mcp-server","name":"vercel","at":[[0,243]]},
+{"kind":"network","name":"api.vercel.com","at":[[0,201],[0,395],[0,399],[0,410],[0,414],[0,423]]},
+{"kind":"network","name":"vercel.com","at":[[0,385]]},
+{"kind":"package","name":"@datadog/browser-rum","at":[[0,699]]},
+{"kind":"package","name":"@sentry/nextjs","at":[[0,687]]},
+{"kind":"package","name":"@vercel/analytics","at":[[0,252]]},
+{"kind":"package","name":"@vercel/speed-insights","at":[[0,319]]},
+{"kind":"package","name":"checkly","at":[[0,723]]},
+{"kind":"package","name":"newrelic","at":[[0,736]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/vercel/skills/observability","files":1,"bytes":26510}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx @sentry/wizard@latest","at":[[0,685]]},
+{"kind":"fetch-run","detail":"npx checkly","at":[[0,724]]},
+{"kind":"secret-egress","detail":"VERCEL_TOKEN -> api.vercel.com","at":[[0,201],[0,395],[0,399],[0,410],[0,414],[0,423]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

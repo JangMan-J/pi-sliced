@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"neondatabase/better-env/skill-creator",
+"source":"neondatabase/better-env",
+"revision":"5773a5ce4a1e7d93e2df08fcc2a50926b19189b5",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named skill-creator at 5773a5ce4a1e7d93e2df08fcc2a50926b19189b5",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

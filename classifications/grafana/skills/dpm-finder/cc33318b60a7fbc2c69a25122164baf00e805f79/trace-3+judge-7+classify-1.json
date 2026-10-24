@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"grafana/skills/dpm-finder",
+"revision":"cc33318b60a7fbc2c69a25122164baf00e805f79",
+"trace":{"path":"traces/grafana/skills/dpm-finder/cc33318b60a7fbc2c69a25122164baf00e805f79/trace-3+judge-7.json","sha256":"8b2c57613d33f7ac393a24f265495804a7895e152f79fcf3198e501cb8c239f9"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":5770,"own":{"files":2,"bytes":5770},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","gcx","jq"],"package":[],"mcp-server":[],"credential":["PROMETHEUS_API_KEY"],"network":["github.com"]},"summary":"2 files, 5.6 KiB · CLI docker, gcx +1 · 1 key · 1 host","short":"5.6 KiB · 3 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["3 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs gcx","runs jq"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs PROMETHEUS_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/vinext/migrate-to-vinext",
+"revision":"12a64c7ed0a41960317a6bf418f763edbedef186",
+"trace":{"path":"traces/cloudflare/vinext/migrate-to-vinext/12a64c7ed0a41960317a6bf418f763edbedef186/trace-3+judge-7.json","sha256":"cd4bc24c3ae4a56138862d12ec1c14b2e34ecd6d61430401445695c68ad38efa"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":29702,"own":{"files":4,"bytes":29702},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["@vinext/cloudflare","vinext","vite","vp"],"package":["@vitejs/plugin-rsc","nitro","vinext","vite"],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 29 KiB · CLI @vinext/cloudflare, vinext +2 · packages @vitejs/plugin-rsc +3","short":"29 KiB · 4 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs @vinext/cloudflare","runs vinext","runs vite","runs vp"]},{"marker":"installs-packages","because":["installs @vitejs/plugin-rsc","installs nitro","installs vinext","installs vite"]},{"marker":"unpinned-code","because":["npx @vinext/cloudflare: .agents/skills/migrate-to-vinext/SKILL.md:34, .agents/skills/migrate-to-vinext/SKILL.md:132, .agents/skills/migrate-to-vinext/SKILL.md:185","npx vinext: .agents/skills/migrate-to-vinext/SKILL.md:39, .agents/skills/migrate-to-vinext/references/troubleshooting.md:11","npx vite: .agents/skills/migrate-to-vinext/SKILL.md:31, .agents/skills/migrate-to-vinext/SKILL.md:32, .agents/skills/migrate-to-vinext/SKILL.md:177"]}],
+"security":{"fetch-run":["npx @vinext/cloudflare @ .agents/skills/migrate-to-vinext/SKILL.md:34, .agents/skills/migrate-to-vinext/SKILL.md:132, .agents/skills/migrate-to-vinext/SKILL.md:185 +3","npx vinext @ .agents/skills/migrate-to-vinext/SKILL.md:39, .agents/skills/migrate-to-vinext/references/troubleshooting.md:11","npx vite @ .agents/skills/migrate-to-vinext/SKILL.md:31, .agents/skills/migrate-to-vinext/SKILL.md:32, .agents/skills/migrate-to-vinext/SKILL.md:177 +10"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

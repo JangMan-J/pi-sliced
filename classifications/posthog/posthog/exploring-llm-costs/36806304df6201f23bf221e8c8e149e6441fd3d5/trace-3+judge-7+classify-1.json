@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/posthog/exploring-llm-costs",
+"revision":"36806304df6201f23bf221e8c8e149e6441fd3d5",
+"trace":{"path":"traces/posthog/posthog/exploring-llm-costs/36806304df6201f23bf221e8c8e149e6441fd3d5/trace-3+judge-7.json","sha256":"ddbfa9322c7badca371be3ff2fc2b39f59a2d5484de65b0b6e065f6259acea57"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":33962,"own":{"files":7,"bytes":33962},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 33 KiB","short":"33 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"analyzing-expensive-users","path":"products/ai_observability/skills/analyzing-expensive-users"},{"name":"exploring-llm-traces","path":"products/ai_observability/skills/exploring-llm-traces"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/agent-skills/sentry-create-alert",
+"revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c",
+"trace":{"path":"traces/getsentry/agent-skills/sentry-create-alert/9f54eb021916a7cff2c04a9f4e4c1f9439f3202c/trace-3+judge-7.json","sha256":"d4dd067c921dfb859f16bb85f1068e50b5464b5864f85b2a3d2653947904849d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7464,"own":{"files":1,"bytes":7464},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["email","i","import","m","m.get","print","sys.stdin","t"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.3 KiB · CLI email, i +6","short":"7.3 KiB · 8 CLI"},
+"heavy":{"heavy":true,"because":["8 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs email","runs i","runs import","runs m","runs m.get","runs print","runs sys.stdin","runs t"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/sentry-create-alert/SKILL.md:49, skills/sentry-create-alert/SKILL.md:56, skills/sentry-create-alert/SKILL.md:62"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/sentry-create-alert/SKILL.md:49, skills/sentry-create-alert/SKILL.md:56, skills/sentry-create-alert/SKILL.md:62"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

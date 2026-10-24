@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/gws-gmail-send",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/gws-gmail-send/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"5771b2abfecf68c131717c4de702d67e70275ce87f7c32859c44f5ef7d9fdaae"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":20634,"own":{"files":1,"bytes":2626},"otherSkills":{"count":8,"files":8,"bytes":18008},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gws","jq"],"package":[],"mcp-server":[],"credential":["GOOGLE_APPLICATION_CREDENTIALS"],"network":["github.com"]},"summary":"9 files, 20 KiB · +8 other skills · CLI gws, jq · 1 key · 1 host","short":"20 KiB · +8 skills · 2 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gws","runs jq"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GOOGLE_APPLICATION_CREDENTIALS"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/gws-gmail","pulls in 1 file of the skill at skills/gws-gmail-forward","pulls in 1 file of the skill at skills/gws-gmail-read","pulls in 1 file of the skill at skills/gws-gmail-reply","pulls in 1 file of the skill at skills/gws-gmail-reply-all","pulls in 1 file of the skill at skills/gws-gmail-triage","pulls in 1 file of the skill at skills/gws-gmail-watch","pulls in 1 file of the skill at skills/gws-shared"]},{"marker":"stub","because":["own folder 2.6 KiB (1 file)","18 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/gws-gmail","files":1,"bytes":2018},{"path":"skills/gws-gmail-forward","files":1,"bytes":3102},{"path":"skills/gws-gmail-read","files":1,"bytes":1400},{"path":"skills/gws-gmail-reply","files":1,"bytes":2666},{"path":"skills/gws-gmail-reply-all","files":1,"bytes":2991},{"path":"skills/gws-gmail-triage","files":1,"bytes":1219},{"path":"skills/gws-gmail-watch","files":1,"bytes":1944},{"path":"skills/gws-shared","files":1,"bytes":2668}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

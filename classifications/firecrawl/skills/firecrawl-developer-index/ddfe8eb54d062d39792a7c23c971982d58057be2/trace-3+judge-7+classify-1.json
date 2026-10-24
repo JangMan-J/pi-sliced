@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/skills/firecrawl-developer-index",
+"revision":"ddfe8eb54d062d39792a7c23c971982d58057be2",
+"trace":{"path":"traces/firecrawl/skills/firecrawl-developer-index/ddfe8eb54d062d39792a7c23c971982d58057be2/trace-3+judge-7.json","sha256":"665af3640f30aef5857ff81a4c8ff06eab36d40e1815cf9d85271bc1e4102af8"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11305,"own":{"files":2,"bytes":11305},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["firecrawl"],"package":[],"mcp-server":[],"credential":["FIRECRAWL_API_KEY"],"network":[]},"summary":"2 files, 11 KiB · CLI firecrawl · 1 key","short":"11 KiB · 1 CLI · 1 key"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs firecrawl"]},{"marker":"credentials","because":["needs FIRECRAWL_API_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/emulate/slack",
+"revision":"361410f1e2e3872cf58c49277e5ce3174e040701",
+"trace":{"path":"traces/vercel-labs/emulate/slack/361410f1e2e3872cf58c49277e5ce3174e040701/trace-3+judge-7.json","sha256":"772d030ec732491dacbd7e9a49b492d9030fd75cc1b68b8a23ff7eedc0c5cbce"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":38968,"own":{"files":1,"bytes":38968},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["emulate"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 38 KiB · CLI emulate","short":"38 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs emulate"]},{"marker":"unpinned-code","because":["npx emulate: skills/slack/SKILL.md:19, skills/slack/SKILL.md:827"]}],
+"security":{"fetch-run":["npx emulate @ skills/slack/SKILL.md:19, skills/slack/SKILL.md:827"]},
+"companions":{"named":[{"name":"emulate","path":"skills/emulate"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

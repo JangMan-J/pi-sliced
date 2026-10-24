@@ -1,0 +1,32 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"figma/dev-mode-mcp-server-guide/figma-code-connect",
+"source":"figma/dev-mode-mcp-server-guide",
+"revision":"056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+"skillPath":"skills-figquery/figma-code-connect",
+"status":"resolved",
+"totals":{"files":3,"bytes":60134},
+"files":[
+{"path":"skills-figquery/figma-code-connect/SKILL.md","size":26669,"blob":"867ae9db76a0bdefa0ca233aab3f9b4c7dd006f9","how":"root"},
+{"path":"skills-figquery/figma-code-connect/references/advanced-patterns.md","size":10069,"blob":"09466578a7c0a8f44950c19df2dc2f137bb79e3d","how":"link","from":0,"line":283},
+{"path":"skills-figquery/figma-code-connect/references/api.md","size":23396,"blob":"fe74f3118690b7af9ae96eadafbace1e6ad773fc","how":"link","from":0,"line":328}
+],
+"outside":[
+{"kind":"cli","name":"figma","at":[[2,551],[2,557],[2,562],[2,569],[2,574],[2,582],[2,587],[2,589],[2,594],[2,595],[2,596],[2,1000]]},
+{"kind":"credential","name":"FIGMA_ACCESS_TOKEN","at":[[2,556]]},
+{"kind":"mcp-server","name":"figma","at":[[0,17]]},
+{"kind":"package","name":"@figma/code-connect","at":[[2,543]]}
+],
+"regions":[
+{"kind":"own","path":"skills-figquery/figma-code-connect","files":3,"bytes":60134}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[2,543]]},
+{"kind":"fetch-run","detail":"npx figma","at":[[2,551],[2,557],[2,562],[2,569],[2,574],[2,582],[2,587],[2,589],[2,594],[2,595],[2,596],[2,1000]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

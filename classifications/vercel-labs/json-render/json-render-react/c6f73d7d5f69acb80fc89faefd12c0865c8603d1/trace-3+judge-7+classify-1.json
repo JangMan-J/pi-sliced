@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/json-render/json-render-react",
+"revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1",
+"trace":{"path":"traces/vercel-labs/json-render/json-render-react/c6f73d7d5f69acb80fc89faefd12c0865c8603d1/trace-3+judge-7.json","sha256":"344021241e65726065836479f129044456c357a5caab673b49a8684d98dfb7fc"},
+"status":"unresolvable",
+"reason":"no skill folder named json-render-react at c6f73d7d5f69acb80fc89faefd12c0865c8603d1"
+}

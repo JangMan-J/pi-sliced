@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/skills/docx",
+"revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+"trace":{"path":"traces/anthropics/skills/docx/dbd4588f9e1033efb41dad4bef2f7947c8993d44/trace-3+judge-7.json","sha256":"2f3476fa5d2ed41ddfd6c99182e8a019fbb90cf5a63b63c8ce0ab7fbba520de5"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":47950,"own":{"files":7,"bytes":47950},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcc","pdftoppm","soffice"],"package":["defusedxml","docx","helpers","office","validators"],"mcp-server":[],"credential":[],"network":["openoffice.org","schemas.microsoft.com","schemas.openxmlformats.org"]},"summary":"7 files, 47 KiB · CLI gcc, pdftoppm +1 · packages defusedxml +4 · 3 hosts","short":"47 KiB · 3 CLI · 5 pkg · 3 hosts"},
+"heavy":{"heavy":true,"because":["5 packages to install","3 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gcc","runs pdftoppm","runs soffice"]},{"marker":"installs-packages","because":["installs defusedxml","installs docx","installs helpers","installs office","installs validators"]},{"marker":"network","because":["fetches from openoffice.org","fetches from schemas.microsoft.com","fetches from schemas.openxmlformats.org"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

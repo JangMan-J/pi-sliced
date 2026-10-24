@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/blob-success-fixture/blob-success-skill",
+"revision":"none",
+"trace":{"path":"traces/vercel-labs/blob-success-fixture/blob-success-skill/none/trace-3+judge-7.json","sha256":"230df23f06d245457b69a33e1b228ef4cef0cf9ed07c9593191dbb37adc0c49a"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/vercel-labs/blob-success-fixture.git/' not found"
+}

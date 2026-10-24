@@ -1,0 +1,34 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/agent-react-devtools/react-devtools",
+"source":"callstackincubator/agent-react-devtools",
+"revision":"d25f34b568467e0b1fcde39410410bb514829a69",
+"skillPath":"packages/agent-react-devtools/skills/react-devtools",
+"status":"resolved",
+"totals":{"files":4,"bytes":25471},
+"files":[
+{"path":"packages/agent-react-devtools/skills/react-devtools/SKILL.md","size":8536,"blob":"e3e1e19816e427bb146d7e136f68065eeafd33bd","how":"root"},
+{"path":"packages/agent-react-devtools/skills/react-devtools/references/commands.md","size":6611,"blob":"28028fac464cfa9df6f21e6d3f0828a3b6d64a0d","how":"link","from":0,"line":180},
+{"path":"packages/agent-react-devtools/skills/react-devtools/references/profiling-guide.md","size":5175,"blob":"e07ccf2130b307cde748ab941e84f4443b513e5f","how":"link","from":0,"line":181},
+{"path":"packages/agent-react-devtools/skills/react-devtools/references/setup.md","size":5149,"blob":"a86196ce148ed1a0bbb1cbe5072ad7daaf96b689","how":"link","from":0,"line":170}
+],
+"outside":[
+{"kind":"cli","name":"adb","at":[[3,121]]},
+{"kind":"cli","name":"agent-browser","at":[[0,163],[3,170]]},
+{"kind":"cli","name":"agent-react-devtools","at":[[0,13],[0,23],[0,24],[0,25],[0,26],[0,27],[0,33],[0,34],[0,35],[0,36],[0,37],[0,38],[0,39],[0,45],[0,46],[0,47],[0,48],[0,49],[0,50],[0,51],[0,52],[0,53],[0,54],[0,55],[0,56],[0,57],[0,113],[0,114],[0,122],[0,124],[0,125],[0,126],[0,134],[0,135],[0,136],[0,144],[0,145],[0,151],[0,153],[0,154],[0,164],[0,170],[1,41],[1,90],[1,102],[2,6],[2,8],[2,9],[2,19],[2,20],[2,21],[2,29],[2,35],[2,42],[2,47],[2,59],[2,77],[2,90],[2,92],[2,93],[2,105],[2,106],[2,115],[2,117],[2,118],[2,121],[2,123],[2,124],[2,127],[3,11],[3,19],[3,120],[3,123],[3,124],[3,147],[3,173]]},
+{"kind":"cli","name":"react-native","at":[[3,122]]},
+{"kind":"package","name":"agent-react-devtools","at":[[3,73]]}
+],
+"regions":[
+{"kind":"own","path":"packages/agent-react-devtools/skills/react-devtools","files":4,"bytes":25471}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx agent-react-devtools","at":[[0,170],[3,11],[3,19]]},
+{"kind":"fetch-run","detail":"npx react-native","at":[[3,122]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

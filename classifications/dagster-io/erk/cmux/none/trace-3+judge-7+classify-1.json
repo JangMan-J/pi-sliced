@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/erk/cmux",
+"revision":"none",
+"trace":{"path":"traces/dagster-io/erk/cmux/none/trace-3+judge-7.json","sha256":"d210d107db083102a7fac3b77e899ff7a503d87db6d9187312f285785443d02e"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/dagster-io/erk.git/' not found"
+}

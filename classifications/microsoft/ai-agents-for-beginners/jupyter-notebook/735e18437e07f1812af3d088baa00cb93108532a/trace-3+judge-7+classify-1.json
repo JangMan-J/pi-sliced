@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/ai-agents-for-beginners/jupyter-notebook",
+"revision":"735e18437e07f1812af3d088baa00cb93108532a",
+"trace":{"path":"traces/microsoft/ai-agents-for-beginners/jupyter-notebook/735e18437e07f1812af3d088baa00cb93108532a/trace-3+judge-7.json","sha256":"bc99834ae690c92164f02c9fbff7dea19a19f185e74b8bfea807d13fd70a6680"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":16007,"own":{"files":8,"bytes":16007},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["ipykernel","jupyterlab"],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 16 KiB · packages ipykernel +1","short":"16 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs ipykernel","installs jupyterlab"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

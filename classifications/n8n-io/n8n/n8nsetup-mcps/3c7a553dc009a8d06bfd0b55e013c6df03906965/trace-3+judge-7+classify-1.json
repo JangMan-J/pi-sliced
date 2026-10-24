@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8nsetup-mcps",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8nsetup-mcps/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"b1eab873d1f82c078ec8f03cf40e3e3d87d09c23b7a09b63a9971257359f933a"},
+"status":"unresolvable",
+"reason":"no skill folder named n8nsetup-mcps at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

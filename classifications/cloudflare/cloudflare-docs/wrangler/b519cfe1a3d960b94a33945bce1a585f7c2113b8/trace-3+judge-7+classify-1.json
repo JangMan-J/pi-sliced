@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/cloudflare-docs/wrangler",
+"revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8",
+"trace":{"path":"traces/cloudflare/cloudflare-docs/wrangler/b519cfe1a3d960b94a33945bce1a585f7c2113b8/trace-3+judge-7.json","sha256":"279b7cc43c744450720173d5443ef05a617bb87f18abbb6b73d8b54415b9f651"},
+"status":"unresolvable",
+"reason":"no skill folder named wrangler at b519cfe1a3d960b94a33945bce1a585f7c2113b8"
+}

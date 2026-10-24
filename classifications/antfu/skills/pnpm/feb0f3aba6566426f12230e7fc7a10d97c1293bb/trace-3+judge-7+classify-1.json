@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"antfu/skills/pnpm",
+"revision":"feb0f3aba6566426f12230e7fc7a10d97c1293bb",
+"trace":{"path":"traces/antfu/skills/pnpm/feb0f3aba6566426f12230e7fc7a10d97c1293bb/trace-3+judge-7.json","sha256":"b65dea3e1c1bbe0cf80827ae6fda4e80ae34ea19dd58d0d6e034f2b123bf4b43"},
+"status":"resolved",
+"footprint":{"files":20,"bytes":114722,"own":{"files":20,"bytes":114722},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Fixes","degit","lerna","major","minor","pnpx","pnx"],"package":["@changesets/cli","@myorg/core","@myorg/pnpm-plugin-my-catalogs","@myorg/types","@myorg/utils","crate:serde","esbuild","eslint,prettier","foo","is-odd","lodash","lodash4","my-bundler","my-configs","node","prettier","pypi","pypi:","pypi:httpx","pypi:pytest","react","react-dom","react17","react18","request","typescript","work:","yarn"],"mcp-server":[],"credential":[],"network":["get.pnpm.io","github.com"]},"summary":"20 files, 112 KiB · CLI Fixes, degit +5 · packages @changesets/cli +27 · 2 hosts","short":"112 KiB · 7 CLI · 28 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["28 packages to install","7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs degit","runs Fixes","runs lerna","runs major","runs minor","runs pnpx","runs pnx"]},{"marker":"installs-packages","because":["installs @changesets/cli","installs @myorg/core","installs @myorg/pnpm-plugin-my-catalogs","installs @myorg/types","installs @myorg/utils","installs crate:serde","installs esbuild","installs eslint,prettier","installs foo","installs is-odd","installs lodash","installs lodash4","installs my-bundler","installs my-configs","installs node","installs prettier","installs pypi","installs pypi:","installs pypi:httpx","installs pypi:pytest","installs react","installs react-dom","installs react17","installs react18","installs request","installs typescript","installs work:","installs yarn"]},{"marker":"network","because":["fetches from get.pnpm.io","fetches from github.com"]},{"marker":"unpinned-code","because":["pipe to interpreter: skills/pnpm/references/best-practices-ci.md:17","pnpm dlx degit: skills/pnpm/references/core-cli.md:55"]}],
+"security":{"fetch-run":["pipe to interpreter @ skills/pnpm/references/best-practices-ci.md:17","pnpm dlx degit @ skills/pnpm/references/core-cli.md:55"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

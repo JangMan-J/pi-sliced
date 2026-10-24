@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-cosmos-db-py",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-cosmos-db-py/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"807b5b354b4ae07d7196ce45cc8022dc5d10d9d8857003fbca5595b4acd94896"},
+"status":"resolved",
+"footprint":{"files":9,"bytes":84725,"own":{"files":9,"bytes":84725},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["az"],"package":["app","azure","azure-cosmos","azure-identity","pytest","starlette"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","COSMOS_KEY"],"network":[]},"summary":"9 files, 83 KiB · CLI az · packages app +5 · 2 keys","short":"83 KiB · 1 CLI · 6 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["6 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs az"]},{"marker":"installs-packages","because":["installs app","installs azure","installs azure-cosmos","installs azure-identity","installs pytest","installs starlette"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs COSMOS_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

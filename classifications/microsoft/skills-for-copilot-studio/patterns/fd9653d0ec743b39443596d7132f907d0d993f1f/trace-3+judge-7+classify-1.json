@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-copilot-studio/patterns",
+"revision":"fd9653d0ec743b39443596d7132f907d0d993f1f",
+"trace":{"path":"traces/microsoft/skills-for-copilot-studio/patterns/fd9653d0ec743b39443596d7132f907d0d993f1f/trace-3+judge-7.json","sha256":"1104658d44a3876306dd1e7ff796a004f48075525de2efe163cf5ec40303b3d3"},
+"status":"unresolvable",
+"reason":"no skill folder named patterns at fd9653d0ec743b39443596d7132f907d0d993f1f"
+}

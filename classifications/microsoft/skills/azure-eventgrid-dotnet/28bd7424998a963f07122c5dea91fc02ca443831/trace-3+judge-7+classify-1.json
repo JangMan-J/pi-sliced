@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-eventgrid-dotnet",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-eventgrid-dotnet/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"d9b639495328e14332108077902b49342d7347e854b094f604d5c282efa510a6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":14014,"own":{"files":1,"bytes":14014},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["dotnet"],"package":["Azure.Identity","Azure.Messaging.EventGrid","Azure.Messaging.EventGrid.Namespaces","Microsoft.Azure.Messaging.EventGrid.CloudNativeCloudEvents","Microsoft.Azure.WebJobs.Extensions.EventGrid"],"mcp-server":[],"credential":["AZURE_TOKEN_CREDENTIALS","EVENT_GRID_TOPIC_KEY"],"network":[]},"summary":"1 file, 14 KiB · CLI dotnet · packages Azure.Identity +4 · 2 keys","short":"14 KiB · 1 CLI · 5 pkg · 2 keys"},
+"heavy":{"heavy":true,"because":["5 packages to install","1 CLI","2 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs dotnet"]},{"marker":"installs-packages","because":["installs Azure.Identity","installs Azure.Messaging.EventGrid","installs Azure.Messaging.EventGrid.Namespaces","installs Microsoft.Azure.Messaging.EventGrid.CloudNativeCloudEvents","installs Microsoft.Azure.WebJobs.Extensions.EventGrid"]},{"marker":"credentials","because":["needs AZURE_TOKEN_CREDENTIALS","needs EVENT_GRID_TOPIC_KEY"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills/azure-identity-ts",
+"revision":"28bd7424998a963f07122c5dea91fc02ca443831",
+"trace":{"path":"traces/microsoft/skills/azure-identity-ts/28bd7424998a963f07122c5dea91fc02ca443831/trace-3+judge-7.json","sha256":"a10cb8d0a9c7e1d51da573db7d29d1d38dbb429374c65bad0959fec9c3c8a430"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7954,"own":{"files":1,"bytes":7954},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@azure/identity","@azure/identity-vscode"],"mcp-server":[],"credential":["AZURE_CLIENT_CERTIFICATE_PASSWORD","AZURE_CLIENT_SECRET","AZURE_TOKEN_CREDENTIALS"],"network":[]},"summary":"1 file, 7.8 KiB · packages @azure/identity +1 · 3 keys","short":"7.8 KiB · 2 pkg · 3 keys"},
+"heavy":{"heavy":true,"because":["2 packages to install","3 credentials"]},
+"markers":[{"marker":"installs-packages","because":["installs @azure/identity","installs @azure/identity-vscode"]},{"marker":"credentials","because":["needs AZURE_CLIENT_CERTIFICATE_PASSWORD","needs AZURE_CLIENT_SECRET","needs AZURE_TOKEN_CREDENTIALS"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

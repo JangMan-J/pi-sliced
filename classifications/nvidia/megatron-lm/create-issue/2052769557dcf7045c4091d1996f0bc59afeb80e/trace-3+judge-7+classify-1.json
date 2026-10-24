@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/megatron-lm/create-issue",
+"revision":"2052769557dcf7045c4091d1996f0bc59afeb80e",
+"trace":{"path":"traces/nvidia/megatron-lm/create-issue/2052769557dcf7045c4091d1996f0bc59afeb80e/trace-3+judge-7.json","sha256":"9e14e93ece7b8f88e1d47bb672c91b817e3562c5cb33319396af869b0c6d1bcb"},
+"status":"unresolvable",
+"reason":"no skill folder named create-issue at 2052769557dcf7045c4091d1996f0bc59afeb80e"
+}

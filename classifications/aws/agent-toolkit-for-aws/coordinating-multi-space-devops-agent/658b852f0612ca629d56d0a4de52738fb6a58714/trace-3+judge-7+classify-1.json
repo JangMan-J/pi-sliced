@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/coordinating-multi-space-devops-agent",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/coordinating-multi-space-devops-agent/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"949209d7b7433488af01aa03a1a6b688b3c04067b30f9dab171f01c8b403d5d9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7098,"own":{"files":1,"bytes":7098},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.9 KiB","short":"6.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"chatting-with-aws-devops-agent","path":"plugins/aws-agents-for-devsecops/skills/chatting-with-aws-devops-agent"},{"name":"investigating-incidents-with-aws-devops-agent","path":"plugins/aws-agents-for-devsecops/skills/investigating-incidents-with-aws-devops-agent"},{"name":"setup-devops-agent","path":"plugins/aws-agents-for-devsecops/skills/setup-devops-agent"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

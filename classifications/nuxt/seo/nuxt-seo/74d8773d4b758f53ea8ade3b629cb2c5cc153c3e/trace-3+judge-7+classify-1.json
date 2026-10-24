@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nuxt/seo/nuxt-seo",
+"revision":"74d8773d4b758f53ea8ade3b629cb2c5cc153c3e",
+"trace":{"path":"traces/nuxt/seo/nuxt-seo/74d8773d4b758f53ea8ade3b629cb2c5cc153c3e/trace-3+judge-7.json","sha256":"77f41168a09d4439b775c6d6bf8af7c27df37c0abeb87bd957139c8bb4eb5947"},
+"status":"unresolvable",
+"reason":"no skill folder named nuxt-seo at 74d8773d4b758f53ea8ade3b629cb2c5cc153c3e"
+}

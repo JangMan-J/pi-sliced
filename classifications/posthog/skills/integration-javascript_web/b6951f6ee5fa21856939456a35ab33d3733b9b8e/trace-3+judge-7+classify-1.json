@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"posthog/skills/integration-javascript_web",
+"revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e",
+"trace":{"path":"traces/posthog/skills/integration-javascript_web/b6951f6ee5fa21856939456a35ab33d3733b9b8e/trace-3+judge-7.json","sha256":"fda5bb10c9cbad6421367adde5ad0f1c6fbbb99765c9f6c0209495e40d191d32"},
+"status":"resolved",
+"footprint":{"files":8,"bytes":74751,"own":{"files":8,"bytes":74751},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":["@posthog/types","posthog-js"],"mcp-server":[],"credential":[],"network":[]},"summary":"8 files, 73 KiB · packages @posthog/types +1","short":"73 KiB · 2 pkg"},
+"heavy":{"heavy":true,"because":["2 packages to install"]},
+"markers":[{"marker":"installs-packages","because":["installs @posthog/types","installs posthog-js"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

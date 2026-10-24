@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/burpsuite-project-parser",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/burpsuite-project-parser/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"6c7b2e33520ea8dad82e89c176aab94da6f8e75cdc319c564e32fe6fbe2852d9"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":16675,"own":{"files":1,"bytes":16675},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["auditItems","jq","proxyHistory","siteMap"],"package":[],"mcp-server":[],"credential":[],"network":["github.com"]},"summary":"1 file, 16 KiB · CLI auditItems, jq +2 · 1 host","short":"16 KiB · 4 CLI · 1 host"},
+"heavy":{"heavy":true,"because":["4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs auditItems","runs jq","runs proxyHistory","runs siteMap"]},{"marker":"network","because":["fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

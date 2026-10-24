@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"pytorch/pytorch/skill-writer",
+"source":"pytorch/pytorch",
+"revision":"18d8d0974472b71069c8a6d50f1262915e63cd20",
+"skillPath":".agents/skills/skill-writer",
+"status":"resolved",
+"totals":{"files":1,"bytes":9647},
+"files":[
+{"path":".agents/skills/skill-writer/SKILL.md","size":9647,"blob":"131a7b7019102d0eb96b002e30e77f61355b6a08","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"claude","at":[[0,262]]}
+],
+"regions":[
+{"kind":"own","path":".agents/skills/skill-writer","files":1,"bytes":9647}
+],
+"signals":[
+{"kind":"persist-write","detail":"skill folder","at":[[0,55],[0,58]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"BSD-3-Clause","frontmatter":null}
+}

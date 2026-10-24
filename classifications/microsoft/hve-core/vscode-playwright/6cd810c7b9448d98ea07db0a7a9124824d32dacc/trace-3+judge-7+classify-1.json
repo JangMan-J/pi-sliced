@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/hve-core/vscode-playwright",
+"revision":"6cd810c7b9448d98ea07db0a7a9124824d32dacc",
+"trace":{"path":"traces/microsoft/hve-core/vscode-playwright/6cd810c7b9448d98ea07db0a7a9124824d32dacc/trace-3+judge-7.json","sha256":"4ef263d1a4952982d37d1e75b71688338d841eb12fcfc293338a438d11f5eda3"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":46325,"own":{"files":3,"bytes":46325},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["pkill","vscode"],"package":["playwright","pyyaml"],"mcp-server":["individual","playwright"],"credential":[],"network":["scene.invalid"]},"summary":"3 files, 45 KiB · MCP individual, playwright · CLI pkill, vscode · packages playwright +1 · 1 host","short":"45 KiB · 2 CLI · 2 pkg · 1 host · MCP 2"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 MCP servers","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs pkill","runs vscode"]},{"marker":"installs-packages","because":["installs playwright","installs pyyaml"]},{"marker":"network","because":["fetches from scene.invalid"]},{"marker":"mcp-server","because":["uses the individual MCP server","uses the playwright MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"demo-video","path":".github/skills/experimental/demo-video"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

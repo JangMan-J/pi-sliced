@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/openai-cli",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/openai-cli/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"9fc0127bc461277e58ad1b694c11c7c6bc5ce70c8ed53176f19108ec8f2676aa"},
+"status":"unresolvable",
+"reason":"no skill folder named openai-cli at 49f948faa9258a0c61caceaf225e179651397431"
+}

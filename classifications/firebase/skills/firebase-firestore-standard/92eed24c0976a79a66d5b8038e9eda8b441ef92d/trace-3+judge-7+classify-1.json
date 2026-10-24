@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/skills/firebase-firestore-standard",
+"revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d",
+"trace":{"path":"traces/firebase/skills/firebase-firestore-standard/92eed24c0976a79a66d5b8038e9eda8b441ef92d/trace-3+judge-7.json","sha256":"6f299c4147a80acf7295116d8078315523f6fc8cbaaee4c38cb5e59ab6659620"},
+"status":"unresolvable",
+"reason":"no skill folder named firebase-firestore-standard at 92eed24c0976a79a66d5b8038e9eda8b441ef92d"
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"brave/brave-core/review",
+"revision":"1e6f00267d382150bac8f87266a163d36e609eb8",
+"trace":{"path":"traces/brave/brave-core/review/1e6f00267d382150bac8f87266a163d36e609eb8/trace-3+judge-7.json","sha256":"f8222f794b8716c381ad71d85edd1a483a65ddc938f8bf048477430b7cfe258d"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":41705,"own":{"files":1,"bytes":41705},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh","gitbranch","gitdiff","gitlog","gitmerge-base","gitrev-parse","vpython3"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 41 KiB · CLI gh, gitbranch +5","short":"41 KiB · 7 CLI"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs gh","runs gitbranch","runs gitdiff","runs gitlog","runs gitmerge-base","runs gitrev-parse","runs vpython3"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

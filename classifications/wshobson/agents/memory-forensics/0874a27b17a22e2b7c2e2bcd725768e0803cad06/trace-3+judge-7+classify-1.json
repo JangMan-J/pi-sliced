@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wshobson/agents/memory-forensics",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"trace":{"path":"traces/wshobson/agents/memory-forensics/0874a27b17a22e2b7c2e2bcd725768e0803cad06/trace-3+judge-7.json","sha256":"c16da58fdc6e8e2cafc2eb8282da2481f9de503798a5e1d5a182f9b8425174f4"},
+"status":"resolved",
+"footprint":{"files":2,"bytes":11147,"own":{"files":2,"bytes":11147},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["DumpIt.exe","dd","floss","insmod","strings","vboxmanage","virsh","vol","winpmem_mini_x64.exe"],"package":["volatility3"],"mcp-server":[],"credential":[],"network":[]},"summary":"2 files, 11 KiB · CLI DumpIt.exe, dd +7 · packages volatility3","short":"11 KiB · 9 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","9 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs dd","runs DumpIt.exe","runs floss","runs insmod","runs strings","runs vboxmanage","runs virsh","runs vol","runs winpmem_mini_x64.exe"]},{"marker":"installs-packages","because":["installs volatility3"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

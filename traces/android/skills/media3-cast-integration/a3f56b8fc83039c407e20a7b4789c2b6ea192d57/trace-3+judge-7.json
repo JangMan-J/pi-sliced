@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"android/skills/media3-cast-integration",
+"source":"android/skills",
+"revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57",
+"skillPath":"media/media3-cast-integration",
+"status":"resolved",
+"totals":{"files":4,"bytes":29314},
+"files":[
+{"path":"media/media3-cast-integration/SKILL.md","size":10723,"blob":"d4ce98a3edadd96d15f5e2426c1f015c725f8e2c","how":"root"},
+{"path":"media/media3-cast-integration/references/android/media/media3/cast/create-castplayer.md","size":14305,"blob":"0099bc5444516a985d19826a4f2965f4df61520b","how":"path","from":0,"line":60},
+{"path":"media/media3-cast-integration/references/android/media/media3/cast/customize-castoptions.md","size":2960,"blob":"e5e5b3eeeccbb006c174725eb6f54fc5947f6c40","how":"link","from":0,"line":78},
+{"path":"media/media3-cast-integration/references/android/media/media3/cast/index.md","size":1326,"blob":"801a0e90ec4cae37da2e2129732d6694f781626d","how":"link","from":0,"line":38}
+],
+"outside":[
+{"kind":"network","name":"developer.android.com","at":[[3,14]]}
+],
+"regions":[
+{"kind":"own","path":"media/media3-cast-integration","files":4,"bytes":29314}
+],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.txt","spdx":"Apache-2.0","frontmatter":"Complete terms in LICENSE.txt"}
+}

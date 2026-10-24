@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"coderabbitai/claude-plugin/code-review",
+"revision":"none",
+"trace":{"path":"traces/coderabbitai/claude-plugin/code-review/none/trace-3+judge-7.json","sha256":"d77fcdbdbfea678bf47194431d872157bbde2200317f20f5aed36c427e05068f"},
+"status":"unresolvable",
+"reason":"source does not resolve: fatal: repository 'https://github.com/coderabbitai/claude-plugin.git/' not found"
+}

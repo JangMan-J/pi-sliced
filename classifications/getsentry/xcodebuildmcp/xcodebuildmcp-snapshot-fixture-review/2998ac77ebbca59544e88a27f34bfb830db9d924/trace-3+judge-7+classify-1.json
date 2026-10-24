@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/xcodebuildmcp/xcodebuildmcp-snapshot-fixture-review",
+"revision":"2998ac77ebbca59544e88a27f34bfb830db9d924",
+"trace":{"path":"traces/getsentry/xcodebuildmcp/xcodebuildmcp-snapshot-fixture-review/2998ac77ebbca59544e88a27f34bfb830db9d924/trace-3+judge-7.json","sha256":"b0a4b2b6e88a3c2e1e882bfdab11699b29cd48d69702238dd02a3910272b2751"},
+"status":"unresolvable",
+"reason":"no skill folder named xcodebuildmcp-snapshot-fixture-review at 2998ac77ebbca59544e88a27f34bfb830db9d924"
+}

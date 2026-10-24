@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"trailofbits/skills/trailmark-finding-triage",
+"revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1",
+"trace":{"path":"traces/trailofbits/skills/trailmark-finding-triage/a3131740a39291e42fd15b9eac07e0b393ad71b1/trace-3+judge-7.json","sha256":"42a21d84310f8ba9bd731567df49b7c869e176d2aaa299956b3fb732093b7615"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":13833,"own":{"files":4,"bytes":13833},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 14 KiB","short":"14 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"audit-augmentation","path":"plugins/trailmark/skills/audit-augmentation"},{"name":"graph-evolution","path":"plugins/trailmark/skills/graph-evolution"},{"name":"trailmark","path":"plugins/trailmark/skills/trailmark"},{"name":"trailmark-variant-neighborhood","path":"plugins/trailmark/skills/trailmark-variant-neighborhood"},{"name":"variant-analysis","path":"plugins/variant-analysis/skills/variant-analysis"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

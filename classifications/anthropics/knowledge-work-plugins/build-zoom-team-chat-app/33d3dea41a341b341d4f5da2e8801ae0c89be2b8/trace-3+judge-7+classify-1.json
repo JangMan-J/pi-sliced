@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/knowledge-work-plugins/build-zoom-team-chat-app",
+"revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+"trace":{"path":"traces/anthropics/knowledge-work-plugins/build-zoom-team-chat-app/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/trace-3+judge-7.json","sha256":"b4a62828700eb4b1eb5ee41b627716e7db0fa521a85a53cf56302d45288fc10c"},
+"status":"resolved",
+"footprint":{"files":38,"bytes":116771,"own":{"files":38,"bytes":116771},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ngrok"],"package":["dotenv","express","ngrok","node-fetch"],"mcp-server":[],"credential":["ANTHROPIC_API_KEY","UNSPLASH_ACCESS_KEY","ZOOM_CLIENT_SECRET","ZOOM_SECRET_TOKEN","ZOOM_VERIFICATION_TOKEN"],"network":["marketplace.zoom.us","zoom.us"]},"summary":"38 files, 114 KiB · CLI ngrok · packages dotenv +3 · 5 keys · 2 hosts","short":"114 KiB · 1 CLI · 4 pkg · 5 keys · 2 hosts"},
+"heavy":{"heavy":true,"because":["4 packages to install","1 CLI","5 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs ngrok"]},{"marker":"installs-packages","because":["installs dotenv","installs express","installs ngrok","installs node-fetch"]},{"marker":"network","because":["fetches from marketplace.zoom.us","fetches from zoom.us"]},{"marker":"credentials","because":["needs ANTHROPIC_API_KEY","needs UNSPLASH_ACCESS_KEY","needs ZOOM_CLIENT_SECRET","needs ZOOM_SECRET_TOKEN","needs ZOOM_VERIFICATION_TOKEN"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

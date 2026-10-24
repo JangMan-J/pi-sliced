@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/paidf-augmentation",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/paidf-augmentation/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"a675755f45aa2308fce11b0c4e44d966e426edd663ba97bb8ca4b1d8ab8a9a97"},
+"status":"unresolvable",
+"reason":"no skill folder named paidf-augmentation at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf (the archive had skills/paidf-augmentation)"
+}

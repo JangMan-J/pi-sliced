@@ -1,0 +1,37 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"apollographql/skills/apollo-connectors",
+"source":"apollographql/skills",
+"revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c",
+"skillPath":"skills/apollo-connectors",
+"status":"resolved",
+"totals":{"files":7,"bytes":47863},
+"files":[
+{"path":"skills/apollo-connectors/SKILL.md","size":7335,"blob":"83daf94c9a1337735730af96ca0fb4fe336e4690","how":"root"},
+{"path":"skills/apollo-connectors/references/entities.md","size":7063,"blob":"9f6e44aacbfca65b233666151314f259295dabde","how":"link","from":0,"line":125},
+{"path":"skills/apollo-connectors/references/grammar.md","size":4032,"blob":"8ba00f14d920cc4c1ba7e2b363005b80d7eab3e2","how":"link","from":0,"line":122},
+{"path":"skills/apollo-connectors/references/methods.md","size":5722,"blob":"87534652beb000372346bfe3c5998e9def094c55","how":"link","from":0,"line":123},
+{"path":"skills/apollo-connectors/references/troubleshooting.md","size":8380,"blob":"d5e4c40ac06aeb0e206f96cfd453bcf09d010482","how":"link","from":0,"line":127},
+{"path":"skills/apollo-connectors/references/validation.md","size":7992,"blob":"1b09a05bf878eebad2f665223f7c994254629377","how":"link","from":0,"line":126},
+{"path":"skills/apollo-connectors/references/variables.md","size":7339,"blob":"7adbea25e6e9fc1190b81d1abb87348031bb10eb","how":"link","from":0,"line":124}
+],
+"outside":[
+{"kind":"cli","name":"rover","at":[[0,64],[0,69],[5,14],[5,58],[5,61],[5,112],[5,120],[5,128],[5,136],[5,147]]},
+{"kind":"cli","name":"skills","at":[[0,28]]},
+{"kind":"network","name":"specs.apollo.dev","at":[[0,113],[0,114]]}
+],
+"regions":[
+{"kind":"own","path":"skills/apollo-connectors","files":7,"bytes":47863}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,28]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,28]]}
+],
+"namedSkills":[
+{"name":"graphos-factory","path":"skills/graphos-factory","at":[[0,4]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":"MIT"}
+}

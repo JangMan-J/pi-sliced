@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-claude/sentry-setup-tracing",
+"revision":"cb3ad7df272ee52326e1f710a866039aecffc460",
+"trace":{"path":"traces/getsentry/sentry-for-claude/sentry-setup-tracing/cb3ad7df272ee52326e1f710a866039aecffc460/trace-3+judge-7.json","sha256":"81c325fcd339e681a27f754eafc45e33a4cab9212ea921b7f98e526c4edbe2cd"},
+"status":"unresolvable",
+"reason":"no skill folder named sentry-setup-tracing at cb3ad7df272ee52326e1f710a866039aecffc460"
+}

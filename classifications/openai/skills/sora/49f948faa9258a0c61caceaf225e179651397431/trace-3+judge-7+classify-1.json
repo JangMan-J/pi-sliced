@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/skills/sora",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"trace":{"path":"traces/openai/skills/sora/49f948faa9258a0c61caceaf225e179651397431/trace-3+judge-7.json","sha256":"9d9abb2f9fc65240bb3972a8059a214baa42edb36d6ac0d7c64e0cd78a3f0472"},
+"status":"unresolvable",
+"reason":"no skill folder named sora at 49f948faa9258a0c61caceaf225e179651397431"
+}

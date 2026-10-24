@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"huggingface/diffusers/testing-parity",
+"revision":"48cdbaef5ee3d718aaee392b44f2099ae511c4a5",
+"trace":{"path":"traces/huggingface/diffusers/testing-parity/48cdbaef5ee3d718aaee392b44f2099ae511c4a5/trace-3+judge-7.json","sha256":"ad2f399e1bd5e8e3d2c9b529a65b3c5b4fed1df65efe725372a94b923d9540b9"},
+"status":"unresolvable",
+"reason":"no skill folder named testing-parity at 48cdbaef5ee3d718aaee392b44f2099ae511c4a5"
+}

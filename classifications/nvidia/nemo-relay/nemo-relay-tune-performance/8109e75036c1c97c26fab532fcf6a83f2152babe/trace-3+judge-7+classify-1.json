@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemo-relay/nemo-relay-tune-performance",
+"revision":"8109e75036c1c97c26fab532fcf6a83f2152babe",
+"trace":{"path":"traces/nvidia/nemo-relay/nemo-relay-tune-performance/8109e75036c1c97c26fab532fcf6a83f2152babe/trace-3+judge-7.json","sha256":"9896b9d22d953e8054f97be5d55d8d361c3733e2bbe630eacef941a4c2fa8502"},
+"status":"unresolvable",
+"reason":"no skill folder named nemo-relay-tune-performance at 8109e75036c1c97c26fab532fcf6a83f2152babe"
+}

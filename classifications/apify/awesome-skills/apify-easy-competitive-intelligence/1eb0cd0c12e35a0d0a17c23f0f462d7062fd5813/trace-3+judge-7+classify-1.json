@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"apify/awesome-skills/apify-easy-competitive-intelligence",
+"revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813",
+"trace":{"path":"traces/apify/awesome-skills/apify-easy-competitive-intelligence/1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813/trace-3+judge-7.json","sha256":"ba1ce0263564ae3b28c0612dc8d7011c78140f04033b525d2b840d5715e98485"},
+"status":"resolved",
+"footprint":{"files":11,"bytes":33575,"own":{"files":11,"bytes":33575},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["apify","jq"],"package":["apify-cli"],"mcp-server":["apify"],"credential":["APIFY_TOKEN"],"network":[]},"summary":"11 files, 33 KiB · MCP apify · CLI apify, jq · packages apify-cli · 1 key","short":"33 KiB · 2 CLI · 1 pkg · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 package to install","1 MCP server","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs apify","runs jq"]},{"marker":"installs-packages","because":["installs apify-cli"]},{"marker":"credentials","because":["needs APIFY_TOKEN"]},{"marker":"mcp-server","because":["uses the apify MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

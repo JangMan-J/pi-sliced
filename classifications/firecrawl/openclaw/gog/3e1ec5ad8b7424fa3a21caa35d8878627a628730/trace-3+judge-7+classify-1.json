@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/openclaw/gog",
+"revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730",
+"trace":{"path":"traces/firecrawl/openclaw/gog/3e1ec5ad8b7424fa3a21caa35d8878627a628730/trace-3+judge-7.json","sha256":"eaf22a597d02df1bdc3be3e607d3f9d5d999506be4e0aaf2227d51f872a4facc"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":4572,"own":{"files":1,"bytes":4572},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Best","Hi","Thanks","Your","gog"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 4.5 KiB · CLI Best, Hi +3","short":"4.5 KiB · 5 CLI"},
+"heavy":{"heavy":true,"because":["5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Best","runs gog","runs Hi","runs Thanks","runs Your"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openai/plugins/twilio-sendgrid-email-send",
+"revision":"0722921d5542fc593105c27bd52630babd8b8c2a",
+"trace":{"path":"traces/openai/plugins/twilio-sendgrid-email-send/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json","sha256":"c703ed4d230dcf57e8300f181216682ae401defd8961a709f990ac931a3dcf12"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6767,"own":{"files":1,"bytes":6767},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.6 KiB","short":"6.6 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"twilio-sendgrid-account-setup","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-account-setup"},{"name":"twilio-sendgrid-email-settings","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-email-settings"},{"name":"twilio-sendgrid-suppressions","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-suppressions"},{"name":"twilio-sendgrid-webhooks","path":"plugins/twilio-developer-kit/skills/twilio-sendgrid-webhooks"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/firecrawl-claude-plugin/firecrawl-scrape",
+"revision":"3e1fb0c319d71b067906b8b602208dded3932cdb",
+"trace":{"path":"traces/firecrawl/firecrawl-claude-plugin/firecrawl-scrape/3e1fb0c319d71b067906b8b602208dded3932cdb/trace-3+judge-7.json","sha256":"6db0dad7158c2192637f79b5fdec5209ac023f98918b68e6c30a7c844d2896cf"},
+"status":"unresolvable",
+"reason":"no skill folder named firecrawl-scrape at 3e1fb0c319d71b067906b8b602208dded3932cdb"
+}

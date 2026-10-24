@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"getsentry/sentry-for-ai/sentry-instrumentation-guide",
+"revision":"16a86de9eb0e33948c32ccd722958203c21098af",
+"trace":{"path":"traces/getsentry/sentry-for-ai/sentry-instrumentation-guide/16a86de9eb0e33948c32ccd722958203c21098af/trace-3+judge-7.json","sha256":"064524e82fa3646e2778c0d59fe2188a756ea4e22b243cd4d10275a5d863ec01"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":24682,"own":{"files":3,"bytes":24682},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 24 KiB","short":"24 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"sentry-nextjs-sdk","path":"skills-legacy/sentry-nextjs-sdk"},{"name":"sentry-node-sdk","path":"skills-legacy/sentry-node-sdk"},{"name":"sentry-python-sdk","path":"skills-legacy/sentry-python-sdk"},{"name":"sentry-setup-ai-monitoring","path":"skills-legacy/sentry-setup-ai-monitoring"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

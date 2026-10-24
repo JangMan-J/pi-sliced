@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firebase/firebase-tools/resolve-docker-vulnerabilities",
+"revision":"926b3fe846dd861f5743e50d45f3475bac6fa209",
+"trace":{"path":"traces/firebase/firebase-tools/resolve-docker-vulnerabilities/926b3fe846dd861f5743e50d45f3475bac6fa209/trace-3+judge-7.json","sha256":"20f2ed5080d82d16fbffc7e5569cfc09c78f7220c1c7475f6487c11d16054983"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2630,"own":{"files":1,"bytes":2630},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gcloud"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.6 KiB · CLI gcloud","short":"2.6 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gcloud"]},{"marker":"stub","because":["own folder 2.6 KiB (1 file)","content is the gcloud it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

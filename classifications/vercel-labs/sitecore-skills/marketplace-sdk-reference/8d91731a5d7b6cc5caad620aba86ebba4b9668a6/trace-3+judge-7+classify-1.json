@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel-labs/sitecore-skills/marketplace-sdk-reference",
+"revision":"8d91731a5d7b6cc5caad620aba86ebba4b9668a6",
+"trace":{"path":"traces/vercel-labs/sitecore-skills/marketplace-sdk-reference/8d91731a5d7b6cc5caad620aba86ebba4b9668a6/trace-3+judge-7.json","sha256":"01749845b5d210a8486755c96ff6035acf4a160d7ec0621e09665b998ec9029d"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":9989,"own":{"files":4,"bytes":9989},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"4 files, 9.8 KiB","short":"9.8 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

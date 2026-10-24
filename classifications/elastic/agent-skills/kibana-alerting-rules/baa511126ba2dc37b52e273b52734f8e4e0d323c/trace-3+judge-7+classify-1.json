@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"elastic/agent-skills/kibana-alerting-rules",
+"revision":"baa511126ba2dc37b52e273b52734f8e4e0d323c",
+"trace":{"path":"traces/elastic/agent-skills/kibana-alerting-rules/baa511126ba2dc37b52e273b52734f8e4e0d323c/trace-3+judge-7.json","sha256":"c1d3bc6a6cdfc90f5c7a39a0a3a27838255fa38b062d3d2e816b62af526a8c2c"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":26750,"own":{"files":3,"bytes":26750},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["elastic"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 26 KiB · CLI elastic","short":"26 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs elastic"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

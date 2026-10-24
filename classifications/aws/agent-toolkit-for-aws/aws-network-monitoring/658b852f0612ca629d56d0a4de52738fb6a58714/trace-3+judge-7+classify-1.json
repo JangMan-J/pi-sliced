@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-network-monitoring",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-network-monitoring/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"e0cf69fa2715a16aed52500269e73bfb5bff79dddc793563e807479dea21a7ce"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":12481,"own":{"files":4,"bytes":12481},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws","journalctl","nc","service","yum"],"package":["network-flow-monitor-agent","network-flow-monitor-agent.rpm"],"mcp-server":["aws"],"credential":[],"network":["networkflowmonitoragent.awsstatic.com"]},"summary":"4 files, 12 KiB · MCP aws · CLI aws, journalctl +3 · packages network-flow-monitor-agent +1 · 1 host","short":"12 KiB · 5 CLI · 2 pkg · 1 host · MCP 1"},
+"heavy":{"heavy":true,"because":["2 packages to install","1 MCP server","5 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs aws","runs journalctl","runs nc","runs service","runs yum"]},{"marker":"installs-packages","because":["installs network-flow-monitor-agent","installs network-flow-monitor-agent.rpm"]},{"marker":"network","because":["fetches from networkflowmonitoragent.awsstatic.com"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[{"name":"setting-up-ec2-instance-profiles","path":"skills/specialized-skills/ec2-skills/setting-up-ec2-instance-profiles"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

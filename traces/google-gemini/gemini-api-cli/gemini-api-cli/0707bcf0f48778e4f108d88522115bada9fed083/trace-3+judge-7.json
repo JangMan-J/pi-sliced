@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"google-gemini/gemini-api-cli/gemini-api-cli",
+"source":"google-gemini/gemini-api-cli",
+"revision":"0707bcf0f48778e4f108d88522115bada9fed083",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named gemini-api-cli at 0707bcf0f48778e4f108d88522115bada9fed083",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

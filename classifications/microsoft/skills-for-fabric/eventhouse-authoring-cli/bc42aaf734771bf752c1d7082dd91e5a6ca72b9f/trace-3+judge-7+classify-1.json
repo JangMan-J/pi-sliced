@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/eventhouse-authoring-cli",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/eventhouse-authoring-cli/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"4b51624ec318122395170fd01be6861aa436a1c79f313b6b8dc1659b15054a30"},
+"status":"unresolvable",
+"reason":"no skill folder named eventhouse-authoring-cli at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

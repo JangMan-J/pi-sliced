@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/skills-for-fabric/quality-check",
+"revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f",
+"trace":{"path":"traces/microsoft/skills-for-fabric/quality-check/bc42aaf734771bf752c1d7082dd91e5a6ca72b9f/trace-3+judge-7.json","sha256":"ede225f5dda862d7fcb3c90a07779676e55f3dc074d6ac8178056b13691d1ecd"},
+"status":"unresolvable",
+"reason":"no skill folder named quality-check at bc42aaf734771bf752c1d7082dd91e5a6ca72b9f"
+}

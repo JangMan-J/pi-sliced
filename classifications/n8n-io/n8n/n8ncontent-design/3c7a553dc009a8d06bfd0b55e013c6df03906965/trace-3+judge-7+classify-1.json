@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"n8n-io/n8n/n8ncontent-design",
+"revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965",
+"trace":{"path":"traces/n8n-io/n8n/n8ncontent-design/3c7a553dc009a8d06bfd0b55e013c6df03906965/trace-3+judge-7.json","sha256":"a71915b2bad2c684fc6f9d3724c6e16d24f2b4252c46b8774cfb606eadd1c294"},
+"status":"unresolvable",
+"reason":"no skill folder named n8ncontent-design at 3c7a553dc009a8d06bfd0b55e013c6df03906965"
+}

@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wshobson/agents/web3-testing",
+"source":"wshobson/agents",
+"revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+"skillPath":"plugins/blockchain-web3/skills/web3-testing",
+"status":"resolved",
+"totals":{"files":2,"bytes":9876},
+"files":[
+{"path":"plugins/blockchain-web3/skills/web3-testing/SKILL.md","size":7906,"blob":"3f4bee6470847de524f8f4bf042de772b3bd0306","how":"root"},
+{"path":"plugins/blockchain-web3/skills/web3-testing/references/details.md","size":1970,"blob":"254501879ec6a61c2569757d5c3c01caf6ddf0f2","how":"path","from":0,"line":310}
+],
+"outside":[
+{"kind":"cli","name":"hardhat","at":[[1,37],[1,57]]}
+],
+"regions":[
+{"kind":"own","path":"plugins/blockchain-web3/skills/web3-testing","files":2,"bytes":9876}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx hardhat","at":[[1,37],[1,57]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

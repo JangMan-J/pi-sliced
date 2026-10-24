@@ -1,0 +1,1 @@
+{"id":"8760cd7373dab11adce0aea8d62b30151fe8808103c4c6df9a57bee1344916d6","pullsIn":false,"reason":"scripts/ is a bullet listing what the plugin-creator generates for the user, not a read direction.","judge":"judge-8","model":"claude-sonnet-5-5","file":".agents/skills/plugin-creator/SKILL.md","line":53,"ref":"scripts/","target":".agents/skills/plugin-creator/scripts"}

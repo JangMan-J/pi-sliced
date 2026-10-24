@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/roundup",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/roundup/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"36927a51c2e8ef40a91be8e00c037c18197b684ad20a39b2b73cfd83d517ff75"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":10361,"own":{"files":1,"bytes":10361},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":["github","slack"],"credential":[],"network":[]},"summary":"1 file, 10 KiB · MCP github, slack","short":"10 KiB · MCP 2"},
+"heavy":{"heavy":true,"because":["2 MCP servers"]},
+"markers":[{"marker":"mcp-server","because":["uses the github MCP server","uses the slack MCP server"]},{"marker":"agent-override-text","because":["\"don't tell the user\": skills/roundup/SKILL.md:38"]}],
+"security":{"injection":["don't tell the user @ skills/roundup/SKILL.md:38"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

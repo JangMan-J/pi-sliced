@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"callstackincubator/agent-device/dogfood",
+"source":"callstackincubator/agent-device",
+"revision":"c48d27a819c1af69373c2afd78862f6c747e8961",
+"skillPath":"skills/dogfood",
+"status":"resolved",
+"totals":{"files":1,"bytes":1364},
+"files":[
+{"path":"skills/dogfood/SKILL.md","size":1364,"blob":"4e2b911770e9b911b5c01ad4934bfb0e9fb99348","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"agent-device","at":[[0,12],[0,15],[0,17],[0,22]]},
+{"kind":"package","name":"agent-device","at":[[0,17]]}
+],
+"regions":[
+{"kind":"own","path":"skills/dogfood","files":1,"bytes":1364}
+],
+"signals":[
+{"kind":"fetch-run","detail":"install @latest","at":[[0,17]]},
+{"kind":"fetch-run","detail":"npx agent-device","at":[[0,15]]},
+{"kind":"fetch-run","detail":"npx agent-device@latest","at":[[0,17]]}
+],
+"namedSkills":[
+{"name":"agent-device","path":"skills/agent-device","at":[[0,15]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

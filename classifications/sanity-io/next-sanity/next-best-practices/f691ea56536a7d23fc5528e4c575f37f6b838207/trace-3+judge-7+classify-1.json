@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"sanity-io/next-sanity/next-best-practices",
+"revision":"f691ea56536a7d23fc5528e4c575f37f6b838207",
+"trace":{"path":"traces/sanity-io/next-sanity/next-best-practices/f691ea56536a7d23fc5528e4c575f37f6b838207/trace-3+judge-7.json","sha256":"ac71e39189f0d1bfdb51f2ce3925842ba7d09f881e3a037fa18c0400b42c4869"},
+"status":"unresolvable",
+"reason":"no skill folder named next-best-practices at f691ea56536a7d23fc5528e4c575f37f6b838207"
+}

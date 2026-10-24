@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/amazon-eventbridge-event-bus",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/amazon-eventbridge-event-bus/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"f6ac93f03e023ba0469730fb9e8cf8451cfd4d463007c261921d9e4ddb81c0d5"},
+"status":"resolved",
+"footprint":{"files":18,"bytes":252551,"own":{"files":18,"bytes":252551},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["aws"],"package":[],"mcp-server":["aws"],"credential":[],"network":[]},"summary":"18 files, 247 KiB · MCP aws · CLI aws","short":"247 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs aws"]},{"marker":"mcp-server","because":["uses the aws MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

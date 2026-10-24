@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/azure-developer-cli",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/azure-developer-cli/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"20ecc12e678f607d998d5ff75704861c4452f81cd1f80a57b9703432735474c2"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":31175,"own":{"files":5,"bytes":31175},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["azd"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 30 KiB · CLI azd","short":"30 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs azd"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

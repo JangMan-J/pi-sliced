@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"apify/apify-mcp-server/feature-spec",
+"source":"apify/apify-mcp-server",
+"revision":"e45c1cd6bde0b8bac2dab192f30ba77299ae6b26",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named feature-spec at e45c1cd6bde0b8bac2dab192f30ba77299ae6b26",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

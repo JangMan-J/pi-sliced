@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dotnet/skills/dotnet-trace-collect",
+"revision":"c848e7fffab05c594f9b954c6f3beb373d108447",
+"trace":{"path":"traces/dotnet/skills/dotnet-trace-collect/c848e7fffab05c594f9b954c6f3beb373d108447/trace-3+judge-7.json","sha256":"0de4f6a06160f9066c85d246e3f35e95690d0ff31fc02f44637683bddb471f02"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":46184,"own":{"files":6,"bytes":46184},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["PerfView","PerfViewCollect","docker","dotnet","dotnet-monitor","dotnet-trace","kubectl"],"package":[],"mcp-server":[],"credential":[],"network":["aka.ms","github.com"]},"summary":"6 files, 45 KiB · CLI PerfView, PerfViewCollect +5 · 2 hosts","short":"45 KiB · 7 CLI · 2 hosts"},
+"heavy":{"heavy":true,"because":["7 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs dotnet","runs dotnet-monitor","runs dotnet-trace","runs kubectl","runs PerfView","runs PerfViewCollect"]},{"marker":"network","because":["fetches from aka.ms","fetches from github.com"]}],
+"security":{},
+"companions":{"named":[{"name":"dump-collect","path":"plugins/dotnet-diag/skills/dump-collect"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

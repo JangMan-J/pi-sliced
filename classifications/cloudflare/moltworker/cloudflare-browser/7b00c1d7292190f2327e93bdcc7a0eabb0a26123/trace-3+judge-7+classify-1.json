@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"cloudflare/moltworker/cloudflare-browser",
+"revision":"7b00c1d7292190f2327e93bdcc7a0eabb0a26123",
+"trace":{"path":"traces/cloudflare/moltworker/cloudflare-browser/7b00c1d7292190f2327e93bdcc7a0eabb0a26123/trace-3+judge-7.json","sha256":"99c21cd00b9e28761a5b5d1d067d05550669b6a59a9682e8b44a4c2937eab714"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2967,"own":{"files":1,"bytes":2967},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ffmpeg"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.9 KiB · CLI ffmpeg","short":"2.9 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs ffmpeg"]},{"marker":"stub","because":["own folder 2.9 KiB (1 file)","content is the ffmpeg it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

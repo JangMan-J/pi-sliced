@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"vercel/next.js/next-dev-loop",
+"revision":"a04ebd7d22071e581f01409336e9d24be5d57974",
+"trace":{"path":"traces/vercel/next.js/next-dev-loop/a04ebd7d22071e581f01409336e9d24be5d57974/trace-3+judge-7.json","sha256":"5fca8398a6e70432d906e8d553c5ea138c67b24a997b2b2d96588c8564d0b65f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":9227,"own":{"files":1,"bytes":9227},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["agent-browser","next"],"package":["agent-browser"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 9.0 KiB · CLI agent-browser, next · packages agent-browser","short":"9.0 KiB · 2 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs agent-browser","runs next"]},{"marker":"installs-packages","because":["installs agent-browser"]},{"marker":"unpinned-code","because":["npx next: skills/next-dev-loop/SKILL.md:43"]}],
+"security":{"fetch-run":["npx next @ skills/next-dev-loop/SKILL.md:43"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

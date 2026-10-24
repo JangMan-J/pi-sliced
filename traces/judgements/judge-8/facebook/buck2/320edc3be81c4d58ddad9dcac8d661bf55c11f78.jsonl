@@ -1,0 +1,1 @@
+{"id":"467e97355449215df47a5482c86607bc4e3a5568eb9e1cce30c81fa2f6c3c07a","pullsIn":false,"reason":"prelude//rules.bzl is a Buck target label example, not a direction to read the file.","judge":"judge-8","model":"claude-sonnet-5-5","file":".claude/skills/buck2-rule-basics/references/concepts.md","line":120,"ref":"prelude//rules.bzl","target":"prelude/rules.bzl"}

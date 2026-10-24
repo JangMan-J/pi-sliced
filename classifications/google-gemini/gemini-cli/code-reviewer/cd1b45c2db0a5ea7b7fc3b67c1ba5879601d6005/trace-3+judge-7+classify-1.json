@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"google-gemini/gemini-cli/code-reviewer",
+"revision":"cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005",
+"trace":{"path":"traces/google-gemini/gemini-cli/code-reviewer/cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005/trace-3+judge-7.json","sha256":"02e4d8ff3bc11ff51d0232d20e581bbbf5b647fd460fe09d32dd4bffd077e2a4"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":3183,"own":{"files":1,"bytes":3183},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gh"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 3.1 KiB · CLI gh","short":"3.1 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs gh"]},{"marker":"stub","because":["own folder 3.1 KiB (1 file)","content is the gh it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

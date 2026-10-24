@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"microsoft/agent-skills/azure-ai-evaluation-py",
+"source":"microsoft/agent-skills",
+"revision":"2130750147dee0311215099ddf36647ba1e0f006",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named azure-ai-evaluation-py at 2130750147dee0311215099ddf36647ba1e0f006",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

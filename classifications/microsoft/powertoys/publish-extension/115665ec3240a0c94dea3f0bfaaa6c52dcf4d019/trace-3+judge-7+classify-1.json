@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"microsoft/powertoys/publish-extension",
+"revision":"115665ec3240a0c94dea3f0bfaaa6c52dcf4d019",
+"trace":{"path":"traces/microsoft/powertoys/publish-extension/115665ec3240a0c94dea3f0bfaaa6c52dcf4d019/trace-3+judge-7.json","sha256":"97fa2a08c8ebe4d9690611c2a22d11bbff56da176e28bb5b969a8a1939f6bdec"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":22209,"own":{"files":3,"bytes":22209},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Builds","ForEach-Object","Publishes","Select-Object","Write-Error","dotnet","foreach","gh","makeappx","param","winget","wingetcreate"],"package":["Microsoft.WingetCreate","YourPublisher.YourExtension"],"mcp-server":[],"credential":[],"network":["partner.microsoft.com"]},"summary":"3 files, 22 KiB · CLI Builds, ForEach-Object +10 · packages Microsoft.WingetCreate +1 · 1 host","short":"22 KiB · 12 CLI · 2 pkg · 1 host"},
+"heavy":{"heavy":true,"because":["2 packages to install","12 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Builds","runs dotnet","runs foreach","runs ForEach-Object","runs gh","runs makeappx","runs param","runs Publishes","runs Select-Object","runs winget","runs wingetcreate","runs Write-Error"]},{"marker":"installs-packages","because":["installs Microsoft.WingetCreate","installs YourPublisher.YourExtension"]},{"marker":"network","because":["fetches from partner.microsoft.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"dagster-io/fake-driven-testing/fdt-refactor-mock-to-fake",
+"revision":"2f84a13b0a7eda8407ecad978c297d30288ffeff",
+"trace":{"path":"traces/dagster-io/fake-driven-testing/fdt-refactor-mock-to-fake/2f84a13b0a7eda8407ecad978c297d30288ffeff/trace-3+judge-7.json","sha256":"8a0d3c20b1c66dec27aafc496e0ca1063efe822405d1585851535a1f7cfa30cb"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13544,"own":{"files":1,"bytes":13544},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Grep","subprocess.run"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 13 KiB · CLI Grep, subprocess.run","short":"13 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs Grep","runs subprocess.run"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

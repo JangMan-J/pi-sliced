@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"aws/agent-toolkit-for-aws/aws-auth",
+"revision":"658b852f0612ca629d56d0a4de52738fb6a58714",
+"trace":{"path":"traces/aws/agent-toolkit-for-aws/aws-auth/658b852f0612ca629d56d0a4de52738fb6a58714/trace-3+judge-7.json","sha256":"c34630198caaa62c6e01faa64ec6fa98e9148f275ced5b20a84bf22bd9251261"},
+"status":"resolved",
+"footprint":{"files":10,"bytes":86762,"own":{"files":10,"bytes":86762},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["ampx","initiate-auth","set-user-pool-mfa-config","update-user-pool"],"package":[],"mcp-server":["aws"],"credential":["G_SECRET"],"network":[]},"summary":"10 files, 85 KiB · MCP aws · CLI ampx, initiate-auth +2 · 1 key","short":"85 KiB · 4 CLI · 1 key · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","4 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs ampx","runs initiate-auth","runs set-user-pool-mfa-config","runs update-user-pool"]},{"marker":"credentials","because":["needs G_SECRET"]},{"marker":"mcp-server","because":["uses the aws MCP server"]},{"marker":"unpinned-code","because":["npx ampx: skills/core-skills/aws-auth/SKILL.md:27, skills/core-skills/aws-auth/SKILL.md:125"]}],
+"security":{"fetch-run":["npx ampx @ skills/core-skills/aws-auth/SKILL.md:27, skills/core-skills/aws-auth/SKILL.md:125"]},
+"companions":{"named":[{"name":"aws-amplify","path":"skills/specialized-skills/web-and-mobile-development/aws-amplify"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

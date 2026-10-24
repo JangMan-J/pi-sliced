@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/dgx-spark-playbooks/dgx-station",
+"revision":"30883150541743d580c9c347700c6ac99fc396d2",
+"trace":{"path":"traces/nvidia/dgx-spark-playbooks/dgx-station/30883150541743d580c9c347700c6ac99fc396d2/trace-3+judge-7.json","sha256":"44f7fa70ede04f0c9f5577d1cccd0c5b6337fdc90c0110cfc9d2407c30f60280"},
+"status":"resolved",
+"footprint":{"files":6,"bytes":13789,"own":{"files":6,"bytes":13789},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"6 files, 13 KiB","short":"13 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"do not tell the user\": nvidia/playbook-dgx-station-ai-skills/assets/skills/dgx-station/SKILL.md:27"]}],
+"security":{"injection":["do not tell the user @ nvidia/playbook-dgx-station-ai-skills/assets/skills/dgx-station/SKILL.md:27"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

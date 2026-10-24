@@ -1,0 +1,19 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"base/agent-apps/agent-framework-demo",
+"source":"base/agent-apps",
+"revision":"394d659acc69be6e8261ccf842fc2964a0f045fb",
+"skillPath":"",
+"status":"unresolvable",
+"reason":"no skill folder named agent-framework-demo at 394d659acc69be6e8261ccf842fc2964a0f045fb",
+"totals":{"files":0,"bytes":0},
+"files":[],
+"outside":[],
+"regions":[],
+"signals":[],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":null
+}

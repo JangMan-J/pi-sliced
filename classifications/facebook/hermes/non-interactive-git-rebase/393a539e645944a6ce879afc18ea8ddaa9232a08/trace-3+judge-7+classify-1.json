@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"facebook/hermes/non-interactive-git-rebase",
+"revision":"393a539e645944a6ce879afc18ea8ddaa9232a08",
+"trace":{"path":"traces/facebook/hermes/non-interactive-git-rebase/393a539e645944a6ce879afc18ea8ddaa9232a08/trace-3+judge-7.json","sha256":"521c37eb1af94ced071e7e58890b1a7b3c76c86e92c70db142a1c6c45f564283"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7288,"own":{"files":1,"bytes":7288},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["New","prepared-todo"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 7.1 KiB · CLI New, prepared-todo","short":"7.1 KiB · 2 CLI"},
+"heavy":{"heavy":true,"because":["2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs New","runs prepared-todo"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

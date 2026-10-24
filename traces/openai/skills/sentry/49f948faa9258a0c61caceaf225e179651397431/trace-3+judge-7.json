@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"openai/skills/sentry",
+"source":"openai/skills",
+"revision":"49f948faa9258a0c61caceaf225e179651397431",
+"skillPath":"skills/.curated/sentry",
+"status":"resolved",
+"totals":{"files":1,"bytes":3810},
+"files":[
+{"path":"skills/.curated/sentry/SKILL.md","size":3810,"blob":"c94f7efa9d513f381d5fcd07912d56581ec3dc2a","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"sentry","at":[[0,11],[0,30],[0,39],[0,49],[0,57],[0,63],[0,69],[0,75],[0,81],[0,88],[0,93]]},
+{"kind":"network","name":"cli.sentry.dev","at":[[0,18]]}
+],
+"regions":[
+{"kind":"own","path":"skills/.curated/sentry","files":1,"bytes":3810}
+],
+"signals":[
+{"kind":"fetch-run","detail":"pipe to interpreter","at":[[0,18]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"skills/.curated/sentry/LICENSE.txt","spdx":"Apache-2.0","frontmatter":null}
+}

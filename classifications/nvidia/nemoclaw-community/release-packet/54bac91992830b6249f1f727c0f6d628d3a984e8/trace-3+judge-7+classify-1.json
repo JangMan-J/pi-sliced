@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw-community/release-packet",
+"revision":"54bac91992830b6249f1f727c0f6d628d3a984e8",
+"trace":{"path":"traces/nvidia/nemoclaw-community/release-packet/54bac91992830b6249f1f727c0f6d628d3a984e8/trace-3+judge-7.json","sha256":"1d72553bac2e8b260dbb0c55e24e613e164e28f0bb589ef0b030e39c37a4960f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":1723,"own":{"files":1,"bytes":1723},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 1.7 KiB","short":"1.7 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"payment-screening","path":"examples/recipes/nvidia/payment-ops-hermes/skills/payment-screening"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

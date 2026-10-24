@@ -1,0 +1,29 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"better-auth/better-icons/better-icons",
+"source":"better-auth/better-icons",
+"revision":"033316ecb8f4982235af4111a2257e80231f5ab1",
+"skillPath":"skills",
+"status":"resolved",
+"totals":{"files":1,"bytes":3584},
+"files":[
+{"path":"skills/SKILL.md","size":3584,"blob":"0e44f0c9e4f5837b80420ce90710670954e366dd","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"better-icons","at":[[0,28],[0,29],[0,32],[0,33],[0,42],[0,45],[0,48],[0,51],[0,57],[0,58],[0,59],[0,60],[0,63],[0,64],[0,65]]},
+{"kind":"cli","name":"jq","at":[[0,58]]},
+{"kind":"package","name":"better-icons","at":[[0,18],[0,21]]}
+],
+"regions":[
+{"kind":"own","path":"skills","files":1,"bytes":3584}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx better-icons","at":[[0,32],[0,33]]},
+{"kind":"fetch-run","detail":"npx better-icons","at":[[0,28],[0,29]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

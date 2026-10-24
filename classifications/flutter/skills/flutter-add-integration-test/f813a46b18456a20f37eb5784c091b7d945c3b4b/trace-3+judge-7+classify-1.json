@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"flutter/skills/flutter-add-integration-test",
+"revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b",
+"trace":{"path":"traces/flutter/skills/flutter-add-integration-test/f813a46b18456a20f37eb5784c091b7d945c3b4b/trace-3+judge-7.json","sha256":"e1209d8ae9b4e6794f87ae6313327ab8673ee50b450baaf661c20b5ad38e672c"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":7342,"own":{"files":1,"bytes":7342},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["flutter"],"package":[],"mcp-server":["flutter"],"credential":[],"network":[]},"summary":"1 file, 7.2 KiB · MCP flutter · CLI flutter","short":"7.2 KiB · 1 CLI · MCP 1"},
+"heavy":{"heavy":true,"because":["1 MCP server","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs flutter"]},{"marker":"mcp-server","because":["uses the flutter MCP server"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

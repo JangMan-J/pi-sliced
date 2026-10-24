@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"automattic/agent-skills/wp-phpstan",
+"revision":"48d4aa21d0da0e7bda1c7ac155fef2e16b87aa25",
+"trace":{"path":"traces/automattic/agent-skills/wp-phpstan/48d4aa21d0da0e7bda1c7ac155fef2e16b87aa25/trace-3+judge-7.json","sha256":"31572ad332e99dbcbc540fc1f77c81b65d50d36dc2f6fd729d23ac77665893b5"},
+"status":"resolved",
+"footprint":{"files":5,"bytes":19442,"own":{"files":5,"bytes":19442},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["composer","phpstan"],"package":["php-stubs/acf-pro-stubs","php-stubs/woocommerce-stubs","php-stubs/wordpress-stubs","szepeviktor/phpstan-wordpress"],"mcp-server":[],"credential":[],"network":[]},"summary":"5 files, 19 KiB · CLI composer, phpstan · packages php-stubs/acf-pro-stubs +3","short":"19 KiB · 2 CLI · 4 pkg"},
+"heavy":{"heavy":true,"because":["4 packages to install","2 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs composer","runs phpstan"]},{"marker":"installs-packages","because":["installs php-stubs/acf-pro-stubs","installs php-stubs/woocommerce-stubs","installs php-stubs/wordpress-stubs","installs szepeviktor/phpstan-wordpress"]}],
+"security":{},
+"companions":{"named":[{"name":"wp-project-triage","path":"skills/wp-project-triage"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

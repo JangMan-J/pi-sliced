@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"brave/brave-search-skills/local-place-search",
+"revision":"62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d",
+"trace":{"path":"traces/brave/brave-search-skills/local-place-search/62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d/trace-3+judge-7.json","sha256":"5a3d418efd04880390a35fb60322c8d4585209ba0da7dd05bbaf697d536f198b"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":13498,"own":{"files":1,"bytes":13498},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":["API_KEY","BRAVE_SEARCH_API_KEY"],"network":["api.search.brave.com"]},"summary":"1 file, 13 KiB · 2 keys · 1 host","short":"13 KiB · 2 keys · 1 host"},
+"heavy":{"heavy":true,"because":["2 credentials"]},
+"markers":[{"marker":"network","because":["fetches from api.search.brave.com"]},{"marker":"credentials","because":["needs API_KEY","needs BRAVE_SEARCH_API_KEY"]},{"marker":"sends-credentials","because":["BRAVE_SEARCH_API_KEY -> api.search.brave.com: skills/local-place-search/SKILL.md:19, skills/local-place-search/SKILL.md:33, skills/local-place-search/SKILL.md:47"]}],
+"security":{"secret-egress":["BRAVE_SEARCH_API_KEY -> api.search.brave.com @ skills/local-place-search/SKILL.md:19, skills/local-place-search/SKILL.md:33, skills/local-place-search/SKILL.md:47 +2"]},
+"companions":{"named":[{"name":"local-descriptions","path":"skills/local-descriptions"},{"name":"local-pois","path":"skills/local-pois"},{"name":"spellcheck","path":"skills/spellcheck"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

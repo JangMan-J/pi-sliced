@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/nemoclaw/update-docs",
+"revision":"f0ee12594687930cc378eb351643cb6e12007f39",
+"trace":{"path":"traces/nvidia/nemoclaw/update-docs/f0ee12594687930cc378eb351643cb6e12007f39/trace-3+judge-7.json","sha256":"bf18f1dc3dcb4014cbbbab5e346183da4cc4be205ef83fbcf301974251cff11b"},
+"status":"unresolvable",
+"reason":"no skill folder named update-docs at f0ee12594687930cc378eb351643cb6e12007f39"
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/paidf-curation-and-retrieval",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/paidf-curation-and-retrieval/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"d8e88c0c624b4e305d83afd7e38ef7a81ca3562e3643cbb905add8d9a399d442"},
+"status":"unresolvable",
+"reason":"no skill folder named paidf-curation-and-retrieval at 80fd955e037bbd73cd1799fe0c6fd6612bedb8e0 or at the remote HEAD b71336851ae0416f6eaf4cd623d04749981e7cbf (the archive had skills/paidf-curation-and-retrieval)"
+}

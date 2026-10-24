@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skills/nemo-retriever",
+"revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+"trace":{"path":"traces/nvidia/skills/nemo-retriever/80fd955e037bbd73cd1799fe0c6fd6612bedb8e0/trace-3+judge-7.json","sha256":"c918571c1ed682652ae2cc0985bfcfcc0ef581f8632d15c63a4f2d5c3112a705"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":2332,"own":{"files":1,"bytes":2332},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["retriever"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 2.3 KiB · CLI retriever","short":"2.3 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs retriever"]},{"marker":"stub","because":["own folder 2.3 KiB (1 file)","content is the retriever it wraps"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

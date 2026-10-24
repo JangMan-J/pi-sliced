@@ -1,0 +1,31 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"wix/skills/wix-base44-connector",
+"source":"wix/skills",
+"revision":"9c51902effdd00f4a742c26f1194f48318abab29",
+"skillPath":"skills/wix-base44-connector",
+"status":"resolved",
+"totals":{"files":2,"bytes":35231},
+"files":[
+{"path":"skills/wix-base44-connector/SKILL.md","size":26798,"blob":"7d9ccfcfca2bb0de5d1e1bba98973e7fc0ff34e6","how":"root"},
+{"path":"skills/wix-base44-connector/references/CAPABILITY_MAP.md","size":8433,"blob":"985ae2fefa44bdfb91585f921c2d366b6efeea35","how":"path","from":0,"line":217}
+],
+"outside":[
+{"kind":"cli","name":"skills","at":[[0,433]]}
+],
+"regions":[
+{"kind":"own","path":"skills/wix-base44-connector","files":2,"bytes":35231}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx skills","at":[[0,433]]},
+{"kind":"skill-fetch","detail":"npx skills add","at":[[0,433]]}
+],
+"namedSkills":[
+{"name":"wix-manage","path":"skills/wix-manage","at":[[0,156]]},
+{"name":"wix-vibe-headless","path":"skills/wix-vibe-headless","at":[[0,39],[0,425],[0,427]]}
+],
+"checkoutReach":[],
+"licence":{"path":"LICENSE","spdx":"MIT","frontmatter":null}
+}

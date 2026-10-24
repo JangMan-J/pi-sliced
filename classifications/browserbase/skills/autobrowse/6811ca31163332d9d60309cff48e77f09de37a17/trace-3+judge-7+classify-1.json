@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"browserbase/skills/autobrowse",
+"revision":"6811ca31163332d9d60309cff48e77f09de37a17",
+"trace":{"path":"traces/browserbase/skills/autobrowse/6811ca31163332d9d60309cff48e77f09de37a17/trace-3+judge-7.json","sha256":"c32bedbc4e07306cf2649b920886c062c7451d34c1444f37591aaeabc4c30a9a"},
+"status":"resolved",
+"footprint":{"files":18,"bytes":164496,"own":{"files":7,"bytes":85135},"otherSkills":{"count":1,"files":11,"bytes":79361},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["Cannot_read","Cannot_read_properties_of_undefined","Google_Chrome","add","as","browse","browser-trace","drop","first","floor","group_by","jq","map","not","now","null","open","pkill","print","rg","sort_by","tsx"],"package":["@anthropic-ai/sdk","browse","dotenv"],"mcp-server":[],"credential":["ANTHROPIC_API_KEY","ANTHROPIC_AUTH_TOKEN","BROWSERBASE_API_KEY"],"network":[]},"summary":"18 files, 161 KiB · +1 other skill · CLI Cannot_read, Cannot_read_properties_of_undefined +20 · packages @anthropic-ai/sdk +2 · 3 keys","short":"161 KiB · +1 skill · 22 CLI · 3 pkg · 3 keys"},
+"heavy":{"heavy":true,"because":["3 packages to install","22 CLIs","3 credentials"]},
+"markers":[{"marker":"runs-commands","because":["runs add","runs as","runs browse","runs browser-trace","runs Cannot_read","runs Cannot_read_properties_of_undefined","runs drop","runs first","runs floor","runs Google_Chrome","runs group_by","runs jq","runs map","runs not","runs now","runs null","runs open","runs pkill","runs print","runs rg","runs sort_by","runs tsx"]},{"marker":"installs-packages","because":["installs @anthropic-ai/sdk","installs browse","installs dotenv"]},{"marker":"credentials","because":["needs ANTHROPIC_API_KEY","needs ANTHROPIC_AUTH_TOKEN","needs BROWSERBASE_API_KEY"]},{"marker":"chain-loads","because":["pulls in 11 files of the skill at skills/browser-trace"]},{"marker":"persistent-writes","because":["writes to a skill folder: skills/autobrowse/SKILL.md:277"]},{"marker":"unpinned-code","because":["npx tsx: skills/autobrowse/SKILL.md:244"]}],
+"security":{"fetch-run":["npx tsx @ skills/autobrowse/SKILL.md:244"],"persist-write":["skill folder @ skills/autobrowse/SKILL.md:277"]},
+"companions":{"named":[{"name":"browser","path":"skills/browser"},{"name":"browser-trace","path":"skills/browser-trace"}],"pulled":[{"path":"skills/browser-trace","files":11,"bytes":79361}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

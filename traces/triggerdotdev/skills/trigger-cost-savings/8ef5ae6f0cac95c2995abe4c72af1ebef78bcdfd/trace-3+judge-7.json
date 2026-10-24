@@ -1,0 +1,27 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"triggerdotdev/skills/trigger-cost-savings",
+"source":"triggerdotdev/skills",
+"revision":"8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+"skillPath":"trigger-cost-savings",
+"status":"resolved",
+"totals":{"files":1,"bytes":5484},
+"files":[
+{"path":"trigger-cost-savings/SKILL.md","size":5484,"blob":"2485ae1ab5be4f049872497d0b05f5dfb4651a77","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"trigger.dev","at":[[0,43]]},
+{"kind":"mcp-server","name":"trigger.dev","at":[[0,23],[0,34]]}
+],
+"regions":[
+{"kind":"own","path":"trigger-cost-savings","files":1,"bytes":5484}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx trigger.dev@latest","at":[[0,43]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

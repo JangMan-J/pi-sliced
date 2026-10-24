@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"bitwarden/ai-plugins/running-a-proof-of-concept",
+"revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103",
+"trace":{"path":"traces/bitwarden/ai-plugins/running-a-proof-of-concept/f57db069f72e5f0aba7b6e7beecd0a72df86f103/trace-3+judge-7.json","sha256":"671fd006576d5c66fbb11121f2cb09c97b4b24eeb9a740d1be142fa393e6ca2f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":15737,"own":{"files":1,"bytes":15737},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 15 KiB","short":"15 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[{"name":"coordinating-implementation-across-teams","path":"plugins/bitwarden-shepherd/skills/coordinating-implementation-across-teams"},{"name":"scoping-and-handing-off-to-teams","path":"plugins/bitwarden-shepherd/skills/scoping-and-handing-off-to-teams"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

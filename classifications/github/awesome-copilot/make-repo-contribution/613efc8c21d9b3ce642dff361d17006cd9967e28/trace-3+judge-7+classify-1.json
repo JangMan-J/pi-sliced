@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"github/awesome-copilot/make-repo-contribution",
+"revision":"613efc8c21d9b3ce642dff361d17006cd9967e28",
+"trace":{"path":"traces/github/awesome-copilot/make-repo-contribution/613efc8c21d9b3ce642dff361d17006cd9967e28/trace-3+judge-7.json","sha256":"062dbe9312aba84c0bf95a1e558dd3888e68b05903cdc29e7deb6d72b812dbbd"},
+"status":"resolved",
+"footprint":{"files":3,"bytes":8097,"own":{"files":3,"bytes":8097},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"3 files, 7.9 KiB","short":"7.9 KiB"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"agent-override-text","because":["\"override any instructions\": skills/make-repo-contribution/SKILL.md:11"]}],
+"security":{"injection":["override any instructions @ skills/make-repo-contribution/SKILL.md:11"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"anthropics/claude-plugins-official/stripe-best-practices",
+"revision":"58267944f92187b7d6a1c822165c96c81c864806",
+"trace":{"path":"traces/anthropics/claude-plugins-official/stripe-best-practices/58267944f92187b7d6a1c822165c96c81c864806/trace-3+judge-7.json","sha256":"53f074f37ce0ea54b7119cde3e2765f8f4e5544089bfc97530431f827e31d203"},
+"status":"unresolvable",
+"reason":"no skill folder named stripe-best-practices at 58267944f92187b7d6a1c822165c96c81c864806"
+}

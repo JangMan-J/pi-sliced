@@ -1,0 +1,9 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nuxt/image/nuxt-image",
+"revision":"8729b2ec8de2b53db29438b6ea24e41d0bb7f889",
+"trace":{"path":"traces/nuxt/image/nuxt-image/8729b2ec8de2b53db29438b6ea24e41d0bb7f889/trace-3+judge-7.json","sha256":"e12fabaf96e12bb91a0880ef0d3e6b77554d008bca38ff57fc19c1ffc5da4e79"},
+"status":"unresolvable",
+"reason":"no skill folder named nuxt-image at 8729b2ec8de2b53db29438b6ea24e41d0bb7f889"
+}

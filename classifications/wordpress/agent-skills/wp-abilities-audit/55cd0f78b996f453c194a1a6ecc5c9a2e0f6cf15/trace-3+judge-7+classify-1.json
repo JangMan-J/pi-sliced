@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"wordpress/agent-skills/wp-abilities-audit",
+"revision":"55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+"trace":{"path":"traces/wordpress/agent-skills/wp-abilities-audit/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/trace-3+judge-7.json","sha256":"e79503a5c93d49d1a052a662af7381426adf31325a7a89680c546b1e1e021e2f"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":74071,"own":{"files":4,"bytes":41183},"otherSkills":{"count":1,"files":3,"bytes":32888},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"7 files, 72 KiB · +1 other skill","short":"72 KiB · +1 skill"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[{"marker":"chain-loads","because":["pulls in 3 files of the skill at skills/wp-abilities-api"]}],
+"security":{},
+"companions":{"named":[{"name":"wp-abilities-verify","path":"skills/wp-abilities-verify"},{"name":"wp-project-triage","path":"skills/wp-project-triage"}],"pulled":[{"path":"skills/wp-abilities-api","files":3,"bytes":32888}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

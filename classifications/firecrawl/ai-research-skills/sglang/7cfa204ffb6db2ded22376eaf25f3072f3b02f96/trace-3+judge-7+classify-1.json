@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"firecrawl/ai-research-skills/sglang",
+"revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96",
+"trace":{"path":"traces/firecrawl/ai-research-skills/sglang/7cfa204ffb6db2ded22376eaf25f3072f3b02f96/trace-3+judge-7.json","sha256":"5e0e150aa7aafbdbee9ac965ba2868fd9fd4a892b5fe6c4ab09f085af85630bc"},
+"status":"resolved",
+"footprint":{"files":4,"bytes":45924,"own":{"files":4,"bytes":45924},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["docker","from","nvidia-smi","ray"],"package":["flashinfer","sglang"],"mcp-server":[],"credential":[],"network":["flashinfer.ai","github.com"]},"summary":"4 files, 45 KiB · CLI docker, from +2 · packages flashinfer +1 · 2 hosts","short":"45 KiB · 4 CLI · 2 pkg · 2 hosts"},
+"heavy":{"heavy":true,"because":["2 packages to install","4 CLIs"]},
+"markers":[{"marker":"runs-commands","because":["runs docker","runs from","runs nvidia-smi","runs ray"]},{"marker":"installs-packages","because":["installs flashinfer","installs sglang"]},{"marker":"network","because":["fetches from flashinfer.ai","fetches from github.com"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

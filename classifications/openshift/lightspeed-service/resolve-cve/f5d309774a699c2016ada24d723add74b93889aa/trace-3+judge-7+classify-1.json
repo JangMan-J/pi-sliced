@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"openshift/lightspeed-service/resolve-cve",
+"revision":"f5d309774a699c2016ada24d723add74b93889aa",
+"trace":{"path":"traces/openshift/lightspeed-service/resolve-cve/f5d309774a699c2016ada24d723add74b93889aa/trace-3+judge-7.json","sha256":"977d72e0e12fafe15ad0219e9f17a84c877f4cdca88047f2bc857bc0161ff184"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":6962,"own":{"files":1,"bytes":6962},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["make"],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 6.8 KiB · CLI make","short":"6.8 KiB · 1 CLI"},
+"heavy":{"heavy":true,"because":["1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs make"]}],
+"security":{},
+"companions":{"named":[{"name":"deps-update","path":".cursor/skills/deps-update"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

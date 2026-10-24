@@ -1,0 +1,26 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-7",
+"candidate":"better-auth/skills/two-factor-authentication-best-practices",
+"source":"better-auth/skills",
+"revision":"20c9e88a5c007461a703f1c213572b073196113e",
+"skillPath":"better-auth/twoFactor",
+"status":"resolved",
+"totals":{"files":1,"bytes":7631},
+"files":[
+{"path":"better-auth/twoFactor/SKILL.md","size":7631,"blob":"ec1653b7cfc98b0e873192f73d5f0de472c7fbac","how":"root"}
+],
+"outside":[
+{"kind":"cli","name":"auth","at":[[0,10]]}
+],
+"regions":[
+{"kind":"own","path":"better-auth/twoFactor","files":1,"bytes":7631}
+],
+"signals":[
+{"kind":"fetch-run","detail":"npx auth@latest","at":[[0,10]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":null,"spdx":null,"frontmatter":null}
+}

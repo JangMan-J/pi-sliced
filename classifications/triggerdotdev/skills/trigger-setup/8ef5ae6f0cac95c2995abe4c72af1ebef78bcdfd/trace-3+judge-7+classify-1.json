@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"triggerdotdev/skills/trigger-setup",
+"revision":"8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd",
+"trace":{"path":"traces/triggerdotdev/skills/trigger-setup/8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd/trace-3+judge-7.json","sha256":"75cad2ba83b92c2b2b341655859b18871b80dfbb3f64e2b5678339ae926fae48"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":8048,"own":{"files":1,"bytes":8048},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["trigger","trigger.dev"],"package":["@trigger.dev/build","@trigger.dev/sdk"],"mcp-server":[],"credential":["TRIGGER_SECRET_KEY"],"network":[]},"summary":"1 file, 7.9 KiB · CLI trigger, trigger.dev · packages @trigger.dev/build +1 · 1 key","short":"7.9 KiB · 2 CLI · 2 pkg · 1 key"},
+"heavy":{"heavy":true,"because":["2 packages to install","2 CLIs","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs trigger","runs trigger.dev"]},{"marker":"installs-packages","because":["installs @trigger.dev/build","installs @trigger.dev/sdk"]},{"marker":"credentials","because":["needs TRIGGER_SECRET_KEY"]},{"marker":"unpinned-code","because":["install @latest: trigger-setup/SKILL.md:79, trigger-setup/SKILL.md:80","npx trigger.dev@latest: trigger-setup/SKILL.md:32, trigger-setup/SKILL.md:44, trigger-setup/SKILL.md:51"]}],
+"security":{"fetch-run":["install @latest @ trigger-setup/SKILL.md:79, trigger-setup/SKILL.md:80","npx trigger.dev@latest @ trigger-setup/SKILL.md:32, trigger-setup/SKILL.md:44, trigger-setup/SKILL.md:51 +3"]},
+"companions":{"named":[{"name":"trigger-tasks","path":"trigger-tasks"}],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

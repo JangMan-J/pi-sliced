@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langchain-skills/managed-deep-agents",
+"revision":"704e9f4a2f962f449495515f2599502394bc84b2",
+"trace":{"path":"traces/langchain-ai/langchain-skills/managed-deep-agents/704e9f4a2f962f449495515f2599502394bc84b2/trace-3+judge-7.json","sha256":"a321f7fb26dff3304bc7505691fd8a755d23472ca0a90eb7e6fae3a64c35ad6f"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":34989,"own":{"files":1,"bytes":34989},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["mda"],"package":["managed-deepagents"],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 34 KiB · CLI mda · packages managed-deepagents","short":"34 KiB · 1 CLI · 1 pkg"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI"]},
+"markers":[{"marker":"runs-commands","because":["runs mda"]},{"marker":"installs-packages","because":["installs managed-deepagents"]}],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

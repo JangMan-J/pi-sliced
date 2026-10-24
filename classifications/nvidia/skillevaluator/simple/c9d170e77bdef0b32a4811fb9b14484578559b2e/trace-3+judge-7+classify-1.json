@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"nvidia/skillevaluator/simple",
+"revision":"c9d170e77bdef0b32a4811fb9b14484578559b2e",
+"trace":{"path":"traces/nvidia/skillevaluator/simple/c9d170e77bdef0b32a4811fb9b14484578559b2e/trace-3+judge-7.json","sha256":"a2434cb8a0cdc5ca211127740b50979936e3ffeb5ee5f9a741d75e8b7be6e68a"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":476,"own":{"files":1,"bytes":476},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":[],"package":[],"mcp-server":[],"credential":[],"network":[]},"summary":"1 file, 476 B","short":"476 B"},
+"heavy":{"heavy":false,"because":[]},
+"markers":[],
+"security":{},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

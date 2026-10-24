@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"googleworkspace/cli/gws-workflow-standup-report",
+"revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+"trace":{"path":"traces/googleworkspace/cli/gws-workflow-standup-report/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/trace-3+judge-7.json","sha256":"24743b34350cfe18a1312c64a5f073303f6eb76db9fc85d3958ee76959839b33"},
+"status":"resolved",
+"footprint":{"files":7,"bytes":10302,"own":{"files":1,"bytes":1115},"otherSkills":{"count":6,"files":6,"bytes":9187},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["gws"],"package":[],"mcp-server":[],"credential":["GOOGLE_APPLICATION_CREDENTIALS"],"network":["github.com"]},"summary":"7 files, 10 KiB · +6 other skills · CLI gws · 1 key · 1 host","short":"10 KiB · +6 skills · 1 CLI · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs gws"]},{"marker":"network","because":["fetches from github.com"]},{"marker":"credentials","because":["needs GOOGLE_APPLICATION_CREDENTIALS"]},{"marker":"chain-loads","because":["pulls in 1 file of the skill at skills/gws-shared","pulls in 1 file of the skill at skills/gws-workflow","pulls in 1 file of the skill at skills/gws-workflow-email-to-task","pulls in 1 file of the skill at skills/gws-workflow-file-announce","pulls in 1 file of the skill at skills/gws-workflow-meeting-prep","pulls in 1 file of the skill at skills/gws-workflow-weekly-digest"]},{"marker":"stub","because":["own folder 1.1 KiB (1 file)","9.0 KiB outside it"]}],
+"security":{},
+"companions":{"named":[],"pulled":[{"path":"skills/gws-shared","files":1,"bytes":2668},{"path":"skills/gws-workflow","files":1,"bytes":1423},{"path":"skills/gws-workflow-email-to-task","files":1,"bytes":1264},{"path":"skills/gws-workflow-file-announce","files":1,"bytes":1488},{"path":"skills/gws-workflow-meeting-prep","files":1,"bytes":1212},{"path":"skills/gws-workflow-weekly-digest","files":1,"bytes":1132}]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

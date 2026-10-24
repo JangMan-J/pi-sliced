@@ -1,0 +1,14 @@
+{
+"format":"pi-sliced.classification/1",
+"classifier":"classify-1",
+"candidate":"langchain-ai/langsmith-skills/langsmith-dataset",
+"revision":"a8c055f4f4c09e2b460042328a0718fe7d7bd982",
+"trace":{"path":"traces/langchain-ai/langsmith-skills/langsmith-dataset/a8c055f4f4c09e2b460042328a0718fe7d7bd982/trace-3+judge-7.json","sha256":"d6692271da1c2bb669192c3678292b3c9b857ebc8be6f05d9edf5a07001362a6"},
+"status":"resolved",
+"footprint":{"files":1,"bytes":12082,"own":{"files":1,"bytes":12082},"otherSkills":{"count":0,"files":0,"bytes":0},"packages":[],"repoFiles":{"files":0,"bytes":0},"assets":{"fonts":0,"images":0,"media":0,"other":0,"bytes":0},"outside":{"cli":["langsmith"],"package":["langsmith"],"mcp-server":[],"credential":["LANGSMITH_API_KEY"],"network":["raw.githubusercontent.com"]},"summary":"1 file, 12 KiB · CLI langsmith · packages langsmith · 1 key · 1 host","short":"12 KiB · 1 CLI · 1 pkg · 1 key · 1 host"},
+"heavy":{"heavy":true,"because":["1 package to install","1 CLI","1 credential"]},
+"markers":[{"marker":"runs-commands","because":["runs langsmith"]},{"marker":"installs-packages","because":["installs langsmith"]},{"marker":"network","because":["fetches from raw.githubusercontent.com"]},{"marker":"credentials","because":["needs LANGSMITH_API_KEY"]},{"marker":"unpinned-code","because":["pipe to interpreter: config/skills/langsmith-dataset/SKILL.md:39"]}],
+"security":{"fetch-run":["pipe to interpreter @ config/skills/langsmith-dataset/SKILL.md:39"]},
+"companions":{"named":[],"pulled":[]},
+"checkoutReach":{"edges":0,"targets":[],"files":0,"bytes":0}
+}

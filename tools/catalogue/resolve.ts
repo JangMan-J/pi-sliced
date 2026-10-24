@@ -16,14 +16,14 @@ import { openRepo, readBlobs, type Repo } from "../trace/git.ts";
 const ROOT = join(import.meta.dirname, "..", "..");
 const jsonl = (p: string) => readFileSync(join(ROOT, p), "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l));
 const sources = new Map<string, { revision: string | null; error?: string; head?: string }>(jsonl("catalogue/sources.jsonl").map((s) => [s.source, s]));
-const candidates = jsonl("catalogue/candidates.jsonl") as { id: string; source: string; name: string; archive: { skillPath?: string } }[];
+const candidates = jsonl("catalogue/candidates.jsonl") as { id: string; source: string; name: string; archive: { skillPath?: string }; hint?: { skillPath?: string } }[];
 
 export interface Resolved {
   id: string;
   source: string;
   revision: string | null;
   skillPath: string | null;
-  by?: "archive" | "folder name" | "frontmatter name" | "folder name, first of several";
+  by?: "archive" | "intake hint" | "folder name" | "frontmatter name" | "folder name, first of several";
   alternatives?: string[];
   reason?: string;
 }
@@ -51,8 +51,8 @@ function repoOf(source: string, revision: string) {
 
 type Match = Omit<Resolved, "id" | "source" | "revision">;
 function match(r: ReturnType<typeof repoOf>, c: (typeof candidates)[number], useHint: boolean): Match | null {
-  const hint = c.archive.skillPath;
-  if (useHint && hint && r.folders.includes(hint)) return { skillPath: hint, by: "archive" };
+  const hint = c.archive.skillPath ?? c.hint?.skillPath;
+  if (useHint && hint && r.folders.includes(hint)) return { skillPath: hint, by: c.archive.skillPath ? "archive" : "intake hint" };
   const want = norm(c.name);
   const byDir = r.folders.filter((f) => norm(posix.basename(f === "." ? c.source.split("/")[1] : f)) === want);
   if (byDir.length === 1) return { skillPath: byDir[0], by: "folder name" };
@@ -109,7 +109,7 @@ for (const c of candidates) {
       continue;
     }
   }
-  const hint = c.archive.skillPath;
+  const hint = c.archive.skillPath ?? c.hint?.skillPath;
   out.push({ ...base, skillPath: null, reason: `no skill folder named ${c.name} at ${s.revision}${s.head ? ` or at the remote HEAD ${s.head}` : ""}${hint ? ` (the archive had ${hint})` : ""}` });
 }
 writeFileSync(join(ROOT, "catalogue", "resolved.jsonl"), out.map((o) => JSON.stringify(o)).join("\n") + "\n");

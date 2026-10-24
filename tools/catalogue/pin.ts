@@ -13,7 +13,7 @@ export interface Source {
   source: string;
   revision: string | null;
   pinned: string; // UTC date the pin was taken
-  from: "archive" | "remote HEAD";
+  from: "archive" | "remote HEAD" | "site-hosted";
   error?: string;
   head?: string; // for an archive pin: the remote HEAD when pinned, tried when a Candidate is not at the archive Revision
   headPinned?: string;
@@ -23,10 +23,12 @@ const lines = (p: string) => (existsSync(p) ? readFileSync(p, "utf8").split("\n"
 const have = new Map(lines(SOURCES).map((l) => [JSON.parse(l).source as string, JSON.parse(l) as Source]));
 const archive = new Map<string, string>();
 const sources = new Set<string>();
+const siteHosted = new Set<string>();
 for (const l of lines(join(ROOT, "catalogue", "candidates.jsonl"))) {
   const c = JSON.parse(l);
   sources.add(c.source);
   if (c.archive.revision) archive.set(c.source, c.archive.revision);
+  if (c.siteHosted) siteHosted.add(c.source);
 }
 const today = new Date().toISOString().slice(0, 10);
 
@@ -51,6 +53,10 @@ let i = 0;
 async function worker() {
   while (i < todo.length) {
     const s = todo[i++];
+    if (siteHosted.has(s)) {
+      have.set(s, { source: s, revision: null, pinned: today, from: "site-hosted", error: "site-hosted skill (well-known); it has no git source, and a Revision is a git commit SHA" });
+      continue;
+    }
     if (archive.has(s)) {
       have.set(s, { source: s, revision: archive.get(s)!, pinned: today, from: "archive" });
       continue;

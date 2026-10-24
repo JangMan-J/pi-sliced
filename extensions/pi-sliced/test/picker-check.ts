@@ -156,7 +156,9 @@ async function stranger(): Promise<void> {
   const listing = catalogue.skills.find((s: any) => s.id === "anthropics/skills/canvas-design");
   if (!check(Boolean(listing), `the Author's server's Catalogue ${CATALOGUE} admits anthropics/skills/canvas-design`)) return;
   const size = `${(listing.footprint.bytes / 1_048_576).toFixed(1)} MiB`;
-  const footprintText = `${listing.footprint.files} files · ${size}`;
+  if (!check(typeof listing.footprint.short === "string" && typeof listing.footprint.summary === "string" && Array.isArray(listing.heavyBecause), "the Listing carries footprint.short, footprint.summary and heavyBecause")) return;
+  const footprintText: string = listing.footprint.short;
+  const footprintSummary: string = listing.footprint.summary;
 
   const home = mkdtempSync(join(tmpdir(), "pi-sliced-stranger-home-"));
   const work = mkdtempSync(join(tmpdir(), "pi-sliced-stranger-work-"));
@@ -177,13 +179,13 @@ async function stranger(): Promise<void> {
     check(row.includes("[ ]") && row.includes(footprintText), `the listing row shows the Footprint (${footprintText}) while the skill is unserved`, row);
 
     frame = await press("Right", "Inspect, first frame", (f) => /Footprint/.test(f.join("\n")));
-    check(frame.some((l) => l.includes(`Footprint  ${footprintText}`)), "Inspect shows the Footprint on its first frame, with no extra key press", frame.join("\n"));
+    check(frame.some((l) => l.includes(`Footprint  ${footprintSummary}`)), `Inspect shows the Footprint (${footprintSummary}) on its first frame, with no extra key press`, frame.join("\n"));
     frame = await waitFrame("Inspect, SKILL.md loaded", (f) => /name: canvas-design/.test(f.join("\n")));
-    check(frame.some((l) => l.includes(`Footprint  ${footprintText}`)) && /name: canvas-design/.test(frame.join("\n")), "Inspect shows the SKILL.md with the Footprint", frame.join("\n"));
+    check(frame.some((l) => l.includes(`Footprint  ${footprintSummary}`)) && /name: canvas-design/.test(frame.join("\n")), "Inspect shows the SKILL.md with the Footprint", frame.join("\n"));
     frame = await press("Left", "back to the tree", (f) => /Search:/.test(f.join("\n")));
 
     frame = await press("Enter", "Heavy confirm", (f) => /Serve it\?/.test(f.join("\n")));
-    check(frame.some((l) => l.includes(`canvas-design: ${size}, ${listing.footprint.files} files. Serve it?`)), `serving canvas-design shows a confirm naming its size (${size})`, frame.join("\n"));
+    check(frame.some((l) => l.includes(`canvas-design: ${size}, ${listing.footprint.files} files`) && l.includes("Serve it?")), `serving canvas-design shows a confirm naming its size (${size}, ${listing.footprint.files} files)`, frame.join("\n"));
     frame = await press("n", "declined", (f) => /Search:/.test(f.join("\n")));
     check(/\[ \] canvas-design/.test(cursorRow(frame)) && /Nothing selected/.test(statusLine(frame)), "declining leaves it unselected in the Picker", `${statusLine(frame)}\n${cursorRow(frame)}`);
     key("Escape");
@@ -224,6 +226,7 @@ async function untraced(): Promise<void> {
   const ca = readFileSync(join(repo, "extensions/pi-sliced/author-server.pem"), "utf8");
   const catalogue = await getJson(`${SERVER}/v1/catalogues/${CATALOGUE}`, ca);
   const catalogueIds = new Set<string>(catalogue.skills.map((s: any) => s.id.toLowerCase()));
+  const shortOf = new Map<string, string>(catalogue.skills.map((s: any) => [s.id.toLowerCase(), String(s.footprint?.short ?? "")]));
   const registry = await getJson(`${GATEWAY}?action=search&query=${encodeURIComponent(TERM_ID)}&limit=50`);
   const registryIds: string[] = (registry?.data ?? []).map((r: any) => String(r.id));
   const inBoth = registryIds.filter((id) => catalogueIds.has(id.toLowerCase()));
@@ -254,7 +257,7 @@ async function untraced(): Promise<void> {
     }
     const asListing = rows.filter((r) => r.id.toLowerCase() === catalogueId.toLowerCase());
     check(
-      asListing.length === 1 && asListing[0].index < skillsShAt && /\d+ files · /.test(asListing[0].row) && !/Untraced/.test(asListing[0].row),
+      asListing.length === 1 && asListing[0].index < skillsShAt && Boolean(shortOf.get(catalogueId.toLowerCase())) && asListing[0].row.includes(shortOf.get(catalogueId.toLowerCase())!) && !/Untraced/.test(asListing[0].row),
       `the Catalogue skill ${catalogueId} appears once, as its Catalogue listing (Domains, with its Footprint)`,
       asListing.map((r) => `#${r.index + 1} ${r.row}`).join("\n") || "not found",
     );

@@ -10,7 +10,7 @@ registerHooks({ resolve: (await import("./picker-hooks.mjs")).resolve });
 
 const { SlicesPicker, rowSummary, statusText } = await import("../picker.ts");
 const { applySelection, buildPool, DetailCache, registerPicker, reportText } = await import("../picker-wiring.ts");
-const { MARKERS, footprintRow, heavyConfirmLine, unionMarkers, listingMarkers } = await import("../markers.ts");
+const { MARKERS, footprintRow, heavyConfirmLine, unionMarkers, entryMarkers, ourWords } = await import("../markers.ts");
 const { visibleWidth } = await import("@earendil-works/pi-tui");
 const fx = await import("./picker-fixtures.ts");
 type Picker = InstanceType<typeof SlicesPicker>;
@@ -56,6 +56,17 @@ function moveTo(p: Picker, label: string | RegExp) {
     p.handleInput(keys.down);
   }
   throw new Error(`cursor never reached ${label}\n${screen(p)}`);
+}
+/** Every Inspect page, top to bottom, at width 200. */
+function inspectAll(p: Picker): string {
+  const pages: string[] = [];
+  for (let i = 0; i < 40; i++) {
+    const lines = p.render(200);
+    pages.push(lines.slice(5, -4).join("\n"));
+    if (/ end\b|\(all \d+ lines\)/.test(lines.at(-4)!)) break;
+    p.handleInput(keys.ctrlDown);
+  }
+  return pages.join("\n");
 }
 function type(p: Picker, text: string) {
   for (const ch of text) p.handleInput(ch);
@@ -117,17 +128,20 @@ describe("Footprint", () => {
     moveTo(picker, "canvas-design");
     const row = cursor(picker);
     assert.match(row, /\[ \] canvas-design/);
-    assert.match(row, /83 files · 5\.3 MiB/);
+    assert.match(row, /\s5\.3 MiB\s/);
     moveTo(picker, "game-ui-frontend");
-    assert.match(cursor(picker), /17 files · 205\.1 KiB · 4 outside folder/);
-    assert.equal(footprintRow(fx.CANVAS.footprint), "83 files · 5.3 MiB");
+    assert.match(cursor(picker), /205 KiB · \+1 skill/);
+    moveTo(picker, /\] shadcn\s/);
+    assert.match(cursor(picker), /136 KiB · 2 CLI · 1 pkg · 1 host/);
+    assert.doesNotMatch(cursor(picker), /date-fns|tsc/, "counts only, never names");
+    assert.equal(footprintRow(fx.CANVAS.footprint), "5.3 MiB");
   });
 
   test("Footprint column holds its position across folds, search and selection", () => {
     const { picker } = makePicker();
     const col = () => {
-      const line = picker.render(120).find((l) => /\d+ files? · /.test(l));
-      return line ? line.search(/\d+ files? · /) : -1;
+      const line = picker.render(120).find((l) => /\] tdd\s/.test(l));
+      return line ? line.search(/9 KiB/) : -1;
     };
     expandAll(picker);
     const first = col();
@@ -147,16 +161,26 @@ describe("Footprint", () => {
     moveTo(picker, "game-ui-frontend");
     picker.handleInput(keys.right);
     let text = screen(picker);
-    assert.match(text, /Footprint {2}17 files · 205\.1 KiB · 4 outside its folder \(29\.3 KiB\) · no Outside requirements/);
+    assert.match(text, /Footprint {2}17 files, 205 KiB · \+1 other skill · 4 repo files/);
     await tick();
     picker.handleInput("d");
     text = screen(picker);
     assert.match(text, /Files outside its folder: 4/);
     assert.match(text, /plugins\/game-studio\/references\/frontend-prompts\.md/);
+    assert.match(text, /∞ chain-loads\n\s+pulls plugins\/game-studio\/skills\/web-game-foundations/);
+    assert.match(text, /named by bare name: web-game-foundations plugins\/game-studio\/skills\/web-game-foundations/);
+    assert.match(text, /pulls in files of plugins\/game-studio\/skills\/web-game-foundations \(1 file, 3\.9 KiB\)/);
     picker.handleInput(keys.esc);
     moveTo(picker, /\] shadcn\s/);
     picker.handleInput(keys.right);
-    assert.match(screen(picker), /needs shadcn \(CLI\), ui\.shadcn\.com \(network\) · Heavy/);
+    assert.match(screen(picker), /Footprint {2}16 files, 136 KiB · CLI shadcn, tsc · packages date-fns · 1 host · Heavy/);
+    picker.handleInput("d");
+    const details = inspectAll(picker);
+    assert.match(details, /Heavy because: 1 package to add; 2 CLIs/);
+    assert.match(details, /\+ packages\n\s+adds package date-fns/);
+    assert.match(details, /fetches and runs remote code\n\s+npx shadcn@latest @ skills\/shadcn\/SKILL\.md:12\n\s+add @latest @ skills\/shadcn\/cli\.md:5/);
+    assert.match(details, /CLI: shadcn, tsc\n\s+package: date-fns\n\s+network: ui\.shadcn\.com/);
+    assert.doesNotMatch(details, FORBIDDEN);
   });
 
   test("Untraced rows say the Footprint is unknown", async () => {
@@ -177,7 +201,7 @@ describe("Skills.sh dedupe", () => {
     const rows = rowsOf(picker);
     const canvas = rows.filter((l) => /\] canvas-design\b/.test(l));
     assert.equal(canvas.length, 1, rows.join("\n"));
-    assert.match(canvas[0], /83 files · 5\.3 MiB/);
+    assert.match(canvas[0], /5\.3 MiB/);
     assert.doesNotMatch(canvas[0], /Untraced/);
     const poster = rows.filter((l) => /\] canvas-poster\b/.test(l));
     assert.equal(poster.length, 1);
@@ -215,26 +239,27 @@ describe("markers", () => {
   test("rows carry glyphs; a branch shows the union of its children; Skills.sh is Untraced", async () => {
     const { picker } = makePicker();
     const domainsRow = rowsOf(picker)[0];
-    assert.match(domainsRow, /\$⇅∞↯/);
+    assert.match(domainsRow, /\$\+⇅∞↯/);
     picker.handleInput(keys.right);
     moveTo(picker, "Frontend UI");
-    assert.match(cursor(picker), /Frontend UI\s+\$⇅∞↯/);
+    assert.match(cursor(picker), /Frontend UI\s+\$\+⇅∞↯/);
     moveTo(picker, "Craft & Workflow");
-    assert.doesNotMatch(cursor(picker), /[$⇅∞↯]/);
+    assert.doesNotMatch(cursor(picker), /[$+⇅∞↯]/);
     moveTo(picker, "Skills.sh");
     assert.match(cursor(picker), /Skills\.sh\s+\?/);
-    assert.deepEqual(unionMarkers([["chain"], ["shell", "network"], ["shell"]]), ["shell", "network", "chain"]);
-    assert.deepEqual(listingMarkers({ markers: [], footprint: fx.SHADCN.footprint }), ["shell", "network"]);
+    assert.deepEqual(unionMarkers([["chain-loads"], ["runs-commands", "network"], ["runs-commands"]]), ["runs-commands", "network", "chain-loads"]);
+    assert.deepEqual(entryMarkers(fx.SHADCN.markers), ["runs-commands", "installs-packages", "network", "unpinned-code"]);
+    assert.deepEqual(entryMarkers([]), [], "markers come from the Listing only, never from Outside requirements");
   });
 
   test("the position line names the current row's markers; ? opens the full legend", () => {
     const { picker } = makePicker();
     picker.handleInput(keys.right);
     moveTo(picker, "Frontend UI");
-    assert.match(picker.render(120)[16], /\$ shell · ⇅ network · ∞ chain-loads · ↯ remote code/);
+    assert.match(picker.render(120)[16], /\$ commands · \+ packages · ⇅ network · ∞ chain-loads · ↯ remote code/);
     picker.handleInput("?");
     const text = screen(picker);
-    assert.equal(MARKERS.length, 12);
+    assert.equal(MARKERS.length, 14);
     for (const { glyph, meaning } of MARKERS) assert.ok(text.includes(`${glyph}  ${meaning}`), meaning);
     picker.handleInput("?");
     assert.match(screen(picker), /Search:/);
@@ -292,7 +317,8 @@ describe("Heavy confirm", () => {
     picker.handleInput(keys.enter);
     picker.handleInput(keys.esc);
     assert.deepEqual(result, { served: ["anthropics/skills/canvas-design"] });
-    assert.equal(heavyConfirmLine("shadcn", fx.SHADCN.footprint), "shadcn: 117.2 KiB, 16 files; needs shadcn (CLI). Serve it?");
+    assert.equal(heavyConfirmLine("shadcn", fx.SHADCN.footprint, fx.SHADCN.heavyBecause), "shadcn: 136.1 KiB, 16 files; 1 package to add, 2 CLIs. Serve it?");
+    assert.equal(heavyConfirmLine("canvas-design", fx.CANVAS.footprint, fx.CANVAS.heavyBecause), "canvas-design: 5.3 MiB, 83 files. Serve it?");
   });
 
   test("a group serve with Heavy skills inside asks once, naming each; non-Heavy skills never ask", () => {
@@ -301,7 +327,7 @@ describe("Heavy confirm", () => {
     moveTo(picker, "Frontend UI");
     picker.handleInput(keys.enter);
     const text = screen(picker);
-    assert.match(text, /shadcn: 117\.2 KiB, 16 files; needs shadcn \(CLI\)\. Serve it\?/);
+    assert.match(text, /shadcn: 136\.1 KiB, 16 files; 1 package to add, 2 CLIs\. Serve it\?/);
     assert.match(text, /Also selects 1 more that are not Heavy/);
     picker.handleInput("n");
     assert.match(cursor(picker), /\[ \] Frontend UI/);
@@ -449,6 +475,15 @@ describe("vocabulary", () => {
     picker.handleInput("f");
     capture(picker);
     picker.handleInput(keys.esc);
+    moveTo(picker, /\] shadcn\s/);
+    picker.handleInput(keys.right);
+    await tick();
+    picker.handleInput("d");
+    screens.push(inspectAll(picker));
+    picker.handleInput(keys.esc);
+    picker.handleInput(keys.enter);
+    capture(picker);
+    picker.handleInput("n");
     type(picker, "canvas");
     capture(picker);
     await tick();
@@ -471,8 +506,24 @@ describe("vocabulary", () => {
 
   test("the Picker's source files never use the words", () => {
     for (const file of ["picker.ts", "picker-wiring.ts", "markers.ts"]) {
-      assert.doesNotMatch(readFileSync(join(here, "..", file), "utf8"), FORBIDDEN, file);
+      // markers.ts names the words only in its rewrite table and the contract's marker key.
+      const text = readFileSync(join(here, "..", file), "utf8")
+        .split("\n")
+        .filter((line) => !/^\s*\[\/\\b(install|download)/.test(line))
+        .join("\n")
+        .replaceAll('"installs-packages"', "");
+      assert.doesNotMatch(text, FORBIDDEN, file);
     }
+  });
+});
+
+describe("our wording for Classification text", () => {
+  test("install and download become add and fetch, as whole words only", () => {
+    assert.equal(ourWords("4 packages to install"), "4 packages to add");
+    assert.equal(ourWords("installs date-fns"), "adds package date-fns");
+    assert.equal(ourWords("install @latest @ a.md:3"), "add @latest @ a.md:3");
+    assert.equal(ourWords("Downloads fonts; downloadable PDF; installation; Installed"), "Fetches fonts; fetchable PDF; setup; Added");
+    assert.equal(ourWords("runs cptinstall.exe"), "runs cptinstall.exe", "names quoted from the skill are left as they are");
   });
 });
 
@@ -508,7 +559,7 @@ describe("widths", () => {
     expandAll(picker);
     moveTo(picker, "canvas-design");
     const row = picker.render(60).find((l) => l.startsWith("›"))!;
-    assert.match(row, /83 files · 5\.3 MiB/);
+    assert.match(row, /5\.3 MiB/);
   });
 });
 
@@ -548,7 +599,7 @@ describe("real renderer", { skip: !existsSync(virtualTerminal) && "no Pi source 
         terminal.sendInput(keys.right);
         await tick();
         text = await frame();
-        assert.match(text, /Footprint {2}3 files · 9\.0 KiB/);
+        assert.match(text, /Footprint {2}3 files, 9 KiB/);
         assert.match(text, /Body line 1 of tdd/);
         for (let i = 0; i < 12; i++) terminal.sendInput(keys.ctrlDown);
         text = await frame();

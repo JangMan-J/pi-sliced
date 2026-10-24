@@ -27,12 +27,16 @@ import {
   footprintRow,
   glyphOf,
   heavyConfirmLine,
+  heavyReasons,
   isRisky,
-  outsideLabel,
+  ourWords,
+  outsideKindLabel,
+  securityLabel,
+  shortOf,
   sortMarkers,
   unionMarkers,
 } from "./markers.ts";
-import type { DetailFile, Footprint, Marker } from "./types.ts";
+import type { DetailFile, Footprint, Marker, MarkerEntry } from "./types.ts";
 
 /** What Inspect shows once loaded: the SKILL.md verbatim and, for Catalogue skills, its traced files. */
 export interface InspectContent {
@@ -65,7 +69,15 @@ export interface PickerSkill {
   /** Catalogue skills only. */
   footprint?: Footprint;
   heavy?: boolean;
+  /** Classification `heavy.because`, shown in the Picker's wording. */
+  heavyBecause?: string[];
   markers?: Marker[];
+  /** Classification markers with their reasons, for Inspect details. */
+  markerEntries?: MarkerEntry[];
+  /** Classification security signals by kind, for Inspect details. */
+  security?: Record<string, unknown>;
+  /** Classification companions, for Inspect details. */
+  companions?: { named: unknown[]; pulled: unknown[] };
   /** Selected when the Picker opens (already Served). */
   checked?: boolean;
   loadInspect?: () => Promise<InspectContent>;
@@ -102,7 +114,7 @@ const LABEL_COL_MIN = 14;
 const LABEL_COL_RESERVED = 34;
 /** Detail column is shown only when at least this many cells remain for it. */
 const DETAIL_MIN = 12;
-const FOOTPRINT_COL_MAX = 44;
+const FOOTPRINT_COL_MAX = 30;
 const SKILL_PREFIX = 7;
 const GROUP_PREFIX = 8;
 /** Rows of the Inspect area under the title and above the position line: header, Footprint, rule, body. */
@@ -298,6 +310,18 @@ function fitDetail(detail: string, maxWidth: number): string {
     cut = match[1].replace(/[,;:.!?\s—–\-&/]+$/g, "");
   }
   return cut ? `${cut}…` : truncateToWidth(detail, maxWidth, "…");
+}
+
+/** One line for a passed-through Classification value: strings as they are, objects by their name or path and size. */
+function describe(value: unknown): string {
+  if (typeof value === "string") return value;
+  if (value && typeof value === "object") {
+    const v = value as Record<string, unknown>;
+    const label = [v.name, v.path].filter((x) => typeof x === "string" && x).join(" ") || JSON.stringify(value);
+    const size = typeof v.files === "number" ? ` (${v.files} ${v.files === 1 ? "file" : "files"}${typeof v.bytes === "number" ? `, ${formatBytes(v.bytes)}` : ""})` : "";
+    return label + size;
+  }
+  return String(value);
 }
 
 /** Markers a row shows: the Listing's (with its Outside requirements) or `untraced`. */
@@ -781,7 +805,7 @@ export class SlicesPicker {
       });
   }
 
-  /** Details on request: Outside requirements and the files outside the skill's own folder. */
+  /** Details on request: why Heavy, each marker with its reasons, security signals, companions, Outside requirements, files outside its folder. */
   private detailLines(skill: PickerSkill, content?: InspectContent): string[] {
     if (skill.untraced) {
       return [
@@ -792,8 +816,29 @@ export class SlicesPicker {
     const footprint = skill.footprint;
     if (!footprint) return ["Footprint not listed."];
     const lines: string[] = [];
+    const heavy = heavyReasons(skill.heavyBecause);
+    lines.push(skill.heavy ? `Heavy because: ${heavy.join("; ") || "listed as Heavy"}` : "Not Heavy");
+    const entries = skill.markerEntries ?? [];
+    lines.push(entries.length ? "Markers:" : "Markers: none");
+    for (const entry of entries) {
+      lines.push(`  ${glyphOf(entry.marker)} ${shortOf(entry.marker)}`);
+      for (const reason of entry.because) lines.push(`      ${ourWords(reason)}`);
+    }
+    const security = Object.entries(skill.security ?? {});
+    lines.push(security.length ? "Security signals:" : "Security signals: none");
+    for (const [kind, signals] of security) {
+      lines.push(`  ${securityLabel(kind)}`);
+      for (const signal of Array.isArray(signals) ? signals : [signals]) lines.push(`      ${ourWords(describe(signal))}`);
+    }
+    const named = skill.companions?.named ?? [];
+    const pulled = skill.companions?.pulled ?? [];
+    lines.push(named.length || pulled.length ? "Companions:" : "Companions: none");
+    if (named.length) lines.push(`  named by bare name: ${named.map(describe).join(", ")}`);
+    for (const item of pulled) lines.push(`  pulls in files of ${describe(item)}`);
     lines.push(footprint.outside.length ? "Outside requirements:" : "Outside requirements: none");
-    for (const item of footprint.outside) lines.push(`  ${outsideLabel(item)}`);
+    const byKind = new Map<string, string[]>();
+    for (const item of footprint.outside) byKind.set(item.kind, [...(byKind.get(item.kind) ?? []), item.name]);
+    for (const [kind, names] of byKind) lines.push(`  ${outsideKindLabel(kind)}: ${names.join(", ")}`);
     if (footprint.outsideFolder.files === 0) {
       lines.push(`Files outside its folder: none`);
     } else {
@@ -1111,7 +1156,7 @@ export class SlicesPicker {
         footprint = skill.untraced
           ? this.theme.fg("warning", UNTRACED_FOOTPRINT)
           : skill.footprint
-            ? this.theme.fg(skill.heavy ? "warning" : isSelected ? "text" : "muted", truncateToWidth(footprintRow(skill.footprint), this.footprintWidth, "…"))
+            ? this.theme.fg(skill.heavy ? "warning" : isSelected ? "text" : "muted", footprintRow(skill.footprint))
             : this.theme.fg("warning", "Footprint not listed");
         detail = rowSummary(skill);
       }
@@ -1135,7 +1180,7 @@ export class SlicesPicker {
     const legend = currentMarkers.length
       ? this.theme.fg("dim", "  ") +
         currentMarkers
-          .map((marker) => `${this.glyphs([marker])} ${this.theme.fg("dim", MARKERS.find((m) => m.marker === marker)!.short)}`)
+          .map((marker) => `${this.glyphs([marker])} ${this.theme.fg("dim", shortOf(marker))}`)
           .join(this.theme.fg("dim", " · "))
       : "";
     const posText =
@@ -1204,7 +1249,7 @@ export class SlicesPicker {
     const wrap = (text: string) => wrapTextWithAnsi(text, Math.max(1, width - 2)).map((line) => `  ${line}`);
     lines.push(...wrap(this.theme.fg("warning", this.theme.bold(confirm.heavy.length === 1 ? "Heavy skill" : `${confirm.heavy.length} Heavy skills`))), "");
     for (const skill of confirm.heavy) {
-      lines.push(...wrap(this.theme.bold(heavyConfirmLine(skill.name, skill.footprint!))));
+      lines.push(...wrap(this.theme.bold(heavyConfirmLine(skill.name, skill.footprint!, skill.heavyBecause))));
       lines.push(...wrap(this.theme.fg("muted", `Footprint  ${footprintLine(skill.footprint!)}`)), "");
     }
     if (confirm.add.length > confirm.heavy.length) {

@@ -1,5 +1,5 @@
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
-import { listingMarkers } from "./markers.ts";
+import { entryMarkers } from "./markers.ts";
 import { SlicesPicker, type PickerResult, type PickerSkill } from "./picker.ts";
 import type { Catalogue, Detail, Listing, PickerDeps, ServedSkill, UntracedItem } from "./types.ts";
 
@@ -51,7 +51,11 @@ export function catalogueEntry(listing: Listing, details: DetailCache): PoolEntr
       skillPath: listing.skillPath,
       footprint: listing.footprint,
       heavy: listing.heavy,
-      markers: listingMarkers(listing),
+      heavyBecause: listing.heavyBecause,
+      markers: entryMarkers(listing.markers),
+      markerEntries: listing.markers,
+      security: listing.security,
+      companions: listing.companions,
       loadInspect: async () => {
         const detail = await details.get(listing.id, listing.revision);
         return { skillMd: detail.skillMd, files: detail.files };

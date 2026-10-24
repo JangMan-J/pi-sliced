@@ -1,0 +1,142 @@
+{
+ "format": "pi-sliced.classification/1",
+ "classifier": "classify-1",
+ "candidate": "shopify/shopify-ai-toolkit/shopify",
+ "revision": "a788f6a87cad4be5dfac814605a7288dc9e8f3db",
+ "trace": {
+  "path": "traces/shopify/shopify-ai-toolkit/shopify/a788f6a87cad4be5dfac814605a7288dc9e8f3db/trace-3+judge-7.json",
+  "sha256": "e72fa1b8830c0ee76d56e74359cd54c49c7a8833553521ea34cb92cd1a3c8015"
+ },
+ "status": "resolved",
+ "footprint": {
+  "files": 128,
+  "bytes": 7571351,
+  "own": {
+   "files": 128,
+   "bytes": 7571351
+  },
+  "otherSkills": {
+   "count": 0,
+   "files": 0,
+   "bytes": 0
+  },
+  "packages": [],
+  "repoFiles": {
+   "files": 0,
+   "bytes": 0
+  },
+  "assets": {
+   "fonts": 0,
+   "images": 0,
+   "media": 0,
+   "other": 0,
+   "bytes": 0
+  },
+  "outside": {
+   "cli": [
+    "@shopify/hydrogen",
+    "gemini",
+    "jq",
+    "shopify"
+   ],
+   "package": [
+    "@shopify/cli",
+    "@shopify/theme-check-common",
+    "@shopify/theme-check-docs-updater",
+    "@shopify/theme-check-node",
+    "typescript"
+   ],
+   "mcp-server": [],
+   "credential": [
+    "MINERVA_TOKEN"
+   ],
+   "network": [
+    "github.com",
+    "mock.shop",
+    "shopify-dev.shop.dev",
+    "shopify.dev"
+   ]
+  },
+  "summary": "128 files, 7.2 MiB · CLI @shopify/hydrogen, gemini +2 · packages @shopify/cli +4 · 1 key · 4 hosts",
+  "short": "7.2 MiB · 4 CLI · 5 pkg · 1 key · 4 hosts"
+ },
+ "heavy": {
+  "heavy": true,
+  "because": [
+   "files total 7.2 MiB (> 1 MiB)",
+   "5 packages to install",
+   "4 CLIs",
+   "1 credential"
+  ]
+ },
+ "markers": [
+  {
+   "marker": "runs-commands",
+   "because": [
+    "runs @shopify/hydrogen",
+    "runs gemini",
+    "runs jq",
+    "runs shopify"
+   ]
+  },
+  {
+   "marker": "installs-packages",
+   "because": [
+    "installs @shopify/cli",
+    "installs @shopify/theme-check-common",
+    "installs @shopify/theme-check-docs-updater",
+    "installs @shopify/theme-check-node",
+    "installs typescript"
+   ]
+  },
+  {
+   "marker": "network",
+   "because": [
+    "fetches from github.com",
+    "fetches from mock.shop",
+    "fetches from shopify-dev.shop.dev",
+    "fetches from shopify.dev"
+   ]
+  },
+  {
+   "marker": "credentials",
+   "because": [
+    "needs MINERVA_TOKEN"
+   ]
+  },
+  {
+   "marker": "unpinned-code",
+   "because": [
+    "install @latest: skills/shopify/references/use-shopify-cli.md:28",
+    "npx @shopify/hydrogen: skills/shopify/references/hydrogen.md:55, skills/shopify/references/hydrogen.md:59",
+    "npx @shopify/hydrogen@latest: skills/shopify/references/hydrogen.md:54, skills/shopify/references/hydrogen.md:56"
+   ]
+  },
+  {
+   "marker": "opaque-code",
+   "because": [
+    "minified script: skills/shopify/scripts/_validate_components.mjs:2, skills/shopify/scripts/_validate_functions.mjs:2, skills/shopify/scripts/_validate_graphql.mjs:2"
+   ]
+  }
+ ],
+ "security": {
+  "fetch-run": [
+   "install @latest @ skills/shopify/references/use-shopify-cli.md:28",
+   "npx @shopify/hydrogen @ skills/shopify/references/hydrogen.md:55, skills/shopify/references/hydrogen.md:59",
+   "npx @shopify/hydrogen@latest @ skills/shopify/references/hydrogen.md:54, skills/shopify/references/hydrogen.md:56"
+  ],
+  "opaque": [
+   "minified script @ skills/shopify/scripts/_validate_components.mjs:2, skills/shopify/scripts/_validate_functions.mjs:2, skills/shopify/scripts/_validate_graphql.mjs:2 +6"
+  ]
+ },
+ "companions": {
+  "named": [],
+  "pulled": []
+ },
+ "checkoutReach": {
+  "edges": 0,
+  "targets": [],
+  "files": 0,
+  "bytes": 0
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "format": "pi-sliced.classification/1",
+ "classifier": "classify-1",
+ "candidate": "openai/plugins/game-ui-frontend",
+ "revision": "0722921d5542fc593105c27bd52630babd8b8c2a",
+ "trace": {
+  "path": "traces/openai/plugins/game-ui-frontend/0722921d5542fc593105c27bd52630babd8b8c2a/trace-3+judge-7.json",
+  "sha256": "ae2244270f3eaf58bef299b8a0a8aac138dd7f28e9026af7efe6b8230c765d2b"
+ },
+ "status": "resolved",
+ "footprint": {
+  "files": 17,
+  "bytes": 38028,
+  "own": {
+   "files": 1,
+   "bytes": 5060
+  },
+  "otherSkills": {
+   "count": 2,
+   "files": 2,
+   "bytes": 8615
+  },
+  "packages": [],
+  "repoFiles": {
+   "files": 14,
+   "bytes": 24353
+  },
+  "assets": {
+   "fonts": 0,
+   "images": 0,
+   "media": 0,
+   "other": 0,
+   "bytes": 0
+  },
+  "outside": {
+   "cli": [],
+   "package": [],
+   "mcp-server": [],
+   "credential": [],
+   "network": []
+  },
+  "summary": "17 files, 37 KiB · +2 other skills · +14 repo files",
+  "short": "37 KiB · +2 skills"
+ },
+ "heavy": {
+  "heavy": false,
+  "because": []
+ },
+ "markers": [
+  {
+   "marker": "chain-loads",
+   "because": [
+    "pulls in 1 file of the skill at plugins/game-studio/skills/react-three-fiber-game",
+    "pulls in 1 file of the skill at plugins/game-studio/skills/web-game-foundations"
+   ]
+  }
+ ],
+ "security": {},
+ "companions": {
+  "named": [],
+  "pulled": [
+   {
+    "path": "plugins/game-studio/skills/react-three-fiber-game",
+    "files": 1,
+    "bytes": 4023
+   },
+   {
+    "path": "plugins/game-studio/skills/web-game-foundations",
+    "files": 1,
+    "bytes": 4592
+   }
+  ]
+ },
+ "checkoutReach": {
+  "edges": 0,
+  "targets": [],
+  "files": 0,
+  "bytes": 0
+ }
+}

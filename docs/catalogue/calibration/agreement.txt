@@ -1,0 +1,14 @@
+outside-skill-folders: 107/107 = 100.0%
+prose-directory: 82/91 = 90.1%
+skill-folder-only: 139/141 = 98.6%
+  DIS ('skill-folder-only', True, False, 'capability-menu.md', 5, '../music-to-video', "Says never to assume a sibling path such as ../music-to-video, which names another skill folder in the repository, not a file in the user's ")
+  DIS ('skill-folder-only', True, False, 'capability-menu.md', 5, '../media-use', "Says never to assume a sibling path such as ../media-use, which names another skill folder in the repository, not a file in the user's proje")
+  DIS ('prose-directory', False, True, 'motion-language.md', 3, '../../hyperframes-animation/rules/', 'Says the worker reads one rule body by id; the directory as a whole is not the target of the direction.')
+  DIS ('prose-directory', False, True, 'motion-language.md', 3, '../../hyperframes-animation/rules/', 'Says the worker reads one rule body by id; not a direction to use the whole directory.')
+  DIS ('prose-directory', False, True, 'motion-language.md', 3, '../../hyperframes-animation/rules/', 'Says moves are backed by rules/ and cited by id; a mention, not a direction to read the directory.')
+  DIS ('prose-directory', False, True, 'visual-design.md', 128, '../../hyperframes-animation/rules/', 'Table says the frame worker reads rules/, "you don\'t"; not a direction to this agent.')
+  DIS ('prose-directory', False, True, 'visual-design.md', 147, '../../hyperframes-animation/rules/', 'Table says the frame worker reads rules/, not this agent; no direction to use it.')
+  DIS ('prose-directory', False, True, 'visual-design.md', 3, '../../hyperframes-animation/rules/', 'Says concrete rules resolve later from rules/; a mention, not a direction.')
+  DIS ('prose-directory', False, True, 'visual-design.md', 3, '../../hyperframes-animation/rules/', 'Says rules resolve in a later step from the directory; a mention only.')
+  DIS ('prose-directory', False, True, 'visual-design.md', 3, '../../hyperframes-animation/rules/', 'Says rules resolve from rules/ in a later step; a mention only.')
+  DIS ('prose-directory', False, True, 'visual-design.md', 109, '../../hyperframes-animation/rules/', 'Table row says the frame worker reads rules/; not a direction to this agent.')

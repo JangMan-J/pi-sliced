@@ -1,0 +1,105 @@
+{
+ "format": "pi-sliced.classification/1",
+ "classifier": "classify-1",
+ "candidate": "shadcn-ui/ui/shadcn",
+ "revision": "e55b60b1014cccfb9ac62f97e0d20b5b649f4a54",
+ "trace": {
+  "path": "traces/shadcn-ui/ui/shadcn/e55b60b1014cccfb9ac62f97e0d20b5b649f4a54/trace-3+judge-7.json",
+  "sha256": "2c03d9614b717ef8ab0bf1926457630374bdbdf01112e439e03d81805da8a8fd"
+ },
+ "status": "resolved",
+ "footprint": {
+  "files": 16,
+  "bytes": 139387,
+  "own": {
+   "files": 16,
+   "bytes": 139387
+  },
+  "otherSkills": {
+   "count": 0,
+   "files": 0,
+   "bytes": 0
+  },
+  "packages": [],
+  "repoFiles": {
+   "files": 0,
+   "bytes": 0
+  },
+  "assets": {
+   "fonts": 0,
+   "images": 0,
+   "media": 0,
+   "other": 0,
+   "bytes": 0
+  },
+  "outside": {
+   "cli": [
+    "shadcn",
+    "tsc"
+   ],
+   "package": [
+    "@fontsource-variable/cormorant-garamond",
+    "@fontsource-variable/inter",
+    "@fontsource-variable/jetbrains-mono",
+    "date-fns"
+   ],
+   "mcp-server": [],
+   "credential": [],
+   "network": []
+  },
+  "summary": "16 files, 136 KiB · CLI shadcn, tsc · packages @fontsource-variable/cormorant-garamond +3",
+  "short": "136 KiB · 2 CLI · 4 pkg"
+ },
+ "heavy": {
+  "heavy": true,
+  "because": [
+   "4 packages to install",
+   "2 CLIs"
+  ]
+ },
+ "markers": [
+  {
+   "marker": "runs-commands",
+   "because": [
+    "runs shadcn",
+    "runs tsc"
+   ]
+  },
+  {
+   "marker": "installs-packages",
+   "because": [
+    "installs @fontsource-variable/cormorant-garamond",
+    "installs @fontsource-variable/inter",
+    "installs @fontsource-variable/jetbrains-mono",
+    "installs date-fns"
+   ]
+  },
+  {
+   "marker": "unpinned-code",
+   "because": [
+    "bunx shadcn@latest: skills/shadcn/SKILL.md:12, skills/shadcn/cli.md:5",
+    "npx shadcn@latest: skills/shadcn/SKILL.md:12, skills/shadcn/SKILL.md:20, skills/shadcn/SKILL.md:24",
+    "npx tsc: skills/shadcn/design-system.md:92, skills/shadcn/design-system.md:93",
+    "pnpm dlx shadcn@latest: skills/shadcn/SKILL.md:12, skills/shadcn/cli.md:5"
+   ]
+  }
+ ],
+ "security": {
+  "fetch-run": [
+   "bunx shadcn@latest @ skills/shadcn/SKILL.md:12, skills/shadcn/cli.md:5",
+   "npx shadcn@latest @ skills/shadcn/SKILL.md:12, skills/shadcn/SKILL.md:20, skills/shadcn/SKILL.md:24 +114",
+   "npx tsc @ skills/shadcn/design-system.md:92, skills/shadcn/design-system.md:93",
+   "pnpm dlx shadcn@latest @ skills/shadcn/SKILL.md:12, skills/shadcn/cli.md:5"
+  ]
+ },
+ "companions": {
+  "named": [],
+  "pulled": []
+ },
+ "checkoutReach": {
+  "edges": 0,
+  "targets": [],
+  "files": 0,
+  "bytes": 0
+ }
+}

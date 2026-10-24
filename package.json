@@ -1,5 +1,14 @@
 {
   "name": "pi-sliced",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions/pi-sliced/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
 }

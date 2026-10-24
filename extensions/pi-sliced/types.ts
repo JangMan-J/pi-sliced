@@ -10,22 +10,30 @@ export const HEAVY_OUTSIDE_KINDS: readonly OutsideKind[] = ["cli", "package", "c
 export const HEAVY_BYTES = 1_048_576;
 
 /**
- * Marker keys shown as glyphs in the Picker (docs/trace/next-notes.md, Markers).
- * Until the Classification contract arrives, only the Trace-derivable ones are emitted.
+ * Marker keys: the 13 Classification markers of `classify-1` (docs/contracts/classification.md),
+ * plus `untraced`, which belongs only to Skills.sh branch items.
  */
 export type Marker =
-  | "shell" // runs shell commands or CLIs
-  | "packages" // installs packages
-  | "network" // network fetches
-  | "credentials" // needs credentials
-  | "mcp" // MCP server
-  | "chain" // chain-loads: pulls sibling skills, or fetches more skills/code at run time
-  | "stub" // thin router or wrapper whose content lives elsewhere
-  | "checkout" // checkout-only scripts
-  | "persistent" // persistent side effects (writes outside the session)
-  | "remote-code" // fetches unpinned remote code
-  | "opaque" // minified bundles, binaries, encoded blobs
-  | "untraced"; // Skills.sh branch item
+  | "runs-commands"
+  | "installs-packages"
+  | "network"
+  | "credentials"
+  | "mcp-server"
+  | "chain-loads"
+  | "stub"
+  | "checkout-scripts"
+  | "persistent-writes"
+  | "unpinned-code"
+  | "opaque-code"
+  | "sends-credentials"
+  | "agent-override-text"
+  | "untraced";
+
+/** A marker with the Classification's reasons, shown on request in Inspect. */
+export interface MarkerEntry {
+  marker: Marker;
+  because: string[];
+}
 
 export interface Footprint {
   /** Traced files and their total bytes. */
@@ -35,6 +43,10 @@ export interface Footprint {
   outsideFolder: { files: number; bytes: number };
   /** Outside requirements, one per distinct (kind, name). */
   outside: Array<{ kind: OutsideKind; name: string }>;
+  /** Classification `footprint.summary`: the full one-line Footprint (Inspect's compact block). */
+  summary: string;
+  /** Classification `footprint.short`: counts only, for the listing row. */
+  short: string;
 }
 
 /** One Catalogue skill as listed by the Author's server. */
@@ -56,7 +68,16 @@ export interface Listing {
   skillPath: string;
   footprint: Footprint;
   heavy: boolean;
-  markers: Marker[];
+  /** Classification `heavy.because`. */
+  heavyBecause: string[];
+  /** Classification markers, in its fixed order; only those that apply. */
+  markers: MarkerEntry[];
+  /** Classification `security` signals by kind, passed through for Inspect details. */
+  security: Record<string, unknown>;
+  /** Classification `companions`, passed through for Inspect details. */
+  companions: { named: unknown[]; pulled: unknown[] };
+  /** Repo path of the Classification this listing was built from. */
+  classification: string;
 }
 
 export interface Catalogue {

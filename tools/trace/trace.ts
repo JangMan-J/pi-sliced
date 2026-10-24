@@ -16,7 +16,8 @@ import { namedSkills, type NamedSkill } from "./named.ts";
 import { governingLicence, type Licence } from "./licence.ts";
 import { fileSignals, mergeSignals, type Signal, type SignalKind } from "./signals.ts";
 
-export const TRACER = "trace-3";
+export { TRACER } from "./version.ts";
+import { TRACER, TRACER_N } from "./version.ts";
 export const FORMAT = "pi-sliced.trace/2";
 
 export interface CandidateInput {
@@ -146,6 +147,20 @@ interface Lookup {
 }
 
 /** Resolve a relative path against a base, returning matching files and whether it named a directory. */
+const caselessCache = new WeakMap<Repo, Map<string, string[]>>();
+function caseless(repo: Repo): Map<string, string[]> {
+  let m = caselessCache.get(repo);
+  if (!m) {
+    m = new Map();
+    for (const p of repo.tree.keys()) {
+      const k = p.toLowerCase();
+      m.set(k, [...(m.get(k) ?? []), p]);
+    }
+    caselessCache.set(repo, m);
+  }
+  return m;
+}
+
 function lookup(repo: Repo, base: string, rel: string): Lookup | null {
   const joined = posix.normalize(posix.join(base || ".", rel));
   if (joined.startsWith("..") || joined.startsWith("/")) return null;
@@ -170,6 +185,12 @@ function lookup(repo: Repo, base: string, rel: string): Lookup | null {
   }
   if (repo.tree.has(target)) return { files: [target], dir: false, target };
   if (repo.dirs.has(target)) return { files: filesUnder(repo, target), dir: true, target };
+  // A file named with the wrong letter case (`REFERENCE.md` for `reference.md`): the one file that matches
+  // ignoring case. The served copy keeps its real name.
+  if (TRACER_N >= 4 && !/[<>{}*]/.test(target)) {
+    const ci = caseless(repo).get(target.toLowerCase());
+    if (ci && ci.length === 1) return { files: [ci[0]], dir: false, target: ci[0] };
+  }
   // A docs route written without its extension (`docs/reference/speed-ramps`) names its page.
   if (target.includes("/") && !/\.[^/]+$/.test(target)) {
     for (const ext of [".md", ".mdx"]) if (repo.tree.has(target + ext)) return { files: [target + ext], dir: false, target: target + ext };
@@ -180,7 +201,9 @@ function lookup(repo: Repo, base: string, rel: string): Lookup | null {
 // A leading variable (`$X`, `${X}`, `${X:+$X}`) or placeholder (`<skill-dir>`)
 // stands for a directory the text does not name. Strip it and any `..` that
 // follow, and resolve the remainder against the skill folder and its ancestors.
-const LEADING_VAR = /^(?:\$\{[^}]*\}|\$[A-Za-z_][A-Za-z0-9_]*|<[^>/]+>|~)(?:\/|$)/;
+const LEADING_VAR_3 = /^(?:\$\{[^}]*\}|\$[A-Za-z_][A-Za-z0-9_]*|<[^>/]+>|~)(?:\/|$)/;
+// trace-4: also `{baseDir}` and `{{skill_dir}}` placeholders.
+const LEADING_VAR = TRACER_N >= 4 ? /^(?:\$\{[^}]*\}|\$[A-Za-z_][A-Za-z0-9_]*|<[^>/]+>|\{\{?[A-Za-z_][\w-]*\}?\}|~)(?:\/|$)/ : LEADING_VAR_3;
 
 function stripVariables(raw: string): string | null {
   let s = raw.replace(/^\$\{[A-Za-z_][A-Za-z0-9_]*:[+-]/, "").replace(/\}$/, "");
@@ -400,6 +423,14 @@ function resolveRef(ctx: Ctx, ref: Ref, from: string, context: string[]): Hit | 
   const local = resolveIn(ctx, fromDir, raw);
   if (local) return settle(local, false);
   if (ref.kind === "link") return null;
+  if (ref.optional) return null; // a module-name guess resolves beside the script or not at all
+  // A relative module import without its extension (`import x from "./utils"`): the module file it loads.
+  if (TRACER_N >= 4 && ref.kind === "script" && /^\.{1,2}\//.test(raw) && !/\.[A-Za-z0-9]+$/.test(raw.split("/").pop()!)) {
+    for (const ext of [".js", ".mjs", ".cjs", ".ts", ".mts", ".tsx", ".jsx", ".json", "/index.js", "/index.mjs", "/index.ts"]) {
+      const r = lookup(repo, fromDir, raw + ext);
+      if (r && !r.dir) return settle(r, false);
+    }
+  }
 
   // A script resolves paths against its own directory (and the repository root, below), not the skill folder.
   const code = ref.kind === "script";

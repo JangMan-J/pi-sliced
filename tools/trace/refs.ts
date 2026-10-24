@@ -2,6 +2,7 @@
 // generous: every path-shaped token is a candidate, tagged with where it
 // appeared and the sentence around it. Whether a candidate is pulled in is
 // decided in trace.ts, against the repository tree and the reading rules.
+import { TRACER_N } from "./version.ts";
 
 export type RefKind =
   | "link" // markdown link or reference-definition target
@@ -18,6 +19,7 @@ export interface Ref {
   text: string; // the whole source line, for evidence
   sentence: string; // the sentence holding the token (the line, for code)
   homes?: string[]; // "`x.mjs` (home: `/a`, `/b`)": the skills that hold the named file
+  optional?: boolean; // a guess at a file name (a Python module, an import without extension): no file, no edge
 }
 
 const SCRIPT_EXT = /\.(?:py|js|mjs|cjs|ts|mts|cts|sh|bash|zsh|rb|ps1)$/i;
@@ -110,6 +112,7 @@ export function extractRefs(path: string, text: string): Ref[] {
   if (isScript(path, text)) {
     lines.forEach((l, i) => scriptRefs(l, i + 1, refs));
     joinCalls(text, lines, refs);
+    if (TRACER_N >= 4 && /\.py$/.test(path)) pythonImports(lines, refs); // trace-4
     return refs;
   }
   if (!isMarkup(path)) return refs; // data files (json, yaml, …) direct nothing
@@ -276,6 +279,28 @@ function joinCalls(text: string, lines: string[], refs: Ref[]): void {
     if (/^\s*(?:#|\/\/|\*)/.test(lines[n - 1] ?? "")) continue;
     if (pathShaped(joined) && !refs.some((r) => r.line === n && r.raw === joined)) refs.push({ line: n, raw: joined, kind: "script", text: lines[n - 1] ?? "", sentence: lines[n - 1] ?? "" });
   }
+}
+
+/** Python imports of sibling modules (`import sources`, `from model import X`, `from .util import Y`):
+ *  each names `<module>.py` or `<module>/__init__.py` beside the script, when such a file exists. */
+function pythonImports(lines: string[], refs: Ref[]): void {
+  lines.forEach((l, i) => {
+    const n = i + 1;
+    const push = (mod: string) => {
+      const p = mod.replace(/^\.+/, "").replace(/\./g, "/");
+      if (!p) return;
+      const up = "../".repeat(Math.max(0, (mod.match(/^\.+/)?.[0].length ?? 1) - 1));
+      for (const raw of [`./${up}${p}.py`, `./${up}${p}/__init__.py`]) refs.push({ line: n, raw, kind: "script", text: l, sentence: l, optional: true });
+    };
+    const from = l.match(/^\s*from\s+(\.*[A-Za-z_][\w.]*|\.+)\s+import\s+(.+)$/);
+    if (from) {
+      if (/^\.+$/.test(from[1])) for (const name of from[2].replace(/[()]/g, "").split(",")) push(`${from[1]}${name.trim().split(/\s+/)[0]}`);
+      else push(from[1]);
+      return;
+    }
+    const imp = l.match(/^\s*import\s+([A-Za-z_][\w.]*(?:\s*,\s*[A-Za-z_][\w.]*)*)/);
+    if (imp) for (const m of imp[1].split(",")) push(m.trim());
+  });
 }
 
 function scriptRefs(rawLine: string, n: number, refs: Ref[]): void {

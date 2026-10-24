@@ -34,7 +34,7 @@ You get a batch list: a file of paths `…/<judge>-<NNN>.q.jsonl`, one per line.
    - `pullsIn` is a boolean;
    - `judge` equals the batch's judge version;
    - `model` equals the table's model id without the provider (`claude-sonnet-5-5` or `claude-haiku-5-5`);
-   - every `reason` is non-empty, and repeated reasons cover only identical sentences.
+   - every `reason` is non-empty. On reasons, a batch fails only when fewer than half of its lines have distinct reasons, or one reason text is used on more than 20% of its lines while their sentences differ. A few reasons shared between similar sentences are fine.
 
    Also read the judge's report. If it says it used a script to draft or propose answers, the batch fails.
 

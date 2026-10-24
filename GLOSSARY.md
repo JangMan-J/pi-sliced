@@ -3,9 +3,9 @@ type: glossary
 created: 2026-10-23T22:26:14Z
 created_by: claude-opus-5-5
 created_session: 01a16ad8-e553-7570-944c-08638df8729d
-updated: 2026-10-23T22:26:14Z
+updated: 2026-10-24T03:45:50Z
 updated_by: claude-opus-5-5
-updated_session: 01a16ad8-e553-7570-944c-08638df8729d
+updated_session: 01a16bcf-e725-72c6-823f-569b4b7b3783
 ---
 
 # pi-sliced
@@ -186,6 +186,12 @@ _Confirmed_: 2026-10-24, Jang (via executive).
 A skill whose value is a method or working style not tied to one API, whoever publishes it. Several stand side by side under an occasion, and none supersedes another.
 _Example_: `mattpocock/skills/tdd`, `anthropics/skills/doc-coauthoring`.
 _Not_: a portfolio grouping; style skills sit in their domains like any listing.
+_Confirmed_: 2026-10-24, Jang (via executive).
+
+**Author text**:
+Content shown verbatim from a skill's files, such as its `SKILL.md` body, file names and tool names. It is the skill author's words, not pi-sliced's vocabulary, and is shown as the author's.
+_Example_: canvas-design's body line "Download and use whatever fonts…" shown in Inspect.
+_Not_: Picker labels, Footprint lines, summaries.
 _Confirmed_: 2026-10-24, Jang (via executive).
 
 ## Unresolved

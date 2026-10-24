@@ -1,4 +1,3 @@
-> Draft fork of pi-sliced. Not promoted; not frozen.
 ---
 type: glossary
 created: 2026-10-23T22:26:14Z

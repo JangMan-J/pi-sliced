@@ -14,14 +14,14 @@ export type QuestionClass = "outside-skill-folders" | "prose-directory" | "skill
 
 // A panel judge answers no question itself: it replays the answers of judge versions in order, and asks
 // the last version of a class's list (Jang, rulings c1 N3). judge-7: every judge-4 answer stands; new
-// outside-skill-folders and prose-directory questions go to judge-8 (claude-sonnet-5-5), new skill-folder-only
-// questions to judge-9 (claude-haiku-5-5), the versions that passed calibration (docs/catalogue/calibration/).
+// outside-skill-folders questions go to judge-10 (gpt-6-astra), skill-folder-only to judge-11
+// (gpt-6-luna). prose-directory stays with judge-8 pending replacement calibration.
 // Each answer is stored under the version that gave it.
 export const PANELS: Record<string, Record<QuestionClass, string[]>> = {
   "judge-7": {
-    "outside-skill-folders": ["judge-4", "judge-8"],
+    "outside-skill-folders": ["judge-4", "judge-8", "judge-10"],
     "prose-directory": ["judge-4", "judge-8"],
-    "skill-folder-only": ["judge-4", "judge-9"],
+    "skill-folder-only": ["judge-4", "judge-9", "judge-11"],
   },
 };
 

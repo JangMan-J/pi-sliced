@@ -4,3 +4,6 @@ judge-6 (haiku-5-5) skill-folder-only: 139/141 = 98.6%
 judge-8 (sonnet-5-5) outside-skill-folders: 107/107 = 100.0%
 judge-8 (sonnet-5-5) prose-directory: 89/91 = 97.8%
 judge-9 (haiku-5-5) skill-folder-only: 141/141 = 100.0%
+judge-10 (gpt-6-astra) outside-skill-folders: 107/107 = 100.0%
+judge-10 (gpt-6-astra) prose-directory: 87/91 = 95.6% (FAIL; below 97% gate)
+judge-11 (gpt-6-luna) skill-folder-only: 138/141 = 97.9%

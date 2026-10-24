@@ -1,6 +1,6 @@
 // Split a round of pending judge questions into batches for the judge version that asks each class
-// (panel judge-7: judge-8 for outside-skill-folders and prose-directory, judge-9 for skill-folder-only).
-//   node tools/catalogue/batch-questions.ts <round> <questions.jsonl ...> [--size-8 100] [--size-9 150]
+// (panel judge-7: judge-10 for outside-skill-folders, judge-11 for skill-folder-only; prose-directory retains judge-8).
+//   node tools/catalogue/batch-questions.ts <round> <questions.jsonl ...> [--size-10 100] [--size-11 10] [--size-8 100]
 // Writes .pad/catalogue/judge/<round>/<judge>-<NNN>.q.jsonl and prints the batch list.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -15,7 +15,12 @@ const opt = (k: string, d: number) => {
   args.splice(i, 2);
   return v;
 };
-const size: Record<string, number> = { "judge-8": opt("--size-8", 100), "judge-9": opt("--size-9", 150) };
+const size: Record<string, number> = { "judge-8": opt("--size-8", 100), "judge-10": opt("--size-10", 100), "judge-11": opt("--size-11", 10) };
+for (const [judge, n] of Object.entries(size)) {
+  if (!Number.isSafeInteger(n) || n < 1 || (judge === "judge-11" && n > 10)) {
+    throw new Error(`invalid batch size for ${judge}: ${n} (judge-11 maximum: 10)`);
+  }
+}
 const [round, ...files] = args;
 const store = new JudgementStore(ROOT);
 const byJudge = new Map<string, Map<string, Question>>();

@@ -1,0 +1,1 @@
+{"id":"5c5bc15c05ebeafdf325df2dfbb01400db7b120cfacdddba2f7e43d917d176e2","pullsIn":false,"reason":"In the Register workflow, the reference is an instruction to edit the catalog-map.md row for the new lane, not to read it as skill guidance.","judge":"judge-11","model":"gpt-6-luna"}

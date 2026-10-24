@@ -2,17 +2,20 @@
 
 You coordinate one round of judge questions. You do not answer any question yourself.
 
-You get a batch list: a file of paths `…/<judge>-<NNN>.q.jsonl`, one per line. Each batch file holds about 100–150 questions for one judge version.
+You get a batch list: a file of paths `…/<judge>-<NNN>.q.jsonl`, one per line. Each batch file holds about 100 questions for judge-10, or at most 10 for judge-11.
 
-| Judge version | Model (provider `anthropic`) | Prompt |
+| Judge version | Model | Prompt |
 | --- | --- | --- |
-| `judge-8` | `anthropic/claude-sonnet-5-5` | `tools/trace/judge-8.md` |
-| `judge-9` | `anthropic/claude-haiku-5-5` | `tools/trace/judge-9.md` |
+| `judge-10` | `openai-codex/gpt-6-astra` | `tools/trace/judge-10.md` |
+| `judge-8` (paused) | `anthropic/claude-sonnet-5-5` | `tools/trace/judge-8.md` |
+| `judge-11` | `openai-codex/gpt-6-luna` | `tools/trace/judge-11.md` |
+
+judge-10 passed outside-skill-folders; judge-11 passed skill-folder-only. Do not call Anthropic for the unchanged judge-8 prose-directory route; leave those batches pending until replacement calibration is approved. See `docs/catalogue/calibration/subscription-results.md`. The judge-10/11 prompt headers identify their calibrated models; use the actual model ID from the environment as required below.
 
 ## For each batch
 
 1. **Start a judge.** Start one judge agent with `agent_delegate`:
-   - `model` as in the table, `thinking: "medium"`, `recruit: false`, `inheritProjectContext: false`;
+   - `model` as in the table, `thinking: "medium"`, `inheritProjectContext: false`; judges must not recruit;
    - `cwd` = the repository root;
    - `files` = the prompt file and the batch file;
    - `placement: "tab"`, so that no tab holds more than four panes.
@@ -33,7 +36,7 @@ You get a batch list: a file of paths `…/<judge>-<NNN>.q.jsonl`, one per line.
    - every line parses as JSON;
    - `pullsIn` is a boolean;
    - `judge` equals the batch's judge version;
-   - `model` equals the table's model id without the provider (`claude-sonnet-5-5` or `claude-haiku-5-5`);
+   - `model` equals the table's model id without the provider (`gpt-6-astra` for judge-10 or `gpt-6-luna` for judge-11);
    - every `reason` is non-empty. On reasons, a batch fails only when fewer than half of its lines have distinct reasons, or one reason text is used on more than 20% of its lines while their sentences differ. A few reasons shared between similar sentences are fine.
 
    Also read the judge's report. If it says it used a script to draft or propose answers, the batch fails.

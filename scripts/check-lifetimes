@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cat >&2 <<'NOT_BUILT'
-not built: `scripts/check-lifetimes`, with an empty HOME, reaching the Author's server at its public address: session 1 serves skills A and B, and the agent reads a file from each. Session 1 exits. It passes only if a diff of HOME and the temp directories against their state before session 1 shows nothing pi-sliced served remaining (the pi-sliced package itself and Pi's session files excluded), and session 2 starts with an empty Slice in which the agent cannot read A or B.
-NOT_BUILT
-exit 1
+# Proof 5: see KERNEL.md. Harness: server/harness/ (mock model, Pi RPC driver, sandbox).
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+exec node server/harness/check-lifetimes.ts "$@"

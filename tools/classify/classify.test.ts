@@ -27,8 +27,8 @@ test("classification: deterministic, Heavy as the glossary defines it", () => {
 
 function scratch(): string {
   const root = mkdtempSync(join(tmpdir(), "rederive-"));
-  mkdirSync(join(root, "traces"), { recursive: true });
-  cpSync(join(ROOT, "traces", "mattpocock"), join(root, "traces", "mattpocock"), { recursive: true });
+  mkdirSync(join(root, TDD, ".."), { recursive: true });
+  cpSync(join(ROOT, TDD), join(root, TDD)); // one Trace, so that it is the current one
   return root;
 }
 

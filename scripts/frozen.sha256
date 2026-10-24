@@ -1,6 +1,6 @@
 # sha256 of the frozen set, checked by scripts/check-frozen.
 # Change this file only when the user promotes a fork, or in an unpromoted fork after editing its draft frozen set.
-65c7f22dcceb0b63c15585db160f038a0351f00ddca81fe8a81ce06cd9467b6d KERNEL.md
-c511bf7f6951a566f921432296e10c0d08c1962886bc14ad57c7f480b25420d3 INVARIANTS.md
+f5124e171f7d697a748cd1c5934ab9350dacfdcd4ac924dd60c9f54d4587aaad KERNEL.md
+e9adb45d793328d86aaf7ac0651733cbf3be3b14119191351ca35e9d97d08217 INVARIANTS.md
 1a551c40361bbe5ba7be07435cc0a7ac5c6636281602043f23442643d45e8540 GLOSSARY.md#kernel
 28467dce51789d15b48995f088273d8fe27bf62e2ca5c60317f1ca897a822874 GLOSSARY.md#invariants

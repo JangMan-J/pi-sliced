@@ -1,3 +1,4 @@
+> Draft fork of pi-sliced. Not promoted; not frozen.
 ---
 type: kernel
 created: 2026-10-23T22:26:14Z

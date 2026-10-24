@@ -1,3 +1,4 @@
+> Draft fork of pi-sliced. Not promoted; not frozen.
 ---
 type: invariants
 created: 2026-10-23T22:26:14Z
@@ -13,7 +14,7 @@ These are the anti-goals of pi-sliced: what it will never be, serve, enter, or c
 
 - Never can the agent see, search, or load a Catalogue skill or live Skills.sh item that is not in the session's Slice. Only the user widens it. Check: `scripts/check-slice`
 - Never does a Catalogue skill or live Skills.sh item that is not Served add anything to the agent's context. Check: `scripts/check-slice`
-- Never hide, replace, or alter the user's native skills, other extensions, or other MCP servers. They stay exactly as Pi provides them.
+- Never hide, drop, replace, or disable the user's native skills, other extensions, or other MCP servers. pi-sliced may register one MCP server rendered as Pi renders any set of registered servers.
 - Never does anything pi-sliced served remain on the user's machine, or in a later session, after the session it was served in ends, apart from what Pi itself records in that session's own session file. A new session starts with an empty Slice. Check: `scripts/check-lifetimes`
 - Never list a Catalogue skill without a recorded Trace of everything it pulls in at its Revision. Check: `scripts/check-catalogue`
 - Never serve a Catalogue skill as anything other than its complete traced file set at its Revision, byte for byte. Check: `scripts/check-serve`

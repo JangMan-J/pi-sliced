@@ -1,0 +1,1 @@
+{"id":"29150d705a650d252ed9727da4ee547c50defe7945d318537a079b685ca5424f","pullsIn":false,"reason":"The sentence uses `../examples/` as a reference for orchestration patterns but explicitly says it is not the canonical source, rather than directing use of the directory's contents as a whole.","judge":"judge-15","model":"gpt-6-luna"}

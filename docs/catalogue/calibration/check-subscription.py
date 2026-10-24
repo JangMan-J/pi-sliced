@@ -24,6 +24,7 @@ specs = {
            ('q-sonnet-1.jsonl', 'a10-astra-1.jsonl')],
     '11': [(f'q11-luna-small-{i:02}.jsonl', f'a11-luna-small-{i:02}.jsonl') for i in range(15)],
     '13': [(f'grok-q-{i:02}.jsonl', f'grok-a-{i:02}.jsonl') for i in range(4)],
+    '15': [(f'luna-prose-q-{i:02}.jsonl', f'luna-prose-a-{i:02}.jsonl') for i in range(10)],
     '14': [('flash-q-14.jsonl', 'flash-a-14-00-retry.jsonl', 0, 30)] +
           [('flash-q-14.jsonl', f'flash-a-14-{i:02}.jsonl', i * 30, (i + 1) * 30) for i in range(1, 12)],
     '12': [('muse-12-prose.q.jsonl', 'muse-12-prose-retry.a.jsonl')] +
@@ -32,7 +33,7 @@ specs = {
 for selection in sys.argv[1:]:
     version, _, batch = selection.partition(':')
     selected = specs[version] if not batch else [specs[version][int(batch)]]
-    model = {'10': 'gpt-6-astra', '11': 'gpt-6-luna', '12': 'muse-spark-1.3', '13': 'grok-4.7-build-fast', '14': 'gemini-3.8-flash'}[version]
+    model = {'10': 'gpt-6-astra', '11': 'gpt-6-luna', '12': 'muse-spark-1.3', '13': 'grok-4.7-build-fast', '14': 'gemini-3.8-flash', '15': 'gpt-6-luna'}[version]
     results = collections.defaultdict(lambda: [0, 0])
     disagreements = []
     for qfile, afile, *bounds in selected:

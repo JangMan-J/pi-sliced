@@ -16,3 +16,4 @@ judge-13 (grok-4.7-build-fast) skill-folder-only: 141/141 = 100.0%
 judge-14 (gemini-3.8-flash) outside-skill-folders: 107/107 = 100.0%
 judge-14 (gemini-3.8-flash) prose-directory: 88/91 = 96.7% (FAIL; valid retry after packet 00 failed format)
 judge-14 (gemini-3.8-flash) skill-folder-only: 141/141 = 100.0%
+judge-15 (gpt-6-luna) prose-directory: 81/91 = 89.0% (FAIL; below 97% gate)

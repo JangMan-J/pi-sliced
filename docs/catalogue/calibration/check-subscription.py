@@ -24,17 +24,21 @@ specs = {
            ('q-sonnet-1.jsonl', 'a10-astra-1.jsonl')],
     '11': [(f'q11-luna-small-{i:02}.jsonl', f'a11-luna-small-{i:02}.jsonl') for i in range(15)],
     '13': [(f'grok-q-{i:02}.jsonl', f'grok-a-{i:02}.jsonl') for i in range(4)],
+    '14': [('flash-q-14.jsonl', 'flash-a-14-00-retry.jsonl', 0, 30)] +
+          [('flash-q-14.jsonl', f'flash-a-14-{i:02}.jsonl', i * 30, (i + 1) * 30) for i in range(1, 12)],
     '12': [('muse-12-prose.q.jsonl', 'muse-12-prose-retry.a.jsonl')] +
           [(f'muse-12-other-{i:02}.q.jsonl', f'muse-12-other-{i:02}.a.jsonl') for i in range(3)],
 }
 for selection in sys.argv[1:]:
     version, _, batch = selection.partition(':')
     selected = specs[version] if not batch else [specs[version][int(batch)]]
-    model = {'10': 'gpt-6-astra', '11': 'gpt-6-luna', '12': 'muse-spark-1.3', '13': 'grok-4.7-build-fast'}[version]
+    model = {'10': 'gpt-6-astra', '11': 'gpt-6-luna', '12': 'muse-spark-1.3', '13': 'grok-4.7-build-fast', '14': 'gemini-3.8-flash'}[version]
     results = collections.defaultdict(lambda: [0, 0])
     disagreements = []
-    for qfile, afile in selected:
+    for qfile, afile, *bounds in selected:
         questions, answers = rows(BASE / qfile), rows(BASE / afile)
+        if bounds:
+            questions = questions[bounds[0]:bounds[1]]
         assert [a['id'] for a in answers] == [q['id'] for q in questions], afile
         reasons = collections.defaultdict(list)
         for q, a in zip(questions, answers):

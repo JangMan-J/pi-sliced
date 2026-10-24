@@ -13,3 +13,6 @@ judge-12 (muse-spark-1.3) skill-folder-only: 141/141 = 100.0%
 judge-13 (grok-4.7-build-fast) outside-skill-folders: 107/107 = 100.0%
 judge-13 (grok-4.7-build-fast) prose-directory: 87/91 = 95.6% (FAIL; below 97% gate)
 judge-13 (grok-4.7-build-fast) skill-folder-only: 141/141 = 100.0%
+judge-14 (gemini-3.8-flash) outside-skill-folders: 107/107 = 100.0%
+judge-14 (gemini-3.8-flash) prose-directory: 88/91 = 96.7% (FAIL; valid retry after packet 00 failed format)
+judge-14 (gemini-3.8-flash) skill-folder-only: 141/141 = 100.0%

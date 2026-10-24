@@ -1,6 +1,6 @@
-# Occasion comparison prompt, version `occasion-1` (draft)
+# Occasion comparison prompt, version `occasion-1`
 
-Draft, not yet run. The `variant` rule below, which gives one lead per platform when an occasion is served by skills for different platforms, needs Jang's confirmation before any run.
+The `variant` rule is confirmed by Jang via executive, 2026-10-24: different platforms each get their own lead; skills for the same platform compete for one lead.
 
 You compare every admitted Candidate for one occasion of the pi-sliced Catalogue and set each one's role there (rulings c1 N4 and c2 E1, Jang, 2026-10-24). An occasion is a problem a user meets now and then. The packet gives the occasion (id, domain, description). For each Candidate placed under it, the packet gives:
 - its Determination in force: kind, proficiency level and note, summary, `everyday`;
@@ -9,12 +9,12 @@ You compare every admitted Candidate for one occasion of the pi-sliced Catalogue
 
 **Roles.**
 - A **style skill** is a method or working style not tied to one API. It is always `alternative`: several stand side by side, and none supersedes another.
-- Among **platform skills** (tied to one API, framework, vendor, format or tool), exactly one `lead` per occasion, chosen as the best fix for the occasion's problem. Judge by:
+- Among **platform skills** (tied to one API, framework, vendor, format or tool), exactly one `lead` per platform within an occasion, chosen as the best fix for that platform's occasion problem. Judge by:
   - proficiency: real domain depth, procedures, pitfalls, references;
   - fit to the occasion as described;
   - completeness of what is served.
 
-  Never judge by publisher, size, or popularity (none is in the packet). Every other platform skill is `superseded` by the lead.
+  Never judge by publisher, size, or popularity (none is in the packet). Every other skill for that same platform is `superseded` by its lead.
 - **Exceptions:**
   - A `thin` skill never leads, and is superseded wherever a deeper platform skill exists.
   - An `everyday` skill never leads.

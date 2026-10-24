@@ -136,7 +136,7 @@ export async function runSandbox(o: SandboxOptions): Promise<SandboxRun> {
     const inner = `nft -f "$0" || exit 99; "$@"; rc=$?; nft list ruleset > ${dirs.out}/nft.txt; exit $rc`;
     argv = [
       "pasta", "--config-net", "-4", "-a", NS_ADDR, "-n", "24", "-g", NS_GW, "--no-map-gw",
-      "-t", "none", "-u", "none", "-T", "none", "-U", "none", "--pcap", pcap, "-q", "-f",
+      "-t", "none", "-u", "none", "-T", "none", "-U", "none", "--pcap", pcap, "-q", "-f", "--dns", "none",
       "--", "/bin/sh", "-c", inner, nft, ...bwrap,
     ];
   } else argv = bwrap;

@@ -8,8 +8,11 @@
 // or
 //   { "name", "admitTraced": { "limit": N } }  (first N resolved Candidates by id, newest Revision each)
 // and writes, under the store, `skills/<owner>/<repo>/<name>@<revision>.json` (Detail) for each
-// admitted skill, then `catalogues/<name>.json` (Catalogue). Admission here ignores Determinations;
-// Footprint, Heavy and markers derive from the stored Trace alone.
+// admitted skill, then `catalogues/<name>.json` (Catalogue). Admission here ignores Determinations.
+// Each Listing comes from the current Trace (highest tracer, then judge) plus its Classification
+// (docs/contracts/classification.md); a Candidate without one fails the build. Footprint counts
+// come from the Trace; summary, short, heavy, markers, security and companions from the
+// Classification, whose Heavy must agree with the glossary rule applied to the Trace.
 import { spawnSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -21,9 +24,10 @@ import {
   cloneDir,
   detailPath,
   footprint,
+  hasClassification,
   isHeavy,
-  markers,
   parseFrontmatter,
+  readClassification,
   readTrace,
   resolvedTraces,
   treeModes,
@@ -34,8 +38,11 @@ const SPECS = join(REPO, "server", "catalogues");
 const CHECK_DOMAIN = "check";
 const CHECK_DOMAIN_LINE = "Traced Candidates admitted for checks, whatever their Determinations say.";
 
-/** Listing + Detail for one Trace. `modes` maps path → git mode at the Revision. */
-export function buildDetail(trace, { domain, summary }, modes, readBlob) {
+/**
+ * Listing + Detail for one Trace and its Classification (`{ classification, path }` from
+ * readClassification). `modes` maps path → git mode at the Revision.
+ */
+export function buildDetail(trace, { classification: c, path: classificationPath }, { domain, summary }, modes, readBlob) {
   const own = `${trace.skillPath}/SKILL.md`;
   const md = trace.files.find((f) => f.path === own);
   if (!md) throw new Error(`${trace.candidate}: ${own} is not in its Trace`);
@@ -44,7 +51,19 @@ export function buildDetail(trace, { domain, summary }, modes, readBlob) {
   if (typeof fm.name !== "string" || typeof fm.description !== "string") {
     throw new Error(`${trace.candidate}: SKILL.md frontmatter lacks a string name or description`);
   }
+  const fail = (what) => {
+    throw new Error(`${trace.candidate}: ${classificationPath}: ${what}`);
+  };
   const fp = footprint(trace);
+  const cf = c.footprint ?? fail("no footprint");
+  if (cf.files !== fp.files || cf.bytes !== fp.bytes) fail(`footprint ${cf.files} files/${cf.bytes} B, Trace ${fp.files}/${fp.bytes}`);
+  if (typeof cf.summary !== "string" || cf.summary === "") fail("no footprint.summary");
+  if (typeof cf.short !== "string" || cf.short === "") fail("no footprint.short");
+  if (typeof c.heavy?.heavy !== "boolean" || !Array.isArray(c.heavy.because)) fail("no heavy {heavy, because}");
+  if (c.heavy.heavy !== isHeavy(fp)) fail(`heavy ${c.heavy.heavy}, but the glossary rule on the Trace says ${isHeavy(fp)}`);
+  if (!Array.isArray(c.markers) || !c.markers.every((m) => typeof m.marker === "string" && Array.isArray(m.because))) fail("bad markers");
+  if (typeof c.security !== "object" || c.security === null) fail("no security");
+  if (!Array.isArray(c.companions?.named) || !Array.isArray(c.companions?.pulled)) fail("no companions {named, pulled}");
   const files = trace.files.map((f) => {
     const mode = modes.get(f.path);
     if (!mode) throw new Error(`${trace.candidate}: ${f.path} is not in the tree at ${trace.revision}`);
@@ -60,9 +79,13 @@ export function buildDetail(trace, { domain, summary }, modes, readBlob) {
     source: trace.source,
     revision: trace.revision,
     skillPath: trace.skillPath,
-    footprint: fp,
-    heavy: isHeavy(fp),
-    markers: markers(trace),
+    footprint: { ...fp, summary: cf.summary, short: cf.short },
+    heavy: c.heavy.heavy,
+    heavyBecause: c.heavy.because,
+    markers: c.markers.map((m) => ({ marker: m.marker, because: m.because })),
+    security: c.security,
+    companions: c.companions,
+    classification: classificationPath,
     files,
     skillMd,
   };
@@ -86,11 +109,17 @@ export function admissions(spec) {
     const limit = spec.admitTraced.limit;
     if (!Number.isInteger(limit) || limit < 1) throw new Error("admitTraced.limit must be a positive integer");
     const byCandidate = new Map();
+    let unclassified = 0;
     for (const t of resolvedTraces()) {
+      if (!hasClassification(t)) {
+        unclassified++;
+        continue;
+      }
       const prev = byCandidate.get(t.candidate);
       if (!prev || commitTime(t.source, t.revision) > commitTime(prev.source, prev.revision)) byCandidate.set(t.candidate, t);
     }
     const ids = [...byCandidate.keys()].sort().slice(0, limit);
+    if (unclassified) process.stderr.write(`${spec.name}: skipped ${unclassified} resolved Traces without a Classification\n`);
     return {
       domains: spec.domains ?? { [CHECK_DOMAIN]: CHECK_DOMAIN_LINE },
       admit: ids.map((id) => ({ trace: byCandidate.get(id), domain: CHECK_DOMAIN, summary: "" })),
@@ -123,7 +152,7 @@ export function buildCatalogue(name) {
     storeTrace(trace);
     const key = `${trace.source}@${trace.revision}`;
     if (!modesBySourceRev.has(key)) modesBySourceRev.set(key, treeModes(trace.source, trace.revision));
-    const detail = buildDetail(trace, { domain, summary }, modesBySourceRev.get(key), readBlob);
+    const detail = buildDetail(trace, readClassification(trace), { domain, summary }, modesBySourceRev.get(key), readBlob);
     writeJson(detailPath(trace.candidate, trace.revision), detail);
     skills.push(listingOf(detail));
   }

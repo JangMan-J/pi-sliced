@@ -13,6 +13,7 @@ after(() => rmSync(tmp, { recursive: true, force: true }));
 
 const lib = await import("./lib.mjs");
 const { storeTrace } = await import("./build-store.mjs");
+const buildCatalogueModule = await import("./build-catalogue.mjs");
 const { route, handler } = await import("./author-server.mjs");
 
 describe("blob SHA", () => {
@@ -120,44 +121,64 @@ describe("frontmatter", () => {
   });
 });
 
-describe("Footprint, Heavy, markers from stored Traces", () => {
-  const listing = (candidate) => {
+describe("Listings from the current Trace and its Classification", () => {
+  const { buildDetail } = buildCatalogueModule;
+  const fakeMd = () => Buffer.from("---\nname: x\ndescription: y\n---\n");
+  const allModes = (t) => new Map(t.files.map((f) => [f.path, "100644"]));
+  const trace = (candidate) => {
     const t = lib.resolvedTraces().find((x) => x.candidate === candidate);
     assert.ok(t, `stored Trace for ${candidate}`);
-    const fp = lib.footprint(t);
-    return { fp, heavy: lib.isHeavy(fp), markers: lib.markers(t) };
+    return t;
+  };
+  const listing = (candidate) => {
+    const t = trace(candidate);
+    return buildDetail(t, lib.readClassification(t), { domain: "d", summary: "s" }, allModes(t), fakeMd);
   };
   test("anthropics/skills/canvas-design", () => {
-    const { fp, heavy, markers } = listing("anthropics/skills/canvas-design");
-    assert.equal(fp.files, 83);
-    assert.equal(fp.bytes, 5_554_003);
-    assert.deepEqual(fp.outside, []);
-    assert.equal(heavy, true);
-    assert.deepEqual(markers, []);
+    const l = listing("anthropics/skills/canvas-design");
+    assert.equal(l.footprint.files, 83);
+    assert.equal(l.footprint.bytes, 5_554_003);
+    assert.deepEqual(l.footprint.outside, []);
+    assert.equal(l.heavy, true);
+    assert.deepEqual(l.heavyBecause, ["files total 5.3 MiB (> 1 MiB)"]);
+    assert.deepEqual(l.markers, []);
+    assert.match(l.classification, /^classifications\/anthropics\/skills\/canvas-design\/[0-9a-f]{40}\/trace-\d+\+judge-\d+\+classify-\d+\.json$/);
   });
   test("mattpocock/skills/tdd", () => {
-    const { fp, heavy, markers } = listing("mattpocock/skills/tdd");
-    assert.equal(fp.files, 3);
-    assert.equal(fp.bytes, 7_324);
-    assert.deepEqual(fp.outsideFolder, { files: 0, bytes: 0 });
-    assert.equal(heavy, false);
-    assert.deepEqual(markers, ["chain"]); // names the `code-review` skill
+    const l = listing("mattpocock/skills/tdd");
+    assert.equal(l.footprint.files, 3);
+    assert.equal(l.footprint.bytes, 7_324);
+    assert.deepEqual(l.footprint.outsideFolder, { files: 0, bytes: 0 });
+    assert.equal(l.heavy, false);
   });
   test("openai/plugins/game-ui-frontend", () => {
-    const { fp, heavy, markers } = listing("openai/plugins/game-ui-frontend");
-    assert.equal(fp.files, 17);
-    assert.equal(fp.bytes, 38_028);
-    assert.equal(fp.outsideFolder.files, 16);
-    assert.deepEqual(fp.outside, []);
-    assert.equal(heavy, false);
-    assert.deepEqual(markers, ["chain"]); // reads web-game-foundations/SKILL.md
+    const l = listing("openai/plugins/game-ui-frontend");
+    assert.equal(l.footprint.files, 17);
+    assert.equal(l.footprint.bytes, 38_028);
+    assert.equal(l.footprint.outsideFolder.files, 16);
+    assert.deepEqual(l.footprint.outside, []);
+    assert.equal(l.heavy, false);
   });
   test("shadcn-ui/ui/shadcn", () => {
-    const { fp, heavy, markers } = listing("shadcn-ui/ui/shadcn");
-    assert.ok(fp.outside.some((o) => o.kind === "cli" && o.name === "shadcn"));
-    assert.ok(fp.bytes <= lib.HEAVY_BYTES);
-    assert.equal(heavy, true);
-    assert.ok(markers.includes("shell"));
+    const l = listing("shadcn-ui/ui/shadcn");
+    assert.ok(l.footprint.outside.some((o) => o.kind === "cli" && o.name === "shadcn"));
+    assert.ok(l.footprint.bytes <= lib.HEAVY_BYTES);
+    assert.equal(l.heavy, true);
+    assert.deepEqual(l.markers.map((m) => m.marker), ["runs-commands", "installs-packages", "unpinned-code"]);
+    assert.ok(l.markers.every((m) => m.because.length > 0));
+    assert.equal(l.footprint.short, "136 KiB · 2 CLI · 4 pkg");
+    assert.ok(l.footprint.summary.startsWith("16 files, 136 KiB"));
+    assert.deepEqual(Object.keys(l.companions).sort(), ["named", "pulled"]);
+    assert.ok("fetch-run" in l.security);
+  });
+  test("fails loudly: Heavy disagreement, missing short, no Classification", () => {
+    const t = trace("mattpocock/skills/tdd");
+    const cl = lib.readClassification(t);
+    const build = (c) => buildDetail(t, { ...cl, classification: c }, { domain: "d", summary: "s" }, allModes(t), fakeMd);
+    assert.throws(() => build({ ...cl.classification, heavy: { heavy: true, because: ["x"] } }), /glossary rule/);
+    const { short: _s, ...noShort } = cl.classification.footprint;
+    assert.throws(() => build({ ...cl.classification, footprint: noShort }), /footprint.short/);
+    assert.throws(() => lib.readClassification({ ...t, candidate: "nobody/none/x" }), /no trace directory|no Classification/);
   });
   test("Heavy boundary and kinds (GLOSSARY.md Heavy _Check_)", () => {
     const fp = (bytes, outside = []) => ({ files: 1, bytes, outsideFolder: { files: 0, bytes: 0 }, outside });
@@ -175,17 +196,14 @@ describe("Footprint, Heavy, markers from stored Traces", () => {
         { path: "s/b/SKILL.md", size: 4 },
       ],
       outside: [
-        { kind: "cli", name: "jq" },
+        { kind: "cli", name: "jq", at: [] },
         { kind: "cli", name: "jq" },
         { kind: "package", name: "jq" },
       ],
-      namedSkills: [],
     };
     const fp = lib.footprint(t);
     assert.deepEqual(fp.outsideFolder, { files: 2, bytes: 6 });
     assert.deepEqual(fp.outside, [{ kind: "cli", name: "jq" }, { kind: "package", name: "jq" }]);
-    assert.deepEqual(lib.markers(t), ["shell", "packages", "chain"]);
-    assert.deepEqual(lib.markers({ ...t, files: t.files.slice(0, 2), outside: [] }), []);
   });
 });
 

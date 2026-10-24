@@ -1,15 +1,16 @@
 // Shared pieces of the Author's server: store layout, git access to the tracer's
-// blobless clones, blob verification, frontmatter parsing, and the derivation of
-// a Listing's Footprint, Heavy and markers from a stored Trace.
+// blobless clones, blob verification, frontmatter parsing, the current Trace and its
+// Classification, and the Trace-derived Footprint counts and Heavy cross-check.
 import { createHash, randomBytes } from "node:crypto";
 import { spawnSync } from "node:child_process";
 import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
-import { dirname, join } from "node:path";
+import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const REPO = dirname(dirname(fileURLToPath(import.meta.url)));
 export const TRACES = process.env.PI_SLICED_TRACES || join(REPO, "traces");
+export const CLASSIFICATIONS = process.env.PI_SLICED_CLASSIFICATIONS || join(REPO, "classifications");
 
 // Kept in step with extensions/pi-sliced/types.ts (HEAVY_BYTES, HEAVY_OUTSIDE_KINDS).
 export const HEAVY_BYTES = 1_048_576;
@@ -77,20 +78,64 @@ export function newestTraceFile(files) {
   return json.at(-1) ?? null;
 }
 
-/** Read the newest stored Trace of `candidate` at `revision` (read-only). */
-export function readTrace(candidate, revision) {
+/** Path of the current Trace file of `candidate` at `revision` (highest tracer, then judge). */
+export function traceFile(candidate, revision) {
   const dir = join(TRACES, candidate, revision);
   if (!existsSync(dir)) throw new Error(`no trace directory for ${candidate}@${revision}`);
   const file = newestTraceFile(readdirSync(dir));
   if (!file) throw new Error(`no trace file for ${candidate}@${revision}`);
-  const trace = JSON.parse(readFileSync(join(dir, file), "utf8"));
+  return join(dir, file);
+}
+
+/** Read the current stored Trace of `candidate` at `revision` (read-only). */
+export function readTrace(candidate, revision) {
+  const path = traceFile(candidate, revision);
+  const trace = JSON.parse(readFileSync(path, "utf8"));
   // Only `status`, `source`, `skillPath`, `files[].{path,size,blob}`, `outside[].{kind,name}` and
   // `namedSkills` are read; trace/1 and trace/2 agree on them.
   if (!TRACE_FORMATS.includes(trace.format)) throw new Error(`${candidate}@${revision}: format ${trace.format}`);
   if (trace.candidate !== candidate || trace.revision !== revision) {
-    throw new Error(`${dir}/${file}: records ${trace.candidate}@${trace.revision}`);
+    throw new Error(`${path}: records ${trace.candidate}@${trace.revision}`);
   }
   return trace;
+}
+
+/**
+ * The Classification of the current Trace of `trace.candidate` at `trace.revision`, with `path`
+ * (repo-relative) of the file it was read from. Throws when there is none, when it was derived
+ * from another Trace file or other bytes, or when it is not resolved.
+ */
+export function readClassification(trace) {
+  const tracePath = traceFile(trace.candidate, trace.revision);
+  const traceRel = relative(REPO, tracePath);
+  const sha256 = createHash("sha256").update(readFileSync(tracePath)).digest("hex");
+  const dir = join(CLASSIFICATIONS, trace.candidate, trace.revision);
+  const files = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith(".json")).sort() : [];
+  const hits = [];
+  for (const f of files) {
+    const c = JSON.parse(readFileSync(join(dir, f), "utf8"));
+    if (c.trace?.path === traceRel) hits.push({ c, path: relative(REPO, join(dir, f)) });
+  }
+  if (hits.length === 0) throw new Error(`${trace.candidate}@${trace.revision}: no Classification of ${traceRel}`);
+  // Several classifier versions of one Trace: the highest classify-N.
+  const n = (p) => Number(/classify-(\d+)\.json$/.exec(p)?.[1] ?? -1);
+  hits.sort((a, b) => n(a.path) - n(b.path));
+  const { c, path } = hits.at(-1);
+  if (c.format !== "pi-sliced.classification/1") throw new Error(`${path}: format ${c.format}`);
+  if (c.candidate !== trace.candidate || c.revision !== trace.revision) throw new Error(`${path}: records ${c.candidate}@${c.revision}`);
+  if (c.trace.sha256 !== sha256) throw new Error(`${path}: derived from other bytes of ${traceRel} (sha256 ${c.trace.sha256}, file ${sha256})`);
+  if (c.status !== "resolved") throw new Error(`${path}: status ${c.status}`);
+  return { classification: c, path };
+}
+
+/** True when the current Trace of `trace` has a usable Classification. */
+export function hasClassification(trace) {
+  try {
+    readClassification(trace);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 /**
@@ -408,7 +453,7 @@ export function parseFrontmatter(text) {
   return out;
 }
 
-// ---------------------------------------------------------------- Footprint, Heavy, markers
+// ---------------------------------------------------------------- Footprint, Heavy
 
 function underFolder(path, folder) {
   return path.startsWith(folder.endsWith("/") ? folder : folder + "/");
@@ -439,19 +484,6 @@ export function footprint(trace) {
 /** Heavy per GLOSSARY.md: traced bytes > 1 MiB, or an Outside requirement of a heavy kind. */
 export function isHeavy(fp) {
   return fp.bytes > HEAVY_BYTES || fp.outside.some((o) => HEAVY_OUTSIDE_KINDS.includes(o.kind));
-}
-
-const MARKER_OF_KIND = { cli: "shell", package: "packages", network: "network", credential: "credentials", "mcp-server": "mcp" };
-const MARKER_ORDER = ["shell", "packages", "network", "credentials", "mcp", "chain"];
-
-/** Markers derivable from the Trace alone (interim, until the Classification contract). */
-export function markers(trace) {
-  const set = new Set();
-  for (const o of trace.outside) if (MARKER_OF_KIND[o.kind]) set.add(MARKER_OF_KIND[o.kind]);
-  const own = `${trace.skillPath}/SKILL.md`;
-  const otherSkill = trace.files.some((f) => (f.path === "SKILL.md" || f.path.endsWith("/SKILL.md")) && f.path !== own);
-  if ((trace.namedSkills?.length ?? 0) > 0 || otherSkill) set.add("chain");
-  return MARKER_ORDER.filter((m) => set.has(m));
 }
 
 // ---------------------------------------------------------------- store paths

@@ -1,0 +1,1 @@
+{"id":"23290d1266000732576ccfb41d233ae65429acd5ec3608c68ac203463e53d94b","pullsIn":true,"reason":"\"Use grep to find relevant docs in references/\" directs the agent to search the directory's contents.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/mastra/references/embedded-docs.md","line":37,"ref":"references/","target":"skills/mastra/references"}

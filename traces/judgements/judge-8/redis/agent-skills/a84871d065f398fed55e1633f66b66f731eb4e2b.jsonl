@@ -1,0 +1,1 @@
+{"id":"b96079836965081aad5507620ea9d5c7134e1ba5c576a968afff6e8e9273aabd","pullsIn":true,"reason":"iris-development tells the agent to read the rule files under references/, using the directory as a whole.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/iris-development/SKILL.md","line":79,"ref":"references/","target":"skills/iris-development/references"}

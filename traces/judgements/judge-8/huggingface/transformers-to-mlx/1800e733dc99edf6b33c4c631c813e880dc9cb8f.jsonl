@@ -1,0 +1,1 @@
+{"id":"9d0fff8a7e13477f436ea0db26003e1633117729b66f0c3432c5ac7edf3981f7","pullsIn":false,"reason":"transformers-to-mlx only lists bundled scripts under a heading, with no direction.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/transformers-to-mlx/SKILL.md","line":356,"ref":"scripts/","target":"skills/transformers-to-mlx/scripts"}

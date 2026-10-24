@@ -1,0 +1,1 @@
+{"id":"f5749199b912dd4dc792732bea2f920aae5625b49541d3d82f24000a22f6e464","pullsIn":true,"reason":"commands.md line 138 says the --json schema for view is in SKILL.md, a direction to the skill's own file.","judge":"judge-9","model":"claude-haiku-5-5","file":"skills/gh-stack/references/commands.md","line":138,"ref":"SKILL.md","target":"skills/gh-stack/SKILL.md"}

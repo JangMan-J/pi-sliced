@@ -22,6 +22,11 @@ const ids = readFileSync(opt("--ids")!, "utf8").split("\n").filter(Boolean);
 const keyBytes = Number(opt("--key-bytes", "6000"));
 const sha = (b: string | Buffer) => createHash("sha256").update(b).digest("hex");
 const current = new Map(currentTraces().map((t) => [t.candidate, t]));
+// Skill folders of traced Candidates, so a companion can be named by its Candidate id.
+const folderOf = new Map<string, string>();
+const companionsFile = join(ROOT, "classifications/companions.json");
+if (existsSync(companionsFile))
+  for (const e of JSON.parse(readFileSync(companionsFile, "utf8")).entries as { folder: string; candidate: string | null }[]) if (e.candidate) folderOf.set(e.folder, e.candidate);
 // Purpose-vs-action findings (evidence for the Determination), keyed by Candidate and Trace sha256
 // (the Classification is derived from the Trace; its bytes may be re-serialized).
 const findings = new Map<string, { concern: string; note: string; hits: { hit: string; explained: boolean; note: string }[]; model: string }>();
@@ -61,7 +66,7 @@ for (const id of ids) {
     `- heavy: ${c.heavy!.heavy ? `yes (${c.heavy!.because.join("; ")})` : "no"}`,
     `- markers: ${c.markers!.length ? c.markers!.map((m) => `${m.marker} [${m.because.slice(0, 3).join("; ")}${m.because.length > 3 ? `; +${m.because.length - 3}` : ""}]`).join(" · ") : "none"}`,
     `- security hits: ${Object.keys(c.security!).length ? Object.entries(c.security!).map(([k, v]) => `${k}: ${v.slice(0, 4).join(" | ")}${v.length > 4 ? ` | +${v.length - 4}` : ""}`).join(" ;; ") : "none"}`,
-    `- companions named: ${c.companions!.named.map((n) => n.name).join(", ") || "none"}; pulled skill folders: ${c.companions!.pulled.map((p) => p.path).join(", ") || "none"}`,
+    `- companions named: ${c.companions!.named.map((n) => `${n.name} (${folderOf.get(`${t.source}:${n.path}`) ?? "no Candidate"})`).join(", ") || "none"}; pulled skill folders: ${c.companions!.pulled.map((p) => `${p.path} (${folderOf.get(`${t.source}:${p.path}`) ?? "no Candidate"})`).join(", ") || "none"}`,
     ...(() => {
       const tr = triage(c);
       const f = findings.get(`${id}@${sha(traceText)}`);

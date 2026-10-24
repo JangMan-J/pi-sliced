@@ -1,0 +1,1 @@
+{"id":"3fb999fe0c5625704fd544ee566a247a05235cd0ec526c76fa1abbc370fae3b9","pullsIn":true,"reason":"Says to see examples/nextjs-neon-auth/ for a Next.js setup, a pointer to an example directory.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/neon-js-react/SKILL.md","line":17,"ref":"examples/nextjs-neon-auth/","target":"examples/nextjs-neon-auth"}

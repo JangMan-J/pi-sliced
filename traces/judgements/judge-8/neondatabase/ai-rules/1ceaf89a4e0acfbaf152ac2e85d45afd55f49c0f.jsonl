@@ -1,0 +1,1 @@
+{"id":"6d71231f07709367766924599a281983488364cfeb427464301b1d9144e1d6d3","pullsIn":true,"reason":"Directs the agent to see the templates/ directory for complete examples.","judge":"judge-8","model":"claude-sonnet-5-5","file":"neon-plugin/skills/neon-serverless/SKILL.md","line":61,"ref":"templates/","target":"neon-plugin/skills/neon-serverless/templates"}

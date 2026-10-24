@@ -1,0 +1,1 @@
+{"id":"3597ff803a84b189b2b7aee6d4eb7e36c162eed6fcc66641e7cf95e7399a9f99","pullsIn":true,"reason":"Directs creating MemberList.md from the core team section of COMMUNITY.md.","judge":"judge-8","model":"claude-sonnet-5-5","file":".github/skills/release-note-generation/references/scenarios/preview-release.md","line":58,"ref":"../../../../../COMMUNITY.md","target":"COMMUNITY.md"}

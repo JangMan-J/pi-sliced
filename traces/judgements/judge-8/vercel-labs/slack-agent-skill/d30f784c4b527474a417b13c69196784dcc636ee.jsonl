@@ -1,0 +1,1 @@
+{"id":"b370e83c66066650bde438648fb4710f8fa405cbb6a29bcb4ff412455aebf8fe","pullsIn":true,"reason":"The wizard phase files in ./wizard/ are the steps the skill's workflow runs through, so the directory is used.","judge":"judge-8","model":"claude-sonnet-5-5","file":"SKILL.md","line":51,"ref":"./wizard/","target":"wizard"}

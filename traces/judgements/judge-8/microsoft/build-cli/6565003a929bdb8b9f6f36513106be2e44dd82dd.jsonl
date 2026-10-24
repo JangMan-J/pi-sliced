@@ -1,0 +1,1 @@
+{"id":"4c196562b853715916ca3a41a874a5d586b20c6a5a13635c6867ef04857dba89","pullsIn":false,"reason":"CLI source ../../cli/ is a table row listing a resource with no direction to use it.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/microsoft-build/SKILL.md","line":521,"ref":"../../cli/","target":"cli"}

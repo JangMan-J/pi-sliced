@@ -1,0 +1,1 @@
+{"id":"ed2ae7f8faf1be5625f28f072d3bda45a40599b6f4b6a90433b9cf4e6619f93a","pullsIn":false,"reason":"The docs/ path is only an exclude pattern in a black command, not read.","judge":"judge-8","model":"claude-sonnet-5-5","file":".github/skills/code-review/SKILL.md","line":14,"ref":"docs/","target":"docs"}

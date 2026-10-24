@@ -1,0 +1,1 @@
+{"id":"3d92468b06d4a974bf98bdfffcd8318170994ffc007efaa83c5036d30e9ab03a","pullsIn":true,"reason":"Directs the agent to load the relevant file from references/ when a pattern is needed.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/mapbox-style-patterns/SKILL.md","line":193,"ref":"references/","target":"skills/mapbox-style-patterns/references"}

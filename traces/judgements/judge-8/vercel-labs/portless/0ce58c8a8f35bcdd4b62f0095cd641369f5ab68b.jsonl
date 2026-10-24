@@ -1,0 +1,1 @@
+{"id":"90014a0c0aaf47c99655fbb43a1ceb207458d0d60fb5f9c2f9959b4fc44dd3fc","pullsIn":true,"reason":"oauth SKILL.md says to see examples/google-oauth for a complete working example.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/oauth/SKILL.md","line":168,"ref":"../../examples/google-oauth","target":"examples/google-oauth"}

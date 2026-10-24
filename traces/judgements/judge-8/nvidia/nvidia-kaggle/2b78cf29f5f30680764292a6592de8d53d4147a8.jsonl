@@ -1,0 +1,1 @@
+{"id":"c38cbda2821a526ea20560c4719372d1ae997b19c225b6eab99539966d078c8a","pullsIn":false,"reason":"scripts/ is stated only as the location where scripts are self-contained, not a direction to read it.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/nvidia-kaggle-skill/SKILL.md","line":172,"ref":"scripts/","target":"skills/nvidia-kaggle-skill/scripts"}

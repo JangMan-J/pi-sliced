@@ -1,0 +1,1 @@
+{"id":"7663a5c131ee03e853d3bbcd98684cd974b50e7a811668676029eacb4e829324","pullsIn":false,"reason":"The tests/ directory is described as where the user should place tests, not read.","judge":"judge-8","model":"claude-sonnet-5-5","file":".claude/skills/pytest/SKILL.md","line":16,"ref":"tests/","target":"tests"}

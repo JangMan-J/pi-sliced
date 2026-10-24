@@ -1,0 +1,1 @@
+{"id":"bfc3d50e9d0f851377b911721d31c555b22b748babe19f37dc5a7894f9a3b38a","pullsIn":false,"reason":"Describes user project directories to classify, not skill files to read.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/aspireify/references/full-solution-apphosts.md","line":41,"ref":"scripts/","target":"scripts"}

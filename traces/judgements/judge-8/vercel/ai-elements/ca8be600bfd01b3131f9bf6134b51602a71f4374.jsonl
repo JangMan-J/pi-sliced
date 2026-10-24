@@ -1,0 +1,1 @@
+{"id":"4e102c94a4624af9f5c76b7dd8e665a765e29a62a494126b17fdfad77f42cfcb","pullsIn":true,"reason":"The SKILL.md says to see the references/ folder for detailed per-component documentation, directing use of that folder.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/ai-elements/SKILL.md","line":160,"ref":"references/","target":"skills/ai-elements/references"}

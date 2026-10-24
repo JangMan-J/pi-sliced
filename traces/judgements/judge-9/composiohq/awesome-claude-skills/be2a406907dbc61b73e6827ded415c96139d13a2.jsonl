@@ -1,0 +1,1 @@
+{"id":"59d816c7de340fea7727fc8673c2bb7bf632487c8465a3381cba69ad830312d7","pullsIn":true,"reason":"The evaluation section says scripts/evaluation.py supports three transport types and is the script to run.","judge":"judge-9","model":"claude-haiku-5-5","file":"mcp-builder/reference/evaluation.md","line":420,"ref":"scripts/evaluation.py","target":"mcp-builder/scripts/evaluation.py"}

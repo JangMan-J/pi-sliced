@@ -1,0 +1,1 @@
+{"id":"2c9f00e6ce167ddc2d66c61b4aa3d8310d11c359c27a937aea245b12dfaf3192","pullsIn":true,"reason":"\"Copy and adapt from assets/examples/\" directs use of the skill's examples directory contents.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/streamdown/SKILL.md","line":154,"ref":"assets/examples/","target":"skills/streamdown/assets/examples"}

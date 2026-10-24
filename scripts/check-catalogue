@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-cat >&2 <<'NOT_BUILT'
-not built: `scripts/check-catalogue` exits 0 only when every Candidate in the reused set (the archive's 10,001 skills) has a Trace, which records it as unresolvable when its source no longer resolves, and a Determination; and every Catalogue skill has a Classification and a Footprint.
-NOT_BUILT
-exit 1
+# Proof 9: exits 0 only when every Candidate in the reused set (the archive's 10,001 skills) has a Trace,
+# which records it as unresolvable when its source no longer resolves, and a Determination; and every
+# Catalogue skill has a Classification and a Footprint. Reads only this repository.
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+exec node tools/catalogue/check.ts "$@"

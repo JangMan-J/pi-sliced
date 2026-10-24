@@ -1,0 +1,1 @@
+{"id":"11f201cb00c793fa6674db691a38b144b2431536596ff7c50c60126a94d83acd","pullsIn":true,"reason":"zero SKILL.md says to prefer bin/zero in a checkout, a direction to run that binary.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/zero/SKILL.md","line":73,"ref":"bin/zero","target":"bin/zero"}

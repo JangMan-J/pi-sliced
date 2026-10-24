@@ -1,0 +1,1 @@
+{"id":"9f62826e041f988ca58a2a5ff26c231321797a855612bf294160b76633128701","pullsIn":false,"reason":"Frontmatter description mentions snippets directory; mention only.","judge":"judge-8","model":"claude-sonnet-5-5","file":"skills/onboarding/references/sdk/recipes.md","line":3,"ref":"references/sdk/snippets/","target":"skills/onboarding/references/sdk/snippets"}

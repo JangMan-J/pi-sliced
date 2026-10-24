@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# Runs a command against a throwaway local npm registry (verdaccio, no uplinks) holding the tarball
+# server/build-npm-package builds from main, so everything but the real `npm publish` can be proven.
+# The command sees PI_SLICED_NPM_REGISTRY=<url>. Everything is removed afterwards.
+# Usage: server/local-npm-registry scripts/check-stranger
+set -euo pipefail
+repo=$(git -C "$(dirname "$0")" rev-parse --show-toplevel)
+cd "$repo"
+(($#)) || { echo "usage: server/local-npm-registry <command...>" >&2; exit 2; }
+command -v verdaccio >/dev/null || { echo "verdaccio not found (npm i -g verdaccio)" >&2; exit 1; }
+
+work=$(mktemp -d)
+pid=
+cleanup() { [[ -n $pid ]] && kill "$pid" 2>/dev/null && wait "$pid" 2>/dev/null; rm -rf "$work"; }
+trap cleanup EXIT
+
+port=$(node -e 'const s=require("net").createServer().listen(0,"127.0.0.1",()=>{console.log(s.address().port);s.close()})')
+url="http://127.0.0.1:$port/"
+cat >"$work/config.yaml" <<EOF
+storage: $work/storage
+auth:
+  htpasswd:
+    file: $work/htpasswd
+    max_users: -1
+uplinks: {}
+packages:
+  '**':
+    access: \$all
+    publish: \$all
+log: { type: file, path: $work/verdaccio.log, level: warn }
+EOF
+verdaccio --config "$work/config.yaml" --listen "127.0.0.1:$port" >"$work/stdout.log" 2>&1 &
+pid=$!
+for _ in $(seq 50); do curl -sf "$url-/ping" >/dev/null && break; sleep 0.2; done
+curl -sf "$url-/ping" >/dev/null || { cat "$work/stdout.log" >&2; exit 1; }
+
+tgz=$(server/build-npm-package --pack "$work/pack" | tail -n 1)
+printf '//127.0.0.1:%s/:_authToken=local-check\n' "$port" >"$work/npmrc"
+NPM_CONFIG_USERCONFIG="$work/npmrc" npm publish "$tgz" --registry "$url" >/dev/null
+echo "local registry $url holds $(basename "$tgz")"
+
+set +e
+PI_SLICED_NPM_REGISTRY=$url "$@"
+status=$?
+exit $status

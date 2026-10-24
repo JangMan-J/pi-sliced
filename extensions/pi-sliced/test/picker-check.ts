@@ -18,7 +18,9 @@ if (mode !== "stranger" && mode !== "untraced") {
 const SERVER = process.env.PI_SLICED_SERVER || "https://185.8.106.248:8790";
 const CATALOGUE = process.env.PI_SLICED_CATALOGUE || "check-canvas";
 const GATEWAY = process.env.PI_SLICED_GATEWAY_URL || "https://pi-sliced.vercel.app/api/skills";
-const PACKAGE_SOURCE = process.env.PI_SLICED_PACKAGE_SOURCE || "git:github.com/JangMan-J/pi-sliced@pi-package";
+const PACKAGE_SOURCE = process.env.PI_SLICED_PACKAGE_SOURCE || "npm:pi-sliced";
+/** npm registry for `pi install npm:…` (server/local-npm-registry sets it; default: npm's own). */
+const NPM_REGISTRY = process.env.PI_SLICED_NPM_REGISTRY;
 const TERM_ID = process.env.PI_SLICED_CHECK_TERM || "canvas";
 const COLS = 120;
 const ROWS = 40;
@@ -166,6 +168,12 @@ function filesContaining(files: string[], needles: string[]): string[] {
   return hits;
 }
 
+/** Where `pi install` puts an npm source for the user scope: `<agentDir>/npm/node_modules/<name>`. */
+function npmInstallDir(home: string, source: string): string | undefined {
+  const m = /^npm:((?:@[^/@]+\/)?[^/@]+)(?:@.+)?$/.exec(source);
+  return m ? join(home, ".pi/agent/npm/node_modules", m[1]) : undefined;
+}
+
 /** Where `pi install` puts a git source for the user scope: `<agentDir>/git/<host>/<path>`. */
 function gitInstallDir(home: string, source: string): string | undefined {
   const m = /^git:([^/]+)\/([^@]+?)(?:\.git)?(?:@.+)?$/.exec(source);
@@ -222,21 +230,22 @@ async function stranger(): Promise<void> {
   const sessionTmp = mkdtempSync(join(tmpdir(), "pi-sliced-stranger-tmp-"));
   try {
     const path = `${dirname(process.execPath)}:/usr/bin:/bin:${dirname(realBin("pi"))}:${dirname(whichBin("pi"))}`;
-    const install = spawnSync("env", ["-i", `HOME=${home}`, `PATH=${path}`, "pi", "install", PACKAGE_SOURCE], { cwd: work, encoding: "utf8", timeout: 180_000 });
+    const registryEnv = NPM_REGISTRY ? [`npm_config_registry=${NPM_REGISTRY}`] : [];
+    const install = spawnSync("env", ["-i", `HOME=${home}`, `PATH=${path}`, ...registryEnv, "pi", "install", PACKAGE_SOURCE], { cwd: work, encoding: "utf8", timeout: 180_000 });
     writeFileSync(join(artifacts, "pi-package.log"), `${install.stdout}\n${install.stderr}`);
     const settings = (() => { try { return readFileSync(join(home, ".pi/agent/settings.json"), "utf8"); } catch { return ""; } })();
     if (!check(install.status === 0 && settings.includes("pi-sliced"), `pi install ${PACKAGE_SOURCE} with an empty HOME`, `${install.stdout}\n${install.stderr}\nsettings: ${settings}`)) return;
 
     // (a) The package the stranger installed carries code only: no Traces, Classifications or listing data.
     const local = !PACKAGE_SOURCE.startsWith("git:") && !PACKAGE_SOURCE.startsWith("npm:") && !/^(?:https?|ssh):/.test(PACKAGE_SOURCE);
-    const pkgDir = local ? resolve(work, PACKAGE_SOURCE) : gitInstallDir(home, PACKAGE_SOURCE);
+    const pkgDir = local ? resolve(work, PACKAGE_SOURCE) : PACKAGE_SOURCE.startsWith("npm:") ? npmInstallDir(home, PACKAGE_SOURCE) : gitInstallDir(home, PACKAGE_SOURCE);
     if (local) {
       skip("the installed package directory in HOME holds no traces/, classifications/ or listing data", `local source ${PACKAGE_SOURCE} is used in place, not copied into HOME`);
     } else if (check(Boolean(pkgDir) && existsSync(join(pkgDir!, "package.json")), `the package is installed in HOME (${pkgDir})`)) {
       const tree = walk(pkgDir!, new Set([".git"]));
-      const dataDirs = tree.dirs.filter((d) => /^(?:traces|classifications)$/.test(d.split("/").at(-1)!));
+      const dataDirs = tree.dirs.filter((d) => /^(?:traces|classifications|catalogue|determinations|tests|server|tools)$/.test(d.split("/").at(-1)!));
       const hits = filesContaining(tree.files, listingNeedles);
-      check(dataDirs.length === 0 && hits.length === 0, `the installed package's files hold no traces/, classifications/, Catalogue id or description (${tree.files.length} files)`, [...dataDirs, ...hits].join("\n"));
+      check(dataDirs.length === 0 && hits.length === 0, `the installed package's files hold no trace, classification, Candidate or catalogue data, nor any Catalogue id or description (${tree.files.length} files${NPM_REGISTRY ? `; registry ${NPM_REGISTRY}` : ""})`, [...dataDirs, ...hits].join("\n"));
       if (existsSync(join(pkgDir!, ".git"))) {
         const paths = spawnSync("git", ["-C", pkgDir!, "rev-list", "--all", "--objects"], { encoding: "utf8", maxBuffer: 1 << 28 }).stdout
           .split("\n").map((l) => l.slice(41)).filter((p) => /^(?:traces|classifications)(?:\/|$)/.test(p));

@@ -48,7 +48,7 @@ The MCP channel fails this invariant at 15 and 30 other servers in the measured 
 
 Neither channel proves every invariant. Both retain the primary's absolute public-access isolation gap and its SIGKILL cleanup limit. Normal session shutdown passed. The [full assessment](invariants.md) covers every invariant and distinguishes passing checks from unchanged or unverified behavior.
 
-No combination is proposed. A future whole fork could test MCP after Pi provides an independent prompt budget and effective server-name introspection. This fork changes neither Pi nor the frozen set.
+No combination is proposed. A future whole fork can test MCP after Pi provides an independent prompt budget and effective server-name introspection. This fork changes neither Pi nor the frozen set.
 
 ## Evidence
 

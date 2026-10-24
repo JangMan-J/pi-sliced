@@ -1,0 +1,11 @@
+[
+  { "candidate": "openai/plugins/debug-zoom-integration", "source": "openai/plugins", "revision": "0722921d5542fc593105c27bd52630babd8b8c2a", "skillPath": "plugins/zoom/skills/debug-zoom-integration" },
+  { "candidate": "openai/plugins/game-ui-frontend", "source": "openai/plugins", "revision": "0722921d5542fc593105c27bd52630babd8b8c2a", "skillPath": "plugins/game-studio/skills/game-ui-frontend" },
+  { "candidate": "heygen-com/hyperframes/hyperframes-core", "source": "heygen-com/hyperframes", "revision": "00d55a7f1dab0765296793b4da2f3e791b5ce42e", "skillPath": "skills/hyperframes-core" },
+  { "candidate": "figma/mcp-server-guide/figma-generate-diagram", "source": "figma/mcp-server-guide", "revision": "056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb", "skillPath": "skills-figquery/figma-generate-diagram" },
+  { "candidate": "shopify/shopify-ai-toolkit/shopify", "source": "shopify/shopify-ai-toolkit", "revision": "a788f6a87cad4be5dfac814605a7288dc9e8f3db", "skillPath": "skills/shopify" },
+  { "candidate": "anthropics/skills/canvas-design", "source": "anthropics/skills", "revision": "dbd4588f9e1033efb41dad4bef2f7947c8993d44", "skillPath": "skills/canvas-design" },
+  { "candidate": "nvidia/skills/amc-run-video-calibration", "source": "nvidia/skills", "revision": "80fd955e037bbd73cd1799fe0c6fd6612bedb8e0", "skillPath": "skills/amc-run-video-calibration" },
+  { "candidate": "shadcn-ui/ui/shadcn", "source": "shadcn-ui/ui", "revision": "e55b60b1014cccfb9ac62f97e0d20b5b649f4a54", "skillPath": "skills/shadcn" },
+  { "candidate": "mattpocock/skills/tdd", "source": "mattpocock/skills", "revision": "5beb35b040e3de97e54fa9e386d7e42d15c295c2", "skillPath": "skills/engineering/tdd" }
+]

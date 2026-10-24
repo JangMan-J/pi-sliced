@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# The tracer: `scripts/trace questions|import|record|check …` (see tools/trace/cli.ts).
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+exec node tools/trace/cli.ts "$@"

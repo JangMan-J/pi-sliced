@@ -1,0 +1,1337 @@
+{
+  "sourceCommit": "4fb4604ca93e672badc87c279dc6264a60d20b29",
+  "runtimeManifest": {
+    "extensions/pi-sliced/author-client.ts": "5c9c4afe2538f3631147fa1ea9c34fb1729c8996958cb6d66d18046217ed15b5",
+    "extensions/pi-sliced/author-server.pem": "ff834061f63870030b06b9197f2909be0cf48311b9e9322b325d0d992fcca0a1",
+    "extensions/pi-sliced/check-driver.ts": "f3be1302a6d52a004c104497954aa79961a131be62506ace7d775fe76864745f",
+    "extensions/pi-sliced/frontmatter.ts": "ce8bd57588a2e261a3bc88506c27e0703cec137544867cc24d7efc038fc1a26e",
+    "extensions/pi-sliced/index.ts": "25bd8dc9cf460fdfa533a4169b3a1fc761218d2c6e339efc1db019531a32f9f3",
+    "extensions/pi-sliced/markers.ts": "4a0989f4079e0b1c64c1e51e777a01619a83cecff47f63fff49b5585c10c672e",
+    "extensions/pi-sliced/mcp-channel.ts": "fa2b1c492261855081f6d29d75752155ee0f11d9a4865c674f0b779e109960fb",
+    "extensions/pi-sliced/mcp-server.mjs": "e673eb6361def4ace838b5032fdce4e77a55313c492898b989ded7342daf6d21",
+    "extensions/pi-sliced/picker-wiring.ts": "436451c599c19e2792f03b3e70da6ceca68b3ef7c95d1fa3471e26c883d38bc2",
+    "extensions/pi-sliced/picker.ts": "d252a42d401117d8ed951027215e233f79a84e5025fcbb0b262de608e9fa6eb4",
+    "extensions/pi-sliced/skills-sh.ts": "f531f1db0ff109c303c4cc9b2b2cc29d77c5345dbb883256c60be9dc1fc873a0",
+    "extensions/pi-sliced/slice.ts": "a024f6881b5726c16c9070d477a2dc50cfa9b33c5c858b6ee1b802143a3883f0",
+    "extensions/pi-sliced/surface.ts": "4ecc898e75624b31b3b6d93f406a3945533c82fd297b54ad9f1bcd7ca12a2355",
+    "extensions/pi-sliced/test/fake-server.ts": "f9a07b7ab9b3edd5a438529be9066f3fcdb825973cae91ef9c1307ca818f4e46",
+    "extensions/pi-sliced/test/mcp-channel.test.ts": "bbc1bddef68cdb99cfdafd0c8b19520eb08be9602e7abd3745844d60a7e3c35b",
+    "extensions/pi-sliced/test/mcp-server.test.mjs": "c7596a034d619b26734f7a6ffc3d4dea65c29c879b1d5a6f8927d7cf8e023747",
+    "extensions/pi-sliced/test/picker-check.ts": "99901fab51bf351b6a9eae4be86f95607e2b3b3a4fc9a38be556f2d7df0ac40e",
+    "extensions/pi-sliced/test/picker-fixtures.ts": "37c2cc56f485739cf8c324acbca9835437fa7be4414f988b1ccc44cd3e66b1ad",
+    "extensions/pi-sliced/test/picker-hooks.mjs": "4eacdc581810e9f7152de2d0070069b6fef4b10331cf666a606aee4bb3fd6049",
+    "extensions/pi-sliced/test/picker-vocabulary.ts": "5452cc54817b7ebeea833517b320b9f0aa1697bafc3491f4d355123ffd1dbc0a",
+    "extensions/pi-sliced/test/picker.test.ts": "08981ec5b79fda2a109197008fde1e8958be6cd71835461092b967b97c185a52",
+    "extensions/pi-sliced/test/serve.test.ts": "7dfb04b8f5ceb42004ebe3b4c8a5f7094e02a2d1f89363884d6754a74b3b83c7",
+    "extensions/pi-sliced/types.ts": "561e3360f481c2c6235cf3ea4948b2c6c2bae05ad2a0a502d6b8be99fdf7b7cf",
+    "package.json": "f0083ca96af0f30853274bd8f8d9136b02cc67c2959fe4461aa2a29b07404293"
+  },
+  "channel": "tool",
+  "provider": "openai-codex",
+  "model": "gpt-6-luna",
+  "thinking": "low",
+  "catalogue": "admitted",
+  "exploratory": false,
+  "started": "2026-10-24T04:35:22.314Z",
+  "discoverability": [
+    {
+      "task": "fhir",
+      "repeat": 1,
+      "target": "anthropics/healthcare/fhir-developer-skill",
+      "served": [
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx"
+      ],
+      "loaded": [
+        "anthropics/healthcare/fhir-developer-skill"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1956,
+          "output": 24,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2738,
+          "output": 179,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3023
+    },
+    {
+      "task": "fhir",
+      "repeat": 2,
+      "target": "anthropics/healthcare/fhir-developer-skill",
+      "served": [
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "anthropics/healthcare/fhir-developer-skill"
+      ],
+      "loaded": [
+        "anthropics/healthcare/fhir-developer-skill"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1958,
+          "output": 24,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2741,
+          "output": 178,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3517
+    },
+    {
+      "task": "fhir",
+      "repeat": 3,
+      "target": "anthropics/healthcare/fhir-developer-skill",
+      "served": [
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking"
+      ],
+      "loaded": [
+        "anthropics/healthcare/fhir-developer-skill"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1958,
+          "output": 24,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2741,
+          "output": 177,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4558
+    },
+    {
+      "task": "compliance",
+      "repeat": 1,
+      "target": "anthropics/knowledge-work-plugins/compliance-tracking",
+      "served": [
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "anthropics/knowledge-work-plugins/compliance-tracking"
+      ],
+      "loaded": [
+        "anthropics/knowledge-work-plugins/compliance-tracking"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1891,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2350,
+          "output": 299,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4484
+    },
+    {
+      "task": "compliance",
+      "repeat": 2,
+      "target": "anthropics/knowledge-work-plugins/compliance-tracking",
+      "served": [
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization"
+      ],
+      "loaded": [
+        "anthropics/knowledge-work-plugins/compliance-tracking"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1893,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 559,
+          "output": 240,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4383
+    },
+    {
+      "task": "compliance",
+      "repeat": 3,
+      "target": "anthropics/knowledge-work-plugins/compliance-tracking",
+      "served": [
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx"
+      ],
+      "loaded": [
+        "anthropics/knowledge-work-plugins/compliance-tracking"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1891,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2349,
+          "output": 297,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4579
+    },
+    {
+      "task": "charts",
+      "repeat": 1,
+      "target": "anthropics/knowledge-work-plugins/data-visualization",
+      "served": [
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx"
+      ],
+      "loaded": [
+        "anthropics/knowledge-work-plugins/data-visualization"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1961,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3142,
+          "output": 108,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4133
+    },
+    {
+      "task": "charts",
+      "repeat": 2,
+      "target": "anthropics/knowledge-work-plugins/data-visualization",
+      "served": [
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx"
+      ],
+      "loaded": [
+        "anthropics/knowledge-work-plugins/data-visualization"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1961,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3143,
+          "output": 132,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3212
+    },
+    {
+      "task": "charts",
+      "repeat": 3,
+      "target": "anthropics/knowledge-work-plugins/data-visualization",
+      "served": [
+        "deepgram/skills/speech-to-text",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation"
+      ],
+      "loaded": [
+        "anthropics/knowledge-work-plugins/data-visualization"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1961,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3143,
+          "output": 136,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3415
+    },
+    {
+      "task": "docx",
+      "repeat": 1,
+      "target": "anthropics/skills/docx",
+      "served": [
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation"
+      ],
+      "loaded": [
+        "anthropics/skills/docx"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1950,
+          "output": 20,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2065,
+          "output": 77,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 8000
+    },
+    {
+      "task": "docx",
+      "repeat": 2,
+      "target": "anthropics/skills/docx",
+      "served": [
+        "openhands/extensions/github-actions",
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text"
+      ],
+      "loaded": [
+        "anthropics/skills/docx"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1950,
+          "output": 20,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2062,
+          "output": 76,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 2715
+    },
+    {
+      "task": "docx",
+      "repeat": 3,
+      "target": "anthropics/skills/docx",
+      "served": [
+        "anthropics/skills/docx",
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions"
+      ],
+      "loaded": [
+        "anthropics/skills/docx"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1951,
+          "output": 20,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3855,
+          "output": 73,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4072
+    },
+    {
+      "task": "xlsx",
+      "repeat": 1,
+      "target": "anthropics/skills/xlsx",
+      "served": [
+        "mongodb/agent-skills/mongodb-schema-design",
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions"
+      ],
+      "loaded": [
+        "anthropics/skills/xlsx"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1887,
+          "output": 19,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2373,
+          "output": 91,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 2434
+    },
+    {
+      "task": "xlsx",
+      "repeat": 2,
+      "target": "anthropics/skills/xlsx",
+      "served": [
+        "anthropics/skills/xlsx",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design"
+      ],
+      "loaded": [
+        "anthropics/skills/xlsx"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1886,
+          "output": 19,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2374,
+          "output": 122,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3493
+    },
+    {
+      "task": "xlsx",
+      "repeat": 3,
+      "target": "anthropics/skills/xlsx",
+      "served": [
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "anthropics/skills/xlsx"
+      ],
+      "loaded": [
+        "anthropics/skills/xlsx"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1887,
+          "output": 19,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2372,
+          "output": 87,
+          "cacheRead": 1792,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 2871
+    },
+    {
+      "task": "otel",
+      "repeat": 1,
+      "target": "dash0hq/agent-skills/otel-instrumentation",
+      "served": [
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization"
+      ],
+      "loaded": [
+        "dash0hq/agent-skills/otel-instrumentation"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1723,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3327,
+          "output": 140,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3273
+    },
+    {
+      "task": "otel",
+      "repeat": 2,
+      "target": "dash0hq/agent-skills/otel-instrumentation",
+      "served": [
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "dash0hq/agent-skills/otel-instrumentation"
+      ],
+      "loaded": [
+        "dash0hq/agent-skills/otel-instrumentation"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1724,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 1663,
+          "output": 147,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4738
+    },
+    {
+      "task": "otel",
+      "repeat": 3,
+      "target": "dash0hq/agent-skills/otel-instrumentation",
+      "served": [
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "dash0hq/agent-skills/otel-instrumentation",
+        "deepgram/skills/speech-to-text"
+      ],
+      "loaded": [
+        "dash0hq/agent-skills/otel-instrumentation"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1724,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3327,
+          "output": 135,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 2916
+    },
+    {
+      "task": "speech",
+      "repeat": 1,
+      "target": "deepgram/skills/speech-to-text",
+      "served": [
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "deepgram/skills/speech-to-text"
+      ],
+      "loaded": [
+        "deepgram/skills/speech-to-text"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1785,
+          "output": 21,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 6375,
+          "output": 108,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3436
+    },
+    {
+      "task": "speech",
+      "repeat": 2,
+      "target": "deepgram/skills/speech-to-text",
+      "served": [
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions"
+      ],
+      "loaded": [
+        "deepgram/skills/speech-to-text"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1785,
+          "output": 21,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 6376,
+          "output": 148,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3966
+    },
+    {
+      "task": "speech",
+      "repeat": 3,
+      "target": "deepgram/skills/speech-to-text",
+      "served": [
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "deepgram/skills/speech-to-text",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design"
+      ],
+      "loaded": [
+        "deepgram/skills/speech-to-text"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1784,
+          "output": 21,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 4711,
+          "output": 138,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 7616
+    },
+    {
+      "task": "ci",
+      "repeat": 1,
+      "target": "openhands/extensions/github-actions",
+      "served": [
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design"
+      ],
+      "loaded": [
+        "openhands/extensions/github-actions"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1721,
+          "output": 20,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2293,
+          "output": 124,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 5062
+    },
+    {
+      "task": "ci",
+      "repeat": 2,
+      "target": "openhands/extensions/github-actions",
+      "served": [
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization"
+      ],
+      "loaded": [
+        "openhands/extensions/github-actions"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1721,
+          "output": 20,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 2293,
+          "output": 99,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 2554
+    },
+    {
+      "task": "ci",
+      "repeat": 3,
+      "target": "openhands/extensions/github-actions",
+      "served": [
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "openhands/extensions/github-actions",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill"
+      ],
+      "loaded": [
+        "openhands/extensions/github-actions"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1721,
+          "output": 20,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 627,
+          "output": 108,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 2791
+    },
+    {
+      "task": "mongo",
+      "repeat": 1,
+      "target": "mongodb/agent-skills/mongodb-schema-design",
+      "served": [
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill"
+      ],
+      "loaded": [
+        "mongodb/agent-skills/mongodb-schema-design"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1737,
+          "output": 21,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 4701,
+          "output": 174,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3463
+    },
+    {
+      "task": "mongo",
+      "repeat": 2,
+      "target": "mongodb/agent-skills/mongodb-schema-design",
+      "served": [
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking"
+      ],
+      "loaded": [
+        "mongodb/agent-skills/mongodb-schema-design"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1739,
+          "output": 21,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3039,
+          "output": 168,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4304
+    },
+    {
+      "task": "mongo",
+      "repeat": 3,
+      "target": "mongodb/agent-skills/mongodb-schema-design",
+      "served": [
+        "mongodb/agent-skills/mongodb-schema-design",
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization"
+      ],
+      "loaded": [
+        "mongodb/agent-skills/mongodb-schema-design"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1737,
+          "output": 21,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 3034,
+          "output": 202,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 4483
+    },
+    {
+      "task": "python",
+      "repeat": 1,
+      "target": "wshobson/agents/python-performance-optimization",
+      "served": [
+        "anthropics/skills/docx",
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization"
+      ],
+      "loaded": [
+        "wshobson/agents/python-performance-optimization"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1791,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 984,
+          "output": 164,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3802
+    },
+    {
+      "task": "python",
+      "repeat": 2,
+      "target": "wshobson/agents/python-performance-optimization",
+      "served": [
+        "wshobson/agents/python-performance-optimization",
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx"
+      ],
+      "loaded": [
+        "wshobson/agents/python-performance-optimization"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1791,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 980,
+          "output": 151,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3608
+    },
+    {
+      "task": "python",
+      "repeat": 3,
+      "target": "wshobson/agents/python-performance-optimization",
+      "served": [
+        "anthropics/healthcare/fhir-developer-skill",
+        "anthropics/knowledge-work-plugins/compliance-tracking",
+        "anthropics/knowledge-work-plugins/data-visualization",
+        "anthropics/skills/docx",
+        "wshobson/agents/python-performance-optimization"
+      ],
+      "loaded": [
+        "wshobson/agents/python-performance-optimization"
+      ],
+      "correct": true,
+      "onlyCorrect": true,
+      "toolNames": [
+        "served_skill"
+      ],
+      "toolErrors": 0,
+      "usage": [
+        {
+          "input": 1790,
+          "output": 22,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        },
+        {
+          "input": 981,
+          "output": 169,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ],
+      "durationMs": 3845
+    }
+  ],
+  "cache": [
+    {
+      "repeat": 1,
+      "phase": "initial",
+      "usage": [
+        {
+          "input": 1415,
+          "output": 5,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "phase": "warm",
+      "usage": [
+        {
+          "input": 155,
+          "output": 5,
+          "cacheRead": 1280,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "phase": "after-serve",
+      "usage": [
+        {
+          "input": 265,
+          "output": 5,
+          "cacheRead": 1408,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "phase": "warm-after-serve",
+      "usage": [
+        {
+          "input": 29,
+          "output": 5,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "phase": "initial",
+      "usage": [
+        {
+          "input": 1413,
+          "output": 5,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "phase": "warm",
+      "usage": [
+        {
+          "input": 153,
+          "output": 5,
+          "cacheRead": 1280,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "phase": "after-serve",
+      "usage": [
+        {
+          "input": 263,
+          "output": 5,
+          "cacheRead": 1408,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "phase": "warm-after-serve",
+      "usage": [
+        {
+          "input": 27,
+          "output": 5,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "phase": "initial",
+      "usage": [
+        {
+          "input": 1413,
+          "output": 5,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "phase": "warm",
+      "usage": [
+        {
+          "input": 1433,
+          "output": 5,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "phase": "after-serve",
+      "usage": [
+        {
+          "input": 263,
+          "output": 5,
+          "cacheRead": 1408,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "phase": "warm-after-serve",
+      "usage": [
+        {
+          "input": 27,
+          "output": 5,
+          "cacheRead": 1664,
+          "cacheWrite": 0,
+          "responseModel": null
+        }
+      ]
+    }
+  ],
+  "finished": "2026-10-24T04:38:04.434Z"
+}

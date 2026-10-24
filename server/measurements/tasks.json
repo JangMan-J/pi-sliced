@@ -1,0 +1,12 @@
+[
+  {"id":"fhir","skill":"anthropics/healthcare/fhir-developer-skill","prompt":"We are building a healthcare API that accepts FHIR Patient and Observation resources. Plan validation and REST endpoint behavior before implementation."},
+  {"id":"compliance","skill":"anthropics/knowledge-work-plugins/compliance-tracking","prompt":"Our startup has its first SOC 2 audit in three months. Plan how to track control owners, evidence, and readiness gaps."},
+  {"id":"charts","skill":"anthropics/knowledge-work-plugins/data-visualization","prompt":"We have monthly revenue by region in a pandas dataframe. Plan a clear Python chart showing trends without misleading the reader."},
+  {"id":"docx","skill":"anthropics/skills/docx","prompt":"We need to edit an existing Word .docx contract, preserve its formatting, and add a table of revised delivery dates. Plan the document workflow."},
+  {"id":"xlsx","skill":"anthropics/skills/xlsx","prompt":"Our budget.xlsx workbook has broken formulas and inconsistent number formats. Plan how to repair and validate it while preserving working formulas."},
+  {"id":"otel","skill":"dash0hq/agent-skills/otel-instrumentation","prompt":"Requests traverse three microservices but our logs cannot explain latency. Plan OpenTelemetry spans, metrics, and exporter setup to correlate the calls."},
+  {"id":"speech","skill":"deepgram/skills/speech-to-text","prompt":"We need speaker-labelled transcripts from recorded customer interviews using Deepgram. Plan the transcription integration and output handling."},
+  {"id":"ci","skill":"openhands/extensions/github-actions","prompt":"Our GitHub repository needs a workflow to lint and test pull requests and publish only after a tagged release. Plan a safe GitHub Actions setup."},
+  {"id":"mongo","skill":"mongodb/agent-skills/mongodb-schema-design","prompt":"We are moving a product catalogue with variants and frequently updated inventory to MongoDB. Plan which fields to embed versus reference and how to index queries."},
+  {"id":"python","skill":"wshobson/agents/python-performance-optimization","prompt":"A Python batch job now takes forty minutes and consumes too much RAM. Plan evidence-based profiling and optimization without changing its results."}
+]

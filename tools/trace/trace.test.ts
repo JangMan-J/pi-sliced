@@ -47,7 +47,7 @@ test("path tokens", () => {
   assert.equal(clean("(references/x.md)."), "references/x.md");
 });
 
-test("references: links, code spans, prose, fences; comments are skipped", () => {
+test("references: links, code spans, prose, fences; Markdown code comments read as prose, script comments skipped", () => {
   const md = [
     "---",
     "license: Complete terms in LICENSE.txt",
@@ -58,7 +58,8 @@ test("references: links, code spans, prose, fences; comments are skipped", () =>
     "```",
   ].join("\n");
   const refs = extractRefs("skills/x/SKILL.md", md).map((r) => `${r.kind}:${r.raw}`);
-  assert.deepEqual(refs, ["frontmatter:LICENSE.txt", "link:tests.md", "code:references/a.md", "bare:./canvas-fonts", "fence:scripts/run.mjs"]);
+  // F11 as amended: a comment in a Markdown code example is prose.
+  assert.deepEqual(refs, ["frontmatter:LICENSE.txt", "link:tests.md", "code:references/a.md", "bare:./canvas-fonts", "fence:scripts/run.mjs", "bare:scripts/ignored.mjs"]);
   const js = ['// read ./skipped.md', 'const p = path.join(dir, "..", "assets");', 'load("./x.json")'].join("\n");
   assert.deepEqual(
     extractRefs("skills/x/scripts/a.mjs", js).map((r) => r.raw).sort(),

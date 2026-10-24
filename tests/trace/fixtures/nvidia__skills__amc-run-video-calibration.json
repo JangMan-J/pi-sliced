@@ -1,0 +1,418 @@
+{
+ "candidate": "nvidia/skills/amc-run-video-calibration",
+ "revision": "80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+ "skillPath": "skills/amc-run-video-calibration",
+ "files": [
+  {
+   "path": "skills/amc-run-rtsp-calibration/SKILL.md",
+   "size": 18230,
+   "blob": "dffda5de0de7fa0f57d0c1ae46a31dea4bcdd35b",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/amc-run-video-calibration/SKILL.md",
+     "line": 26,
+     "text": "Do not use this skill for live RTSP streams or `rtsp://...` URLs; route those requests to `skills/amc-run-rtsp-calibration/SKILL.md`."
+    }
+   ]
+  },
+  {
+   "path": "skills/amc-run-rtsp-calibration/scripts/run_rtsp_calibration.py",
+   "size": 22577,
+   "blob": "b91a18207160d9cf8bb30054e93c0246945ab140",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+     "line": 84,
+     "text": "The bundled script in [scripts/run_rtsp_calibration.py](scripts/run_rtsp_calibration.py) implements this sequence end to end. Use the prose below for decisions, UI fallback, and troubleshooting."
+    }
+   ]
+  },
+  {
+   "path": "skills/amc-run-sample-calibration/SKILL.md",
+   "size": 13970,
+   "blob": "e5abc564e448640acf67fc67d89fc9a26ed1bcfa",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/amc-run-video-calibration/SKILL.md",
+     "line": 303,
+     "text": "- `skills/amc-run-sample-calibration/SKILL.md` \u2014 verify the stack with the bundled sample before trying your own."
+    }
+   ]
+  },
+  {
+   "path": "skills/amc-run-sample-calibration/scripts/run_sample_calibration.py",
+   "size": 10871,
+   "blob": "81cae299df3801ea6effebfe9b06c6e8aab96f79",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/amc-run-sample-calibration/SKILL.md",
+     "line": 120,
+     "text": "  \"${DEEPSTREAM_REPO_ROOT:+$DEEPSTREAM_REPO_ROOT/skills/amc-run-sample-calibration/scripts/run_sample_calibration.py}\" \\"
+    },
+    {
+     "how": "variable-path",
+     "from": "skills/amc-run-sample-calibration/SKILL.md",
+     "line": 137,
+     "text": "python3 \"$SCRIPT_PATH\""
+    }
+   ]
+  },
+  {
+   "path": "skills/amc-run-video-calibration/SKILL.md",
+   "size": 19153,
+   "blob": "f7889bbe840de0d9b986c3ce0fb2b602cad2e4cf",
+   "reached": [
+    {
+     "how": "root"
+    }
+   ]
+  },
+  {
+   "path": "skills/amc-run-video-calibration/scripts/run_video_calibration.py",
+   "size": 24080,
+   "blob": "e72037b83bcbf5aad4727eca147ae8845da3bb15",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/amc-run-video-calibration/SKILL.md",
+     "line": 92,
+     "text": "| [run_video_calibration.py](scripts/run_video_calibration.py) | Executes create-project, upload, verify, calibrate, poll, evaluate, and optional VGGT refinement for a local MP4 dataset. | Required: `BASE_URL`, `PROJECT_NAME`, `VIDEO_DIR`. Optional: `CONFIG_FILE`, `ALIGNMENT_JSON`, `LAYOUT_PNG`, `GT_ZIP`, `FOCAL_LENGTHS`, `DETECTOR_TYPE`, `CONFIRM_CALIBRATION`, `RUN_VGGT`, `PROJECTS_DIR`, `CALIBRATION_TIMEOUT_SECONDS`, `VGGT_TIMEOUT_SECONDS`, `ALLOW_INSECURE_HTTP`. |"
+    }
+   ]
+  },
+  {
+   "path": "skills/amc-setup-calibration-stack/SKILL.md",
+   "size": 15760,
+   "blob": "da127ba3b8fc297c7f1182e054b2b451e193f06b",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/amc-run-video-calibration/SKILL.md",
+     "line": 34,
+     "text": "- [ ] AMC microservice **and** UI running (follow `skills/amc-setup-calibration-stack/SKILL.md`)"
+    }
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "kind": "cli",
+   "name": "docker",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 30,
+     "text": "docker ps"
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "hf",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 153,
+     "text": "HF_TOKEN=\"<HF_TOKEN>\" \"$HF_BIN\" download facebook/VGGT-1B-Commercial \\"
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "lsof",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 172,
+     "text": "  if ! lsof -Pi :$port -sTCP:LISTEN -t >/dev/null 2>&1; then"
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "ngc",
+   "evidence": [
+    {
+     "from": "skills/amc-run-sample-calibration/SKILL.md",
+     "line": 232,
+     "text": "The root `README.md` also documents `nv_warehouse_032326.zip`, a real-world warehouse dataset available from NGC. Download it with `ngc registry resource download-version \"nvidia/amc-nv-warehouse\"`; then use `amc-run-video-calibration`, upload `nv_warehouse_config.json` in the config step, and run with the `transformer` detector. It does not include ground-truth data."
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "nvidia-smi",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 360,
+     "text": "| GPU unavailable | Verify NVIDIA runtime with `docker run --rm --runtime=nvidia --gpus all ubuntu:20.04 nvidia-smi`. |"
+    }
+   ]
+  },
+  {
+   "kind": "credential",
+   "name": "HF_TOKEN",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 153,
+     "text": "HF_TOKEN=\"<HF_TOKEN>\" \"$HF_BIN\" download facebook/VGGT-1B-Commercial \\"
+    }
+   ]
+  },
+  {
+   "kind": "credential",
+   "name": "NGC_API_KEY",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 122,
+     "text": "echo \"<NGC_API_KEY>\" | docker login nvcr.io --username '$oauthtoken' --password-stdin"
+    }
+   ]
+  },
+  {
+   "kind": "network",
+   "name": "github.com",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 47,
+     "text": "REPO_URL=\"https://github.com/NVIDIA-AI-IOT/auto-magic-calib.git\""
+    },
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 86,
+     "text": "  echo \"On 'y' \u2014 run: git clone \\\"$REPO_URL\\\" \\\"$DEFAULT_CLONE_DIR\\\"\""
+    }
+   ]
+  },
+  {
+   "kind": "network",
+   "name": "huggingface.co",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 142,
+     "text": "**To download VGGT**: ask the user to accept the license at https://huggingface.co/facebook/VGGT-1B-Commercial and provide a read token from https://huggingface.co/settings/tokens using the host's question mechanism. Pass it through `HF_TOKEN` so it is not exposed in `ps` output:"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "huggingface_hub",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 112,
+     "text": "\"$HF_VENV/bin/pip\" install --upgrade pip huggingface_hub"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "pip",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 112,
+     "text": "\"$HF_VENV/bin/pip\" install --upgrade pip huggingface_hub"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "python3-pip",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 107,
+     "text": "  echo \"Install it manually: sudo apt install -y python3-venv python3-pip\" >&2"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "python3-venv",
+   "evidence": [
+    {
+     "from": "skills/amc-setup-calibration-stack/SKILL.md",
+     "line": 107,
+     "text": "  echo \"Install it manually: sudo apt install -y python3-venv python3-pip\" >&2"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "requests",
+   "evidence": [
+    {
+     "from": "skills/amc-run-video-calibration/scripts/run_video_calibration.py",
+     "line": 47,
+     "text": "    import requests"
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "ref": "README.md",
+   "from": "skills/amc-run-video-calibration/SKILL.md",
+   "line": 84,
+   "text": "See root `README.md` \"Custom Dataset\" section for input-video guidelines and ground-truth format.",
+   "why": "External auto-magic-calib product README, not this catalog repository's root README. Named product sections are absent from catalog README."
+  },
+  {
+   "ref": "$REPO_ROOT/compose/, assets/, models/, projects/ and .gitignore",
+   "from": "skills/amc-setup-calibration-stack/SKILL.md",
+   "line": 44,
+   "text": "The skill needs AMC repo assets (`compose/`, sample data, and `models/`). Resolve an existing checkout first; ask before cloning into `~/auto-magic-calib`.",
+   "why": "External AMC checkout/runtime data. Includes compose files and sample zip read by reached scripts; none are NVIDIA/skills source files."
+  },
+  {
+   "ref": "user dataset files / server output files",
+   "from": "skills/amc-run-video-calibration/SKILL.md",
+   "line": 53,
+   "text": "- Optional local inputs: `CONFIG_FILE`, `ALIGNMENT_JSON`, `LAYOUT_PNG`, `GT_ZIP`, `FOCAL_LENGTHS`, and `DETECTOR_TYPE`.",
+   "why": "User-supplied inputs and generated server outputs are not source-repository files. Likewise RTSP calibration asset inputs and temporary compose override."
+  },
+  {
+   "ref": "transforms.yml / MV3DT outputs",
+   "from": "skills/amc-run-video-calibration/SKILL.md",
+   "line": 295,
+   "text": "A downstream Multi-View 3D Tracking skill fetches the MV3DT-format calibration directly from the microservice (this skill does **not** download it; it returns the `project_id`). After this skill reports `COMPLETED`:",
+   "why": "Explicit downstream action, not read by this skill."
+  },
+  {
+   "ref": "http://www.apache.org/licenses/LICENSE-2.0",
+   "from": "skills/amc-run-video-calibration/scripts/run_video_calibration.py",
+   "line": 9,
+   "text": "# http://www.apache.org/licenses/LICENSE-2.0",
+   "why": "License comment, not runtime network fetch (F11/O3)."
+  },
+  {
+   "ref": "base tools and installers",
+   "from": "skills/amc-setup-calibration-stack/SKILL.md",
+   "line": 36,
+   "text": "  sudo usermod -aG docker $USER && newgrp docker",
+   "why": "O1 base-tool exclusions apply to shell builtins, coreutils-class tools, git, curl, Python, apt and pip throughout all reached files. Excluding pip as a CLI does not exclude its explicitly installed package."
+  },
+  {
+   "ref": "localhost / dynamic AMC, VIOS and camera hosts",
+   "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+   "line": 295,
+   "text": "export VIOS_BASE_URL=http://<VIOS_HOST>:30888",
+   "why": "O3 excludes loopback and placeholder hosts. cam0/cam1 are illustrative camera host placeholders, not concrete required hosts."
+  },
+  {
+   "ref": "RTSP_URLS",
+   "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+   "line": 292,
+   "text": "export RTSP_URLS='rtsp://user:pass@cam0/stream,rtsp://user:pass@cam1/stream'",
+   "why": "O4: not a credential-suffixed env-var name. Camera username/password fields are optional user inputs; no named required credential is established."
+  },
+  {
+   "ref": "huggingface.co / nvcr.io",
+   "from": "skills/amc-setup-calibration-stack/SKILL.md",
+   "line": 142,
+   "text": "**To download VGGT**: ask the user to accept the license at https://huggingface.co/facebook/VGGT-1B-Commercial and provide a read token from https://huggingface.co/settings/tokens using the host's question mechanism. Pass it through `HF_TOKEN` so it is not exposed in `ps` output:",
+   "why": "License/account prerequisites are not agent fetch directions. Model and container downloads are covered by hf/huggingface_hub and docker, respectively; no duplicate network requirements."
+  }
+ ],
+ "unreferencedOwnFolder": [
+  {
+   "path": "skills/amc-run-video-calibration/BENCHMARK.md",
+   "size": 4473
+  },
+  {
+   "path": "skills/amc-run-video-calibration/evals/evals.json",
+   "size": 6171
+  },
+  {
+   "path": "skills/amc-run-video-calibration/skill-card.md",
+   "size": 4146
+  },
+  {
+   "path": "skills/amc-run-video-calibration/skill.oms.sig",
+   "size": 4845
+  }
+ ],
+ "namedSkills": [
+  {
+   "name": "amc-run-rtsp-calibration",
+   "from": "skills/amc-run-video-calibration/SKILL.md",
+   "line": 3,
+   "text": "description: \"Calibrates pre-recorded `cam_*.mp4` datasets through the AutoMagicCalib REST API. Use for user-supplied local MP4s; route live RTSP streams to `amc-run-rtsp-calibration`.\""
+  },
+  {
+   "name": "amc-setup-calibration-stack",
+   "from": "skills/amc-run-video-calibration/SKILL.md",
+   "line": 183,
+   "text": "- If VGGT is not ready, skip refinement and explain that the user can set up VGGT with `amc-setup-calibration-stack` and rerun this optional step later."
+  },
+  {
+   "name": "amc-run-video-calibration",
+   "from": "skills/amc-run-sample-calibration/SKILL.md",
+   "line": 27,
+   "text": "- The user references their own video paths (e.g. `/data/videos/`, `cam_*.mp4` not from the bundled zip) \u2014 route to `amc-run-video-calibration`."
+  }
+ ],
+ "misreadings": [
+  {
+   "ruling": "O4",
+   "item": "NGC_API_KEY",
+   "from": "skills/amc-setup-calibration-stack/SKILL.md",
+   "line": 122,
+   "text": "echo \"<NGC_API_KEY>\" | docker login nvcr.io --username '$oauthtoken' --password-stdin",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "The command sends a literal key placeholder to Docker stdin rather than setting or reading an environment variable. Nevertheless Step 1 explicitly requires asking for and using an NGC API key; the frozen credential definition must retain it.",
+   "status": "live"
+  }
+ ],
+ "judgement": [
+  {
+   "item": "product README and AMC checkout assets",
+   "text": "See root `README.md` \"Custom Dataset\" section for input-video guidelines and ground-truth format.",
+   "call": "excluded",
+   "reason": "skills/amc-run-video-calibration/SKILL.md:84: context resolves this to the external AMC checkout, not the co-named catalog README. F7 must not substitute an unrelated existing file."
+  },
+  {
+   "item": "sample script variable path",
+   "text": "python3 \"$SCRIPT_PATH\"",
+   "call": "included",
+   "reason": "skills/amc-run-sample-calibration/SKILL.md:137: the preceding candidate loop resolves the bundled run_sample_calibration.py; this actual execution, not the existence tests, pulls it in. Scripts read only standard-library modules, requests, and external user/AMC data."
+  },
+  {
+   "item": "NGC_API_KEY",
+   "text": "echo \"<NGC_API_KEY>\" | docker login nvcr.io --username '$oauthtoken' --password-stdin",
+   "call": "included",
+   "reason": "Explicitly required credential despite not being an actual environment-variable read; see O4 misreading."
+  },
+  {
+   "item": "Python distro packages",
+   "text": "  echo \"Install it manually: sudo apt install -y python3-venv python3-pip\" >&2",
+   "call": "included",
+   "reason": "skills/amc-setup-calibration-stack/SKILL.md:107: this is a concrete manual recovery installation instruction, not an inert mention. F1 preserves the fresh-system branch; O2 includes both packages. pip is also explicitly installed/upgraded at line 112."
+  }
+ ],
+ "adjudications": [
+  {
+   "round": "r1",
+   "id": "e015e740457f6e07",
+   "item": {
+    "kind": "network",
+    "name": "huggingface.co"
+   },
+   "counts": true,
+   "ruling": "O3",
+   "reason": "The \"To download VGGT\" line directs opening the huggingface.co license and token pages, and the hf download in the same step fetches the model from huggingface.co.",
+   "misreading": null
+  }
+ ]
+}

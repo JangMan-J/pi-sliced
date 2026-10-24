@@ -1,0 +1,8 @@
+{
+ "16ed0ba65571e893": {"counts": true, "reason": "Same mandatory reference table in hyperframes-cli/SKILL.md as cloud.md, lambda.md and the others, which count; this adjudication assumed SKILL.md was not pulled in, but adjudication of skills/hyperframes-cli/SKILL.md counts it (preview-render.md:160)."},
+ "9aad0b33afbb0bbd": {"counts": true, "reason": "F7: the pulled-in faceless-explainer/scripts/transitions.mjs:220 names the co-located `assemble-index.mjs` (\"run assemble-index.mjs first\"); the adjudication of faceless lib/assets.mjs counts this edge. This adjudication saw only production-loop.md:13."},
+ "dd8dd09676121a37": {"counts": true, "reason": "S1: imported by faceless-explainer/scripts/assemble-index.mjs:60, which is pulled in (see 9aad0b33afbb0bbd)."},
+ "c472c57eb398e188": {"counts": true, "reason": "F7: product-launch-video/scripts/transitions.mjs:220 names the co-located `assemble-index.mjs`; transitions.mjs counts under the adjudications of transitions.mjs, transitions.json and pad-frame-duration.mjs. This adjudication saw only production-loop.md:13."},
+ "a2454c58e90592c9": {"counts": true, "reason": "S1: imported by product-launch-video/scripts/assemble-index.mjs:60, which is pulled in (see c472c57eb398e188)."},
+ "78e61cf197d25152": {"counts": true, "reason": "S1: imported by product-launch-video/scripts/transitions.mjs:30. Three adjudications count the TRANSITION-REGISTRY.md:12-13 edge (transitions.mjs, transitions.json, pad-frame-duration.mjs); this one dissents, raising a misreading of F7 that goes to Jang."}
+}

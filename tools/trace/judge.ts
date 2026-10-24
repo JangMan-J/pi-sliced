@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
-export const JUDGE = "judge-3";
+export const JUDGE = "judge-4";
 
 export type QuestionClass = "outside-skill-folders" | "prose-directory" | "skill-folder-only";
 

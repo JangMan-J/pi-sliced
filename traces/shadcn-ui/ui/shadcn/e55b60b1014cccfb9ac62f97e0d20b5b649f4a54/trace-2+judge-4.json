@@ -1,0 +1,1080 @@
+{
+  "format": "pi-sliced.trace/1",
+  "tracer": "trace-2",
+  "judge": "judge-4",
+  "candidate": "shadcn-ui/ui/shadcn",
+  "source": "shadcn-ui/ui",
+  "revision": "e55b60b1014cccfb9ac62f97e0d20b5b649f4a54",
+  "skillPath": "skills/shadcn",
+  "status": "resolved",
+  "files": [
+    {
+      "path": "skills/shadcn/SKILL.md",
+      "size": 21606,
+      "blob": "54da13fb6fdca971ec9ee4651cf5ff2cdab2236d",
+      "reached": [
+        {
+          "how": "root"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/cli.md",
+          "line": 128,
+          "ref": "./SKILL.md#updating-components"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/cli.md",
+          "line": 287,
+          "ref": "./SKILL.md#updating-components"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/customization.md",
+          "line": 211,
+          "ref": "./SKILL.md#updating-components"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/assets/showcase/color-pair.tsx",
+      "size": 3448,
+      "blob": "f80177d1e50bf8df22b79914c331e61280d459a4",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills/shadcn/design-system-page.md",
+          "line": 245,
+          "ref": "assets/showcase/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "directory",
+          "from": "skills/shadcn/design-system.md",
+          "line": 340,
+          "ref": "assets/showcase/",
+          "judgement": "prose-directory"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/assets/showcase/preview-states.css",
+      "size": 425,
+      "blob": "d90febdbf9fe096ca3f9ef3395c2dbf28f2971f6",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/design-system-page.md",
+          "line": 143,
+          "ref": "./assets/showcase/preview-states.css"
+        },
+        {
+          "how": "directory",
+          "from": "skills/shadcn/design-system-page.md",
+          "line": 245,
+          "ref": "assets/showcase/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "directory",
+          "from": "skills/shadcn/design-system.md",
+          "line": 340,
+          "ref": "assets/showcase/",
+          "judgement": "prose-directory"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/assets/showcase/state-matrix.tsx",
+      "size": 1682,
+      "blob": "69afba4f7e4f14a979793695a82c86a794ed3a6d",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills/shadcn/design-system-page.md",
+          "line": 245,
+          "ref": "assets/showcase/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "directory",
+          "from": "skills/shadcn/design-system.md",
+          "line": 340,
+          "ref": "assets/showcase/",
+          "judgement": "prose-directory"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/cli.md",
+      "size": 17304,
+      "blob": "8a1d1958710902e2d38a3dd03d00aa09ab165dfe",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 166,
+          "ref": "./cli.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 292,
+          "ref": "./cli.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/customization.md",
+      "size": 6279,
+      "blob": "d43506d40520e8271da0b8ac9f994e190dbb9998",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/rules/styling.md",
+          "line": 3,
+          "ref": "../customization.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/rules/styling.md",
+          "line": 105,
+          "ref": "../customization.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 294,
+          "ref": "./customization.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/design-system-page.md",
+      "size": 15790,
+      "blob": "cfa2f4186fe36c295a5878354f1ca2dd2cf66bf7",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/design-system.md",
+          "line": 15,
+          "ref": "./design-system-page.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/design-system.md",
+          "line": 332,
+          "ref": "./design-system-page.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 205,
+          "ref": "./design-system-page.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 296,
+          "ref": "./design-system-page.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/design-system.md",
+      "size": 21621,
+      "blob": "018f87bd78fad10ff309f9bc9bd88e0b10172b60",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/customization.md",
+          "line": 139,
+          "ref": "./design-system.md#radius"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 199,
+          "ref": "./design-system.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 227,
+          "ref": "design-system.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 295,
+          "ref": "./design-system.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/registry.md",
+      "size": 8817,
+      "blob": "5369468bbe43126379161a403a53717ee86e2d9b",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/cli.md",
+          "line": 247,
+          "ref": "./registry.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 293,
+          "ref": "./registry.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/rules/base-vs-radix.md",
+      "size": 6954,
+      "blob": "c1ed7d111a0195cab801d2b3d38dee3aee0b8e10",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/rules/chat.md",
+          "line": 9,
+          "ref": "./base-vs-radix.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/rules/forms.md",
+          "line": 150,
+          "ref": "./base-vs-radix.md#togglegroup"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 55,
+          "ref": "./rules/base-vs-radix.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 291,
+          "ref": "./rules/base-vs-radix.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/rules/chat.md",
+      "size": 17626,
+      "blob": "b493fbd348190123a5fe0f4c66b115836ae9a0bc",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/design-system-page.md",
+          "line": 46,
+          "ref": "./rules/chat.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/rules/composition.md",
+          "line": 59,
+          "ref": "./chat.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 80,
+          "ref": "./rules/chat.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 288,
+          "ref": "./rules/chat.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/rules/composition.md",
+      "size": 4892,
+      "blob": "a8aa4274c1aaabf673fe7bdb69d90983ad56059d",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 52,
+          "ref": "./rules/composition.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 62,
+          "ref": "./rules/composition.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 287,
+          "ref": "./rules/composition.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/rules/forms.md",
+      "size": 4857,
+      "blob": "f451e2f7bc17d9c5738691931964744a568ea5d6",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 43,
+          "ref": "./rules/forms.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 286,
+          "ref": "./rules/forms.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/rules/icons.md",
+      "size": 1958,
+      "blob": "bba8102f01ef9fd9bd7ce2adc73e562869d5d09e",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 74,
+          "ref": "./rules/icons.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 289,
+          "ref": "./rules/icons.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/rules/styling.md",
+      "size": 4675,
+      "blob": "4e6e063e1c7bc386e49f55da800546571b9e070b",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/shadcn/customization.md",
+          "line": 145,
+          "ref": "./rules/styling.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/rules/chat.md",
+          "line": 497,
+          "ref": "./styling.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 33,
+          "ref": "./rules/styling.md"
+        },
+        {
+          "how": "link",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 290,
+          "ref": "./rules/styling.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/shadcn/scripts/showcase-coverage.mjs",
+      "size": 1453,
+      "blob": "d8a4eab93cb2da6dbe24290483cf570c7d04bf6e",
+      "reached": [
+        {
+          "how": "variable-path",
+          "from": "skills/shadcn/design-system.md",
+          "line": 358,
+          "ref": "<skill-dir>/scripts/showcase-coverage.mjs"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/shadcn/design-system.md",
+          "line": 359,
+          "ref": "<skill-dir>/scripts/showcase-coverage.mjs"
+        },
+        {
+          "how": "path",
+          "from": "skills/shadcn/SKILL.md",
+          "line": 205,
+          "ref": "scripts/showcase-coverage.mjs"
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "kind": "cli",
+      "name": "shadcn",
+      "evidence": [
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 5,
+          "text": "> **IMPORTANT:** Always run commands using the project's package runner: `npx shadcn@latest`, `pnpm dlx shadcn@latest`, or `bunx --bun shadcn@latest`. Check `packageManager` from project context to choose the right one. Examples below use `npx shadcn@latest` but substitute the correct runner for the"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 23,
+          "text": "npx shadcn@latest init [components...] [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 43,
+          "text": "`npx shadcn@latest create` is an alias for `npx shadcn@latest init`."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 48,
+          "text": "npx shadcn@latest apply [preset] [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 65,
+          "text": "> **IMPORTANT:** To compare local components against upstream or to preview changes, ALWAYS use `npx shadcn@latest add <component> --dry-run`, `--diff`, or `--view`. NEVER fetch raw files from GitHub or other sources manually. The CLI handles registry resolution, file paths, and CSS diffing automati"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 68,
+          "text": "npx shadcn@latest add [components...] [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 92,
+          "text": "npx shadcn@latest add button --dry-run"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 95,
+          "text": "npx shadcn@latest add button --diff"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 98,
+          "text": "npx shadcn@latest add button --diff button.tsx"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 101,
+          "text": "npx shadcn@latest add button --view"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 104,
+          "text": "npx shadcn@latest add button --view button.tsx"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 107,
+          "text": "npx shadcn@latest add https://api.npoint.io/abc123 --dry-run"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 110,
+          "text": "npx shadcn@latest add owner/repo/item --dry-run"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 113,
+          "text": "npx shadcn@latest add button --diff globals.css"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 124,
+          "text": "> **`npx shadcn@latest add --dry-run` vs `npx shadcn@latest view`:** Prefer `npx shadcn@latest add --dry-run/--diff/--view` over `npx shadcn@latest view` when the user wants to preview changes to their project. `npx shadcn@latest view` only shows raw registry metadata. `npx shadcn@latest add --dry-r"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 133,
+          "text": "npx shadcn@latest search [registries...] [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 136,
+          "text": "Fuzzy search across registries. Also aliased as `npx shadcn@latest list`."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 153,
+          "text": "npx shadcn@latest view <items...> [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 157,
+          "text": "`npx shadcn@latest view @shadcn/button`,"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 158,
+          "text": "`npx shadcn@latest view owner/repo/item`."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 163,
+          "text": "npx shadcn@latest docs <components...> [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 168,
+          "text": "Example output for `npx shadcn@latest docs input button`:"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 186,
+          "text": "Do not use this command. Use `npx shadcn@latest add --diff` instead."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 191,
+          "text": "npx shadcn@latest info [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 236,
+          "text": "The `info` output includes a **Links** section with templated URLs for component docs, source, and examples. For resolved URLs, use `npx shadcn@latest docs <component>` instead."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 241,
+          "text": "npx shadcn@latest build [registry] [options]"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 279,
+          "text": "> **IMPORTANT:** Never try to decode, fetch, or resolve preset codes manually. Preset codes are opaque — pass them directly to `npx shadcn@latest init --preset <code>` and let the CLI handle resolution."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 280,
+          "text": "> Use `npx shadcn@latest apply --preset <code>` when overwriting an existing project's preset."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 286,
+          "text": "- **Overwrite / Re-install** → `npx shadcn@latest apply --preset <code>`. Overwrites all detected component files with the new preset styles. Use when the user hasn't customized components."
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 287,
+          "text": "- **Merge** → `npx shadcn@latest init --preset <code> --force --no-reinstall`, then run `npx shadcn@latest info` to get the list of installed components and use the [smart merge workflow](./SKILL.md#updating-components) to update them one by one, preserving local changes. Use when the user has custo"
+        },
+        {
+          "from": "skills/shadcn/cli.md",
+          "line": 288,
+          "text": "- **Skip** → `npx shadcn@latest init --preset <code> --force --no-reinstall`. Only updates config and CSS variables, leaves existing components as-is."
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 68,
+          "text": "npx shadcn@latest apply --preset a2r6bw"
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 71,
+          "text": "npx shadcn@latest apply a2r6bw"
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 74,
+          "text": "npx shadcn@latest apply --preset nova"
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 77,
+          "text": "npx shadcn@latest init --preset nova --force --no-reinstall"
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 80,
+          "text": "npx shadcn@latest apply --preset \"https://ui.shadcn.com/init?base=radix&style=nova&theme=blue&...\""
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 89,
+          "text": "Add variables to the file at `tailwindCssFile` from `npx shadcn@latest info` (typically `globals.css`). Never create a new CSS file for this."
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 111,
+          "text": "When `tailwindVersion` is `\"v3\"` (check via `npx shadcn@latest info`), register in `tailwind.config.js` instead:"
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 201,
+          "text": "npx shadcn@latest add button --diff"
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 207,
+          "text": "npx shadcn@latest add button --dry-run        # see all affected files"
+        },
+        {
+          "from": "skills/shadcn/customization.md",
+          "line": 208,
+          "text": "npx shadcn@latest add button --diff button.tsx # see the diff for a specific file"
+        },
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 40,
+          "text": "npx shadcn@latest init --preset <code> --template vite --name <app> --no-monorepo -y"
+        },
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 46,
+          "text": "npx shadcn@latest init --base base --preset <style> --template vite --name <app> --no-monorepo -y"
+        },
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 53,
+          "text": "npx shadcn@latest info --json"
+        },
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 78,
+          "text": "npx shadcn@latest add --all -y"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 13,
+          "text": "from `public/r`. Use `npx shadcn@latest build` to create this form."
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 244,
+          "text": "npx shadcn@latest build"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 245,
+          "text": "npx shadcn@latest build registry.json --output public/r"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 251,
+          "text": "npx shadcn@latest list @acme"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 252,
+          "text": "npx shadcn@latest search @acme -q \"login\""
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 253,
+          "text": "npx shadcn@latest view @acme/login-form"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 254,
+          "text": "npx shadcn@latest add @acme/login-form --dry-run"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 255,
+          "text": "npx shadcn@latest registry validate ./registry.json"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 261,
+          "text": "npx shadcn@latest list owner/repo"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 262,
+          "text": "npx shadcn@latest search owner/repo -q \"login\""
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 263,
+          "text": "npx shadcn@latest view owner/repo/item"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 264,
+          "text": "npx shadcn@latest add owner/repo/item --dry-run"
+        },
+        {
+          "from": "skills/shadcn/registry.md",
+          "line": 265,
+          "text": "npx shadcn@latest registry validate owner/repo"
+        },
+        {
+          "from": "skills/shadcn/rules/base-vs-radix.md",
+          "line": 3,
+          "text": "API differences between `base` and `radix`. Check the `base` field from `npx shadcn@latest info`."
+        },
+        {
+          "from": "skills/shadcn/rules/chat.md",
+          "line": 6,
+          "text": "Install: `npx shadcn@latest add message-scroller message bubble attachment marker trace code-block`"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 12,
+          "text": "> **IMPORTANT:** Run all CLI commands using the project's package runner: `npx shadcn@latest`, `pnpm dlx shadcn@latest`, or `bunx --bun shadcn@latest` — based on the project's `packageManager`. Examples below use `npx shadcn@latest` but substitute the correct runner for the project."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 20,
+          "text": "The JSON above contains the project config and installed components. Use `npx shadcn@latest docs <component>` to get documentation and example URLs for any component."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 24,
+          "text": "1. **Use existing components first.** Use `npx shadcn@latest search` to check registries before writing custom UI. Check community registries too."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 55,
+          "text": "- **Use `asChild` (radix) or `render` (base) for custom triggers.** Check `base` field from `npx shadcn@latest info`. → [base-vs-radix.md](./rules/base-vs-radix.md)"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 89,
+          "text": "- **Never decode preset codes or build preset URLs manually.** Use `npx shadcn@latest preset decode <code>`, `preset url <code>`, or `preset open <code>`. For project-aware preset detection, use `npx shadcn@latest preset resolve`."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 90,
+          "text": "- **Apply preset codes directly with the CLI.** Use `npx shadcn@latest apply <code>` for existing projects, or `npx shadcn@latest init --preset <code>` when initializing."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 164,
+          "text": "- **`preset`** → resolved preset code and values for the current project. Use `npx shadcn@latest preset resolve --json` when you only need preset information."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 170,
+          "text": "Run `npx shadcn@latest docs <component>` to get the URLs for a component's documentation, examples, and API reference. Fetch these URLs to get the actual content."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 173,
+          "text": "npx shadcn@latest docs button dialog select"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 176,
+          "text": "**When creating, fixing, debugging, or using a component, always run `npx shadcn@latest docs` and fetch the URLs first.** This ensures you're working with the correct API and usage patterns rather than guessing."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 180,
+          "text": "1. **Get project context** — already injected above. Run `npx shadcn@latest info` again if you need to refresh."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 182,
+          "text": "3. **Find components** — `npx shadcn@latest search`."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 183,
+          "text": "4. **Get docs and examples** — run `npx shadcn@latest docs <component>` to get URLs, then fetch them. Use `npx shadcn@latest view` to browse registry items you haven't installed. To preview changes to installed components, use `npx shadcn@latest add --diff`."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 184,
+          "text": "5. **Install or update** — `npx shadcn@latest add`. When updating existing components, use `--dry-run` and `--diff` to preview changes first (see [Updating Components](#updating-components) below)."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 185,
+          "text": "6. **Fix imports in third-party components** — After adding components from community registries (e.g. `@bundui`, `@magicui`), check the added non-UI files for hardcoded import paths like `@/components/ui/...`. These won't match the project's actual aliases. Use `npx shadcn@latest info` to get the c"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 189,
+          "text": "- **Inspect current preset**: `npx shadcn@latest preset resolve`. Use `--json` when you need structured values."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 190,
+          "text": "- **Inspect incoming preset**: `npx shadcn@latest preset decode <code>`. Use `preset url <code>` or `preset open <code>` to share or open the preset builder."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 191,
+          "text": "- **Overwrite**: `npx shadcn@latest apply <code>`. Overwrites detected components, fonts, and CSS variables."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 192,
+          "text": "- **Partial**: `npx shadcn@latest apply <code> --only theme,font`. Updates only the selected preset parts without reinstalling UI components. Supported values are `theme` and `font`; comma-separated combinations are allowed. `icon` is intentionally not supported, because icon changes may require ful"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 193,
+          "text": "- **Merge**: `npx shadcn@latest init --preset <code> --force --no-reinstall`, then run `npx shadcn@latest info` to list installed components, then for each installed component use `--dry-run` and `--diff` to [smart merge](#updating-components) it individually."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 194,
+          "text": "- **Skip**: `npx shadcn@latest init --preset <code> --force --no-reinstall`. Only updates config and CSS, leaves components as-is."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 212,
+          "text": "1. Run `npx shadcn@latest add <component> --dry-run` to see all files that would be affected."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 213,
+          "text": "2. For each file, run `npx shadcn@latest add <component> --diff <file>` to see what changed upstream vs local."
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 224,
+          "text": "npx shadcn@latest init --name my-app --preset base-nova"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 225,
+          "text": "npx shadcn@latest init --name my-app --preset a2r6bw --template vite"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 228,
+          "text": "npx shadcn@latest init --name my-ds --preset b0 --template vite --no-monorepo -y"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 229,
+          "text": "npx shadcn@latest init --name my-ds --base base --preset maia --template vite --no-monorepo -y"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 230,
+          "text": "npx shadcn@latest add --all -y"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 233,
+          "text": "npx shadcn@latest init --name my-app --preset base-nova --monorepo"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 234,
+          "text": "npx shadcn@latest init --name my-app --preset base-nova --template next --monorepo"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 237,
+          "text": "npx shadcn@latest init --preset base-nova"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 238,
+          "text": "npx shadcn@latest init --defaults  # shortcut: --template=next --preset=nova (base style implied)"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 241,
+          "text": "npx shadcn@latest apply a2r6bw"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 242,
+          "text": "npx shadcn@latest apply a2r6bw --only theme"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 243,
+          "text": "npx shadcn@latest apply a2r6bw --only font"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 244,
+          "text": "npx shadcn@latest apply a2r6bw --only theme,font"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 247,
+          "text": "npx shadcn@latest preset decode a2r6bw"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 248,
+          "text": "npx shadcn@latest preset url a2r6bw"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 249,
+          "text": "npx shadcn@latest preset open a2r6bw"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 250,
+          "text": "npx shadcn@latest preset resolve"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 251,
+          "text": "npx shadcn@latest preset resolve --json"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 254,
+          "text": "npx shadcn@latest add button card dialog"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 255,
+          "text": "npx shadcn@latest add @magicui/shimmer-button"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 256,
+          "text": "npx shadcn@latest add owner/repo/item"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 257,
+          "text": "npx shadcn@latest add --all"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 260,
+          "text": "npx shadcn@latest add button --dry-run"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 261,
+          "text": "npx shadcn@latest add button --diff button.tsx"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 262,
+          "text": "npx shadcn@latest add @acme/form --view button.tsx"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 263,
+          "text": "npx shadcn@latest add owner/repo/item --dry-run"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 266,
+          "text": "npx shadcn@latest search @shadcn -q \"sidebar\""
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 267,
+          "text": "npx shadcn@latest search @tailark -q \"stats\""
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 268,
+          "text": "npx shadcn@latest search owner/repo -q \"login\""
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 269,
+          "text": "npx shadcn@latest search                          # all configured registries"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 270,
+          "text": "npx shadcn@latest search @shadcn -q \"menu\" -t ui  # filter by item type"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 273,
+          "text": "npx shadcn@latest docs button dialog select"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 276,
+          "text": "npx shadcn@latest view @shadcn/button"
+        },
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 277,
+          "text": "npx shadcn@latest view owner/repo/item"
+        }
+      ]
+    },
+    {
+      "kind": "cli",
+      "name": "tsc",
+      "evidence": [
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 92,
+          "text": "npx tsc -p tsconfig.app.json --noEmit   # Vite."
+        },
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 93,
+          "text": "npx tsc --noEmit                        # Next.js."
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "@fontsource-variable/cormorant-garamond",
+      "evidence": [
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 214,
+          "text": "npm install @fontsource-variable/inter @fontsource-variable/cormorant-garamond @fontsource-variable/jetbrains-mono"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "@fontsource-variable/inter",
+      "evidence": [
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 214,
+          "text": "npm install @fontsource-variable/inter @fontsource-variable/cormorant-garamond @fontsource-variable/jetbrains-mono"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "@fontsource-variable/jetbrains-mono",
+      "evidence": [
+        {
+          "from": "skills/shadcn/design-system.md",
+          "line": 214,
+          "text": "npm install @fontsource-variable/inter @fontsource-variable/cormorant-garamond @fontsource-variable/jetbrains-mono"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "date-fns",
+      "evidence": [
+        {
+          "from": "skills/shadcn/SKILL.md",
+          "line": 163,
+          "text": "- **`packageManager`** → use this for any non-shadcn dependency installs (e.g. `pnpm add date-fns` vs `npm install date-fns`)."
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "files": 16,
+    "bytes": 139387
+  },
+  "namedSkills": [],
+  "checkoutReach": [],
+  "licence": {
+    "path": "LICENSE.md",
+    "spdx": "MIT",
+    "frontmatter": null
+  },
+  "pending": []
+}

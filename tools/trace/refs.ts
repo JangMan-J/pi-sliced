@@ -135,11 +135,22 @@ export function extractRefs(path: string, text: string): Ref[] {
     if (fence !== null) {
       const code = dropShellTests(line.replace(/^\s*(?:#|\/\/).*$/, "").replace(/\s(?:#|\/\/)\s.*$/, ""));
       for (const tok of splitShellTokens(code)) if (pathShaped(tok)) refs.push({ line: n, raw: tok, kind: "fence", text: line, sentence: code });
+      // F11 (amended): a comment in a Markdown code example reads as prose.
+      const comment = codeComment(line);
+      if (comment) proseRefs(comment, n, refs, null);
       return;
     }
     proseRefs(line, n, refs, null, paragraphOf(lines, i));
   });
   return refs;
+}
+
+// The comment text of one line of a code example: a leading `#`, `//`, `/*`, `*` or `<!--`, or a trailing ` # ` / ` // `.
+function codeComment(line: string): string | null {
+  const lead = line.match(/^\s*(?:\/\/+|#+(?=\s)|\/\*+|\*(?=\s)|<!--)\s?(.*?)(?:\*\/|-->)?\s*$/);
+  if (lead) return lead[1].trim() || null;
+  const tail = line.match(/\s(?:\/\/|#)\s(.*)$/);
+  return tail ? tail[1].trim() || null : null;
 }
 
 const BLOCK_START = /^\s*(?:[-*+]\s|\d+[.)]\s|#{1,6}\s|\||>|(?:`{3,}|~{3,}))/;

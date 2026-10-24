@@ -1,0 +1,657 @@
+{
+  "format": "pi-sliced.trace/1",
+  "tracer": "trace-2",
+  "judge": "judge-4",
+  "candidate": "nvidia/skills/amc-run-video-calibration",
+  "source": "nvidia/skills",
+  "revision": "80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+  "skillPath": "skills/amc-run-video-calibration",
+  "status": "resolved",
+  "files": [
+    {
+      "path": "skills/amc-run-rtsp-calibration/SKILL.md",
+      "size": 18230,
+      "blob": "dffda5de0de7fa0f57d0c1ae46a31dea4bcdd35b",
+      "reached": [
+        {
+          "how": "path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 238,
+          "ref": "skills/amc-run-rtsp-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 26,
+          "ref": "skills/amc-run-rtsp-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 304,
+          "ref": "skills/amc-run-rtsp-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 232,
+          "ref": "skills/amc-run-rtsp-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 397,
+          "ref": "skills/amc-run-rtsp-calibration/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/amc-run-rtsp-calibration/scripts/run_rtsp_calibration.py",
+      "size": 22577,
+      "blob": "b91a18207160d9cf8bb30054e93c0246945ab140",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 84,
+          "ref": "scripts/run_rtsp_calibration.py"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 310,
+          "ref": "${AMC_RTSP_SKILL_DIR:+$AMC_RTSP_SKILL_DIR/scripts/run_rtsp_calibration.py}"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 311,
+          "ref": "$PWD/scripts/run_rtsp_calibration.py"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 312,
+          "ref": "${DEEPSTREAM_REPO_ROOT:+$DEEPSTREAM_REPO_ROOT/skills/amc-run-rtsp-calibration/scripts/run_rtsp_calibration.py}"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 313,
+          "ref": "$PWD/skills/amc-run-rtsp-calibration/scripts/run_rtsp_calibration.py"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 324,
+          "ref": "amc-run-rtsp-calibration/scripts/run_rtsp_calibration.py"
+        }
+      ]
+    },
+    {
+      "path": "skills/amc-run-sample-calibration/SKILL.md",
+      "size": 13970,
+      "blob": "e5abc564e448640acf67fc67d89fc9a26ed1bcfa",
+      "reached": [
+        {
+          "how": "path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 27,
+          "ref": "skills/amc-run-sample-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 391,
+          "ref": "skills/amc-run-sample-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 303,
+          "ref": "skills/amc-run-sample-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 395,
+          "ref": "skills/amc-run-sample-calibration/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/amc-run-sample-calibration/scripts/run_sample_calibration.py",
+      "size": 10871,
+      "blob": "81cae299df3801ea6effebfe9b06c6e8aab96f79",
+      "reached": [
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 118,
+          "ref": "${AMC_SAMPLE_SKILL_DIR:+$AMC_SAMPLE_SKILL_DIR/scripts/run_sample_calibration.py}"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 119,
+          "ref": "$PWD/scripts/run_sample_calibration.py"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 120,
+          "ref": "${DEEPSTREAM_REPO_ROOT:+$DEEPSTREAM_REPO_ROOT/skills/amc-run-sample-calibration/scripts/run_sample_calibration.py}"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 121,
+          "ref": "$PWD/skills/amc-run-sample-calibration/scripts/run_sample_calibration.py"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 132,
+          "ref": "amc-run-sample-calibration/scripts/run_sample_calibration.py"
+        }
+      ]
+    },
+    {
+      "path": "skills/amc-run-video-calibration/SKILL.md",
+      "size": 19153,
+      "blob": "f7889bbe840de0d9b986c3ce0fb2b602cad2e4cf",
+      "reached": [
+        {
+          "how": "root"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 27,
+          "ref": "skills/amc-run-video-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 390,
+          "ref": "skills/amc-run-video-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 237,
+          "ref": "skills/amc-run-video-calibration/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 396,
+          "ref": "skills/amc-run-video-calibration/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/amc-run-video-calibration/scripts/run_video_calibration.py",
+      "size": 24080,
+      "blob": "e72037b83bcbf5aad4727eca147ae8845da3bb15",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 92,
+          "ref": "scripts/run_video_calibration.py"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 202,
+          "ref": "${AMC_VIDEO_SKILL_DIR:+$AMC_VIDEO_SKILL_DIR/scripts/run_video_calibration.py}"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 203,
+          "ref": "$PWD/scripts/run_video_calibration.py"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 204,
+          "ref": "${DEEPSTREAM_REPO_ROOT:+$DEEPSTREAM_REPO_ROOT/skills/amc-run-video-calibration/scripts/run_video_calibration.py}"
+        },
+        {
+          "how": "variable-path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 205,
+          "ref": "$PWD/skills/amc-run-video-calibration/scripts/run_video_calibration.py"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 216,
+          "ref": "amc-run-video-calibration/scripts/run_video_calibration.py"
+        }
+      ]
+    },
+    {
+      "path": "skills/amc-setup-calibration-stack/SKILL.md",
+      "size": 15760,
+      "blob": "da127ba3b8fc297c7f1182e054b2b451e193f06b",
+      "reached": [
+        {
+          "how": "path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 33,
+          "ref": "skills/amc-setup-calibration-stack/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 389,
+          "ref": "skills/amc-setup-calibration-stack/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 43,
+          "ref": "skills/amc-setup-calibration-stack/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 53,
+          "ref": "skills/amc-setup-calibration-stack/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 236,
+          "ref": "skills/amc-setup-calibration-stack/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 34,
+          "ref": "skills/amc-setup-calibration-stack/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills/amc-run-video-calibration/SKILL.md",
+          "line": 302,
+          "ref": "skills/amc-setup-calibration-stack/SKILL.md"
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "kind": "cli",
+      "name": "docker",
+      "evidence": [
+        {
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 109,
+          "text": "VIOS_BASE_URL=$(docker exec auto-magic-calib-ms-1 printenv VIOS_BASE_URL 2>/dev/null)"
+        },
+        {
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 139,
+          "text": "docker compose -f compose.yml -f \"$OVERRIDE_FILE\" up -d auto-magic-calib-ms"
+        },
+        {
+          "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+          "line": 140,
+          "text": "docker exec auto-magic-calib-ms-1 printenv VIOS_BASE_URL"
+        },
+        {
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 214,
+          "text": "docker compose -f \"$REPO_ROOT/compose/compose.yml\" logs -f auto-magic-calib-ms"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 30,
+          "text": "docker ps"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 122,
+          "text": "echo \"<NGC_API_KEY>\" | docker login nvcr.io --username '$oauthtoken' --password-stdin"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 272,
+          "text": "IMAGES=$(docker compose config --images | sort -u)"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 276,
+          "text": "if ! docker manifest inspect \"$img\" >/dev/null 2>&1; then"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 285,
+          "text": "docker compose up -d"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 288,
+          "text": "docker compose ps"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 357,
+          "text": "| Readiness timeout or exited container | Run `cd $REPO_ROOT/compose && docker compose ps` and inspect `docker compose logs auto-magic-calib-ms`. |"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 360,
+          "text": "| GPU unavailable | Verify NVIDIA runtime with `docker run --rm --runtime=nvidia --gpus all ubuntu:20.04 nvidia-smi`. |"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 367,
+          "text": "docker compose logs -f"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 370,
+          "text": "docker compose logs -f auto-magic-calib-ms"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 373,
+          "text": "docker compose restart"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 376,
+          "text": "docker compose down"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 379,
+          "text": "docker compose up -d"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 388,
+          "text": "docker compose down"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 391,
+          "text": "docker compose down -v"
+        }
+      ]
+    },
+    {
+      "kind": "cli",
+      "name": "hf",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 153,
+          "text": "HF_TOKEN=\"<HF_TOKEN>\" \"$HF_BIN\" download facebook/VGGT-1B-Commercial  --local-dir models/vggt/"
+        }
+      ]
+    },
+    {
+      "kind": "cli",
+      "name": "lsof",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 172,
+          "text": "if ! lsof -Pi :$port -sTCP:LISTEN -t >/dev/null 2>&1; then"
+        },
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 182,
+          "text": "if ! lsof -Pi :$port -sTCP:LISTEN -t >/dev/null 2>&1; then"
+        }
+      ]
+    },
+    {
+      "kind": "cli",
+      "name": "ngc",
+      "evidence": [
+        {
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 232,
+          "text": "The root `README.md` also documents `nv_warehouse_032326.zip`, a real-world warehouse dataset available from NGC. Download it with `ngc registry resource download-version \"nvidia/amc-nv-warehouse\"`; then use `amc-run-video-calibration`, upload `nv_warehouse_config.json` in the config step, and run w"
+        }
+      ]
+    },
+    {
+      "kind": "cli",
+      "name": "nvidia-smi",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 360,
+          "text": "| GPU unavailable | Verify NVIDIA runtime with `docker run --rm --runtime=nvidia --gpus all ubuntu:20.04 nvidia-smi`. |"
+        }
+      ]
+    },
+    {
+      "kind": "credential",
+      "name": "HF_TOKEN",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 153,
+          "text": "HF_TOKEN=\"<HF_TOKEN>\" \"$HF_BIN\" download facebook/VGGT-1B-Commercial  --local-dir models/vggt/"
+        }
+      ]
+    },
+    {
+      "kind": "credential",
+      "name": "NGC_API_KEY",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 122,
+          "text": "echo \"<NGC_API_KEY>\" | docker login nvcr.io --username '$oauthtoken' --password-stdin"
+        }
+      ]
+    },
+    {
+      "kind": "network",
+      "name": "github.com",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 86,
+          "text": "echo \"On 'y' — run: git clone \\\"$REPO_URL\\\" \\\"$DEFAULT_CLONE_DIR\\\"\""
+        }
+      ]
+    },
+    {
+      "kind": "network",
+      "name": "huggingface.co",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 142,
+          "text": "**To download VGGT**: ask the user to accept the license at https://huggingface.co/facebook/VGGT-1B-Commercial and provide a read token from https://huggingface.co/settings/tokens using the host's question mechanism. Pass it through `HF_TOKEN` so it is not exposed in `ps` output:"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "huggingface_hub",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 112,
+          "text": "\"$HF_VENV/bin/pip\" install --upgrade pip huggingface_hub"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "pip",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 112,
+          "text": "\"$HF_VENV/bin/pip\" install --upgrade pip huggingface_hub"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "python3-pip",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 107,
+          "text": "echo \"Install it manually: sudo apt install -y python3-venv python3-pip\" >&2"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "python3-venv",
+      "evidence": [
+        {
+          "from": "skills/amc-setup-calibration-stack/SKILL.md",
+          "line": 107,
+          "text": "echo \"Install it manually: sudo apt install -y python3-venv python3-pip\" >&2"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "requests",
+      "evidence": [
+        {
+          "from": "skills/amc-run-rtsp-calibration/scripts/run_rtsp_calibration.py",
+          "line": 25,
+          "text": "import requests"
+        },
+        {
+          "from": "skills/amc-run-sample-calibration/scripts/run_sample_calibration.py",
+          "line": 25,
+          "text": "import requests"
+        },
+        {
+          "from": "skills/amc-run-sample-calibration/scripts/run_sample_calibration.py",
+          "line": 29,
+          "text": "\"Install it first, for example: python3 -m pip install requests\""
+        },
+        {
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 46,
+          "text": "- Install it explicitly before running the script: `python3 -m pip install requests`"
+        },
+        {
+          "from": "skills/amc-run-sample-calibration/SKILL.md",
+          "line": 221,
+          "text": "| `requests` not installed | Install it before running the script: `python3 -m pip install requests` |"
+        },
+        {
+          "from": "skills/amc-run-video-calibration/scripts/run_video_calibration.py",
+          "line": 47,
+          "text": "import requests"
+        },
+        {
+          "from": "skills/amc-run-video-calibration/scripts/run_video_calibration.py",
+          "line": 51,
+          "text": "\"Install it first, for example: python3 -m pip install requests\""
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "bytes": 124641
+  },
+  "namedSkills": [
+    {
+      "name": "amc-run-rtsp-calibration",
+      "path": "skills/amc-run-rtsp-calibration",
+      "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+      "line": 285,
+      "text": "Use the bundled script from the `amc-run-rtsp-calibration` skill package, not from the `auto-magic-calib` repo root. If the user points the agent at this skill folder directly instead of installing it, set `AMC_RTSP_SKILL_DIR` to the directory containing this `SKILL.md`, or run the command from that directory."
+    },
+    {
+      "name": "amc-run-rtsp-calibration",
+      "path": "skills/amc-run-rtsp-calibration",
+      "from": "skills/amc-run-rtsp-calibration/SKILL.md",
+      "line": 325,
+      "text": "echo \"Set AMC_RTSP_SKILL_DIR to the amc-run-rtsp-calibration skill directory, or run this block from that directory.\" >&2"
+    },
+    {
+      "name": "amc-run-rtsp-calibration",
+      "path": "skills/amc-run-rtsp-calibration",
+      "from": "skills/amc-run-sample-calibration/SKILL.md",
+      "line": 28,
+      "text": "- The user provides live RTSP streams or `rtsp://...` URLs — route to `amc-run-rtsp-calibration`."
+    },
+    {
+      "name": "amc-run-rtsp-calibration",
+      "path": "skills/amc-run-rtsp-calibration",
+      "from": "skills/amc-run-video-calibration/SKILL.md",
+      "line": 3,
+      "text": "description: \"Calibrates pre-recorded `cam_*.mp4` datasets through the AutoMagicCalib REST API. Use for user-supplied local MP4s; route live RTSP streams to `amc-run-rtsp-calibration`.\""
+    },
+    {
+      "name": "amc-run-sample-calibration",
+      "path": "skills/amc-run-sample-calibration",
+      "from": "skills/amc-run-sample-calibration/SKILL.md",
+      "line": 103,
+      "text": "Run the bundled script from the `amc-run-sample-calibration` skill package, not from the `auto-magic-calib` repo root. If the user points the agent at this skill folder directly instead of installing it, set `AMC_SAMPLE_SKILL_DIR` to the directory containing this `SKILL.md`, or run the command from that directory. Set `REPO_ROOT` to the AutoMagicCalib checkout resolved by `amc-setup-calibration-st"
+    },
+    {
+      "name": "amc-run-sample-calibration",
+      "path": "skills/amc-run-sample-calibration",
+      "from": "skills/amc-run-sample-calibration/SKILL.md",
+      "line": 133,
+      "text": "echo \"Set AMC_SAMPLE_SKILL_DIR to the amc-run-sample-calibration skill directory, or run this block from that directory.\" >&2"
+    },
+    {
+      "name": "amc-setup-calibration-stack",
+      "path": "skills/amc-setup-calibration-stack",
+      "from": "skills/amc-run-sample-calibration/SKILL.md",
+      "line": 23,
+      "text": "- \"launch and test\" (chain with `amc-setup-calibration-stack` if the MS isn't already running)"
+    },
+    {
+      "name": "amc-setup-calibration-stack",
+      "path": "skills/amc-setup-calibration-stack",
+      "from": "skills/amc-run-sample-calibration/SKILL.md",
+      "line": 31,
+      "text": "Prerequisite: AMC microservice running on a port in 8000-8009. If no backend is detected, delegate to `amc-setup-calibration-stack` first."
+    },
+    {
+      "name": "amc-setup-calibration-stack",
+      "path": "skills/amc-setup-calibration-stack",
+      "from": "skills/amc-run-sample-calibration/SKILL.md",
+      "line": 103,
+      "text": "Run the bundled script from the `amc-run-sample-calibration` skill package, not from the `auto-magic-calib` repo root. If the user points the agent at this skill folder directly instead of installing it, set `AMC_SAMPLE_SKILL_DIR` to the directory containing this `SKILL.md`, or run the command from that directory. Set `REPO_ROOT` to the AutoMagicCalib checkout resolved by `amc-setup-calibration-st"
+    },
+    {
+      "name": "amc-setup-calibration-stack",
+      "path": "skills/amc-setup-calibration-stack",
+      "from": "skills/amc-run-sample-calibration/SKILL.md",
+      "line": 228,
+      "text": "| Port scan finds no backend | Backend not running — run `amc-setup-calibration-stack` skill |"
+    },
+    {
+      "name": "amc-setup-calibration-stack",
+      "path": "skills/amc-setup-calibration-stack",
+      "from": "skills/amc-run-video-calibration/SKILL.md",
+      "line": 183,
+      "text": "- If VGGT is not ready, skip refinement and explain that the user can set up VGGT with `amc-setup-calibration-stack` and rerun this optional step later."
+    }
+  ],
+  "checkoutReach": [],
+  "licence": {
+    "path": "LICENSE-APACHE",
+    "spdx": "Apache-2.0",
+    "frontmatter": "Apache-2.0"
+  },
+  "pending": []
+}

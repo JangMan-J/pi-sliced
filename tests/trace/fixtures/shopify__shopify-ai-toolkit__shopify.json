@@ -1,0 +1,2238 @@
+{
+ "candidate": "shopify/shopify-ai-toolkit/shopify",
+ "revision": "a788f6a87cad4be5dfac814605a7288dc9e8f3db",
+ "skillPath": "skills/shopify",
+ "files": [
+  {
+   "path": "skills/shopify/SKILL.md",
+   "size": 16964,
+   "blob": "74326ae36a02b886d83f38e5cd1634febae32dc4",
+   "reached": [
+    {
+     "how": "root"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/admin_2026-01.json.br",
+   "size": 461302,
+   "blob": "30e450b5e1ae19305ad68858cebb2d0f8aa73fda",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/admin_2026-04.json.br",
+   "size": 481933,
+   "blob": "db0aa8f775ff648753c5c904d57f068c02071487",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/admin_2026-07.json.br",
+   "size": 507446,
+   "blob": "da79dbf496e978b7665e502e0f5bfe3ff55f245c",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/admin_2026-10.json.br",
+   "size": 527219,
+   "blob": "947a4dce4e40ff8b334219afa962aed2b96b5cc0",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/admin_2027-01.json.br",
+   "size": 527143,
+   "blob": "a8ff91f3b2c0d8b97ad98624eb316e1e6bb190b1",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/admin_unstable.json.br",
+   "size": 558495,
+   "blob": "7839d054af6e94a6b61e8525eddf9cd305cfcb44",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/customer_2026-01.json.br",
+   "size": 49443,
+   "blob": "116a1e808beb3db17c25bf9d5c9096df415774fc",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/customer_2026-04.json.br",
+   "size": 49557,
+   "blob": "1562b33982362c35bfc61c3eeaa56720c22f3eff",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/customer_2026-07.json.br",
+   "size": 50499,
+   "blob": "538979cc17f062bedfb80e6717dde7ed0f6489f8",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/customer_2026-10.json.br",
+   "size": 51321,
+   "blob": "1a7a7156cc6f8194439dc918b1902f940c6996c1",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/customer_2027-01.json.br",
+   "size": 51321,
+   "blob": "1a7a7156cc6f8194439dc918b1902f940c6996c1",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/customer_unstable.json.br",
+   "size": 53202,
+   "blob": "8bce2c538c786870e9ea92e16018ebb52641d175",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_checkout_validation_2026-01.json.br",
+   "size": 19785,
+   "blob": "ed72d1e4e7f19c3fb4070769ff4c6a2d49a14179",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_checkout_validation_2026-04.json.br",
+   "size": 20892,
+   "blob": "d6d51c7247ec4d91a7ea3f73ab69989527753b11",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_checkout_validation_2026-07.json.br",
+   "size": 21103,
+   "blob": "8257025ff7401e0384aab4c738607f8aa4ef5f50",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_checkout_validation_2026-10.json.br",
+   "size": 21165,
+   "blob": "390da45b8f906ec9a6828d08b4ab503f94fca7cc",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_checkout_validation_2027-01.json.br",
+   "size": 21165,
+   "blob": "390da45b8f906ec9a6828d08b4ab503f94fca7cc",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_checkout_validation_unstable.json.br",
+   "size": 21251,
+   "blob": "6621439d489aa4b27558bba9c6cffca4c626a5c6",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_transform_2026-01.json.br",
+   "size": 17216,
+   "blob": "b07903096d1c34691f3b95d4afbc45bf47d89bed",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_transform_2026-04.json.br",
+   "size": 18549,
+   "blob": "a6d7c98632294186cd736361063fc5d9bfe35699",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_transform_2026-07.json.br",
+   "size": 18801,
+   "blob": "92e4f6927a111849bccca35e4f93505cbedca0af",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_transform_2026-10.json.br",
+   "size": 18835,
+   "blob": "60ed4fc86b84ec8c9d0c35fb17fe6849762a0079",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_transform_2027-01.json.br",
+   "size": 18835,
+   "blob": "60ed4fc86b84ec8c9d0c35fb17fe6849762a0079",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_cart_transform_unstable.json.br",
+   "size": 18851,
+   "blob": "0742db1e0e34c7bf3fe7e81e528d8aff328f71f6",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_delivery_customization_2026-01.json.br",
+   "size": 18385,
+   "blob": "2eb51fd46c25ad74905a0fd646ffb7a37a2a2c4a",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_delivery_customization_2026-04.json.br",
+   "size": 19497,
+   "blob": "8aaf99af43a3af1b15a72e2d04accb5765e73e26",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_delivery_customization_2026-07.json.br",
+   "size": 19790,
+   "blob": "391fb10878dc631569a2c29bb68685b122bef8cc",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_delivery_customization_2026-10.json.br",
+   "size": 19779,
+   "blob": "47cd22df292c6a833410ec4350811006eb7a0d16",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_delivery_customization_2027-01.json.br",
+   "size": 19779,
+   "blob": "47cd22df292c6a833410ec4350811006eb7a0d16",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_delivery_customization_unstable.json.br",
+   "size": 19827,
+   "blob": "8bb6fd727c324e5305647b63d55b5ceae6dbcfbc",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_discount_2026-01.json.br",
+   "size": 21987,
+   "blob": "921f668c72692e069738bf4b4242437edec932bf",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_discount_2026-04.json.br",
+   "size": 23161,
+   "blob": "c50c529bd103b02e09cde9da724ded07556c7d1a",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_discount_2026-07.json.br",
+   "size": 23406,
+   "blob": "8b65395526313b4530760700985436d2ad997534",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_discount_2026-10.json.br",
+   "size": 23415,
+   "blob": "8aabb014883e3f5f9bbdec5ab1e5c0e50bc3dbe3",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_discount_2027-01.json.br",
+   "size": 23415,
+   "blob": "8aabb014883e3f5f9bbdec5ab1e5c0e50bc3dbe3",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_discount_unstable.json.br",
+   "size": 23510,
+   "blob": "705e76d9843657bfd8f75b9b3e209bc14564fec6",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_fulfillment_constraints_2026-01.json.br",
+   "size": 18369,
+   "blob": "ddb5f9142b94f5cc7ad9a66b775bdaf209cc1a67",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_fulfillment_constraints_2026-04.json.br",
+   "size": 19526,
+   "blob": "849ac0273a1b84af1b01e38ccf87f0201b510536",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_fulfillment_constraints_2026-07.json.br",
+   "size": 19710,
+   "blob": "6ef414100f23869e6e540ec8cc802e7d0adf92af",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_fulfillment_constraints_2026-10.json.br",
+   "size": 19709,
+   "blob": "81ec4fb33a6a8d9954a9126b2f52cc1b084429b0",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_fulfillment_constraints_2027-01.json.br",
+   "size": 19709,
+   "blob": "81ec4fb33a6a8d9954a9126b2f52cc1b084429b0",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_fulfillment_constraints_unstable.json.br",
+   "size": 19787,
+   "blob": "a4facb3863be690fc5905f29072927946b2960ee",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_local_pickup_delivery_option_generator_unstable.json.br",
+   "size": 20966,
+   "blob": "8f309530e3218095a1bf657582453a5b99a26f25",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_discounts_2026-01.json.br",
+   "size": 19468,
+   "blob": "1d746497adb1ba66a649bcfd39403c96f01b9a7f",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_discounts_2026-04.json.br",
+   "size": 20549,
+   "blob": "fda4c8aadf81d9713ae2a440d8fb082ea59a7a29",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_discounts_2026-07.json.br",
+   "size": 20807,
+   "blob": "32891992cfd0971d5b78c2fb1e758ed40fdcd267",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_discounts_2026-10.json.br",
+   "size": 20849,
+   "blob": "dd2c90edbb519a7562d25b909261ebe8809382ea",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_discounts_2027-01.json.br",
+   "size": 20849,
+   "blob": "dd2c90edbb519a7562d25b909261ebe8809382ea",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_discounts_unstable.json.br",
+   "size": 20877,
+   "blob": "2b781fad8f26af40e067408af808ad99491a3445",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_routing_location_rule_2026-01.json.br",
+   "size": 18675,
+   "blob": "bc9dce901c8fdc14dc62344298c1478607d8eb98",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_routing_location_rule_2026-04.json.br",
+   "size": 19791,
+   "blob": "b52266fb7143015cafce1d173ad92ae06232721f",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_routing_location_rule_2026-07.json.br",
+   "size": 19985,
+   "blob": "087e5e7a87c6d4233203c1bbc9ed7dd84536f4b6",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_routing_location_rule_2026-10.json.br",
+   "size": 20023,
+   "blob": "a9d9aa6c9385731301537404a27ceb60db84c734",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_routing_location_rule_2027-01.json.br",
+   "size": 20023,
+   "blob": "a9d9aa6c9385731301537404a27ceb60db84c734",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_order_routing_location_rule_unstable.json.br",
+   "size": 20088,
+   "blob": "95c7cd664aafd2bc2a047b58b71ffc0b0d3c7ae6",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_payment_customization_2026-01.json.br",
+   "size": 19643,
+   "blob": "d004e58294b2a882e253c137f04504835a9ea2e4",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_payment_customization_2026-04.json.br",
+   "size": 20775,
+   "blob": "4876391da3bee99c8c5eca3307b17472699e21da",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_payment_customization_2026-07.json.br",
+   "size": 21025,
+   "blob": "df627770129152f5782eb33a6c8928f4b6b34577",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_payment_customization_2026-10.json.br",
+   "size": 21058,
+   "blob": "baf163c0182ced3bdf3e5ebef68ebd843ca3e98c",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_payment_customization_2027-01.json.br",
+   "size": 21058,
+   "blob": "baf163c0182ced3bdf3e5ebef68ebd843ca3e98c",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_payment_customization_unstable.json.br",
+   "size": 21119,
+   "blob": "27c50463d003d3a0efba605613615b99d7e3c576",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_pickup_point_delivery_option_generator_unstable.json.br",
+   "size": 21333,
+   "blob": "dcc8267cfe48895e1a55048ba1aeb55a5aa41204",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_product_discounts_2026-01.json.br",
+   "size": 19166,
+   "blob": "5302f87e1f28cd9144b18acb2b0340119b1324e1",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_product_discounts_2026-04.json.br",
+   "size": 20224,
+   "blob": "5a010b726c619ff8f714c600e9cf0f17b2545896",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_product_discounts_2026-07.json.br",
+   "size": 20440,
+   "blob": "f7a9081e72f0de1fa3ac49f4276280795eb37ffe",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_product_discounts_2026-10.json.br",
+   "size": 20460,
+   "blob": "5530a79f86c08732bcdcae145693f5d70440566f",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_product_discounts_2027-01.json.br",
+   "size": 20460,
+   "blob": "5530a79f86c08732bcdcae145693f5d70440566f",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_product_discounts_unstable.json.br",
+   "size": 20527,
+   "blob": "b285d829a9f3396805bf41f1afdfe6a0d23a8262",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_shipping_discounts_2026-01.json.br",
+   "size": 18524,
+   "blob": "be70c69026cb665c3d278b66ac5bdd727bacec4a",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_shipping_discounts_2026-04.json.br",
+   "size": 19598,
+   "blob": "43de1e9296890e1e92482facbca7cde4b0dfdb86",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_shipping_discounts_2026-07.json.br",
+   "size": 19834,
+   "blob": "5d1b6bea3371ceb529925a2d552c0f9dd1e2d43e",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_shipping_discounts_2026-10.json.br",
+   "size": 19865,
+   "blob": "4310d8e50a675d10ea5fde7355ef5b0892246aa7",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_shipping_discounts_2027-01.json.br",
+   "size": 19865,
+   "blob": "4310d8e50a675d10ea5fde7355ef5b0892246aa7",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/functions_shipping_discounts_unstable.json.br",
+   "size": 19931,
+   "blob": "73832a0cf590b8ebad29b7f9a82bb2d583c44c0e",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_functions.mjs",
+     "line": 208,
+     "text": "function a0(e,t){let n=i0(import.meta.url),i=wr.dirname(n),o=wr.join(i,\"..\",\"assets\"),s=wr.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/partner_2026-01.json.br",
+   "size": 10406,
+   "blob": "6b80b4febbff6544671a1609c7bed8de4c88ab87",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/partner_2026-04.json.br",
+   "size": 10406,
+   "blob": "6b80b4febbff6544671a1609c7bed8de4c88ab87",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/partner_2026-07.json.br",
+   "size": 14493,
+   "blob": "11fb2d28eaaad88d7e2c0cbca47a75bbcde7e30d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/partner_2026-10.json.br",
+   "size": 14493,
+   "blob": "11fb2d28eaaad88d7e2c0cbca47a75bbcde7e30d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/partner_2027-01.json.br",
+   "size": 14493,
+   "blob": "11fb2d28eaaad88d7e2c0cbca47a75bbcde7e30d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/partner_unstable.json.br",
+   "size": 17365,
+   "blob": "dc00ac93e249204ca13558eb270d072369f496d0",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/payments-apps_2026-01.json.br",
+   "size": 12529,
+   "blob": "6eaa12f008383890894c2ca38657ef540e110a41",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/payments-apps_2026-04.json.br",
+   "size": 13272,
+   "blob": "8e6577c733c8fd07db5a66b82c2497a75243c81d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/payments-apps_2026-07.json.br",
+   "size": 13272,
+   "blob": "8e6577c733c8fd07db5a66b82c2497a75243c81d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/payments-apps_2026-10.json.br",
+   "size": 13272,
+   "blob": "8e6577c733c8fd07db5a66b82c2497a75243c81d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/payments-apps_2027-01.json.br",
+   "size": 13272,
+   "blob": "8e6577c733c8fd07db5a66b82c2497a75243c81d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/payments-apps_unstable.json.br",
+   "size": 13274,
+   "blob": "2832551070fda8e0e59a50f5ea4a5310078dd861",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/storefront-graphql_2026-01.json.br",
+   "size": 68009,
+   "blob": "9501a892e019dc5f3bf8d7826a6038fa632b18a2",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/storefront-graphql_2026-04.json.br",
+   "size": 68140,
+   "blob": "354e1943eb079412df84aa7724c81ef3b715ad29",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/storefront-graphql_2026-07.json.br",
+   "size": 68743,
+   "blob": "3860bbee8eece5e45762b78970c34e48746047a3",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/storefront-graphql_2026-10.json.br",
+   "size": 68886,
+   "blob": "28ff14bedea363bd930488811c752615bd27cd9a",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/storefront-graphql_2027-01.json.br",
+   "size": 68886,
+   "blob": "28ff14bedea363bd930488811c752615bd27cd9a",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/storefront-graphql_unstable.json.br",
+   "size": 71596,
+   "blob": "9c5a28330cbcb27552d1107175a49970c8b9c0d7",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 203,
+     "text": "function u0(e,t){let r=o0(import.meta.url),i=kn.dirname(r),o=kn.join(i,\"..\",\"assets\"),s=kn.join(o,`${e}_${t}.json.br`);"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/supported-versions-schema.json",
+   "size": 7073,
+   "blob": "c697a5e0890f5f0f2407992610d04a8d35294610",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/scripts/_validate_components.mjs",
+     "line": 18,
+     "text": "let e=X(),t=d.join(e,\"..\",\"supported-versions-schema.json\");return oe=JSON.parse(B(t,\"utf-8\")),oe"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/assets/types.archive.br",
+   "size": 1305245,
+   "blob": "d09226b637b69e4287378ae26d97376fe05ac73a",
+   "reached": [
+    {
+     "how": "script-read",
+     "from": "skills/shopify/scripts/_validate_components.mjs",
+     "line": 18,
+     "text": "function se(){if(K!==void 0)return K;let e=Ye(X());if(!O(e))return K=null,null;let t=Qe(B(e))"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/data/supported-versions-schema.json",
+   "size": 7073,
+   "blob": "c697a5e0890f5f0f2407992610d04a8d35294610",
+   "reached": [
+    {
+     "how": "script-read",
+     "from": "skills/shopify/scripts/_validate_graphql.mjs",
+     "line": 184,
+     "text": "readVersionCatalog(){let e=Nt.join(cc,\"supported-versions-schema.json\");return JSON.parse(ON(e,\"utf-8\"))}"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/admin.md",
+   "size": 2104,
+   "blob": "c67e13a508b42ce4c61e0b8f2a5def0b66096ca2",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/app-pricing.md",
+   "size": 1569,
+   "blob": "dbddf3dbc4c8e300eb97fa45928a35d3e4f4f71c",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/app-store-review.md",
+   "size": 7300,
+   "blob": "947496f39c4029e533b3037429d56af30c96804f",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/custom-data.md",
+   "size": 5510,
+   "blob": "6fd9794884da59b246deb87234413091a4be7cc6",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/customer.md",
+   "size": 1836,
+   "blob": "6dbc9e0e12c02e96f4278d395512ec2eca25aed1",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/functions.md",
+   "size": 21489,
+   "blob": "8c97f0c9bb0ade8c5524b92fc1034f2d442acf32",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/hydrogen.md",
+   "size": 14436,
+   "blob": "35d638ca589c627d85d3714fe5f17a9092b879b4",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/liquid.md",
+   "size": 11581,
+   "blob": "b09cac829bddc97ec529a3177778165c5550a157",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/onboarding-dev.md",
+   "size": 3889,
+   "blob": "1d2c543b079f5b298be78e05d1e57972661ae7f1",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/onboarding-merchant.md",
+   "size": 23860,
+   "blob": "3184c70c3a9f801ebfb71ff6fc8c64bde69eb44f",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/onboarding-merchant.part2.md",
+   "size": 5838,
+   "blob": "e1cf0109665b414f55b030324168a369e195736e",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/shopify/references/onboarding-merchant.md",
+     "line": 4,
+     "text": "directory \u2014 `onboarding-merchant.part2.md` \u2014 and you should read the ones relevant to your task."
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/partner.md",
+   "size": 1657,
+   "blob": "653fba8245a5e50297516b2d75caaa20b1fe89cc",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/payments-apps.md",
+   "size": 1513,
+   "blob": "a92bf770d01fdcb2c00fa5f40c70841139fbaf3d",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/polaris-admin-extensions.md",
+   "size": 24465,
+   "blob": "176a89ba731785cbeb7fdb9d820e60c4a37b1f63",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/polaris-admin-extensions.part2.md",
+   "size": 3769,
+   "blob": "3e0185b89146f31b602b4f34f5ee545dd765146e",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/shopify/references/polaris-admin-extensions.md",
+     "line": 4,
+     "text": "directory \u2014 `polaris-admin-extensions.part2.md` \u2014 and you should read the ones relevant to your task."
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/polaris-app-home.md",
+   "size": 10479,
+   "blob": "f52f2c22d8cfb6a95ce12d76c814dd6288a6bba1",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/polaris-checkout-extensions.md",
+   "size": 10144,
+   "blob": "a4e0afe586fd2eae8d2564fc30119e38e7f2de4c",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/polaris-customer-account-extensions.md",
+   "size": 11858,
+   "blob": "986d5025ea06d283f99a26eac08a964985eb5097",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/pos-ui.md",
+   "size": 21012,
+   "blob": "e19ffa267b0402e24b4d0f85bf9efd45aac4b7fa",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/shopifyql.md",
+   "size": 5150,
+   "blob": "8e365667a273d24186a35c9129e887d222b8d720",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/storefront-graphql.md",
+   "size": 2942,
+   "blob": "b008c71000b8fedbdab70d5833fa04849ad85bae",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/references/use-shopify-cli.md",
+   "size": 15760,
+   "blob": "d703f5a5dbdb1d93fe437010369e5a8e44aba28a",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 29,
+     "text": "cat references/<topic>.md"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/_validate_components.mjs",
+   "size": 67393,
+   "blob": "3f06aa333753708be821f1f781723ee4aa0aeaed",
+   "reached": [
+    {
+     "how": "script-read",
+     "from": "skills/shopify/scripts/validate.mjs",
+     "line": 2,
+     "text": "g={graphql:\"./_validate_graphql.mjs\",functions:\"./_validate_functions.mjs\",components:\"./_validate_components.mjs\",theme:\"./_validate_theme.mjs\"}"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/_validate_functions.mjs",
+   "size": 320979,
+   "blob": "d0105f6500d46c09cd74a67fdce32a5eaf7359e3",
+   "reached": [
+    {
+     "how": "script-read",
+     "from": "skills/shopify/scripts/validate.mjs",
+     "line": 2,
+     "text": "g={graphql:\"./_validate_graphql.mjs\",functions:\"./_validate_functions.mjs\",components:\"./_validate_components.mjs\",theme:\"./_validate_theme.mjs\"}"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/_validate_graphql.mjs",
+   "size": 320535,
+   "blob": "49f854de7e69ddd0b44d5960dbaf2ef19e74f205",
+   "reached": [
+    {
+     "how": "script-read",
+     "from": "skills/shopify/scripts/validate.mjs",
+     "line": 2,
+     "text": "g={graphql:\"./_validate_graphql.mjs\",functions:\"./_validate_functions.mjs\",components:\"./_validate_components.mjs\",theme:\"./_validate_theme.mjs\"}"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/_validate_theme.mjs",
+   "size": 16086,
+   "blob": "8843a2ff220bab2ab5898b9d658e946b95acbd59",
+   "reached": [
+    {
+     "how": "script-read",
+     "from": "skills/shopify/scripts/validate.mjs",
+     "line": 2,
+     "text": "g={graphql:\"./_validate_graphql.mjs\",functions:\"./_validate_functions.mjs\",components:\"./_validate_components.mjs\",theme:\"./_validate_theme.mjs\"}"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/import_mock_shop_catalog.mjs",
+   "size": 30905,
+   "blob": "e87d6df2cd32efb6513f3256a1054cec977dad2b",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/shopify/references/onboarding-merchant.md",
+     "line": 68,
+     "text": "import_mock_shop_catalog.mjs --store <store-domain> --source <store>"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/log_feedback.mjs",
+   "size": 11850,
+   "blob": "925b95aac32c5b5a8d34d9cbaa22dfb5c96308be",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 73,
+     "text": "5. **Before your final response**, run `scripts/log_feedback.mjs` exactly once \u2014 after all of"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/log_skill_use.mjs",
+   "size": 8964,
+   "blob": "245fc58dd0325770a5c07080044faf1c4e77be74",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 70,
+     "text": "   scripts/log_skill_use.mjs --topic <topic> --user-prompt-base64 'BASE64_OF_USER_PROMPT' --session-id YOUR_SESSION_ID --tool-use-id YOUR_TOOL_USE_ID --model YOUR_MODEL_NAME --client-name YOUR_CLIENT_NAME --client-version YOUR_CLIENT_VERSION"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/search_docs.mjs",
+   "size": 17995,
+   "blob": "85a882466d7e58686187b661af2981e3f0100452",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 38,
+     "text": "   scripts/search_docs.mjs \"<query>\" <search-cell> --topic <topic> --model YOUR_MODEL_NAME --client-name YOUR_CLIENT_NAME --client-version YOUR_CLIENT_VERSION"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/track-telemetry.sh",
+   "size": 28377,
+   "blob": "1df6fc1b93251c74b4ece90d7ec9aa9d4ea679d3",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 13,
+     "text": "          command: 'sh -c ''h=\"$CLAUDE_PLUGIN_ROOT/scripts/track-telemetry.sh\"; if [ -f \"$h\" ]; then exec bash \"$h\"; fi'''"
+    }
+   ]
+  },
+  {
+   "path": "skills/shopify/scripts/validate.mjs",
+   "size": 2999,
+   "blob": "f1ee21b8ba5d5f20e657f98c38bd00d74bf0a206",
+   "reached": [
+    {
+     "how": "path",
+     "from": "skills/shopify/SKILL.md",
+     "line": 54,
+     "text": "   scripts/validate.mjs <validate-cell> --code '...' --user-prompt-base64 'BASE64_OF_USER_PROMPT' --session-id YOUR_SESSION_ID --tool-use-id YOUR_TOOL_USE_ID --model YOUR_MODEL_NAME --client-name YOUR_CLIENT_NAME --client-version YOUR_CLIENT_VERSION --artifact-id YOUR_ARTIFACT_ID --revision REVISION_NUMBER"
+    }
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "kind": "cli",
+   "name": "@shopify/hydrogen",
+   "evidence": [
+    {
+     "from": "skills/shopify/references/hydrogen.md",
+     "line": 54,
+     "text": "npx @shopify/hydrogen@latest setup"
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "gemini",
+   "evidence": [
+    {
+     "from": "skills/shopify/references/onboarding-dev.md",
+     "line": 48,
+     "text": "gemini extensions install https://github.com/Shopify/shopify-ai-toolkit"
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "jq",
+   "evidence": [
+    {
+     "from": "skills/shopify/references/use-shopify-cli.md",
+     "line": 51,
+     "text": "shopify <command> --json | jq '<filter>'"
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "shopify",
+   "evidence": [
+    {
+     "from": "skills/shopify/references/use-shopify-cli.md",
+     "line": 34,
+     "text": "- Check current version: `shopify version`"
+    }
+   ]
+  },
+  {
+   "kind": "credential",
+   "name": "MINERVA_TOKEN",
+   "evidence": [
+    {
+     "from": "skills/shopify/scripts/search_docs.mjs",
+     "line": 2,
+     "text": "let a=e.MINERVA_TOKEN"
+    }
+   ]
+  },
+  {
+   "kind": "network",
+   "name": "github.com",
+   "evidence": [
+    {
+     "from": "skills/shopify/references/hydrogen.md",
+     "line": 57,
+     "text": "For React Router, read the [React Router template](https://github.com/Shopify/hydrogen/tree/dist-preview/templates/react-router)."
+    }
+   ]
+  },
+  {
+   "kind": "network",
+   "name": "mock.shop",
+   "evidence": [
+    {
+     "from": "skills/shopify/references/onboarding-merchant.md",
+     "line": 55,
+     "text": "Fetch `https://mock.shop/llms.txt` as the authoritative live directory"
+    }
+   ]
+  },
+  {
+   "kind": "network",
+   "name": "shopify-dev.shop.dev",
+   "evidence": [
+    {
+     "from": "skills/shopify/scripts/search_docs.mjs",
+     "line": 2,
+     "text": "Ie=\"https://shopify-dev.shop.dev/\""
+    }
+   ]
+  },
+  {
+   "kind": "network",
+   "name": "shopify.dev",
+   "evidence": [
+    {
+     "from": "skills/shopify/scripts/track-telemetry.sh",
+     "line": 181,
+     "text": "ENDPOINT=\"${SHOPIFY_MCP_USAGE_ENDPOINT:-${SHOPIFY_DEV_INSTRUMENTATION_URL:-https://shopify.dev/mcp/usage}}\""
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@shopify/cli",
+   "evidence": [
+    {
+     "from": "skills/shopify/references/use-shopify-cli.md",
+     "line": 28,
+     "text": "npm install -g @shopify/cli@latest"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@shopify/theme-check-common",
+   "evidence": [
+    {
+     "from": "skills/shopify/scripts/_validate_theme.mjs",
+     "line": 2,
+     "text": "from\"@shopify/theme-check-common\""
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@shopify/theme-check-docs-updater",
+   "evidence": [
+    {
+     "from": "skills/shopify/scripts/_validate_theme.mjs",
+     "line": 2,
+     "text": "from\"@shopify/theme-check-docs-updater\""
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@shopify/theme-check-node",
+   "evidence": [
+    {
+     "from": "skills/shopify/scripts/_validate_theme.mjs",
+     "line": 2,
+     "text": "from\"@shopify/theme-check-node\""
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "typescript",
+   "evidence": [
+    {
+     "from": "skills/shopify/scripts/_validate_components.mjs",
+     "line": 7,
+     "text": "import b from\"typescript\""
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "ref": "hydrogen-request-handlers",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 46,
+   "text": "The `hydrogen-request-handlers` skill shows how.",
+   "why": "F2: bare skill name, not a link or path."
+  },
+  {
+   "ref": "hydrogen-analytics",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 51,
+   "text": "Read the `hydrogen-analytics` skill",
+   "why": "F2: bare skill name, not a link or path."
+  },
+  {
+   "ref": "hydrogen-money",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 52,
+   "text": "Format money with `formatMoney` and the `hydrogen-money` skill.",
+   "why": "F2: bare skill name, not a link or path."
+  },
+  {
+   "ref": "hydrogen-image",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 52,
+   "text": "size them with the `hydrogen-image` skill.",
+   "why": "F2: bare skill name, not a link or path."
+  },
+  {
+   "ref": "hydrogen-setup",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 54,
+   "text": "Then follow the `hydrogen-setup` skill to wire Hydrogen into the app.",
+   "why": "F2: bare skill name; preceding .claude/skills/ and .agents/skills/ paths describe external installation destinations, not a path to this named target."
+  },
+  {
+   "ref": "hydrogen-cart-ui",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 55,
+   "text": "read the skill for that feature, such as `hydrogen-cart-ui` for a cart UI.",
+   "why": "F2: bare skill name, not a link or path."
+  },
+  {
+   "ref": "migrate-to-hydrogen-2026-10",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 59,
+   "text": "follow the `migrate-to-hydrogen-2026-10` skill.",
+   "why": "F2: bare skill name, not a link or path."
+  },
+  {
+   "ref": "skills/shopify/scripts/track-telemetry.ps1",
+   "from": "skills/shopify/SKILL.md",
+   "line": 13,
+   "why": "Hook calls bash script only; no reached script runs or reads the PowerShell mirror."
+  },
+  {
+   "ref": "skills/ucp/SKILL.md",
+   "from": "skills/shopify/scripts/_validate_components.mjs",
+   "line": 2,
+   "why": "Embedded API catalogue metadata mentions UCP; no reachable Shopify validation dispatch sends the agent to read the sibling skill."
+  },
+  {
+   "ref": "schemas/{section,theme_block,theme_settings,translations}.json",
+   "from": "skills/shopify/references/liquid.md",
+   "line": 50,
+   "why": "Validation schema paths are not present as repository files; schema implementation is supplied by external theme-check packages."
+  },
+  {
+   "ref": "packages/shopify-dev-tools/src/telemetry/opt-out.ts",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 26,
+   "why": "Comment names canonical implementation; does not direct agent/runtime to read it."
+  },
+  {
+   "ref": "skills/shopify/package.json",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 29,
+   "text": "Read the developer's `package.json`, lockfile, and imports first.",
+   "why": "The possessive explicitly selects the developer's application manifest, not this skill's build manifest. An identically named bundled file is not the directed target."
+  },
+  {
+   "ref": "skills/shopify/config/settings_schema.json",
+   "from": "skills/shopify/references/liquid.md",
+   "line": 73,
+   "text": "config/settings_schema.json",
+   "why": "This architecture entry describes a generated/user theme setting schema, not a direction to read the bundled empty array. The actual read direction in onboarding-merchant.md:193 explicitly says in the pulled theme, not the skill."
+  },
+  {
+   "ref": "skills/shopify/locales/en.default.json",
+   "from": "skills/shopify/references/liquid.md",
+   "line": 221,
+   "text": "locales/en.default.json",
+   "why": "The instruction updates translations in the theme being implemented. It does not load the sample locale shipped in this skill."
+  },
+  {
+   "ref": "skills/shopify/locales/en.default.schema.json",
+   "from": "skills/shopify/scripts/import_mock_shop_catalog.mjs",
+   "line": 58,
+   "text": "\"locales/en.default.schema.json\"",
+   "why": "The filenames are GraphQL arguments selecting the merchant's remote live theme. Content arrives through shopify store execute; the script does not read the bundled locale with this name."
+  },
+  {
+   "ref": "shopify-dev-mcp",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 20,
+   "text": "# Tool calls that already self-report (the `shopify-dev-mcp` MCP tools",
+   "why": "This comment explains which independently existing tool events the hook does not duplicate. It neither uses nor requires that MCP server; installing/connecting it is not needed for this skill."
+  }
+ ],
+ "unreferencedOwnFolder": [
+  {
+   "path": "skills/shopify/blocks/hero-slide.liquid",
+   "size": 8949
+  },
+  {
+   "path": "skills/shopify/config/settings_schema.json",
+   "size": 3
+  },
+  {
+   "path": "skills/shopify/featured-collection.liquid",
+   "size": 12142
+  },
+  {
+   "path": "skills/shopify/locales/en.default.json",
+   "size": 213
+  },
+  {
+   "path": "skills/shopify/locales/en.default.schema.json",
+   "size": 2338
+  },
+  {
+   "path": "skills/shopify/package.json",
+   "size": 253
+  },
+  {
+   "path": "skills/shopify/scripts/track-telemetry.ps1",
+   "size": 24806
+  },
+  {
+   "path": "skills/shopify/sections/hero-banner.liquid",
+   "size": 9662
+  }
+ ],
+ "judgement": [
+  {
+   "item": "Telemetry hook root",
+   "text": "          command: 'sh -c ''h=\"$CLAUDE_PLUGIN_ROOT/scripts/track-telemetry.sh\"; if [ -f \"$h\" ]; then exec bash \"$h\"; fi'''",
+   "call": "included",
+   "reason": "The hook executes bash after the existence test, so F10 does not discard the separate execution. Interpret CLAUDE_PLUGIN_ROOT as the standalone skill root; literal repository root lacks that path. This variable-root interpretation remains for Jang."
+  },
+  {
+   "item": "All bundled schema versions and types archive",
+   "text": "s=kn.join(o,`${e}_${t}.json.br`)",
+   "call": "included",
+   "reason": "F1/F4 retain the union of the API/version workflows and recursively read schemas, both version-catalog paths, four validator modules, and types.archive.br. Reuse round-1 bundled-library inspection evidence; bundled GraphQL implementation has no external graphql import."
+  },
+  {
+   "item": "Shared metadata skill names",
+   "text": "skillName:\"ucp\"",
+   "call": "excluded",
+   "reason": "namedSkills records repository skill names in shared catalogue/telemetry metadata, including deprecated names. They are identifiers, not file-reading dispatches. The seven Hydrogen skill names in excluded are absent from this repository, so are not namedSkills under the requested repository-only scope."
+  },
+  {
+   "item": "Base tools and user-code dependencies",
+   "text": "import { render } from \"preact\";",
+   "call": "excluded",
+   "reason": "O1 removes base runtimes, core utilities and package runners. O2 removes example/project-code imports and prose-only SDK recommendations. The Shopify CLI install is represented once as CLI shopify, not also as a library. Missing-dev-dependency diagnostics in components concern archived type members, not additional external imports at this Revision."
+  },
+  {
+   "item": "devx staging recovery direction",
+   "text": "Get a token via:",
+   "call": "included",
+   "reason": "search_docs.mjs:2-3 prints a concrete export MINERVA_TOKEN=$(devx minerva-auth ...) recovery command on the staging branch. Count that conditional instruction, even though the JavaScript does not itself spawn devx."
+  },
+  {
+   "item": "Unknown and templated network hosts",
+   "text": "https://{store}.mock.shop/api",
+   "call": "included",
+   "reason": "mock.shop records the known service, including its user-selected catalog subdomains. Staging retains the explicit source host template. Arbitrary endpoint overrides and user store hosts have no concrete canonical host; do not invent Outside entries. Their operations through Shopify CLI are already covered by shopify."
+  },
+  {
+   "item": "PUBLIC_STOREFRONT_API_TOKEN",
+   "text": "leave `PUBLIC_STOREFRONT_API_TOKEN` commented out",
+   "call": "excluded",
+   "reason": "hydrogen.md:58 instructs leaving this unset and keeping its value undefined. O4 requires a set/read in a shell fence, run script, or inline command; no such credential use is prescribed for this name. Real-store authentication is described generically without a canonical variable."
+  }
+ ],
+ "namedSkills": [
+  {
+   "name": "shopify-admin",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 421,
+   "text": "shopify-admin|shopify-app-pricing|shopify-app-store-review|shopify-custom-data|shopify-customer|shopify-dev) return 0 ;;"
+  },
+  {
+   "name": "shopify-app-pricing",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 421,
+   "text": "shopify-admin|shopify-app-pricing|shopify-app-store-review|shopify-custom-data|shopify-customer|shopify-dev) return 0 ;;"
+  },
+  {
+   "name": "shopify-app-store-review",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 421,
+   "text": "shopify-admin|shopify-app-pricing|shopify-app-store-review|shopify-custom-data|shopify-customer|shopify-dev) return 0 ;;"
+  },
+  {
+   "name": "shopify-custom-data",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 421,
+   "text": "shopify-admin|shopify-app-pricing|shopify-app-store-review|shopify-custom-data|shopify-customer|shopify-dev) return 0 ;;"
+  },
+  {
+   "name": "shopify-customer",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 421,
+   "text": "shopify-admin|shopify-app-pricing|shopify-app-store-review|shopify-custom-data|shopify-customer|shopify-dev) return 0 ;;"
+  },
+  {
+   "name": "shopify-dev",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 421,
+   "text": "shopify-admin|shopify-app-pricing|shopify-app-store-review|shopify-custom-data|shopify-customer|shopify-dev) return 0 ;;"
+  },
+  {
+   "name": "shopify-functions",
+   "from": "skills/shopify/scripts/search_docs.mjs",
+   "line": 4,
+   "text": "t.startsWith(Me)?\"shopify-functions\":Fe[t]??`${He}${t}`"
+  },
+  {
+   "name": "shopify-hydrogen",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 422,
+   "text": "shopify-functions|shopify-hydrogen|shopify-liquid|shopify-onboarding-dev|shopify-onboarding-merchant|shopify-partner) return 0 ;;"
+  },
+  {
+   "name": "shopify-liquid",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 422,
+   "text": "shopify-functions|shopify-hydrogen|shopify-liquid|shopify-onboarding-dev|shopify-onboarding-merchant|shopify-partner) return 0 ;;"
+  },
+  {
+   "name": "shopify-onboarding-dev",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 422,
+   "text": "shopify-functions|shopify-hydrogen|shopify-liquid|shopify-onboarding-dev|shopify-onboarding-merchant|shopify-partner) return 0 ;;"
+  },
+  {
+   "name": "shopify-onboarding-merchant",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 422,
+   "text": "shopify-functions|shopify-hydrogen|shopify-liquid|shopify-onboarding-dev|shopify-onboarding-merchant|shopify-partner) return 0 ;;"
+  },
+  {
+   "name": "shopify-partner",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 422,
+   "text": "shopify-functions|shopify-hydrogen|shopify-liquid|shopify-onboarding-dev|shopify-onboarding-merchant|shopify-partner) return 0 ;;"
+  },
+  {
+   "name": "shopify-payments-apps",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 423,
+   "text": "shopify-payments-apps|shopify-polaris-admin-extensions|shopify-polaris-app-home|shopify-polaris-checkout-extensions) return 0 ;;"
+  },
+  {
+   "name": "shopify-polaris-admin-extensions",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 423,
+   "text": "shopify-payments-apps|shopify-polaris-admin-extensions|shopify-polaris-app-home|shopify-polaris-checkout-extensions) return 0 ;;"
+  },
+  {
+   "name": "shopify-polaris-app-home",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 423,
+   "text": "shopify-payments-apps|shopify-polaris-admin-extensions|shopify-polaris-app-home|shopify-polaris-checkout-extensions) return 0 ;;"
+  },
+  {
+   "name": "shopify-polaris-checkout-extensions",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 423,
+   "text": "shopify-payments-apps|shopify-polaris-admin-extensions|shopify-polaris-app-home|shopify-polaris-checkout-extensions) return 0 ;;"
+  },
+  {
+   "name": "shopify-polaris-customer-account-extensions",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 424,
+   "text": "shopify-polaris-customer-account-extensions|shopify-pos-ui|shopify-shopifyql|shopify-storefront-graphql|shopify-use-shopify-cli) return 0 ;;"
+  },
+  {
+   "name": "shopify-pos-ui",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 424,
+   "text": "shopify-polaris-customer-account-extensions|shopify-pos-ui|shopify-shopifyql|shopify-storefront-graphql|shopify-use-shopify-cli) return 0 ;;"
+  },
+  {
+   "name": "shopify-shopifyql",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 424,
+   "text": "shopify-polaris-customer-account-extensions|shopify-pos-ui|shopify-shopifyql|shopify-storefront-graphql|shopify-use-shopify-cli) return 0 ;;"
+  },
+  {
+   "name": "shopify-storefront-graphql",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 424,
+   "text": "shopify-polaris-customer-account-extensions|shopify-pos-ui|shopify-shopifyql|shopify-storefront-graphql|shopify-use-shopify-cli) return 0 ;;"
+  },
+  {
+   "name": "shopify-use-shopify-cli",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 424,
+   "text": "shopify-polaris-customer-account-extensions|shopify-pos-ui|shopify-shopifyql|shopify-storefront-graphql|shopify-use-shopify-cli) return 0 ;;"
+  },
+  {
+   "name": "ucp",
+   "from": "skills/shopify/scripts/search_docs.mjs",
+   "line": 4,
+   "text": "var Fe={ucp:\"ucp\"},Me=\"functions_\",He=\"shopify-\";"
+  }
+ ],
+ "misreadings": [
+  {
+   "ruling": "F7",
+   "item": "skills/shopify/package.json",
+   "from": "skills/shopify/references/hydrogen.md",
+   "line": 29,
+   "text": "Read the developer's `package.json`, lockfile, and imports first.",
+   "ruling_gives": "included",
+   "definition_gives": "excluded",
+   "reason": "The possessive explicitly selects the developer's application manifest, not this skill's build manifest. An identically named bundled file is not the directed target.",
+   "status": "live"
+  },
+  {
+   "ruling": "F7",
+   "item": "skills/shopify/config/settings_schema.json",
+   "from": "skills/shopify/references/liquid.md",
+   "line": 73,
+   "text": "config/settings_schema.json",
+   "ruling_gives": "included",
+   "definition_gives": "excluded",
+   "reason": "This architecture entry describes a generated/user theme setting schema, not a direction to read the bundled empty array. The actual read direction in onboarding-merchant.md:193 explicitly says in the pulled theme, not the skill.",
+   "status": "live"
+  },
+  {
+   "ruling": "F7",
+   "item": "skills/shopify/locales/en.default.json",
+   "from": "skills/shopify/references/liquid.md",
+   "line": 221,
+   "text": "locales/en.default.json",
+   "ruling_gives": "included",
+   "definition_gives": "excluded",
+   "reason": "The instruction updates translations in the theme being implemented. It does not load the sample locale shipped in this skill.",
+   "status": "live"
+  },
+  {
+   "ruling": "F7",
+   "item": "skills/shopify/locales/en.default.schema.json",
+   "from": "skills/shopify/scripts/import_mock_shop_catalog.mjs",
+   "line": 58,
+   "text": "\"locales/en.default.schema.json\"",
+   "ruling_gives": "included",
+   "definition_gives": "excluded",
+   "reason": "The filenames are GraphQL arguments selecting the merchant's remote live theme. Content arrives through shopify store execute; the script does not read the bundled locale with this name.",
+   "status": "live"
+  },
+  {
+   "ruling": "O5",
+   "item": "shopify-dev-mcp",
+   "from": "skills/shopify/scripts/track-telemetry.sh",
+   "line": 20,
+   "text": "# Tool calls that already self-report (the `shopify-dev-mcp` MCP tools",
+   "ruling_gives": "included",
+   "definition_gives": "excluded",
+   "reason": "This comment explains which independently existing tool events the hook does not duplicate. It neither uses nor requires that MCP server; installing/connecting it is not needed for this skill.",
+   "status": "live"
+  }
+ ],
+ "adjudications": [
+  {
+   "round": "r1",
+   "id": "5689ac1dcb1ace8b",
+   "item": {
+    "kind": "package",
+    "name": "@shopify/cli"
+   },
+   "counts": true,
+   "ruling": "O2",
+   "reason": "references/use-shopify-cli.md is pulled in by SKILL.md's `cat references/<topic>.md` template (F4), and it installs the package with `npm install -g @shopify/cli@latest`.",
+   "misreading": null
+  },
+  {
+   "round": "r1",
+   "id": "ba05073f0690c6ff",
+   "item": {
+    "kind": "cli",
+    "name": "devx"
+   },
+   "counts": false,
+   "ruling": "O1",
+   "reason": "`devx minerva-auth` only appears in an error message for an internal staging override, and search_docs.mjs never runs it.",
+   "misreading": null
+  },
+  {
+   "round": "consistency",
+   "item": {
+    "kind": "network",
+    "name": "shopify-dev-staging${t}.shopifycloud.com"
+   },
+   "counts": false,
+   "reconciled": "A templated host built from a variable, the class adjudication r1 excludes for shopify-dev-staging${e}.shopifycloud.com."
+  }
+ ]
+}

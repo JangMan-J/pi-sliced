@@ -1,0 +1,3 @@
+[
+ {"base": "heygen-com__hyperframes__hyperframes-core", "kind": "network", "name": "cdn.jsdelivr.net", "counts": true, "reason": "O3: the run script faceless-explainer/scripts/assemble-index.mjs (pulled in by reconciliation 9aad0b33afbb0bbd) writes `<script src=\"https://cdn.jsdelivr.net/npm/gsap@…\">` into the index it assembles. Adjudication r1 excluded the host on other evidence (snippets and registry blocks studied as reference) and did not see this script.", "evidence": [{"from": "skills/faceless-explainer/scripts/assemble-index.mjs", "line": 581, "text": "<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\" integrity=\"sha384-…\" crossorigin=\"anonymous\"></script>"}]}
+]

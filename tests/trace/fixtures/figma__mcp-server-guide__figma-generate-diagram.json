@@ -1,0 +1,1264 @@
+{
+ "candidate": "figma/mcp-server-guide/figma-generate-diagram",
+ "revision": "056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+ "skillPath": "skills-figquery/figma-generate-diagram",
+ "files": [
+  {
+   "path": "skills-figquery/figma-code-connect/SKILL.md",
+   "size": 26669,
+   "blob": "867ae9db76a0bdefa0ca233aab3f9b4c7dd006f9",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-design/SKILL.md",
+     "line": 28,
+     "text": "- If the user wants to write **Code Connect mappings**, switch to [figma-code-connect](../figma-code-connect/SKILL.md)."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-code-connect/references/advanced-patterns.md",
+   "size": 10069,
+   "blob": "09466578a7c0a8f44950c19df2dc2f137bb79e3d",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-code-connect/SKILL.md",
+     "line": 283,
+     "text": "For multi-level nested components or metadata prop passing between templates, see [advanced-patterns.md](references/advanced-patterns.md)."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-code-connect/references/api.md",
+   "size": 23396,
+   "blob": "fe74f3118690b7af9ae96eadafbace1e6ad773fc",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-code-connect/SKILL.md",
+     "line": 328,
+     "text": "If anything looks uncertain, consult [api.md](references/api.md) for API details and [advanced-patterns.md](references/advanced-patterns.md) for complex nesting."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-design/SKILL.md",
+   "size": 29467,
+   "blob": "b5c3c456db4898656c9be50ebabd290acdf7da19",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 11,
+     "text": "**If the task involves building or updating a full page, screen, or multi-section layout in Figma from code**, also load [figma-generate-design](../figma-generate-design/SKILL.md). It provides the workflow for discovering design system components via `search_design_system`, importing them, and assembling screens incrementally. Both skills work together: this one for the API rules, that one for the screen-building workflow."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/SKILL.md",
+   "size": 10272,
+   "blob": "28db4f55e5c2bdc287e68f34ed97235dd4d460a8",
+   "reached": [
+    {
+     "how": "root"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/references/architecture.md",
+   "size": 13551,
+   "blob": "26d75a394b0432d74086f43e65fb64a59e24a997",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 38,
+     "text": "| Services + datastores + queues + integrations | **Architecture flowchart** | Read [references/architecture.md](./references/architecture.md) |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/references/erd.md",
+   "size": 13388,
+   "blob": "b2059348acf944999ebbfe44d840e0ede4028154",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 41,
+     "text": "| Data model, tables, keys, cardinality | **ER diagram** | Read [references/erd.md](./references/erd.md) |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/references/flowchart.md",
+   "size": 19558,
+   "blob": "6f0cdd77bdff04f88ad525cda492c015536ab2ca",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 39,
+     "text": "| Decision tree, process flow, pipeline, dependency graph, user journey | **Flowchart** | Read [references/flowchart.md](./references/flowchart.md) |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/references/gantt.md",
+   "size": 13253,
+   "blob": "34a1e44c9c039b3814cefd0841b689e79c41da06",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 43,
+     "text": "| Project schedule with dates, milestones | **Gantt chart** | Read [references/gantt.md](./references/gantt.md) |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/references/sequence.md",
+   "size": 14982,
+   "blob": "fdb4968f90ba5ba570a48a90859304b260d1d6d2",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 40,
+     "text": "| Interactions between parties over time (API calls, auth, messaging) | **Sequence diagram** | Read [references/sequence.md](./references/sequence.md) |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/references/state.md",
+   "size": 14654,
+   "blob": "4e452b685f638e01a12290a7a073346549ad8828",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 42,
+     "text": "| Named states with transitions between them | **State diagram** | Read [references/state.md](./references/state.md) |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-diagram/references/workflow.md",
+   "size": 11229,
+   "blob": "c74fedaa7b614dc01febbc7cd460a4759fc4b1ae",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 55,
+     "text": "7. **Sequence diagrams** \u2014 Mermaid `Note over X` / `Note left of X` / `Note right of X` are silently stripped by the renderer; don't put them in the source. If the user wants annotations on a sequence diagram, generate the base diagram first and add stickies/text via the hybrid workflow ([references/workflow.md](references/workflow.md))."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/SKILL.md",
+   "size": 24087,
+   "blob": "2499b152a7b33bb1cfc3289998ab22ac0ce793c5",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 13,
+     "text": "**If the task involves creating or building a component in Figma** (even a single component), also load [figma-generate-library](../figma-generate-library/SKILL.md). It owns the component-creation workflow \u2014 variable foundations first, variant sets, then design token bindings \u2014 that `figma-use` alone doesn't cover. Build the token/variable foundation before the component, then bind the component's `fills`/`cornerRadius`/spacing to those variables rather than inlining literals where a token exists."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/references/code-connect-setup.md",
+   "size": 12456,
+   "blob": "a2500ce3c9d1610a7aeacfb9045549e9aa052873",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 357,
+     "text": "| [code-connect-setup.md](references/code-connect-setup.md) | 3\u20134 | Required | Setting up Code Connect or variable code syntax |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/references/component-creation.md",
+   "size": 38548,
+   "blob": "d3047ac2b9b674ea33e6edd0a19d42ef06c0c05d",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 356,
+     "text": "| [component-creation.md](references/component-creation.md) | 3 | **Required** | Creating any component or variant |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/references/discovery-phase.md",
+   "size": 21714,
+   "blob": "a287848c7a1749e073a598c118c0ca50f87bad81",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 353,
+     "text": "| [discovery-phase.md](references/discovery-phase.md) | 0 | **Required** | Starting any build \u2014 codebase analysis + Figma inspection |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/references/documentation-creation.md",
+   "size": 29037,
+   "blob": "523ccfd4dbda123d3e932ef4adda76dee6f0edeb",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 355,
+     "text": "| [documentation-creation.md](references/documentation-creation.md) | 2 | Required | Creating cover page, foundations docs, swatches |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/references/error-recovery.md",
+   "size": 16425,
+   "blob": "c98f07207e405472730469d7d3072e7ffd9c6cf0",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 359,
+     "text": "| [error-recovery.md](references/error-recovery.md) | Any | **Required on error** | Script fails, multi-step workflow recovery, cleanup of abandoned workflow state |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/references/naming-conventions.md",
+   "size": 19003,
+   "blob": "3405e37c07f8b5b85d6fadf0e39c2673de81bdd7",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 283,
+     "text": "> Full naming reference: [naming-conventions.md](references/naming-conventions.md)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/references/token-creation.md",
+   "size": 32603,
+   "blob": "c9115ff075baa0cf154154979fd94e3ab73ad533",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 293,
+     "text": "| 200+ tokens | **Advanced**: Multiple semantic collections, 4\u20138 modes (Light/Dark \u00d7 Contrast \u00d7 Brand). See M3 pattern in [token-creation.md](references/token-creation.md) |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/bindVariablesToComponent.js",
+   "size": 4026,
+   "blob": "d3e805d97056787db2cc2a802eb2429a94277b97",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 373,
+     "text": "| [bindVariablesToComponent.js](scripts/bindVariablesToComponent.js) | Bind design tokens to all component visual properties |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/cleanupOrphans.js",
+   "size": 2204,
+   "blob": "af4ebb4ebe0315c314b67a2e0e1f40209d593191",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 376,
+     "text": "| [cleanupOrphans.js](scripts/cleanupOrphans.js) | Remove only the exact node, variable, and collection IDs supplied from the state ledger |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/createComponentWithVariants.js",
+   "size": 4679,
+   "blob": "7b53e7705695320cb387209d4bf9f093c869e743",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 372,
+     "text": "| [createComponentWithVariants.js](scripts/createComponentWithVariants.js) | Build a component set from a variant matrix; handles grid layout |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/createDocumentationPage.js",
+   "size": 4738,
+   "blob": "3ebcc60e6c01852a4b355ecc109eb3e76fe62ab8",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 374,
+     "text": "| [createDocumentationPage.js](scripts/createDocumentationPage.js) | Create a page with title + description + section structure |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/createSemanticTokens.js",
+   "size": 3688,
+   "blob": "a27c353f175cd9846b8756ec7da280274ef67655",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 371,
+     "text": "| [createSemanticTokens.js](scripts/createSemanticTokens.js) | Create aliased semantic variables from a token map |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/createVariableCollection.js",
+   "size": 1408,
+   "blob": "8933cc498d272f573b97c5ead2e2cc3e5d03e370",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 370,
+     "text": "| [createVariableCollection.js](scripts/createVariableCollection.js) | Create a named collection with modes; returns `{collectionId, modeIds}` |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/inspectFileStructure.js",
+   "size": 3718,
+   "blob": "f4a5bd76c562c81c00aa63c4950f599ca911df7f",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 369,
+     "text": "| [inspectFileStructure.js](scripts/inspectFileStructure.js) | Discover all pages, components, variables, styles; returns full inventory |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-generate-library/scripts/validateCreation.js",
+   "size": 2718,
+   "blob": "e607d0430560189f469bae3b0a3e528de4cfa0f6",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-library/SKILL.md",
+     "line": 375,
+     "text": "| [validateCreation.js](scripts/validateCreation.js) | Verify created nodes match expected counts, names, structure |"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/SKILL.md",
+   "size": 6943,
+   "blob": "65fe0ca7d5a15e811f957f0ad50b7a75af92952b",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+     "line": 57,
+     "text": "9. **Use FigJam-only APIs in any `use_figma` extension.** `generate_diagram` output lands in a FigJam file (`figma.com/board/...`), so hybrid extensions must stick to FigJam-supported APIs. Do NOT call `figma.createPage()` \u2014 it's Design-only (`figma.com/design/...`) and throws `TypeError: figma.createPage no such property 'createPage' on the figma global object` in FigJam. Organize content with FigJam sections instead (see [figma-use-figjam](../figma-use-figjam/SKILL.md))."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/batch-modify.md",
+   "size": 7395,
+   "blob": "e9a28325af5bce8967d3e3c5e9e57eb8594b4428",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 63,
+     "text": "- [batch-modify](references/batch-modify.md) \u2014 Patterns for modifying many existing nodes at once (bulk style changes, repositioning, property updates)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-code-block.md",
+   "size": 2791,
+   "blob": "bd4e4bcdd4fd230ac5de6b5c11ade30fa500e2ab",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 59,
+     "text": "- [create-code-block](references/create-code-block.md) \u2014 Create and configure FigJam code block nodes (languages, syntax highlighting, positioning, embedding in sections)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-connector.md",
+   "size": 11595,
+   "blob": "388ee25c33d3f73886bcd401fcb10c763401dcab",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 55,
+     "text": "- [create-connector](references/create-connector.md) \u2014 Create and configure FigJam connectors (endpoints, arrows, line types, labels, colors, diagram wiring)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-label.md",
+   "size": 11831,
+   "blob": "50f8d981ff297f7c842a1ecbb2a43410c0b08e73",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 62,
+     "text": "- [create-label](references/create-label.md) \u2014 Create and configure FigJam label nodes (small numbered/lettered circle callout markers, sequences, positioning)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-section.md",
+   "size": 7695,
+   "blob": "265e53ccf2630a909c10c699f5e51fb359575ffa",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 13,
+     "text": "> **FigJam URL is `figma.com/board/...`.** Do NOT call `figma.createPage()` in FigJam \u2014 it throws `TypeError: figma.createPage no such property 'createPage' on the figma global object`. `createPage()` is a Design-file API only (`figma.com/design/...`). FigJam files have a single implicit page; organize content with sections instead (see [create-section](references/create-section.md))."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+   "size": 15946,
+   "blob": "c3713a9bb8d2d0595d150ca12bd0efaa4e7abe83",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 58,
+     "text": "- [create-shape-with-text](references/create-shape-with-text.md) \u2014 Create and configure FigJam shapes with embedded text (shape types, color presets, sizing to fit text, diagram layouts)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-sticky.md",
+   "size": 10552,
+   "blob": "eb904bc0aa4dd9177564db77265206b172857045",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 54,
+     "text": "- [create-sticky](references/create-sticky.md) \u2014 Create and configure FigJam sticky notes (colors, sizing, text, author visibility, batch creation)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-table.md",
+   "size": 13457,
+   "blob": "e51b56a489856892ac894c649f68fdec30250a47",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 60,
+     "text": "- [create-table](references/create-table.md) \u2014 Create and configure FigJam tables (rows, columns, cell text, color presets, resizing)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/create-text.md",
+   "size": 18575,
+   "blob": "d3d9fa6feeb1c7441637c183349d09c7de5ac7c4",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 56,
+     "text": "- [create-text](references/create-text.md) \u2014 Create and configure FigJam text nodes (font loading, preset fonts and colors, sizing, lists, mind map operations)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/edit-text.md",
+   "size": 12051,
+   "blob": "da32f9af6061416f48ede0a0547996aae10bdcc5",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 61,
+     "text": "- [edit-text](references/edit-text.md) \u2014 Edit existing text nodes (font loading, styled ranges, find/replace, FigJam Charcoal default color)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+   "size": 9228,
+   "blob": "cbe3c1ec88976a8fa3e90c7bd94d0583b1f7f906",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 64,
+     "text": "- [figjam-colors](references/figjam-colors.md) \u2014 Canonical FigJam color palettes for every node type (sticky, section, connector, shape, label) plus the `hex/255` notation rule and the `h()` helper"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/plan-board-content.md",
+   "size": 17219,
+   "blob": "2a163fc82d103d9e37d8550b0ee4fdf2d6d0387f",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 50,
+     "text": "- [plan-board-content](references/plan-board-content.md) - Read this for any board content request \u2014 board template, retro, brainstorm, ice breaker, meeting board, scaffold"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use-figjam/references/position-figjam-nodes.md",
+   "size": 3920,
+   "blob": "cf889adad011182053ea041f066142203ad8969d",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 57,
+     "text": "- [position-figjam-nodes](references/position-figjam-nodes.md) \u2014 Position, size, and reparent nodes on the canvas (including within sections)"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/SKILL.md",
+   "size": 27219,
+   "blob": "ea5ffda5989de45b1dc1d68e222d3405beef8987",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-generate-diagram/references/erd.md",
+     "line": 232,
+     "text": "Loading [figma-use](../../figma-use/SKILL.md) and [figma-use-figjam](../../figma-use-figjam/SKILL.md) covers how to make those edits."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/api-reference.md",
+   "size": 12737,
+   "blob": "6ea0be53522cd48a8c66d2cd8eb9e78e4d72de6b",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use-figjam/SKILL.md",
+     "line": 46,
+     "text": "For the full request/response shape, see [figma-use \u2192 api-reference.md \u2192 Images](../figma-use/references/api-reference.md#images)."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/common-patterns.md",
+   "size": 13604,
+   "blob": "2203a3649c602b3fd3932b6d23e66f39dfba39ad",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 289,
+     "text": "- [references/common-patterns.md](references/common-patterns.md), [component-patterns.md](references/component-patterns.md), [variable-patterns.md](references/variable-patterns.md), [text-style-patterns.md](references/text-style-patterns.md), [effect-style-patterns.md](references/effect-style-patterns.md) \u2014 pattern playbooks"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/component-patterns.md",
+   "size": 20090,
+   "blob": "a0dc0943758ea93b89cb11e2c84ad744911adef9",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 289,
+     "text": "- [references/common-patterns.md](references/common-patterns.md), [component-patterns.md](references/component-patterns.md), [variable-patterns.md](references/variable-patterns.md), [text-style-patterns.md](references/text-style-patterns.md), [effect-style-patterns.md](references/effect-style-patterns.md) \u2014 pattern playbooks"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/critical-rules-deep.md",
+   "size": 11910,
+   "blob": "4f86a04fee013aa7bebe6946e3e3d0a77c5ca47a",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 216,
+     "text": "1. **Only use `$fig` for creating / bulk-editing nodes** (`$fig.autoLayout(...)`, `$fig.text(...)`, `$fig.query(...).set(...)`). Raw Plugin API is the fallback \u2014 use it only when `$fig` can't express the operation (intermediate node-state reads, non-SceneNode types like Variables). Library components are NOT a reason to leave `$fig`: `$fig.get(componentKey)` / `$fig.instance(componentSetKey, { props })` queue the library import and resolve the variant for you. See [references/fig-builder.md](references/fig-builder.md) and [references/critical-rules-deep.md](references/critical-rules-deep.md) for worked WRONG/RIGHT examples."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/effect-style-patterns.md",
+   "size": 4429,
+   "blob": "4b48773dadac9d856893e7b7e9c3f34af2606dfe",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 289,
+     "text": "- [references/common-patterns.md](references/common-patterns.md), [component-patterns.md](references/component-patterns.md), [variable-patterns.md](references/variable-patterns.md), [text-style-patterns.md](references/text-style-patterns.md), [effect-style-patterns.md](references/effect-style-patterns.md) \u2014 pattern playbooks"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/fig-builder.md",
+   "size": 38065,
+   "blob": "85407e42b7cd2166d7690b752ccb9a3d20397154",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 86,
+     "text": "> \u26a0\ufe0f `$fig.variants` does **not** position the variants \u2014 they stack at (0,0) and the set renders as one collapsed, overlapping element. You must grid the variants and resize the set afterward. See [`fig-builder.md`](references/fig-builder.md#required-follow-up--grid-the-variants-fig-build--raw-layout) for the required follow-up recipe."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/gotchas.md",
+   "size": 27655,
+   "blob": "ba4358450064bf2505a81cb746512d9b38c67118",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 286,
+     "text": "- [references/gotchas.md](references/gotchas.md) \u2014 raw Plugin API edge cases"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "size": 491064,
+   "blob": "25653778446203102ad65754f09951660453c6e5",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 239,
+     "text": "9. **Verify node-type before touching a property.** Only `FRAME / COMPONENT / COMPONENT_SET / INSTANCE / GROUP / SECTION / PAGE` have `.children`. `GROUP` has no `fills` / `strokes` / `cornerRadius`. `TEXT` has no `cornerRadius` / `padding*` / `layoutMode`. `layoutPositioning='ABSOLUTE'` needs parent with `layoutMode !== 'NONE'`. Check `'<prop>' in node` or grep [references/plugin-api-standalone.d.ts](references/plugin-api-standalone.d.ts). Full list in [references/critical-rules-deep.md](references/critical-rules-deep.md)."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/plugin-api-standalone.index.md",
+   "size": 34404,
+   "blob": "5af98f7b1069fcdd11cfe50c946d0d91ed02e66c",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 272,
+     "text": "Do not guess node properties or assume CSS-like properties. Accessing non-existent properties will throw `TypeError: node.foo: no such property 'foo' on TYPE node`. Each throw burns a retry. [plugin-api-standalone.index.md](references/plugin-api-standalone.index.md) contains the list of all symbols in the API. Use that file and grep the full API typings in [plugin-api-standalone.d.ts](references/plugin-api-standalone.d.ts) for the full definitions."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/text-style-patterns.md",
+   "size": 8286,
+   "blob": "d1a7c0ed0ff36ea5c31ceb1bf8bc4fd7ded76418",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 289,
+     "text": "- [references/common-patterns.md](references/common-patterns.md), [component-patterns.md](references/component-patterns.md), [variable-patterns.md](references/variable-patterns.md), [text-style-patterns.md](references/text-style-patterns.md), [effect-style-patterns.md](references/effect-style-patterns.md) \u2014 pattern playbooks"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/validation-and-recovery.md",
+   "size": 4553,
+   "blob": "56acf9b67969dab5174c3ba685f0f68b01373981",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 291,
+     "text": "- [references/validation-and-recovery.md](references/validation-and-recovery.md) \u2014 error recovery patterns"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/variable-patterns.md",
+   "size": 11868,
+   "blob": "39ff210a8bd371f0eb7752a0ef1866bc0539f9f6",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 259,
+     "text": "19. **Set variable `scopes` explicitly when creating variables.** The default `ALL_SCOPES` pollutes every property picker. Use specific scopes \u2014 `['FRAME_FILL', 'SHAPE_FILL']` for backgrounds, `['TEXT_FILL']` for text, `['GAP']` for spacing, `['CORNER_RADIUS']` for radii; primitives that shouldn't appear in pickers get `[]`. In `$fig`, pass `scopes` to `colorVar` / `numVar`; in the raw API, set `variable.scopes`. See [references/variable-patterns.md](references/variable-patterns.md)."
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components--creating.md",
+   "size": 2199,
+   "blob": "62c4ad97a856175851b6d971292ad26a2283fa88",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components--using.md",
+   "size": 3047,
+   "blob": "3234dd23102896a470f33eccf3b40586577aba53",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components.md",
+   "size": 4272,
+   "blob": "5ed79e34c2ae8fe5ac1f35fba9ce4e5be31008b2",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-effect-styles.md",
+   "size": 3847,
+   "blob": "0cf0aff2ed0d10305351ff2062d3756e1a80540f",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-text-styles.md",
+   "size": 5713,
+   "blob": "53fd0e2c686ac4b06ebb0b95908ed670fb6d312a",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables--creating.md",
+   "size": 1559,
+   "blob": "ab2968ac8e4fbca3ecb14f2732c79a8ae8408532",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables--using.md",
+   "size": 2451,
+   "blob": "4b0e89f6077549ee3f196f3f94df489991824008",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+   "size": 5183,
+   "blob": "64058312a16912b1105bd7f8b6b2ba65ca55a8ae",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  },
+  {
+   "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds.md",
+   "size": 5220,
+   "blob": "4b335a5866c52548a533e4f2bf6d75c6ab76ac67",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills-figquery/figma-use/SKILL.md",
+     "line": 290,
+     "text": "- [references/working-with-design-systems/](references/working-with-design-systems/) \u2014 design system workflows"
+    }
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "kind": "cli",
+   "name": "figma",
+   "evidence": [
+    {
+     "from": "skills-figquery/figma-code-connect/references/api.md",
+     "line": 551,
+     "text": "npx figma connect publish --token=YOUR_ACCESS_TOKEN"
+    }
+   ]
+  },
+  {
+   "kind": "credential",
+   "name": "FIGMA_ACCESS_TOKEN",
+   "evidence": [
+    {
+     "from": "skills-figquery/figma-code-connect/references/api.md",
+     "line": 556,
+     "text": "export FIGMA_ACCESS_TOKEN=your_token_here"
+    }
+   ]
+  },
+  {
+   "kind": "mcp-server",
+   "name": "figma",
+   "evidence": [
+    {
+     "from": "skills-figquery/figma-code-connect/SKILL.md",
+     "line": 17,
+     "text": "- **Figma MCP server must be connected** \u2014 verify that Figma MCP tools (e.g., `get_code_connect_suggestions`) are available before proceeding. If not, guide the user to enable the Figma MCP server and restart their MCP client."
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@figma/code-connect",
+   "evidence": [
+    {
+     "from": "skills-figquery/figma-code-connect/references/api.md",
+     "line": 543,
+     "text": "npm install --global @figma/code-connect@latest"
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "ref": "../../figma-generate-library/references/token-creation.md",
+   "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+   "line": 35,
+   "why": "Malformed relative link resolves under figma-use/figma-generate-library, which does not exist. The intended token-creation.md is independently reached by explicit valid links from variable-patterns.md and figma-generate-library/SKILL.md."
+  },
+  {
+   "ref": "developer-docs/",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 3,
+   "text": "/* plugin-typings are auto-generated. Do not update them directly. See developer-docs/ for instructions. */",
+   "why": "F11 ignores code-comment paths; additionally this generator-maintenance directory is absent at this revision."
+  },
+  {
+   "ref": "@figma/plugin-typings",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 6,
+   "text": " * import type { SceneNode } from \"@figma/plugin-typings/plugin-api-standalone\"",
+   "why": "Illustrates importing individual types; the skill already supplies standalone types and never directs an installation of this package."
+  },
+  {
+   "ref": "figma (npm package)",
+   "from": "skills-figquery/figma-code-connect/SKILL.md",
+   "line": 112,
+   "text": "import figma from 'figma'",
+   "why": "Code Connect injects its template API; this is not an instruction to install the unrelated npm package figma."
+  },
+  {
+   "ref": "curl / wget",
+   "from": "skills-figquery/figma-use/SKILL.md",
+   "line": 235,
+   "text": "7. **No `curl` / `wget` / `Read` of Figma URLs from `Bash`.** Figma file access ONLY via `use_figma` and `mcp__figma__*` tools. After `get_screenshot`, the image is inlined in the tool result \u2014 do NOT re-fetch or re-Read it.",
+   "why": "Explicitly forbidden ways to read Figma URLs, not required CLIs."
+  },
+  {
+   "ref": "figma-use-slides / slide-properties",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 10764,
+   "text": "   * the figma-use-slides skill's slide-properties reference for the full",
+   "why": "Ruling 2: bare sibling name plus bare reference title does not supply a path or directory; do not infer slides files."
+  },
+  {
+   "ref": "figma.config.json and src/components/ etc.",
+   "from": "skills-figquery/figma-code-connect/SKILL.md",
+   "line": 86,
+   "text": "1. Check `figma.config.json` for `paths` and `importPaths` to find where components live",
+   "why": "User project configuration and component code, not this skill source repository."
+  },
+  {
+   "ref": "tokens/*.json, src/tokens/**, CSS, Tailwind and platform token files",
+   "from": "skills-figquery/figma-generate-library/references/discovery-phase.md",
+   "line": 15,
+   "text": "1. Design token files: `*.tokens.json`, `tokens/*.json`, `src/tokens/**`",
+   "why": "Search is in the user codebase being translated, not in the skill source repository."
+  },
+  {
+   "ref": "design-system-state-{RUN_ID}.json",
+   "from": "skills-figquery/figma-generate-library/SKILL.md",
+   "line": 157,
+   "text": "/tmp/design-system-state-{RUN_ID}.json",
+   "why": "Generated user workflow state, not a source repository file."
+  },
+  {
+   "ref": "plugin-api-patterns.md",
+   "from": "skills-figquery/figma-use/SKILL.md",
+   "line": 282,
+   "text": "## References",
+   "why": "No included text directs loading this sibling reference; references/common-patterns.md is a different file. Not included merely because it shares the reference folder."
+  },
+  {
+   "ref": "picsum.photos / www.youtube.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 1652,
+   "text": "          'https://picsum.photos/200'",
+   "why": "Illustrative API sample inputs, not a required asset source or a direction to fetch these particular resources."
+  },
+  {
+   "ref": "raw.githubusercontent.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 1,
+   "text": "// https://raw.githubusercontent.com/figma/plugin-typings/refs/heads/master/plugin-api-standalone.d.ts",
+   "why": "Provenance comment only; full types already vendored. Do not fetch upstream master."
+  },
+  {
+   "ref": "github.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 654,
+   "text": "   * For a more involved example see our [plugin samples on GitHub](https://github.com/figma/plugin-samples/tree/master/document-change).",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "www.w3.org",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 1631,
+   "text": "   * Creates a new node from an SVG string. This is equivalent to the SVG import feature in the editor. See the [official documentation on SVG paths](https://www.w3.org/TR/SVG/paths.html) for more details.",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "help.figma.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 8023,
+   "text": "   * Learn more about annotations in the [Help Center](https://help.figma.com/hc/en-us/articles/20774752502935) or see the [Annotation type](https://developers.figma.com/docs/plugins/api/Annotation) for usage examples.",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "www.typescriptlang.org",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 888,
+   "text": "   * Note: Your plugin never needs to know what the actual value of `figma.mixed` is, only that it is a unique, constant value that can be compared against. That being said, this value returns an object of type `symbol` which is a more advanced feature of Javascript. [Read more about symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol). It works in TypeScript via the `unique symbol` [subtype](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-7.html#unique-symbol).",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "oreillymedia.github.io",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 4823,
+   "text": "   * Winding rules work off a concept called the winding number, which tells you for a given point how many times the path winds around that point. This is described in much more detail [here](https://oreillymedia.github.io/Using_SVG/extras/ch06-fill-rule.html). This field can have three possible values:",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "www.figma.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 7515,
+   "text": "   * A value of 0 is the default and means that the corner is perfectly circular. A value of 0.6 means the corner matches the iOS 7 \"squircle\" icon shape. Other values produce various other curves. See [this post](https://www.figma.com/blog/desperately-seeking-squircles/) for the gory details!",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "learn.microsoft.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 8417,
+   "text": "   * - [OpenType feature tags [Microsoft]](https://learn.microsoft.com/en-us/typography/opentype/spec/featuretags)",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "sparanoid.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 8419,
+   "text": "   * - [OpenType Features in CSS [Sparanoid]](https://sparanoid.com/lab/opentype-features/)",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "figma.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 10522,
+   "text": "   * For more information, check out [this page in our widget documentation](https://figma.com/widget-docs/managing-multiple-widgets#widgetnodewidgetsyncedstate).",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  },
+  {
+   "ref": "static.figma.com",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 3199,
+   "text": "   * ![Dialog box that shows when you call the function](https://static.figma.com/uploads/ee33919763431eb2520074650fddfaa904c7e9c1)",
+   "why": "O3: documentation link or image without a fetch/download/open/read/follow direction. See/check out/learn more are not the O3 fetch directions; no executing network request is shown."
+  }
+ ],
+ "unreferencedOwnFolder": [],
+ "judgement": [
+  {
+   "item": "Conditional skill closure",
+   "text": "**If the task involves building or updating a full page, screen, or multi-section layout in Figma from code**, also load [figma-generate-design](../figma-generate-design/SKILL.md). It provides the workflow for discovering design system components via `search_design_system`, importing them, and assembling screens incrementally. Both skills work together: this one for the API rules, that one for the screen-building workflow.",
+   "call": "included",
+   "reason": "F1 applies recursively regardless of the initial diagram workflow; Design, library construction and Code Connect remain reached."
+  },
+  {
+   "item": "JSDoc installation fence",
+   "text": "   * npm i --save-dev @figma/widget-typings",
+   "call": "included",
+   "reason": "The reached API document contains a concrete npm install fence; O2 counts @figma/widget-typings. F11 excludes repository paths inside comments, not package install commands or Outside read-directions."
+  },
+  {
+   "item": "JSDoc read-more URLs",
+   "text": "   * Read more in the [timer section](https://developers.figma.com/docs/plugins/api/figma-timer).",
+   "call": "included",
+   "reason": "O3 counts explicit Read more directions in the API documentation. Keep developers.figma.com and developer.mozilla.org; ordinary see links, image embeds and resource lists do not count."
+  },
+  {
+   "item": "User-provided URLs and upload endpoints",
+   "text": "**`upload_assets` is the ONLY supported way to add images to a FigJam file.** Call `upload_assets` with the FigJam `fileKey`; the tool returns single-use upload URLs that you POST raw image bytes to, and the image is committed and placed automatically. Pass `nodeIds` (with one entry per upload) to attach uploads to existing FigJam nodes as fills; omit `nodeIds` to drop the images onto the board as new layers.",
+   "call": "excluded",
+   "reason": "Actual upload hosts are returned dynamically by MCP and are unknown here; do not invent a canonical host or duplicate MCP-internal network calls. User file URLs and publication --node URLs are covered by Figma MCP/CLI."
+  },
+  {
+   "item": "Bare-name load directions",
+   "text": "**Prerequisites**: The `figma-use` skill MUST also be loaded for every `use_figma` call. It provides Plugin API syntax rules (return pattern, page reset, ID return, font loading, color range). This skill provides design system domain knowledge and workflow orchestration.",
+   "call": "included",
+   "reason": "Record F2 misreadings individually; all affected skill roots are already linked into this closure."
+  },
+  {
+   "item": "figma-use-slides",
+   "text": "   * the figma-use-slides skill's slide-properties reference for the full",
+   "call": "excluded",
+   "reason": "A skill name plus a reference title, in an API comment, supplies no concrete repository path. Record the name under namedSkills; F2/F11 do not justify inferring an entire Slides reference closure."
+  }
+ ],
+ "namedSkills": [
+  {
+   "name": "figma-use",
+   "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+   "line": 67,
+   "text": "- **Existing Figma or FigJam files** \u2014 if the new diagram should align with one the user already has, read it with `get_figjam` or `get_design_context` (see the `figma-use` and `figma-use-figjam` skills)."
+  },
+  {
+   "name": "figma-use-figjam",
+   "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+   "line": 67,
+   "text": "- **Existing Figma or FigJam files** \u2014 if the new diagram should align with one the user already has, read it with `get_figjam` or `get_design_context` (see the `figma-use` and `figma-use-figjam` skills)."
+  },
+  {
+   "name": "figma-generate-diagram",
+   "from": "skills-figquery/figma-use-figjam/references/plan-board-content.md",
+   "line": 5,
+   "text": "Do NOT use this skill for flowcharts, architecture diagrams, sequence diagrams, state diagrams, or entity relationship diagrams (ERDs). For those, use the `figma-plugin:figma-generate-diagram` skill and the `generate_diagram` tool."
+  },
+  {
+   "name": "figma-use-slides",
+   "from": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+   "line": 10764,
+   "text": "   * the figma-use-slides skill's slide-properties reference for the full"
+  },
+  {
+   "name": "figma-generate-library",
+   "from": "skills-figquery/figma-generate-library/SKILL.md",
+   "line": 183,
+   "text": "> \"I'm continuing a design system build. Run ID: {RUN_ID}. Load the figma-generate-library skill and resume from the last completed step.\""
+  }
+ ],
+ "misreadings": [
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-use/SKILL.md",
+   "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+   "line": 67,
+   "text": "- **Existing Figma or FigJam files** \u2014 if the new diagram should align with one the user already has, read it with `get_figjam` or `get_design_context` (see the `figma-use` and `figma-use-figjam` skills).",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-use-figjam/SKILL.md",
+   "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+   "line": 67,
+   "text": "- **Existing Figma or FigJam files** \u2014 if the new diagram should align with one the user already has, read it with `get_figjam` or `get_design_context` (see the `figma-use` and `figma-use-figjam` skills).",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-use-figjam/SKILL.md",
+   "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+   "line": 110,
+   "text": "2. If you want to replace the previous diagram rather than adding next to it, use the `use_figma` tool (see the `figma-use-figjam` skill) to delete the old diagram's nodes first, then call `generate_diagram` with the same `fileKey`. Or leave the old diagram and place the new one beside it \u2014 readers often benefit from seeing the history of attempts.",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-use/SKILL.md",
+   "from": "skills-figquery/figma-generate-design/SKILL.md",
+   "line": 3,
+   "text": "description: \"Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code', 'convert this modal/dialog/drawer/panel to Figma'. This is the preferred workflow skill whenever the user wants to build or update a full page, modal, dialog, drawer, sidebar, panel, or any composed multi-section view in Figma from code or a description. Discovers design system components, variables, and styles from Code Connect files, existing screens, and library search, then imports them and assembles views incrementally section-by-section using design system tokens instead of hardcoded values.\"",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-use/SKILL.md",
+   "from": "skills-figquery/figma-generate-library/SKILL.md",
+   "line": 3,
+   "text": "description: \"Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, create individual components with proper variant sets and variable bindings, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. Also use when the user asks to create or generate any component in Figma \u2014 even a single one \u2014 since components require proper variable foundations, variant states, and design token bindings to be production-quality. This skill teaches WHAT to build and in WHAT ORDER \u2014 it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together.\"",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-use/SKILL.md",
+   "from": "skills-figquery/figma-generate-library/SKILL.md",
+   "line": 11,
+   "text": "**Prerequisites**: The `figma-use` skill MUST also be loaded for every `use_figma` call. It provides Plugin API syntax rules (return pattern, page reset, ID return, font loading, color range). This skill provides design system domain knowledge and workflow orchestration.",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-generate-library/SKILL.md",
+   "from": "skills-figquery/figma-generate-library/SKILL.md",
+   "line": 183,
+   "text": "> \"I'm continuing a design system build. Run ID: {RUN_ID}. Load the figma-generate-library skill and resume from the last completed step.\"",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-generate-diagram/SKILL.md",
+   "from": "skills-figquery/figma-use-figjam/references/plan-board-content.md",
+   "line": 5,
+   "text": "Do NOT use this skill for flowcharts, architecture diagrams, sequence diagrams, state diagrams, or entity relationship diagrams (ERDs). For those, use the `figma-plugin:figma-generate-diagram` skill and the `generate_diagram` tool.",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  },
+  {
+   "ruling": "F2",
+   "item": "skills-figquery/figma-use-figjam/SKILL.md",
+   "from": "skills-figquery/figma-use-figjam/references/plan-board-content.md",
+   "line": 9,
+   "text": "**Must be loaded alongside the `figma-use-figjam` skill**, which provides the FigJam Plugin API references (create-section, create-sticky, create-text, position-figjam-nodes) needed to render the planned content.",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This is an actual direction to use/load/consult the named skill, not a passive mention. The frozen definition includes directions to sibling skills. The file is independently reached by valid links, so honoring the definition adds no file to this fixture.",
+   "status": "live"
+  }
+ ],
+ "adjudications": [
+  {
+   "round": "r1",
+   "id": "1513f5c97f690b53",
+   "item": {
+    "kind": "network",
+    "name": "figma.com"
+   },
+   "counts": true,
+   "ruling": "O3",
+   "reason": "figma-code-connect/references/api.md is pulled in (figma-use -> figma-generate-design -> figma-code-connect/SKILL.md -> api.md), and the figma.com URL is an argument in a bash-fence command (`npx figma connect unpublish --node=https://figma.com/...`); figma.com is not a placeholder host.",
+   "misreading": null
+  },
+  {
+   "round": "r1",
+   "id": "7ef45498140c80c2",
+   "item": {
+    "kind": "package",
+    "name": "@figma/widget-typings"
+   },
+   "counts": false,
+   "ruling": "O2",
+   "reason": "`npm i --save-dev @figma/widget-typings` sits in a JSDoc comment of the vendored upstream typings, addressed to plugin authors' own projects, and the skill only greps that file for type signatures, never directing the install.",
+   "misreading": null
+  },
+  {
+   "round": "consistency",
+   "item": {
+    "kind": "network",
+    "name": "developer.mozilla.org"
+   },
+   "counts": false,
+   "reconciled": "Same JSDoc line (plugin-api-standalone.d.ts:888) as www.typescriptlang.org, which adjudication r1 excludes as a documentation link in a type-definition reference file."
+  },
+  {
+   "round": "consistency",
+   "item": {
+    "kind": "network",
+    "name": "developers.figma.com"
+   },
+   "counts": false,
+   "reconciled": "A documentation link in a JSDoc comment of plugin-api-standalone.d.ts (\"Read more in the [timer section](\u2026)\"), the class adjudication r1 excludes for help.figma.com and www.typescriptlang.org."
+  },
+  {
+   "round": "jang-r1",
+   "item": {
+    "kind": "network",
+    "name": "figma.com"
+   },
+   "counts": false,
+   "ruling": "D2.2",
+   "reason": "A URL passed as an argument to another CLI (`npx figma connect unpublish --node=https://figma.com/\u2026`) is that CLI's run-time traffic, not a static requirement.",
+   "decided_by": "Jang via executive, decisions-r1"
+  }
+ ]
+}

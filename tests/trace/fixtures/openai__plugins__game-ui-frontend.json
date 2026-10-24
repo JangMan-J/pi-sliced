@@ -1,0 +1,333 @@
+{
+ "candidate": "openai/plugins/game-ui-frontend",
+ "revision": "0722921d5542fc593105c27bd52630babd8b8c2a",
+ "skillPath": "plugins/game-studio/skills/game-ui-frontend",
+ "files": [
+  {
+   "path": "plugins/game-studio/references/engine-selection.md",
+   "size": 2503,
+   "blob": "d5d7bc10850c4aa1ad8c64bf415ed7919d281a5e",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+     "line": 60,
+     "text": "See `../../references/engine-selection.md` for the default decision table."
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/frontend-prompts.md",
+   "size": 3712,
+   "blob": "86d46e2de9fcbb5d85cbc7a59d09429072002449",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+     "line": 72,
+     "text": "Use `../../references/frontend-prompts.md` for concrete prompt shapes."
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/gltf-loading-starter.md",
+   "size": 980,
+   "blob": "2eb1324ca55d17fa08ac7a9cb19a41bfcd22f513",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+     "line": 84,
+     "text": "- GLB loader starter: `../../references/gltf-loading-starter.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/phaser-architecture.md",
+   "size": 1200,
+   "blob": "53fb903dc4b8fa1f74c3320c5103774879561594",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+     "line": 91,
+     "text": "- Phaser structure: `../../references/phaser-architecture.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/playtest-checklist.md",
+   "size": 1599,
+   "blob": "3a2e81d4aad7897759e1c492a93d41ddc959b39c",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+     "line": 112,
+     "text": "- Playtest review: `../../references/playtest-checklist.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/rapier-integration-starter.md",
+   "size": 1055,
+   "blob": "f78a5be3d7d8c1cd1d89b33dff45f9375a81d4fe",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+     "line": 85,
+     "text": "- Rapier starter: `../../references/rapier-integration-starter.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/react-three-fiber-stack.md",
+   "size": 1764,
+   "blob": "947a3e0ddc51df70250d4ac95ef43f136997e97e",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+     "line": 94,
+     "text": "- React Three Fiber stack: `../../references/react-three-fiber-stack.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/react-three-fiber-starter.md",
+   "size": 1424,
+   "blob": "c14a92e8b326eda857053445dd2df9b370f8c106",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+     "line": 83,
+     "text": "- React starter: `../../references/react-three-fiber-starter.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/three-hud-layout-patterns.md",
+   "size": 2192,
+   "blob": "af9a1345da0f97e880fdfc6e7820d3177b77c779",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+     "line": 110,
+     "text": "- Low-chrome 3D layout patterns: `../../references/three-hud-layout-patterns.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/three-webgl-architecture.md",
+   "size": 1447,
+   "blob": "f6558b77d7bb3c9842ca330b6d47a67f9ee7bd0c",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+     "line": 92,
+     "text": "- Three.js structure: `../../references/three-webgl-architecture.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/threejs-stack.md",
+   "size": 1630,
+   "blob": "aee34d4d9e91676727e43f9737e823c75071bcc0",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+     "line": 93,
+     "text": "- Three.js ecosystem stack: `../../references/threejs-stack.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/threejs-vanilla-starter.md",
+   "size": 1768,
+   "blob": "9f7830f6c905478495642f703eca60ea7a57ec97",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/references/threejs-stack.md",
+     "line": 37,
+     "text": "- `threejs-vanilla-starter.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/web-3d-asset-pipeline.md",
+   "size": 1780,
+   "blob": "ce5bc3da7613285e207a50065aed8055bca2dcb1",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+     "line": 95,
+     "text": "- 3D asset shipping: `../../references/web-3d-asset-pipeline.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/references/webgl-debugging-and-performance.md",
+   "size": 1299,
+   "blob": "5d9853f79067d0cb32ddb46ebfe4136819b00050",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+     "line": 87,
+     "text": "- WebGL debugging and perf: `../../references/webgl-debugging-and-performance.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+   "size": 5060,
+   "blob": "f2681fb955143f96cb04bfa4f1cb09d6839b162a",
+   "reached": [
+    {
+     "how": "root"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+   "size": 4023,
+   "blob": "90fb0657bce2c96ab8aa3ae52534aaf51bbe67b8",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+     "line": 111,
+     "text": "- React-hosted 3D UI context: `../react-three-fiber-game/SKILL.md`"
+    }
+   ]
+  },
+  {
+   "path": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+   "size": 4592,
+   "blob": "1fe88e9c7c63c4f0ef9fda4ebd24fa61ae9a44a1",
+   "reached": [
+    {
+     "how": "path",
+     "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+     "line": 108,
+     "text": "- Shared architecture: `../web-game-foundations/SKILL.md`"
+    }
+   ]
+  }
+ ],
+ "outside": [],
+ "excluded": [
+  {
+   "ref": "src/",
+   "from": "plugins/game-studio/references/phaser-architecture.md",
+   "line": 8,
+   "text": "src/",
+   "why": "Illustrative user-project tree, including its subordinate paths; not repository files."
+  },
+  {
+   "ref": "src/",
+   "from": "plugins/game-studio/references/three-webgl-architecture.md",
+   "line": 8,
+   "text": "src/",
+   "why": "Illustrative user-project tree, including its subordinate paths; not repository files."
+  },
+  {
+   "ref": "src/App.tsx",
+   "from": "plugins/game-studio/references/react-three-fiber-starter.md",
+   "line": 12,
+   "text": "## `src/App.tsx`",
+   "why": "User-project starter code, not repository file. Its example imports are not packages under O2."
+  },
+  {
+   "ref": "src/main.ts",
+   "from": "plugins/game-studio/references/threejs-vanilla-starter.md",
+   "line": 12,
+   "text": "## `src/main.ts`",
+   "why": "User-project starter code, not repository file. Its example imports are not packages under O2."
+  },
+  {
+   "ref": "/draco/",
+   "from": "plugins/game-studio/references/gltf-loading-starter.md",
+   "line": 12,
+   "text": "draco.setDecoderPath(\"/draco/\");",
+   "why": "User application's runtime asset directory, not this repository."
+  },
+  {
+   "ref": "/assets/hero.glb",
+   "from": "plugins/game-studio/references/gltf-loading-starter.md",
+   "line": 17,
+   "text": "gltfLoader.load(\"/assets/hero.glb\", (gltf) => {",
+   "why": "User application's example asset, not this repository."
+  },
+  {
+   "ref": "documentation hosts",
+   "from": "plugins/game-studio/references/threejs-stack.md",
+   "line": 7,
+   "text": "- [Three.js documentation](https://threejs.org/docs/) for the core renderer, scene graph, materials, cameras, loaders, and examples.",
+   "why": "O3: documentation links alone do not count. Applies likewise to rapier.rs, registry.khronos.org, gltf-transform.dev, spector.babylonjs.com, r3f.docs.pmnd.rs, drei.docs.pmnd.rs, react-postprocessing.docs.pmnd.rs, pmndrs.github.io, a11y.docs.pmnd.rs, docs.blender.org, developer.playcanvas.com throughout the reached references."
+  },
+  {
+   "ref": "recommended stack packages / Markdown example imports",
+   "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+   "line": 12,
+   "text": "Recommended stack:",
+   "why": "O2 requires installation or imports in a run script. The stack lists, engine alternatives, and TypeScript/TSX starter examples do neither."
+  },
+  {
+   "ref": "unnamed runtime or asset specialist skill",
+   "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+   "line": 27,
+   "text": "Once the stack is clear, hand off to the runtime or asset specialist skill.",
+   "why": "No concrete name or path identifies an additional skill."
+  }
+ ],
+ "unreferencedOwnFolder": [
+  {
+   "path": "plugins/game-studio/skills/game-ui-frontend/agents/openai.yaml",
+   "size": 232
+  }
+ ],
+ "namedSkills": [],
+ "misreadings": [
+  {
+   "ruling": "O1",
+   "item": "gltf-transform",
+   "from": "plugins/game-studio/references/web-3d-asset-pipeline.md",
+   "line": 21,
+   "text": "3. Run glTF Transform for validation, pruning, deduplication, and size reduction.",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "This numbered workflow step explicitly directs running the named tool; it is not a mere tool mention. The frozen Outside requirement definition covers a CLI needed by the workflow even though the direction is prose rather than a shell fence, inline command, or run script.",
+   "status": "superseded by adjudication or Jang ruling"
+  }
+ ],
+ "judgement": [
+  {
+   "item": "gltf-transform",
+   "text": "3. Run glTF Transform for validation, pruning, deduplication, and size reduction.",
+   "call": "included",
+   "reason": "Explicit execution direction retained under the frozen definition; see O1 misreading. Other stack recommendations and example imports remain excluded under O2."
+  }
+ ],
+ "adjudications": [
+  {
+   "round": "r1",
+   "id": "e810165c143fd4bd",
+   "item": {
+    "kind": "cli",
+    "name": "gltf-transform"
+   },
+   "counts": false,
+   "ruling": "O1",
+   "reason": "\"Run glTF Transform\" is plain prose, not a shell fence, an inline command span, or a run script.",
+   "misreading": null
+  }
+ ]
+}

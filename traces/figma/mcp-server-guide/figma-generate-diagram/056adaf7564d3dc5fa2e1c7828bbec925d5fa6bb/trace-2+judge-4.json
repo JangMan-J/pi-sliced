@@ -1,0 +1,2187 @@
+{
+  "format": "pi-sliced.trace/1",
+  "tracer": "trace-2",
+  "judge": "judge-4",
+  "candidate": "figma/mcp-server-guide/figma-generate-diagram",
+  "source": "figma/mcp-server-guide",
+  "revision": "056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+  "skillPath": "skills-figquery/figma-generate-diagram",
+  "status": "resolved",
+  "files": [
+    {
+      "path": "skills-figquery/figma-code-connect/SKILL.md",
+      "size": 26669,
+      "blob": "867ae9db76a0bdefa0ca233aab3f9b4c7dd006f9",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 28,
+          "ref": "../figma-code-connect/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-code-connect/references/advanced-patterns.md",
+      "size": 10069,
+      "blob": "09466578a7c0a8f44950c19df2dc2f137bb79e3d",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-code-connect/SKILL.md",
+          "line": 283,
+          "ref": "references/advanced-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-code-connect/SKILL.md",
+          "line": 328,
+          "ref": "references/advanced-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-code-connect/SKILL.md",
+          "line": 528,
+          "ref": "references/advanced-patterns.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-code-connect/references/api.md",
+      "size": 23396,
+      "blob": "fe74f3118690b7af9ae96eadafbace1e6ad773fc",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-code-connect/SKILL.md",
+          "line": 328,
+          "ref": "references/api.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-code-connect/SKILL.md",
+          "line": 527,
+          "ref": "references/api.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-design/SKILL.md",
+      "size": 29467,
+      "blob": "b5c3c456db4898656c9be50ebabd290acdf7da19",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 11,
+          "ref": "../figma-generate-design/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 196,
+          "ref": "../figma-generate-design/SKILL.md#icons-import-the-svg-never-reconstruct-from-rotated-primitives"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 222,
+          "ref": "../figma-generate-design/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/SKILL.md",
+      "size": 10272,
+      "blob": "28db4f55e5c2bdc287e68f34ed97235dd4d460a8",
+      "reached": [
+        {
+          "how": "root"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/flowchart.md",
+          "line": 391,
+          "ref": "../SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/references/architecture.md",
+      "size": 13551,
+      "blob": "26d75a394b0432d74086f43e65fb64a59e24a997",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/flowchart.md",
+          "line": 3,
+          "ref": "./architecture.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/flowchart.md",
+          "line": 397,
+          "ref": "./architecture.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 38,
+          "ref": "./references/architecture.md"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 89,
+          "ref": "references/architecture.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/references/erd.md",
+      "size": 13388,
+      "blob": "b2059348acf944999ebbfe44d840e0ede4028154",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 41,
+          "ref": "./references/erd.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/references/flowchart.md",
+      "size": 19558,
+      "blob": "6f0cdd77bdff04f88ad525cda492c015536ab2ca",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/architecture.md",
+          "line": 5,
+          "ref": "./flowchart.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/erd.md",
+          "line": 213,
+          "ref": "./flowchart.md#5-elk-survival-guide"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/state.md",
+          "line": 227,
+          "ref": "./flowchart.md#5-elk-survival-guide"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 21,
+          "ref": "./flowchart.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 29,
+          "ref": "./flowchart.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 88,
+          "ref": "./flowchart.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 39,
+          "ref": "./references/flowchart.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/references/gantt.md",
+      "size": 13253,
+      "blob": "34a1e44c9c039b3814cefd0841b689e79c41da06",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 43,
+          "ref": "./references/gantt.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 56,
+          "ref": "references/gantt.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/references/sequence.md",
+      "size": 14982,
+      "blob": "fdb4968f90ba5ba570a48a90859304b260d1d6d2",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 40,
+          "ref": "./references/sequence.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/references/state.md",
+      "size": 14654,
+      "blob": "4e452b685f638e01a12290a7a073346549ad8828",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 42,
+          "ref": "./references/state.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-diagram/references/workflow.md",
+      "size": 11229,
+      "blob": "c74fedaa7b614dc01febbc7cd460a4759fc4b1ae",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 55,
+          "ref": "references/workflow.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 56,
+          "ref": "references/workflow.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 79,
+          "ref": "./references/workflow.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 97,
+          "ref": "./references/workflow.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/SKILL.md",
+      "size": 24087,
+      "blob": "2499b152a7b33bb1cfc3289998ab22ac0ce793c5",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/code-connect-setup.md",
+          "line": 1,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-generate-library/references/code-connect-setup.md",
+          "line": 214,
+          "ref": "SKILL.md",
+          "judgement": "skill-folder-only"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/component-creation.md",
+          "line": 1,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/discovery-phase.md",
+          "line": 1,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/documentation-creation.md",
+          "line": 1,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/error-recovery.md",
+          "line": 1,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/naming-conventions.md",
+          "line": 1,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/token-creation.md",
+          "line": 1,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 13,
+          "ref": "../figma-generate-library/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/references/code-connect-setup.md",
+      "size": 12456,
+      "blob": "a2500ce3c9d1610a7aeacfb9045549e9aa052873",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 357,
+          "ref": "references/code-connect-setup.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/references/component-creation.md",
+      "size": 38548,
+      "blob": "d3047ac2b9b674ea33e6edd0a19d42ef06c0c05d",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 329,
+          "ref": "../figma-generate-library/references/component-creation.md#creating-icon-components-for-instance_swap"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 356,
+          "ref": "references/component-creation.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/references/discovery-phase.md",
+      "size": 21714,
+      "blob": "a287848c7a1749e073a598c118c0ca50f87bad81",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 353,
+          "ref": "references/discovery-phase.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/references/documentation-creation.md",
+      "size": 29037,
+      "blob": "523ccfd4dbda123d3e932ef4adda76dee6f0edeb",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 355,
+          "ref": "references/documentation-creation.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/references/error-recovery.md",
+      "size": 16425,
+      "blob": "c98f07207e405472730469d7d3072e7ffd9c6cf0",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 359,
+          "ref": "references/error-recovery.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/references/naming-conventions.md",
+      "size": 19003,
+      "blob": "3405e37c07f8b5b85d6fadf0e39c2673de81bdd7",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 283,
+          "ref": "references/naming-conventions.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 358,
+          "ref": "references/naming-conventions.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/references/token-creation.md",
+      "size": 32603,
+      "blob": "c9115ff075baa0cf154154979fd94e3ab73ad533",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 293,
+          "ref": "references/token-creation.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 354,
+          "ref": "references/token-creation.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/variable-patterns.md",
+          "line": 89,
+          "ref": "../../figma-generate-library/references/token-creation.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/bindVariablesToComponent.js",
+      "size": 4026,
+      "blob": "d3e805d97056787db2cc2a802eb2429a94277b97",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 373,
+          "ref": "scripts/bindVariablesToComponent.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/cleanupOrphans.js",
+      "size": 2204,
+      "blob": "af4ebb4ebe0315c314b67a2e0e1f40209d593191",
+      "reached": [
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-generate-library/references/error-recovery.md",
+          "line": 32,
+          "ref": "scripts/cleanupOrphans.js",
+          "judgement": "skill-folder-only"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 376,
+          "ref": "scripts/cleanupOrphans.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/createComponentWithVariants.js",
+      "size": 4679,
+      "blob": "7b53e7705695320cb387209d4bf9f093c869e743",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 372,
+          "ref": "scripts/createComponentWithVariants.js"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/fig-builder.md",
+          "line": 131,
+          "ref": "../../figma-generate-library/scripts/createComponentWithVariants.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/createDocumentationPage.js",
+      "size": 4738,
+      "blob": "3ebcc60e6c01852a4b355ecc109eb3e76fe62ab8",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 374,
+          "ref": "scripts/createDocumentationPage.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/createSemanticTokens.js",
+      "size": 3688,
+      "blob": "a27c353f175cd9846b8756ec7da280274ef67655",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 371,
+          "ref": "scripts/createSemanticTokens.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/createVariableCollection.js",
+      "size": 1408,
+      "blob": "8933cc498d272f573b97c5ead2e2cc3e5d03e370",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 370,
+          "ref": "scripts/createVariableCollection.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/inspectFileStructure.js",
+      "size": 3718,
+      "blob": "f4a5bd76c562c81c00aa63c4950f599ca911df7f",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 369,
+          "ref": "scripts/inspectFileStructure.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-generate-library/scripts/validateCreation.js",
+      "size": 2718,
+      "blob": "e607d0430560189f469bae3b0a3e528de4cfa0f6",
+      "reached": [
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 138,
+          "ref": "scripts/",
+          "judgement": "prose-directory"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 375,
+          "ref": "scripts/validateCreation.js"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/SKILL.md",
+      "size": 6943,
+      "blob": "65fe0ca7d5a15e811f957f0ad50b7a75af92952b",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/erd.md",
+          "line": 232,
+          "ref": "../../figma-use-figjam/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/gantt.md",
+          "line": 195,
+          "ref": "../../figma-use-figjam/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/sequence.md",
+          "line": 195,
+          "ref": "../../figma-use-figjam/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/state.md",
+          "line": 252,
+          "ref": "../../figma-use-figjam/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 3,
+          "ref": "../../figma-use-figjam/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 57,
+          "ref": "../figma-use-figjam/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/SKILL.md",
+          "line": 75,
+          "ref": "../figma-use-figjam/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/batch-modify.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-code-block.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-connector.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-label.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-sticky.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-table.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-text.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/edit-text.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/position-figjam-nodes.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/batch-modify.md",
+      "size": 7395,
+      "blob": "e9a28325af5bce8967d3e3c5e9e57eb8594b4428",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 93,
+          "ref": "../../figma-use-figjam/references/batch-modify.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 63,
+          "ref": "references/batch-modify.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-code-block.md",
+      "size": 2791,
+      "blob": "bd4e4bcdd4fd230ac5de6b5c11ade30fa500e2ab",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 59,
+          "ref": "references/create-code-block.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-connector.md",
+      "size": 11595,
+      "blob": "388ee25c33d3f73886bcd401fcb10c763401dcab",
+      "reached": [
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 9,
+          "ref": "create-connector.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 93,
+          "ref": "create-connector.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 55,
+          "ref": "references/create-connector.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-label.md",
+      "size": 11831,
+      "blob": "50f8d981ff297f7c842a1ecbb2a43410c0b08e73",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 55,
+          "ref": "../../figma-use-figjam/references/create-label.md"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 9,
+          "ref": "create-label.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 113,
+          "ref": "create-label.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 148,
+          "ref": "create-label.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 62,
+          "ref": "references/create-label.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-section.md",
+      "size": 7695,
+      "blob": "265e53ccf2630a909c10c699f5e51fb359575ffa",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-connector.md",
+          "line": 5,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+          "line": 5,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-table.md",
+          "line": 5,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-text.md",
+          "line": 458,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 9,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 76,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/position-figjam-nodes.md",
+          "line": 28,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/position-figjam-nodes.md",
+          "line": 51,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/position-figjam-nodes.md",
+          "line": 70,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/position-figjam-nodes.md",
+          "line": 88,
+          "ref": "create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 13,
+          "ref": "references/create-section.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 53,
+          "ref": "references/create-section.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+      "size": 15946,
+      "blob": "c3713a9bb8d2d0595d150ca12bd0efaa4e7abe83",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 94,
+          "ref": "../../figma-use-figjam/references/create-shape-with-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-connector.md",
+          "line": 5,
+          "ref": "create-shape-with-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-label.md",
+          "line": 5,
+          "ref": "create-shape-with-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-label.md",
+          "line": 9,
+          "ref": "create-shape-with-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-table.md",
+          "line": 5,
+          "ref": "create-shape-with-text.md"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 9,
+          "ref": "create-shape-with-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 113,
+          "ref": "create-shape-with-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 58,
+          "ref": "references/create-shape-with-text.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-sticky.md",
+      "size": 10552,
+      "blob": "eb904bc0aa4dd9177564db77265206b172857045",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/workflow.md",
+          "line": 55,
+          "ref": "../../figma-use-figjam/references/create-sticky.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-connector.md",
+          "line": 5,
+          "ref": "create-sticky.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 5,
+          "ref": "create-sticky.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 24,
+          "ref": "create-sticky.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+          "line": 5,
+          "ref": "create-sticky.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-table.md",
+          "line": 5,
+          "ref": "create-sticky.md"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 9,
+          "ref": "create-sticky.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 57,
+          "ref": "create-sticky.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 54,
+          "ref": "references/create-sticky.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-table.md",
+      "size": 13457,
+      "blob": "e51b56a489856892ac894c649f68fdec30250a47",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+          "line": 5,
+          "ref": "create-table.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+          "line": 7,
+          "ref": "create-table.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 60,
+          "ref": "references/create-table.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/create-text.md",
+      "size": 18575,
+      "blob": "d3d9fa6feeb1c7441637c183349d09c7de5ac7c4",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 5,
+          "ref": "create-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 24,
+          "ref": "create-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 56,
+          "ref": "references/create-text.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/edit-text.md",
+      "size": 12051,
+      "blob": "da32f9af6061416f48ede0a0547996aae10bdcc5",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-sticky.md",
+          "line": 5,
+          "ref": "edit-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-text.md",
+          "line": 7,
+          "ref": "edit-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 181,
+          "ref": "edit-text.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 61,
+          "ref": "references/edit-text.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+      "size": 9228,
+      "blob": "cbe3c1ec88976a8fa3e90c7bd94d0583b1f7f906",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-connector.md",
+          "line": 141,
+          "ref": "figjam-colors.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-label.md",
+          "line": 47,
+          "ref": "figjam-colors.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 97,
+          "ref": "figjam-colors.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+          "line": 89,
+          "ref": "figjam-colors.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-sticky.md",
+          "line": 55,
+          "ref": "figjam-colors.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/edit-text.md",
+          "line": 69,
+          "ref": "figjam-colors.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/plan-board-content.md",
+          "line": 102,
+          "ref": "figjam-colors.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 64,
+          "ref": "references/figjam-colors.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/plan-board-content.md",
+      "size": 17219,
+      "blob": "2a163fc82d103d9e37d8550b0ee4fdf2d6d0387f",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 9,
+          "ref": "plan-board-content.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 28,
+          "ref": "plan-board-content.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 67,
+          "ref": "plan-board-content.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/figjam-colors.md",
+          "line": 160,
+          "ref": "plan-board-content.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 50,
+          "ref": "references/plan-board-content.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use-figjam/references/position-figjam-nodes.md",
+      "size": 3920,
+      "blob": "cf889adad011182053ea041f066142203ad8969d",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-section.md",
+          "line": 159,
+          "ref": "position-figjam-nodes.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-sticky.md",
+          "line": 287,
+          "ref": "position-figjam-nodes.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 57,
+          "ref": "references/position-figjam-nodes.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/SKILL.md",
+      "size": 27219,
+      "blob": "ea5ffda5989de45b1dc1d68e222d3405beef8987",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 11,
+          "ref": "../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 27,
+          "ref": "../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 409,
+          "ref": "../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 419,
+          "ref": "../figma-use/SKILL.md#6-error-recovery--self-correction"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/erd.md",
+          "line": 232,
+          "ref": "../../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/gantt.md",
+          "line": 195,
+          "ref": "../../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/sequence.md",
+          "line": 195,
+          "ref": "../../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-diagram/references/state.md",
+          "line": 252,
+          "ref": "../../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 9,
+          "ref": "../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 19,
+          "ref": "../figma-use/SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/api-reference.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/common-patterns.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/component-patterns.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use/references/critical-rules-deep.md",
+          "line": 3,
+          "ref": "SKILL.md",
+          "judgement": "skill-folder-only"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/effect-style-patterns.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/gotchas.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/text-style-patterns.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/validation-and-recovery.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/variable-patterns.md",
+          "line": 3,
+          "ref": "../SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/api-reference.md",
+      "size": 12737,
+      "blob": "6ea0be53522cd48a8c66d2cd8eb9e78e4d72de6b",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 46,
+          "ref": "../figma-use/references/api-reference.md#images"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/common-patterns.md",
+      "size": 13604,
+      "blob": "2203a3649c602b3fd3932b6d23e66f39dfba39ad",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 289,
+          "ref": "references/common-patterns.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/component-patterns.md",
+      "size": 20090,
+      "blob": "a0dc0943758ea93b89cb11e2c84ad744911adef9",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 281,
+          "ref": "../figma-use/references/component-patterns.md#overriding-text-in-a-component-instance"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 329,
+          "ref": "../figma-use/references/component-patterns.md#instance_swap-avoiding-variant-explosion"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 411,
+          "ref": "../figma-use/references/component-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/fig-builder.md",
+          "line": 131,
+          "ref": "component-patterns.md#laying-out-variants-after-combineasvariants-required"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/fig-builder.md",
+          "line": 175,
+          "ref": "component-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components.md",
+          "line": 50,
+          "ref": "../component-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 289,
+          "ref": "references/component-patterns.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/critical-rules-deep.md",
+      "size": 11910,
+      "blob": "4f86a04fee013aa7bebe6946e3e3d0a77c5ca47a",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 216,
+          "ref": "references/critical-rules-deep.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 233,
+          "ref": "references/critical-rules-deep.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 239,
+          "ref": "references/critical-rules-deep.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 255,
+          "ref": "references/critical-rules-deep.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 268,
+          "ref": "references/critical-rules-deep.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 285,
+          "ref": "references/critical-rules-deep.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/effect-style-patterns.md",
+      "size": 4429,
+      "blob": "4b48773dadac9d856893e7b7e9c3f34af2606dfe",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 207,
+          "ref": "../figma-use/references/effect-style-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 414,
+          "ref": "../figma-use/references/effect-style-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/variable-patterns.md",
+          "line": 296,
+          "ref": "effect-style-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-effect-styles.md",
+          "line": 61,
+          "ref": "../effect-style-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 289,
+          "ref": "references/effect-style-patterns.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/fig-builder.md",
+      "size": 38065,
+      "blob": "85407e42b7cd2166d7690b752ccb9a3d20397154",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 211,
+          "ref": "../figma-use/references/fig-builder.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/component-creation.md",
+          "line": 203,
+          "ref": "../../figma-use/references/fig-builder.md#building-a-component-with-bound-variables-the-default-for-components"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 127,
+          "ref": "../figma-use/references/fig-builder.md#building-a-component-with-bound-variables-the-default-for-components"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/component-patterns.md",
+          "line": 22,
+          "ref": "fig-builder.md#creating-instances-from-component-wrappers"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/component-patterns.md",
+          "line": 99,
+          "ref": "fig-builder.md#component-properties"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/effect-style-patterns.md",
+          "line": 27,
+          "ref": "fig-builder.md#styles---create-reference-apply"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/plugin-api-standalone.index.md",
+          "line": 468,
+          "ref": "fig-builder.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/text-style-patterns.md",
+          "line": 20,
+          "ref": "fig-builder.md#styles---create-reference-apply"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 86,
+          "ref": "references/fig-builder.md#required-follow-up--grid-the-variants-fig-build--raw-layout"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 88,
+          "ref": "references/fig-builder.md#building-a-component-with-bound-variables-the-default-for-components"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 211,
+          "ref": "references/fig-builder.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 212,
+          "ref": "references/fig-builder.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 216,
+          "ref": "references/fig-builder.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 284,
+          "ref": "references/fig-builder.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/gotchas.md",
+      "size": 27655,
+      "blob": "ba4358450064bf2505a81cb746512d9b38c67118",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 415,
+          "ref": "../figma-use/references/gotchas.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/component-creation.md",
+          "line": 9,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/discovery-phase.md",
+          "line": 260,
+          "ref": "../../figma-use/references/gotchas.md#set-current-page-once-per-use_figma-call--split-multi-page-work-into-parallel-calls"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/references/documentation-creation.md",
+          "line": 7,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-library/SKILL.md",
+          "line": 118,
+          "ref": "../figma-use/references/gotchas.md#set-current-page-once-per-use_figma-call--split-multi-page-work-across-calls"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-label.md",
+          "line": 288,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-shape-with-text.md",
+          "line": 357,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-sticky.md",
+          "line": 293,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-table.md",
+          "line": 338,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/create-text.md",
+          "line": 464,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/edit-text.md",
+          "line": 7,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/edit-text.md",
+          "line": 48,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/references/plan-board-content.md",
+          "line": 166,
+          "ref": "../../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 40,
+          "ref": "../figma-use/references/gotchas.md#canonical-text-edit-recipe-font-load--await--mutate--return-ids"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 286,
+          "ref": "references/gotchas.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/plugin-api-standalone.d.ts",
+      "size": 491064,
+      "blob": "25653778446203102ad65754f09951660453c6e5",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/critical-rules-deep.md",
+          "line": 145,
+          "ref": "plugin-api-standalone.d.ts"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/gotchas.md",
+          "line": 653,
+          "ref": "plugin-api-standalone.d.ts"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use/references/plugin-api-standalone.index.md",
+          "line": 3,
+          "ref": "plugin-api-standalone.d.ts"
+        },
+        {
+          "how": "path",
+          "from": "skills-figquery/figma-use/references/plugin-api-standalone.index.md",
+          "line": 372,
+          "ref": "plugin-api-standalone.d.ts"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 239,
+          "ref": "references/plugin-api-standalone.d.ts"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 272,
+          "ref": "references/plugin-api-standalone.d.ts"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 287,
+          "ref": "references/plugin-api-standalone.d.ts"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/plugin-api-standalone.index.md",
+      "size": 34404,
+      "blob": "5af98f7b1069fcdd11cfe50c946d0d91ed02e66c",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 272,
+          "ref": "references/plugin-api-standalone.index.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 288,
+          "ref": "references/plugin-api-standalone.index.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/text-style-patterns.md",
+      "size": 8286,
+      "blob": "d1a7c0ed0ff36ea5c31ceb1bf8bc4fd7ded76418",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 207,
+          "ref": "../figma-use/references/text-style-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 413,
+          "ref": "../figma-use/references/text-style-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/gotchas.md",
+          "line": 276,
+          "ref": "text-style-patterns.md#discovering-available-font-styles"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-text-styles.md",
+          "line": 88,
+          "ref": "../text-style-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 289,
+          "ref": "references/text-style-patterns.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/validation-and-recovery.md",
+      "size": 4553,
+      "blob": "56acf9b67969dab5174c3ba685f0f68b01373981",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 291,
+          "ref": "references/validation-and-recovery.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/variable-patterns.md",
+      "size": 11868,
+      "blob": "39ff210a8bd371f0eb7752a0ef1866bc0539f9f6",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 180,
+          "ref": "../figma-use/references/variable-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 412,
+          "ref": "../figma-use/references/variable-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+          "line": 64,
+          "ref": "../variable-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 259,
+          "ref": "references/variable-patterns.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 289,
+          "ref": "references/variable-patterns.md"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components--creating.md",
+      "size": 2199,
+      "blob": "62c4ad97a856175851b6d971292ad26a2283fa88",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components.md",
+          "line": 45,
+          "ref": "wwds-components--creating.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components--using.md",
+      "size": 3047,
+      "blob": "3234dd23102896a470f33eccf3b40586577aba53",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components.md",
+          "line": 46,
+          "ref": "wwds-components--using.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-components.md",
+      "size": 4272,
+      "blob": "5ed79e34c2ae8fe5ac1f35fba9ce4e5be31008b2",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/component-patterns.md",
+          "line": 5,
+          "ref": "working-with-design-systems/wwds-components.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds.md",
+          "line": 15,
+          "ref": "wwds-components.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-effect-styles.md",
+      "size": 3847,
+      "blob": "0cf0aff2ed0d10305351ff2062d3756e1a80540f",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/effect-style-patterns.md",
+          "line": 5,
+          "ref": "working-with-design-systems/wwds-effect-styles.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+          "line": 7,
+          "ref": "wwds-effect-styles.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds.md",
+          "line": 17,
+          "ref": "wwds-effect-styles.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-text-styles.md",
+      "size": 5713,
+      "blob": "53fd0e2c686ac4b06ebb0b95908ed670fb6d312a",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/text-style-patterns.md",
+          "line": 5,
+          "ref": "working-with-design-systems/wwds-text-styles.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+          "line": 7,
+          "ref": "wwds-text-styles.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds.md",
+          "line": 18,
+          "ref": "wwds-text-styles.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables--creating.md",
+      "size": 1559,
+      "blob": "ab2968ac8e4fbca3ecb14f2732c79a8ae8408532",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+          "line": 59,
+          "ref": "wwds-variables--creating.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables--using.md",
+      "size": 2451,
+      "blob": "4b0e89f6077549ee3f196f3f94df489991824008",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+          "line": 60,
+          "ref": "wwds-variables--using.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds-variables.md",
+      "size": 5183,
+      "blob": "64058312a16912b1105bd7f8b6b2ba65ca55a8ae",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/variable-patterns.md",
+          "line": 5,
+          "ref": "working-with-design-systems/wwds-variables.md"
+        },
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/references/working-with-design-systems/wwds.md",
+          "line": 16,
+          "ref": "wwds-variables.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    },
+    {
+      "path": "skills-figquery/figma-use/references/working-with-design-systems/wwds.md",
+      "size": 5220,
+      "blob": "4b335a5866c52548a533e4f2bf6d75c6ab76ac67",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 15,
+          "ref": "references/working-with-design-systems/wwds.md"
+        },
+        {
+          "how": "directory",
+          "from": "skills-figquery/figma-use/SKILL.md",
+          "line": 290,
+          "ref": "references/working-with-design-systems/"
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "kind": "cli",
+      "name": "figma",
+      "evidence": [
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 551,
+          "text": "npx figma connect publish --token=YOUR_ACCESS_TOKEN"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 557,
+          "text": "npx figma connect publish"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 562,
+          "text": "npx figma connect publish --config path/to/figma.config.json"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 569,
+          "text": "npx figma connect unpublish"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 574,
+          "text": "npx figma connect unpublish --node=https://figma.com/file/abc/File?node-id=123-456 --label=React"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 582,
+          "text": "npx figma connect migrate --outDir ./templates"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 587,
+          "text": "2. Publish to test: `npx figma connect publish`"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 589,
+          "text": "4. Unpublish when done: `npx figma connect unpublish`"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 594,
+          "text": "npx figma connect --help"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 595,
+          "text": "npx figma connect publish --help"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 596,
+          "text": "npx figma connect unpublish --help"
+        },
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 1000,
+          "text": "3. Verify file was published: `npx figma connect publish`"
+        }
+      ]
+    },
+    {
+      "kind": "credential",
+      "name": "FIGMA_ACCESS_TOKEN",
+      "evidence": [
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 556,
+          "text": "export FIGMA_ACCESS_TOKEN=your_token_here"
+        }
+      ]
+    },
+    {
+      "kind": "mcp-server",
+      "name": "figma",
+      "evidence": [
+        {
+          "from": "skills-figquery/figma-code-connect/SKILL.md",
+          "line": 17,
+          "text": "- **Figma MCP server must be connected** — verify that Figma MCP tools (e.g., `get_code_connect_suggestions`) are available before proceeding. If not, guide the user to enable the Figma MCP server and restart their MCP client."
+        },
+        {
+          "from": "skills-figquery/figma-generate-design/SKILL.md",
+          "line": 32,
+          "text": "- Figma MCP server must be connected"
+        },
+        {
+          "from": "skills-figquery/figma-use-figjam/SKILL.md",
+          "line": 30,
+          "text": "The Figma MCP tools (`use_figma`, `get_figjam`, `get_screenshot`, `get_metadata`, `create_new_file`, `whoami`) often appear as deferred tools that require `ToolSearch` to load their schemas before they can be called. **Load all schemas in a single `ToolSearch` call** using the `select:` syntax inste"
+        }
+      ]
+    },
+    {
+      "kind": "package",
+      "name": "@figma/code-connect",
+      "evidence": [
+        {
+          "from": "skills-figquery/figma-code-connect/references/api.md",
+          "line": 543,
+          "text": "npm install --global @figma/code-connect@latest"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "files": 64,
+    "bytes": 1310113
+  },
+  "namedSkills": [],
+  "checkoutReach": [],
+  "licence": {
+    "path": null,
+    "spdx": null,
+    "frontmatter": null
+  },
+  "pending": []
+}

@@ -1,0 +1,69 @@
+{
+  "format": "pi-sliced.trace/1",
+  "tracer": "trace-2",
+  "judge": "judge-4",
+  "candidate": "mattpocock/skills/tdd",
+  "source": "mattpocock/skills",
+  "revision": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+  "skillPath": "skills/engineering/tdd",
+  "status": "resolved",
+  "files": [
+    {
+      "path": "skills/engineering/tdd/SKILL.md",
+      "size": 3629,
+      "blob": "01eadaa34e7c9a63a67d6dc3cce1cc81b0e49985",
+      "reached": [
+        {
+          "how": "root"
+        }
+      ]
+    },
+    {
+      "path": "skills/engineering/tdd/mocking.md",
+      "size": 1481,
+      "blob": "71cbfee674d93244ce81d1830b930ca9a69200bd",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/engineering/tdd/SKILL.md",
+          "line": 16,
+          "ref": "mocking.md"
+        }
+      ]
+    },
+    {
+      "path": "skills/engineering/tdd/tests.md",
+      "size": 2214,
+      "blob": "7ab86479f925a1f9e8ba680af33cb3b12e015381",
+      "reached": [
+        {
+          "how": "link",
+          "from": "skills/engineering/tdd/SKILL.md",
+          "line": 16,
+          "ref": "tests.md"
+        }
+      ]
+    }
+  ],
+  "outside": [],
+  "totals": {
+    "files": 3,
+    "bytes": 7324
+  },
+  "namedSkills": [
+    {
+      "name": "code-review",
+      "path": "skills/engineering/code-review",
+      "from": "skills/engineering/tdd/SKILL.md",
+      "line": 38,
+      "text": "- **Refactoring is not part of the loop.** It belongs to the review stage (see the `code-review` skill), not the red → green implementation cycle."
+    }
+  ],
+  "checkoutReach": [],
+  "licence": {
+    "path": "LICENSE",
+    "spdx": "MIT",
+    "frontmatter": null
+  },
+  "pending": []
+}

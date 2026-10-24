@@ -1,0 +1,451 @@
+{
+  "format": "pi-sliced.trace/1",
+  "tracer": "trace-2",
+  "judge": "judge-4",
+  "candidate": "openai/plugins/game-ui-frontend",
+  "source": "openai/plugins",
+  "revision": "0722921d5542fc593105c27bd52630babd8b8c2a",
+  "skillPath": "plugins/game-studio/skills/game-ui-frontend",
+  "status": "resolved",
+  "files": [
+    {
+      "path": "plugins/game-studio/references/engine-selection.md",
+      "size": 2503,
+      "blob": "d5d7bc10850c4aa1ad8c64bf415ed7919d281a5e",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+          "line": 60,
+          "ref": "../../references/engine-selection.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+          "line": 90,
+          "ref": "../../references/engine-selection.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/frontend-prompts.md",
+      "size": 3712,
+      "blob": "86d46e2de9fcbb5d85cbc7a59d09429072002449",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+          "line": 72,
+          "ref": "../../references/frontend-prompts.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+          "line": 109,
+          "ref": "../../references/frontend-prompts.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/gltf-loading-starter.md",
+      "size": 980,
+      "blob": "2eb1324ca55d17fa08ac7a9cb19a41bfcd22f513",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-stack.md",
+          "line": 39,
+          "ref": "gltf-loading-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-starter.md",
+          "line": 49,
+          "ref": "gltf-loading-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-stack.md",
+          "line": 38,
+          "ref": "gltf-loading-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-vanilla-starter.md",
+          "line": 56,
+          "ref": "gltf-loading-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/web-3d-asset-pipeline.md",
+          "line": 46,
+          "ref": "gltf-loading-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 84,
+          "ref": "../../references/gltf-loading-starter.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/phaser-architecture.md",
+      "size": 1200,
+      "blob": "53fb903dc4b8fa1f74c3320c5103774879561594",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+          "line": 91,
+          "ref": "../../references/phaser-architecture.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/playtest-checklist.md",
+      "size": 1599,
+      "blob": "3a2e81d4aad7897759e1c492a93d41ddc959b39c",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+          "line": 112,
+          "ref": "../../references/playtest-checklist.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/rapier-integration-starter.md",
+      "size": 1055,
+      "blob": "f78a5be3d7d8c1cd1d89b33dff45f9375a81d4fe",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-stack.md",
+          "line": 40,
+          "ref": "rapier-integration-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-starter.md",
+          "line": 50,
+          "ref": "rapier-integration-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-stack.md",
+          "line": 39,
+          "ref": "rapier-integration-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-vanilla-starter.md",
+          "line": 57,
+          "ref": "rapier-integration-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/web-3d-asset-pipeline.md",
+          "line": 47,
+          "ref": "rapier-integration-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 85,
+          "ref": "../../references/rapier-integration-starter.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/react-three-fiber-stack.md",
+      "size": 1764,
+      "blob": "947a3e0ddc51df70250d4ac95ef43f136997e97e",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 82,
+          "ref": "../../references/react-three-fiber-stack.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+          "line": 94,
+          "ref": "../../references/react-three-fiber-stack.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/react-three-fiber-starter.md",
+      "size": 1424,
+      "blob": "c14a92e8b326eda857053445dd2df9b370f8c106",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-stack.md",
+          "line": 38,
+          "ref": "react-three-fiber-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/web-3d-asset-pipeline.md",
+          "line": 45,
+          "ref": "react-three-fiber-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 83,
+          "ref": "../../references/react-three-fiber-starter.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/three-hud-layout-patterns.md",
+      "size": 2192,
+      "blob": "af9a1345da0f97e880fdfc6e7820d3177b77c779",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-starter.md",
+          "line": 51,
+          "ref": "three-hud-layout-patterns.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-vanilla-starter.md",
+          "line": 58,
+          "ref": "three-hud-layout-patterns.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+          "line": 110,
+          "ref": "../../references/three-hud-layout-patterns.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 81,
+          "ref": "../../references/three-hud-layout-patterns.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/three-webgl-architecture.md",
+      "size": 1447,
+      "blob": "f6558b77d7bb3c9842ca330b6d47a67f9ee7bd0c",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-stack.md",
+          "line": 36,
+          "ref": "three-webgl-architecture.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+          "line": 92,
+          "ref": "../../references/three-webgl-architecture.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/threejs-stack.md",
+      "size": 1630,
+      "blob": "aee34d4d9e91676727e43f9737e823c75071bcc0",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-stack.md",
+          "line": 37,
+          "ref": "threejs-stack.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+          "line": 93,
+          "ref": "../../references/threejs-stack.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/threejs-vanilla-starter.md",
+      "size": 1768,
+      "blob": "9f7830f6c905478495642f703eca60ea7a57ec97",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-stack.md",
+          "line": 37,
+          "ref": "threejs-vanilla-starter.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/web-3d-asset-pipeline.md",
+          "line": 44,
+          "ref": "threejs-vanilla-starter.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/web-3d-asset-pipeline.md",
+      "size": 1780,
+      "blob": "ce5bc3da7613285e207a50065aed8055bca2dcb1",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-stack.md",
+          "line": 41,
+          "ref": "web-3d-asset-pipeline.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-stack.md",
+          "line": 40,
+          "ref": "web-3d-asset-pipeline.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 86,
+          "ref": "../../references/web-3d-asset-pipeline.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+          "line": 95,
+          "ref": "../../references/web-3d-asset-pipeline.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/references/webgl-debugging-and-performance.md",
+      "size": 1299,
+      "blob": "5d9853f79067d0cb32ddb46ebfe4136819b00050",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/react-three-fiber-stack.md",
+          "line": 42,
+          "ref": "webgl-debugging-and-performance.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/references/threejs-stack.md",
+          "line": 41,
+          "ref": "webgl-debugging-and-performance.md",
+          "judgement": "outside-skill-folders"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 87,
+          "ref": "../../references/webgl-debugging-and-performance.md",
+          "judgement": "outside-skill-folders"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+      "size": 5060,
+      "blob": "f2681fb955143f96cb04bfa4f1cb09d6839b162a",
+      "reached": [
+        {
+          "how": "root"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 80,
+          "ref": "../game-ui-frontend/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+      "size": 4023,
+      "blob": "90fb0657bce2c96ab8aa3ae52534aaf51bbe67b8",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+          "line": 111,
+          "ref": "../react-three-fiber-game/SKILL.md"
+        }
+      ]
+    },
+    {
+      "path": "plugins/game-studio/skills/web-game-foundations/SKILL.md",
+      "size": 4592,
+      "blob": "1fe88e9c7c63c4f0ef9fda4ebd24fa61ae9a44a1",
+      "reached": [
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/game-ui-frontend/SKILL.md",
+          "line": 108,
+          "ref": "../web-game-foundations/SKILL.md"
+        },
+        {
+          "how": "path",
+          "from": "plugins/game-studio/skills/react-three-fiber-game/SKILL.md",
+          "line": 79,
+          "ref": "../web-game-foundations/SKILL.md"
+        }
+      ]
+    }
+  ],
+  "outside": [],
+  "totals": {
+    "files": 17,
+    "bytes": 38028
+  },
+  "namedSkills": [],
+  "checkoutReach": [],
+  "licence": {
+    "path": null,
+    "spdx": null,
+    "frontmatter": null
+  },
+  "pending": []
+}

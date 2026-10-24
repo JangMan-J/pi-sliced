@@ -1,0 +1,6 @@
+[
+ {"base": "figma__mcp-server-guide__figma-generate-diagram", "kind": "network", "name": "developer.mozilla.org", "counts": false, "reason": "Same JSDoc line (plugin-api-standalone.d.ts:888) as www.typescriptlang.org, which adjudication r1 excludes as a documentation link in a type-definition reference file."},
+ {"base": "figma__mcp-server-guide__figma-generate-diagram", "kind": "network", "name": "developers.figma.com", "counts": false, "reason": "A documentation link in a JSDoc comment of plugin-api-standalone.d.ts (\"Read more in the [timer section](…)\"), the class adjudication r1 excludes for help.figma.com and www.typescriptlang.org."},
+ {"base": "shopify__shopify-ai-toolkit__shopify", "kind": "network", "name": "shopify-dev-staging${t}.shopifycloud.com", "counts": false, "reason": "A templated host built from a variable, the class adjudication r1 excludes for shopify-dev-staging${e}.shopifycloud.com."},
+ {"base": "openai__plugins__debug-zoom-integration", "kind": "cli", "name": "vcpkg", "counts": false, "reason": "`.\\vcpkg` runs from the freshly cloned vcpkg checkout by relative path, the class adjudication r1 excludes for `.\\bootstrap-vcpkg.bat` (and for ./meetingSDKDemo, ./SkeletonDemo, ./ZoomVideoSDKBot)."}
+]

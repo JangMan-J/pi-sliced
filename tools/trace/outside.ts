@@ -36,6 +36,9 @@ export const BASE_TOOLS = new Set(
   ).split(/\s+/),
 );
 
+// Install flags that take a value which is not a package.
+const VALUE_FLAGS = /^(?:-r|--requirement|-c|--constraint|-e|--editable|-t|--target|-i|--index-url|--extra-index-url|-f|--find-links|--prefix|--registry)$/;
+
 // O2: install commands; the words after them (minus flags) are packages.
 const INSTALL_ANY = new RegExp(
   "(?<![\\w-])(?:(?:npm|pnpm|yarn|bun)\\s+(?:install|i|add)|(?:pip3?|uv\\s+pip|pipx)\\s+install|uv\\s+add|poetry\\s+add|gem\\s+install|cargo\\s+(?:install|add)|(?:apt|apt-get|yum|dnf|zypper)\\s+install|apk\\s+add|brew\\s+install|conda\\s+install)\\b[^\"'`;&|)#\\n]*",
@@ -50,7 +53,7 @@ function installsIn(l: string, ev: Evidence, out: Collected[]): void {
     const ws = words.slice(head);
     for (let i = 0; i < ws.length; i++) {
       const r = ws[i];
-      if (/^(?:-r|--requirement|-c|--constraint|-e|--editable|-t|--target|-i|--index-url|--extra-index-url|-f|--find-links)$/.test(r)) {
+      if (VALUE_FLAGS.test(r)) {
         i++;
         continue;
       }
@@ -70,8 +73,8 @@ const SHELL_LANGS = new Set(["bash", "sh", "shell", "console", "zsh", "terminal"
 
 const HTTP_METHOD = /^(?:GET|POST|PUT|PATCH|DELETE|HEAD|OPTIONS)$/;
 
-// O4: env-var-shaped names ending in _KEY, _TOKEN, _SECRET, or PASSWORD, set or read.
-const SECRET_NAME = "[A-Z][A-Z0-9_]*(?:_KEY|_TOKEN|_SECRET|PASSWORD)";
+// O4: env-var-shaped names ending in _KEY, _TOKEN, _SECRET, PASSWORD, _CREDS, or _CREDENTIALS, set or read.
+const SECRET_NAME = "[A-Z][A-Z0-9_]*(?:_KEY|_TOKEN|_SECRET|PASSWORD|_CREDS|_CREDENTIALS)";
 const SECRET_USE = new RegExp(
   [
     `(?:^|[\\s;(])(?:export\\s+)?(${SECRET_NAME})=`, // shell assignment
@@ -91,7 +94,9 @@ const SECRET_PROP = new RegExp(`\\b(?:process\\.env|env|e)\\.(${SECRET_NAME})\\b
 
 const URL_RE = /\bhttps?:\/\/([A-Za-z0-9.${}<>_-]+)(?::\d+)?/g;
 // O3: a prose line that tells the agent to fetch, download, open, read, or follow a URL.
-const FETCH_VERB = /\b(?:fetch|download|open|read|follow)\b/i;
+const FETCH_VERB = /\b(?:fetch|download|open|read|follow|visit|go to|navigate to)\b/i;
+// "Install the CLI through its [release instructions](…)": an install routed through the link.
+const INSTALL_VIA = /\binstall\b[^.]*\b(?:through|from|via)\b[^.]*$/i;
 const ENV_HEADING = /\benv\b|\.env|environment|variables?|secrets?|credentials?/i;
 // O4: a secret name alone in an inline span, as a table row's first cell or a list item's lead (an env-var table).
 const SECRET_LISTED = new RegExp(`^\\s*(?:\\|\\s*\`${SECRET_NAME}\`\\s*\\||[-*]\\s+\`${SECRET_NAME}\`\\s*(?:$|[-:—(]))`);
@@ -135,8 +140,18 @@ function placeholderUrl(url: string): boolean {
   return /^https?:\/\/www\.googleapis\.com\/auth\//.test(url);
 }
 
+/** A package installed from a URL is named by the URL's last path segment without its archive extension. */
+export function urlPackage(spec: string): string | null {
+  const u = spec.replace(/^["']|["']$/g, "").replace(/^git\+/, "").replace(/[#?].*$/, "").replace(/@[\w.-]+$/, "");
+  if (!/^https?:\/\//.test(u)) return null;
+  const last = u.replace(/\/+$/, "").split("/").pop() ?? "";
+  const name = last.replace(/\.(?:tar\.gz|tar\.bz2|tar\.xz|tgz|tbz2|zip|whl|gem|git)$/i, "");
+  return name && !/[<>{}$*]/.test(name) ? name : null;
+}
+
 function pkgName(spec: string): string | null {
   const s = spec.replace(/^["']|["']$/g, "").replace(/\\$/, "");
+  if (/^(?:git\+)?https?:\/\//.test(s)) return urlPackage(s);
   if (!s || s.startsWith("-") || s.startsWith(".") || s.startsWith("/") || s.includes("://")) return null;
   const m = s.match(/^(@[^/@\s]+\/[^@\s]+|[^@\s=<>~^[]+)/);
   if (!m) return null;
@@ -210,7 +225,13 @@ function fromCommand(words: string[], ev: Evidence, out: Collected[], strict: bo
   if (INSTALL.test(line)) {
     // An installer outside the base set is itself a CLI the skill runs (yum, dnf, choco, …).
     if (!BASE_TOOLS.has(cmd) && !strict && !relative) out.push({ kind: "cli", name: cmd, ev });
-    for (const r of line.replace(INSTALL, "").trim().split(/\s+/)) {
+    const args = line.replace(INSTALL, "").trim().split(/\s+/);
+    for (let i = 0; i < args.length; i++) {
+      const r = args[i];
+      if (VALUE_FLAGS.test(r)) {
+        i++; // `-r requirements.txt`, `-e .`: the value is not a package
+        continue;
+      }
       if (r.startsWith("-") || r === "\\") continue;
       const n = pkgName(r.replace(/:(?:x64|x86|arm64|arm)-[\w-]+$/, "")); // vcpkg triplets
       if (n) out.push({ kind: "package", name: n, ev });
@@ -386,6 +407,148 @@ function hosts(l: string, ev: Evidence, out: Collected[]): void {
   }
 }
 
+// O3 (mechanical): commands that fetch the URLs they are given.
+const FETCHERS = new Set(["curl", "wget", "http", "https", "xh", "aria2c", "iwr", "irm", "Invoke-WebRequest", "Invoke-RestMethod"]);
+
+/** Hosts a shell line fetches: a URL counts when the command it belongs to is a fetcher (`curl`, `wget`, `git clone`,
+ *  an installer's source). A URL handed to any other CLI is that CLI's run-time traffic, not a static requirement. */
+function fetchedHosts(raw: string, ev: Evidence, out: Collected[], vars: Map<string, string> = new Map()): void {
+  // `REPO_URL="https://…"` earlier in the file, then `git clone "$REPO_URL"`: the variable stands for its URL.
+  const l = raw.replace(/\$\{?([A-Za-z_]\w*)\}?/g, (x, name: string) => vars.get(name) ?? x);
+  for (const m of l.matchAll(URL_RE)) {
+    const before = l.slice(0, m.index!);
+    const seg = before.split(/&&|\|\||;|\||\$\(|`|<\(/).pop()!;
+    const w = seg.trim().replace(/^[(\s]+/, "").split(/\s+/).map((x) => x.replace(/^\\?["']|\\?["']$/g, ""));
+    while (w.length && (/^[A-Za-z_][A-Za-z0-9_]*=/.test(w[0]) || RUNNER_WORDS.includes(w[0]))) w.shift();
+    if (!w.length) continue;
+    const prog = w[0].replace(/^.*[\\/]/, "");
+    const fetches =
+      FETCHERS.has(prog) ||
+      (prog === "git" && /^(?:clone|fetch|pull|ls-remote|submodule)$/.test(w[1] ?? "")) ||
+      (prog === "cargo" && w.includes("--git")) ||
+      INSTALL.test(w.join(" ").replace(/^(?:npx|sudo)\s+/, "")) ||
+      // a fetch command quoted in a message the agent is told to run ("On 'y' — run: git clone \"$REPO_URL\"")
+      /(?:^|[\s"'(:])(?:curl|wget|git\s+(?:clone|fetch|pull|ls-remote))(?:\s+-{1,2}[\w-]+(?:[= ][^\s"']+)?)*\s+\\?["']?$/.test(seg);
+    if (fetches) hosts(l.slice(m.index!).match(/^\S+/)![0].replace(/["')\\]+$/, ""), ev, out);
+  }
+}
+
+/** Shell variables a file assigns a URL to (`REPO_URL="${HSB_REPO:-https://…}"`). */
+function urlVars(text: string): Map<string, string> {
+  const vars = new Map<string, string>();
+  for (const m of text.matchAll(/(?:^|[\s;])(?:export\s+)?([A-Za-z_]\w*)=["']?[^"'\s]*?(https?:\/\/[^"'\s}]+)/gm)) vars.set(m[1], m[2]);
+  return vars;
+}
+
+/** O3 (mechanical): resources a browser loads from an HTML page: `<script src>`, `<link href>` stylesheets,
+ *  CSS `@import url()`, `<img src>`. */
+function htmlResources(path: string, text: string, out: Collected[]): void {
+  const lines = text.split("\n");
+  const at = (pos: number) => {
+    const n = text.slice(0, pos).split("\n").length;
+    return { from: path, line: n, text: lines[n - 1].trim().slice(0, 300) };
+  };
+  const url = (v: string, pos: number) => {
+    const m = v.match(/^\s*(https?:)?\/\/[^\s"'<>)]+/);
+    if (m) hosts(m[0].startsWith("//") || /^\s*\/\//.test(m[0]) ? "https:" + m[0].trim() : m[0].trim(), at(pos), out);
+  };
+  for (const m of text.matchAll(/<(script|img)\b[^>]*?\bsrc\s*=\s*["']([^"']+)["']/gi)) url(m[2], m.index! + m[0].indexOf(m[2]));
+  for (const m of text.matchAll(/<link\b[^>]*>/gi)) {
+    if (!/\brel\s*=\s*["']?[^"'>]*\bstylesheet\b/i.test(m[0])) continue;
+    const h = m[0].match(/\bhref\s*=\s*["']([^"']+)["']/i);
+    if (h) url(h[1], m.index! + m[0].indexOf(h[1]));
+  }
+  for (const m of text.matchAll(/@import\s+(?:url\(\s*)?["']?([^"')\s;]+)/gi)) url(m[1], m.index! + m[0].indexOf(m[1]));
+}
+
+type Eco = "pub" | "npm" | "pip-r" | "pyproject";
+interface Manifest {
+  eco: Eco;
+  line: number;
+  deps: { name: string; line: number }[];
+}
+// The install command that installs each kind of manifest: run bare, it installs what the manifest declares.
+const ECO_INSTALL: [Eco, RegExp][] = [
+  ["pub", /\b(?:flutter|dart)\s+pub\s+get\b/],
+  ["npm", /(?:^|[\s;&|(])(?:npm\s+(?:install|i|ci)|pnpm\s+(?:install|i)|yarn(?:\s+install)?|bun\s+install)(?:\s+-[-\w=]+)*\s*(?:$|&&|;|\||#|\))/],
+  ["pip-r", /\b(?:pip3?|uv\s+pip)\s+install\s+(?:-\S+\s+)*-r\s+\S+/],
+  ["pyproject", /\b(?:pip3?|uv\s+pip)\s+install\s+(?:-e\s+)?["']?\.(?:\[[^\]]*\])?["']?(?:\s|$)|\buv\s+sync\b|\bpoetry\s+install\b/],
+];
+const REQ_LINE = /^\s*([A-Za-z0-9][\w.-]*)(?:\[[\w,\s-]+\])?\s*(?:[=<>!~]=?\s*[\w.*+-]+(?:\s*,\s*[=<>!~]=?\s*[\w.*+-]+)*)?\s*(?:;.*)?(?:#.*)?$/;
+
+/** A dependency manifest written as a code block: pubspec.yaml, package.json, requirements.txt, or pyproject.toml. */
+function manifestOf(lang: string, lines: string[], open: number, end: number, path: string): Manifest | null {
+  const body = lines.slice(open + 1, end);
+  const at = (k: number) => open + 2 + k; // 1-based line of body[k]
+  const deps: { name: string; line: number }[] = [];
+  if (lang === "yaml" || lang === "yml") {
+    for (let k = 0; k < body.length; k++) {
+      const h = body[k].match(/^(\s*)(?:dev_)?dependencies:\s*$/);
+      if (!h) continue;
+      const base = h[1].length;
+      let childIndent = -1;
+      for (let j = k + 1; j < body.length; j++) {
+        const l = body[j];
+        if (!l.trim() || /^\s*#/.test(l)) continue;
+        const ind = l.match(/^\s*/)![0].length;
+        if (ind <= base) break;
+        if (childIndent < 0) childIndent = ind;
+        if (ind !== childIndent) continue;
+        const key = l.match(/^\s*([a-z0-9_]+):/);
+        if (!key) continue;
+        const sdk = body[j + 1] !== undefined && /^\s*sdk:/.test(body[j + 1]) && body[j + 1].match(/^\s*/)![0].length > ind;
+        if (!sdk && key[1] !== "flutter_test") deps.push({ name: key[1], line: at(j) });
+      }
+    }
+    return deps.length ? { eco: "pub", line: open + 1, deps } : null;
+  }
+  if (lang === "json" || lang === "jsonc") {
+    const text = body.join("\n");
+    for (const m of text.matchAll(/"(?:dev)?[dD]ependencies"\s*:\s*\{([^}]*)\}/g)) {
+      const startLine = text.slice(0, m.index!).split("\n").length - 1;
+      m[1].split("\n").forEach((l, k) => {
+        const key = l.match(/"([^"]+)"\s*:/);
+        if (key && pkgName(key[1])) deps.push({ name: key[1], line: at(startLine + k) });
+      });
+    }
+    return deps.length ? { eco: "npm", line: open + 1, deps } : null;
+  }
+  if (lang === "toml") {
+    let section = "";
+    let inList = false;
+    body.forEach((l, k) => {
+      const sec = l.match(/^\s*\[([^\]]+)\]\s*$/);
+      if (sec) {
+        section = sec[1];
+        inList = false;
+        return;
+      }
+      if (section === "project" && /^\s*dependencies\s*=\s*\[/.test(l)) inList = true;
+      if (inList) {
+        for (const q of l.matchAll(/["']([^"']+)["']/g)) {
+          const n = pkgName(q[1]);
+          if (n) deps.push({ name: n, line: at(k) });
+        }
+        if (/\]/.test(l.replace(/\[[^\]]*\]/g, (x) => (x.includes("=") ? x : "")).replace(/^[^[]*\[/, ""))) inList = false;
+        return;
+      }
+      if (section === "tool.poetry.dependencies") {
+        const key = l.match(/^\s*([A-Za-z0-9][\w.-]*)\s*=/);
+        if (key && key[1] !== "python") deps.push({ name: key[1], line: at(k) });
+      }
+    });
+    return deps.length ? { eco: "pyproject", line: open + 1, deps } : null;
+  }
+  if (["", "txt", "text", "plaintext", "requirements", "pip"].includes(lang)) {
+    const named = /requirements[\w.-]*\.txt/i.test(lines.slice(Math.max(0, open - 2), open + 1).join(" ")) || lang === "requirements";
+    const content = body.map((l, k) => ({ l, k })).filter((x) => x.l.trim() && !/^\s*#/.test(x.l));
+    if (!named || !content.length || !content.every((x) => REQ_LINE.test(x.l))) return null;
+    for (const x of content) deps.push({ name: x.l.match(REQ_LINE)![1], line: at(x.k) });
+    return { eco: "pip-r", line: open + 1, deps };
+  }
+  return null;
+}
+
 /** Hosts in a run-script line: a URL counts when it is code or a whole string value, not when it sits inside
  *  a message or description ("as specified by https://commonmark.org/"). */
 function scriptHosts(l: string, ev: Evidence, out: Collected[], shell: boolean): void {
@@ -398,6 +561,8 @@ export function extractOutside(path: string, text: string): Outside[] {
   const lines = text.split("\n");
   if (/\.d\.ts$/.test(path)) {
     // A declaration file is read as a reference, not run: its doc comments are documentation.
+  } else if (/\.html?$/i.test(path)) {
+    htmlResources(path, text, out);
   } else if (isScript(path, text)) {
     scriptImports(path, lines, out);
     if (!/\.(?:sh|bash|zsh)$/.test(path)) scriptProcesses(path, text, out);
@@ -413,6 +578,12 @@ export function extractOutside(path: string, text: string): Outside[] {
     }
   } else if (isMarkup(path)) {
     const fns = shellFunctions(text);
+    const vars = urlVars(text);
+    const manifests: Manifest[] = [];
+    const installs: { eco: Eco; line: number }[] = [];
+    const noteInstall = (code: string, line: number) => {
+      for (const [eco, re] of ECO_INSTALL) if (re.test(code)) installs.push({ eco, line });
+    };
     let i = 0;
     let heading = "";
     while (i < lines.length) {
@@ -420,6 +591,7 @@ export function extractOutside(path: string, text: string): Outside[] {
       if (!f) {
         if (/^#{1,6}\s/.test(lines[i])) heading = lines[i];
         prose(lines[i], { from: path, line: i + 1, text: lines[i].trim().slice(0, 300) }, out, heading);
+        for (const m of lines[i].matchAll(/`([^`]+)`/g)) noteInstall(m[1], i + 1);
         i++;
         continue;
       }
@@ -427,18 +599,26 @@ export function extractOutside(path: string, text: string): Outside[] {
       const lang = f[2].toLowerCase();
       let end = i + 1;
       while (end < lines.length && !lines[end].trim().startsWith(marker)) end++;
+      const m = manifestOf(lang, lines, i, end, path);
+      if (m) manifests.push(m);
       if (SHELL_LANGS.has(lang)) {
         for (const { n, text: l } of logicalLines(lines, i + 1, end)) {
           const ev = { from: path, line: n, text: l.trim().slice(0, 300) };
+          noteInstall(l, n);
           installsIn(l, ev, out); // also `# pip install x` beside a command, or a quoted install hint
           if (/^\s*#/.test(l)) continue;
           for (const c of commands(l)) fromCommand(c, ev, out, false, fns);
-          hosts(l, ev, out);
+          fetchedHosts(l, ev, out, vars);
           secrets(l, ev, out, false);
         }
       }
       // Other fences are code examples written into the user's project; they state no requirement.
       i = end + 1;
+    }
+    // O2 (amended): a manifest block followed in the same file by its ecosystem's install command declares packages.
+    for (const m of manifests) {
+      if (!installs.some((x) => x.eco === m.eco && x.line > m.line)) continue;
+      for (const d of m.deps) out.push({ kind: "package", name: d.name, ev: { from: path, line: d.line, text: lines[d.line - 1].trim().slice(0, 300) } });
     }
   }
   return out.map((c) => ({ kind: c.kind, name: c.name, evidence: [c.ev] }));
@@ -452,7 +632,7 @@ function prose(l: string, ev: Evidence, out: Collected[], heading = ""): void {
       const cmd = isCommandSpan(inner, l, l.slice(0, m.index!));
       for (const c of commands(inner)) fromCommand(c, ev, out, !cmd);
       installsIn(inner, ev, out);
-      if (cmd) hosts(inner, ev, out);
+      if (cmd) fetchedHosts(inner, ev, out);
     }
     secrets(inner, ev, out, false);
     if (new RegExp(`^${SECRET_NAME}$`).test(inner) && SECRET_LISTED.test(l) && (ENV_HEADING.test(heading) || /env/i.test(ev.from.split("/").pop()!)) && !/runtime[- ]only/i.test(heading))
@@ -467,7 +647,7 @@ function prose(l: string, ev: Evidence, out: Collected[], heading = ""): void {
       .replace(/\[[^\]]*\]\([^)]*\)/g, (x) => x.replace(/\([^)]*\)$/, ""))
       .replace(/https?:\/\/\S+/g, " ")
       .replace(/\bopen(?:ing)?\s+(?:a|an|the)?\s*(?:[\w-]+\s+){0,2}(?:ticket|issue|case|bug|request|PR)\b/gi, " ");
-    if (FETCH_VERB.test(w)) hosts(l.slice(m.index!).match(/^\S+/)![0], ev, out);
+    if (FETCH_VERB.test(w) || INSTALL_VIA.test(w)) hosts(l.slice(m.index!).match(/^\S+/)![0], ev, out);
   }
 }
 

@@ -1,0 +1,464 @@
+{
+ "candidate": "shadcn-ui/ui/shadcn",
+ "revision": "e55b60b1014cccfb9ac62f97e0d20b5b649f4a54",
+ "skillPath": "skills/shadcn",
+ "files": [
+  {
+   "path": "skills/shadcn/SKILL.md",
+   "size": 21606,
+   "blob": "54da13fb6fdca971ec9ee4651cf5ff2cdab2236d",
+   "reached": [
+    {
+     "how": "root"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/assets/showcase/color-pair.tsx",
+   "size": 3448,
+   "blob": "f80177d1e50bf8df22b79914c331e61280d459a4",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills/shadcn/design-system.md",
+     "line": 340,
+     "text": "Copy the helpers from `assets/showcase/` (`preview-states.css`, `state-matrix.tsx`, `color-pair.tsx`). Put sections in `src/showcase/<section>.tsx` (Vite) or `app/design-system/` (Next.js). Write copy in the brand's voice."
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/assets/showcase/preview-states.css",
+   "size": 425,
+   "blob": "d90febdbf9fe096ca3f9ef3395c2dbf28f2971f6",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills/shadcn/design-system.md",
+     "line": 340,
+     "text": "Copy the helpers from `assets/showcase/` (`preview-states.css`, `state-matrix.tsx`, `color-pair.tsx`). Put sections in `src/showcase/<section>.tsx` (Vite) or `app/design-system/` (Next.js). Write copy in the brand's voice."
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/assets/showcase/state-matrix.tsx",
+   "size": 1682,
+   "blob": "69afba4f7e4f14a979793695a82c86a794ed3a6d",
+   "reached": [
+    {
+     "how": "directory",
+     "from": "skills/shadcn/design-system.md",
+     "line": 340,
+     "text": "Copy the helpers from `assets/showcase/` (`preview-states.css`, `state-matrix.tsx`, `color-pair.tsx`). Put sections in `src/showcase/<section>.tsx` (Vite) or `app/design-system/` (Next.js). Write copy in the brand's voice."
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/cli.md",
+   "size": 17304,
+   "blob": "8a1d1958710902e2d38a3dd03d00aa09ab165dfe",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 166,
+     "text": "See [cli.md \u2014 `info` command](./cli.md) for the full field reference."
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/customization.md",
+   "size": 6279,
+   "blob": "d43506d40520e8271da0b8ac9f994e190dbb9998",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 294,
+     "text": "- [customization.md](./customization.md) \u2014 Theming, CSS variables, extending components"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/design-system-page.md",
+   "size": 15790,
+   "blob": "cfa2f4186fe36c295a5878354f1ca2dd2cf66bf7",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 205,
+     "text": "5. Build the design system page per [design-system-page.md](./design-system-page.md): contrast-checked color roles, type specimens, pinned state matrices, edge cases, do/don't pairs, recipes. Check coverage with `scripts/showcase-coverage.mjs`."
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/design-system.md",
+   "size": 21621,
+   "blob": "018f87bd78fad10ff309f9bc9bd88e0b10172b60",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 199,
+     "text": "When the user asks for a design system from a `DESIGN.md` (or a brand spec), with or without a preset, follow [design-system.md](./design-system.md) end to end:"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/registry.md",
+   "size": 8817,
+   "blob": "5369468bbe43126379161a403a53717ee86e2d9b",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 293,
+     "text": "- [registry.md](./registry.md) \u2014 Authoring source registries, `include`, item definitions, dependencies, GitHub registry rules"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/rules/base-vs-radix.md",
+   "size": 6954,
+   "blob": "c1ed7d111a0195cab801d2b3d38dee3aee0b8e10",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 55,
+     "text": "- **Use `asChild` (radix) or `render` (base) for custom triggers.** Check `base` field from `npx shadcn@latest info`. \u2192 [base-vs-radix.md](./rules/base-vs-radix.md)"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/rules/chat.md",
+   "size": 17626,
+   "blob": "b493fbd348190123a5fe0f4c66b115836ae9a0bc",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 80,
+     "text": "### Chat & Messaging \u2192 [chat.md](./rules/chat.md)"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/rules/composition.md",
+   "size": 4892,
+   "blob": "a8aa4274c1aaabf673fe7bdb69d90983ad56059d",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 52,
+     "text": "### Component Structure \u2192 [composition.md](./rules/composition.md)"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/rules/forms.md",
+   "size": 4857,
+   "blob": "f451e2f7bc17d9c5738691931964744a568ea5d6",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 43,
+     "text": "### Forms & Inputs \u2192 [forms.md](./rules/forms.md)"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/rules/icons.md",
+   "size": 1958,
+   "blob": "bba8102f01ef9fd9bd7ce2adc73e562869d5d09e",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 74,
+     "text": "### Icons \u2192 [icons.md](./rules/icons.md)"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/rules/styling.md",
+   "size": 4675,
+   "blob": "4e6e063e1c7bc386e49f55da800546571b9e070b",
+   "reached": [
+    {
+     "how": "link",
+     "from": "skills/shadcn/SKILL.md",
+     "line": 33,
+     "text": "### Styling & Tailwind \u2192 [styling.md](./rules/styling.md)"
+    }
+   ]
+  },
+  {
+   "path": "skills/shadcn/scripts/showcase-coverage.mjs",
+   "size": 1453,
+   "blob": "d8a4eab93cb2da6dbe24290483cf570c7d04bf6e",
+   "reached": [
+    {
+     "how": "variable-path",
+     "from": "skills/shadcn/design-system.md",
+     "line": 358,
+     "text": "node <skill-dir>/scripts/showcase-coverage.mjs src/components/ui src   # Vite."
+    }
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "kind": "cli",
+   "name": "shadcn",
+   "evidence": [
+    {
+     "from": "skills/shadcn/SKILL.md",
+     "line": 12,
+     "text": "> **IMPORTANT:** Run all CLI commands using the project's package runner: `npx shadcn@latest`, `pnpm dlx shadcn@latest`, or `bunx --bun shadcn@latest` \u2014 based on the project's `packageManager`. Examples below use `npx shadcn@latest` but substitute the correct runner for the project."
+    }
+   ]
+  },
+  {
+   "kind": "cli",
+   "name": "tsc",
+   "evidence": [
+    {
+     "from": "skills/shadcn/design-system.md",
+     "line": 92,
+     "text": "npx tsc -p tsconfig.app.json --noEmit   # Vite."
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@fontsource-variable/cormorant-garamond",
+   "evidence": [
+    {
+     "from": "skills/shadcn/design-system.md",
+     "line": 214,
+     "text": "npm install @fontsource-variable/inter @fontsource-variable/cormorant-garamond @fontsource-variable/jetbrains-mono"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@fontsource-variable/inter",
+   "evidence": [
+    {
+     "from": "skills/shadcn/design-system.md",
+     "line": 214,
+     "text": "npm install @fontsource-variable/inter @fontsource-variable/cormorant-garamond @fontsource-variable/jetbrains-mono"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "@fontsource-variable/jetbrains-mono",
+   "evidence": [
+    {
+     "from": "skills/shadcn/design-system.md",
+     "line": 214,
+     "text": "npm install @fontsource-variable/inter @fontsource-variable/cormorant-garamond @fontsource-variable/jetbrains-mono"
+    }
+   ]
+  },
+  {
+   "kind": "package",
+   "name": "date-fns",
+   "evidence": [
+    {
+     "from": "skills/shadcn/SKILL.md",
+     "line": 163,
+     "text": "- **`packageManager`** \u2192 use this for any non-shadcn dependency installs (e.g. `pnpm add date-fns` vs `npm install date-fns`)."
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "ref": "components.json",
+   "from": "skills/shadcn/cli.md",
+   "line": 3,
+   "text": "Configuration is read from `components.json`.",
+   "why": "Configuration in the user project, not this repository's file."
+  },
+  {
+   "ref": "registry.json / public/r",
+   "from": "skills/shadcn/cli.md",
+   "line": 244,
+   "text": "Builds `registry.json` into individual JSON files for distribution. Default input: `./registry.json`, default output: `./public/r`.",
+   "why": "User-authored registry input and generated output, not repository content."
+  },
+  {
+   "ref": "@/lib/utils",
+   "from": "skills/shadcn/design-system-page.md",
+   "line": 253,
+   "text": "They import `cn` from `@/lib/utils`. Rewrite that path to the project's `utils` alias.",
+   "why": "Explicitly rewrite to the user project utils alias; not a repository import."
+  },
+  {
+   "ref": "/docs/ai-elements/base/*",
+   "from": "skills/shadcn/rules/chat.md",
+   "line": 225,
+   "text": "  /docs/ai-elements/base/confirmation. Once answered, the tool part is a line",
+   "why": "Website routes, not repository-relative paths; fetched documentation is a network requirement."
+  },
+  {
+   "ref": "zod",
+   "from": "skills/shadcn/registry.md",
+   "line": 110,
+   "text": "  \"dependencies\": [\"zod\"],",
+   "why": "Illustrative registry payload, not an instruction to install this specific dependency."
+  },
+  {
+   "ref": "cn",
+   "from": "skills/shadcn/rules/styling.md",
+   "line": 154,
+   "text": "import { cn } from \"cn\"",
+   "why": "Example spelling denotes the project utility per preceding prose, not an npm package requirement."
+  },
+  {
+   "ref": "src/components/ui and src (or components/ui and app)",
+   "from": "skills/shadcn/design-system.md",
+   "line": 358,
+   "text": "node <skill-dir>/scripts/showcase-coverage.mjs src/components/ui src   # Vite.",
+   "why": "Script reads installed components and showcase code in the user project, not files from the source repository."
+  },
+  {
+   "ref": "sonner / next-themes / lucide-react / @tabler/icons-react / @shadcn/react",
+   "from": "skills/shadcn/assets/showcase/color-pair.tsx",
+   "line": 1,
+   "text": "import * as React from \"react\"",
+   "why": "O2: copied app templates and Markdown imports are not run-script imports; auto-installed dependency prose is not an install command."
+  },
+  {
+   "ref": "mcp.md",
+   "from": "skills/shadcn/registry.md",
+   "line": 20,
+   "text": "workflows, templates, MCP files, and other project files.",
+   "why": "No path or link to mcp.md; MCP files is a capability mention only."
+  },
+  {
+   "ref": "vite",
+   "from": "skills/shadcn/design-system.md",
+   "line": 96,
+   "text": "Fix generated files that fail strict checks (for example, an unused `React` import) before moving on, or `vite build` will fail.",
+   "why": "Mentioned consequence of type errors, not a command the agent is told to run."
+  },
+  {
+   "ref": "api.npoint.io",
+   "from": "skills/shadcn/cli.md",
+   "line": 107,
+   "text": "npx shadcn@latest add https://api.npoint.io/abc123 --dry-run",
+   "why": "Example fetch is already covered by the shadcn CLI entry; no additional agent network fetch under the Outside definition."
+  }
+ ],
+ "unreferencedOwnFolder": [
+  {
+   "path": "skills/shadcn/agents/openai.yml",
+   "size": 238
+  },
+  {
+   "path": "skills/shadcn/assets/shadcn-small.png",
+   "size": 1049
+  },
+  {
+   "path": "skills/shadcn/assets/shadcn.png",
+   "size": 3852
+  },
+  {
+   "path": "skills/shadcn/evals/evals.json",
+   "size": 10626
+  },
+  {
+   "path": "skills/shadcn/mcp.md",
+   "size": 3510
+  }
+ ],
+ "judgement": [
+  {
+   "item": "Fontsource and date-fns installation examples",
+   "text": "npm install @fontsource-variable/inter @fontsource-variable/cormorant-garamond @fontsource-variable/jetbrains-mono",
+   "call": "included",
+   "reason": "O2 counts concrete install commands, including examples and alternatives. date-fns also appears in inline installation commands at SKILL.md:163."
+  },
+  {
+   "item": "Copied React showcase templates",
+   "text": "import * as React from \"react\"",
+   "call": "included",
+   "reason": "React is a runtime dependency of the copied-and-rendered helpers; recorded as an O2 misreading. Other Markdown user-app imports and the auto-installed @shadcn/react mention remain excluded by O2."
+  },
+  {
+   "item": "Documentation URL results",
+   "text": "```bash",
+   "call": "included",
+   "reason": "The docs command explicitly directs fetching its returned URLs; the concrete hosts are shown at cli.md:174\u2013175. This is a separate agent fetch, not only CLI-internal networking."
+  },
+  {
+   "item": "mcp.md",
+   "text": "workflows, templates, MCP files, and other project files.",
+   "call": "excluded",
+   "reason": "No reached text references mcp.md. A registry capability to distribute MCP files neither loads the file nor names an MCP server."
+  },
+  {
+   "item": "vite build",
+   "text": "Fix generated files that fail strict checks (for example, an unused `React` import) before moving on, or `vite build` will fail.",
+   "call": "excluded",
+   "reason": "The phrase says a build will fail without fixes; it does not instruct running vite. tsc is explicitly run in the preceding shell fence."
+  }
+ ],
+ "namedSkills": [],
+ "misreadings": [
+  {
+   "ruling": "O2",
+   "item": "react",
+   "from": "skills/shadcn/assets/showcase/color-pair.tsx",
+   "line": 1,
+   "text": "import * as React from \"react\"",
+   "ruling_gives": "excluded",
+   "definition_gives": "included",
+   "reason": "The skill explicitly directs copying and rendering this helper. Its runtime React import is a package needed to load it, even though the copied TSX helper is not a run script. Include React under the frozen Outside requirement definition.",
+   "status": "superseded by adjudication or Jang ruling"
+  }
+ ],
+ "adjudications": [
+  {
+   "round": "r1",
+   "id": "0b4a3261bf834c09",
+   "item": {
+    "kind": "network",
+    "name": "raw.githubusercontent.com"
+   },
+   "counts": false,
+   "ruling": "O3",
+   "reason": "The URL sits in a `txt` fence that sketches the CLI's fetch flow \"when implementing GitHub registry fetching\"; it is not a command or script the skill runs, and no prose line tells the agent to fetch it.",
+   "misreading": null
+  },
+  {
+   "round": "r1",
+   "id": "c175de8c2e41a053",
+   "item": {
+    "kind": "package",
+    "name": "react"
+   },
+   "counts": false,
+   "ruling": "O2",
+   "reason": "color-pair.tsx is a showcase helper that the agent copies into the user's project, not a run script, so its react import is a user-project import.",
+   "misreading": null
+  },
+  {
+   "round": "jang-r1",
+   "item": {
+    "kind": "network",
+    "name": "ui.shadcn.com"
+   },
+   "counts": false,
+   "ruling": "D2.2",
+   "reason": "The URL sits in a bash fence as printed output (`docs  https://\u2026`), not fetched by a fetching command.",
+   "decided_by": "Jang via executive, decisions-r1"
+  }
+ ]
+}

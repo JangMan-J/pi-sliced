@@ -5,6 +5,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Harness } from "../drive.ts";
+import { mcp, emit } from './mcp.ts';
 import { blobSha, type WalkEntry } from "../lib.ts";
 import { toolResults } from "../rpc.ts";
 import { agentName, requireSeam, serve, state } from "./common.ts";
@@ -47,7 +48,11 @@ export default async function (h: Harness) {
     { text: "done" },
   ]);
   const run1 = await pi1.prompt("Use both served skills.");
-  const tools1 = toolResults(run1.records);
+  let tools1 = toolResults(run1.records);
+  if (h.args.channel === 'mcp') {
+    const loaded = await mcp(h,pi1, `const out=[]; for(const q of ['tdd','game-ui-frontend']) {const ts=await searchTools(q,{namespace:'pi_sliced',limit:100});const t=ts.find(t=>t.name.includes('__load_'+q.replace(/-/g,'_')+'_'));if(!t)throw new Error(JSON.stringify(ts));const r=await tools[t.name]({});out.push({toolName:t.name,args:{},isError:!!r.isError,text:r.content[0].text});} ${emit('out')}`);
+    tools1 = [...loaded, ...tools1.filter(t=>t.toolName==='read')];
+  }
   const exit1 = await pi1.close();
   const after = snap();
 
@@ -88,6 +93,7 @@ export default async function (h: Harness) {
   ]);
   const run2 = await pi2.prompt("Use the skills from before.");
   const tools2 = toolResults(run2.records).map((t) => ({ ...t, sampleHits: samples.filter((s) => t.text.includes(s)).length }));
+  const mcpAfter = h.args.channel === 'mcp' ? await mcp(h,pi2, `const ts=await searchTools('load',{namespace:'pi_sliced',limit:100}); const rejected=[]; for(const name of ${JSON.stringify(tools1.filter(t=>t.toolName.startsWith('mcp__')).map(t=>t.toolName))}) {try {await tools[name]({}); rejected.push(false);}catch {rejected.push(true);}} ${emit('({tools:ts,rejected})')}`) : {tools:[],rejected:[]};
   const exit2 = await pi2.close();
 
   h.write("result.json", {
@@ -104,6 +110,7 @@ export default async function (h: Harness) {
     samples: samples.length,
     state2: st2,
     tools2,
+    mcpAfter,
     exit2,
   });
 }

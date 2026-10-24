@@ -15,7 +15,7 @@ const PROBES: Array<[string, number]> = [
   ["8.8.8.8", 53],
 ];
 
-const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.finish(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
+const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.abort(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
 const listed = new Map(cat.skills.map((s) => [s.id, s]));
 for (const id of PROOF_NINE) v.ok(listed.has(id), `${CATALOGUE} does not admit ${id}`);
 if (v.fails.length) v.finish(`${CATALOGUE} does not admit the nine Candidates`);
@@ -31,7 +31,7 @@ try {
   const err = readJson(`${run.out}/error.json`);
   const sb = readJson(`${run.out}/sandbox.json`);
   const res = readJson(`${run.out}/result.json`);
-  if (err || !res || !sb) v.finish(`session did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
+  if (err || !res || !sb) v.abort(`session did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
   const allowKey = `${run.allow!.host}:${run.allow!.port}`;
 
   // The sandbox: no Author's local files, no third party, the Author's server reachable.
@@ -92,7 +92,12 @@ try {
     v.note(`${id}@${e.revision.slice(0, 12)}: ${got.size}/${want.size} files match the Trace (${traceName}) by path and blob SHA`);
   }
   // Nothing else readable in the session dir.
-  for (const f of files) if (!claimed.has(f.path)) v.fail(`session dir holds an unclaimed entry: ${f.path}`);
+  for (const f of files) if (!claimed.has(f.path) && !(process.env.PI_SLICED_CHANNEL === 'mcp' && f.path === '.mcp-state.json')) v.fail(`session dir holds an unclaimed entry: ${f.path}`);
+  for (const s of res.supporting ?? []) {
+    v.ok(s.matched, `supporting file read differs: ${s.id} ${s.path}`);
+    v.note(`supporting read: ${s.id} ${s.path}, ${s.bytes} B, blob ${s.blob}, equal=${s.matched}`);
+  }
+  v.ok(res.supporting?.length === 2, 'two supporting-file reads required');
 
   // Every connection that left the sandbox went to the Author's server.
   const pc = readPcap(run.pcap!, run.local!);
@@ -107,7 +112,7 @@ try {
     `pcap: ${pc.packets} frames; TCP connections: ${pc.connects.length}, all to ${[...new Set(pc.connects.map((c) => `${c.dst}:${c.dport}`))].join(", ") || "none"}; UDP flows: ${pc.udp.length}; ${inBytes} B in from ${allowKey} (distinct traced bytes ${fileBytes})`,
   );
   v.ok(res.exit === 0, `pi exited ${res.exit}`);
-  writeOut("serve.json", { files: traced, connects: pc.connects, bytes: pc.bytes, sandbox: sb });
+  writeOut(`serve-${process.env.PI_SLICED_CHANNEL || 'tool'}.json`, { files: traced, supporting: res.supporting, connects: pc.connects, bytes: pc.bytes, sandbox: sb });
   run.cleanup();
   v.finish(`${PROOF_NINE.length} Candidates served from ${allowKey}, ${traced} traced files compared by blob SHA`);
 } catch (e) {

@@ -1,5 +1,5 @@
 // Proof 7: the cost of a Served skill the agent has not read is measured.
-// Payload of one identical prompt for Slices of 0, 1, 10 and 50 skills (catalogue check-fifty).
+// Payload of one identical prompt for Slices of 0, 1, 10 and 50 genuinely admitted skills.
 // Pass: Δ(N) = |payload(N)| − |payload(0)| ≤ F + Σ(len(name) + len(description) + 128), with F the
 // fixed overhead measured from the 1-skill Slice and the same for every size, and no payload holds
 // a Served skill's body or reference file text.
@@ -7,14 +7,14 @@ import { fetchCatalogue, readJson, Verdict, writeOut } from "./host.ts";
 import { runSandbox, serverUrl } from "./sandbox.ts";
 
 const v = new Verdict("check-cost", 7);
-const CATALOGUE = "check-fifty";
+const CATALOGUE = process.env.PI_SLICED_COST_CATALOGUE || "admitted";
 const SIZES = [0, 1, 10, 50];
 const FRAMING = 128;
 const bytes = (s: string) => Buffer.byteLength(s, "utf8");
 /** Bytes `s` occupies inside a JSON string. */
 const jsonBytes = (s: string) => bytes(JSON.stringify(s)) - 2;
 
-const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.finish(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
+const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.abort(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
 const ids = cat.skills.map((s) => s.id);
 const sizes = SIZES.filter((n) => n <= ids.length);
 if (ids.length < 50)
@@ -32,7 +32,7 @@ const run = await runSandbox({
 try {
   const err = readJson(`${run.out}/error.json`);
   const r = readJson(`${run.out}/result.json`);
-  if (err || !r) v.finish(`sessions did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
+  if (err || !r) v.abort(`sessions did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
   const runs: any[] = r.runs;
   const empty = runs.find((x) => x.n === 0);
   const B0 = bytes(empty.body);
@@ -58,7 +58,7 @@ try {
     const nameDesc = sk.reduce((s, e) => s + bytes(e.listed) + bytes(e.description), 0);
     // Actual per-skill text: its section line "- <name>: <description>" and separator, JSON-escaped.
     const lineBytes = sk.reduce((s, e) => s + jsonBytes(`- ${e.listed}: ${e.description}\n`), 0);
-    const fixed = delta - lineBytes; // what remains is the overhead that does not depend on the skills
+    const fixed = process.env.PI_SLICED_CHANNEL === 'mcp' ? delta : delta - lineBytes; // what remains is the overhead that does not depend on the skills
     if (x.n === 1) F = fixed;
     const p = parse(x.body);
     rows.push({
@@ -66,7 +66,7 @@ try {
       payloadBytes: B,
       deltaBytes: delta,
       namesAndDescriptions: nameDesc,
-      perSkillFramingMax: sk.length ? Math.max(...sk.map((e) => jsonBytes(`- ${e.listed}: ${e.description}\n`) - bytes(e.listed) - bytes(e.description))) : 0,
+      perSkillFramingMax: process.env.PI_SLICED_CHANNEL === 'mcp' ? 0 : sk.length ? Math.max(...sk.map((e) => jsonBytes(`- ${e.listed}: ${e.description}\n`) - bytes(e.listed) - bytes(e.description))) : 0,
       fixedOverhead: x.n ? fixed : 0,
       toolsDelta: bytes(JSON.stringify(p.tools ?? [])) - bytes(JSON.stringify(p0.tools ?? [])),
       systemDelta: bytes(JSON.stringify(sys(p))) - bytes(JSON.stringify(sys(p0))),
@@ -87,23 +87,24 @@ try {
   const one = rows.find((x) => x.n === 1);
   const report = {
     catalogue: CATALOGUE,
+    channel: process.env.PI_SLICED_CHANNEL || 'tool',
     measured: new Date().toISOString(),
     emptySlicePayloadBytes: B0,
     F,
-    F_parts: one ? { servedSkillToolDefinition: one.toolsDelta, promptSectionFixedText: (F ?? 0) - one.toolsDelta } : undefined,
+    F_parts: one ? { toolDefinitions: one.toolsDelta, promptSectionFixedText: (F ?? 0) - one.toolsDelta } : undefined,
     framingPerSkillAllowed: FRAMING,
     rows,
     missingSizes: SIZES.filter((n) => !sizes.includes(n)),
   };
-  writeOut("cost.json", report);
+  writeOut(`cost-${process.env.PI_SLICED_CHANNEL || "tool"}.json`, report);
   console.log(JSON.stringify(report, null, 2));
-  v.note(`F = ${F} B: served_skill tool definition ${one?.toolsDelta} B + fixed prompt-section text ${(F ?? 0) - (one?.toolsDelta ?? 0)} B (measured from N=1)`);
+  v.note(`F = ${F} B: tool definitions ${one?.toolsDelta} B + fixed prompt-section text ${(F ?? 0) - (one?.toolsDelta ?? 0)} B (measured from N=1)`);
   for (const row of rows)
     v.note(
       `N=${row.n}: payload ${row.payloadBytes} B, Δ ${row.deltaBytes} B${row.n ? ` ≤ bound ${row.bound} B; fixed ${row.fixedOverhead} B; per-skill framing ≤ ${row.perSkillFramingMax} B` : ""}; ${row.bodyLinesProbed} body/reference lines probed, ${row.bodyLinesFound} found`,
     );
   run.cleanup();
-  v.finish(`payload sizes for Slices of ${sizes.join(", ")} written to server/harness/out/cost.json`);
+  v.finish(`payload sizes for Slices of ${sizes.join(", ")} written to server/harness/out/cost-${process.env.PI_SLICED_CHANNEL || 'tool'}.json`);
 } catch (e) {
   v.fail(String((e as Error).stack ?? e));
   v.finish(`harness error (work dir ${run.work})`);

@@ -47,7 +47,7 @@ const h: Harness = {
   ext: join(stage, "extensions/pi-sliced/index.ts"),
   mock,
   startPi(opts = {}) {
-    const argv = [cli, "--mode", "rpc", "--provider", "pi-sliced-mock", "--model", "mock"];
+    const argv = [cli, "--mode", "rpc", "--provider", "pi-sliced-mock", "--model", "mock", "--tools", "+codemode"];
     if (opts.ext !== false) argv.push("-e", h.ext);
     argv.push("-e", join(here, "mock-provider.ts"));
     const pi = new PiRpc({

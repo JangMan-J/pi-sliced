@@ -17,7 +17,7 @@ const run = await runSandbox({
 try {
   const err = readJson(`${run.out}/error.json`);
   const r = readJson(`${run.out}/result.json`);
-  if (err || !r) v.finish(`session did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
+  if (err || !r) v.abort(`session did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
   const [home, tmp] = r.roots as string[];
 
   // Session 1 served A and B, and the agent loaded and read a file of each.
@@ -54,6 +54,8 @@ try {
   for (const row of rows) v.note(`  ${row}`);
 
   // Session 2: empty Slice; A and B cannot be loaded or read.
+  v.ok(r.mcpAfter?.tools.length === 0, 'session 2: MCP tools remain discoverable');
+  if (process.env.PI_SLICED_CHANNEL === 'mcp') v.ok(r.mcpAfter.rejected.length === 2 && r.mcpAfter.rejected.every(Boolean), 'session 2: old MCP load calls were not rejected');
   v.ok(r.state2.slice.length === 0, `session 2: Slice not empty: ${r.state2.slice.map((e: any) => e.id).join(", ")}`);
   v.ok(r.state2.sessionDir === null, `session 2: has a session dir at start: ${r.state2.sessionDir}`);
   v.ok(!r.state2.activeTools.includes("served_skill"), `session 2: served_skill is active with an empty Slice`);

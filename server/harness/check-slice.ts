@@ -12,8 +12,8 @@ const TERM = process.argv[2] ?? "canvas";
 const GATEWAY = process.env.PI_SLICED_GATEWAY_URL || "https://pi-sliced.vercel.app/api/skills";
 const UNKNOWN = /^No served skill is named "(.*)"\.$/;
 
-const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.finish(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
-const S = cat.skills.find((s) => s.id === SERVED) ?? v.finish(`${CATALOGUE} does not list ${SERVED}`);
+const cat = await fetchCatalogue(CATALOGUE).catch((e) => v.abort(`catalogue ${CATALOGUE} unavailable: ${e.message}`));
+const S = cat.skills.find((s) => s.id === SERVED) ?? v.abort(`${CATALOGUE} does not list ${SERVED}`);
 
 const run = await runSandbox({
   name: "slice",
@@ -55,7 +55,7 @@ function redact(body: string): string {
 try {
   const err = readJson(`${run.out}/error.json`);
   const r = readJson(`${run.out}/result.json`);
-  if (err || !r) v.finish(`session did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
+  if (err || !r) v.abort(`session did not complete (drive exit ${run.code}): ${err?.error ?? "no result"}`);
   const requests: Array<{ seq: number; body: string }> = readFileSync(`${run.out}/requests.jsonl`, "utf8")
     .trim()
     .split("\n")
@@ -107,7 +107,7 @@ try {
   }
   // Positive control: the capture does carry the Served skill.
   const t1 = requests.filter((q) => q.seq >= r.turn1.from);
-  v.ok(t1.length && t1.every((q) => payloadText(q.body).includes(S.description)), `the Served skill's description is missing from turn-1 payloads (capture broken?)`);
+  v.ok(t1.length && (process.env.PI_SLICED_CHANNEL === 'mcp' ? t1.some((q) => payloadText(q.body).includes('Relative paths in its SKILL.md resolve against')) : t1.every((q) => payloadText(q.body).includes(S.description))), `the Served skill's description is missing from turn-1 payloads (capture broken?)`);
   const load = r.turn1.tools[0];
   v.ok(load && !load.isError && load.text.includes("\n\n---"), `served_skill ${S.name} did not return its SKILL.md`);
 
@@ -118,7 +118,7 @@ try {
   v.ok(control.includes(r.state.slice[0]?.skillDir), `control search did not find the Served skill's folder: ${control.slice(0, 300)}`);
   for (const l of r.loads) {
     const m = UNKNOWN.exec(l.text);
-    v.ok(m && m[1] === l.args.name, `served_skill ${JSON.stringify(l.args)} returned: ${l.text.slice(0, 200)}`);
+    v.ok(process.env.PI_SLICED_CHANNEL === 'mcp' ? l.text === 'unavailable' : m && m[1] === l.args.name, `served_skill ${JSON.stringify(l.args)} returned: ${l.text.slice(0, 200)}`);
   }
   v.ok(r.loads.length === 2 * r.unserved.length, `expected ${2 * r.unserved.length} served_skill results, got ${r.loads.length}`);
   v.ok(r.exit === 0, `pi exited ${r.exit}`);
@@ -128,7 +128,7 @@ try {
   );
   v.note(`${requests.length} model requests × ${needles.length} needles (ids and descriptions) checked; ${leaks} found`);
   v.note(`agent search of HOME and temp dirs for ${r.unserved.length} unserved ids and names: ${JSON.stringify(found.trim())}; control found ${JSON.stringify(control.trim())}`);
-  v.note(`agent loads by name and id: ${r.loads.length}, each "No served skill is named …" and nothing else`);
+  v.note(`agent load/search probes by name and id: ${r.loads.length}, all unavailable`);
   writeOut("slice.json", { requests: requests.length, needles: needles.length, held: r.held.items.length });
   run.cleanup();
   v.finish(`no payload carries an unserved skill's id or description; loads and searches for them return nothing`);

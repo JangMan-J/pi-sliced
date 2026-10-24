@@ -66,6 +66,10 @@ const NS_ADDR = "10.213.0.2";
 const NS_GW = "10.213.0.1";
 
 export async function runSandbox(o: SandboxOptions): Promise<SandboxRun> {
+  const channel = process.env.PI_SLICED_CHANNEL || "tool";
+  if (!["tool", "mcp"].includes(channel)) throw new Error(`invalid PI_SLICED_CHANNEL: ${channel}`);
+  o = { ...o, sessionEnv: { ...o.sessionEnv, PI_SLICED_CHANNEL: channel } };
+  o.args = { ...(o.args as object ?? {}), channel };
   const work = mkdtempSync(join(tmpdir(), `pisliced-harness-${o.name}-`));
   const stage = join(work, "stage");
   const dirs = { home: join(work, "home"), tmp: join(work, "tmp"), proj: join(work, "proj"), out: join(work, "out") };

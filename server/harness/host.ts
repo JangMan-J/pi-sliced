@@ -88,6 +88,10 @@ export class Verdict {
     if (!cond) this.fail(msg);
     return !!cond;
   }
+  abort(summary: string): never {
+    this.fail(summary);
+    return this.finish('measurement did not complete');
+  }
   finish(summary: string): never {
     const pass = this.fails.length === 0;
     for (const n of this.notes) console.log(`  ${n}`);

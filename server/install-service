@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Link, enable and (re)start the Author's server as a systemd user service.
+# Needs the TLS identity from server/make-cert and a built store (server/build-catalogue.mjs).
+set -euo pipefail
+repo="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
+unit=pi-sliced-author.service
+dropin="${XDG_CONFIG_HOME:-$HOME/.config}/systemd/user/$unit.d"
+
+mkdir -p "$dropin"
+printf '[Service]\nEnvironment=PI_SLICED_REPO=%s\n' "$repo" > "$dropin/repo.conf"
+systemctl --user link "$repo/server/$unit"
+systemctl --user daemon-reload
+systemctl --user enable "$unit"
+systemctl --user restart "$unit"
+sleep 1
+systemctl --user --no-pager status "$unit" | head -n 12

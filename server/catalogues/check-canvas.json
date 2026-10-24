@@ -1,0 +1,14 @@
+{
+  "name": "check-canvas",
+  "admit": [
+    {
+      "candidate": "anthropics/skills/canvas-design",
+      "revision": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "domain": "Design & UI",
+      "summary": "Makes an original poster or art piece as PNG or PDF, starting from a written design philosophy, for a one-off visual that should look designed rather than templated."
+    }
+  ],
+  "domains": {
+    "Design & UI": "Making visuals and interfaces: art pieces, game screens, app components."
+  }
+}

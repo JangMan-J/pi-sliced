@@ -1,0 +1,66 @@
+{
+  "name": "check-nine",
+  "admit": [
+    {
+      "candidate": "anthropics/skills/canvas-design",
+      "revision": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "domain": "Design & UI",
+      "summary": "Makes an original poster or art piece as PNG or PDF, starting from a written design philosophy, for a one-off visual that should look designed rather than templated."
+    },
+    {
+      "candidate": "openai/plugins/game-ui-frontend",
+      "revision": "0722921d5542fc593105c27bd52630babd8b8c2a",
+      "domain": "Design & UI",
+      "summary": "Lays out HUDs, menus and overlays for a browser game so the interface stays readable without covering the playfield."
+    },
+    {
+      "candidate": "shadcn-ui/ui/shadcn",
+      "revision": "e55b60b1014cccfb9ac62f97e0d20b5b649f4a54",
+      "domain": "Design & UI",
+      "summary": "Adds, styles and fixes shadcn/ui components through the shadcn CLI and the project's own config, for a React app built on shadcn/ui."
+    },
+    {
+      "candidate": "heygen-com/hyperframes/hyperframes-core",
+      "revision": "00d55a7f1dab0765296793b4da2f3e791b5ce42e",
+      "domain": "Video & cameras",
+      "summary": "Writes HTML compositions that HyperFrames renders to video (timing, tracks, media, deterministic rendering), for producing a video from code."
+    },
+    {
+      "candidate": "nvidia/skills/amc-run-video-calibration",
+      "revision": "80fd955e037bbd73cd1799fe0c6fd6612bedb8e0",
+      "domain": "Video & cameras",
+      "summary": "Calibrates a multi-camera setup from recorded cam_*.mp4 files through NVIDIA's AutoMagicCalib service, once the footage and a running AMC stack are at hand."
+    },
+    {
+      "candidate": "figma/mcp-server-guide/figma-generate-diagram",
+      "revision": "056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+      "domain": "Diagrams",
+      "summary": "Turns a flowchart, sequence, state, ER or gantt request into an editable FigJam diagram through Figma's MCP server, and says up front which diagram types it cannot draw."
+    },
+    {
+      "candidate": "mattpocock/skills/tdd",
+      "revision": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "domain": "Testing & debugging",
+      "summary": "Keeps a red-green test-first loop honest (what a good test is, where tests go, which patterns to avoid) while building a feature or fixing a bug."
+    },
+    {
+      "candidate": "openai/plugins/debug-zoom-integration",
+      "revision": "0722921d5542fc593105c27bd52630babd8b8c2a",
+      "domain": "Testing & debugging",
+      "summary": "Narrows down why a Zoom app, SDK or API integration fails, layer by layer, into ranked hypotheses and a short fix plan."
+    },
+    {
+      "candidate": "shopify/shopify-ai-toolkit/shopify",
+      "revision": "a788f6a87cad4be5dfac814605a7288dc9e8f3db",
+      "domain": "Commerce",
+      "summary": "Writes and validates code for any Shopify surface (Admin API, Functions, themes, Hydrogen, CLI) against Shopify's own references, or sets up a new store."
+    }
+  ],
+  "domains": {
+    "Design & UI": "Making visuals and interfaces: art pieces, game screens, app components.",
+    "Video & cameras": "Producing video from code, and calibrating cameras from recorded footage.",
+    "Diagrams": "Explaining a system, flow or plan as a diagram someone can edit.",
+    "Testing & debugging": "Getting code right the first time, and finding out why it broke.",
+    "Commerce": "Building stores, storefronts and apps on a commerce platform."
+  }
+}

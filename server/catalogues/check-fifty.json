@@ -1,0 +1,6 @@
+{
+  "name": "check-fifty",
+  "admitTraced": {
+    "limit": 50
+  }
+}

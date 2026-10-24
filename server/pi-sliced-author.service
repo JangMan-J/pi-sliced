@@ -1,0 +1,16 @@
+[Unit]
+Description=pi-sliced Author's server (HTTPS, GET only)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+# PI_SLICED_REPO comes from the drop-in written by server/install-service.
+ExecStart=/usr/bin/node ${PI_SLICED_REPO}/server/author-server.mjs
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=yes
+PrivateTmp=yes
+UMask=0077
+
+[Install]
+WantedBy=default.target

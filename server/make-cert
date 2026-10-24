@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+# Make the Author's server TLS identity, idempotently.
+#   key  ~/.config/pi-sliced/server/key.pem   (0600, never committed)
+#   cert ~/.config/pi-sliced/server/cert.pem  (self-signed, IP SAN, 10 years)
+#   copy extensions/pi-sliced/author-server.pem (committed; the client's only CA)
+# An existing key and cert are kept; only the committed copy is refreshed from them.
+set -euo pipefail
+
+ip="${PI_SLICED_SERVER_IP:-185.8.106.248}"
+dir="${PI_SLICED_SERVER_CONFIG:-$HOME/.config/pi-sliced/server}"
+repo="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
+pinned="$repo/extensions/pi-sliced/author-server.pem"
+
+mkdir -p "$dir"
+chmod 0700 "$dir"
+
+if [[ ! -s "$dir/key.pem" || ! -s "$dir/cert.pem" ]]; then
+  umask 077
+  openssl req -x509 -newkey ec -pkeyopt ec_paramgen_curve:P-256 -nodes \
+    -keyout "$dir/key.pem.tmp" -out "$dir/cert.pem.tmp" \
+    -days 3650 -subj "/CN=$ip" \
+    -addext "subjectAltName=IP:$ip" \
+    -addext "basicConstraints=critical,CA:TRUE" \
+    -addext "keyUsage=critical,digitalSignature,keyCertSign" \
+    -addext "extendedKeyUsage=serverAuth" 2>/dev/null
+  mv "$dir/key.pem.tmp" "$dir/key.pem"
+  mv "$dir/cert.pem.tmp" "$dir/cert.pem"
+fi
+chmod 0600 "$dir/key.pem"
+chmod 0644 "$dir/cert.pem"
+
+# The key must belong to the cert.
+if ! cmp -s <(openssl x509 -in "$dir/cert.pem" -noout -pubkey) <(openssl pkey -in "$dir/key.pem" -pubout); then
+  echo "make-cert: $dir/key.pem does not match $dir/cert.pem" >&2
+  exit 1
+fi
+
+cmp -s "$dir/cert.pem" "$pinned" 2>/dev/null || cp "$dir/cert.pem" "$pinned"
+openssl x509 -in "$pinned" -noout -subject -ext subjectAltName -enddate -fingerprint -sha256

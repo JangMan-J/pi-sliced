@@ -2,6 +2,10 @@
 // CLIs it runs, packages it installs or its run scripts import, credentials it
 // sets or reads, MCP servers it names, and hosts it fetches from.
 import { isMarkup, isScript } from "./refs.ts";
+import { lineSignals, runnerSignals, type Signal } from "./signals.ts";
+
+// Signals seen while extracting one file's Outside requirements (set for the duration of extractOutside).
+let SIG: Signal[] = [];
 
 export type OutsideKind = "cli" | "package" | "mcp-server" | "credential" | "network";
 
@@ -249,7 +253,11 @@ function fromCommand(words: string[], ev: Evidence, out: Collected[], strict: bo
   if (runner) {
     const args = w.slice(runner).filter((a) => !a.startsWith("-"));
     const n = args.length ? pkgName(args[0]) : null;
-    if (n) out.push({ kind: "cli", name: n, ev });
+    if (n) {
+      out.push({ kind: "cli", name: n, ev });
+      const runnerName = runner === 2 ? `${cmd} ${w[1]}` : cmd;
+      runnerSignals(runnerName, args[0], w.slice(runner + 1), ev.from, ev.line, SIG);
+    }
     return;
   }
   if (strict || relative) return;
@@ -556,7 +564,8 @@ function scriptHosts(l: string, ev: Evidence, out: Collected[], shell: boolean):
   for (const m of l.matchAll(/["'`]\s*(https?:\/\/[^"'`\s]+)/g)) hosts(m[1], ev, out);
 }
 
-export function extractOutside(path: string, text: string): Outside[] {
+export function extractOutside(path: string, text: string, signals: Signal[] = []): Outside[] {
+  SIG = signals;
   const out: Collected[] = [];
   const lines = text.split("\n");
   if (/\.d\.ts$/.test(path)) {
@@ -572,6 +581,7 @@ export function extractOutside(path: string, text: string): Outside[] {
       const ev = { from: path, line: n, text: l.trim().slice(0, 300) };
       if (/^\s*(?:#|\/\/)/.test(l)) continue;
       if (shell) for (const c of commands(l)) fromCommand(c, ev, out, false, fns);
+      lineSignals(l, path, n, SIG);
       installsIn(l, ev, out);
       scriptHosts(l, ev, out, shell);
       secrets(l, ev, out, true);
@@ -607,6 +617,7 @@ export function extractOutside(path: string, text: string): Outside[] {
           noteInstall(l, n);
           installsIn(l, ev, out); // also `# pip install x` beside a command, or a quoted install hint
           if (/^\s*#/.test(l)) continue;
+          lineSignals(l, path, n, SIG);
           for (const c of commands(l)) fromCommand(c, ev, out, false, fns);
           fetchedHosts(l, ev, out, vars);
           secrets(l, ev, out, false);
@@ -632,7 +643,10 @@ function prose(l: string, ev: Evidence, out: Collected[], heading = ""): void {
       const cmd = isCommandSpan(inner, l, l.slice(0, m.index!));
       for (const c of commands(inner)) fromCommand(c, ev, out, !cmd);
       installsIn(inner, ev, out);
-      if (cmd) fetchedHosts(inner, ev, out);
+      if (cmd) {
+        fetchedHosts(inner, ev, out);
+        lineSignals(inner, ev.from, ev.line, SIG);
+      }
     }
     secrets(inner, ev, out, false);
     if (new RegExp(`^${SECRET_NAME}$`).test(inner) && SECRET_LISTED.test(l) && (ENV_HEADING.test(heading) || /env/i.test(ev.from.split("/").pop()!)) && !/runtime[- ]only/i.test(heading))

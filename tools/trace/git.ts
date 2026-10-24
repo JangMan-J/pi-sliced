@@ -48,8 +48,20 @@ export function remoteUrl(source: string): string {
     : `https://github.com/${source}.git`;
 }
 
+// A Revision's tree never changes, so an opened Repo is kept for the life of the process.
+const opened = new Map<string, Repo>();
+
 /** Open `source` at `revision`, fetching the commit and its trees if needed. */
 export function openRepo(source: string, revision: string): Repo {
+  const key = `${source}@${revision}`;
+  const have = opened.get(key);
+  if (have) return have;
+  const repo = openRepoUncached(source, revision);
+  opened.set(key, repo);
+  return repo;
+}
+
+function openRepoUncached(source: string, revision: string): Repo {
   if (!SOURCE.test(source)) throw new Error(`bad source: ${source}`);
   if (!REVISION.test(revision)) throw new Error(`bad revision (want 40 hex): ${revision}`);
   const dir = join(cacheRoot(), `${source}.git`);

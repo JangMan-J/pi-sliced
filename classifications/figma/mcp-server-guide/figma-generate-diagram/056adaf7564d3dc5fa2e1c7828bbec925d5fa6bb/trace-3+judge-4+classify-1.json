@@ -1,0 +1,147 @@
+{
+ "format": "pi-sliced.classification/1",
+ "classifier": "classify-1",
+ "candidate": "figma/mcp-server-guide/figma-generate-diagram",
+ "revision": "056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+ "trace": {
+  "path": "traces/figma/mcp-server-guide/figma-generate-diagram/056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb/trace-3+judge-4.json",
+  "sha256": "f01891576c8fb62ee74c9989d8330162477d233e568313285c3f51cbf2ad6103"
+ },
+ "status": "resolved",
+ "footprint": {
+  "files": 64,
+  "bytes": 1310113,
+  "own": {
+   "files": 8,
+   "bytes": 110887
+  },
+  "otherSkills": {
+   "count": 5,
+   "files": 56,
+   "bytes": 1199226
+  },
+  "packages": [],
+  "repoFiles": {
+   "files": 0,
+   "bytes": 0
+  },
+  "assets": {
+   "fonts": 0,
+   "images": 0,
+   "media": 0,
+   "other": 0,
+   "bytes": 0
+  },
+  "outside": {
+   "cli": [
+    "figma"
+   ],
+   "package": [
+    "@figma/code-connect"
+   ],
+   "mcp-server": [
+    "figma"
+   ],
+   "credential": [
+    "FIGMA_ACCESS_TOKEN"
+   ],
+   "network": []
+  },
+  "summary": "64 files, 1.2 MiB · +5 other skills · MCP figma · CLI figma · packages @figma/code-connect · 1 key"
+ },
+ "heavy": {
+  "heavy": true,
+  "because": [
+   "files total 1.2 MiB (> 1 MiB)",
+   "1 package to install",
+   "1 MCP server",
+   "1 CLI",
+   "1 credential"
+  ]
+ },
+ "markers": [
+  {
+   "marker": "runs-commands",
+   "because": [
+    "runs figma"
+   ]
+  },
+  {
+   "marker": "installs-packages",
+   "because": [
+    "installs @figma/code-connect"
+   ]
+  },
+  {
+   "marker": "credentials",
+   "because": [
+    "needs FIGMA_ACCESS_TOKEN"
+   ]
+  },
+  {
+   "marker": "mcp-server",
+   "because": [
+    "uses the figma MCP server"
+   ]
+  },
+  {
+   "marker": "chain-loads",
+   "because": [
+    "pulls in 3 files of the skill at skills-figquery/figma-code-connect",
+    "pulls in 1 file of the skill at skills-figquery/figma-generate-design",
+    "pulls in 16 files of the skill at skills-figquery/figma-generate-library",
+    "pulls in 22 files of the skill at skills-figquery/figma-use",
+    "pulls in 14 files of the skill at skills-figquery/figma-use-figjam"
+   ]
+  },
+  {
+   "marker": "unpinned-code",
+   "because": [
+    "install @latest: skills-figquery/figma-code-connect/references/api.md:543",
+    "npx figma: skills-figquery/figma-code-connect/references/api.md:551, skills-figquery/figma-code-connect/references/api.md:557, skills-figquery/figma-code-connect/references/api.md:562"
+   ]
+  }
+ ],
+ "security": {
+  "fetch-run": [
+   "install @latest @ skills-figquery/figma-code-connect/references/api.md:543",
+   "npx figma @ skills-figquery/figma-code-connect/references/api.md:551, skills-figquery/figma-code-connect/references/api.md:557, skills-figquery/figma-code-connect/references/api.md:562 +9"
+  ]
+ },
+ "companions": {
+  "named": [],
+  "pulled": [
+   {
+    "path": "skills-figquery/figma-code-connect",
+    "files": 3,
+    "bytes": 60134
+   },
+   {
+    "path": "skills-figquery/figma-generate-design",
+    "files": 1,
+    "bytes": 29467
+   },
+   {
+    "path": "skills-figquery/figma-generate-library",
+    "files": 16,
+    "bytes": 221052
+   },
+   {
+    "path": "skills-figquery/figma-use",
+    "files": 22,
+    "bytes": 739375
+   },
+   {
+    "path": "skills-figquery/figma-use-figjam",
+    "files": 14,
+    "bytes": 149198
+   }
+  ]
+ },
+ "checkoutReach": {
+  "edges": 0,
+  "targets": [],
+  "files": 0,
+  "bytes": 0
+ }
+}

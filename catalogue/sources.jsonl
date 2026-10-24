@@ -1,0 +1,564 @@
+{"source":"aave/skills","revision":"3fec2a661968940e5431351f1fe5903452d02981","pinned":"2026-10-24","from":"archive"}
+{"source":"addyosmani/agent-skills","revision":"aeac41d4d005999432bb7312f7ff06383a91d59d","pinned":"2026-10-24","from":"archive"}
+{"source":"android/skills","revision":"a3f56b8fc83039c407e20a7b4789c2b6ea192d57","pinned":"2026-10-24","from":"archive","head":"4ebabf2b0fd6c04b7150023c8b612f80592a6226","headPinned":"2026-10-24"}
+{"source":"antfu/skills","revision":"feb0f3aba6566426f12230e7fc7a10d97c1293bb","pinned":"2026-10-24","from":"archive","head":"8886fe2d385d3644cbb47e46ae9cb1cf09307d3b","headPinned":"2026-10-24"}
+{"source":"anthropics/anthropic-cookbook","revision":"a162e0184e71b60290808a43961a6cbc8060123c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/anthropic-quickstarts","revision":"930ad10bb2e21a9ef97fe1a88d2037e18a24465c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-agent-sdk-demos","revision":"826b268506a5f3707623c9e6140b200befcbebae","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-code","revision":"318b7e6ac4e726e88a4ad326214866a93c373b1b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-cookbooks","revision":"a162e0184e71b60290808a43961a6cbc8060123c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-for-legal","revision":"4a6c651889c97cc9140580363c73e0eb17379c2b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-plugins-official","revision":"58267944f92187b7d6a1c822165c96c81c864806","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-plugins-public","revision":"58267944f92187b7d6a1c822165c96c81c864806","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-quickstarts","revision":"930ad10bb2e21a9ef97fe1a88d2037e18a24465c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/claude-skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/anthropics/claude-skills.git/' not found"}
+{"source":"anthropics/cookbook","revision":"a162e0184e71b60290808a43961a6cbc8060123c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/cwc-workshops","revision":"4c34ec4863dfdc6b0ba3a473bd3408eb38660c22","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/financial-services","revision":"574ed3624aebd0418c7e96cd101262f30210ab26","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/financial-services-plugins","revision":"574ed3624aebd0418c7e96cd101262f30210ab26","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/healthcare","revision":"c7ed150d376bdd13219eb0bfeb4203e12da85516","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/knowledge-work-plugins","revision":"33d3dea41a341b341d4f5da2e8801ae0c89be2b8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/life-sciences","revision":"6aab04111074ac932ef9f72e36216ab6ff153f11","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"anthropics/skills","revision":"dbd4588f9e1033efb41dad4bef2f7947c8993d44","pinned":"2026-10-24","from":"archive"}
+{"source":"antithesishq/antithesis-skills","revision":"4ce26aa6f0021bd99d401918b79c7bb906180858","pinned":"2026-10-24","from":"archive","head":"ca4b8fba0991dbaf4b1b57bea9a4b9605725025f","headPinned":"2026-10-24"}
+{"source":"apify/actors-mcp-server","revision":"e45c1cd6bde0b8bac2dab192f30ba77299ae6b26","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"apify/agent-skills","revision":"f22557f15941aa6a5bc7539f0408d509d4a32ab6","pinned":"2026-10-24","from":"archive"}
+{"source":"apify/apify-mcp-server","revision":"e45c1cd6bde0b8bac2dab192f30ba77299ae6b26","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"apify/awesome-skills","revision":"1eb0cd0c12e35a0d0a17c23f0f462d7062fd5813","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"apify/mcpc","revision":"bc18da280576cf36f753d38ef8f3f1fb9d9f2673","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"apollographql/apollo-client","revision":"c4aeadcd44688b39aa5f60d8bee178531c546028","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"apollographql/skills","revision":"f9843dce86b1a561e3bfbb024e65c28a6cbbe38c","pinned":"2026-10-24","from":"archive"}
+{"source":"astronomer/agents","revision":"486ee63d01f8126c52fbc92c36cd36ec31708dcd","pinned":"2026-10-24","from":"archive"}
+{"source":"auth0/agent-skills","revision":"7b3821d533430eef35fd7406a87b7b8d02302bdf","pinned":"2026-10-24","from":"archive"}
+{"source":"automattic/agent-skills","revision":"48d4aa21d0da0e7bda1c7ac155fef2e16b87aa25","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/claude-code-wordpress.com","revision":"052ca970df2c577d7c651e784935186ff93e6779","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/claude-woocommerce-toolkit","revision":"d70538707247a4d3e6a940c554a9dd4e7010b3d1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/pocket-casts-ios","revision":"c0086a18b0771cb4bdb7d5ec3780d86ae9327580","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/radical-pipelines","revision":"4314bae5af3443753cf5aaacd7931247fd95fdf2","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/studio","revision":"7a451b57e0919707b9c7567d8b79065a897c5aad","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/wordpress-activitypub","revision":"7dc8a6d66f83b599f9e37922071c914a6c735509","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/wordpress-agent-skills","revision":"ea902bd8301564fa33e336c34114ab121f24c800","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"automattic/wp-calypso","revision":"67601b6af489432b541ebad2d4fae154d15ae87e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"aws/agent-toolkit-for-aws","revision":"658b852f0612ca629d56d0a4de52738fb6a58714","pinned":"2026-10-24","from":"archive","head":"e8c630949189f03b3dd77388c86b06a7f2f911a9","headPinned":"2026-10-24"}
+{"source":"axiomhq/cli","revision":"94c467e9aa5e8e0a940628c5e77149cc3831cfa8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"axiomhq/gilfoyle","revision":"631b5ee5e434f89197ef358fa490b96eb13cc21b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"axiomhq/skills","revision":"192670f9ffb5519aee99bc0fdc0307a77455e5b4","pinned":"2026-10-24","from":"archive","head":"a392cdb775b3514fd3e2acb4da75f603d1385ebc","headPinned":"2026-10-24"}
+{"source":"badlogic/pi-skills","revision":"90bb51cae36515a648515b633a81c0c6efc8c74d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"base/agent-apps","revision":"394d659acc69be6e8261ccf842fc2964a0f045fb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"base/base-skills","revision":"ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"base/skills","revision":"ef8bcd52ccc2e79de846cdf8d16b6fc62cf459a4","pinned":"2026-10-24","from":"archive"}
+{"source":"better-auth/agent-auth","revision":"e89bd038d8229ef008b184a75033f2d03a6d2514","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"better-auth/better-icons","revision":"033316ecb8f4982235af4111a2257e80231f5ab1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"better-auth/skills","revision":"20c9e88a5c007461a703f1c213572b073196113e","pinned":"2026-10-24","from":"archive"}
+{"source":"bitwarden/ai-plugins","revision":"f57db069f72e5f0aba7b6e7beecd0a72df86f103","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"bitwarden/android","revision":"d3f8e2d01c1825f0efe1fc2a1b592a2a94f73980","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"bitwarden/clients","revision":"c0ca72a0c83cc8b7f990138ac04961cf63d985bc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"box/box-for-ai","revision":"84320fd8984b95cab430335cd341d8314c14bbcb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"box/skills","revision":"84320fd8984b95cab430335cd341d8314c14bbcb","pinned":"2026-10-24","from":"archive"}
+{"source":"brave/brave-core","revision":"1e6f00267d382150bac8f87266a163d36e609eb8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"brave/brave-search-skills","revision":"62793e0c49ed2fc7c8f0c99a8ab8898abdf32a1d","pinned":"2026-10-24","from":"archive"}
+{"source":"browser-use/browser-harness","revision":"6d1c39adbcba5599a35182a19bcfbb0859e50abb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"browser-use/browser-harness-js","revision":"2d9a5ed37ed11f31b2622cd69c4b55f979cb905f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"browser-use/browser-use","revision":"aa093a843da5edbf323c0b4145c9b6a0db3ecde8","pinned":"2026-10-24","from":"archive","head":"3df5806a0d097a1546d92c49bcf1b28c9972c3bd","headPinned":"2026-10-24"}
+{"source":"browser-use/browsercode","revision":"b200643fe0eb93ce5a3aadd4bb21cb6cceb2ed04","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"browser-use/video-use","revision":"43cfc566833548093455c9d4a46bd69913b7e552","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"browserbase/browse-plugin","revision":"63058628010474f4b9509ea9bcb0afd0528ef738","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"browserbase/skills","revision":"6811ca31163332d9d60309cff48e77f09de37a17","pinned":"2026-10-24","from":"archive"}
+{"source":"callstackincubator/agent-device","revision":"c48d27a819c1af69373c2afd78862f6c747e8961","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"callstackincubator/agent-react-devtools","revision":"d25f34b568467e0b1fcde39410410bb514829a69","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"callstackincubator/agent-skills","revision":"59e9d17446a248b21d86f078fcd0bd2d36db1ca4","pinned":"2026-10-24","from":"archive"}
+{"source":"callstackincubator/ai","revision":"d4ce05ff1b39e203fb1d2585dd0484ef91d84050","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"callstackincubator/cordierite","revision":"be5e37afb5457bac106ade3de71bbbc2309db224","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"callstackincubator/react-native-ai","revision":"d4ce05ff1b39e203fb1d2585dd0484ef91d84050","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"callstackincubator/react-native-harness","revision":"d4e2d5d9e8c6b140a6ae570da542da1cbee09e71","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"callstackincubator/rozenite","revision":"af5b0d7c71ace824261f5453461ea6de8648fd70","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"callstackincubator/voltra","revision":"58f0fd4fd521a267bb35c2181b6e5dcb5c43ee15","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"clerk/cli","revision":"6dbca61ba3350fa4825b7013ce4b4c23a95a7f33","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"clerk/skills","revision":"8482d43fe12a5f06a2b5ab3008615875747a3e4e","pinned":"2026-10-24","from":"archive","head":"d694f2709372feb38b87aa905ee2219a485095ab","headPinned":"2026-10-24"}
+{"source":"clickhouse/agent-skills","revision":"69a8354b05b5942e5cea77b6c87be7788303fc18","pinned":"2026-10-24","from":"archive"}
+{"source":"clickhouse/clickhouse","revision":"310191b4f92c1e524a49a512ebd3dde020247960","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"clickhouse/clickhouse-claude-code-plugin","revision":"652664c8924c5a9454d9a7a5f6191944b4adfb11","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"clickhouse/clickhouse-js","revision":"e82900935f3950bc757ec84fd288389f7e9e5424","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"clickhouse/nerve","revision":"c07641447e4205ee7d448ae2a10a64194924ed48","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"clickhouse/pg_stat_ch","revision":"1ed654109325f4c62827c2d9923909f77e920060","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"cloudflare/bids","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/bids.git/' not found"}
+{"source":"cloudflare/chanfana","revision":"de30d3e6927ba99dd8062b9e1b90bd55d73e2cea","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"cloudflare/cloudflare-docs","revision":"b519cfe1a3d960b94a33945bce1a585f7c2113b8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"cloudflare/com","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/com.git/' not found"}
+{"source":"cloudflare/csops","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/csops.git/' not found"}
+{"source":"cloudflare/cto","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/cto.git/' not found"}
+{"source":"cloudflare/data","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/data.git/' not found"}
+{"source":"cloudflare/devgtm","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/devgtm.git/' not found"}
+{"source":"cloudflare/devtools","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/devtools.git/' not found"}
+{"source":"cloudflare/dlp","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/dlp.git/' not found"}
+{"source":"cloudflare/kumo","revision":"947065ad39694fdc688b1128cc9c360f566a4f73","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"cloudflare/moltworker","revision":"7b00c1d7292190f2327e93bdcc7a0eabb0a26123","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"cloudflare/sal","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/cloudflare/sal.git/' not found"}
+{"source":"cloudflare/sandbox-sdk","revision":"643233e5159d5d9d184f50196c8294f451745004","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"cloudflare/skills","revision":"86505e44f87d801aa1864a3c4109e9a8ae5c409f","pinned":"2026-10-24","from":"archive"}
+{"source":"cloudflare/vinext","revision":"12a64c7ed0a41960317a6bf418f763edbedef186","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"cloudflare/workerd","revision":"b50b4cce23a0d026033d7ba0f8732d0cff3303c9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"coderabbitai/claude-plugin","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/coderabbitai/claude-plugin.git/' not found"}
+{"source":"coderabbitai/codex-plugin","revision":"35779b453cca18aa7cd3176f0bb73a8c75d11da8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"coderabbitai/skills","revision":"a8777050c0d9034d5de6beff3dfac9b43acb9854","pinned":"2026-10-24","from":"archive"}
+{"source":"coinbase/agentic-wallet-skills","revision":"70cb79c85f397fab3636ef07c8c99dc52a7c555f","pinned":"2026-10-24","from":"archive"}
+{"source":"coinbase/cds","revision":"d35ad8e2c164cbd3ddccfed26720844b6f1db506","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"composiohq/awesome-claude-skills","revision":"be2a406907dbc61b73e6827ded415c96139d13a2","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"contentful/adn-tooling.git","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/contentful/adn-tooling.git.git/' not found"}
+{"source":"contentful/skills","revision":"6dc5d75db7fc6515658e8f8eb2394d76292cfdf3","pinned":"2026-10-24","from":"archive","head":"68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6","headPinned":"2026-10-24"}
+{"source":"contentstack/contentstack-agent-skills","revision":"d1e52b9f3745a29bcfa64561bc8f34a03d52d754","pinned":"2026-10-24","from":"archive","head":"a3615878d5dfffe62622542f4c6c46fe99528d14","headPinned":"2026-10-24"}
+{"source":"contentstack/contentstack-vibe-docs","revision":"b043b0d909ebeb58d4cb697730cfbd198c1e60bf","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"convex-dev/convex","revision":"f424d249a83bf8ed0112f4affa16501f1a737022","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"czlonkowski/n8n-skills","revision":"c640094d949c5a7bfce7d51fc9c049e3dcd3be44","pinned":"2026-10-24","from":"archive"}
+{"source":"dagster-io/dagster-claude-plugins","revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"dagster-io/erk","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/dagster-io/erk.git/' not found"}
+{"source":"dagster-io/fake-driven-testing","revision":"2f84a13b0a7eda8407ecad978c297d30288ffeff","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"dagster-io/skills","revision":"ed0248b1b6b70710a8785e3ff4880b44496c0f94","pinned":"2026-10-24","from":"archive"}
+{"source":"dash0hq/agent-skills","revision":"1e9a37e41f6fbe6a1a1c8a301be10f9d0c7cf3a9","pinned":"2026-10-24","from":"archive","head":"76b6e98cfb1d5f7525f13f9cf85b34a59ccb3af9","headPinned":"2026-10-24"}
+{"source":"datadog-labs/agent-skills","revision":"8925faba5765d1a53a5a5a33a3135105bd130fb9","pinned":"2026-10-24","from":"archive","head":"ef022309cc6b6296e7574589ac332699b1c9a092","headPinned":"2026-10-24"}
+{"source":"datadog-labs/claude-code-plugin","revision":"195f570c002beab3d7bd342739034d0019aa4863","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"datadog-labs/pup","revision":"6c3a4707f5ab87688566020d868a50810db08166","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"davidortinau/maui-skills","revision":"79bb4bfd8f671ed0dd97bdf92a36430928e8d984","pinned":"2026-10-24","from":"archive"}
+{"source":"dbt-labs/dbt-agent-skills","revision":"ef5710860f199897a304eabc8cd5c1973beb60ae","pinned":"2026-10-24","from":"archive","head":"b8facde20b7a92c40ce3e6b86b71c4b92aa44040","headPinned":"2026-10-24"}
+{"source":"deepgram/deepclaw","revision":"3a26a64531d4d076e2133559479737bd80494120","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"deepgram/deepgram-js-sdk","revision":"9767c9d73d949736020ead23403e1588a14e5948","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"deepgram/deepgram-python-sdk","revision":"1fe14db090f6fde6df8ae1c1e529a50f5ab51eab","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"deepgram/skills","revision":"0fc13fad726fb78e17fb1f05ba5942f0d022990f","pinned":"2026-10-24","from":"archive"}
+{"source":"denoland/skills","revision":"d5f6ace6b113aee71ba5286612fa1bde34c7d102","pinned":"2026-10-24","from":"archive"}
+{"source":"dimillian/skills","revision":"05ba982bfeb0d77d3c97d4542b0ee15034d05f84","pinned":"2026-10-24","from":"archive"}
+{"source":"docker/skills","revision":"38df58b09720d38eb78c2c674675ddf9fa74d441","pinned":"2026-10-24","from":"archive","head":"179c9cfd04c89ae50cd5d5d68b939797a8fd03d3","headPinned":"2026-10-24"}
+{"source":"dotnet/skills","revision":"c848e7fffab05c594f9b954c6f3beb373d108447","pinned":"2026-10-24","from":"archive","head":"a6bf43ab61967c30919334986515163ab24d7635","headPinned":"2026-10-24"}
+{"source":"duckdb/duckdb-skills","revision":"7feda8e01e22bc0886c86123f3884947e36d8c69","pinned":"2026-10-24","from":"archive"}
+{"source":"elastic/agent-skills","revision":"baa511126ba2dc37b52e273b52734f8e4e0d323c","pinned":"2026-10-24","from":"archive"}
+{"source":"elevenlabs/packages","revision":"93991e27a52bcd241c5d2fcb0cb4f23e4c24c2d0","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"elevenlabs/skills","revision":"269e5f0e5a4cf296a8a38beb166245b89d5e2c1c","pinned":"2026-10-24","from":"archive","head":"9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421","headPinned":"2026-10-24"}
+{"source":"emilkowalski/skills","revision":"2d228630ba1446365f614a108cb8252f1feda202","pinned":"2026-10-24","from":"archive"}
+{"source":"encoredev/skills","revision":"87e106997cffba55cd5e96af341ee3a2d009024d","pinned":"2026-10-24","from":"archive","head":"60b4d33d4d47ff305a67f88fc4df57773519c9ad","headPinned":"2026-10-24"}
+{"source":"exploreomni/omni-agent-skills","revision":"3a0640e4d2fbe76386a2aebd34670a0a20eb9863","pinned":"2026-10-24","from":"archive"}
+{"source":"exploreomni/omni-claude-skills","revision":"03bc3052b7ebb6c5ce9cb750fdfe350e3fd2af41","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"exploreomni/omni-cursor-plugin","revision":"842e457f62e607b36d0530de125c609a308ad529","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"expo/expo","revision":"bcf9121e8dd50d0f276ad457d36fff4d8f9a235f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"expo/skills","revision":"55ec65cd16499f20f14fb10fe99a2e62901b00a1","pinned":"2026-10-24","from":"archive","head":"d5caf7fdf8b4854351f05841a7e315ac87ad7d24","headPinned":"2026-10-24"}
+{"source":"facebook/buck2","revision":"320edc3be81c4d58ddad9dcac8d661bf55c11f78","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"facebook/hermes","revision":"393a539e645944a6ce879afc18ea8ddaa9232a08","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"facebook/react","revision":"a6b912fbe77f698ad43c922f206db0d4f4ad7485","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"facebook/relay","revision":"4a8b2a2f9cc3030dab3d044ecd485d42b3de4dac","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"factory-ai/factory","revision":"892925c655a97e7a0bc7d558236015ebb22cb214","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"factory-ai/factory-plugins","revision":"aa8be50bc07e9f4ec48db9d57929ce8e2214504a","pinned":"2026-10-24","from":"archive"}
+{"source":"factory-ai/skills","revision":"21a74dec467a1424e3e067712d004cd987d6a0ce","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"figma/dev-mode-mcp-server-guide","revision":"056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"figma/mcp-server-guide","revision":"056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb","pinned":"2026-10-24","from":"archive"}
+{"source":"firebase/agent-skills","revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d","pinned":"2026-10-24","from":"archive"}
+{"source":"firebase/firebase-tools","revision":"926b3fe846dd861f5743e50d45f3475bac6fa209","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firebase/genkit","revision":"3d67720dcc3c36e82d0056ec8d4d6b390fa3c61b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firebase/skills","revision":"92eed24c0976a79a66d5b8038e9eda8b441ef92d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/agent","revision":"ad4bedca12ddcd1c50635e2d37abb1eedb920703","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/agent-skills","revision":"cdc950d588af9bd5975698e4d6db3bff738c4ad0","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/ai-research-skills","revision":"7cfa204ffb6db2ded22376eaf25f3072f3b02f96","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/cli","revision":"f979ae91766a2d80c356c5b8bad61d4e2cc8bcc1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/firecrawl-agent","revision":"ad4bedca12ddcd1c50635e2d37abb1eedb920703","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/firecrawl-claude-plugin","revision":"3e1fb0c319d71b067906b8b602208dded3932cdb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/firecrawl-claude-skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/firecrawl/firecrawl-claude-skills.git/' not found"}
+{"source":"firecrawl/firecrawl-cli","revision":"f979ae91766a2d80c356c5b8bad61d4e2cc8bcc1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/firecrawl-cursor-plugin","revision":"e0e556eb3a60382b66046460d0e48dd0ec881734","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/firecrawl-workflows","revision":"d2a986240f9d786ae54fc33fcfd9ad37308e9cc3","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/openai-skills","revision":"4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/openclaw","revision":"3e1ec5ad8b7424fa3a21caa35d8878627a628730","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/opencode-firecrawl","revision":"c0fd83fef4b0127bc3db2592407c788f410071bc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"firecrawl/skills","revision":"ddfe8eb54d062d39792a7c23c971982d58057be2","pinned":"2026-10-24","from":"archive","head":"2bf714d9f45e85085036a533ceb943c8577aef2b","headPinned":"2026-10-24"}
+{"source":"flutter/agent-plugins","revision":"6e590650bb4bab87f33187423dc10113d04d4836","pinned":"2026-10-24","from":"archive","head":"f813a46b18456a20f37eb5784c091b7d945c3b4b","headPinned":"2026-10-24"}
+{"source":"flutter/flutter","revision":"56aa96cf12bc2d075c61b50f82c3a60ea9e6d08c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"flutter/genui","revision":"584d10327d95f4baaf2553ca167b92bd56816b39","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"flutter/skills","revision":"f813a46b18456a20f37eb5784c091b7d945c3b4b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"flutter/website","revision":"fbe2b9d61c40504330000652ac406cba2fb1b5c1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"get-convex/agent-skills","revision":"191a5c33a7e7a22ec9d5ff13930f84748bbcf8f8","pinned":"2026-10-24","from":"archive"}
+{"source":"getsentry/agent-skills","revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/april-log-summarizer","revision":"b780f8f97bfa617d86d1cc56a9674ca624543873","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/cli","revision":"3567c3c937b5cc06667d5b023bda0b2d3f472c54","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/dotagents","revision":"0899a97d8bff86644331f14c2053236a78d891ca","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/junior","revision":"85b89543fea2ef77dff126a4a0f2e9898204cf4a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/mobilebuildmcp","revision":"d13ff0c707b0681769cf31da0eb42c4f94ceafff","pinned":"2026-10-24","from":"archive","head":"2998ac77ebbca59544e88a27f34bfb830db9d924","headPinned":"2026-10-24"}
+{"source":"getsentry/sdk-skills","revision":"5789a513b9c497b2c883144e8a185187452d2ac5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry","revision":"86b1728a40fc57fd64ca6fb5e7c892b17c061b8c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-agent-skills","revision":"9f54eb021916a7cff2c04a9f4e4c1f9439f3202c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-docs","revision":"d9269600b50af1e957e32799d5618d53812c7734","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-for-ai","revision":"16a86de9eb0e33948c32ccd722958203c21098af","pinned":"2026-10-24","from":"archive","head":"cb3ad7df272ee52326e1f710a866039aecffc460","headPinned":"2026-10-24"}
+{"source":"getsentry/sentry-for-claude","revision":"cb3ad7df272ee52326e1f710a866039aecffc460","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-for-cursor","revision":"e436b5a0977d902407ba72c6ab8a01764dab2c5f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-javascript","revision":"21a9938c36976a230c56380b94c45e5ac789b33c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-mcp","revision":"efd2ebeac47ed8ab9ce4e383746e13e61cfe070f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-python","revision":"9e4ba4c0248a5c7c6c89b61c61aac20d1c8d8d8f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/sentry-skills","revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/skills","revision":"d12f250460ffd961f549dbebf7eeb0cf4afd4c2e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/vitest-evals","revision":"8cff207d4e27a55eca0689722d06b278d70646f1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/warden","revision":"d437fed09d1e9bed44803dd86e994a8c1c93e4f3","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/webvitals.com","revision":"68c95b65f064b0846271e19b2013d9da6219e673","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"getsentry/xcodebuildmcp","revision":"2998ac77ebbca59544e88a27f34bfb830db9d924","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"gitguardian/agent-skills","revision":"425e5ac0a1f4f7b05e1e2d6b899a37007064cc3a","pinned":"2026-10-24","from":"archive"}
+{"source":"github/awesome-copilot","revision":"613efc8c21d9b3ce642dff361d17006cd9967e28","pinned":"2026-10-24","from":"archive","head":"d85f762d6e521abf5fe16703946e9b38adc42da7","headPinned":"2026-10-24"}
+{"source":"github/copilot-cli-for-beginners","revision":"802c19ea0986cd2a11bc0daedb9ad29ae0c081f8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"github/copilot-plugins","revision":"b0216dbc8f6f7ac1cfce85e925dfa5d5e423876a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"github/gh-aw","revision":"317d9005a6bca5ae586c3c3dcc0acf3a9b9d96b1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"github/gh-aw-firewall","revision":"de3c6b984bc832810992f68df7e872b1f0d04637","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"github/gh-stack","revision":"c477b7d1f290a9df463b86773742a5237d14b980","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"github/spec-kit","revision":"67e0f7294e6e728ab60bf7b4590deb470448bc2d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"github/synapsync","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/github/synapsync.git/' not found"}
+{"source":"google-gemini/gemini-api-cli","revision":"0707bcf0f48778e4f108d88522115bada9fed083","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"google-gemini/gemini-cli","revision":"cd1b45c2db0a5ea7b7fc3b67c1ba5879601d6005","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"google-gemini/gemini-skill","revision":"ee9da52195752ca83c2fca701d96bcb5a9c08d2d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"google-gemini/gemini-skills","revision":"ee9da52195752ca83c2fca701d96bcb5a9c08d2d","pinned":"2026-10-24","from":"archive"}
+{"source":"google-labs-code/design.md","revision":"6e5da5382f41edbba9d73b2c62f33f32e9971f15","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"google-labs-code/jules-skills","revision":"7a76d3bfcf4258ee437d65b5d12e54b51c395de5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"google-labs-code/stitch-sdk","revision":"e3f8ece5fee46d18fa621b716bfef1fe56661b10","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"google-labs-code/stitch-skills","revision":"0337446dadde6f8c94210444e2aa9d546126480f","pinned":"2026-10-24","from":"archive"}
+{"source":"google/skills","revision":"a0c086248586d2d12a433c95524a70aa6ebccf88","pinned":"2026-10-24","from":"archive","head":"e0ac7bdbe2611699fa615bd93c3b5628f4d3faab","headPinned":"2026-10-24"}
+{"source":"googleworkspace/cli","revision":"a3768d0e82ad83cca2da97724e46bea4ff0e6dbd","pinned":"2026-10-24","from":"archive"}
+{"source":"grafana/skills","revision":"cc33318b60a7fbc2c69a25122164baf00e805f79","pinned":"2026-10-24","from":"archive","head":"3b653d9b46120c05ec02b27895028e1c31308e18","headPinned":"2026-10-24"}
+{"source":"greensock/gsap-skills","revision":"aed9cfd3277740755f6bfc1155c7aa645403b760","pinned":"2026-10-24","from":"archive"}
+{"source":"hashicorp/agent-skills","revision":"f706481af9b8fedb66de909f6243ad29601afa0c","pinned":"2026-10-24","from":"archive"}
+{"source":"hashicorp/engineering-agent-skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/hashicorp/engineering-agent-skills.git/' not found"}
+{"source":"hashicorp/hashicorp-agent-skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/hashicorp/hashicorp-agent-skills.git/' not found"}
+{"source":"hashicorp/internal-agent-skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/hashicorp/internal-agent-skills.git/' not found"}
+{"source":"hashicorp/terraform-agent-kit","revision":"f706481af9b8fedb66de909f6243ad29601afa0c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"heygen-com/hyperframes","revision":"00d55a7f1dab0765296793b4da2f3e791b5ce42e","pinned":"2026-10-24","from":"archive","head":"cf7266d8158655270b10fc247b82ac9cbf5de99f","headPinned":"2026-10-24"}
+{"source":"huggingface/chat-ui","revision":"d563917c20f663d757bec4b5d659e3db0fb1c48c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/diffusers","revision":"48cdbaef5ee3d718aaee392b44f2099ae511c4a5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/huggingface_hub","revision":"feea5a63f9c725e98f98a0bb899875ec5efa673b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/kernels","revision":"e1bb584fe484aeeaa16089baa77ebae4dfcf08a8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/prime-rl","revision":"41abd0550c756beacb7e5209435dd832dd8624fa","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/sentence-transformers","revision":"33f9bd81610560e48ff5eac80e910496b49ae193","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/skills","revision":"c3ff942be3e07116b475253f0a8fc4f54682c1a8","pinned":"2026-10-24","from":"archive","head":"fabc634a893f62ad5c2039830397efa35fa62715","headPinned":"2026-10-24"}
+{"source":"huggingface/transformers","revision":"50e35cc0ca18ec19b80653690de553e6decf74f5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/transformers-to-mlx","revision":"1800e733dc99edf6b33c4c631c813e880dc9cb8f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/trl","revision":"9c4fcecbb2233a1b62655cc835a3cc1946ea681d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"huggingface/upskill","revision":"eec8ab46f970a880e4d21cfd41dff50ac08c6847","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"k-dense-ai/scientific-agent-skills","revision":"593377bb048752abb0152deab9fbb1083a6087df","pinned":"2026-10-24","from":"archive"}
+{"source":"kepano/obsidian-skills","revision":"3ccff5338ea700537839b21900aa5358a0402c98","pinned":"2026-10-24","from":"archive"}
+{"source":"kotlin/kotlin-agent-skills","revision":"c2f90697bf71966a117a13340d5fff787f004140","pinned":"2026-10-24","from":"archive"}
+{"source":"langchain-ai/deepagents","revision":"a3381668c4d3b558742101fa7e6b8fe4a64e56ef","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"langchain-ai/deepagentsjs","revision":"144abf243d9766d141e01d384217382903b544ba","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"langchain-ai/langchain-skills","revision":"704e9f4a2f962f449495515f2599502394bc84b2","pinned":"2026-10-24","from":"archive","head":"4f0e6bd5400836b691826622da1969ada6a1c833","headPinned":"2026-10-24"}
+{"source":"langchain-ai/langsmith-skills","revision":"a8c055f4f4c09e2b460042328a0718fe7d7bd982","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"langchain-ai/lca-skills","revision":"93cefb7bb3d3f99bd9a8aeef3c3636c7126cfca9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"langchain-ai/skills-benchmarks","revision":"9195f8c296f7076152cf5c698d6abd4f84853eb9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"langfuse/langfuse","revision":"f3500cd1167ec459851730913ebbb94c5003535c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"langfuse/skills","revision":"127253d0e26dfa77fb6d732d1b70c36625581eb4","pinned":"2026-10-24","from":"archive","head":"4429a94b309980e1cee2f5960c271e123347cb42","headPinned":"2026-10-24"}
+{"source":"larksuite/cli","revision":"017b19a793ad71794a02887ede04757f3d82e10d","pinned":"2026-10-24","from":"archive"}
+{"source":"launchdarkly/agent-skills","revision":"01bc9468b8860b91f2ca340047a83e5a418340fe","pinned":"2026-10-24","from":"archive","head":"820a0418af1725eebdd10922b22edaa88ce694dd","headPinned":"2026-10-24"}
+{"source":"launchdarkly/ai-tooling","revision":"820a0418af1725eebdd10922b22edaa88ce694dd","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"launchdarkly/experimental-agent-skills","revision":"39ec72185f7c00673bea63d6c71795d934e59137","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"leonxlnx/taste-skill","revision":"6010f91a9935f1c167dfc500fb1a475681892e6b","pinned":"2026-10-24","from":"archive"}
+{"source":"livekit/agent-skills","revision":"35c95dfbaf73d039fefc966d76ddb0d5005f85a2","pinned":"2026-10-24","from":"archive","head":"e1195b497388b1aecad5dd2e9a0c9bdfbaba1878","headPinned":"2026-10-24"}
+{"source":"makenotion/claude-code-notion-plugin","revision":"9847f2aa1a15f25df35ed1fb7b4557dbb60cd651","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"makenotion/cursor-notion-plugin","revision":"cf1324609edba6d617164f1dec138aeb43f26735","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"makenotion/notion-cookbook","revision":"8a038e30575514da33329d8d215a9357c01c08ca","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"makenotion/skills","revision":"10e976aa591995fd60c75ef13beba1a8aa827fcc","pinned":"2026-10-24","from":"archive"}
+{"source":"mapbox/mapbox-agent-skills","revision":"f71cd72b8d8937b06db440538bd65559eb792c49","pinned":"2026-10-24","from":"archive"}
+{"source":"mapbox/mcp-devkit-server","revision":"0d707c987da4c72e65fbca0962c91732a862c648","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"mastra-ai/infinite-moves","revision":"2183f72606ff2336aa5750c709f414aa35a6d847","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"mastra-ai/mastra","revision":"01e060c971237b72d75e05a42edc4a67816028f3","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"mastra-ai/skills","revision":"64d98f517876e550a65f239bb5fd5c3fc88b71ea","pinned":"2026-10-24","from":"archive","head":"a8d35ab06d8c845c2ec6780f8f85b30886ebc431","headPinned":"2026-10-24"}
+{"source":"mattpocock/skills","revision":"5beb35b040e3de97e54fa9e386d7e42d15c295c2","pinned":"2026-10-24","from":"archive"}
+{"source":"mcp-use/mcp-use","revision":"20f35582fbd3ceb05a01025295ac9e22d626a9cf","pinned":"2026-10-24","from":"archive","head":"f877f789e7b4979e62e5cbe221bfb29ebb86d1bd","headPinned":"2026-10-24"}
+{"source":"mcp-use/skills","revision":"3bf0eaa4b007fe3215fc81ef1bc4f9ba4ceb1c1e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"medusajs/medusa-agent-skills","revision":"4b495d5e2b4b0189a72de899e801eb84f168380e","pinned":"2026-10-24","from":"archive","head":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc","headPinned":"2026-10-24"}
+{"source":"medusajs/medusa-claude-plugins","revision":"42b9afd28b22ee6077d3c0ea8b5444a8c9bee1bc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/a11y-llm-eval","revision":"f6ac724b119d6f65e28177a16e0b5dde1f0654f8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/agent-framework","revision":"4982e4c61ec81cc4f9ba0cbdb5594ed530dbbcfe","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/agent-governance-toolkit","revision":"70a4ab8e8a0434f481ba85a52ccf988a0572ceeb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/agent-skills","revision":"2130750147dee0311215099ddf36647ba1e0f006","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/agent365-devtools","revision":"4fd85ec798a096d5b5c2c2591fd301dea27c8098","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/ai-agents-for-beginners","revision":"735e18437e07f1812af3d088baa00cb93108532a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/apm","revision":"2920043258932f0f67e6f01df7b9047eb42f358c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/aspire","revision":"7a8a24ea649df02e1edeead53ab78e305202acf3","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/aspire-skills","revision":"02d82d2de9ba787eeba1e2577be8377308b1b889","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/azure-devops-skills","revision":"844a1f6f5202aa920ce5b1be95c056d529d63ded","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/azure-skills","revision":"5be6708de8c5af9dd54b175b98ea00ed2d35deae","pinned":"2026-10-24","from":"archive","head":"f3b512517ed86feceebfee480a46c971f6c6aff4","headPinned":"2026-10-24"}
+{"source":"microsoft/build-cli","revision":"6565003a929bdb8b9f6f36513106be2e44dd82dd","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/caira","revision":"a36d043784b0ac899764212178df6d0f9e9b85d9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/data-formulator","revision":"5477f0e236426dc8f74a498ec400414fba7fbc0f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/dataverse-skills","revision":"1966192f0bee20216f1b58cf11f8b0c4b0e3edb8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/debugpy","revision":"671f6c7d1b228b8001f659bf61e39b7668587302","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/entra-pocadvisor","revision":"c6f1706496d167cf3ce2b49d1fa996dda1d75cfe","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/eval-guide","revision":"7a22a8957ced79a35fd7b4634fd5b5eac56c308e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/fabric-apps-analytic-templates","revision":"35948c76d93552aa7e2dcd98afe026fcd3d1ed9c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/fabric-cli","revision":"cf67fd52ea8b47e24c725e73d792de6f4a08e2e4","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/fast","revision":"2b199ce3ded38c33d9cf83d6b185e0061d2dc5b2","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/fluentui","revision":"6d3e9d686434d69ac8fc9ca4c4a93f3afaa3d676","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/fluidframework","revision":"fc9e3653738c24aa4337c585437652da5e258d7f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/foundry-ai-solution-templates-creation","revision":"84fdb6269107069eb0d4836b07c10d4667d8734d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/hve-core","revision":"6cd810c7b9448d98ea07db0a7a9124824d32dacc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/onnxruntime","revision":"36f07f760dccb74a96d0a3c851163d6448bdfd21","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/playwright","revision":"b4695e3eb2e6736d1a7b1fd255c4e94f78553660","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/playwright-cli","revision":"b1a5903c5b633b8c9f843ad7b629c2a78437040c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/playwright-python","revision":"7cfdf3f7eb2d40957b3abb4043e6c939ec114928","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/power-platform-skills","revision":"9d2486d27d93c9006b66ee941065be621afa5d6f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/powertoys","revision":"115665ec3240a0c94dea3f0bfaaa6c52dcf4d019","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/rushstack","revision":"37aec0ac881c965ab60745984b20ae1b30e83796","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/semantic-link-labs","revision":"4b63e6f4b412387b8798e6fad189581595fe5a59","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/skills","revision":"28bd7424998a963f07122c5dea91fc02ca443831","pinned":"2026-10-24","from":"archive","head":"2130750147dee0311215099ddf36647ba1e0f006","headPinned":"2026-10-24"}
+{"source":"microsoft/skills-for-copilot-studio","revision":"fd9653d0ec743b39443596d7132f907d0d993f1f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/skills-for-fabric","revision":"bc42aaf734771bf752c1d7082dd91e5a6ca72b9f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/synapseml","revision":"acd6a8cc5f914a3d443d9666a8c4599d65f067da","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/teams-sdk","revision":"13a90f9c7b09737599e317ecf958b1de0500aa3b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vcpkg","revision":"b42e8ed051d17a7f95b9d2a3140c1f9296423712","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vibe-kit","revision":"6590f598c1a7294d7b3c8874721af4cca1908679","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vscode","revision":"1184ad4d45794110deb6b897ea83b15aac44ed89","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vscode-copilot-chat","revision":"5863f5a7088958050792b5dccbe8b46c6e13eccc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vscode-cosmosdb","revision":"a6b5edb823ab62c1f60ce4c4e23f24168bd2e735","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vscode-docs","revision":"a03090533810eb02e5b9a2a650e2a3df32192b42","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vscode-java-dependency","revision":"cc51c437a26e864fd0882fbbe6b5b2d743cf9956","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/vscode-pull-request-github","revision":"f2e0eb9cdc01c2f6815e43c83e21aabfce25b33c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/waza","revision":"1b763c094145f2dd7e5148898bee957737c6922b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/webwright","revision":"ff44a0524e0812b69814efcec5e583f0d8cdde0c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/win-dev-skills","revision":"5ce74fa89c49ca353c6ab03bd5889aa519aa9e5e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/winappcli","revision":"6564e7adba6d339f2b06868baca050e54687a2b3","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"microsoft/work-iq","revision":"66f62b1467882815de4f571454c209eaac210dc8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"modal-labs/modal-client","revision":"25181da7ae172354d17c911de11c1c3866f515a4","pinned":"2026-10-24","from":"archive","head":"c0bf0c2b50fe9c1a50dfa88bc2c946709f25587c","headPinned":"2026-10-24"}
+{"source":"mongodb/agent-skills","revision":"155bb9c4b42a9a3e019f47be0669de0e4547d1ea","pinned":"2026-10-24","from":"archive"}
+{"source":"n8n-io/n8n","revision":"3c7a553dc009a8d06bfd0b55e013c6df03906965","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"n8n-io/skills","revision":"27b6b9f429ac0be90cae764512dbc579d7107e95","pinned":"2026-10-24","from":"archive"}
+{"source":"neondatabase/agent-skills","revision":"d814689cbba1506b7a25a7a6df5346258ba8ccf8","pinned":"2026-10-24","from":"archive","head":"ccca3334a7542d3133134cc6926f2fafc6edeb1f","headPinned":"2026-10-24"}
+{"source":"neondatabase/ai-rules","revision":"1ceaf89a4e0acfbaf152ac2e85d45afd55f49c0f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"neondatabase/better-env","revision":"5773a5ce4a1e7d93e2df08fcc2a50926b19189b5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"neondatabase/mcp-server-neon","revision":"fd9123cfba3f3e7d03c6bc01bad880251d5bf682","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"neondatabase/neon-for-agent-platforms","revision":"028b69be7180122a2701131f5286104b9e79b10b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"neondatabase/neon-js","revision":"8dc8114f1390613ed7d77e8eeb3f46801ff5a0da","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"neondatabase/postgres-skills","revision":"27fe45e0f71ea89a6eaf9ea4d2e4068957c81c26","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nuxt/image","revision":"8729b2ec8de2b53db29438b6ea24e41d0bb7f889","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nuxt/scripts","revision":"321e7574938db0fb9ff49b76a6c9d8ebdb634387","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nuxt/seo","revision":"74d8773d4b758f53ea8ade3b629cb2c5cc153c3e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nuxt/ui","revision":"bda0b3fb8333a03a4144b4701c889c89d72fdfbc","pinned":"2026-10-24","from":"archive","head":"92e28dcb2537755b914aee359edb8064d474de5c","headPinned":"2026-10-24"}
+{"source":"nvidia/ai-factory-operations-agent","revision":"3daf11a0c56cf8e65de5177d2e74e3344826d226","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/aicr","revision":"b49eaaa41db33bcf40cff443aced396b07613100","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/compileiq","revision":"4df0d5c8dfca8a18068c982115e4c416de5797ef","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/cosmos-framework","revision":"9214f43fadef00919c07853c8fa1c2e7d75444e1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/cuda-quantum","revision":"479f744dab5195a61080852ceef590c18d93d384","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/cudnn-frontend","revision":"8084abad551bab404de9f09218bc186e04946f44","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/cuequivariance","revision":"49a741e00432b0b2f03526aa99599fcdf3903148","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/cuopt","revision":"b5ad4d07c3be0e4796cef8d44d891b7f6ce2a91e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/cuopt-examples","revision":"65224c92ec9750b1c01a66eb09fe65782e027b7e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/dali","revision":"f3858a1f220b0447d4abf5c8dc3e52fe06757e0b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/deepstream","revision":"bbcd9ad3eca558a394318f8a6274e180a1f7bd60","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/dgx-spark-playbooks","revision":"30883150541743d580c9c347700c6ac99fc396d2","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/earth2studio","revision":"de220c012ad18e72e91e197e671911c85d4e4999","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/elements","revision":"2efdddc9272c598845ca8c71833890b1fd658e3a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/flashdreams","revision":"9d98934d965252e7098c88d24fd5431e435b496c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/fleet-intelligence-client","revision":"5e19882290efb2eaf3f2584c6c7d331b8050d621","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/isaaccapture","revision":"32ee7e48498284e048a2d0a70bfbb4662e67d409","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/k8s-launch-kit","revision":"2a68b7d022ca3a550c8a05c6d76131b158baad73","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/k8s-nim-operator","revision":"344da28e18158cf407f0751585ef5c2be2b4db1e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/megatron-lm","revision":"2052769557dcf7045c4091d1996f0bc59afeb80e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/model-optimizer","revision":"0638a274cf195870564d8e3c164e4f859e5be2a2","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nemo","revision":"b19b1a79d86ec30c1de078682b4b3ed0f59098bb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nemo-agent-toolkit","revision":"9ff23211e69d8e548fbe038ce4a6ff63e2154862","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nemo-fabric","revision":"fd3963de708eb49e19d00f0272c9d14a92fd61f1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nemo-relay","revision":"8109e75036c1c97c26fab532fcf6a83f2152babe","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nemo-retriever","revision":"b8925802c11c6715a0f3b26705987e8a718bca61","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nemoclaw","revision":"f0ee12594687930cc378eb351643cb6e12007f39","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nemoclaw-community","revision":"54bac91992830b6249f1f727c0f6d628d3a984e8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nurec-skills","revision":"5b9d287eb7d271147751a119aa490f41edc90363","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nvalchemi-toolkit","revision":"f59e28dc6701583a13bb294e536076c2a7379e98","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nvcf","revision":"ba31b76f7fed92b39a7e3503ea97c5e181778150","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nvflare","revision":"f02a4f20d6d35eccdabb142ddc9b85bb9f2ef327","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nvidia-kaggle","revision":"2b78cf29f5f30680764292a6592de8d53d4147a8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/nvidia-resiliency-ext","revision":"f7bddc6aa1c531f17ee056d92e24a6211f51a5dd","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/omniperf","revision":"a68f3894bee4d31e84d7cdb32de48a005e8d51a5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/openshell","revision":"c4688aa8715ea75d6c39fe468361dbbc16c691fa","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/osmo","revision":"a48a2414a50d1676a43b084afc4658bf2d406f83","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/physical-ai-data-factory","revision":"c2ad83822e25b5ceef1a67d848bbc728c5355134","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/physicsnemo","revision":"b26a88054ae9bdc8d06ce43a3400b49a7e5991e9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/simready-foundation","revision":"702ca5ad7db55ca253bc19b9eab8de2c64eaf78e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/skillevaluator","revision":"c9d170e77bdef0b32a4811fb9b14484578559b2e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/skills","revision":"80fd955e037bbd73cd1799fe0c6fd6612bedb8e0","pinned":"2026-10-24","from":"archive","head":"b71336851ae0416f6eaf4cd623d04749981e7cbf","headPinned":"2026-10-24"}
+{"source":"nvidia/skillspector","revision":"d7338f58200a9ae2a24810cee08911ab68b107a7","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/tensorrt","revision":"16ed0636df41e4a27d46f82d9028fc50fadc7200","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/tensorrt-incubator","revision":"e5b2b59572155f4259cf8bc8a9d220600f054949","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/tensorrt-llm","revision":"ecae3c97e2b646580415518a45a72bc5a5a67075","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/trustworthy-ai","revision":"1a5d5a3fc53210530d990fbbabd1f7f74de571f7","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"nvidia/warp","revision":"363a00d4f779418073e18f1ce399122e991cd7d0","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"obra/superpowers","revision":"b739a8af570e10a95898f2bdf6cec97467fa6c12","pinned":"2026-10-24","from":"archive","head":"2ce8aa15d05bd57213e6f746f953aafb7ded7a8b","headPinned":"2026-10-24"}
+{"source":"openai/codex","revision":"970111f6cb62cc02fe36a82ea7d71b37a2889c97","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openai/codex-plugin-cc","revision":"db52e28f4d9ded852ab3942cea316258ae4ef346","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openai/openai-agents-js","revision":"be4f1f9aa4ad4f03cc5db5fdd57d0d0136923570","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openai/openai-agents-python","revision":"0dc4cf152bff1f50bdc0e41f28808563406545b2","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openai/openai-cookbook","revision":"8495326b6f1b7cec94e7f5e393a4045e328a268e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openai/plugins","revision":"0722921d5542fc593105c27bd52630babd8b8c2a","pinned":"2026-10-24","from":"archive"}
+{"source":"openai/skills","revision":"49f948faa9258a0c61caceaf225e179651397431","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openai/symphony","revision":"be10a1b79df723d6d7612b5651c8522704dafb2e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openhands/extensions","revision":"666e51ef16fc7a4c1286f841a7bff7af54f0bebf","pinned":"2026-10-24","from":"archive","head":"26047067ecd0230d6ce4e15016cbdf786798cba5","headPinned":"2026-10-24"}
+{"source":"openshift/agentic-skills","revision":"da1431b482a4f438723f95e5512a482e9d01e5cc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openshift/hypershift","revision":"ba33ffdda58c1d6c3d4f83c04e4ad85e172166b1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openshift/lightspeed-service","revision":"f5d309774a699c2016ada24d723add74b93889aa","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openshift/oc","revision":"586088c46cba2cd87e1a128a304fe484cf678cd5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"openshift/release-tests","revision":"3d684530241fecee18d3adba9faea67f729c7f54","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"parallel-web/parallel-agent-skills","revision":"88a5201eac1dda998e4f8b66280872ced4be7bb0","pinned":"2026-10-24","from":"archive","head":"6c873020213d981984aa8e897cd55e5413d1322f","headPinned":"2026-10-24"}
+{"source":"parallel-web/parallel-cursor-plugin","revision":"b0fd7db38cf7398d46bc68dd631af9ec285bc55f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"pinecone-io/pckle-cli","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/pinecone-io/pckle-cli.git/' not found"}
+{"source":"pinecone-io/pckle-skill","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/pinecone-io/pckle-skill.git/' not found"}
+{"source":"pinecone-io/pinecone-claude-code-plugin","revision":"c383d38b5cc3c5ec219f2e68026e47ffbf46524a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"pinecone-io/skills","revision":"885dc539fbc2c777dee9764a5b05656663b43c5f","pinned":"2026-10-24","from":"archive"}
+{"source":"planetscale/database-skills","revision":"f6ed002d03084cb39c01d1d58904d47a36f5322a","pinned":"2026-10-24","from":"archive"}
+{"source":"planetscale/vscode-agent-plugin","revision":"ebee976452c16c93b3f3a92ce70eefcb50096381","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"posthog/ai-plugin","revision":"0809767db74e427a9596e8c370d94df288082dc0","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"posthog/context-mill","revision":"e141fc6c8d2a6279bbdd93a01ed90d92357ef9d0","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"posthog/duckgres","revision":"da4aafdc9e6aec9a27363af257acda574d323e32","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"posthog/posthog","revision":"36806304df6201f23bf221e8c8e149e6441fd3d5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"posthog/posthog-for-claude","revision":"4122119322584efc7a3e483b9c1cc2e4903ebeec","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"posthog/posthog.com","revision":"03639dd5288a32dea37ce1d5eeacff98955e364a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"posthog/skills","revision":"b6951f6ee5fa21856939456a35ab33d3733b9b8e","pinned":"2026-10-24","from":"archive","head":"25c608854e09a18fa62ac1890edba37542b65736","headPinned":"2026-10-24"}
+{"source":"prisma/cursor-plugin","revision":"17ded397536e131087cdfe1f8d723b3c91da31ce","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"prisma/ignite","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/prisma/ignite.git/' not found"}
+{"source":"prisma/prisma-next","revision":"55458c441d2cf452028c22eed21370447720840a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"prisma/skills","revision":"ba3f9d73200bbb62e49733ab93a961fd138a2c18","pinned":"2026-10-24","from":"archive"}
+{"source":"projectopensea/opensea-skill","revision":"42418c8dc305784bd67bb19e39796d37eb3bafc4","pinned":"2026-10-24","from":"archive"}
+{"source":"pulumi/agent-skills","revision":"2517e28e4bc029424e9c9ee48016394296be0f6a","pinned":"2026-10-24","from":"archive"}
+{"source":"pulumi/agent-skills-private","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/pulumi/agent-skills-private.git/' not found"}
+{"source":"pytorch/pytorch","revision":"18d8d0974472b71069c8a6d50f1262915e63cd20","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"qdrant/skills","revision":"d2127f6e1b9c6611fff10fe939c6fb17761aaec2","pinned":"2026-10-24","from":"archive","head":"75c3322d562210953adb1717bf91d1c09fd4b77f","headPinned":"2026-10-24"}
+{"source":"redis/agent-skills","revision":"a84871d065f398fed55e1633f66b66f731eb4e2b","pinned":"2026-10-24","from":"archive"}
+{"source":"redis/redisinsight","revision":"43bd288ed30dc6d2355723158dad5d7ecf4a280e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"remotion-dev/codex-plugin","revision":"a6a6c9bb79d9d8d94dd560eb7ec254b205a46f9e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"remotion-dev/html-in-canvas","revision":"d06d8b87cb3a376fd9a189fd7a31c39eeba94142","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"remotion-dev/remotion","revision":"0eddd9ae31e1633b6ebc2ef53c5fb501cd0b5bf5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"remotion-dev/skills","revision":"039e8a2fc78b67efc228d5645367838b85818a1c","pinned":"2026-10-24","from":"archive","head":"6c67adcd9cdbe6eb84d76342da89b225f9161cb2","headPinned":"2026-10-24"}
+{"source":"resend/design-skills","revision":"1dd54fb1883e43ede83c5718712904bb7cb93d0e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"resend/email-best-practices","revision":"cf5438cf10970d715dd204de721ffc89869d8f6d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"resend/email-skills","revision":"cf5438cf10970d715dd204de721ffc89869d8f6d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"resend/react-email","revision":"e0561e164e9c28859d24373804e30b364931ee77","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"resend/resend-cli","revision":"d4367e18c194f2bb555aad99bf8851f21e81606a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"resend/resend-skills","revision":"b2ae7b1798b70134faf679f35fc05b4331462988","pinned":"2026-10-24","from":"archive"}
+{"source":"rivet-dev/rivet","revision":"e8d777d4d81177c9e0d0e87661f79e0fecb6d4fa","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"rivet-dev/sandbox-agent","revision":"67d0ef99249a314d136330d924d39f154023077b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"rivet-dev/skills","revision":"45a76b94aecd77619bcc82bff5486bd0cbc03aee","pinned":"2026-10-24","from":"archive","head":"d4174958dd8800268624f9767c803f2933ecc64c","headPinned":"2026-10-24"}
+{"source":"runwayml/runway-studio-skills","revision":"c1c0348fda3acf4ef864393b6485afb4600eedda","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"runwayml/skills","revision":"3dcbb5b6cdc652e3bb651d6e6c5765e0afc515de","pinned":"2026-10-24","from":"archive"}
+{"source":"sanity-io/agent-context","revision":"2160346f6d6bc1ead100f633f8042311f25eeb82","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"sanity-io/agent-toolkit","revision":"feb9d38412426b0dfca7e6f21aeecdad8507c170","pinned":"2026-10-24","from":"archive","head":"571a2d077554bd1272f31c345ecb7719889e7957","headPinned":"2026-10-24"}
+{"source":"sanity-io/claude-plugins-official","revision":"b7a8f63bb2a7ba83a564c405432ec33183c66198","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"sanity-io/next-sanity","revision":"f691ea56536a7d23fc5528e4c575f37f6b838207","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"sanity-io/plugins","revision":"631643e467cf39d5353b368106281b774aaa6d59","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"sanity-io/sanity","revision":"2ec60a49f16360d96ad150a8399f9a7c31b2f533","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"semgrep/agent-skills","revision":"68177b8830f96cd9d10dacbb14dde2566360503d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"semgrep/cursor-plugin","revision":"df5e095a19f5fd029d68b6ffaf2dd44f27e1708d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"semgrep/skills","revision":"68177b8830f96cd9d10dacbb14dde2566360503d","pinned":"2026-10-24","from":"archive"}
+{"source":"shopify/flash-list","revision":"527d7678190f4f0137f14383ff560efa7fccc9fb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"shopify/hydrogen","revision":"5af8a7d342a974e76234cccf2b38276a2faca9c6","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"shopify/liquid-skills","revision":"ae3e4cc3f454923e388bbd841fd931f0c7bf5be4","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"shopify/shopify-ai-toolkit","revision":"a788f6a87cad4be5dfac814605a7288dc9e8f3db","pinned":"2026-10-24","from":"archive"}
+{"source":"signoz/agent-skills","revision":"cc3724d8c4b305f6c767507fd34b68a6364a2a9d","pinned":"2026-10-24","from":"archive","head":"6bd555327dee977d14d6d850b1cfb9fe872df102","headPinned":"2026-10-24"}
+{"source":"stablyai/orca","revision":"d7ef7741d1fa5ad59ea296331c0f2ef8682263bb","pinned":"2026-10-24","from":"archive","head":"cedce2aa9f45811af3309da6e9bc6e6566fd26ac","headPinned":"2026-10-24"}
+{"source":"streamlit/agent-skills","revision":"c69a265613f17cdd69d42e6f67b704214178fae5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"streamlit/streamlit","revision":"76ac4836ecd332cbedb8f9df5ecc1dbfc568870a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"stripe/agent-toolkit","revision":"cf38a9202b7bf8e352fe3df115af1b0ddecd0b33","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"stripe/ai","revision":"1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e","pinned":"2026-10-24","from":"archive","head":"cf38a9202b7bf8e352fe3df115af1b0ddecd0b33","headPinned":"2026-10-24"}
+{"source":"stripe/com","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/stripe/com.git/' not found"}
+{"source":"stripe/link-cli","revision":"aa145adbbd4bfa4b9f612b13b92b10ea08859148","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"stripe/purl","revision":"65d441167018bf137cdc8ce3d162ec38f260c515","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"supabase/agent-skills","revision":"c9be0e931b7930f7d02126d04774d904c381e7d7","pinned":"2026-10-24","from":"archive"}
+{"source":"supabase/server","revision":"ae24804edc0f78930cd7304e2e6aa58cc9ea7472","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"supabase/supabase","revision":"7e866ef83e89e35cdda45a6c98abd069d5fa1b2f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"sveltejs/ai-tools","revision":"b2589f890e9c5c4a788a557315aa5012d1fba4ba","pinned":"2026-10-24","from":"archive"}
+{"source":"sveltejs/svelte","revision":"356c8766a024d5982c276e898903fadaceaca960","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"tavily-ai/skills","revision":"778122e5f9c680f541eeceda5a5b36405eb7980c","pinned":"2026-10-24","from":"archive"}
+{"source":"tavily-ai/tavily-plugins","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/tavily-ai/tavily-plugins.git/' not found"}
+{"source":"temporalio/agent-skills","revision":"be14524789f3c6e457d8e731af4932e42234c8ea","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"temporalio/claude-temporal-plugin","revision":"be14524789f3c6e457d8e731af4932e42234c8ea","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"temporalio/cursor-temporal-plugin","revision":"3296d8dd807e73ee4ca95148d1be21a20218461e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"temporalio/skill-temporal-cloud","revision":"2d867d1f96ae388ed27f1c48aec817f210b6cd3d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"temporalio/skill-temporal-developer","revision":"3041178b597dddb1b54f49e5e73fbae644fba283","pinned":"2026-10-24","from":"archive","head":"5f5a94d448d53e0d535a7369bf9cb7248620a0bf","headPinned":"2026-10-24"}
+{"source":"temporalio/skills-temporal-cloud","revision":"2d867d1f96ae388ed27f1c48aec817f210b6cd3d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"terramate-io/agent-skills","revision":"fb28900fe71a92cc29428e2f3a08f588ecc6068b","pinned":"2026-10-24","from":"archive"}
+{"source":"tinybirdco/tinybird-agent-skills","revision":"19a3ec18b2270fb82cc3489eabf122da0706e6a0","pinned":"2026-10-24","from":"archive"}
+{"source":"tldraw/tldraw","revision":"12921f6d3996b4330688113371cd88890b673ab5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"trailofbits/skills","revision":"a3131740a39291e42fd15b9eac07e0b393ad71b1","pinned":"2026-10-24","from":"archive","head":"196a9073ab10d35bacf111f945e02c00b2c6883a","headPinned":"2026-10-24"}
+{"source":"triggerdotdev/skills","revision":"8ef5ae6f0cac95c2995abe4c72af1ebef78bcdfd","pinned":"2026-10-24","from":"archive"}
+{"source":"triggerdotdev/trigger.dev","revision":"97ef6390a67a3f88eae959fb560c08ebac059648","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"tursodatabase/agent-skills","revision":"34ced52fd1bd32e802622126e299cfa886d68441","pinned":"2026-10-24","from":"archive"}
+{"source":"uniformdev/agent-skills","revision":"63a07f2990395cb3a5bf846db7563a463395de36","pinned":"2026-10-24","from":"archive"}
+{"source":"unity-technologies/skills","revision":"9d282100540601cfddc4bbd69f36a239d7a6f55c","pinned":"2026-10-24","from":"archive","head":"51f530f4de53da76b4f5e1b9f57d5622df35ae83","headPinned":"2026-10-24"}
+{"source":"upstash/context7","revision":"b5e81de845092694ba1bfc5af15400f319c89b6d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/context7-mcp","revision":"b5e81de845092694ba1bfc5af15400f319c89b6d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/qstash-js","revision":"1ed5ccbfeee1b7afa31321f60be9875694194913","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/ratelimit-js","revision":"fccd840d6e0f893f50bc677107fba4d913a414e3","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/redis-js","revision":"b2a1126b84f9b483180889f98e22bb5b76ba3ca8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/search-js","revision":"27f0c045cb7c776091c1c27571d937710ee0a6d6","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/skills","revision":"3f5e1dd5ef9919ec30b4fcaff25963a8dcffb0db","pinned":"2026-10-24","from":"archive","head":"a5da15b5bdc221a87203c87587c63ee727682a9a","headPinned":"2026-10-24"}
+{"source":"upstash/upstash-redis","revision":"b2a1126b84f9b483180889f98e22bb5b76ba3ca8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/vector-js","revision":"ad3ad721a1d5035c5a891830174cbba8bcd9d10d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"upstash/workflow-js","revision":"2f367b4ee04353281cf32511c89d7281cc7dde45","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vapiai/skills","revision":"be94005f1ba39e30cb57087b0ddf182919209111","pinned":"2026-10-24","from":"archive","head":"0794147cd6edc015575b1d3215e3a29e2b4e8fa1","headPinned":"2026-10-24"}
+{"source":"vercel-labs/academy-skills","revision":"eba71d3ae08862eb2b75820a02bf57708658ec87","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/agent-browser","revision":"372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/agent-eval","revision":"d901a988b2da633d063203b688956083c4d84159","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/agent-skills","revision":"063bee94c3f4df8453406c830b0a7df0f2860278","pinned":"2026-10-24","from":"archive"}
+{"source":"vercel-labs/agentic-commerce-skills","revision":"735241a60ffb77cea3c2c18a1ada0667e6565128","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/ai","revision":"e729d588b3291e22cfcd6cba32b6dcf7778ef21c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/ai-cli","revision":"dc226950a345105dfaa35631bc50b9cdf35bf5cd","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/ai-python","revision":"0f43c91910415616f06df0e1d90e38d792215948","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/autoship","revision":"aeadbaa1d8c8209e3de508c7e6999b843cd274d8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/bash-tool","revision":"70ba5ad4d01be465e76acb5b6bd0c6221a2af1b9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/before-and-after","revision":"8306d34f459b6704e08e6adb5829fcddb0dc3557","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/blob-success-fixture","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel-labs/blob-success-fixture.git/' not found"}
+{"source":"vercel-labs/claude-skills","revision":"063bee94c3f4df8453406c830b0a7df0f2860278","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/cursor-plugin","revision":"95857183947fcc2a478f817c1e5d24ec054b21a9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/deepsec","revision":"4fa67220aff67ac93dfc840206d3d32bfa4411ec","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/dev3000","revision":"c422348707c7082ee87e2d362b6e52da9027ea21","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/dx-agent-toolkit","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel-labs/dx-agent-toolkit.git/' not found"}
+{"source":"vercel-labs/emulate","revision":"361410f1e2e3872cf58c49277e5ce3174e040701","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/json-render","revision":"c6f73d7d5f69acb80fc89faefd12c0865c8603d1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/migration-skills","revision":"a9bdb175792cbb7cf816732790e8020d3c8e2370","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/next-browser","revision":"16ba36e01e790fa317cc6b9d7751543729556b4c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/next-docs-agentic-rag","revision":"1499363ba917dddcdc474b61600ce4111727ad3b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/next-skills","revision":"c522619e45aa3492fd2bfc916b308b275eff7798","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/open-agents","revision":"cf865e94de7729751c747171785b6ce57e7b178c","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/openreview","revision":"672deb21e70e471e0536d5ad7a67c14b8359e97e","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/opensrc","revision":"b51de60867e806da1839b33dd29c29424f12521b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/portless","revision":"0ce58c8a8f35bcdd4b62f0095cd641369f5ab68b","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/py-ai","revision":"0f43c91910415616f06df0e1d90e38d792215948","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/ralph-gpu","revision":"4f47ced574fc9cbef34a176642b356e12bc0a6f5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/sandcastle","revision":"85b678c10defa2b7220a37418f96f4410c4fe1d4","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/sitecore-skills","revision":"8d91731a5d7b6cc5caad620aba86ebba4b9668a6","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/skill-geist-learning-labs","revision":"5fb4ff07b6dd79bb19076beb67bdda6edffc6ffc","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/skill-remotion-geist","revision":"4f7201370f10b31a4517c82619400c1acb0ed4e1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/skills","revision":"a80e4c9d12d607631249d4d7d059f835d4b2f13a","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/skills.git","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel-labs/skills.git.git/' not found"}
+{"source":"vercel-labs/slack-agent-skill","revision":"d30f784c4b527474a417b13c69196784dcc636ee","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/tw-blocks","revision":"0b1d629347e02013f01c5df4805f65d849d18f63","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/vercel-deploy-codex-skill","revision":"baeeb9d6d0acca47400dd4939aa6499100bbd0f0","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/vercel-plugin","revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/vercel-skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel-labs/vercel-skills.git/' not found"}
+{"source":"vercel-labs/webreel","revision":"6d77a6ad0b66170b033488b56f42675a59b3846d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/zero","revision":"7e1a64d27cc37671df31c6370890bce86f5135e1","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel-labs/zero-native","revision":"ff108d0a86468deafbf93f4184355984f8e088c0","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/ai","revision":"0257b47857e2f24807d5b2cab0b56bbdab28809f","pinned":"2026-10-24","from":"archive","head":"e729d588b3291e22cfcd6cba32b6dcf7778ef21c","headPinned":"2026-10-24"}
+{"source":"vercel/ai-elements","revision":"ca8be600bfd01b3131f9bf6134b51602a71f4374","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/chat","revision":"5781d46cd6dc59f2645771d4252b0c7ce305c609","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/components.build","revision":"ba727450437385af662810329fa19896215f76d5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/example","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel/example.git/' not found"}
+{"source":"vercel/examples","revision":"de867239d0a7dd55c9130f1e3f87fcf877db96e8","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/flags","revision":"86df06229b34cd18f6d4b53cb2cb010930953af5","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/internal-agent-skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel/internal-agent-skills.git/' not found"}
+{"source":"vercel/microfrontends","revision":"8b9f7c036cb35f0d1e4ed9d81b32686985b45563","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/next-forge","revision":"f189de79ceef7c1ef69f61f12e272f99b4cdb699","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/next.js","revision":"a04ebd7d22071e581f01409336e9d24be5d57974","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/nextjs-skills","revision":"c522619e45aa3492fd2bfc916b308b275eff7798","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/sandbox","revision":"8910e6205b1c72e1ad6ebaa2ceae236a3aa4d87f","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/skills","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel/skills.git/' not found"}
+{"source":"vercel/slidev-server","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel/slidev-server.git/' not found"}
+{"source":"vercel/streamdown","revision":"97c1f87ff6b231edc6a752f8510a4d6f320bf712","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/turbo","revision":"8003ff0fe919160f68367cd08465b179410e0692","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/turborepo","revision":"8003ff0fe919160f68367cd08465b179410e0692","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/vercel","revision":"c628be7835e03a965b93e9cf9e2bd5ac2acbf5eb","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/vercel-deploy-claude-code-plugin","revision":"ae067751b4f42c97d13054211657275029ca8b6d","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/vercel-pdf-skill","revision":null,"pinned":"2026-10-24","from":"remote HEAD","error":"fatal: repository 'https://github.com/vercel/vercel-pdf-skill.git/' not found"}
+{"source":"vercel/vercel-plugin","revision":"3c88cfc8de5d1e124d23b0ef23f32c5aa127c845","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vercel/workflow","revision":"9d0f748a1cccf67b275ad5b902123d6ca714c2c9","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"vuejs-ai/skills","revision":"f5d4b3b869bb8a86ddfea148196f7db64aeefeab","pinned":"2026-10-24","from":"archive","head":"198f0cd8f7f9c0a3d9b566ccc16de6677519ee78","headPinned":"2026-10-24"}
+{"source":"webflow/webflow-skills","revision":"e0c5321c054a87184484c638f5c490c2083d8639","pinned":"2026-10-24","from":"archive","head":"75af2b737f58ceeb290dfe72703045c312cf0b94","headPinned":"2026-10-24"}
+{"source":"whopio/whop-payments-network-skill","revision":"36dde5cebf9e2036e35f7043610215b4bddafb04","pinned":"2026-10-24","from":"archive"}
+{"source":"wix/react-native-navigation","revision":"3cd6bfeae1c945a4b1a7615fd6abea2ce0203137","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"wix/skills","revision":"9c51902effdd00f4a742c26f1194f48318abab29","pinned":"2026-10-24","from":"archive","head":"687e2faf013aeee2afcaa7ca0456a43754306302","headPinned":"2026-10-24"}
+{"source":"wordpress/agent-skills","revision":"55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15","pinned":"2026-10-24","from":"archive","head":"eff3785fc28c4380d172094518c66a6a997c95d4","headPinned":"2026-10-24"}
+{"source":"wordpress/php-mcp-schema","revision":"eeb9d35a9639715e520113a5edcef374d98a5214","pinned":"2026-10-24","from":"remote HEAD"}
+{"source":"wshobson/agents","revision":"0874a27b17a22e2b7c2e2bcd725768e0803cad06","pinned":"2026-10-24","from":"archive"}

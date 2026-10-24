@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-cat >&2 <<'NOT_BUILT'
-not built: `unshare -rn scripts/rederive` rebuilds every Classification from the stored Traces, byte-identical to the committed ones, lists every Determination whose Trace or Classification changed, and exits 0.
-NOT_BUILT
-exit 1
+# Proof 2: `unshare -rn scripts/rederive` rebuilds every Classification from the stored Traces,
+# byte-identical to the committed ones, lists every Determination whose Trace or Classification changed,
+# and exits 0. Offline: it reads only this repository.
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+exec node tools/classify/rederive.ts "$@"

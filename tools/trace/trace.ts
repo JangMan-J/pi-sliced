@@ -14,9 +14,10 @@ import { dropShorthand, extractOutside, mergeOutside, runnerSubcommands, type Ou
 import { JudgementStore, questionId, type Question, type QuestionClass } from "./judge.ts";
 import { namedSkills, type NamedSkill } from "./named.ts";
 import { governingLicence, type Licence } from "./licence.ts";
+import { fileSignals, mergeSignals, type Signal, type SignalKind } from "./signals.ts";
 
-export const TRACER = "trace-2";
-export const FORMAT = "pi-sliced.trace/1";
+export const TRACER = "trace-3";
+export const FORMAT = "pi-sliced.trace/2";
 
 export interface CandidateInput {
   candidate: string; // <owner>/<repo>/<name>
@@ -39,7 +40,8 @@ export interface TracedFile {
   path: string;
   size: number;
   blob: string;
-  reached: Reach[];
+  reached: Reach[]; // every edge that reaches the file, sorted
+  via: Reach; // the edge the walk found it by (stored)
 }
 
 export interface Trace {
@@ -59,7 +61,17 @@ export interface Trace {
   namedSkills: NamedSkill[];
   checkoutReach: CheckoutReach[];
   licence: Licence | null;
+  signals: { kind: SignalKind; detail: string; at: [string, number][] }[];
+  regions: Region[];
   pending: string[]; // ids of unanswered judgement questions (status "pending")
+}
+
+/** Where the traced files sit (Footprint: what the skill pulls in). */
+export interface Region {
+  kind: "own" | "skill" | "package" | "repo"; // own folder, another skill's folder, a code package outside skill folders, other repo files
+  path: string; // the folder, the package directory, or "" for the repo root
+  files: number;
+  bytes: number;
 }
 
 /** A code edge that leaves the skill folders and plugin root (ruling S1): disclosed, not served. */
@@ -71,6 +83,31 @@ export interface CheckoutReach {
   package: string | null; // the code package around the target, when there is one
   files: number; // files under that package (or the target alone)
   bytes: number;
+}
+
+/** Group traced files by where they sit: the own folder, other skill folders, code packages, the rest of the repo. */
+function regionsOf(repo: Repo, folders: string[], own: string, files: TracedFile[]): Region[] {
+  const map = new Map<string, Region>();
+  for (const f of files) {
+    const folder = folders.filter((d) => d === "." || f.path.startsWith(d + "/")).sort((a, b) => b.length - a.length)[0];
+    let kind: Region["kind"];
+    let path: string;
+    if (folder !== undefined) {
+      kind = folder === own ? "own" : "skill";
+      path = folder;
+    } else {
+      const pkg = codePackage(repo, f.path, false);
+      kind = pkg !== null ? "package" : "repo";
+      path = pkg ?? "";
+    }
+    const k = `${kind}\0${path}`;
+    const r = map.get(k) ?? { kind, path, files: 0, bytes: 0 };
+    r.files++;
+    r.bytes += f.size;
+    map.set(k, r);
+  }
+  const order = { own: 0, skill: 1, package: 2, repo: 3 };
+  return [...map.values()].sort((a, b) => order[a.kind] - order[b.kind] || a.path.localeCompare(b.path));
 }
 
 /** Directories whose root holds a SKILL.md: every skill folder in the tree. */
@@ -441,6 +478,8 @@ export function trace(input: CandidateInput, store: JudgementStore): Trace {
     namedSkills: [],
     checkoutReach: [],
     licence: null,
+    signals: [],
+    regions: [],
     pending: [],
   };
   const root = posix.join(input.skillPath, "SKILL.md");
@@ -467,6 +506,7 @@ export function trace(input: CandidateInput, store: JudgementStore): Trace {
   const reached = new Map<string, Reach[]>();
   const outside: Outside[] = [];
   const texts = new Map<string, string>();
+  const signals: Signal[] = [];
   reached.set(root, [{ how: "root" }]);
   let frontier = [root];
   const parsed = new Set<string>();
@@ -481,7 +521,8 @@ export function trace(input: CandidateInput, store: JudgementStore): Trace {
       const text = bytes.toString("utf8");
       texts.set(from, text);
       const lines = text.split("\n");
-      outside.push(...extractOutside(from, text));
+      outside.push(...extractOutside(from, text, signals));
+      signals.push(...fileSignals(from, bytes, text));
       for (const ref of extractRefs(from, text)) {
         const hit = resolveRef(ctx, ref, from, contextOf(lines, ref.line));
         if (!hit) continue;
@@ -502,12 +543,19 @@ export function trace(input: CandidateInput, store: JudgementStore): Trace {
   }
   const paths = [...reached.keys()].sort();
   const sizes = blobSizes(repo, paths.map((p) => repo.tree.get(p)!.blob));
+  // Files never parsed as text (binaries, fonts, images): only whether they are executable code.
+  const unread = paths.filter((p) => !texts.has(p));
+  if (unread.length) {
+    const bin = readBlobs(repo, unread.map((p) => repo.tree.get(p)!.blob));
+    for (const p of unread) signals.push(...fileSignals(p, bin.get(repo.tree.get(p)!.blob)!, null));
+  }
   const files: TracedFile[] = paths.map((path) => {
     const e = repo.tree.get(path)!;
-    const reach = reached.get(path)!.sort(
+    const via = reached.get(path)![0];
+    const reach = reached.get(path)!.slice().sort(
       (a, b) => (a.from ?? "").localeCompare(b.from ?? "") || (a.line ?? 0) - (b.line ?? 0) || (a.ref ?? "").localeCompare(b.ref ?? ""),
     );
-    return { path, size: sizes.get(e.blob)!, blob: e.blob, reached: reach };
+    return { path, size: sizes.get(e.blob)!, blob: e.blob, reached: reach, via };
   });
   const pending = [...ctx.pending].sort();
   return {
@@ -519,6 +567,8 @@ export function trace(input: CandidateInput, store: JudgementStore): Trace {
     namedSkills: namedSkills(repo, folders, input.skillPath, texts),
     checkoutReach: [...ctx.checkout.values()].sort((a, b) => a.from.localeCompare(b.from) || a.line - b.line || a.target.localeCompare(b.target)),
     licence: governingLicence(repo, input.skillPath, texts.get(root) ?? ""),
+    signals: mergeSignals(signals),
+    regions: regionsOf(repo, folders, input.skillPath, files),
     pending,
   };
 }

@@ -1,0 +1,49 @@
+{
+"format":"pi-sliced.trace/2",
+"tracer":"trace-3",
+"judge":"judge-4",
+"candidate":"shadcn-ui/ui/shadcn",
+"source":"shadcn-ui/ui",
+"revision":"e55b60b1014cccfb9ac62f97e0d20b5b649f4a54",
+"skillPath":"skills/shadcn",
+"status":"resolved",
+"totals":{"files":16,"bytes":139387},
+"files":[
+{"path":"skills/shadcn/SKILL.md","size":21606,"blob":"54da13fb6fdca971ec9ee4651cf5ff2cdab2236d","how":"root"},
+{"path":"skills/shadcn/assets/showcase/color-pair.tsx","size":3448,"blob":"f80177d1e50bf8df22b79914c331e61280d459a4","how":"directory","from":7,"line":340,"judged":"prose-directory"},
+{"path":"skills/shadcn/assets/showcase/preview-states.css","size":425,"blob":"d90febdbf9fe096ca3f9ef3395c2dbf28f2971f6","how":"directory","from":7,"line":340,"judged":"prose-directory"},
+{"path":"skills/shadcn/assets/showcase/state-matrix.tsx","size":1682,"blob":"69afba4f7e4f14a979793695a82c86a794ed3a6d","how":"directory","from":7,"line":340,"judged":"prose-directory"},
+{"path":"skills/shadcn/cli.md","size":17304,"blob":"8a1d1958710902e2d38a3dd03d00aa09ab165dfe","how":"link","from":0,"line":166},
+{"path":"skills/shadcn/customization.md","size":6279,"blob":"d43506d40520e8271da0b8ac9f994e190dbb9998","how":"link","from":0,"line":294},
+{"path":"skills/shadcn/design-system-page.md","size":15790,"blob":"cfa2f4186fe36c295a5878354f1ca2dd2cf66bf7","how":"link","from":0,"line":205},
+{"path":"skills/shadcn/design-system.md","size":21621,"blob":"018f87bd78fad10ff309f9bc9bd88e0b10172b60","how":"link","from":0,"line":199},
+{"path":"skills/shadcn/registry.md","size":8817,"blob":"5369468bbe43126379161a403a53717ee86e2d9b","how":"link","from":0,"line":293},
+{"path":"skills/shadcn/rules/base-vs-radix.md","size":6954,"blob":"c1ed7d111a0195cab801d2b3d38dee3aee0b8e10","how":"link","from":0,"line":55},
+{"path":"skills/shadcn/rules/chat.md","size":17626,"blob":"b493fbd348190123a5fe0f4c66b115836ae9a0bc","how":"link","from":0,"line":80},
+{"path":"skills/shadcn/rules/composition.md","size":4892,"blob":"a8aa4274c1aaabf673fe7bdb69d90983ad56059d","how":"link","from":0,"line":52},
+{"path":"skills/shadcn/rules/forms.md","size":4857,"blob":"f451e2f7bc17d9c5738691931964744a568ea5d6","how":"link","from":0,"line":43},
+{"path":"skills/shadcn/rules/icons.md","size":1958,"blob":"bba8102f01ef9fd9bd7ce2adc73e562869d5d09e","how":"link","from":0,"line":74},
+{"path":"skills/shadcn/rules/styling.md","size":4675,"blob":"4e6e063e1c7bc386e49f55da800546571b9e070b","how":"link","from":0,"line":33},
+{"path":"skills/shadcn/scripts/showcase-coverage.mjs","size":1453,"blob":"d8a4eab93cb2da6dbe24290483cf570c7d04bf6e","how":"path","from":0,"line":205}
+],
+"outside":[
+{"kind":"cli","name":"shadcn","at":[[0,12],[0,20],[0,24],[0,55],[0,89],[0,90],[0,164],[0,170],[0,173],[0,176],[0,180],[0,182],[0,183],[0,184],[0,185],[0,189],[0,190],[0,191],[0,192],[0,193],[0,194],[0,212],[0,213],[0,224],[0,225],[0,228],[0,229],[0,230],[0,233],[0,234],[0,237],[0,238],[0,241],[0,242],[0,243],[0,244],[0,247],[0,248],[0,249],[0,250],[0,251],[0,254],[0,255],[0,256],[0,257],[0,260],[0,261],[0,262],[0,263],[0,266],[0,267],[0,268],[0,269],[0,270],[0,273],[0,276],[0,277],[4,5],[4,23],[4,43],[4,48],[4,65],[4,68],[4,92],[4,95],[4,98],[4,101],[4,104],[4,107],[4,110],[4,113],[4,124],[4,133],[4,136],[4,153],[4,157],[4,158],[4,163],[4,168],[4,186],[4,191],[4,236],[4,241],[4,279],[4,280],[4,286],[4,287],[4,288],[5,68],[5,71],[5,74],[5,77],[5,80],[5,89],[5,111],[5,201],[5,207],[5,208],[7,40],[7,46],[7,53],[7,78],[8,13],[8,244],[8,245],[8,251],[8,252],[8,253],[8,254],[8,255],[8,261],[8,262],[8,263],[8,264],[8,265],[9,3],[10,6]]},
+{"kind":"cli","name":"tsc","at":[[7,92],[7,93]]},
+{"kind":"package","name":"@fontsource-variable/cormorant-garamond","at":[[7,214]]},
+{"kind":"package","name":"@fontsource-variable/inter","at":[[7,214]]},
+{"kind":"package","name":"@fontsource-variable/jetbrains-mono","at":[[7,214]]},
+{"kind":"package","name":"date-fns","at":[[0,163]]}
+],
+"regions":[
+{"kind":"own","path":"skills/shadcn","files":16,"bytes":139387}
+],
+"signals":[
+{"kind":"fetch-run","detail":"bunx shadcn@latest","at":[[0,12],[4,5]]},
+{"kind":"fetch-run","detail":"npx shadcn@latest","at":[[0,12],[0,20],[0,24],[0,55],[0,89],[0,90],[0,164],[0,170],[0,173],[0,176],[0,180],[0,182],[0,183],[0,184],[0,185],[0,189],[0,190],[0,191],[0,192],[0,193],[0,194],[0,212],[0,213],[0,224],[0,225],[0,228],[0,229],[0,230],[0,233],[0,234],[0,237],[0,238],[0,241],[0,242],[0,243],[0,244],[0,247],[0,248],[0,249],[0,250],[0,251],[0,254],[0,255],[0,256],[0,257],[0,260],[0,261],[0,262],[0,263],[0,266],[0,267],[0,268],[0,269],[0,270],[0,273],[0,276],[0,277],[4,5],[4,23],[4,43],[4,48],[4,65],[4,68],[4,92],[4,95],[4,98],[4,101],[4,104],[4,107],[4,110],[4,113],[4,124],[4,133],[4,136],[4,153],[4,157],[4,158],[4,163],[4,168],[4,186],[4,191],[4,236],[4,241],[4,279],[4,280],[4,286],[4,287],[4,288],[5,68],[5,71],[5,74],[5,77],[5,80],[5,89],[5,111],[5,201],[5,207],[5,208],[7,40],[7,46],[7,53],[7,78],[8,13],[8,244],[8,245],[8,251],[8,252],[8,253],[8,254],[8,255],[8,261],[8,262],[8,263],[8,264],[8,265],[9,3],[10,6]]},
+{"kind":"fetch-run","detail":"npx tsc","at":[[7,92],[7,93]]},
+{"kind":"fetch-run","detail":"pnpm dlx shadcn@latest","at":[[0,12],[4,5]]}
+],
+"namedSkills":[],
+"checkoutReach":[],
+"licence":{"path":"LICENSE.md","spdx":"MIT","frontmatter":null}
+}

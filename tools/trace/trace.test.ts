@@ -132,13 +132,13 @@ test("judgement store: append-only, versioned, conflicts rejected", () => {
 test("trace store: never overwrites", () => {
   const root = mkdtempSync(join(tmpdir(), "traces-"));
   const t = {
-    format: "pi-sliced.trace/1", tracer: "trace-x", judge: "judge-x", candidate: "o/r/s", source: "o/r",
+    format: "pi-sliced.trace/2", tracer: "trace-x", judge: "judge-x", candidate: "o/r/s", source: "o/r",
     revision: "b".repeat(40), skillPath: "s", status: "resolved" as const, files: [], outside: [],
-    totals: { files: 0, bytes: 0 }, namedSkills: [], checkoutReach: [], licence: null, pending: [],
+    totals: { files: 0, bytes: 0 }, namedSkills: [], checkoutReach: [], licence: null, signals: [], regions: [], pending: [],
   };
   assert.equal(writeTrace(root, t), "written");
   assert.equal(writeTrace(root, t), "unchanged");
   assert.throws(() => writeTrace(root, { ...t, totals: { files: 1, bytes: 1 } }), /never overwritten/);
-  assert.match(readFileSync(join(root, "traces/o/r/s", "b".repeat(40), "trace-x+judge-x.json"), "utf8"), /"tracer": "trace-x"/);
+  assert.match(readFileSync(join(root, "traces/o/r/s", "b".repeat(40), "trace-x+judge-x.json"), "utf8"), /"tracer":"trace-x"/);
   assert.throws(() => writeTrace(root, { ...t, candidate: "o/r/p", status: "pending" as const, pending: ["q"] }), /pending/);
 });

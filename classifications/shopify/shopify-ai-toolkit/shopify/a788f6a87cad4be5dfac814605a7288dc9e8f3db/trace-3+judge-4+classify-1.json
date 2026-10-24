@@ -57,7 +57,8 @@
     "shopify.dev"
    ]
   },
-  "summary": "128 files, 7.2 MiB · CLI @shopify/hydrogen, gemini +2 · packages @shopify/cli +4 · 1 key · 4 hosts"
+  "summary": "128 files, 7.2 MiB · CLI @shopify/hydrogen, gemini +2 · packages @shopify/cli +4 · 1 key · 4 hosts",
+  "short": "7.2 MiB · 4 CLI · 5 pkg · 1 key · 4 hosts"
  },
  "heavy": {
   "heavy": true,

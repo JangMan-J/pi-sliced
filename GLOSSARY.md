@@ -153,4 +153,39 @@ _Confirmed_: 2026-10-23, Jang (via executive), at init.
 
 ## Language
 
+**Marker**:
+A fixed label a Classification gives a skill from its Trace, which the Picker shows as a glyph.
+_Example_: `shadcn-ui/ui/shadcn` carries `runs-commands`, `installs-packages`, and `unpinned-code`.
+_Not_: a Determination; a verdict on whether the skill is safe.
+_Confirmed_: 2026-10-24, Jang (via executive).
+
+**Signal**:
+A fact in a Trace about what a pulled-in file's text does.
+_Example_: `fetch-run` "npx shadcn@latest" at `skills/shadcn/cli.md`.
+_Not_: a Marker, which a Classification derives from signals and Outside requirements.
+_Confirmed_: 2026-10-24, Jang (via executive).
+
+**Occasion**:
+A problem a user meets now and then, from `catalogue/occasions.tsv`. A Determination places a Catalogue skill under its occasions.
+_Example_: `doc.pdf.extract`, "Extract text and tables from a PDF, including scanned pages (OCR)", weight 4.
+_Not_: a technology category.
+_Confirmed_: 2026-10-24, Jang (via executive).
+
+**Companion**:
+A skill that another skill names or pulls in.
+_Example_: `code-review` is a companion of `mattpocock/skills/tdd`, which names it.
+_Confirmed_: 2026-10-24, Jang (via executive).
+
+**Platform skill**:
+A skill whose value is tied to one API, framework, vendor, format, or tool. One platform skill leads each occasion it fits; others for the same occasion are superseded there.
+_Example_: `shopify/shopify-ai-toolkit/shopify`.
+_Not_: a style skill.
+_Confirmed_: 2026-10-24, Jang (via executive).
+
+**Style skill**:
+A skill whose value is a method or working style not tied to one API, whoever publishes it. Several stand side by side under an occasion, and none supersedes another.
+_Example_: `mattpocock/skills/tdd`, `anthropics/skills/doc-coauthoring`.
+_Not_: a portfolio grouping; style skills sit in their domains like any listing.
+_Confirmed_: 2026-10-24, Jang (via executive).
+
 ## Unresolved

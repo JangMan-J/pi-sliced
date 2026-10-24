@@ -47,7 +47,8 @@
    "credential": [],
    "network": []
   },
-  "summary": "16 files, 136 KiB · CLI shadcn, tsc · packages @fontsource-variable/cormorant-garamond +3"
+  "summary": "16 files, 136 KiB · CLI shadcn, tsc · packages @fontsource-variable/cormorant-garamond +3",
+  "short": "136 KiB · 2 CLI · 4 pkg"
  },
  "heavy": {
   "heavy": true,

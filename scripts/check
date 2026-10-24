@@ -3,4 +3,6 @@
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 scripts/check-frozen
-node --test tools/trace/
+node --test tools/trace/ tools/classify/
+scripts/check-trace
+unshare -rn scripts/rederive

@@ -88,7 +88,8 @@ export interface Footprint {
   repoFiles: { files: number; bytes: number };
   assets: { fonts: number; images: number; media: number; other: number; bytes: number };
   outside: Record<"cli" | "package" | "mcp-server" | "credential" | "network", string[]>;
-  summary: string; // one line for a listing row
+  summary: string; // the full one-line Footprint, for Inspect's compact Footprint block
+  short: string; // counts only, for a listing row: `2.9 MiB · +44 skills · 28 CLI · 86 pkg · 38 keys · 12 hosts · MCP 1`
 }
 
 function footprint(t: StoredTrace): Footprint {
@@ -106,7 +107,7 @@ function footprint(t: StoredTrace): Footprint {
   const outside = { cli: [] as string[], package: [] as string[], "mcp-server": [] as string[], credential: [] as string[], network: [] as string[] };
   for (const o of t.outside) (outside as Record<string, string[]>)[o.kind]?.push(o.name);
   for (const k of Object.keys(outside)) (outside as Record<string, string[]>)[k].sort();
-  const fp: Omit<Footprint, "summary"> = {
+  const fp: Omit<Footprint, "summary" | "short"> = {
     files: t.totals.files,
     bytes: t.totals.bytes,
     own: sum(t.regions.filter((r) => r.kind === "own")),
@@ -116,11 +117,27 @@ function footprint(t: StoredTrace): Footprint {
     assets,
     outside,
   };
-  return { ...fp, summary: summaryLine(fp) };
+  return { ...fp, summary: summaryLine(fp), short: shortLine(fp) };
+}
+
+/** The listing-row Footprint: counts only; the markers carry the meaning. */
+function shortLine(f: Omit<Footprint, "summary" | "short">): string {
+  const o = f.outside;
+  return [
+    size(f.bytes),
+    f.otherSkills.count ? `+${f.otherSkills.count} ${f.otherSkills.count === 1 ? "skill" : "skills"}` : null,
+    o.cli.length ? `${o.cli.length} CLI` : null,
+    o.package.length ? `${o.package.length} pkg` : null,
+    o.credential.length ? `${o.credential.length} ${o.credential.length === 1 ? "key" : "keys"}` : null,
+    o.network.length ? `${o.network.length} ${o.network.length === 1 ? "host" : "hosts"}` : null,
+    o["mcp-server"].length ? `MCP ${o["mcp-server"].length}` : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
 }
 
 /** The listing-row Footprint: size, what it pulls in, Outside requirements. */
-function summaryLine(f: Omit<Footprint, "summary">): string {
+function summaryLine(f: Omit<Footprint, "summary" | "short">): string {
   const parts = [`${f.files} ${f.files === 1 ? "file" : "files"}, ${size(f.bytes)}`];
   if (f.otherSkills.count) parts.push(`+${f.otherSkills.count} other ${f.otherSkills.count === 1 ? "skill" : "skills"}`);
   for (const p of f.packages) parts.push(`+package ${p.path || "(repo root)"}`);

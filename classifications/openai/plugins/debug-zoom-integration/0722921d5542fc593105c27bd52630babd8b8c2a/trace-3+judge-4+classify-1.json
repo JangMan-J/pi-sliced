@@ -207,7 +207,8 @@
     "zoom.us"
    ]
   },
-  "summary": "646 files, 2.9 MiB · +44 other skills · CLI MSBuild.exe, adb +26 · packages @openapitools/openapi-generator-cli +85 · 38 keys · 12 hosts"
+  "summary": "646 files, 2.9 MiB · +44 other skills · CLI MSBuild.exe, adb +26 · packages @openapitools/openapi-generator-cli +85 · 38 keys · 12 hosts",
+  "short": "2.9 MiB · +44 skills · 28 CLI · 86 pkg · 38 keys · 12 hosts"
  },
  "heavy": {
   "heavy": true,

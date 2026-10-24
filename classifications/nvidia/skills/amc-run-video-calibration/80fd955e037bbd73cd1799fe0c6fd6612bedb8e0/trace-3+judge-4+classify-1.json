@@ -57,7 +57,8 @@
     "huggingface.co"
    ]
   },
-  "summary": "7 files, 122 KiB · +3 other skills · CLI docker, hf +3 · packages huggingface_hub +4 · 2 keys · 2 hosts"
+  "summary": "7 files, 122 KiB · +3 other skills · CLI docker, hf +3 · packages huggingface_hub +4 · 2 keys · 2 hosts",
+  "short": "122 KiB · +3 skills · 5 CLI · 5 pkg · 2 keys · 2 hosts"
  },
  "heavy": {
   "heavy": true,

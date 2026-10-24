@@ -18,6 +18,7 @@ test("classification: deterministic, Heavy as the glossary defines it", () => {
   const c = classify(canvas, CANVAS);
   assert.equal(c.heavy!.heavy, true); // 5.3 MiB of files
   assert.match(c.footprint!.summary, /^83 files, 5\.3 MiB · 54 fonts$/);
+  assert.equal(c.footprint!.short, "5.3 MiB");
   const tdd = classify(readFileSync(join(ROOT, TDD), "utf8"), TDD);
   assert.equal(tdd.heavy!.heavy, false);
   assert.deepEqual(tdd.markers, []);

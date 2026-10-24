@@ -1,0 +1,22 @@
+# Rulings c1 (Jang via executive, 2026-10-24), answering `decisions-c1.md`
+
+- **C1.** All 13 markers, including `sends-credentials` and `agent-override-text`. `unpinned-code` stays as defined: fetching the latest code at run time is exactly what the user should see, even when common; the legend explains it. Glyph grouping and drawing are runtime's.
+- **C2.** Yes. The lone-SKILL.md-wrapping-a-CLI/MCP test comes from Trace facts only (one file plus an Outside cli or mcp-server entry).
+- **C3.** Yes. `secret-egress` is a review prompt, not a verdict.
+- **C4.** Yes (reverse edges in `classifications/companions.json`).
+- **C5.** `summary` stays the full line, for Inspect's compact Footprint block. Add `short` for listing rows, counts only (`2.9 MiB · +44 skills · 28 CLI · 86 pkg · 38 keys · 12 hosts · MCP 1`). A row carries markers plus `short`, never a wall of names. Jang: nobody in 2026 cares much about sizes; markers carry the meaning.
+- **C6.** Marker, Signal, Occasion, Companion confirmed as proposed, plus Platform skill and Style skill (wording given), all `_Confirmed_: 2026-10-24, Jang (via executive)`.
+- **C7.** Yes.
+- **N1.** Record unresolvable; do not search history.
+- **N2.** Yes.
+- **N3.** sonnet-5-5 (anthropic) in batches of ~100 for `outside-skill-folders` and `prose-directory`; haiku (anthropic) for the `skill-folder-only` collision check. Calibrate each model on the nine proof-1 Candidates' questions against the stored judge-4 answers; proceed only at ≥ 97% agreement per class, and report the rates. Version the judge per model so judgements stay attributable.
+- **N4.**
+  - **Determinations:** sonnet-5-5 per Candidate, reading the SKILL.md body and the key pulled-in files by blob, as well as the Trace and the Classification.
+  - **Purpose vs action:** opus-5-5, for flagged Candidates only.
+  - **Platform lead:** opus-5-5, one run per occasion, comparing every Candidate for that occasion by Classification, summary and proficiency notes. The comparison's reasoning is recorded, and the roles are written into each Candidate's Determination as records.
+  - **Skills fitting none of the 156 occasions:** in the interim, admitted under the nearest domain with no occasion, and they never lead. They are then clustered, new occasions are proposed to Jang in batches (weights by the same public non-popularity method), and the skills are re-placed once Jang confirms.
+  - **Schema:** as proposed, except that `fragment` means "admit, offered with `set`"; `rejectFor: fragment` applies only when the set cannot be offered (its companions are unresolvable).
+  - **Models:** every model is subscription-backed only, and no reason may cite popularity.
+- **N5.** Archive values, dated, used only for scrutiny depth. A Candidate with no value gets standard depth. Never refresh popularity for anything else.
+- **N6.** Acceptable.
+- **N7.** Passed to runtime by the executive.

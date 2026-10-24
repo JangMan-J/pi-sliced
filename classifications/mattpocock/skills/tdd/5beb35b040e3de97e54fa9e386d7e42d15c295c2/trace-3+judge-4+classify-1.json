@@ -39,7 +39,8 @@
    "credential": [],
    "network": []
   },
-  "summary": "3 files, 7.2 KiB"
+  "summary": "3 files, 7.2 KiB",
+  "short": "7.2 KiB"
  },
  "heavy": {
   "heavy": false,

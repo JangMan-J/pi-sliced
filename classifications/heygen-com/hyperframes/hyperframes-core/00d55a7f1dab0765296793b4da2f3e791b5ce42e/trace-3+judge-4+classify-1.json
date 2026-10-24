@@ -130,7 +130,8 @@
     "us.i.posthog.com"
    ]
   },
-  "summary": "405 files, 5.2 MiB · +12 other skills · +package (repo root) · +package packages/cli · +package packages/shader-transitions · 6 fonts, 19 media · CLI auto-editor, chrome-headless-shell +16 · packages @hyperframes/core +24 · 10 keys · 18 hosts"
+  "summary": "405 files, 5.2 MiB · +12 other skills · +package (repo root) · +package packages/cli · +package packages/shader-transitions · 6 fonts, 19 media · CLI auto-editor, chrome-headless-shell +16 · packages @hyperframes/core +24 · 10 keys · 18 hosts",
+  "short": "5.2 MiB · +12 skills · 18 CLI · 25 pkg · 10 keys · 18 hosts"
  },
  "heavy": {
   "heavy": true,

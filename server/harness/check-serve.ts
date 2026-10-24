@@ -55,8 +55,11 @@ try {
     const listing = listed.get(id)!;
     v.ok(e.revision === listing.revision, `${id} served at ${e.revision}, listed at ${listing.revision}`);
     let trace;
+    let traceName = "";
     try {
-      trace = traceFor(id, e.revision).trace;
+      const t = traceFor(id, e.revision);
+      trace = t.trace;
+      traceName = t.file.split("/").pop()!;
     } catch (x) {
       v.fail((x as Error).message);
       continue;
@@ -86,7 +89,7 @@ try {
       const body = load.text.slice(load.text.indexOf("\n\n") + 2);
       v.ok(blobSha(Buffer.from(body, "utf8")) === md.blob, `${id}: served_skill text is not its traced SKILL.md`);
     }
-    v.note(`${id}@${e.revision.slice(0, 12)}: ${got.size}/${want.size} files match the Trace by path and blob SHA`);
+    v.note(`${id}@${e.revision.slice(0, 12)}: ${got.size}/${want.size} files match the Trace (${traceName}) by path and blob SHA`);
   }
   // Nothing else readable in the session dir.
   for (const f of files) if (!claimed.has(f.path)) v.fail(`session dir holds an unclaimed entry: ${f.path}`);

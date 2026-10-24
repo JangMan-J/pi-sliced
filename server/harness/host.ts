@@ -51,13 +51,18 @@ export interface Trace {
   status: string;
   files: TraceFile[];
 }
-/** The stored Trace of `id` at `revision` (the latest tracer+judge when several exist). */
+/** The current stored Trace of `id` at `revision`: highest tracer, then highest judge (`trace-<t>+judge-<j>.json`). */
 export function traceFor(id: string, revision: string): { file: string; trace: Trace } {
   const dir = join(repo, "traces", id, revision);
   if (!existsSync(dir)) throw new Error(`no Trace of ${id} at ${revision} (${dir})`);
   const names = readdirSync(dir)
     .filter((n) => n.endsWith(".json"))
-    .sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
+    .sort((a, b) => {
+      const rank = (n: string) => (/^trace-(\d+)\+judge-(\d+)\.json$/.exec(n) ?? [0, -1, -1]).slice(1).map(Number);
+      const [ta, ja] = rank(a);
+      const [tb, jb] = rank(b);
+      return ta - tb || ja - jb || (a < b ? -1 : a > b ? 1 : 0);
+    });
   if (!names.length) throw new Error(`no Trace of ${id} at ${revision}`);
   const file = join(dir, names[names.length - 1]);
   return { file, trace: JSON.parse(readFileSync(file, "utf8")) };

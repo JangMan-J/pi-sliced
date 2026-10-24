@@ -183,7 +183,16 @@ export function createSlice(deps: SliceDeps): Slice {
           throw new Error(`${id} was unserved before it was ready`);
         }
         served.set(id, entry);
-        deps.onChange?.();
+        try {
+          deps.onChange?.();
+        } catch (error) {
+          served.delete(id);
+          rmSync(entry.root, { recursive: true, force: true });
+          // Republish the restored Slice (including the MCP child's atomic state).
+          try { deps.onChange?.(); }
+          catch (rollbackError) { throw new AggregateError([error, rollbackError], "Serve failed and Slice refresh failed"); }
+          throw error;
+        }
         return publicView(entry);
       })
       .finally(() => {

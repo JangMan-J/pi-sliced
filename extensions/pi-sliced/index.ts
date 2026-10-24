@@ -1,6 +1,7 @@
 // pi-sliced: serve skills the user picks, for this session only.
 
-import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
+import { CONFIG_DIR_NAME, getAgentDir, type ExtensionAPI } from "@earendil-works/pi-coding-agent";
+import { join } from "node:path";
 import { Type } from "typebox";
 import { type AuthorClient, createAuthorClient, DEFAULT_CATALOGUE, DEFAULT_SERVER, readPinnedCert } from "./author-client.ts";
 import { registerCheckDriver } from "./check-driver.ts";
@@ -78,6 +79,10 @@ export default function piSliced(pi: ExtensionAPI): void {
     process.kill(process.pid, "SIGINT");
   };
   pi.on("session_start", (_event, ctx) => {
+    if (channel === "mcp") mcp.reserveConfig([
+      join(getAgentDir(), "mcp.json"),
+      ...(ctx.isProjectTrusted() ? [join(ctx.cwd, CONFIG_DIR_NAME, "mcp.json")] : []),
+    ]);
     live = true;
     sweepDeadSessions();
     process.on("exit", onExit);

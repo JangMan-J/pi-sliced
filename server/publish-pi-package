@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+# Builds the orphan branch `pi-package` from main's HEAD: only package.json and extensions/pi-sliced/
+# (tests excluded), so `pi install git:github.com/JangMan-J/pi-sliced@pi-package` puts no Trace,
+# Classification, or Candidate id in the user's HOME. Appends one commit per change; never rewrites.
+# Usage: server/publish-pi-package [--push]
+set -euo pipefail
+cd "$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
+
+branch=pi-package
+src=$(git rev-parse HEAD)
+index=$(mktemp)
+trap 'rm -f "$index"' EXIT
+export GIT_INDEX_FILE=$index
+
+git read-tree --empty
+git ls-tree -r "$src" -- package.json extensions/pi-sliced \
+  | grep -v $'\textensions/pi-sliced/test/' \
+  | git update-index --index-info
+tree=$(git write-tree)
+
+# The package must carry no Candidate ids or skill text.
+if git ls-tree -r --name-only "$tree" | grep -qv -E '^(package\.json|extensions/pi-sliced/[^/]+)$'; then
+  echo "FAIL publish: unexpected paths in the package tree" >&2
+  git ls-tree -r --name-only "$tree" >&2
+  exit 1
+fi
+
+parent=$(git rev-parse -q --verify "refs/heads/$branch" || true)
+if [[ -n $parent && $(git rev-parse "$parent^{tree}") == "$tree" ]]; then
+  echo "pi-package: unchanged at $(git rev-parse --short "$parent") (main $(git rev-parse --short "$src"))"
+else
+  commit=$(git commit-tree "$tree" ${parent:+-p "$parent"} -m "pi-package: package.json and extensions/pi-sliced from main $src")
+  git update-ref "refs/heads/$branch" "$commit" ${parent:+"$parent"}
+  echo "pi-package: $(git rev-parse --short "$commit") from main $(git rev-parse --short "$src")"
+fi
+
+unset GIT_INDEX_FILE
+git ls-tree -r --name-only "refs/heads/$branch"
+if [[ ${1:-} == --push ]]; then
+  timeout 120 git push origin "refs/heads/$branch:refs/heads/$branch"
+fi

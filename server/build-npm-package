@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+# Builds the npm package `pi-sliced` from main's HEAD: package.json plus extensions/pi-sliced/
+# (code and the pinned Author's server cert; tests excluded). No Trace, Classification, Candidate
+# or catalogue data goes in. The repo root stays `private`; only this staged manifest is publishable.
+#
+# Usage:
+#   server/build-npm-package                 verify with `npm pack --dry-run`, print the file list
+#   server/build-npm-package --pack DIR      also write the tarball to DIR, print its path last
+#   server/build-npm-package --publish [ARGS] also `npm publish` (ARGS go to npm, e.g. --registry URL)
+set -euo pipefail
+repo=$(git -C "$(dirname "$0")" rev-parse --show-toplevel)
+cd "$repo"
+
+mode=${1:-verify}
+src=$(git rev-parse HEAD)
+stage=$(mktemp -d)
+trap 'rm -rf "$stage"' EXIT
+
+git archive "$src" package.json extensions/pi-sliced | tar -x -C "$stage"
+rm -rf "$stage/extensions/pi-sliced/test"
+
+node - "$stage/package.json" "$src" <<'EOF'
+const fs = require("node:fs");
+const [file, src] = process.argv.slice(2);
+const root = JSON.parse(fs.readFileSync(file, "utf8"));
+const pkg = {
+  name: root.name,
+  version: root.version,
+  description: "Pick skills from a traced Catalogue and serve them to the Pi agent for one session.",
+  type: root.type,
+  keywords: root.keywords,
+  repository: { type: "git", url: "git+https://github.com/JangMan-J/pi-sliced.git" },
+  homepage: "https://github.com/JangMan-J/pi-sliced",
+  files: ["extensions/pi-sliced/"],
+  pi: root.pi,
+  peerDependencies: root.peerDependencies,
+  gitHead: src,
+};
+fs.writeFileSync(file, JSON.stringify(pkg, null, 2) + "\n");
+EOF
+
+cd "$stage"
+files=$(npm pack --dry-run --json 2>/dev/null | node -e 'const j=JSON.parse(require("fs").readFileSync(0,"utf8"));for(const f of j[0].files)console.log(f.path)')
+bad=$(grep -v -E '^(package\.json|extensions/pi-sliced/[A-Za-z0-9._-]+\.(ts|pem))$' <<<"$files" || true)
+if [[ -n $bad ]]; then
+  echo "FAIL npm package: paths outside the allowlist:" >&2
+  echo "$bad" >&2
+  exit 1
+fi
+grep -qx 'extensions/pi-sliced/author-server.pem' <<<"$files" || { echo "FAIL npm package: pinned cert missing" >&2; exit 1; }
+grep -qx 'extensions/pi-sliced/index.ts' <<<"$files" || { echo "FAIL npm package: entry missing" >&2; exit 1; }
+echo "PASS npm package pi-sliced@$(node -p 'require("./package.json").version') from main $(git -C "$repo" rev-parse --short "$src"): $(wc -l <<<"$files") files, allowlist only"
+echo "$files"
+
+case $mode in
+  verify) ;;
+  --pack)
+    out=$(realpath "${2:?--pack needs a directory}")
+    mkdir -p "$out"
+    tgz=$(npm pack --pack-destination "$out" --silent)
+    echo "$out/$tgz"
+    ;;
+  --publish)
+    shift
+    npm publish "$@"
+    ;;
+  *) echo "usage: server/build-npm-package [--pack DIR | --publish [npm args]]" >&2; exit 2 ;;
+esac
